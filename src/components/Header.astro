@@ -2,57 +2,49 @@
 import logo from "../images/FwB2-site-header.svg";
 ---
 
-<nav>
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/friends">The Friends</a></li>
-  </ul>
-  <img class="header-image" src={logo} />
-  <ul>
-    <li><a href="/brews/1">The Brews</a></li>
-    <li><a href="/episodes/1">Episodes</a></li>
-  </ul>
-</nav>
+<div class="nav-container">
+  <nav>
+    <div><a href="/">Home</a></div>
+    <div><a href="/friends">The Friends</a></div>
+    <div><img class="header-image" src={logo} /></div>
+    <div><a href="/brews/1">The Brews</a></div>
+    <div><a href="/episodes/1">Episodes</a></div>
+  </nav>
+</div>
 
 <style>
-  nav {
-    display: flex;
-    margin: 0 auto 8em;
-    padding: 1rem 0;
-    justify-content: center;
-    flex-wrap: nowrap;
+  div.nav-container {
     width: 100%;
     background-color: var(--menu-surface);
     border-bottom: solid 5px var(--menu-border);
+    margin-bottom: 8em;
+  }
+  nav {
+    display: grid;
+    grid-template-columns: max-content max-content 200px max-content max-content;
+    column-gap: 2rem;
+    width: fit-content;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem 0;
+    justify-items: center;
+    align-items: center;
     font-family: "CaptainEdward";
+    position: relative;
   }
 
   .header-image {
     height: 10rem;
-    margin-top: -0.6rem;
     position: absolute;
+    left: calc(50% - 80px);
+    top: 0.25rem;
   }
 
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    column-gap: 1.5rem;
-  }
-
-  ul:nth-child(1) {
-    margin-right: 13rem;
-  }
-
-  ul:nth-child(3) {
-  }
-
-  nav ul li a {
+  nav a {
     text-decoration: none;
     color: var(--menu-text);
   }
-  nav ul li a:hover {
+  nav a:hover {
     text-decoration: none;
   }
 
@@ -60,19 +52,11 @@ import logo from "../images/FwB2-site-header.svg";
     nav {
       font-size: 0.9rem;
     }
-    ul {
-      flex-direction: column;
-    }
   }
   @media screen and (max-width: 376px) {
     nav {
       font-size: 0.8rem;
       width: 100%;
-    }
-    ul:nth-child(1) {
-      margin-right: 13rem;
-    }
-    ul:nth-child(3) {
     }
   }
   @media screen and (max-width: 342px) {
@@ -80,21 +64,11 @@ import logo from "../images/FwB2-site-header.svg";
       font-size: 0.75rem;
       width: 100%;
     }
-    ul:nth-child(1) {
-      margin-right: 12rem;
-    }
-    ul:nth-child(3) {
-    }
   }
   @media screen and (max-width: 321px) {
     nav {
       font-size: 0.75rem;
       width: 100%;
-    }
-    ul:nth-child(1) {
-      margin-right: 10.5rem;
-    }
-    ul:nth-child(3) {
     }
   }
 </style>
