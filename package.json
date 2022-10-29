@@ -1,7 +1,7 @@
 {
-  "name": "friendswithbeer2.0",
+  "name": "friendswithbrews",
   "version": "0.9.1",
-  "description": "Friends with Beer 2.0 web site",
+  "description": "Friends with Brews web site",
   "scripts": {
     "dev": "export NODE_ENV=development && astro dev",
     "dev:h": "export NODE_ENV=development && astro dev --host",
@@ -16,13 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Beeping-Machine/friendswithbeer2.0.git"
+    "url": "git+https://github.com/Beeping-Machine/friendswithbrews.git"
   },
   "keywords": [
     "astro",
     "podcast",
-    "friendswithbeer",
+    "friendswithbrews",
     "beer",
+    "coffee",
+    "tea",
     "friends",
     "peter",
     "scott"
