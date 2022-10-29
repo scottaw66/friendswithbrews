@@ -1,0 +1,104 @@
+---
+import logo from "../images/FwB2-site-header.svg";
+---
+
+<nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/friends">The Friends</a></li>
+  </ul>
+  <img class="header-image" src={logo} />
+  <ul>
+    <li><a href="/beer/1">The Beer</a></li>
+    <li><a href="/episodes/1">Episodes</a></li>
+  </ul>
+</nav>
+
+<style>
+  nav {
+    display: flex;
+    margin: 0 auto 8em;
+    padding: 1rem 0;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    background-color: var(--menu-surface);
+    border-bottom: solid 5px var(--menu-border);
+    font-family: "CaptainEdward";
+  }
+
+  .header-image {
+    height: 10rem;
+    margin-top: -0.6rem;
+    position: absolute;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    column-gap: 1.5rem;
+  }
+
+  ul:nth-child(1) {
+    margin-right: 13rem;
+  }
+
+  ul:nth-child(2) {
+    margin-left: 8rem;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: var(--menu-text);
+  }
+  nav ul li a:hover {
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 680px) {
+    nav {
+      font-size: 0.9rem;
+    }
+    ul {
+      flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 376px) {
+    nav {
+      font-size: 0.8rem;
+      width: 100%;
+    }
+    ul:nth-child(1) {
+      margin-right: 13rem;
+    }
+    ul:nth-child(2) {
+      margin-left: 6rem;
+    }
+  }
+  @media screen and (max-width: 342px) {
+    nav {
+      font-size: 0.75rem;
+      width: 100%;
+    }
+    ul:nth-child(1) {
+      margin-right: 12rem;
+    }
+    ul:nth-child(2) {
+      margin-left: 6rem;
+    }
+  }
+  @media screen and (max-width: 321px) {
+    nav {
+      font-size: 0.75rem;
+      width: 100%;
+    }
+    ul:nth-child(1) {
+      margin-right: 10.5rem;
+    }
+    ul:nth-child(2) {
+      margin-left: 6rem;
+    }
+  }
+</style>

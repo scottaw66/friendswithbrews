@@ -1,0 +1,23 @@
+---
+import Base from "../layouts/Base.astro";
+import Episode from "../components/Episode.astro";
+export async function getStaticPaths() {
+  const episodes = await Astro.glob("../content/*.mdx");
+
+  return episodes.map((episode) => ({
+    params: {
+      slug: String(episode.frontmatter.slug),
+    },
+    props: {
+      episode,
+    },
+  }));
+}
+const { episode } = Astro.props;
+---
+
+<Base title={episode.frontmatter.title.toUpperCase()}>
+  <Episode episode={episode} audio="true">
+    <episode.Content />
+  </Episode>
+</Base>

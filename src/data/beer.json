@@ -1,0 +1,646 @@
+[
+  {
+    "id": "OShp7ovkwb6F14mpRqFbw",
+    "name": "Hell or High Watermelon",
+    "brewery": "21st Amendment Brewery",
+    "image": "21stAmendmentBreweryHellOrHighWatermelon-EA669A2C-D404-422C-8495-AA268674CAA5",
+    "description": "Hell or High Watermelon Wheat is our summer seasonal beer available from April through September in six pack cans and on draft. We start by brewing a classic American wheat beer, then add fresh melons for a straw-colored, delicious beer with a kiss of watermelon aroma and flavor.",
+    "sortOrder": "0",
+    "episodes": ["3", "14"],
+    "url": "https://www.21st-amendment.com/beers/hell-or-high-watermelon",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "A  crisp, refreshing wheat beer infused with watermelon."
+      },
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "I wish it had more watermelon flavor, but it is a nice light wheat beer that's very pleasant."
+      }
+    ]
+  },
+  {
+    "id": "zhc6pIHi_fpSZd6vuy-Pu",
+    "name": "Green State Lager",
+    "brewery": "Zero Gravity Brewery",
+    "image": "ZeroGravityBreweryGreenStateLager-EA669A2C-D404-422C-8495-AA268674CAA5",
+    "description": "A crisp, easy drinking Pilsner beer. Noble hops in perfect balance with only the finest Pilsner malt provide a clean and satisfying brew that is as welcoming as the Green State itself.",
+    "sortOrder": "0",
+    "episodes": ["14"],
+    "url": "https://www.zerogravitybeer.com/green-state-lager/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "After you drink all of this beer, you can fly because you experience zero gravity."
+      }
+    ]
+  },
+  {
+    "id": "d3lBzSXJomasnLwNmjhOK",
+    "name": "Walk the Lime",
+    "brewery": "Tennessee Brew Works",
+    "image": "TennesseeBrewWorksWalkTheLime-6D02F83F-7746-4AC6-8402-C0D11921A02C",
+    "description": "Made with Tennessee wheat. This crisp, tropical and refreshing ale is bursting with fresh lime aromas and flavors of zested citrus and bitter peel, mixing perfectly with a clean wheat-driven finish.",
+    "sortOrder": "0",
+    "episodes": ["13"],
+    "url": "https://www.tnbrew.com/beer/walk-the-lime/",
+    "rating": [
+      {
+        "host": "Adam",
+        "vote": "thumbs-up",
+        "description": "A very fun summer ale. If you've ever had a Bud Light lime and wished it was good, this is it! A very tasty refreshing wheat ale."
+      }
+    ]
+  },
+  {
+    "id": "TGlphFcxT1cpO_CjapcqY",
+    "name": "Olallie Ale",
+    "brewery": "Ground Breaker Brewing",
+    "image": "GroundBreakerBrewingOlallieAle-6D02F83F-7746-4AC6-8402-C0D11921A02C",
+    "description": "You can if it’s your destiny, and this beer was destined to be canned. Brewed with blackberries, rosehips and Crystal hops, Olallie was designed from the ground up to be our first canned beer. This crisp, dry, well-balanced, refreshing ale is enjoyable any time of the year. Fun Fact: Olallie is Chinook Jargon for berry.",
+    "sortOrder": "0",
+    "episodes": ["13"],
+    "url": "https://www.groundbreakerbrewing.com/year-round-gluten-free-beers",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "A gluten-free blackberry and rosehip ale. A very fruity drink. I do like these. It's very good."
+      }
+    ]
+  },
+  {
+    "id": "Kgc1R9Sixzm1iL17dH6pB",
+    "name": "Thresh",
+    "brewery": "Trillium Brewing Company",
+    "image": "TrilliumBrewingThreshPaleLager-6D02F83F-7746-4AC6-8402-C0D11921A02C",
+    "description": "To allow for this special grain to shine, we brewed a Pale Lager with just a touch of modern flair, achieved with a very subtle dry-hop of Motueka. The gentle hop addition offers a fleeting highlight of key lime and zested citrus, with some floral undertones adding complexity.",
+    "sortOrder": "0",
+    "episodes": ["13"],
+    "url": "https://trilliumbrewing.com/products/thresh",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "Pretty good. Not super hoppy, not super bitter, and it is a lager."
+      }
+    ]
+  },
+  {
+    "id": "rFwhgrluCOEj0FoBnUk-c",
+    "name": "The Most Interesting Lager In The World",
+    "brewery": "Ex Novo Brewing Company",
+    "image": "ExNovo-The-Most-Interesting-Lager-in-the-World-6D02F83F-7746-4AC6-8402-C0D11921A02C",
+    "description": "Crisp and refreshing, brewed with Saaz hops, Vienna and Pilsner malts, and a hint of flaked corn.",
+    "sortOrder": "0",
+    "episodes": ["13"],
+    "url": "http://www.exnovobrew.com/most-interesting-lager-in-the-world",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "A very good Mexican lager that's great with anything."
+      }
+    ]
+  },
+  {
+    "id": "WdeRsvcb_WVXmOjH8nQgZ",
+    "name": "The Rose",
+    "brewery": "Black Abbey Brewing Company",
+    "image": "TheRose-6D02F83F-7746-4AC6-8402-C0D11921A02C",
+    "description": "Our best seller! A rich, golden color with the spicy aroma of clove and candy banana. The Belgian yeast shines bright on the palate, light and silky, with a clean, slightly drying bitter finish. Pairs well with afternoons on the lake; spring fare, white fish and fruit.",
+    "sortOrder": "0",
+    "episodes": ["13"],
+    "url": "https://blackabbeybrewing.com/our-beer/the-rose/",
+    "rating": [
+      {
+        "host": "Adam",
+        "vote": "thumbs-up",
+        "description": "Created, not made. My wife's go-to beer."
+      }
+    ]
+  },
+  {
+    "id": "RmzqdfyMWTaVxHU2-4amm",
+    "name": "Lights Out Stout",
+    "brewery": "Worthy Brewing",
+    "image": "WorthyBrewingLightsOutStout-FAD231E2-5B22-4451-9D27-2D491D92A22E-20220724084301",
+    "description": "Our ode to starry, starry nights. Hints of vanilla, coffee & nutty flavors with a creamy finish.",
+    "sortOrder": "0",
+    "episodes": ["12"],
+    "url": "https://worthy.beer/beer/lights-out-stout/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "A 7.7% alcohol. I like this. Notes of coffee, chocolate, and vanilla, and I'm like this sounds good, but it was the 30 IBUs that sold me."
+      },
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "A nice dark one that I enjoyed very much. Don't let the hops graphic on the can fool you, it's not too hoppy at all."
+      }
+    ]
+  },
+  {
+    "id": "A7dVOXq6edtLeVmxfLruF",
+    "name": "Oat Soda",
+    "brewery": "Baerlic Beer Company",
+    "image": "BaerlicBeerCompanyOatSoda-FAD231E2-5B22-4451-9D27-2D491D92A22E-20220629203314",
+    "description": "Bohemian-Style Pilsner brewed with malted and flaked oats and our favorite German pilsner malt along with Czech Saaz Hops. The oats add body and allow us to bring the abv down to supremely crushable levels while the Czech Saaz hops build in the right amount of bitterness and spice to keep it complex and oh so satisfying! Na zdravi!",
+    "sortOrder": "0",
+    "episodes": ["12"],
+    "url": "https://baerlic-brewing-company-llc.square.site/product/oat-soda-bohemian-pilsner-16oz-cans-barley-pod/821",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "This is ok. It's not the worst beer I've ever had. It's definitely a light beer. I might run 5k out of my way for this beer but not 50k."
+      },
+      {
+        "host": "Scott",
+        "vote": "thumbs-down",
+        "description": "Have you ever had a pilsner that was better than just ok? I think that Pilsners are a nice beer for a pizza, but not a beer you would just grab."
+      }
+    ]
+  },
+  {
+    "id": "5XYeiC1QM8BQt2_L9Tzln",
+    "name": "Run Wild IPA",
+    "brewery": "Athletic Brewing Company",
+    "image": "AthleticBrewingCompanyRunWild-FAD231E2-5B22-4451-9D27-2D491D92A22E",
+    "description": "Run Wild is the ultimate sessionable IPA for craft beer lovers. Brewed with a blend of five Northwest hops, it has an approachable bitterness to balance the specialty malt body. Always refreshing and only 65 calories.",
+    "sortOrder": "0",
+    "episodes": ["11"],
+    "url": "https://athleticbrewing.com/collections/beer/products/run-wild-ipa-non-alcoholic-6-pack",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-down",
+        "description": "Dear God. Why??? Tastes like desperate regret. This thing makes me want to spit it out, like poison."
+      }
+    ]
+  },
+  {
+    "id": "AZtd14cirj82lBGXQyIMN",
+    "name": "Puff Puff Passionfruit Sour",
+    "brewery": "Ex Novo Brewing",
+    "image": "ExNovoPuffPuffPassion-FAD231E2-5B22-4451-9D27-2D491D92A22E",
+    "description": "Tart, tropical fruit, & juicy hops. Brewed with Mosaic and Simcoe hops, and fermented with passion fruit.",
+    "sortOrder": "0",
+    "episodes": ["11"],
+    "url": "http://www.exnovobrew.com/puff-puff-passion",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "OMG is it ever sour, but VERY good."
+      }
+    ]
+  },
+  {
+    "id": "tu0K7sFKkrO0bK1-RqI3B",
+    "name": "Weizen-Radler",
+    "brewery": "Paulaner",
+    "image": "PaulanerWeizenRadler-FAD231E2-5B22-4451-9D27-2D491D92A22E",
+    "description": "This mix is in a class of its own – combining the great taste of Paulaner Hefe-Weizen with natural effervescent lemonade in a non-alcoholic alternative for refreshingly fruity yet malty taste. The citrus notes of lime, orange, and lemon match the wheat beer perfectly and provide a uniquely balanced taste experience.",
+    "sortOrder": "0",
+    "episodes": ["11"],
+    "url": "https://www.paulaner.com/us/our-products/weizen-radler-non-alcoholic/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "A German non-alcoholic beer. Tastes way more than twice as good as the Run Wild IPA. Tastes like drinking a soda or a lemonade."
+      }
+    ]
+  },
+  {
+    "id": "visSH5WGODJOHxKFGNE-c",
+    "name": "Big Wave Golden Ale",
+    "brewery": "Kona Brewing",
+    "image": "KonaBrewingBigWaveGoldenAle-FAD231E2-5B22-4451-9D27-2D491D92A22E-20220524162530",
+    "description": "Paddle into easy-drinking, island refreshment with Big Wave. So smooth, it’s like catching the crest of a breaking wave at Oahu’s Makaha Beach and gliding all the way into the sandy shore. Paradise is just a sip away, so bring your ohana along for the ride. One life, right?",
+    "sortOrder": "0",
+    "episodes": ["10"],
+    "url": "https://konabrewingco.com/our-beers",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "A light ale that tastes like summer and reinforces my friendly feelings towards Kona Brewing."
+      }
+    ]
+  },
+  {
+    "id": "vjprApujAZJs9vcVaLYgq",
+    "name": "Salvator",
+    "brewery": "Paulaner",
+    "image": "PaulanerSalvator-FAD231E2-5B22-4451-9D27-2D491D92A22E-20220524162118",
+    "description": "Paulaner’s brewing history begins with this beer. It was the Paulaner monks who invented this unfiltered bottom-fermented double bock. This beer has been brewed for over 375 years – always adhering to the original recipe, with only a few refinements over the years.",
+    "sortOrder": "0",
+    "episodes": ["10"],
+    "url": "https://www.paulaner.com/us/our-products/salvator/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "Made in Munich by Monks. I'm just trying to think when was the last time I had a beer from Munich that I did not like, and I can't think of any. This one is good!"
+      }
+    ]
+  },
+  {
+    "id": "Jzh5WaEde_vYON8sJ2QSP",
+    "name": "Catamount Porter",
+    "brewery": "Catamount Brewery",
+    "image": "CatamountPorter-FAD231E2-5B22-4451-9D27-2D491D92A22E-20220421095302",
+    "description": "Our modern revival of the Vermont classic, Catamount Porter boasts a robust smooth character and a roasty-sweet aroma with notes of dark coffee.",
+    "sortOrder": "0",
+    "episodes": ["9"],
+    "url": "https://catamountbrewery.com/beer/catamount-porter/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "A nice porter continued under the Catamount label after Catamount Brewery was acquired by Harpoon Brewery."
+      }
+    ]
+  },
+  {
+    "id": "Y_rsQQDXjodb6o_q-DABJ",
+    "name": "Milagro Oscuro",
+    "brewery": "Ex Novo Brewing",
+    "image": "ExNovoMilagroOscuro-FAD231E2-5B22-4451-9D27-2D491D92A22E-20220421095339",
+    "description": "Nothing, because we don't even have our individual beers listed on our website. 🤷",
+    "sortOrder": "0",
+    "episodes": ["9"],
+    "url": "https://www.beeradvocate.com/beer/profile/35612/586540/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "Apparently a limited release, it's a nice dark beer that Ex Novo calls a Mexican style lager."
+      }
+    ]
+  },
+  {
+    "id": "v06Xvpx6ifFZnU9Ps-kiO",
+    "name": "Kona Classic Pipeline",
+    "brewery": "Kona Brewing Co.",
+    "image": "KonaPipeline-816246A9-8775-4561-B9DA-1D9E7E0413B1-20220323105001",
+    "description": "We say nothing, because this beer isn't listed on our website anymore. 🤷",
+    "sortOrder": "0",
+    "episodes": ["8"],
+    "url": "https://konabrewingco.com/our-beers",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "A very nice coffee porter that's dark enough but still easy to drink. No overpowering porter taste."
+      }
+    ]
+  },
+  {
+    "id": "jmSO_SnRna4ztn-LH9kHf",
+    "name": "Son of Juice IPA",
+    "brewery": "Maplewood Brewery and Distillery",
+    "image": "SonofJuiceIPA-816246A9-8775-4561-B9DA-1D9E7E0413B1-20220323105038",
+    "description": "Bursting with notes of tropical fruit, Son of Juice features loads of Mosaic, Mosaic Cryo, Simcoe, Simcoe Cryo, and Nugget hops. Pilsner malt and oats lend to a soft body and some haze, making for a juicy, low-bitterness IPA.",
+    "sortOrder": "0",
+    "episodes": ["8"],
+    "url": "https://maplewoodbrew.com/beer/year-round/son-of-juice",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-down",
+        "description": "It's an IPA. I was going to say I don't hate it, but then the aftertaste kicked in."
+      }
+    ]
+  },
+  {
+    "id": "3T1RFVFTJSCL5ZZKSUMSD",
+    "name": "Tennessee Sipper Golden Light Ale",
+    "brewery": "East Nashville Beer Works",
+    "image": "EastNashvilleBeerWorksTennesseeSipperGoldenLightAle-6E7EEBFC-256C-4218-BDEC-CCBC18AEA372-20220206233505",
+    "description": "A back to basics beer; smooth and easy-drinking one. Light-bodied, slightly sweet on the backend, and creamy, this beer is an all day crusher.",
+    "sortOrder": "0",
+    "episodes": ["7"],
+    "url": "https://eastnashbeerworks.com/",
+    "rating": [
+      {
+        "host": "Adam",
+        "vote": "thumbs-up",
+        "description": "A lighter ale."
+      }
+    ]
+  },
+  {
+    "id": "AOAUIHZ5I-WPNOF6M3IG-",
+    "name": "Mocaccino",
+    "brewery": "Burlington Beer Co.",
+    "image": "BurlingtonBeerCoMocaccino-6E7EEBFC-256C-4218-BDEC-CCBC18AEA372-20220206233549",
+    "description": "Mocaccino is a Blond Stout brewed with Coffee, Chocolate, Vanilla, and Milk Sugar. This ale creates a juxtaposition of flavors to appearance. What looks like a light colored pale ale, is actually a beer rich with flavors and aromas of Espresso, Melted Chocolate Bars, and Vanilla Frosting.",
+    "sortOrder": "0",
+    "episodes": ["7"],
+    "url": "https://www.burlingtonbeercompany.com/mocaccino",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "A blond milk stout with chocolate, coffee, vanilla, and milk sugar. This may very well be my favorite beer."
+      }
+    ]
+  },
+  {
+    "id": "5O84VBDA68MBCA1GTBYET",
+    "name": "Milk Stout Nitro",
+    "brewery": "Left Hand Brewing Co.",
+    "image": "LeftHandBrewingCoMilkStoutNitro-6E7EEBFC-256C-4218-BDEC-CCBC18AEA372-20220206233633",
+    "description": "Experience America’s Stout. Milk Stout Nitro is a full sensory experience. Gaze at the mesmerizing cascade of all those tiny Nitro bubbles. Breathe in the aromas of roasted coffee, milk chocolate, brown sugar and vanilla cream. Savor the super smooth Nitro sensation. And, smile as the perfectly pillowy head coats your upper lip. This portable draft beer experience is Good to Go straight from the can or served Like a Pro in a glass. From the bottle, Pour Hard to release the Nitro magic inside.",
+    "sortOrder": "0",
+    "episodes": ["7"],
+    "url": "https://lefthandbrewing.com/beers/milk-stout-nitro",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "I can taste the milk in this. Very smooth."
+      }
+    ]
+  },
+  {
+    "id": "TMU8GHNB6SY8CYKQGPF8I",
+    "name": "Santa's Private Reserve 2021",
+    "brewery": "Rogue",
+    "image": "RogueSantasPrivateReserve2021-4D5F1F39-B097-4CE8-A553-E72784D746D0-20211225003333",
+    "description": "Santa has always been convinced that all great confections come from the North Pole, so we reached out to our friends at Honey Mama’s to help us show him otherwise. The Honey Mama’s crew whipped up some of their favorite tasty treats and we sent them up to Santa in a care package. It’s safe to say he feels a bit differently now, for mere minutes after receiving the delivery Santa was on the phone with us gushing about the delicious goodies, begging us to recreate this in his annual Private Reserve. Per his request. we teamed up with Honey Mama’s to create this tahini, tangerine and chocolate flavored stout. Santa is sure to love it. and so are you.",
+    "sortOrder": "0",
+    "episodes": ["6"],
+    "url": "https://www.rogue.com/shop/beer/seasonal/santas-private-reserve/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-down",
+        "description": "The fact that it was aged on rum barrel chips is apparent when you drink it, and I don't think that's necessarily a good thing."
+      }
+    ]
+  },
+  {
+    "id": "APPCGOMJ4SLQIDKCJYOGY",
+    "name": "Everything Nice",
+    "brewery": "OMMEGANG Brewery",
+    "image": "OMMEGANGBreweryEverythingNice-4D5F1F39-B097-4CE8-A553-E72784D746D0-20211225003506",
+    "description": "Lightly dusted with spices of the season, Everything Nice is a warming, wintry Belgian-style blonde ale. This supremely cozy confection pairs perfectly with any traditional holiday treat. Note the flavors of cinnamon, ginger, nutmeg, cloves, and white pepper as you sip next to the fireplace. We hope this fresh-baked offering brings warmth and light to you and yours.",
+    "sortOrder": "0",
+    "episodes": ["6"],
+    "url": "https://www.ommegang.com/beerinfo/everything-nice/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "I am in love. This smells like an amazing Indian curry, tastes like a strong belgian ale, and it finishes like gingerbread."
+      }
+    ]
+  },
+  {
+    "id": "XVOZWRIRU3_VZTKCTQRJB",
+    "name": "Hefeweizen",
+    "brewery": "Mason's Brewing Company",
+    "image": "MasonsBrewingCompanyHefeweizen-4D5F1F39-B097-4CE8-A553-E72784D746D0-20211225082629",
+    "description": "We'll never tell you what we say about this beer, because it's not currently on our website!",
+    "sortOrder": "0",
+    "episodes": ["6"],
+    "url": "https://untappd.com/b/mason-s-brewing-company-hefeweizen/1671292",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "A good beer for a sunny, summer day."
+      }
+    ]
+  },
+  {
+    "id": "6TA8SNCC9VZUW-V3LUGFV",
+    "name": "Jam Sesh",
+    "brewery": "Rogue",
+    "image": "RogueJamSesh-4D5F1F39-B097-4CE8-A553-E72784D746D0-20211225003538",
+    "description": "You'll just have to guess! Why? Currently not on our website!",
+    "sortOrder": "0",
+    "episodes": ["6"],
+    "url": "https://www.rogue.com/products/jam-sesh-blonde-ale",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "This is a very good one. A blond ale with strawberries."
+      }
+    ]
+  },
+  {
+    "id": "CWXCFIMNAAQ8PMDHLEI39",
+    "name": "Vanilla Porter",
+    "brewery": "Breckenridge Brewery",
+    "image": "BreckenridgeBreweryVanillaPorter-836C1F34-6C7E-4985-9A5E-CFE6E047AB38-20211129155850",
+    "description": "Aromas of vanilla and toasted grain set the stage for mellow flavors of vanilla and dark roasted malts in this popular porter. Don't let its deep mahogany color fool you, this brew is packed with flavor, yet as smooth as they come.",
+    "sortOrder": "0",
+    "episodes": ["5"],
+    "url": "https://www.breckbrew.com/brews/vanilla-porter/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "A good - not too bitter - porter for a cold day."
+      }
+    ]
+  },
+  {
+    "id": "ROLGPDEO_0RHMQSJKNNF9",
+    "name": "Otis Oatmeal Stout",
+    "brewery": "Ninkasi Brewing",
+    "image": "NinkasiOtisOatmealStout-836C1F34-6C7E-4985-9A5E-CFE6E047AB38-20211129160038",
+    "description": "With a simple call, Oatis will come running, whenever you’re in need of a dependable sidekick by your side. Savor its rich, chocolate, and roasty notes and let it warm your soul. Chocolate. Roasty. Rich.",
+    "sortOrder": "0",
+    "episodes": ["5"],
+    "url": "https://ninkasibrewing.com/our-beers/oatis-oatmeal-stout/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "A nice smooth oatmeal stout. In my opinion, the best beer Ninkasi offers."
+      }
+    ]
+  },
+  {
+    "id": "2KTACCSQST0QEF2MZA4M0",
+    "name": "Cactus Wins The Lottery",
+    "brewery": "Ex Novo Brewing",
+    "image": "ExNovoCactusWinsTheLottery-21218175-B636-4A96-A70B-B30F5F8EF68F-20210824230252",
+    "description": "We were about forty miles from Corrales when the Berliner Weisse began to take hold. We can’t stop here, this is Prickly Pear Country.",
+    "sortOrder": "0",
+    "episodes": ["4"],
+    "url": "http://www.exnovobrew.com/cactus-wins-the-lottery",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "A nice sour, light beer that is very appropriate for summer or anytime you want to pretend it's summer."
+      }
+    ]
+  },
+  {
+    "id": "PNZRGGA-KMHZ3EK4YMGKK",
+    "name": "Mango Cart",
+    "brewery": "Golden Road Brewing",
+    "image": "GoldenRoadMangoCart-21218175-B636-4A96-A70B-B30F5F8EF68F-20210824222951",
+    "description": "First in a series inspired by the iconic fruit cart vendors of Los Angeles. A light Wheat Ale bursting with lots of fresh mango flavor and aroma, finishing crisp and refreshing.",
+    "sortOrder": "0",
+    "episodes": ["4"],
+    "url": "https://www.goldenroad.la/beers/mango-cart",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "Good enough that I looked it up in the local store and bought a 15-pack."
+      }
+    ]
+  },
+  {
+    "id": "A1BRMY6QRC5OUNVHWS_AM",
+    "name": "Newport Daze",
+    "brewery": "Rogue",
+    "image": "RogueNewportDaze-21218175-B636-4A96-A70B-B30F5F8EF68F-20210830150722",
+    "description": "The morning after a long night, we like to hit the beach for some R&R. Newport Daze Hazy Pale Ale is the perfect day sipper for such an occasion. It’s an easy, mellow brew to get you through. This hazy pale gives off aromas of pineapple & stone fruit, features tangerine & peach flavors, and finishes off slightly sweet and very smooth.",
+    "sortOrder": "0",
+    "episodes": ["4"],
+    "url": "https://www.rogue.com/products/newport-daze",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-down",
+        "description": "More tropical, more citrusy. I can taste a little bit of the hops. Not my favorite Rogue beer."
+      }
+    ]
+  },
+  {
+    "id": "N9C470ZKDY-FLBJN57KYR",
+    "name": "Project Pilsner Crystal",
+    "brewery": "Gigantic Brewing",
+    "image": "GiganticCrystal-202108071018",
+    "description": "Our beer is great, but our website isn't. You'll never find any information about this beer there or anywhere else.",
+    "sortOrder": "0",
+    "episodes": ["3"],
+    "url": "https://brewpublic.com/beer-releases/gigantic-brewing-first-taste-tuesday-project-pilsner-crystal/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "I like it. I won't fight an angry mob for it, but it's very smooth and easy to drink."
+      }
+    ]
+  },
+  {
+    "id": "MMWKLI-U6267BMCQYCDQN",
+    "name": "Apricot Wheat",
+    "brewery": "Ithaca Beer Company",
+    "image": "IthacaApricotWheat-202108071019",
+    "description": "Our smooth wheat beer is light in color and body…perfect for those looking for a lighter taste. The combination of wheat and barley gives Apricot Wheat a different malt character than our other ales. The hint of apricot gives this beer a pleasant nose and fruity finish.",
+    "sortOrder": "0",
+    "episodes": ["3", "4"],
+    "url": "https://www.ithacabeer.com/ithaca-beer-core-beliefs#apricotwheat",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "Less sweet than the mango cart, but it's a very good lighter wheat. Tastes much more like apricot than wet dog, and that is a good thing."
+      }
+    ]
+  },
+  {
+    "id": "PXQW3KNQBC2SAMLAP2VQ3",
+    "name": "Vanishing Point Pale Ale",
+    "brewery": "Ghostfish Brewing Company",
+    "image": "GhostfishVanishingPoint-202108071020",
+    "description": "For our take on the classic American pale ale, we decided to throw inhibition to the wind and jump in with both feet. With several types of artisan gluten-free millet & rice malts, and four varieties of Washington-grown hops, one sip will make your preconceptions about gluten-free beer Vanish into the great beyond! A balanced beer with malt flavors of caramel and biscuit with classic American hop flavors of stone fruit and citrus.",
+    "sortOrder": "0",
+    "episodes": ["3"],
+    "url": "https://ghostfishbrewing.com/vanishing-point-pale-ale/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-down",
+        "description": "A little hoppy. Not a repeater for me."
+      }
+    ]
+  },
+  {
+    "id": "3PBZYIGKWGU-YBN83RPNN",
+    "name": "Honey Kolsch",
+    "brewery": "Rogue",
+    "image": "RogueHoneyKolsch-d2eadc0f-c706-43df-afbd-58d3ac4c0c31-20210722",
+    "description": "Brewed with wildflower honey, this Kolsch-style ale has layers of subtle floral notes accented by the honey’s natural sweetness that create a refreshing balance with the hops and malts. Honey Kolsch is our liquid ode to bees for all the wonderful work they do to keep the cycle of life turning.",
+    "sortOrder": "0",
+    "episodes": ["2"],
+    "url": "https://www.rogue.com/shop/beer/core/honey-kolsch/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "A nice light summery beer that's popular with the whole family (but maybe keep it away from the kids)."
+      }
+    ]
+  },
+  {
+    "id": "_GX-IPR7DBVFVK3YPEWQB",
+    "name": "Summer Love Golden Ale",
+    "brewery": "Victory Brewing Company",
+    "image": "VictorySummerLove-2144fe3e-1446-4dd8-9634-b0fa6cfe87f4-20210722",
+    "description": "In the late 2000’s we created a beer to celebrate all the best of summer - baseball, beach days, and barbecues. Today, that beer has grown into the most iconic seasonal beer ever and the official craft beer of summer - Summer Love. Summer Love is a refreshing Golden Ale that delivers big flavor through its fine balance of clean pilsner malts and citrusy, earthy Simcoe and Tettnang hops.",
+    "sortOrder": "0",
+    "episodes": ["2"],
+    "url": "https://victorybeer.com/beers/summer-love/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "It is good. Love at first sip."
+      }
+    ]
+  },
+  {
+    "id": "X8Z2RFIG2PDPK8SOU59JT",
+    "name": "Three Philosophers Double Chocolate",
+    "brewery": "Ommegang Brewery",
+    "image": "ThreePhilosophersDoubleChocolate-db7f286c-3018-49f8-9b70-17cee74d8557-20210623",
+    "description": "It’s been said that chocolate is happiness you can eat. Likewise, we contend that Three Philosophers, our Belgian-style quadruple, is wisdom you can drink. Married together, we present a beer for mind and soul; a deeply-considered chocolate philosophy. For this project, we partnered with the artisans at Taza Chocolate, who shared their cocoa and their expertise in pursuit of sweet perfection. Swirl, sip, and melt away… This heavenly confection pours a deep caramel in color with mahogany flecks, topped by a foamy tan head. Semi-sweet cocoa and subtle vanilla prevail in the aroma. The mouthfeel is textured and full-bodied, with caramel, toffee and dark fruit wrapped in the embrace of rich, decadent Taza chocolate, culminating in a refreshingly smooth, lingering finish.",
+    "sortOrder": "0",
+    "episodes": ["1"],
+    "url": "https://www.ommegang.com/beerinfo/three-philosophers-double-chocolate/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "Best drunk at around 50F. One of my favorite beers of all time. It's also a commitment because it's a 9% ABV beer."
+      }
+    ]
+  },
+  {
+    "id": "Z0QVVQ7EV6DVOLY8UOUV6",
+    "name": "Fivepine Chocolate Porter",
+    "brewery": "Three Creeks Brewing",
+    "image": "FivePineChocolatePorter-32aefe5d-36f7-4737-b04f-0c5035ba6ace-20210623",
+    "description": "A robust Porter that features two pounds per barrel of the finest Belgian dark chocolate, creating a slightly roasty pint with underlying chocolate sweetness.",
+    "sortOrder": "0",
+    "episodes": ["1"],
+    "url": "https://www.threecreeksbrewing.com/beer/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "One of my favorite chocolate beers. Someone once asked me if it wasn't too chocolatey, to which I replied, \"You understand that I'm drinking this by choice, right?\"."
+      }
+    ]
+  }
+]

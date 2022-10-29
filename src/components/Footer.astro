@@ -1,0 +1,36 @@
+---
+import config from "config";
+import { Icon } from "astro-icon";
+import { year } from "./utilities/DateFormat.js";
+---
+
+<div class="footer" data-pagefind-ignore>
+  <div>&copy;{year}</div>
+  <div><Icon name="bi:cpu-fill" /></div>
+  <div>
+    {config.get("name")}
+  </div>
+</div>
+
+<style>
+  .footer {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+    border-top: 3px solid var(--menu-border);
+    font-size: 1rem;
+    background-color: var(--menu-surface);
+    color: var(--menu-text);
+  }
+
+  [astro-icon] {
+    height: 1rem;
+    margin: 0 0 -0.1rem;
+    padding: 0;
+  }
+</style>

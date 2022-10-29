@@ -1,0 +1,44 @@
+---
+import config from "config";
+import Base from "../../layouts/Base.astro";
+import Episode from "../../components/Episode.astro";
+import Pager from "../../components/Pager.astro";
+
+export async function getStaticPaths({ paginate }) {
+  let episodes = await Astro.glob("../../content/*.mdx");
+
+  episodes = episodes.sort(
+    (a, b) =>
+      new Date(b.frontmatter.date).valueOf() -
+      new Date(a.frontmatter.date).valueOf()
+  );
+
+  return paginate(episodes, {
+    pageSize: config.get("episodes.paginationSize"),
+  });
+}
+const { page } = Astro.props;
+
+const eps = page.data.map((post) => {
+  return {
+    frontmatter: post.frontmatter,
+    content: post.Content,
+  };
+});
+---
+
+<Base title={`${config.get("title").replace(" Podcast", "")} Episodes`}>
+  <div data-pagefind-ignore>
+    {
+      eps &&
+        eps.map((episode, index) => {
+          return (
+            <Episode episode={episode} index={index} pageNum={page.currentPage}>
+              <episode.content />
+            </Episode>
+          );
+        })
+    }
+    <Pager page={page} />
+  </div>
+</Base>

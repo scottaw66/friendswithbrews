@@ -1,0 +1,159 @@
+@import "normalize.css";
+@import "@fontsource/be-vietnam-pro";
+@import "@fontsource/be-vietnam-pro/900.css";
+@import "@fontsource/be-vietnam-pro/500.css";
+@import "@fontsource/be-vietnam-pro/200.css";
+@import "@fontsource/roboto-mono";
+
+html {
+  --surface-light: #eacda3;
+  --text-light: black;
+  --menu-surface-light: #5b3e34;
+  --menu-border-light: #0d0a01;
+  --menu-text-light: #eacda3;
+  --link-text-light: #5b3e34;
+  --episode-title-light: #5b3e34;
+  --episode-text-light: black;
+  --episode-latest-bg-light: var(--menu-surface-light);
+  --beer-bg-light: #b49664;
+  --pager-light: #fff;
+  --pager-bg-light: #0d0a01;
+  --pager-link-text-light: #eacda3;
+  --progress-value-light: #b49664;
+
+  --surface-dark: #0d0a01;
+  --text-dark: #fff;
+  --menu-surface-dark: #eacda3;
+  --menu-border-dark: #5b3e34;
+  --menu-text-dark: #311d1c;
+  --link-text-dark: #eacda3;
+  --episode-title-dark: #eacda3;
+  --episode-text-dark: #fff;
+  --episode-latest-bg-dark: #161413;
+  --beer-bg-dark: #1c1504;
+  --pager-dark: var(--text-dark);
+  --pager-bg-dark: #5b3e34;
+  --pager-link-text-dark: var(--link-text-dark);
+  --progress-value-dark: #fff;
+}
+
+:root {
+  --surface: var(--surface-light);
+  --text: var(--text-light);
+  --menu-surface: var(--menu-surface-light);
+  --menu-border: var(--menu-border-light);
+  --menu-text: var(--menu-text-light);
+  --link-text: var(--link-text-light);
+  --episode-title: var(--episode-title-light);
+  --episode-text: var(--episode-text-light);
+  --episode-latest-bg: var(--episode-latest-bg-light);
+  --beer-bg: var(--beer-bg-light);
+  --pager: var(--pager-light);
+  --pager-bg: var(--pager-bg-light);
+  --pager-link-text: var(--pager-link-text-light);
+  --progress-value: var(--progress-value-light);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --surface: var(--surface-dark);
+    --text: var(--text-dark);
+    --menu-surface: var(--menu-surface-dark);
+    --menu-border: var(--menu-border-dark);
+    --menu-text: var(--menu-text-dark);
+    --link-text: var(--link-text-dark);
+    --episode-title: var(--episode-title-dark);
+    --episode-text: var(--episode-text-dark);
+    --episode-latest-bg: var(--episode-latest-bg-dark);
+    --beer-bg: var(--beer-bg-dark);
+    --pager: var(--pager-dark);
+    --pager-bg: var(--pager-bg-dark);
+    --pager-link-text: var(--pager-link-text-dark);
+    --progress-value: var(--progress-value-dark);
+  }
+}
+
+@font-face {
+  font-family: "CaptainEdward";
+  src: url("/fonts/CaptainEdward-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  color: var(--menu-surface);
+}
+
+body {
+  font-family: "Be Vietnam Pro";
+  font-size: 1.3rem;
+  font-weight: 200;
+  line-height: 1.5;
+  background-color: var(--surface);
+  color: var(--text);
+}
+
+main {
+  max-width: 70ch;
+  min-height: calc(100vh - 330px); /*100 vh - header & footer h */
+  margin: 0 auto;
+  padding: 0 2rem 3rem;
+}
+
+h1 {
+  font-family: "CaptainEdward";
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-family: "CaptainEdward";
+  font-weight: 900;
+  font-size: 2.3rem;
+}
+h3 {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 1.1rem;
+  }
+  main {
+    max-width: 95%;
+    padding: 0 1.5rem 3rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+ul li a {
+  text-decoration: none;
+  color: var(--link-text);
+}
+ul li a:hover {
+  text-decoration: underline;
+}
+
+div.beer-container {
+  width: 97%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: start;
+  margin: 2rem auto 2rem;
+}
+@media screen and (max-width: 819px) {
+  div.beer-container {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 439.98px) {
+  div.beer-container {
+    width: 99%;
+  }
+}

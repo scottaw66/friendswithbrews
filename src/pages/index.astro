@@ -1,0 +1,137 @@
+---
+import config from "config";
+import { Icon } from "astro-icon";
+import Base from "../layouts/Base.astro";
+import EpisodeDetails from "../components/EpisodeDetails.astro";
+import Reviews from "../components/Reviews.astro";
+
+const title = config.get("title");
+
+let allEpisodes = await Astro.glob("../content/*.mdx");
+allEpisodes = allEpisodes.sort(
+  (a, b) =>
+    new Date(b.frontmatter.date).valueOf() -
+    new Date(a.frontmatter.date).valueOf()
+);
+
+const latestEpisodes = allEpisodes.slice(0, 1);
+---
+
+<Base title={title}>
+  <article>
+    <h1>Friends with Beer !</h1>
+
+    <link href="/styles/pagefind-ui.css" rel="stylesheet" />
+    <script is:inline src="/_pagefind/pagefind-ui.js" type="text/javascript"
+    ></script>
+
+    <div id="search"></div>
+    <script is:inline>
+      window.addEventListener("DOMContentLoaded", (event) => {
+        new PagefindUI({
+          element: "#search",
+          showImages: false,
+          showEmptyFilters: false,
+          translations: {
+            placeholder: "Search Friends with Beer",
+          },
+        });
+      });
+    </script>
+
+    <p class="tagline">{config.get("description")}</p>
+    <p>
+      <b>Friends with Beer Podcast</b> is about friends Peter and Scott, beer, and
+      podcasting! It's also about Apple, fitness, food, random news, and sometimes
+      our friend Adam!
+    </p>
+    <div class="action-list">
+      <div>
+        <a href="/episodes/1"><Icon name="fontisto:podcast" />Episodes</a>
+      </div>
+      <div><a href="subscribe"><Icon name="ps:rss" />Subscribe</a></div>
+    </div>
+    <span data-pagefind-ignore>
+      <h2 class="latest"><Icon name="fa:certificate" />Latest Episode !!</h2>
+
+      {
+        latestEpisodes &&
+          latestEpisodes.map((latest) => {
+            return <EpisodeDetails episode={latest} />;
+          })
+      }
+    </span>
+    <h2 class="edward"><Icon name="dashicons:awards" />Reviews</h2>
+    <p>
+      We've gotten some amazing reviews. Check these out!<Icon
+        name="bi:arrow-down-circle-fill"
+      />
+    </p>
+    <Reviews />
+  </article>
+</Base>
+
+<style>
+  [astro-icon="fa:certificate"] {
+    height: 0.9em;
+    margin: 0 0.5em -0.1rem 0;
+    color: var(--menu-surface);
+  }
+
+  [astro-icon="bi:arrow-down-circle-fill"] {
+    height: 0.9em;
+    margin: 0 0.5em -0.1rem 0.5em;
+    color: var(--menu-surface);
+  }
+
+  [astro-icon="dashicons:awards"] {
+    height: 1em;
+    margin: 0 0.2em -0.1em -0.1em;
+    padding: 0;
+    color: var(--menu-surface);
+  }
+
+  [astro-icon="fontisto:podcast"],
+  [astro-icon="ps:rss"] {
+    height: 1.1em;
+    margin: 0 0.5em -0.1em 0;
+    color: var(--menu-surface);
+  }
+
+  h2.latest {
+    font-family: "Be Vietnam Pro";
+    font-size: 1.2em;
+    font-style: italic;
+    color: var(--menu-surface);
+  }
+
+  h2 {
+    margin-top: 3rem;
+  }
+  p.tagline {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 0.8em;
+    color: var(--menu-surface);
+    margin: 0 2rem 2rem 2rem;
+  }
+  p.tagline:before,
+  p.tagline:after {
+    content: '"';
+  }
+
+  div.action-list {
+    display: flex;
+    margin: 0 auto;
+    column-gap: 2rem;
+    justify-content: center;
+    font-size: 0.8em;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  div.action-list a {
+    color: var(--menu-surface);
+    text-decoration: none;
+  }
+</style>

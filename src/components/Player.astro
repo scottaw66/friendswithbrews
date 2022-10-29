@@ -1,0 +1,340 @@
+---
+import logo from "../images/FwB2-site-header.svg";
+
+const { file, episode, title, header } = Astro.props;
+
+const epName = episode && title ? `${episode} • ${title}` : null;
+---
+
+<div class="player">
+  <div class="player-controls">
+    {
+      header && (
+        <div class="logo-title">
+          <div>
+            <img src={logo} width="80" height="80" />
+          </div>
+          {epName && <div class="player-episode">{epName}</div>}
+        </div>
+      )
+    }
+    <div class="player-progress">
+      <div class="player-progress-bar">
+        <progress class="progress-bar" value="0"></progress>
+      </div>
+      <div class="player-time">
+        <div class="player-currenttime player-time">00:00:00</div>
+        <div class="player-duration player-time">00:00:00</div>
+      </div>
+    </div>
+    <div class="player-buttons">
+      <button class="player-rewind">
+        <svg width="40" height="40" viewBox="0 0 24 24"
+          ><path
+            fill="currentColor"
+            d="M9.195 18.44c1.25.713 2.805-.19 2.805-1.629v-2.34l6.945 3.968c1.25.714 2.805-.188 2.805-1.628V8.688c0-1.44-1.555-2.342-2.805-1.628L12 11.03V8.69c0-1.44-1.555-2.343-2.805-1.629l-7.108 4.062c-1.26.72-1.26 2.536 0 3.256l7.108 4.061Z"
+          ></path>
+        </svg>
+      </button>
+      <button class="player-play"
+        ><svg width="80" height="80" viewBox="0 0 27 27"
+          ><path
+            fill="currentColor"
+            fill-rule="evenodd"
+            d="M10 18a8 8 0 1 0 0-16a8 8 0 0 0 0 16ZM9.555 7.168A1 1 0 0 0 8 8v4a1 1 0 0 0 1.555.832l3-2a1 1 0 0 0 0-1.664l-3-2Z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
+      <button class="player-pause"
+        ><svg width="80" height="80" viewBox="0 0 27 27"
+          ><path
+            fill="currentColor"
+            fill-rule="evenodd"
+            d="M18 10a8 8 0 1 1-16 0a8 8 0 0 1 16 0ZM7 8a1 1 0 0 1 2 0v4a1 1 0 1 1-2 0V8Zm5-1a1 1 0 0 0-1 1v4a1 1 0 1 0 2 0V8a1 1 0 0 0-1-1Z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
+      <button class="player-fastforward">
+        <svg width="40" height="40" viewBox="0 0 24 24"
+          ><path
+            fill="currentColor"
+            d="M5.055 7.06c-1.25-.714-2.805.189-2.805 1.628v8.123c0 1.44 1.555 2.342 2.805 1.628L12 14.471v2.34c0 1.44 1.555 2.342 2.805 1.628l7.108-4.061c1.26-.72 1.26-2.536 0-3.256L14.805 7.06C13.555 6.346 12 7.25 12 8.688v2.34L5.055 7.06Z"
+          ></path>
+        </svg>
+      </button>
+      <button class="player-loud">
+        <svg width="30" height="30" viewBox="0 0 24 24"
+          ><g fill="currentColor"
+            ><path
+              d="M13.5 4.06c0-1.336-1.616-2.005-2.56-1.06l-4.5 4.5H4.508c-1.141 0-2.318.664-2.66 1.905A9.76 9.76 0 0 0 1.5 12c0 .898.121 1.768.35 2.595c.341 1.24 1.518 1.905 2.659 1.905h1.93l4.5 4.5c.945.945 2.561.276 2.561-1.06V4.06Zm5.084 1.046a.75.75 0 0 1 1.06 0c3.808 3.807 3.808 9.98 0 13.788a.75.75 0 1 1-1.06-1.06a8.25 8.25 0 0 0 0-11.668a.75.75 0 0 1 0-1.06Z"
+            ></path><path
+              d="M15.932 7.757a.75.75 0 0 1 1.061 0a6 6 0 0 1 0 8.486a.75.75 0 0 1-1.06-1.061a4.5 4.5 0 0 0 0-6.364a.75.75 0 0 1 0-1.06Z"
+            ></path>
+          </g>
+        </svg>
+      </button>
+      <button class="player-mute">
+        <svg width="30" height="30" viewBox="0 0 24 24"
+          ><path
+            fill="currentColor"
+            d="M13.5 4.06c0-1.336-1.616-2.005-2.56-1.06l-4.5 4.5H4.508c-1.141 0-2.318.664-2.66 1.905A9.76 9.76 0 0 0 1.5 12c0 .898.121 1.768.35 2.595c.341 1.24 1.518 1.905 2.659 1.905h1.93l4.5 4.5c.945.945 2.561.276 2.561-1.06V4.06Zm4.28 5.16a.75.75 0 1 0-1.06 1.06L18.44 12l-1.72 1.72a.75.75 0 0 0 1.06 1.06l1.72-1.72l1.72 1.72a.75.75 0 1 0 1.06-1.06L20.56 12l1.72-1.72a.75.75 0 0 0-1.06-1.06l-1.72 1.72l-1.72-1.72Z"
+          ></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <audio src={file}></audio>
+</div>
+
+<script is:inline>
+  (function () {
+    //var players = document.querySelectorAll(".player");
+    var player = document.querySelector(".player");
+
+    //for (i = 0; i < players.length; i++) {
+    //var player = players[i];
+    var audio = player.querySelector("audio");
+    var play = player.querySelector(".player-play");
+    var pause = player.querySelector(".player-pause");
+    var forward = player.querySelector(".player-fastforward");
+    var rewind = player.querySelector(".player-rewind");
+    var progress = player.querySelector(".progress-bar");
+    var loud = player.querySelector(".player-loud");
+    var mute = player.querySelector(".player-mute");
+    var currentTime = player.querySelector(".player-currenttime");
+    var duration = player.querySelector(".player-duration");
+
+    pause.style.display = "none";
+    mute.style.display = "none";
+    audio.muted = false;
+
+    var toHHMMSS = function (totalsecs) {
+      var sec_num = parseInt(totalsecs, 10); // don't forget the second param
+      var hours = Math.floor(sec_num / 3600);
+      var minutes = Math.floor((sec_num - hours * 3600) / 60);
+      var seconds = sec_num - hours * 3600 - minutes * 60;
+
+      if (hours < 10) {
+        hours = "0" + hours;
+      }
+      if (minutes < 10) {
+        minutes = "0" + minutes;
+      }
+      if (seconds < 10) {
+        seconds = "0" + seconds;
+      }
+
+      var time = hours + ":" + minutes + ":" + seconds;
+      return time;
+    };
+
+    audio.addEventListener("loadedmetadata", function () {
+      progress.setAttribute("max", Math.floor(audio.duration));
+      duration.textContent = toHHMMSS(audio.duration);
+    });
+
+    audio.addEventListener("timeupdate", function () {
+      progress.setAttribute("value", audio.currentTime);
+      currentTime.textContent = toHHMMSS(audio.currentTime);
+    });
+
+    play.addEventListener(
+      "click",
+      function () {
+        this.style.display = "none";
+        pause.style.display = "inline-block";
+        audio.play();
+      },
+      false
+    );
+
+    pause.addEventListener(
+      "click",
+      function () {
+        this.style.display = "none";
+        play.style.display = "inline-block";
+        audio.pause();
+      },
+      false
+    );
+
+    rewind.addEventListener(
+      "click",
+      function () {
+        audio.currentTime -= 30;
+      },
+      false
+    );
+
+    forward.addEventListener(
+      "click",
+      function () {
+        audio.currentTime += 30;
+      },
+      false
+    );
+
+    progress.addEventListener(
+      "click",
+      function (e) {
+        audio.currentTime =
+          Math.floor(audio.duration) * (e.offsetX / e.target.offsetWidth);
+      },
+      false
+    );
+
+    mute.addEventListener(
+      "click",
+      function () {
+        this.style.display = "none";
+        loud.style.display = "inline-block";
+        loud.focus();
+        audio.muted = !audio.muted;
+      },
+      false
+    );
+
+    loud.addEventListener(
+      "click",
+      function () {
+        this.style.display = "none";
+        mute.style.display = "inline-block";
+        mute.focus();
+        audio.muted = !audio.muted;
+      },
+      false
+    );
+    //}
+  })(this);
+</script>
+
+<style>
+  div.player {
+    width: 500px;
+    margin: 2rem auto;
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: var(--menu-surface);
+    color: var(--menu-text);
+  }
+  @media (prefers-color-scheme: light) {
+    div.player {
+      background-color: var(--menu-border);
+    }
+  }
+  div.player-controls {
+    display: grid;
+    grid-template-rows: fit-content(50%) fit-content(50%);
+    grid-template-columns: auto;
+  }
+  div.player-progress {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 1rem;
+    margin: 0 auto;
+    padding: 0;
+  }
+  div.player-progress-bar {
+    margin-right: 1.5rem;
+  }
+  progress {
+    border-radius: 25px;
+    height: 10px;
+    padding: 0;
+  }
+  progress::-webkit-progress-bar {
+    background-color: var(--surface);
+    margin: -0.1rem 0 0;
+    border-radius: 25px;
+  }
+  progress::-webkit-progress-value {
+    background-color: var(--progress-value);
+    border-radius: 25px;
+  }
+  progress::-moz-progress-bar {
+    background-color: var(--surface);
+    color: var(--progress-value);
+    border-radius: 25px;
+  }
+  div.player-time {
+    display: flex;
+    column-gap: 2rem;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  div.player-buttons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    padding: 0;
+  }
+  @media screen and (max-width: 580px) {
+    div.player {
+      width: 70vw;
+    }
+    div.player-progress-bar {
+      margin-right: 0;
+    }
+    div.player-time {
+      flex-direction: column;
+      font-size: 0.8rem;
+    }
+  }
+  @media screen and (max-width: 369px) {
+    div.player {
+      width: 60vw;
+    }
+    div.player-progress {
+      flex-direction: column;
+    }
+    div.player-progress-bar {
+      margin-right: 0;
+    }
+    div.player-time {
+      flex-direction: column;
+      font-size: 0.8rem;
+    }
+    div.player-buttons {
+      column-gap: 0;
+    }
+  }
+  button {
+    border: none;
+    padding: 0;
+    background-color: var(--menu-surface);
+  }
+  @media (prefers-color-scheme: light) {
+    button {
+      background-color: var(--menu-border);
+      color: var(--surface);
+    }
+  }
+  button.player-play,
+  button.player-pause {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: -1rem;
+  }
+  button.player-speed {
+    width: fit-content;
+    height: fit-content;
+  }
+  button.player-loud,
+  button.player-mute {
+    width: 40px;
+    height: 40px;
+    margin: 0 0 -1.5rem 1rem;
+  }
+  button.player-fastforward,
+  button.player-rewind {
+    width: 40px;
+    height: 40px;
+    margin-bottom: -1rem;
+  }
+</style>

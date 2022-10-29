@@ -1,0 +1,117 @@
+---
+import { Picture } from "@astrojs/image/components";
+import { Icon } from "astro-icon";
+import Base from "../layouts/Base.astro";
+import hostsJson from "../data/hosts.json";
+
+const title = "The Friends";
+const hosts = Array.from(hostsJson);
+---
+
+<Base title={title}>
+  <h1>The Friends!</h1>
+  <div class="hosts">
+    {
+      hosts.map((host) => (
+        <div class="host">
+          <div class="host-image">
+            <a href={`/images/hosts/${host.image}`}>
+              <Picture
+                src={`/images/hosts/${host.image}`}
+                widths={[400, 800, 1200]}
+                aspectRatio="1:1"
+                sizes="200px"
+                formats={["avif", "webp"]}
+                alt={host.firstname + " " + host.lastname}
+              />
+            </a>
+          </div>
+          <div class="host-details">
+            <h2>
+              {host.firstname} {host.lastname}
+            </h2>
+            <p>{host.bio}</p>
+            <div class="host-socials">
+              {host.socials.map((social) => (
+                <div class="social">
+                  <div>
+                    <Icon name={social.icon} />
+                  </div>
+                  <div>
+                    <a href={social.url}>{social.name}</a>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</Base>
+
+<style>
+  div.hosts {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    row-gap: 5rem;
+    justify-items: stretch;
+    margin: 3rem auto;
+    padding: 1rem;
+  }
+  div.host {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    column-gap: 3rem;
+    align-items: center;
+  }
+  div.host h2 {
+    margin-bottom: 1rem;
+  }
+  div.host-image img {
+    border-radius: 50%;
+    border: solid 3px var(--menu-surface);
+  }
+  @media screen and (max-width: 650px) {
+    div.host-image img {
+      width: 150px;
+    }
+  }
+  div.host-socials {
+    display: flex;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    flex-wrap: wrap;
+  }
+  div.host-socials a {
+    color: var(--menu-surface);
+    font-weight: bolder;
+  }
+  div.social {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    max-width: fit-content;
+  }
+  [astro-icon] {
+    height: 1.5rem;
+    margin: -0.4rem 0;
+  }
+  @media screen and (max-width: 650px) {
+    div.host {
+      grid-template-columns: 1fr;
+      padding: 0;
+    }
+    div.host-image {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+    div.social {
+      flex-wrap: wrap;
+      font-size: 0.9em;
+    }
+  }
+</style>

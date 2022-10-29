@@ -1,0 +1,151 @@
+---
+import { Icon } from "astro-icon";
+import { Picture } from "@astrojs/image/components";
+
+const { beer, episode } = Astro.props;
+---
+
+<div class="beer">
+  <div class="beer-image">
+    <a href={`/bottle/${beer.id}`}>
+      <Picture
+        src={`/images/beer/${beer.image}.png`}
+        widths={[400, 800, 1200]}
+        aspectRatio="1:1"
+        sizes="200px"
+        formats={["avif", "webp", "png"]}
+        alt={`${beer.brewery} ${beer.name}`}
+      />
+    </a>
+  </div>
+  <div class="beer-name">
+    <div class="brewery">{beer.brewery}</div>
+    <div>
+      <a href={`/bottle/${beer.id}`}>{beer.name}</a>
+    </div>
+    <div class="beer-details">
+      <div>
+        <Icon name="fluent:info-24-filled" />
+      </div>
+      <div>
+        <a href={`/bottle/${beer.id}`}>View Details</a>
+      </div>
+      <div>•</div>
+      <div class="rating">
+        {
+          beer.rating.map((rate) => (
+            <div>
+              {rate.host}</div>
+              <div>
+              {rate.vote === "thumbs-up" ? (
+                <Icon name="bi:hand-thumbs-up-fill" />
+              ) : (
+                <Icon name="bi:hand-thumbs-down-fill" />
+              )}
+            </div>
+          ))
+        }
+      </div>
+    </div>
+    {
+      !episode && (
+        <div class="beer-episodes">
+          Episode{beer.episodes.length > 1 ? "s" : ""}
+          {beer.episodes.join(", ")}
+        </div>
+      )
+    }
+  </div>
+</div>
+<style>
+  div.beer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 1.5rem;
+    margin: 1rem;
+  }
+  div.beer-image img {
+    height: 8rem;
+    width: 8rem;
+    border: 3px solid var(--menu-surface);
+    border-radius: 5%;
+    aspect-ratio: 1;
+    margin-bottom: -0.6rem;
+  }
+  div.beer-name a {
+    font-size: 1rem;
+    color: var(--text);
+  }
+  div.brewery {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  div.beer-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.6rem;
+    margin: 0.5rem 0 0 0;
+  }
+  div.beer-details a {
+    text-decoration: none;
+    font-size: 0.6rem;
+  }
+  div.beer-details a:hover {
+    text-decoration: underline;
+  }
+  div.beer-episodes {
+    margin: 0.5rem 0 0;
+    font-size: 0.8rem;
+  }
+  [astro-icon="fluent:info-24-filled"] {
+    font-size: 2rem;
+    width: 0.75rem;
+    margin: 0 0 -0.075em 0;
+  }
+  [astro-icon="bi:hand-thumbs-up-fill"],
+  [astro-icon="bi:hand-thumbs-down-fill"] {
+    width: 0.7rem;
+    margin-top: 0.2rem;
+  }
+  div.rating {
+    display:flex;
+    column-gap: 0.3rem;
+    align-items: center;
+    font-weight: bolder;
+  }
+  @media screen and (max-width: 900px) {
+    div.brewery {
+      font-size: 0.9rem;
+    }
+  }
+  @media screen and (min-width: 440px) and (max-width: 800px) {
+    div.beer {
+      width: 98%;
+    }
+    div.beer-name {
+      font-size: 0.9rem;
+    }
+  }
+  @media screen and (max-width: 439.98px) {
+    div.beer {
+      width: 98%;
+      flex-direction: column;
+      align-items: flex-start;
+      row-gap: 0.5rem;
+    }
+    div.beer-image img {
+      margin-bottom: 0.5rem;
+    }
+    div.brewery {
+      font-size: 1rem;
+    }
+    div.beer-name {
+      font-size: 0.9rem;
+    }
+  }
+</style>

@@ -1,0 +1,171 @@
+---
+import config from "config";
+import { Icon } from "astro-icon";
+import path from "path";
+import { beerList } from "../components/utilities/beerlist.mjs";
+import BeerDetails from "./BeerDetails.astro";
+import Player from "./Player.astro";
+import { postdate } from "./utilities/DateFormat";
+import { episodeLength } from "./utilities/episodelength.mjs";
+
+const { episode, audio, index, pageNum } = Astro.props;
+const beers = beerList(episode.frontmatter.slug);
+---
+
+<div
+  class="episode"
+  data-pagefind-filter="filter by[content]"
+  content="episode"
+  data-pagefind-meta="result type:episode"
+>
+  <h2 class="episode-title">
+    <Icon name="fontisto:podcast" />Episode <span data-pagefind-meta="episode"
+      >{episode.frontmatter.episode}</span
+    > •
+    <span class="episode-number"
+      ><a
+        href={new URL(
+          path.join(
+            config.get("episodes.path"),
+            String(episode.frontmatter.slug)
+          ),
+          config.get("url")
+        )}
+        >{episode.frontmatter.title}
+      </a>
+    </span>
+  </h2>
+  <div class="episode-date">
+    <span data-pagefind-meta="date"
+      ><Icon name="fluent:calendar-rtl-48-filled" />{
+        postdate(episode.frontmatter.date)
+      }</span
+    > •
+    <span>{episodeLength(episode.frontmatter.length)}</span>
+  </div>
+  <p>{episode.frontmatter.description}</p>
+
+  {
+    () => {
+      if ((index === 0 && pageNum === 1) || audio === "true") {
+        return (
+          <Player
+            file={`${config.get("episodes.audioPrefix")}${
+              episode.frontmatter.audioFile
+            }`}
+            episode={episode.frontmatter.episode}
+            title={episode.frontmatter.title}
+          />
+        );
+      }
+    }
+  }
+
+  <div class="episode-links">
+    <div class="download-link">
+      <div>
+        <a
+          href={`${config.get("episodes.audioPrefix")}${
+            episode.frontmatter.audioFile
+          }`}
+        >
+          <Icon name="mdi:cloud-download" />
+        </a>
+      </div>
+      <div>
+        <a
+          href={`${config.get("episodes.audioPrefix")}/${
+            episode.frontmatter.audioFile
+          }`}>Download</a
+        >
+      </div>
+    </div>
+    <div class="download-link">
+      <div>
+        <a href={config.get("social.overcast")}>
+          <Icon name="simple-icons:overcast" />
+        </a>
+      </div>
+      <div><a href={config.get("social.overcast")}>Overcast</a></div>
+    </div>
+    <div class="download-link">
+      <div>
+        <a href={config.get("social.applePodcasts")}>
+          <Icon name="simple-icons:applepodcasts" />
+        </a>
+      </div>
+      <div>
+        <a href={config.get("social.applePodcasts")}>Apple Podcasts</a>
+      </div>
+    </div>
+  </div>
+
+  <h2>The Beer</h2>
+  <div class="beer-container">
+    {
+      beers.map((beer) => (
+        <BeerDetails beer={beer} episode={episode.frontmatter.slug} />
+      ))
+    }
+  </div>
+  <slot />
+</div>
+
+<style>
+  div.episode {
+    margin-bottom: 5rem;
+  }
+  [astro-icon="fontisto:podcast"] {
+    height: 2.7rem;
+    margin: 0 0.5rem -0.1em 0;
+  }
+  span.episode-number {
+    color: var(--menu-surface);
+  }
+  h2.episode-title {
+    font-size: 2.7rem;
+  }
+  div.episode-date {
+    display: flex;
+    align-items: center;
+    font-size: 0.6em;
+    column-gap: 0.5rem;
+  }
+  [astro-icon="fluent:calendar-rtl-48-filled"] {
+    height: 1rem;
+    margin: 0 0.25rem -0.25em 0;
+  }
+  div.episode-links {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  div.download-link {
+    display: flex;
+    padding: 0 2rem;
+    font-size: 0.6em;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-items: center;
+  }
+  div.download-link a {
+    color: var(--text);
+    text-decoration: underline;
+  }
+  @media screen and (max-width: 500px) {
+    div.episode-links {
+      flex-direction: column;
+      row-gap: 0.3rem;
+    }
+  }
+  [astro-icon="mdi:cloud-download"],
+  [astro-icon="simple-icons:overcast"],
+  [astro-icon="simple-icons:applepodcasts"] {
+    height: 1.5rem;
+    margin: 0.1rem 0.7rem 0 0;
+  }
+  a {
+    color: var(--menu-surface);
+    text-decoration: none;
+  }
+</style>

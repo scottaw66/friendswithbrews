@@ -1,0 +1,47 @@
+---
+import config from "config";
+import { beerList } from "../../components/utilities/beerlist.mjs";
+import Base from "../../layouts/Base.astro";
+import BeerDetails from "../../components/BeerDetails.astro";
+import Pager from "../../components/Pager.astro";
+
+export async function getStaticPaths({ paginate }) {
+  const beers = beerList();
+
+  return paginate(beers, {
+    pageSize: config.get("beerPageSize"),
+  });
+}
+const { page } = Astro.props;
+const title = "The Beer";
+---
+
+<Base title={title}>
+  <div data-pagefind-ignore>
+    <h1>The Beer!</h1>
+
+    <link href="/styles/pagefind-ui.css" rel="stylesheet" />
+    <script is:inline src="/_pagefind/pagefind-ui.js" type="text/javascript"
+    ></script>
+
+    <div id="search"></div>
+    <script is:inline>
+      window.addEventListener("DOMContentLoaded", (event) => {
+        new PagefindUI({
+          element: "#search",
+          showImages: false,
+          showEmptyFilters: false,
+          translations: {
+            placeholder: "Search Friends with Beer",
+          },
+        });
+      });
+    </script>
+
+    <Pager page={page} />
+    <div class="beer-container">
+      {page.data.map((beer) => <BeerDetails beer={beer} />)}
+    </div>
+    <Pager page={page} />
+  </div>
+</Base>

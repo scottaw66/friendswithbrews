@@ -1,0 +1,10 @@
+---
+import config from "config";
+import Base from "../layouts/Base.astro";
+
+const title = "Subscribe to " + config.get("title");
+---
+
+<Base title={title}>
+  <h1>Subscribe!</h1>
+</Base>

@@ -1,0 +1,69 @@
+---
+const { page } = Astro.props;
+
+const firstPageUrl = page.url.current.replace(page.currentPage, "1");
+const firstPageLink = "<< First";
+const prevPage = page.url.prev ? page.currentPage - 1 : 0;
+const prevPageLink = "< Prev";
+const nextPage = page.url.next ? page.currentPage + 1 : 0;
+const nextPageLink = "Next >";
+const lastPageLink = "Last >>";
+const lastPageUrl = page.url.current.replace(page.currentPage, page.lastPage);
+---
+
+<div class="pager">
+  <nav id="pager">
+    {
+      page.url.prev && prevPage > 1 && (
+        <div>
+          <a href={firstPageUrl}>{firstPageLink}</a>
+        </div>
+      )
+    }
+    {
+      page.url.prev && (
+        <div>
+          <a href={page.url.prev}>{prevPageLink}</a>
+        </div>
+      )
+    }
+    <div>Page {page.currentPage} of {page.lastPage}</div>
+    {
+      page.url.next && (
+        <div>
+          <a href={page.url.next}>{nextPageLink}</a>
+        </div>
+      )
+    }
+    {
+      page.url.next && nextPage < page.lastPage && (
+        <div>
+          <a href={lastPageUrl}>{lastPageLink}</a>
+        </div>
+      )
+    }
+  </nav>
+</div>
+
+<style>
+  div.pager {
+    display: flex;
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 0.8em;
+    padding: 0.5rem 1.5rem;
+    background-color: var(--pager-bg);
+    color: var(--pager);
+    border-radius: 10px;
+  }
+  nav#pager {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 1rem;
+    justify-items: center;
+  }
+  a {
+    color: var(--pager-link-text);
+    text-decoration: none;
+  }
+</style>
