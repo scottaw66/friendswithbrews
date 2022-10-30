@@ -2,14 +2,14 @@
 import config from "config";
 import { Icon } from "astro-icon";
 import path from "path";
-import { beerList } from "../components/utilities/beerlist.mjs";
+import { brewList } from "../components/utilities/brewlist.mjs";
 import BeerDetails from "./BeerDetails.astro";
 import Player from "./Player.astro";
 import { postdate } from "./utilities/DateFormat";
 import { episodeLength } from "./utilities/episodelength.mjs";
 
 const { episode } = Astro.props;
-const beers = beerList(episode.frontmatter.slug);
+const beers = brewList(episode.frontmatter.slug);
 ---
 
 <div class="elv">

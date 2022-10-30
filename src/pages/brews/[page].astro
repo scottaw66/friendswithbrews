@@ -1,12 +1,12 @@
 ---
 import config from "config";
-import { beerList } from "../../components/utilities/beerlist.mjs";
+import { brewList } from "../../components/utilities/brewlist.mjs";
 import Base from "../../layouts/Base.astro";
 import BeerDetails from "../../components/BeerDetails.astro";
 import Pager from "../../components/Pager.astro";
 
 export async function getStaticPaths({ paginate }) {
-  const beers = beerList();
+  const beers = brewList();
 
   return paginate(beers, {
     pageSize: config.get("beerPageSize"),

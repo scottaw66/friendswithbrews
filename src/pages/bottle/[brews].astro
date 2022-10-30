@@ -1,14 +1,14 @@
 ---
 import { Icon } from "astro-icon";
 import { Picture } from "@astrojs/image/components";
-import { hostname, origin } from '../../components/utilities/urlparser.mjs';
+import { hostname, origin } from "../../components/utilities/urlparser.mjs";
 import Base from "../../layouts/Base.astro";
-import beer from "../../data/beer.json";
+import brews from "../../data/brews.json";
 
 export async function getStaticPaths() {
-  return beer.map((bottle) => ({
+  return brews.map((bottle) => ({
     params: {
-      beer: bottle.id,
+      brews: bottle.id,
     },
     props: {
       bottle,
@@ -20,17 +20,18 @@ const { bottle } = Astro.props;
 ---
 
 <Base title={bottle.name}>
-  <div class="beer-details"
+  <div
+    class="brews-details"
     data-pagefind-filter="filter by[content]"
-    content="beer"
-    data-pagefind-meta="result type:beer"
+    content="brews"
+    data-pagefind-meta="result type:brews"
   >
     <h3>{bottle.brewery}</h3>
     <h2>{bottle.name}</h2>
     <div class="bottle">
-      <a href={`/images/beer/${bottle.image}.png`}>
+      <a href={`/images/brews/${bottle.image}.png`}>
         <Picture
-          src={`/images/beer/${bottle.image}.png`}
+          src={`/images/brews/${bottle.image}.png`}
           widths={[500, 1000, 1500]}
           aspectRatio="1:1"
           sizes="(max-width: 450px) 250px, (max-width: 580px) 350px, 450px"
@@ -45,29 +46,34 @@ const { bottle } = Astro.props;
     </div>
     <div class="ratings">
       {
-          bottle.rating.map((rate) => (
+        bottle.rating.map((rate) => (
+          <>
             <div class="host">
+              <div>{rate.host} says:</div>
               <div>
-                {rate.host} says: 
-              </div>
-              <div>THUMBS 
+                THUMBS
                 {rate.vote === "thumbs-up" ? "UP" : "DOWN"}!
               </div>
               <div>
                 {rate.vote === "thumbs-up" ? (
-                   <Icon name="bi:hand-thumbs-up-fill" />
+                  <Icon name="bi:hand-thumbs-up-fill" />
                 ) : (
-                   <Icon name="bi:hand-thumbs-down-fill" />
+                  <Icon name="bi:hand-thumbs-down-fill" />
                 )}
               </div>
             </div>
-            <div class="review"><p>{rate.description}</p></div>
-          ))
-        }
+            <div class="review">
+              <p>{rate.description}</p>
+            </div>
+          </>
+        ))
+      }
     </div>
     <div class="links">
       <h4>Link</h4>
-      <a href={bottle.url}>{bottle.name}</a> on <a href={origin(bottle.url)}>{hostname(bottle.url)}</a>
+      <a href={bottle.url}>{bottle.name}</a> on <a href={origin(bottle.url)}
+        >{hostname(bottle.url)}</a
+      >
     </div>
   </div>
 </Base>
@@ -79,7 +85,7 @@ const { bottle } = Astro.props;
   h2 {
     color: var(--menu-surface);
   }
-  div.beer-details {
+  div.brews-details {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -116,7 +122,7 @@ const { bottle } = Astro.props;
   div.description p:nth-child(2)::after {
     content: '"';
   }
-  div.ratings { 
+  div.ratings {
     margin: 0 auto;
     padding: 1rem 1rem 0.5rem;
     width: 450px;
@@ -138,7 +144,8 @@ const { bottle } = Astro.props;
     font-size: 0.9em;
     font-style: italic;
   }
-  div.review p::before, div.review p::after {
+  div.review p::before,
+  div.review p::after {
     content: '"';
   }
   [astro-icon] {
