@@ -7,7 +7,7 @@ const { beer, episode } = Astro.props;
 
 <div class="beer">
   <div class="beer-image">
-    <a href={`/bottle/${beer.id}`}>
+    <a href={`/bottle/${beer.id}/`}>
       <Picture
         src={`/images/beer/${beer.image}.png`}
         widths={[400, 800, 1200]}
@@ -21,28 +21,29 @@ const { beer, episode } = Astro.props;
   <div class="beer-name">
     <div class="brewery">{beer.brewery}</div>
     <div>
-      <a href={`/bottle/${beer.id}`}>{beer.name}</a>
+      <a href={`/bottle/${beer.id}/`}>{beer.name}</a>
     </div>
     <div class="beer-details">
       <div>
         <Icon name="fluent:info-24-filled" />
       </div>
       <div>
-        <a href={`/bottle/${beer.id}`}>View Details</a>
+        <a href={`/bottle/${beer.id}/`}>View Details</a>
       </div>
       <div>•</div>
       <div class="rating">
         {
           beer.rating.map((rate) => (
-            <div>
-              {rate.host}</div>
+            <>
+              <div>{rate.host}</div>
               <div>
-              {rate.vote === "thumbs-up" ? (
-                <Icon name="bi:hand-thumbs-up-fill" />
-              ) : (
-                <Icon name="bi:hand-thumbs-down-fill" />
-              )}
-            </div>
+                {rate.vote === "thumbs-up" ? (
+                  <Icon name="bi:hand-thumbs-up-fill" />
+                ) : (
+                  <Icon name="bi:hand-thumbs-down-fill" />
+                )}
+              </div>
+            </>
           ))
         }
       </div>
@@ -113,7 +114,7 @@ const { beer, episode } = Astro.props;
     margin-top: 0.2rem;
   }
   div.rating {
-    display:flex;
+    display: flex;
     column-gap: 0.3rem;
     align-items: center;
     font-weight: bolder;
