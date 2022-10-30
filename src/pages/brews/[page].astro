@@ -13,12 +13,12 @@ export async function getStaticPaths({ paginate }) {
   });
 }
 const { page } = Astro.props;
-const title = "The Beer";
+const title = "The Brews";
 ---
 
 <Base title={title}>
   <div data-pagefind-ignore>
-    <h1>The Beer!</h1>
+    <h1>{title}!</h1>
 
     <link href="/styles/pagefind-ui.css" rel="stylesheet" />
     <script is:inline src="/_pagefind/pagefind-ui.js" type="text/javascript"
@@ -32,7 +32,7 @@ const title = "The Beer";
           showImages: false,
           showEmptyFilters: false,
           translations: {
-            placeholder: "Search Friends with Beer",
+            placeholder: "Search Friends with Brews",
           },
         });
       });
