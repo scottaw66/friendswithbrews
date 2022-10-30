@@ -7,10 +7,9 @@
     "dev:h": "export NODE_ENV=development && astro dev --host",
     "start": "npm run dev",
     "start:h": "npm run dev:h",
-    "build": "export NODE_ENV=production && astro build",
-    "build:pf": "npm run build && npx -y pagefind@latest",
-    "build:pfp": "npm run build && npx -y pagefind@latest && npm run preview",
-    "build:pfph": "npm run build && npx -y pagefind@latest && npm run preview:h",
+    "build": "export NODE_ENV=production && astro build && npx -y pagefind@latest",
+    "build:p": "npm run build && npm run preview",
+    "build:ph": "npm run build && npm run preview:h",
     "preview": "astro preview",
     "preview:h": "astro preview --host"
   },
