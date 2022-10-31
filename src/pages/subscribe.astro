@@ -58,13 +58,13 @@ const title = "Subscribe to " + config.get("title");
   div.episode-links {
     display: grid;
     gap: 1rem;
-    margin: 3rem auto 0;
+    margin: 3rem auto;
     justify-content: center;
   }
   div.download-link {
     display: flex;
     padding: 0 2rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: bold;
     align-items: center;
@@ -74,13 +74,22 @@ const title = "Subscribe to " + config.get("title");
     text-decoration: underline;
   }
   [astro-icon] {
-    height: 2rem;
-    margin: 0.5rem 1rem 0 0;
+    height: 3rem;
+    margin: 0.6rem 1rem 0 0;
+  }
+  @media screen and (max-width: 500px) {
+    div.episode-links {
+      margin: 2rem auto;
+    }
+    div.download-link {
+      font-size: 1.2rem;
+    }
+    [astro-icon] {
+      height: 2rem;
+      margin: 0.5rem 1rem 0;
+    }
   }
   @media screen and (max-width: 400px) {
-    div.episode-links {
-      margin: 2rem auto 0;
-    }
     div.download-link {
       font-size: 1rem;
     }
