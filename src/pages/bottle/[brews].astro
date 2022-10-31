@@ -2,6 +2,7 @@
 import { Icon } from "astro-icon";
 import { Picture } from "@astrojs/image/components";
 import { hostname, origin } from "../../components/utilities/urlparser.mjs";
+import { capitalize } from "../../components/utilities/stringformatter.mjs";
 import Base from "../../layouts/Base.astro";
 import brews from "../../data/brews.json";
 
@@ -21,10 +22,10 @@ const { bottle } = Astro.props;
 
 <Base title={bottle.name}>
   <div
-    class="brews-details"
+    class="brew-details"
     data-pagefind-filter="filter by[content]"
-    content="brews"
-    data-pagefind-meta="result type:brews"
+    content="brew"
+    data-pagefind-meta=`result type: ${bottle.type}`
   >
     <h3>{bottle.brewery}</h3>
     <h2>{bottle.name}</h2>
@@ -69,11 +70,19 @@ const { bottle } = Astro.props;
         ))
       }
     </div>
-    <div class="links">
-      <h4>Link</h4>
-      <a href={bottle.url}>{bottle.name}</a> on <a href={origin(bottle.url)}
-        >{hostname(bottle.url)}</a
-      >
+    <div class="type-links-container">
+      <div class="links">
+        <h4>Brew Type</h4>
+        <span data-pagefind-filter="filter by[content]" content={bottle.type}
+          >{capitalize(bottle.type)}</span
+        >
+      </div>
+      <div class="links">
+        <h4>Link</h4>
+        <a href={bottle.url}>{bottle.name}</a> on <a href={origin(bottle.url)}
+          >{hostname(bottle.url)}</a
+        >
+      </div>
     </div>
   </div>
 </Base>
@@ -85,7 +94,7 @@ const { bottle } = Astro.props;
   h2 {
     color: var(--menu-surface);
   }
-  div.brews-details {
+  div.brew-details {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -158,6 +167,10 @@ const { bottle } = Astro.props;
   [astro-icon="bi:hand-thumbs-down-fill"] {
     color: red;
   }
+  div.type-links-container {
+    display: flex;
+    column-gap: 3rem;
+  }
   div.links {
     font-size: 1rem;
   }
@@ -186,6 +199,9 @@ const { bottle } = Astro.props;
     div.host {
       column-gap: 0.4rem;
       font-size: 0.75em;
+    }
+    div.type-links-container {
+      flex-direction: column;
     }
     [astro-icon] {
       width: 1.1rem;

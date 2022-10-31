@@ -2,38 +2,38 @@
 import { Icon } from "astro-icon";
 import { Picture } from "@astrojs/image/components";
 
-const { beer, episode } = Astro.props;
+const { brew, episode } = Astro.props;
 ---
 
-<div class="beer">
-  <div class="beer-image">
-    <a href={`/bottle/${beer.id}/`}>
+<div class="brew">
+  <div class="brew-image">
+    <a href={`/bottle/${brew.id}/`}>
       <Picture
-        src={`/images/brews/${beer.image}.png`}
+        src={`/images/brews/${brew.image}.png`}
         widths={[400, 800, 1200]}
         aspectRatio="1:1"
         sizes="200px"
         formats={["avif", "webp", "png"]}
-        alt={`${beer.brewery} ${beer.name}`}
+        alt={`${brew.brewery} ${brew.name}`}
       />
     </a>
   </div>
-  <div class="beer-name">
-    <div class="brewery">{beer.brewery}</div>
+  <div class="brew-name">
+    <div class="brewery">{brew.brewery}</div>
     <div>
-      <a href={`/bottle/${beer.id}/`}>{beer.name}</a>
+      <a href={`/bottle/${brew.id}/`}>{brew.name}</a>
     </div>
-    <div class="beer-details">
+    <div class="brew-details">
       <div>
         <Icon name="fluent:info-24-filled" />
       </div>
       <div>
-        <a href={`/bottle/${beer.id}/`}>View Details</a>
+        <a href={`/bottle/${brew.id}/`}>View Details</a>
       </div>
       <div>•</div>
       <div class="rating">
         {
-          beer.rating.map((rate) => (
+          brew.rating.map((rate) => (
             <>
               <div>{rate.host}</div>
               <div>
@@ -50,16 +50,16 @@ const { beer, episode } = Astro.props;
     </div>
     {
       !episode && (
-        <div class="beer-episodes">
-          Episode{beer.episodes.length > 1 ? "s" : ""}
-          {beer.episodes.join(", ")}
+        <div class="brew-episodes">
+          Episode{brew.episodes.length > 1 ? "s" : ""}
+          {brew.episodes.join(", ")}
         </div>
       )
     }
   </div>
 </div>
 <style>
-  div.beer {
+  div.brew {
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -67,7 +67,7 @@ const { beer, episode } = Astro.props;
     column-gap: 1.5rem;
     margin: 1rem;
   }
-  div.beer-image img {
+  div.brew-image img {
     height: 8rem;
     width: 8rem;
     border: 3px solid var(--menu-surface);
@@ -75,7 +75,7 @@ const { beer, episode } = Astro.props;
     aspect-ratio: 1;
     margin-bottom: -0.6rem;
   }
-  div.beer-name a {
+  div.brew-name a {
     font-size: 1rem;
     color: var(--text);
   }
@@ -84,7 +84,7 @@ const { beer, episode } = Astro.props;
     font-size: 1.1rem;
     font-weight: bold;
   }
-  div.beer-details {
+  div.brew-details {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -92,14 +92,14 @@ const { beer, episode } = Astro.props;
     font-size: 0.6rem;
     margin: 0.5rem 0 0 0;
   }
-  div.beer-details a {
+  div.brew-details a {
     text-decoration: none;
     font-size: 0.6rem;
   }
-  div.beer-details a:hover {
+  div.brew-details a:hover {
     text-decoration: underline;
   }
-  div.beer-episodes {
+  div.brew-episodes {
     margin: 0.5rem 0 0;
     font-size: 0.8rem;
   }
@@ -125,27 +125,27 @@ const { beer, episode } = Astro.props;
     }
   }
   @media screen and (min-width: 440px) and (max-width: 800px) {
-    div.beer {
+    div.brew {
       width: 98%;
     }
-    div.beer-name {
+    div.brew-name {
       font-size: 0.9rem;
     }
   }
   @media screen and (max-width: 439.98px) {
-    div.beer {
+    div.brew {
       width: 98%;
       flex-direction: column;
       align-items: flex-start;
       row-gap: 0.5rem;
     }
-    div.beer-image img {
+    div.brew-image img {
       margin-bottom: 0.5rem;
     }
     div.brewery {
       font-size: 1rem;
     }
-    div.beer-name {
+    div.brew-name {
       font-size: 0.9rem;
     }
   }

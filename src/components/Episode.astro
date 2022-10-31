@@ -3,13 +3,13 @@ import config from "config";
 import { Icon } from "astro-icon";
 import path from "path";
 import { brewList } from "../components/utilities/brewlist.mjs";
-import BeerDetails from "./BeerDetails.astro";
+import BrewDetails from "./BrewDetails.astro";
 import Player from "./Player.astro";
 import { postdate } from "./utilities/DateFormat";
 import { episodeLength } from "./utilities/episodelength.mjs";
 
 const { episode, audio, index, pageNum } = Astro.props;
-const beers = brewList(episode.frontmatter.slug);
+const brews = brewList(episode.frontmatter.slug);
 ---
 
 <div
@@ -100,11 +100,11 @@ const beers = brewList(episode.frontmatter.slug);
     </div>
   </div>
 
-  <h2>The Beer</h2>
-  <div class="beer-container">
+  <h2>The brew</h2>
+  <div class="brew-container">
     {
-      beers.map((beer) => (
-        <BeerDetails beer={beer} episode={episode.frontmatter.slug} />
+      brews.map((brew) => (
+        <BrewDetails brew={brew} episode={episode.frontmatter.slug} />
       ))
     }
   </div>

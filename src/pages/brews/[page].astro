@@ -2,7 +2,7 @@
 import config from "config";
 import { brewList } from "../../components/utilities/brewlist.mjs";
 import Base from "../../layouts/Base.astro";
-import BeerDetails from "../../components/BeerDetails.astro";
+import BrewDetails from "../../components/BrewDetails.astro";
 import Pager from "../../components/Pager.astro";
 
 export async function getStaticPaths({ paginate }) {
@@ -39,8 +39,8 @@ const title = "The Brews";
     </script>
 
     <Pager page={page} />
-    <div class="beer-container">
-      {page.data.map((beer) => <BeerDetails beer={beer} />)}
+    <div class="brew-container">
+      {page.data.map((brew) => <BrewDetails brew={brew} />)}
     </div>
     <Pager page={page} />
   </div>
