@@ -10,6 +10,8 @@ import { year } from "./utilities/DateFormat.js";
   <div>
     {config.get("name")}
   </div>
+  <div>•</div>
+  <div><a href="/subscribe">Subscribe</a></div>
 </div>
 
 <style>
@@ -27,10 +29,20 @@ import { year } from "./utilities/DateFormat.js";
     background-color: var(--menu-surface);
     color: var(--menu-text);
   }
-
+  .footer a {
+    color: var(--menu-text);
+  }
   [astro-icon] {
     height: 1rem;
     margin: 0 0 -0.1rem;
     padding: 0;
+  }
+  @media screen and (max-width: 450px) {
+    .footer {
+      font-size: 0.8rem;
+    }
+    [astro-icon] {
+      margin: 0 0 -0.2rem;
+    }
   }
 </style>
