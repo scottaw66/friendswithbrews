@@ -1,0 +1,77 @@
+---
+import config from "config";
+import { Icon } from "astro-icon";
+
+const { episode } = Astro.props;
+---
+
+<div class="episode-links">
+  <div class="download-link">
+    <div>
+      <a
+        href={`${config.get("episodes.audioPrefix")}${
+          episode.frontmatter.audioFile
+        }`}
+      >
+        <Icon name="mdi:cloud-download" />
+      </a>
+    </div>
+    <div>
+      <a
+        href={`${config.get("episodes.audioPrefix")}/${
+          episode.frontmatter.audioFile
+        }`}>Download</a
+      >
+    </div>
+  </div>
+  <div class="download-link">
+    <div>
+      <a href={config.get("social.overcast")}>
+        <Icon name="simple-icons:overcast" />
+      </a>
+    </div>
+    <div><a href={config.get("social.overcast")}>Overcast</a></div>
+  </div>
+  <div class="download-link">
+    <div>
+      <a href={config.get("social.applePodcasts")}>
+        <Icon name="simple-icons:applepodcasts" />
+      </a>
+    </div>
+    <div>
+      <a href={config.get("social.applePodcasts")}>Apple Podcasts</a>
+    </div>
+  </div>
+</div>
+
+<style>
+  div.episode-links {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  div.download-link {
+    display: flex;
+    padding: 0 2rem;
+    font-size: 0.6em;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-items: center;
+  }
+  div.download-link a {
+    color: var(--text);
+    text-decoration: underline;
+  }
+  @media screen and (max-width: 500px) {
+    div.episode-links {
+      flex-direction: column;
+      row-gap: 0.3rem;
+    }
+  }
+  [astro-icon="mdi:cloud-download"],
+  [astro-icon="simple-icons:overcast"],
+  [astro-icon="simple-icons:applepodcasts"] {
+    height: 1.5rem;
+    margin: 0.1rem 0.7rem 0 0;
+  }
+</style>

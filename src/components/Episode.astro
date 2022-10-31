@@ -5,6 +5,7 @@ import path from "path";
 import { brewList } from "../components/utilities/brewlist.mjs";
 import BrewDetails from "./BrewDetails.astro";
 import Player from "./Player.astro";
+import PodcastLinks from "./PodcastLinks.astro";
 import { postdate } from "./utilities/DateFormat";
 import { episodeLength } from "./utilities/episodelength.mjs";
 
@@ -61,44 +62,7 @@ const brews = brewList(episode.frontmatter.slug);
     }
   }
 
-  <div class="episode-links">
-    <div class="download-link">
-      <div>
-        <a
-          href={`${config.get("episodes.audioPrefix")}${
-            episode.frontmatter.audioFile
-          }`}
-        >
-          <Icon name="mdi:cloud-download" />
-        </a>
-      </div>
-      <div>
-        <a
-          href={`${config.get("episodes.audioPrefix")}/${
-            episode.frontmatter.audioFile
-          }`}>Download</a
-        >
-      </div>
-    </div>
-    <div class="download-link">
-      <div>
-        <a href={config.get("social.overcast")}>
-          <Icon name="simple-icons:overcast" />
-        </a>
-      </div>
-      <div><a href={config.get("social.overcast")}>Overcast</a></div>
-    </div>
-    <div class="download-link">
-      <div>
-        <a href={config.get("social.applePodcasts")}>
-          <Icon name="simple-icons:applepodcasts" />
-        </a>
-      </div>
-      <div>
-        <a href={config.get("social.applePodcasts")}>Apple Podcasts</a>
-      </div>
-    </div>
-  </div>
+  <PodcastLinks episode={episode} />
 
   <h2>The brew</h2>
   <div class="brew-container">
@@ -134,35 +98,6 @@ const brews = brewList(episode.frontmatter.slug);
   [astro-icon="fluent:calendar-rtl-48-filled"] {
     height: 1rem;
     margin: 0 0.25rem -0.25em 0;
-  }
-  div.episode-links {
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-  }
-  div.download-link {
-    display: flex;
-    padding: 0 2rem;
-    font-size: 0.6em;
-    text-transform: uppercase;
-    font-weight: bold;
-    align-items: center;
-  }
-  div.download-link a {
-    color: var(--text);
-    text-decoration: underline;
-  }
-  @media screen and (max-width: 500px) {
-    div.episode-links {
-      flex-direction: column;
-      row-gap: 0.3rem;
-    }
-  }
-  [astro-icon="mdi:cloud-download"],
-  [astro-icon="simple-icons:overcast"],
-  [astro-icon="simple-icons:applepodcasts"] {
-    height: 1.5rem;
-    margin: 0.1rem 0.7rem 0 0;
   }
   a {
     color: var(--menu-surface);

@@ -1,5 +1,7 @@
 ---
 import config from "config";
+import { Icon } from "astro-icon";
+import { url } from "../components/utilities/urlparser.mjs";
 import Base from "../layouts/Base.astro";
 
 const title = "Subscribe to " + config.get("title");
@@ -7,4 +9,83 @@ const title = "Subscribe to " + config.get("title");
 
 <Base title={title}>
   <h1>Subscribe!</h1>
+  <p>
+    Please freely subscribe to our podcast so you never miss an episode! And by
+    freely, I mean free, because it may cost you some time, but it won't cost
+    you a dime!
+  </p>
+  <p>
+    <span class="podcast-name">{config.get("title")}</span> is available directly
+    using our RSS feed, or on the following platforms.
+  </p>
+
+  <div class="episode-links">
+    <div class="download-link">
+      <div>
+        <a href={config.get("social.overcast")}>
+          <Icon name="simple-icons:overcast" />
+        </a>
+      </div>
+      <div><a href={config.get("social.overcast")}>Overcast</a></div>
+    </div>
+    <div class="download-link">
+      <div>
+        <a href={config.get("social.applePodcasts")}>
+          <Icon name="simple-icons:applepodcasts" />
+        </a>
+      </div>
+      <div>
+        <a href={config.get("social.applePodcasts")}>Apple Podcasts</a>
+      </div>
+    </div>
+    <div class="download-link">
+      <div>
+        <a href={url(config.get("url"), config.get("rss.fileName"))}>
+          <Icon name="simple-icons:rss" />
+        </a>
+      </div>
+      <div>
+        <a href={url(config.get("url"), config.get("rss.fileName"))}>RSS</a>
+      </div>
+    </div>
+  </div>
 </Base>
+
+<style>
+  span.podcast-name {
+    font-weight: bold;
+  }
+  div.episode-links {
+    display: grid;
+    gap: 1rem;
+    margin: 3rem auto 0;
+    justify-content: center;
+  }
+  div.download-link {
+    display: flex;
+    padding: 0 2rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-items: center;
+  }
+  div.download-link a {
+    color: var(--text);
+    text-decoration: underline;
+  }
+  [astro-icon] {
+    height: 2rem;
+    margin: 0.5rem 1rem 0 0;
+  }
+  @media screen and (max-width: 400px) {
+    div.episode-links {
+      margin: 2rem auto 0;
+    }
+    div.download-link {
+      font-size: 1rem;
+    }
+    [astro-icon] {
+      height: 1.5rem;
+    }
+  }
+</style>
