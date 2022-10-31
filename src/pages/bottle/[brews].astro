@@ -2,7 +2,10 @@
 import { Icon } from "astro-icon";
 import { Picture } from "@astrojs/image/components";
 import { hostname, origin } from "../../components/utilities/urlparser.mjs";
-import { capitalize } from "../../components/utilities/stringformatter.mjs";
+import {
+  capitalize,
+  brewIcon,
+} from "../../components/utilities/stringformatter.mjs";
 import Base from "../../layouts/Base.astro";
 import brews from "../../data/brews.json";
 
@@ -73,9 +76,12 @@ const { bottle } = Astro.props;
     <div class="type-links-container">
       <div class="links">
         <h4>Brew Type</h4>
-        <span data-pagefind-filter="filter by[content]" content={bottle.type}
-          >{capitalize(bottle.type)}</span
-        >
+        <div class="brew-type">
+          <Icon name={brewIcon(bottle.type)} />
+          <span data-pagefind-filter="filter by[content]" content={bottle.type}
+            >{capitalize(bottle.type)}</span
+          >
+        </div>
       </div>
       <div class="links">
         <h4>Link</h4>
@@ -171,6 +177,10 @@ const { bottle } = Astro.props;
     display: flex;
     flex-direction: column;
     row-gap: 0.5rem;
+  }
+  div.brew-type [astro-icon] {
+    width: 1.2rem;
+    margin: 0 0.2rem -0.2em 0;
   }
   div.links {
     font-size: 1rem;

@@ -1,7 +1,7 @@
 ---
 import { Icon } from "astro-icon";
 import { Picture } from "@astrojs/image/components";
-import { capitalize } from "./utilities/stringformatter.mjs";
+import { capitalize, brewIcon } from "./utilities/stringformatter.mjs";
 
 const { brew, episode } = Astro.props;
 ---
@@ -19,19 +19,12 @@ const { brew, episode } = Astro.props;
       />
     </a>
   </div>
-  <div class="brew-name">
+  <div class="brew-text">
     <div class="brewery">{brew.brewery}</div>
-    <div>
+    <div class="brew-name">
       <a href={`/bottle/${brew.id}/`}>{brew.name}</a>
     </div>
     <div class="brew-details">
-      <div>
-        <Icon name="fluent:info-24-filled" />
-      </div>
-      <div>
-        <a href={`/bottle/${brew.id}/`}>View Details</a>
-      </div>
-      <div>•</div>
       <div class="rating">
         {
           brew.rating.map((rate) => (
@@ -50,7 +43,16 @@ const { brew, episode } = Astro.props;
       </div>
     </div>
     <div class="brew-type">
-      <Icon name="cil:mug-tea" />{capitalize(brew.type)}
+      <div>
+        <Icon name={brewIcon(brew.type)} />
+      </div>
+      <div>{capitalize(brew.type)}</div>
+      <div>
+        <Icon name="fluent:info-24-filled" />
+      </div>
+      <div>
+        <a href={`/bottle/${brew.id}/`}>View Details</a>
+      </div>
     </div>
     {
       !episode && (
@@ -80,7 +82,7 @@ const { brew, episode } = Astro.props;
     aspect-ratio: 1;
     margin-bottom: -0.6rem;
   }
-  div.brew-name a {
+  div.brew-text a {
     font-size: 1rem;
     color: var(--text);
   }
@@ -89,13 +91,16 @@ const { brew, episode } = Astro.props;
     font-size: 1.1rem;
     font-weight: bold;
   }
+  div.brew-name {
+    margin-bottom: 0.3rem;
+  }
   div.brew-details {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 0.3rem;
     font-size: 0.6rem;
-    margin: 0.5rem 0 0 0;
+    margin: 0.2rem 0;
   }
   div.brew-details a {
     text-decoration: none;
@@ -105,33 +110,32 @@ const { brew, episode } = Astro.props;
     text-decoration: underline;
   }
   div.brew-episodes {
-    margin: 0.5rem 0 0;
+    margin: 0.25rem 0 0;
     font-size: 0.8rem;
-  }
-  [astro-icon="fluent:info-24-filled"] {
-    font-size: 2rem;
-    width: 0.75rem;
-    margin: 0 0 -0.075em 0;
-  }
-  [astro-icon="bi:hand-thumbs-up-fill"],
-  [astro-icon="bi:hand-thumbs-down-fill"] {
-    width: 0.7rem;
-    margin-top: 0.2rem;
   }
   div.rating {
     display: flex;
     column-gap: 0.3rem;
     align-items: center;
+    justify-content: center;
     font-weight: bolder;
+  }
+  div.rating [astro-icon] {
+    width: 0.7rem;
+    margin-top: 0.2rem;
   }
   div.brew-type {
     display: flex;
-    font-size: 0.9rem;
-    row-gap: 0.5rem;
-    gap: 0.5rem;
+    gap: 0.3rem;
+    font-size: 0.6rem;
+    margin: 0.2rem 0;
+  }
+  div.brew-type a {
+    font-size: 0.6rem;
   }
   div.brew-type [astro-icon] {
-    width: 1rem;
+    width: 0.8rem;
+    margin: 0 0 -0.2em;
   }
   @media screen and (max-width: 900px) {
     div.brewery {
@@ -142,7 +146,7 @@ const { brew, episode } = Astro.props;
     div.brew {
       width: 98%;
     }
-    div.brew-name {
+    div.brew-details {
       font-size: 0.9rem;
     }
   }
@@ -159,7 +163,7 @@ const { brew, episode } = Astro.props;
     div.brewery {
       font-size: 1rem;
     }
-    div.brew-name {
+    div.brew-details {
       font-size: 0.9rem;
     }
   }
