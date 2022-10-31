@@ -132,7 +132,7 @@ const { bottle } = Astro.props;
     content: '"';
   }
   div.ratings {
-    margin: 0 auto;
+    margin: 0 auto 1rem;
     padding: 1rem 1rem 0.5rem;
     width: 450px;
     border: 1px solid var(--menu-surface);
@@ -169,7 +169,8 @@ const { bottle } = Astro.props;
   }
   div.type-links-container {
     display: flex;
-    column-gap: 3rem;
+    flex-direction: column;
+    row-gap: 0.5rem;
   }
   div.links {
     font-size: 1rem;
@@ -199,9 +200,6 @@ const { bottle } = Astro.props;
     div.host {
       column-gap: 0.4rem;
       font-size: 0.75em;
-    }
-    div.type-links-container {
-      flex-direction: column;
     }
     [astro-icon] {
       width: 1.1rem;
