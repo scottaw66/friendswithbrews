@@ -1,5 +1,41 @@
 [
   {
+    "id": "BGGz74qEwK73ZVZq-4awm",
+    "name": "Subtle Beauty",
+    "brewery": "Trailhead Coffee Roasters",
+    "image": "TrailheadCoffeeRoastersSubtleBeauty-3CE1E6AD-3F27-4E45-99DE-23456AE242B2",
+    "description": "Most high end coffees are like a musical soloist with other musicians in the background where the soloist is the important part. This coffee breaks from that formula where there’s no stand out berry note or chocolate note or aroma of Jasmine. Instead it’s just a lovely balanced cup with autumnal mojo happening. We’re getting aroma notes of: Date, Pecan Roll and Cinnamon Toast. In the cup, we’re tasting Apricot, Pie Crust and Brown Sugar. This coffee is worthy of precise brewing and experimentation. Pay special attention to how this coffee cools as the flavors shift delightfully.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["15"],
+    "url": "https://www.trailheadcoffeeroasters.com/coffee/sunbreak-medium-blend-coffee-portland-coffee-roasters-7hh59-arcdz-6fkgn",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "Trailhead is one of my favorite local roasters, and this is a very nice mellow roast. I love the lighter brown, non-greasy beans, and this has those plus nice easy flavor."
+      }
+    ]
+  },
+  {
+    "id": "yPuTV0q3T75n8JlEI1CL-",
+    "name": "Decaf Espresso Whole Bean Roast",
+    "brewery": "Wegmans",
+    "image": "WegmansDecafEspressoWholeBean-3CE1E6AD-3F27-4E45-99DE-23456AE242B2",
+    "description": "Bold, decaffeinated dark roast coffee that is smooth with notes of dark chocolate, cocoa and spice. 100% Arabica coffee, sourced and roasted with care to deliver a delightful coffee experience in every cup. Perfect for espresso shot and espresso based drinks.Our Food You Feel Good About yellow banner is your shortcut to great-tasting products with no artificial colors, flavors or preservatives.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["15"],
+    "url": "https://shop.wegmans.com/product/109476/wegmans-decaf-espresso-whole-bean-coffee",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "This is the best store brand decaf coffee I have had the pleasure of sipping. I only wish they sold it in 5 pound bags."
+      }
+    ]
+  },
+  {
     "id": "OShp7ovkwb6F14mpRqFbw",
     "name": "Hell or High Watermelon",
     "brewery": "21st Amendment Brewery",
