@@ -42,7 +42,9 @@ const hosts = Array.from(hostsJson);
                     <Icon name={social.icon} />
                   </div>
                   <div>
-                    <a href={social.url}>{social.name}</a>
+                    <a rel="me" href={social.url}>
+                      {social.name}
+                    </a>
                   </div>
                 </div>
               ))}

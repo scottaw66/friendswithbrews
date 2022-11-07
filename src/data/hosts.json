@@ -26,10 +26,10 @@
     "bio": "Scott is an old school semiconductor guy, painfully infrequent writer, and off and on podcaster. Scott loves playing with computers, biking, running, yoga, and cats. Most of all, Scott loves his amazing family.",
     "socials": [
       {
-        "type": "twitter",
-        "name": "@scottaw",
-        "url": "https://twitter.com/scottaw",
-        "icon": "fontisto:twitter"
+        "type": "mastodon",
+        "name": "@scottaw@fediverse.cyou",
+        "url": "https://fediverse.cyou/scottaw",
+        "icon": "simple-icons:mastodon"
       },
       {
         "type": "website",
@@ -39,15 +39,15 @@
       },
       {
         "type": "mastodon",
-        "name": "@scottaw@fediverse.cyou",
-        "url": "https://fediverse.cyou/scottaw",
-        "icon": "simple-icons:mastodon"
-      },
-      {
-        "type": "mastodon",
         "name": "@scottaw@mstdn.guru",
         "url": "https://mstdn.guru/web/accounts/26730#",
         "icon": "simple-icons:mastodon"
+      },
+      {
+        "type": "twitter",
+        "name": "@scottaw",
+        "url": "https://twitter.com/scottaw",
+        "icon": "fontisto:twitter"
       }
     ]
   }

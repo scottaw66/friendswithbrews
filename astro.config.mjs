@@ -9,7 +9,13 @@ export default defineConfig({
   site: "https://friendswithbeer.com/",
   trailingSlash: "ignore",
   outDir: "dist",
-  integrations: [sitemap(), image(), mdx()],
+  integrations: [
+    sitemap(),
+    image({
+      serviceEntryPoint: "@astrojs/image/sharp",
+    }),
+    mdx(),
+  ],
   markdown: {
     remarkPlugins: [remarkGfm],
     extendDefaultPlugins: true,
