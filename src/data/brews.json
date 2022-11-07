@@ -1,5 +1,59 @@
 [
   {
+    "id": "pepPMWemms8Ng4T2UfaIj",
+    "name": "Oktoberfest",
+    "brewery": "Warsteiner",
+    "image": "WarsteinerOktoberfest-33698534-FCC0-48C4-987F-055044A9457F",
+    "description": "Dedicating the world’s biggest public festival to beer might seem silly to some, but we Germans are very serious about that – as serious as we are about our limited Warsteiner Oktoberfest Special Edition. This beer is brewed with hand-selected hops, Munich-type spring barley malt and extra-soft brewing water from the Arnsberg forest nature park. Its well-balanced taste will make you feel like you are part of the Oktoberfest, wherever you are.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["16"],
+    "url": "https://warsteiner.us/our-beer/oktoberfest",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "It’s like if a light beer married a German. It wasn’t that great, but not that bad either. Not my first go-to Oktoberfest, but I would drink it even if not desperate."
+      }
+    ]
+  },
+  {
+    "id": "_nom1iFfXdNnX9pD4YRZk",
+    "name": "BeachLife POG Pale Ale",
+    "brewery": "GoodLife",
+    "image": "GoodLifeBeachLife-33698534-FCC0-48C4-987F-055044A9457F",
+    "description": "Beach Life P.O.G Pale Ale is a tropical twist on a classic Pale Ale. Brewed with Amarillo, Cascade, and Idaho 7 hops, these fruit-forward aroma hops, and a moderate dose of P.O.G. “Passionfruit, Orange, and Guava” lend to this very drinkable fruit-forward P.O.G. Pale Ale! The first sip will have you living your beach life and take you to the islands with your toes in the sand.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["16"],
+    "url": "https://www.goodlifebrewing.com/beach-life-pog-pale-ale/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "When I saw the can, I had mixed feelings, just like the mix of fruit inside this beer. But I like it! It's good! I'll drink more!"
+      }
+    ]
+  },
+  {
+    "id": "RseuPZfNCVU8f9p7P_UDM",
+    "name": "Single Track",
+    "brewery": "Backporch Coffee Roasters",
+    "image": "BackporchSingleTrack-33698534-FCC0-48C4-987F-055044A9457F",
+    "description": "Single Track is our single origin rotating espresso at Backporch. For this Single Track we chose a coffee from Antigua Guatemala under the name of Hunapu. Coffees from Antigua have depth and sweetness going for them, as well as some nice fruited notes. We found this coffee to have notes of: dried fig, cacao nibs and molasses. This coffee is suitable for both espresso and filter.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["16"],
+    "url": "https://www.backporchcoffeeroasters.com/buyonline/singletrack",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "For some reaon I was pessimistic about this becuase I bought it when Whole Foods was out of Trailhead. But I really, really like it! It's smooth and mellow and it's very easy to brew without acidity or overly strong flavor. Do recommend."
+      }
+    ]
+  },
+  {
     "id": "BGGz74qEwK73ZVZq-4awm",
     "name": "Subtle Beauty",
     "brewery": "Trailhead Coffee Roasters",
