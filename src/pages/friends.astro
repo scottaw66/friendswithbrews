@@ -53,40 +53,6 @@ const hosts = Array.from(hostsJson);
         </div>
       ))
     }
-    <div class="host">
-      <div class="host-image">
-        <a href="/images/FwBrews3000.png">
-          <Picture
-            src={fwbpng}
-            widths={[400, 800, 1200]}
-            aspectRatio="1:1"
-            sizes="200px"
-            formats={["avif", "webp"]}
-            alt="FriendswBrews on Twitter"
-          />
-        </a>
-      </div>
-      <div class="host-details">
-        <h2>FriendswBrews</h2>
-        <p>
-          FriendswBrews is just a Twitter account, but it's definitely one you
-          should follow! It never talks too much, and it always knows when a new
-          episode is out!
-        </p>
-        <div class="host-socials">
-          <div class="social">
-            <div>
-              <Icon name={config.get("social.twitterIcon")} />
-            </div>
-            <div>
-              <a href={config.get("social.twitter")}>
-                {config.get("social.twitterName")}
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </Base>
 
