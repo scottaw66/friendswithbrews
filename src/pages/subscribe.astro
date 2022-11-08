@@ -48,6 +48,18 @@ const title = "Subscribe to " + config.get("title");
         <a href={url(config.get("url"), config.get("rss.fileName"))}>RSS</a>
       </div>
     </div>
+    <div class="download-link">
+      <div>
+        <a href={config.get("social.twitter")}>
+          <Icon name={config.get("social.twitterIcon")} />
+        </a>
+      </div>
+      <div>
+        <a href={config.get("social.twitter")}
+          >{config.get("social.twitterName")}</a
+        >
+      </div>
+    </div>
   </div>
 </Base>
 

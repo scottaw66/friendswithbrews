@@ -54,6 +54,11 @@ const hosts = Array.from(hostsJson);
       ))
     }
   </div>
+  <div class="links">
+    <a href="https://twitter.com/friendswbrews">
+      <Icon name="fontisto:twitter" />
+    </a>
+  </div>
 </Base>
 
 <style>
@@ -90,15 +95,24 @@ const hosts = Array.from(hostsJson);
     row-gap: 1rem;
     flex-wrap: wrap;
   }
-  div.host-socials a {
+  div.host-socials a,
+  div.links a {
     color: var(--menu-surface);
     font-weight: bolder;
   }
-  div.social {
+  div.social,
+  div.links {
     display: flex;
     align-items: center;
     column-gap: 0.5rem;
     max-width: fit-content;
+  }
+  div.links {
+    margin: 5rem auto 3rem;
+    justify-content: center;
+  }
+  div.links [astro-icon] {
+    height: 3rem;
   }
   [astro-icon] {
     height: 1.5rem;
