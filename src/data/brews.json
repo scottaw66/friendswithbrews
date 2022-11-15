@@ -1,5 +1,59 @@
 [
   {
+    "id": "xdfZIGpFEGTOon3P257hk",
+    "name": "White",
+    "brewery": "Hoegaarden",
+    "image": "HoegaardenWhite-70B17CCA-621A-40B6-BF26-9CC4A1DC0C99",
+    "description": "The Original Belgian Wheat Beer. Almost 600 years ago in the Belgian village of Hoegaarden, a band of monks experimented by adding oddball botanicals from halfway around the world to their traditional wheat beer. Our recipe, inspired by their creation, is a beer with a refreshing flavor and captivating aroma, unlike any in the world. Let the refreshing citrus and earthy coriander alleviate the stresses of modern living and whisk you to another place entirely. You might call it divine inspiration... we call it Hoegaarden.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["17"],
+    "url": "https://hoegaarden.com/the-beers/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "It’s a touch weak and a lot wheat."
+      }
+    ]
+  },
+  {
+    "id": "GeH68jDZ4g-CmHOYuFe_F",
+    "name": "Santa's Private Reserve Honey Mama's",
+    "brewery": "Rogue",
+    "image": "RogueSantasReserveHoneyMamas-70B17CCA-621A-40B6-BF26-9CC4A1DC0C99",
+    "description": "Santa has always been convinced that all great confections come from the North Pole, so we reached out to our friends at Honey Mama’s to help us show him otherwise. The Honey Mama’s crew whipped up some of their favorite tasty treats and we sent them up to Santa in a care package. It’s safe to say he feels a bit differently now, for mere minutes after receiving the delivery Santa was on the phone with us gushing about the delicious goodies, begging us to recreate this in his annual Private Reserve. Per his request. we teamed up with Honey Mama’s to create this tahini, tangerine and chocolate flavored stout. Santa is sure to love it. and so are you.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["17"],
+    "url": "https://www.rogue.com/shop/beer/seasonal/santas-private-reserve/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "Quite good, much better than last year's Santa's Private Reserve. I enjoy it even though I probably won't buy it again."
+      }
+    ]
+  },
+  {
+    "id": "nTc75sTeZZyKts5GnY0D-",
+    "name": "Festivale",
+    "brewery": "Terminal Gravity Brewing",
+    "image": "TerminalGravityFestival-70B17CCA-621A-40B6-BF26-9CC4A1DC0C99",
+    "description": "It’s raining outside, the fireplace is lit, and you’ve just finished the book you’ve been reading for awhile. A family member comes in and asks if you want a Festivale. Could you really say no? Festivale is a classic TG rendition of a Winter Warmer. Brewed to be fairly dry, yet highly drinkable. With a complex malt and hop profile and a full, rounded, deep ruby colored body- Festivale is a winter favorite that rings true to a wide variety of beer drinkers.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["17"],
+    "url": "https://terminalgravitybrewing.com/festivale",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": ""
+      }
+    ]
+  },
+  {
     "id": "pepPMWemms8Ng4T2UfaIj",
     "name": "Oktoberfest",
     "brewery": "Warsteiner",
@@ -43,7 +97,7 @@
     "description": "Single Track is our single origin rotating espresso at Backporch. For this Single Track we chose a coffee from Antigua Guatemala under the name of Hunapu. Coffees from Antigua have depth and sweetness going for them, as well as some nice fruited notes. We found this coffee to have notes of: dried fig, cacao nibs and molasses. This coffee is suitable for both espresso and filter.",
     "type": "coffee",
     "sortOrder": "0",
-    "episodes": ["16"],
+    "episodes": ["16", "17"],
     "url": "https://www.backporchcoffeeroasters.com/buyonline/singletrack",
     "rating": [
       {
