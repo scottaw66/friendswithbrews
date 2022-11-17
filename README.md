@@ -6,6 +6,6 @@
 
 All content &copy; 2022 by Scott Willsey
 
-Pour a cold one (or two) and enjoy!!!
+Pour a cold one (or two) or a hot one (or two) and enjoy!!!
 
 [🌎](https://friendswithbrews.com) ・ [🐦](https://twitter.com/friendswbrews) ・ [🍻](https://friendswithbrews.com/brews/)
