@@ -27,8 +27,8 @@
     "socials": [
       {
         "type": "mastodon",
-        "name": "@scottaw@fediverse.cyou",
-        "url": "https://fediverse.cyou/scottaw",
+        "name": "@scottaw@appdot.net",
+        "url": "https://appdot.net/@scottaw",
         "icon": "simple-icons:mastodon"
       },
       {
@@ -36,12 +36,6 @@
         "url": "https://scottwillsey.com",
         "name": "scottwillsey.com",
         "icon": "fontisto:safari"
-      },
-      {
-        "type": "mastodon",
-        "name": "@scottaw@mstdn.guru",
-        "url": "https://mstdn.guru/web/accounts/26730#",
-        "icon": "simple-icons:mastodon"
       },
       {
         "type": "twitter",
