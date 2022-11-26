@@ -1,12 +1,8 @@
 ---
-import config from "config";
 import { Picture } from "@astrojs/image/components";
 import { Icon } from "astro-icon";
 import Base from "../layouts/Base.astro";
 import hostsJson from "../data/hosts.json";
-
-import fwbpng from "../../public/images/FwBrews3000.png";
-import { openConfig } from "astro/dist/core/config";
 
 const title = "The Friends";
 const hosts = Array.from(hostsJson);
@@ -53,11 +49,6 @@ const hosts = Array.from(hostsJson);
         </div>
       ))
     }
-  </div>
-  <div class="links">
-    <a href="https://twitter.com/friendswbrews">
-      <Icon name="fontisto:twitter" />
-    </a>
   </div>
 </Base>
 
