@@ -6,16 +6,22 @@
     "bio": "Peter Nikolaidis discovered his passion for computers and information technology at a young age. An IT and security professional, Peter practices yoga, martial arts, running, biking, as well as self-improvement and mindfulness.",
     "socials": [
       {
-        "type": "twitter",
-        "name": "@nikolaidis",
-        "url": "https://twitter.com/nikolaidis",
-        "icon": "fontisto:twitter"
+        "type": "mastodon",
+        "name": "@nikolaidis@infosec.exchange",
+        "url": "https://infosec.exchange/@nikolaidis",
+        "icon": "simple-icons:mastodon"
       },
       {
         "type": "website",
         "url": "https://pn72.com/",
         "name": "pn72.com",
         "icon": "fontisto:safari"
+      },
+      {
+        "type": "twitter",
+        "name": "@nikolaidis",
+        "url": "https://twitter.com/nikolaidis",
+        "icon": "fontisto:twitter"
       }
     ]
   },
