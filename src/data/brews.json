@@ -1,5 +1,41 @@
 [
   {
+    "id": "73Q-2Cn6D91UaxitM_Nh3",
+    "name": "Breakfast Blend",
+    "brewery": "Starbucks",
+    "image": "StarbucksBreakfastBlend-0LTB9Qk1FVPKueeN5r6hm",
+    "description": "Notes of sweet orange and brown sugar mingle in our lightest medium roast coffee.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["18"],
+    "url": "https://athome.starbucks.com/products/breakfast-blend-whole-bean",
+    "rating": [
+      {
+        "host": "Adam",
+        "vote": "thumbs-up",
+        "description": "It’s more about the French Press and less about the coffee."
+      }
+    ]
+  },
+  {
+    "id": "IbrJABpbwNuPAEbkm8p0r",
+    "name": "Red",
+    "brewery": "Delirium",
+    "image": "DeliriumRed-0LTB9Qk1FVPKueeN5r6hm",
+    "description": "Deep dark red colour, with a light pink, compact and lacing head. Soft fruity aroma, with hints of almond and mildly sour cherries. Sweet and fruity, with a nice balance between sweet and sour. An excellent dessert beer.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["18"],
+    "url": "https://www.delirium.be/en/beers/delirium-red",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-down",
+        "description": "A little too sweet, a little too much like drinking cherry syrup"
+      }
+    ]
+  },
+  {
     "id": "xdfZIGpFEGTOon3P257hk",
     "name": "White",
     "brewery": "Hoegaarden",
@@ -133,7 +169,7 @@
     "description": "Bold, decaffeinated dark roast coffee that is smooth with notes of dark chocolate, cocoa and spice. 100% Arabica coffee, sourced and roasted with care to deliver a delightful coffee experience in every cup. Perfect for espresso shot and espresso based drinks.Our Food You Feel Good About yellow banner is your shortcut to great-tasting products with no artificial colors, flavors or preservatives.",
     "type": "coffee",
     "sortOrder": "0",
-    "episodes": ["15"],
+    "episodes": ["15", "18"],
     "url": "https://shop.wegmans.com/product/109476/wegmans-decaf-espresso-whole-bean-coffee",
     "rating": [
       {
