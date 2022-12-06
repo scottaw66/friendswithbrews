@@ -1,5 +1,77 @@
 [
   {
+    "id": "ilwyMGV0C7_un7HPSJzD_",
+    "name": "Sunbreak Morning Blend",
+    "brewery": "Trailhead",
+    "image": "TrailheadSunbreakMorningBlend-JGQrp_h5OE2UfrpIl6-gv",
+    "description": "With notes of chocolate and nuts, this is an ideal coffee when you need to satisfy a wide range of coffee drinkers. Family gathering with some crusty bugger demanding darkness and your fancy people from PDX who will not tolerate bitterness except well… never mind.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["19"],
+    "url": "https://www.trailheadcoffeeroasters.com/coffee/sunbreak-medium-blend-coffee-portland-coffee-roasters",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "I do love me a good Trailhead, and this is a nice mellow one."
+      }
+    ]
+  },
+  {
+    "id": "a65WohEvv_NpXYmE6yprH",
+    "name": "Gingerbread Flavored Tea",
+    "brewery": "Wegmans",
+    "image": "WegmansGingerbreadTea-JGQrp_h5OE2UfrpIl6-gv",
+    "description": "Limited Edition. Our Food You Feel Good About yellow banner is your shortcut to great-tasting products with no artificial colors, flavors or preservatives.",
+    "type": "tea",
+    "sortOrder": "0",
+    "episodes": ["19"],
+    "url": "https://shop.wegmans.com/product/230531/wegmans-just-tea-gingerbread-flavored-black-tea-bags-20-count",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "A black tea with caramel notes. It has a very smooth mouth feel to it."
+      }
+    ]
+  },
+  {
+    "id": "L0ze4Yv7b2zw7XiBKGMM0",
+    "name": "Sleigh'r Winter Ale",
+    "brewery": "Ninkasi Brewing",
+    "image": "Ninkasi Sleighr-JGQrp_h5OE2UfrpIl6-gv",
+    "description": "A limited release. Roasty, Toffee, Malty.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["19"],
+    "url": "https://www.americancraftbeer.com/beer/122312040735ninkasi-sleighr/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "Winter ales tend to be ever so slightly bitter, and this one fits that mold, but it's pretty good. I do taste the roasty, toffee, malty flavor they claim. I wouldn't find an angry mob for it, but it is worth drinking."
+      }
+    ]
+  },
+  {
+    "id": "cCZJmKEOcgaQjhXHRJVj3",
+    "name": "Study Hall",
+    "brewery": "Burlington Beer Co.",
+    "image": "BurlingtonBeerCompanyStudyHall-JGQrp_h5OE2UfrpIl6-gv",
+    "description": "Study Hall is a classic Amber ale conditioned on Maple Coffee roasted by Speeder & Earls. Flavors and aromas of Maple candy, French Roast Cold Brew, Caramel, Toffee, and Maple frosted Coffee Cake.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["19"],
+    "url": "https://www.burlingtonbeercompany.com/study-hall",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "Lighter than the Burlington Beer Co. Moccacino, but very, very good."
+      }
+    ]
+  },
+  {
     "id": "73Q-2Cn6D91UaxitM_Nh3",
     "name": "Breakfast Blend",
     "brewery": "Starbucks",
