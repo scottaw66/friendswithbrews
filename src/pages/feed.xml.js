@@ -35,40 +35,32 @@ export const get = () =>
       <itunes:category text="Society &amp; Culture"/>
     </itunes:category>
     <itunes:keywords>Technology, Fitness, Beer</itunes:keywords>
-    <itunes:image href="${new URL(
+    <itunes:image href="${
       config.get("url") + "images/" + config.get("rss.image")
-    )}"/>
+    }"/>
     <itunes:explicit>No</itunes:explicit>
-    <itunes:new-feed-url>${new URL(
+    <itunes:new-feed-url>${
       config.get("url") + config.get("rss.fileName")
-    )}</itunes:new-feed-url>
+    }</itunes:new-feed-url>
     <image>
-    <url>${new URL(
-      config.get("url") + "images/" + config.get("rss.image")
-    )}</url>
+    <url>${config.get("url") + "images/" + config.get("rss.image")}</url>
     <title>${config.get("title")}</title>
     <link>${config.get("url")}</link>
     </image>
     <copyright>©${year()} ${config.get("name")}</copyright>`,
     items: Array.from(episodes).map((episode) => ({
       title: episode.frontmatter.title,
-      link: new URL(
-        path.join(
-          config.get("episodes.path"),
-          episode.frontmatter.slug.toString()
-        ),
-        config.get("url")
-      ),
+      link: `${config.get("url")}${episode.frontmatter.slug}`,
       pubDate: rfc2822(episode.frontmatter.date),
       description: episode.frontmatter.description,
-      customData: `<enclosure url="${new URL(
-        config.get("episodes.audioPrefix") + episode.frontmatter.audioFile
-      )}" length="${episode.frontmatter.bytes}" type="audio/mpeg" />
+      customData: `<enclosure url="${config.get("episodes.audioPrefix")}${
+        episode.frontmatter.audioFile
+      }" length="${episode.frontmatter.bytes}" type="audio/mpeg" />
       <itunes:title>${episode.frontmatter.title}</itunes:title>
       <itunes:episode>${episode.frontmatter.episode}</itunes:episode>
       <itunes:duration>${episode.frontmatter.length}</itunes:duration>
-      <itunes:image href="${new URL(
-        config.get("url") + "images/" + config.get("rss.image")
+      <itunes:image href="${config.get("url")}images/${config.get(
+        "rss.image"
       )}"/>
       <itunes:explicit>No</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
