@@ -1,7 +1,6 @@
 import rss from "@astrojs/rss";
 import config from "config";
 import path from "path";
-import { URL } from "url";
 import { rfc2822, year } from "../components/utilities/DateFormat";
 
 const episodeImportResult = import.meta.globEager("../content/*.mdx");

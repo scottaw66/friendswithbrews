@@ -1,5 +1,41 @@
 [
   {
+    "id": "17VHlXx5m4G7DPu_UnVUT",
+    "name": "San Marcos Honduras",
+    "brewery": "Coava",
+    "image": "CoavaSanMarcos-17VHlXx5m4G7DPu_UnVUT",
+    "description": "Look for a sweet and balanced profile with notes of stewed pear, brown sugar, and baker's chocolate in the cup.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["20"],
+    "url": "https://shop.coavacoffee.com/collections/coffee/products/san-marcos",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "This one grew on me. It's nice and mellow, mellower than I expected, but a very nice one."
+      }
+    ]
+  },
+  {
+    "id": "3add4_Fjoih0VibmLWfrd",
+    "name": "Slow Motion",
+    "brewery": "Counter Culture",
+    "image": "CounterCultureSlowMotion-17VHlXx5m4G7DPu_UnVUT",
+    "description": "For Slow Motion, we start by selecting the same high-quality coffees that appear in our other offerings and gently decaffeinate them in small batches using organic processing. Tasting notes: Smooth molasses and cocoa.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["20"],
+    "url": "https://counterculturecoffee.com/shop/coffee/slow-motion",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "Tasty, a tiny bit more acidic than I like, but definitely a drinkable coffee that I will buy again."
+      }
+    ]
+  },
+  {
     "id": "ilwyMGV0C7_un7HPSJzD_",
     "name": "Sunbreak Morning Blend",
     "brewery": "Trailhead",
