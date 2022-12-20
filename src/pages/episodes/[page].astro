@@ -5,7 +5,7 @@ import Episode from "../../components/Episode.astro";
 import Pager from "../../components/Pager.astro";
 
 export async function getStaticPaths({ paginate }) {
-  let episodes = await Astro.glob("../../content/*.mdx");
+  let episodes = await Astro.glob("../../content/*.md");
 
   episodes = episodes.sort(
     (a, b) =>

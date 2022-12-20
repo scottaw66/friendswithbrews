@@ -1,9 +1,10 @@
 import rss from "@astrojs/rss";
+import sanitizeHtml from "sanitize-html";
 import config from "config";
 import path from "path";
 import { rfc2822, year } from "../components/utilities/DateFormat";
 
-const episodeImportResult = import.meta.globEager("../content/*.mdx");
+const episodeImportResult = import.meta.globEager("../content/*.md");
 let episodes = Object.values(episodeImportResult);
 episodes = episodes.sort(
   (a, b) =>
@@ -53,6 +54,7 @@ export const get = () =>
       link: `${config.get("url")}${episode.frontmatter.slug}`,
       pubDate: rfc2822(episode.frontmatter.date),
       description: episode.frontmatter.description,
+      content: sanitizeHtml(episode.compiledContent()),
       customData: `<enclosure url="${config.get("episodes.audioPrefix")}${
         episode.frontmatter.audioFile
       }" length="${episode.frontmatter.bytes}" type="audio/mpeg" />

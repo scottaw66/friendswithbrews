@@ -46,6 +46,7 @@
     "nanoid": "^4.0.0",
     "normalize.css": "^8.0.1",
     "remark-gfm": "^3.0.1",
+    "sanitize-html": "^2.8.0",
     "sharp": "^0.31.2"
   },
   "devDependencies": {
