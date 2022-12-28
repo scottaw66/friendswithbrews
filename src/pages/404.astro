@@ -1,0 +1,70 @@
+---
+import config from "config";
+import { Picture } from "@astrojs/image/components";
+import Base from "../layouts/Base.astro";
+
+import emptyBottleImage from "../images/404/404-empty-bottle.jpg";
+
+let title = "404 not found";
+---
+
+<Base title={title + " - " + config.get("title")}>
+  <span data-pagefind-ignore>
+    <article>
+      <h1>{title}</h1>
+
+      <link href="/styles/pagefind-ui.css" rel="stylesheet" />
+      <script is:inline src="/_pagefind/pagefind-ui.js" type="text/javascript"
+      ></script>
+
+      <div id="search"></div>
+      <script is:inline>
+        window.addEventListener("DOMContentLoaded", (event) => {
+          new PagefindUI({
+            element: "#search",
+            showImages: false,
+            showEmptyFilters: false,
+            translations: {
+              placeholder: "Search Friends with Brews",
+            },
+          });
+        });
+      </script>
+
+      <p>Sorry, the bottle you're looking for is empty or missing!</p>
+
+      <div class="missing-image">
+        <Picture
+          src={emptyBottleImage}
+          widths={[600, 900, 1800]}
+          aspectRatio="1:1"
+          sizes="300px"
+          formats={["avif", "webp"]}
+          alt={title}
+        />
+      </div>
+
+      <p>
+        Please use the search box to find that perfect sip of information, or
+        use one of the menu links at the top of the page to find the perfect <a
+          href="/episodes/1">episode</a
+        > or <a href="brews/1">brew</a>.
+      </p>
+    </article>
+  </span>
+</Base>
+<style>
+  a {
+    color: var(--menu-surface);
+    font-weight: bolder;
+  }
+  div.missing-image {
+    display: flex;
+    margin: 3rem auto;
+    justify-content: center;
+  }
+  div.missing-image img {
+    border-radius: 50%;
+    border: solid 3px var(--menu-surface);
+  }
+</style>

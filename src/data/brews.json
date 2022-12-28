@@ -1,5 +1,41 @@
 [
   {
+    "id": "Ytt5sxtDx_12NzqGpTYUA",
+    "name": "Wonderland Winter Blend",
+    "brewery": "Water Avenue Coffee",
+    "image": "WaterAvenueWonderland-E69F2BF5-6E25-46DE-BA77-A22160638028",
+    "description": "The perfect cozy blend for misty mornings. Medium roast, wonderfully balanced with festive tasting notes of baking spice, brown sugar and toasted nuts.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["21"],
+    "url": "https://wateravenuecoffee.com/collections/latest-releases/products/wonderland-holiday-blend",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "Not necessarily in my top five of coffees, but I will and did buy this again. It's easy to make a smooth cup of coffee with this roast, and it's a nice drinking morning coffee."
+      }
+    ]
+  },
+  {
+    "id": "xrw2x46VakeTZXezykAXC",
+    "name": "Distant Horizon Whole Bean Coffee",
+    "brewery": "Wegmans",
+    "image": "WegmansDistantHorizon-E69F2BF5-6E25-46DE-BA77-A22160638028",
+    "description": "Bold with notes of dark chocolate. Blend of beans from Colombia, Brazil, Ethiopia and Nicaragua. From Crop to Cup: Sourced and Roasted with Care.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["21"],
+    "url": "https://wateravenuecoffee.com/collections/latest-releases/products/wonderland-holiday-blend",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "I like it a lot. I had 3 cups in one day, and I didn't put any cream in, which I normally do with coffee."
+      }
+    ]
+  },
+  {
     "id": "17VHlXx5m4G7DPu_UnVUT",
     "name": "San Marcos Honduras",
     "brewery": "Coava",
