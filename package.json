@@ -31,7 +31,6 @@
   "author": "Scott willsey",
   "dependencies": {
     "@astrojs/image": "^0.12.1",
-    "@astrojs/mdx": "^0.14.0",
     "@astrojs/rss": "^2.0.0",
     "@astrojs/sitemap": "^1.0.0",
     "@fontsource/be-vietnam-pro": "^4.5.8",
