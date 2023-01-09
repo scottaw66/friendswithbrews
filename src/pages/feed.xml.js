@@ -4,7 +4,7 @@ import config from "config";
 import path from "path";
 import { rfc2822, year } from "../components/utilities/DateFormat";
 
-const episodeImportResult = import.meta.globEager("../content/*.md");
+const episodeImportResult = import.meta.globEager("../content/episodes/*.md");
 let episodes = Object.values(episodeImportResult);
 episodes = episodes.sort(
   (a, b) =>

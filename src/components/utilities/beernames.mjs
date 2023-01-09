@@ -1,4 +1,4 @@
-import brew from "../../data/brew.json" assert { type: "json" };
+import brew from "../../data/brews.json" assert { type: "json" };
 
 let brews = Array.from(brew).sort((a, b) => {
   if (a.name < b.name) {
@@ -7,4 +7,4 @@ let brews = Array.from(brew).sort((a, b) => {
     return 1;
   }
 });
-brews.map((brew) => console.log(`${brew.name} ${brew.id}`));
+brews.map((brew) => console.log(`${brew.id}\t${brew.name}`));

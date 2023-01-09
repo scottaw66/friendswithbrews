@@ -7,7 +7,7 @@ import Reviews from "../components/Reviews.astro";
 
 const title = config.get("title");
 
-let allEpisodes = await Astro.glob("../content/*.md");
+let allEpisodes = await Astro.glob("../content/episodes/*.md");
 allEpisodes = allEpisodes.sort(
   (a, b) =>
     new Date(b.frontmatter.date).valueOf() -
