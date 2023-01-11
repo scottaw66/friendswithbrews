@@ -1,8 +1,8 @@
 import config from "config";
 import Image from "@11ty/eleventy-img";
 import path from "path";
-import { readdir } from "fs/promises"; // node helper for reading folders
-import { parse } from "path"; // node helper for grabbing file names
+import { readdir } from "fs/promises";
+import { parse } from "path";
 
 (async () => {
   const inputDir = path.resolve(config.get("episodes.imagesInput"));
@@ -18,6 +18,6 @@ import { parse } from "path"; // node helper for grabbing file names
       },
       outputDir: outputDir,
     });
-    console.log(stats); // remove this if you don't want the logs
+    console.log(stats);
   }
 })();

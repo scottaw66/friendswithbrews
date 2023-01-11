@@ -1,10 +1,11 @@
 import rss from "@astrojs/rss";
 import sanitizeHtml from "sanitize-html";
 import config from "config";
-import path from "path";
 import { rfc2822, year } from "../components/utilities/DateFormat";
 
-const episodeImportResult = import.meta.globEager("../content/episodes/*.md");
+const episodeImportResult = import.meta.glob("../content/episodes/*.md", {
+  eager: true,
+});
 let episodes = Object.values(episodeImportResult);
 episodes = episodes.sort(
   (a, b) =>
