@@ -1,5 +1,41 @@
 [
   {
+    "id": "50l52HaIT6YMGQV1u6hoU",
+    "name": "Guava Cart",
+    "brewery": "Golden Road Brewing",
+    "image": "GoldenRoadGuavaCart-20DA346B-F46B-4936-B72D-24976F56460F",
+    "description": "A light & refreshing wheat ale made with real guava.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["22"],
+    "url": "https://www.goldenroad.la/guava-cart",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "Not as sweet as Mango Cart, but higher alcohol. It has a nice guava flavor and the slightest hint of bitterness at the very end. Not unpleasant like most IPAs though."
+      }
+    ]
+  },
+  {
+    "id": "BlJGlKbPYf1KU1byA7ybG",
+    "name": "Peanut Butter Milk Stout",
+    "brewery": "Belching Beaver Brewery",
+    "image": "BelchingBeaverPeanutButterMilkStout-20DA346B-F46B-4936-B72D-24976F56460F",
+    "description": "Troy came up with the idea of combining the flavor of peanut butter with our milk stout and he nailed it. Don’t let the dark color fool you, this beer is delightfully easy to drink with cascading aromas of roasted peanuts, dark chocolate and coffee. Good times to you my friend, and welcome to the beaver family!",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["22"],
+    "url": "https://belchingbeaver.com/san-diego-belching-beaver-landing-beer",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "This is the best peanut butter milk stout I've found. Very slightly bitter, but it is a favorite and I have purchased it multiple times. It does not make me belch, and I'm not a beaver, even though I do live in the Pacific Northwest."
+      }
+    ]
+  },
+  {
     "id": "Ytt5sxtDx_12NzqGpTYUA",
     "name": "Wonderland Winter Blend",
     "brewery": "Water Avenue Coffee",
