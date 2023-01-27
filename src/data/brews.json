@@ -1,5 +1,59 @@
 [
   {
+    "id": "QHraEMGtkITQibOHvt6md",
+    "name": "French Roast Dark",
+    "brewery": "Starbucks",
+    "image": "StarbucksFrenchRoastDark-632C0C6E-4B0D-4AC7-91AF-9BA285AD8EB3",
+    "description": "Intense and smoky, the pure, explosive flavor of French Roast is as dark as our dark roasts get.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["23"],
+    "url": "https://athome.starbucks.com/products/french-roast-whole-bean",
+    "rating": [
+      {
+        "host": "Adam",
+        "vote": "thumbs-up",
+        "description": "A dark french roast best made as an espresso."
+      }
+    ]
+  },
+  {
+    "id": "LDz9hVR534ol6EtjWWzOu",
+    "name": "Silver Imperial",
+    "brewery": "Imperial",
+    "image": "ImperialSilver-632C0C6E-4B0D-4AC7-91AF-9BA285AD8EB3",
+    "description": "La cerveza de los costarricenses desde 1924",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["23"],
+    "url": "https://imperial.cr/somos-imperial/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "All Imperial beers are in the 4% ABV range."
+      }
+    ]
+  },
+  {
+    "id": "qr4CmWbsUvtw1pJH-J-1X",
+    "name": "Third Bird Oatmeal Stout",
+    "brewery": "Little Beast Brewing",
+    "image": "LittleBeastBrewing-ThirdBirdOatmealStout-632C0C6E-4B0D-4AC7-91AF-9BA285AD8EB3",
+    "description": "Smooth and soft, with subtle notes of coffee and chocolate, this oatmeal stout is a fine choice for any time of day, whether you're an early bird or a night owl. 6.0% ABV",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["23"],
+    "url": "http://www.littlebeastbrewing.com/beers",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "A really nice smooth Oatmeal Stout that I will absolutely buy again."
+      }
+    ]
+  },
+  {
     "id": "50l52HaIT6YMGQV1u6hoU",
     "name": "Guava Cart",
     "brewery": "Golden Road Brewing",
