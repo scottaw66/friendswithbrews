@@ -30,7 +30,6 @@
   ],
   "author": "Scott willsey",
   "dependencies": {
-    "@11ty/eleventy-img": "^3.0.0",
     "@astrojs/image": "^0.14.0",
     "@astrojs/rss": "^2.1.0",
     "@astrojs/sitemap": "^1.0.1",
