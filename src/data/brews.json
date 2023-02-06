@@ -1,5 +1,41 @@
 [
   {
+    "id": "W3X_IvHWI3ly0nkIbx0rA",
+    "name": "Backporch Blend",
+    "brewery": "Backporch Coffee Roasters",
+    "image": "BackPorchCoffeeRoastersBackPorchBlend-D5600B7B-D96F-4AD8-A549-FA9A345DC5BD",
+    "description": "This is a favored staple here at Backporch. Syrupy and sweet, with hints of dark chocolate, cherries, cane sugar and caramel.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["24"],
+    "url": "https://www.backporchcoffeeroasters.com/buyonline/backporch-blend-12-oz",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "Very smooth and nice. Easy to brew, easy to drink."
+      }
+    ]
+  },
+  {
+    "id": "MFCuworpgVBiU7527Og5-",
+    "name": "The Darkness",
+    "brewery": "DC Specialty Coffee Roasters",
+    "image": "DCSpecialtyCoffeeRoastersTheDarkness-D5600B7B-D96F-4AD8-A549-FA9A345DC5BD",
+    "description": "The Darkness is bigger and bolder than anything you've had before. It celebrates a heavy, syrupy body, making it the perfect choice for a hard-hitting espresso with a full flavour of vanilla, almond and dark chocolate.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["24"],
+    "url": "https://dccoffee.com.au/products/the-darkness-strong-espresso-blend?variant=35598386725032",
+    "rating": [
+      {
+        "host": "John",
+        "vote": "thumbs-up",
+        "description": "I was drawn in by the package. I taste the richness, but calling it chocolatey is a stretch. It is bitter but it is smooth. A bit of a slap in your face kind of coffee, which is kind of what I need in the morning. Not too bad in all."
+      }
+    ]
+  },
+  {
     "id": "QHraEMGtkITQibOHvt6md",
     "name": "French Roast Dark",
     "brewery": "Starbucks",
