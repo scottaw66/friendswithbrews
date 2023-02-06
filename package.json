@@ -38,6 +38,7 @@
     "astro": "^2.0.6",
     "astro-embed": "^0.2.1",
     "astro-icon": "^0.8.0",
+    "astro-remark-eleventy-image": "^1.1.0",
     "astro-seo": "^0.7.0",
     "config": "^3.3.9",
     "date-fns": "^2.29.3",

@@ -1,6 +1,6 @@
 import { defineConfig } from "astro/config";
 import image from "@astrojs/image";
-import remarkGfm from "remark-gfm";
+import { remarkEleventyImage } from "astro-remark-eleventy-image";
 import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
@@ -18,8 +18,7 @@ export default defineConfig({
     }),
   ],
   markdown: {
-    remarkPlugins: [remarkGfm],
-    extendDefaultPlugins: true,
+    remarkPlugins: [remarkEleventyImage],
   },
   vite: {
     ssr: {
