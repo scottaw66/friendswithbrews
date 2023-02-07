@@ -20,10 +20,10 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [remarkEleventyImage],
     remarkImages: {
-      sizes: "250px",
+      sizes: "(max-width: 300px) 100vw, 300px",
       linkToSrc: true,
       eleventyImageConfig: {
-        widths: ["auto", 600, 1000, 1400],
+        widths: ["auto", 600, 900, 1200],
         formats: ["avif", "webp", "jpeg"],
         sharpOptions: {
           animated: false,
