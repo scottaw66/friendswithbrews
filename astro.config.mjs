@@ -1,6 +1,6 @@
 import { defineConfig } from "astro/config";
 import image from "@astrojs/image";
-import { remarkEleventyImage } from "astro-remark-eleventy-image";
+import { remarkEleventyImage } from "astro-image-multitool";
 import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
@@ -19,6 +19,17 @@ export default defineConfig({
   ],
   markdown: {
     remarkPlugins: [remarkEleventyImage],
+    remarkImages: {
+      sizes: "250px",
+      linkToSrc: true,
+      eleventyImageConfig: {
+        widths: ["auto", 600, 1000, 1400],
+        formats: ["avif", "webp", "jpeg"],
+        sharpOptions: {
+          animated: false,
+        },
+      },
+    },
   },
   vite: {
     ssr: {
