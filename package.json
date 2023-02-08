@@ -30,12 +30,12 @@
   ],
   "author": "Scott willsey",
   "dependencies": {
-    "@astrojs/image": "^0.14.0",
+    "@astrojs/image": "^0.14.1",
     "@astrojs/rss": "^2.1.0",
     "@astrojs/sitemap": "^1.0.1",
     "@fontsource/be-vietnam-pro": "^4.5.8",
     "@fontsource/roboto-mono": "^4.5.10",
-    "astro": "^2.0.6",
+    "astro": "^2.0.8",
     "astro-embed": "^0.2.1",
     "astro-icon": "^0.8.0",
     "astro-image-multitool": "file:../astro-components/astro-image-multitool",
@@ -53,7 +53,7 @@
     "astro-eslint-parser": "^0.11.0",
     "eslint": "^8.33.0",
     "eslint-plugin-astro": "^0.23.0",
-    "prettier": "^2.8.3",
+    "prettier": "^2.8.4",
     "prettier-plugin-astro": "^0.8.0"
   }
 }
