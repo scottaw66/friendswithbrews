@@ -290,7 +290,7 @@ legend.svelte-1v2r7ls.svelte-1v2r7ls {
   appearance: none;
   -webkit-appearance: none;
   display: flex;
-  width: 100%;
+  width: 40ch;
   box-sizing: border-box;
   font-weight: 700;
   margin: 0 auto;

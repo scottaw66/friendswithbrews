@@ -1,0 +1,25 @@
+<div class="search-component">
+  <link href="/styles/pagefind-ui.css" rel="stylesheet" />
+  <script is:inline src="/_pagefind/pagefind-ui.js" type="text/javascript"
+  ></script>
+
+  <div id="search"></div>
+  <script is:inline>
+    window.addEventListener("DOMContentLoaded", (event) => {
+      new PagefindUI({
+        element: "#search",
+        showImages: false,
+        showEmptyFilters: false,
+        translations: {
+          placeholder: "Search Friends with Brews",
+        },
+      });
+    });
+  </script>
+</div>
+<style>
+  div.search-component {
+    max-width: 70ch;
+    margin: 0 auto;
+  }
+</style>
