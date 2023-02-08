@@ -21,7 +21,7 @@ export default defineConfig({
     remarkPlugins: [remarkEleventyImage],
     remarkImages: {
       sizes: "(max-width: 300px) 100vw, 300px",
-      linkToSrc: false,
+      linkToSrc: true,
       skipWidthAndHeight: true,
       eleventyImageConfig: {
         widths: ["auto", 300, 600, 900, 1200],
