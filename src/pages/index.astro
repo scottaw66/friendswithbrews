@@ -1,4 +1,5 @@
 ---
+import { getCollection } from "astro:content";
 import config from "config";
 import { Icon } from "astro-icon";
 import Base from "../layouts/Base.astro";
@@ -7,11 +8,9 @@ import Reviews from "../components/Reviews.astro";
 
 const title = config.get("title");
 
-let allEpisodes = await Astro.glob("../content/*.md");
+let allEpisodes = await await getCollection("episodes");
 allEpisodes = allEpisodes.sort(
-  (a, b) =>
-    new Date(b.frontmatter.date).valueOf() -
-    new Date(a.frontmatter.date).valueOf()
+  (a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf()
 );
 
 const latestEpisodes = allEpisodes.slice(0, 1);

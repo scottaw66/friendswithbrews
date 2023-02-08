@@ -2,7 +2,7 @@
 import Base from "../layouts/Base.astro";
 import Episode from "../components/Episode.astro";
 export async function getStaticPaths() {
-  const episodes = await Astro.glob("../content/*.md");
+  const episodes = await Astro.glob("../content/episodes/*.md");
 
   return episodes.map((episode) => ({
     params: {
