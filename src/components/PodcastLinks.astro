@@ -9,18 +9,15 @@ const { episode } = Astro.props;
   <div class="download-link">
     <div>
       <a
-        href={`${config.get("episodes.audioPrefix")}${
-          episode.frontmatter.audioFile
-        }`}
+        href={`${config.get("episodes.audioPrefix")}${episode.data.audioFile}`}
       >
         <Icon name="mdi:cloud-download" />
       </a>
     </div>
     <div>
       <a
-        href={`${config.get("episodes.audioPrefix")}/${
-          episode.frontmatter.audioFile
-        }`}>Download</a
+        href={`${config.get("episodes.audioPrefix")}/${episode.data.audioFile}`}
+        >Download</a
       >
     </div>
   </div>

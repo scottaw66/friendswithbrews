@@ -1,4 +1,5 @@
 ---
+import type { CollectionEntry } from "astro:content";
 import config from "config";
 import { Icon } from "astro-icon";
 import path from "path";
@@ -7,6 +8,10 @@ import BrewDetails from "./BrewDetails.astro";
 import Player from "./Player.astro";
 import { postdate } from "./utilities/DateFormat";
 import { episodeLength } from "./utilities/episodelength.mjs";
+
+interface Props {
+  episode: CollectionEntry<"episodes">;
+}
 
 const { episode } = Astro.props;
 const brews = brewList(episode.data.episode);
@@ -18,7 +23,7 @@ const brews = brewList(episode.data.episode);
     <span class="episode-number"
       ><a
         href={new URL(
-          path.join(config.get("episodes.path"), String(episode.data.slug)),
+          path.join(config.get("episodes.path"), String(episode.data.episode)),
           config.get("url")
         )}
         >{episode.data.title}

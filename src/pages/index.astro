@@ -8,7 +8,7 @@ import Reviews from "../components/Reviews.astro";
 
 const title = config.get("title");
 
-let allEpisodes = await await getCollection("episodes");
+let allEpisodes = await getCollection("episodes");
 allEpisodes = allEpisodes.sort(
   (a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf()
 );

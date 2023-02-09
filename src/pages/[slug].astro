@@ -1,23 +1,22 @@
 ---
+import { getCollection } from "astro:content";
 import Base from "../layouts/Base.astro";
 import Episode from "../components/Episode.astro";
-export async function getStaticPaths() {
-  const episodes = await Astro.glob("../content/episodes/*.md");
 
-  return episodes.map((episode) => ({
-    params: {
-      slug: String(episode.frontmatter.slug),
-    },
-    props: {
-      episode,
-    },
+export async function getStaticPaths() {
+  const blogEntries = await getCollection("episodes");
+  return blogEntries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
   }));
 }
-const { episode } = Astro.props;
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
 ---
 
-<Base title={episode.frontmatter.title.toUpperCase()}>
-  <Episode episode={episode} audio="true">
-    <episode.Content />
+<Base title={entry.data.title.toUpperCase()}>
+  <Episode episode={entry} audio="true">
+    <Content />
   </Episode>
 </Base>

@@ -1,16 +1,15 @@
 ---
+import { getCollection } from "astro:content";
 import config from "config";
 import Base from "../../layouts/Base.astro";
 import Episode from "../../components/Episode.astro";
 import Pager from "../../components/Pager.astro";
 
 export async function getStaticPaths({ paginate }) {
-  let episodes = await Astro.glob("../../content/episodes/*.md");
+  let episodes = await getCollection("episodes");
 
   episodes = episodes.sort(
-    (a, b) =>
-      new Date(b.frontmatter.date).valueOf() -
-      new Date(a.frontmatter.date).valueOf()
+    (a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf()
   );
 
   return paginate(episodes, {
@@ -18,26 +17,16 @@ export async function getStaticPaths({ paginate }) {
   });
 }
 const { page } = Astro.props;
-
-const eps = page.data.map((post) => {
-  return {
-    frontmatter: post.frontmatter,
-    content: post.Content,
-  };
-});
 ---
 
 <Base title={`${config.get("title").replace(" Podcast", "")} Episodes`}>
   <div data-pagefind-ignore>
     {
-      eps &&
-        eps.map((episode, index) => {
-          return (
-            <Episode episode={episode} index={index} pageNum={page.currentPage}>
-              <episode.content />
-            </Episode>
-          );
-        })
+      page.data.map((episode, index) => {
+        return (
+          <Episode episode={episode} index={index} pageNum={page.currentPage} />
+        );
+      })
     }
     <Pager page={page} />
   </div>
