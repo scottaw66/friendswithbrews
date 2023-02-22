@@ -3,4 +3,17 @@ import { getCollection } from "astro:content";
 import config from "config";
 import Base from "../../layouts/Base.astro";
 import Pager from "../../components/Pager.astro";
+
+export async function getStaticPaths({ paginate }) {
+  let episodes = await getCollection("episodes");
+
+  episodes = episodes.sort(
+    (a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf()
+  );
+
+  return paginate(episodes, {
+    pageSize: config.get("episodes.paginationSize"),
+  });
+}
+const { page } = Astro.props;
 ---
