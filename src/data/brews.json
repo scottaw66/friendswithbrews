@@ -1,5 +1,59 @@
 [
   {
+    "id": "DAbTu8p2KBws9vPgs1uAp",
+    "name": "Costa Rica Santa Maria De Dota",
+    "brewery": "Backporch Coffee Roasters",
+    "image": "BackporchCoffeeRoastersCosta-Rica-4CA9A740-6C9A-4655-9EDC-BE9A89E4C3E0",
+    "description": "One of our favorite coffees here at Backporch and a coffee we have been purchasing for about a decade now. This coffee staple at Backporch is sweet, winey, chocolatey, citrusy and delicious. Cupping Notes: Clean Orange Citrus, Milk Chocolate and Winey.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["25"],
+    "url": "https://www.backporchcoffeeroasters.com/buyonline/backporch-blend-12-oz-83scc",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "I love all the Backporch coffees, and this is no exception. Will drink again."
+      }
+    ]
+  },
+  {
+    "id": "ZeQkCN2xa9qj3ms7BG88U",
+    "name": "DUNKIN’ BLUEBERRY MATCHA IPA",
+    "brewery": "Harpoon Brewery",
+    "image": "HarpoonDunkin-BlueberryMatchaIPA-4CA9A740-6C9A-4655-9EDC-BE9A89E4C3E0",
+    "description": "Brand new for 2021, this hazy IPA is inspired by Dunkin’s Blueberry Matcha Latte. Brewed with blueberries, Dunkin’ matcha, and a blend of traditional and modern hops, it’s both tea-like and tropical with bright, juicy notes of mixed berry. Available only in the Dunkin’ Dozen Mix Pack!",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["25"],
+    "url": "https://www.harpoonbrewery.com/beer/dunkin-blueberry-matcha-ipa/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "This is a beer. This may be the only IPA I've ever thought actually tasted good. A seasonal brew from two home teams with blueberries and matcha."
+      }
+    ]
+  },
+  {
+    "id": "QYWoEDehlQbzlB0c79Q6e",
+    "name": "Marryin' Berries",
+    "brewery": "Ex Novo Brewing",
+    "image": "ExNovoBrewingMarryinBerries-4CA9A740-6C9A-4655-9EDC-BE9A89E4C3E0",
+    "description": "Made for the assistant brewer's wedding this kettle sour is made with white wheat, flaked oats, marrionberries, raspberries, and mosaic.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["25"],
+    "url": "https://untappd.com/b/ex-novo-brewing-marryin-berries/2096007",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "SOUR! Berries! Ex Novo! What's not to love? (Answer: their crappy website) Their beer is amazing though."
+      }
+    ]
+  },
+  {
     "id": "W3X_IvHWI3ly0nkIbx0rA",
     "name": "Backporch Blend",
     "brewery": "Backporch Coffee Roasters",
@@ -547,7 +601,7 @@
   {
     "id": "rFwhgrluCOEj0FoBnUk-c",
     "name": "The Most Interesting Lager In The World",
-    "brewery": "Ex Novo Brewing Company",
+    "brewery": "Ex Novo Brewing",
     "image": "ExNovo-The-Most-Interesting-Lager-in-the-World-6D02F83F-7746-4AC6-8402-C0D11921A02C",
     "description": "Crisp and refreshing, brewed with Saaz hops, Vienna and Pilsner malts, and a hint of flaked corn.",
     "type": "beer",
