@@ -1,6 +1,11 @@
 ---
+import type { CollectionEntry } from "astro:content";
 import config from "config";
 import { Icon } from "astro-icon";
+
+interface Props {
+  episode: CollectionEntry<"episodes">;
+}
 
 const { episode } = Astro.props;
 ---
@@ -15,10 +20,8 @@ const { episode } = Astro.props;
       </a>
     </div>
     <div>
-      <a
-        href={`${config.get("episodes.audioPrefix")}${
-          episode.frontmatter.audioFile
-        }`}>Download</a
+      <a href={`${config.get("episodes.audioPrefix")}${episode.data.audioFile}`}
+        >Download</a
       >
     </div>
   </div>

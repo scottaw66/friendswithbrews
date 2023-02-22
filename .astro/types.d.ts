@@ -243,15 +243,6 @@ declare module 'astro:content' {
   data: InferEntrySchema<"episodes">
 },
 },
-"transcripts": {
-"22.md": {
-  id: "22.md",
-  slug: "22",
-  body: string,
-  collection: "transcripts",
-  data: InferEntrySchema<"transcripts">
-},
-},
 
 	};
 
