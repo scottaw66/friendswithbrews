@@ -16,8 +16,9 @@ const { episode } = Astro.props;
     </div>
     <div>
       <a
-        href={`${config.get("episodes.audioPrefix")}/${episode.data.audioFile}`}
-        >Download</a
+        href={`${config.get("episodes.audioPrefix")}${
+          episode.frontmatter.audioFile
+        }`}>Download</a
       >
     </div>
   </div>
