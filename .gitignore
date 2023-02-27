@@ -6,6 +6,7 @@
 # build output
 dist
 src/pages/rss.xml
+public/_pagefind
 
 # dependencies
 node_modules/
