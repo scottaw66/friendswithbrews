@@ -1,27 +1,9 @@
 ---
-import config from "config";
-
-const pagefindCss = config.get("pagefindCss");
+import Search from "astro-pagefind/components/Search";
 ---
 
 <div class="search-component">
-  <link href={`/styles/${pagefindCss}`} rel="stylesheet" />
-  <script is:inline src="/_pagefind/pagefind-ui.js" type="text/javascript"
-  ></script>
-
-  <div id="search"></div>
-  <script is:inline>
-    window.addEventListener("DOMContentLoaded", (event) => {
-      new PagefindUI({
-        element: "#search",
-        showImages: false,
-        showEmptyFilters: false,
-        translations: {
-          placeholder: "Search Friends with Brews",
-        },
-      });
-    });
-  </script>
+  <Search id="search" className="pagefind-ui" />
 </div>
 
 <style>

@@ -7,7 +7,7 @@
     "dev:h": "export NODE_ENV=development && astro dev --host",
     "start": "npm run dev",
     "start:h": "npm run dev:h",
-    "build": "export NODE_ENV=production && astro build && minify public/styles/pagefind-ui.css > public/styles/pagefind-ui.min.css && ./pagefind --source dist && cp -r dist/_pagefind/ public/_pagefind",
+    "build": "export NODE_ENV=production && astro build",
     "build:p": "npm run build && npm run preview",
     "build:ph": "npm run build && npm run preview:h",
     "preview": "astro preview",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Beeping-Machine/friendswithbrews.git"
+    "url": "git+https://github.com/scottaw66/friendswithbrews.git"
   },
   "keywords": [
     "astro",
@@ -39,6 +39,7 @@
     "astro-embed": "^0.2.1",
     "astro-icon": "^0.8.0",
     "astro-image-multitool": "file:../astro-components/astro-image-multitool",
+    "astro-pagefind": "file:../astro-components/astro-pagefind",
     "astro-seo": "^0.7.1",
     "config": "^3.3.9",
     "date-fns": "^2.29.3",

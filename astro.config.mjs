@@ -1,5 +1,6 @@
 import { defineConfig } from "astro/config";
 import image from "@astrojs/image";
+import pagefind from "astro-pagefind";
 import { remarkEleventyImage } from "astro-image-multitool";
 import sitemap from "@astrojs/sitemap";
 
@@ -12,6 +13,7 @@ export default defineConfig({
   trailingSlash: "ignore",
   outDir: "dist",
   integrations: [
+    pagefind(),
     sitemap(),
     image({
       serviceEntryPoint: "@astrojs/image/sharp",

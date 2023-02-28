@@ -157,3 +157,7 @@ div.brew-container {
     width: 90%;
   }
 }
+
+.pagefind-ui__hidden {
+  display: none !important;
+}
