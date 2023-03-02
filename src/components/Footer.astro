@@ -5,24 +5,35 @@ import { year } from "./utilities/DateFormat.js";
 import Search from "../components/Search.astro";
 ---
 
-<Search />
 <div class="footer" data-pagefind-ignore>
-  <div>
-    <a rel="me" href="https://appdot.net/@friendswbrews"
-      ><Icon name="simple-icons:mastodon" />
-    </a>
+  <Search />
+  <div class="footer-links">
+    <div>
+      <a rel="me" href="https://appdot.net/@friendswbrews"
+        ><Icon name="simple-icons:mastodon" />
+      </a>
+    </div>
+    <div>&copy;{year}</div>
+    <div><Icon name="bi:cpu-fill" /></div>
+    <div>
+      {config.get("name")}
+    </div>
+    <div><Icon name="ps:rss" /></div>
+    <div><a href="/subscribe">Subscribe</a></div>
   </div>
-  <div>&copy;{year}</div>
-  <div><Icon name="bi:cpu-fill" /></div>
-  <div>
-    {config.get("name")}
-  </div>
-  <div><Icon name="ps:rss" /></div>
-  <div><a href="/subscribe">Subscribe</a></div>
 </div>
 
 <style>
   .footer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+    border-top: 3px solid var(--menu-border);
+    font-size: 1rem;
+    background-color: var(--menu-surface);
+    color: var(--menu-text);
+  }
+  .footer-links {
     width: 100%;
     height: 25px;
     display: flex;
@@ -31,12 +42,10 @@ import Search from "../components/Search.astro";
     gap: 0.5rem;
     margin: 0 auto;
     padding: 0.5rem 0;
-    border-top: 3px solid var(--menu-border);
     font-size: 1rem;
-    background-color: var(--menu-surface);
     color: var(--menu-text);
   }
-  .footer a {
+  .footer-links a {
     color: var(--menu-text);
   }
   [astro-icon] {
@@ -45,7 +54,7 @@ import Search from "../components/Search.astro";
     padding: 0;
   }
   @media screen and (max-width: 450px) {
-    .footer {
+    .footer-links {
       font-size: 0.8rem;
     }
     [astro-icon] {

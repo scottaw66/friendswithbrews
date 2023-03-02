@@ -52,6 +52,18 @@ html {
   --pager-bg: var(--pager-bg-light);
   --pager-link-text: var(--pager-link-text-light);
   --progress-value: var(--progress-value-light);
+
+  --pagefind-ui-scale: 0.75;
+  --pagefind-ui-primary: var(--menu-surface);
+  --pagefind-ui-text: var(--menu-border);
+  --pagefind-ui-background: var(--surface);
+  --pagefind-ui-border: var(--menu-border);
+  --pagefind-ui-tag: #000;
+  --pagefind-ui-border-width: 2px;
+  --pagefind-ui-border-radius: 8px;
+  --pagefind-ui-image-border-radius: 8px;
+  --pagefind-ui-image-box-ratio: 3 / 2;
+  --pagefind-ui-font: sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -158,6 +170,7 @@ div.brew-container {
   }
 }
 
+/* pagefind stuff */
 .pagefind-ui__hidden {
   display: none !important;
 }
