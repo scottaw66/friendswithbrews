@@ -12,10 +12,4 @@ export const collections = {
       bytes: z.string(),
     }),
   }),
-  transcripts: defineCollection({
-    schema: z.object({
-      title: z.string(),
-      episode: z.number().int(),
-    }),
-  }),
 };
