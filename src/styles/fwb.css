@@ -53,12 +53,12 @@ html {
   --pager-link-text: var(--pager-link-text-light);
   --progress-value: var(--progress-value-light);
 
-  --pagefind-ui-scale: 0.75;
+  --pagefind-ui-scale: 0.8;
   --pagefind-ui-primary: var(--menu-surface);
-  --pagefind-ui-text: var(--menu-border);
-  --pagefind-ui-background: var(--surface);
+  --pagefind-ui-text: #fff;
+  --pagefind-ui-background: #0d0a01;
   --pagefind-ui-border: var(--menu-border);
-  --pagefind-ui-tag: #000;
+  --pagefind-ui-tag: #0d0a01;
   --pagefind-ui-border-width: 2px;
   --pagefind-ui-border-radius: 8px;
   --pagefind-ui-image-border-radius: 8px;
@@ -82,6 +82,12 @@ html {
     --pager-bg: var(--pager-bg-dark);
     --pager-link-text: var(--pager-link-text-dark);
     --progress-value: var(--progress-value-dark);
+
+    --pagefind-ui-primary: var(--menu-surface);
+    --pagefind-ui-text: #000;
+    --pagefind-ui-background: #83645a;
+    --pagefind-ui-border: var(--menu-border);
+    --pagefind-ui-tag: #b59c94;
   }
 }
 
