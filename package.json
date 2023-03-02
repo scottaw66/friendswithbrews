@@ -35,7 +35,7 @@
     "@astrojs/sitemap": "^1.1.0",
     "@fontsource/be-vietnam-pro": "^4.5.8",
     "@fontsource/roboto-mono": "^4.5.10",
-    "astro": "^2.0.16",
+    "astro": "^2.0.17",
     "astro-embed": "^0.2.1",
     "astro-icon": "^0.8.0",
     "astro-image-multitool": "file:../astro-components/astro-image-multitool",
