@@ -7,7 +7,7 @@
     "dev:h": "export NODE_ENV=development && astro dev --host",
     "start": "npm run dev",
     "start:h": "npm run dev:h",
-    "build": "export NODE_ENV=production && astro build && npx -y pagefind@latest",
+    "build": "export NODE_ENV=production && astro build && ./pagefind --source dist",
     "build:p": "npm run build && npm run preview",
     "build:ph": "npm run build && npm run preview:h",
     "preview": "astro preview",
