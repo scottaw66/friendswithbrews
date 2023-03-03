@@ -1,0 +1,78 @@
+---
+import type { CollectionEntry } from "astro:content";
+import config from "config";
+import { Icon } from "astro-icon";
+import { postdate } from "./utilities/DateFormat";
+import { episodeLength } from "./utilities/episodelength.mjs";
+
+interface Props {
+  transcript: CollectionEntry<"transcripts">;
+}
+const { transcript } = Astro.props;
+const { Content } = await transcript.render();
+---
+
+<div class="transcript" data-pagefind-ignore>
+  <h3>
+    <Icon name="ic:baseline-document-scanner" />
+    <a href={`/transcripts/${transcript.slug}`}
+      >Episode {transcript.data.episode} – {transcript.data.title}</a
+    >
+  </h3>
+  <div class="description">
+    {transcript.data.description}
+  </div>
+  <div class="transcript-links">
+    <span data-pagefind-meta="date"
+      ><Icon name="fluent:calendar-rtl-48-filled" />{
+        postdate(transcript.data.date)
+      }</span
+    > • <span
+      ><Icon name="fontisto:podcast" /><a
+        href={`${config.get("episodes.path")}${transcript.data.episode}`}
+        >Episode Audio</a
+      ></span
+    >
+  </div>
+</div>
+<style>
+  .transcript {
+    font-family: "iA Writer Mono", monospace;
+    font-size: 1.1rem;
+    margin: 2rem 0;
+  }
+  .transcript-links {
+    font-size: 0.8rem;
+    margin: 1rem 0;
+  }
+  .transcript a {
+    color: var(--link-text);
+  }
+  .transcript h2 a {
+    text-decoration: none;
+  }
+  .transcript h2 a:hover {
+    text-decoration: underline;
+  }
+  .subtitle {
+    font-family: "Be Vietnam Pro";
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin: 2rem 0;
+  }
+  .description {
+    font-family: "Be Vietnam Pro";
+    font-size: 0.9rem;
+    margin: 0 2rem;
+  }
+  [astro-icon] {
+    width: 1.3rem;
+    margin: 0 0.5rem -0.2rem 0;
+  }
+  [astro-icon="ic:baseline-document-scanner"] {
+    width: 1em;
+  }
+  .transcript-links [astro-icon] {
+    width: 1em;
+  }
+</style>
