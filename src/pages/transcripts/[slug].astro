@@ -1,0 +1,22 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import Transcript from "../../components/Transcript.astro";
+
+export async function getStaticPaths() {
+  const transcripts = await getCollection("transcripts");
+  return transcripts.map((transcript) => ({
+    params: { slug: transcript.slug },
+    props: { transcript },
+  }));
+}
+
+const { transcript } = Astro.props;
+const { Content } = await transcript.render();
+---
+
+<Base title={transcript.data.title.toUpperCase()}>
+  <Transcript transcript={transcript}>
+    <Content />
+  </Transcript>
+</Base>

@@ -1,0 +1,37 @@
+---
+import { getCollection } from "astro:content";
+import config from "config";
+import Base from "../../layouts/Base.astro";
+import Pager from "../../components/Pager.astro";
+
+export async function getStaticPaths({ paginate }) {
+  let transcripts = await getCollection("transcripts");
+
+  transcripts = transcripts.sort(
+    (a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf()
+  );
+
+  return paginate(transcripts, {
+    pageSize: config.get("transcripts.paginationSize"),
+  });
+}
+const { page } = Astro.props;
+---
+
+<Base title={`${config.get("title").replace(" Podcast", "")} Transcripts`}>
+  <h1>Transcripts</h1>
+  <div data-pagefind-ignore>
+    {
+      page.data.map((transcript, index) => {
+        return (
+          <p>
+            <a href={`/transcripts/${transcript.slug}`}>
+              {transcript.data.title}
+            </a>
+          </p>
+        );
+      })
+    }
+    <Pager page={page} />
+  </div>
+</Base>

@@ -1,0 +1,82 @@
+---
+import type { CollectionEntry } from "astro:content";
+import config from "config";
+import { Icon } from "astro-icon";
+import path from "path";
+import { postdate } from "./utilities/DateFormat";
+import { episodeLength } from "./utilities/episodelength.mjs";
+import tr from "date-fns/locale/tr";
+
+interface Props {
+  transcript: CollectionEntry<"transcripts">;
+}
+const { transcript } = Astro.props;
+const { Content } = await transcript.render();
+---
+
+<div
+  class="transcript"
+  data-pagefind-filter="filter by[content]"
+  content="transcript"
+  data-pagefind-meta="result type:transcript"
+>
+  <h2>
+    <a href={`${config.get("episodes.path")}${transcript.data.episode}`}
+      >Episode {transcript.data.episode} – {transcript.data.title}</a
+    >
+  </h2>
+  <div>
+    <span data-pagefind-meta="date"
+      ><a href={`${config.get("episodes.path")}${transcript.data.episode}`}
+        ><Icon name="fluent:calendar-rtl-48-filled" />{
+          postdate(transcript.data.date)
+        }</a
+      ></span
+    > •
+    <span>{episodeLength(transcript.data.length)}</span> • <span
+      ><a href="/transcripts/1">Back to Transcripts</a></span
+    >
+  </div>
+  <div class="subtitle">
+    <Icon name="fluent:info-24-filled" />Description
+  </div>
+  <div class="description">{transcript.data.description}</div>
+  <div class="subtitle">
+    <Icon name="ic:baseline-document-scanner" />Transcript
+  </div>
+  <Content />
+  <div class="description">
+    <a href={`${config.get("episodes.path")}${transcript.data.episode}`}
+      >Episode {transcript.data.episode} – {transcript.data.title}</a
+    > • <span><a href="/transcripts/1">Back to Transcripts</a></span>
+  </div>
+</div>
+<style>
+  .transcript {
+    font-family: "iA Writer Mono", monospace;
+    font-size: 1rem;
+  }
+  .transcript a {
+    color: var(--link-text);
+  }
+  .transcript h2 a {
+    text-decoration: none;
+  }
+  .transcript h2 a:hover {
+    text-decoration: underline;
+  }
+  .subtitle {
+    font-family: "Be Vietnam Pro";
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin: 2rem 0;
+  }
+  .description {
+    font-family: "Be Vietnam Pro";
+    font-size: 1.3rem;
+  }
+  [astro-icon] {
+    width: 1.3rem;
+    margin: 0 0.5rem -0.2rem 0;
+  }
+</style>

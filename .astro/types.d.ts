@@ -253,7 +253,7 @@ declare module 'astro:content' {
 "transcripts": {
 "22.md": {
   id: "22.md",
-  slug: "22",
+  slug: "T22",
   body: string,
   collection: "transcripts",
   data: InferEntrySchema<"transcripts">
