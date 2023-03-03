@@ -12,4 +12,14 @@ export const collections = {
       bytes: z.string(),
     }),
   }),
+  transcripts: defineCollection({
+    schema: z.object({
+      title: z.string(),
+      description: z.string(),
+      episode: z.number().int(),
+      date: z.string().transform((str) => new Date(str)),
+      audioFile: z.string(),
+      length: z.string().regex(/(\d{2}:){2}\d{2}/),
+    }),
+  }),
 };
