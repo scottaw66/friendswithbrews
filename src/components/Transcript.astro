@@ -2,10 +2,8 @@
 import type { CollectionEntry } from "astro:content";
 import config from "config";
 import { Icon } from "astro-icon";
-import path from "path";
 import { postdate } from "./utilities/DateFormat";
 import { episodeLength } from "./utilities/episodelength.mjs";
-import tr from "date-fns/locale/tr";
 
 interface Props {
   transcript: CollectionEntry<"transcripts">;
@@ -21,20 +19,29 @@ const { Content } = await transcript.render();
   data-pagefind-meta="result type:transcript"
 >
   <h2>
+    <Icon name="ic:baseline-document-scanner" />
     <a href={`${config.get("episodes.path")}${transcript.data.episode}`}
       >Episode {transcript.data.episode} – {transcript.data.title}</a
     >
   </h2>
-  <div>
+  <div class="transcript-links">
     <span data-pagefind-meta="date"
-      ><a href={`${config.get("episodes.path")}${transcript.data.episode}`}
-        ><Icon name="fluent:calendar-rtl-48-filled" />{
-          postdate(transcript.data.date)
-        }</a
-      ></span
+      ><Icon name="fluent:calendar-rtl-48-filled" />{
+        postdate(transcript.data.date)
+      }</span
     > •
-    <span>{episodeLength(transcript.data.length)}</span> • <span
-      ><a href="/transcripts/1">Back to Transcripts</a></span
+    <span
+      ><Icon name="fontisto:podcast" /><a
+        href={`${config.get("episodes.path")}${transcript.data.episode}`}
+        >Episode Audio</a
+      ></span
+    > • <span
+      ><Icon name="ic:baseline-document-scanner" /><a href="/transcripts/1"
+        >Transcripts Index</a
+      ></span
+    > • <span
+      ><Icon name="fontisto:podcast" /><a href="/episodes/1">Episodes Index</a
+      ></span
     >
   </div>
   <div class="subtitle">
@@ -44,17 +51,29 @@ const { Content } = await transcript.render();
   <div class="subtitle">
     <Icon name="ic:baseline-document-scanner" />Transcript
   </div>
-  <Content />
-  <div class="description">
-    <a href={`${config.get("episodes.path")}${transcript.data.episode}`}
-      >Episode {transcript.data.episode} – {transcript.data.title}</a
-    > • <span><a href="/transcripts/1">Back to Transcripts</a></span>
+  <Content /><br />
+  <div class="transcript-links">
+    <Icon name="fontisto:podcast" /><a
+      href={`${config.get("episodes.path")}${transcript.data.episode}`}
+      >Episode Audio</a
+    > • <span
+      ><Icon name="ic:baseline-document-scanner" /><a href="/transcripts/1"
+        >Transcripts Index</a
+      ></span
+    > • <span
+      ><Icon name="fontisto:podcast" /><a href="/episodes/1">Episodes Index</a
+      ></span
+    >
   </div>
 </div>
 <style>
   .transcript {
     font-family: "iA Writer Mono", monospace;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    margin: 2rem 0;
+  }
+  .transcript-links {
+    font-size: 0.8rem;
   }
   .transcript a {
     color: var(--link-text);
@@ -78,5 +97,11 @@ const { Content } = await transcript.render();
   [astro-icon] {
     width: 1.3rem;
     margin: 0 0.5rem -0.2rem 0;
+  }
+  [astro-icon="ic:baseline-document-scanner"] {
+    width: 1em;
+  }
+  .transcript-links [astro-icon] {
+    width: 1em;
   }
 </style>
