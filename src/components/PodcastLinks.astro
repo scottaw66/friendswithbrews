@@ -9,7 +9,6 @@ interface Props {
 }
 
 const { episode, transcript } = Astro.props;
-console.log(`episode: ${episode.data.episode} transcript: ${transcript}`);
 ---
 
 <div class="episode-links">
@@ -28,15 +27,15 @@ console.log(`episode: ${episode.data.episode} transcript: ${transcript}`);
     </div>
   </div>
   {
-    transcript && (
+    transcript?.length > 0 && (
       <div class="download-link">
         <div>
-          <a href={transcript}>
+          <a href={`/transcripts/${transcript}`}>
             <Icon name="ic:baseline-document-scanner" />
           </a>
         </div>
         <div>
-          <a href={transcript}>Transcript</a>
+          <a href={`/transcripts/${transcript}`}>Transcript</a>
         </div>
       </div>
     )
