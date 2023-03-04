@@ -178,8 +178,3 @@ div.brew-container {
     width: 90%;
   }
 }
-
-/* pagefind stuff */
-.pagefind-ui__hidden {
-  display: none !important;
-}
