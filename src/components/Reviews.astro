@@ -2,7 +2,7 @@
 import { randomReviews } from "./utilities/randomreviews.mjs";
 ---
 
-<div class="reviews">
+<div class="reviews" data-pagefind-ignore>
   {
     randomReviews(3).map((review) => (
       <blockquote>
