@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import { getCollection } from "astro:content";
 import config from "config";
 import { Icon } from "astro-icon";
 import path from "path";
@@ -9,6 +10,7 @@ import Player from "./Player.astro";
 import PodcastLinks from "./PodcastLinks.astro";
 import { postdate } from "./utilities/DateFormat";
 import { episodeLength } from "./utilities/episodelength.mjs";
+import Transcript from "./Transcript.astro";
 
 interface Props {
   episode: CollectionEntry<"episodes">;
@@ -19,6 +21,9 @@ interface Props {
 const { episode, audio, index, pageNum } = Astro.props;
 const { Content } = await episode.render();
 const brews = brewList(episode.data.episode);
+const transcript = await getCollection("transcripts", ({ id }) => {
+  return id.endsWith(`${episode.data.episode}.md`);
+});
 ---
 
 <div
@@ -48,6 +53,17 @@ const brews = brewList(episode.data.episode);
       }</span
     > •
     <span>{episodeLength(episode.data.length)}</span>
+    {
+      transcript.map((transcript) => (
+        <span>
+          •{" "}
+          <>
+            <Icon name="ic:baseline-document-scanner" />
+            <a href={`/transcripts/${transcript.slug}`}>Transcript</a>
+          </>
+        </span>
+      ))
+    }
   </div>
   <p>{episode.data.description}</p>
 
@@ -67,7 +83,10 @@ const brews = brewList(episode.data.episode);
     }
   }
 
-  <PodcastLinks episode={episode} />
+  <PodcastLinks
+    episode={episode}
+    transcript={transcript.map((transcript) => transcript.slug.toString())}
+  />
 
   <h2>The brew</h2>
   <div class="brew-container">
@@ -100,7 +119,8 @@ const brews = brewList(episode.data.episode);
     font-size: 0.6em;
     column-gap: 0.5rem;
   }
-  [astro-icon="fluent:calendar-rtl-48-filled"] {
+  [astro-icon="fluent:calendar-rtl-48-filled"],
+  [astro-icon="ic:baseline-document-scanner"] {
     height: 1rem;
     margin: 0 0.25rem -0.25em 0;
   }

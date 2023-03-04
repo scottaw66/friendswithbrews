@@ -5,9 +5,11 @@ import { Icon } from "astro-icon";
 
 interface Props {
   episode: CollectionEntry<"episodes">;
+  transcript?: string[];
 }
 
-const { episode } = Astro.props;
+const { episode, transcript } = Astro.props;
+console.log(`episode: ${episode.data.episode} transcript: ${transcript}`);
 ---
 
 <div class="episode-links">
@@ -25,6 +27,20 @@ const { episode } = Astro.props;
       >
     </div>
   </div>
+  {
+    transcript && (
+      <div class="download-link">
+        <div>
+          <a href={transcript}>
+            <Icon name="ic:baseline-document-scanner" />
+          </a>
+        </div>
+        <div>
+          <a href={transcript}>Transcript</a>
+        </div>
+      </div>
+    )
+  }
   <div class="download-link">
     <div>
       <a href={config.get("social.overcast")}>
@@ -53,7 +69,7 @@ const { episode } = Astro.props;
   }
   div.download-link {
     display: flex;
-    padding: 0 2rem;
+    padding: 0 1rem;
     font-size: 0.6em;
     text-transform: uppercase;
     font-weight: bold;
@@ -70,9 +86,10 @@ const { episode } = Astro.props;
     }
   }
   [astro-icon="mdi:cloud-download"],
+  [astro-icon="ic:baseline-document-scanner"],
   [astro-icon="simple-icons:overcast"],
   [astro-icon="simple-icons:applepodcasts"] {
     height: 1.5rem;
-    margin: 0.1rem 0.7rem 0 0;
+    margin: 0.1rem 0.5rem 0 0;
   }
 </style>

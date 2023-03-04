@@ -12,7 +12,6 @@ export async function getStaticPaths() {
 }
 
 const { transcript } = Astro.props;
-const { Content } = await transcript.render();
 ---
 
 <Base title={transcript.data.title.toUpperCase()}>
