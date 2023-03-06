@@ -250,7 +250,23 @@ declare module 'astro:content' {
   data: InferEntrySchema<"episodes">
 },
 },
+"srt": {
+"1.md": {
+  id: "1.md",
+  slug: "1",
+  body: string,
+  collection: "srt",
+  data: any
+},
+},
 "transcripts": {
+"1.md": {
+  id: "1.md",
+  slug: "T1",
+  body: string,
+  collection: "transcripts",
+  data: InferEntrySchema<"transcripts">
+},
 "22.md": {
   id: "22.md",
   slug: "T22",
