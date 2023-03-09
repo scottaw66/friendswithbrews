@@ -1,0 +1,32 @@
+{
+  "title": "Friends with Brews Podcast",
+  "description": "Two friends, two brews, many topics!",
+  "url": "https://friendswithbrews.com/",
+  "social": {
+    "mastodon": "https://appdot.net/@friendswbrews",
+    "mastodonName": "FriendswBrews",
+    "mastodonIcon": "simple-icons:mastodon",
+    "overcast": "https://overcast.fm/itunes1573648053/friends-with-brews-podcast",
+    "applePodcasts": "https://podcasts.apple.com/us/podcast/friends-with-brews-podcast/id1573648053"
+  },
+  "name": "Beeping Machine",
+  "email": "scott@beepingmachine.com",
+  "headerImage": {
+    "size": "35",
+    "source": "ScottAv.jpg"
+  },
+  "episodes": {
+    "path": "/",
+    "audioPrefix": "https://pints.friendswith.beer/",
+    "paginationSize": 5
+  },
+  "transcripts": {
+    "paginationSize": 20
+  },
+  "rss": {
+    "path": "/",
+    "fileName": "feed.xml",
+    "image": "FwBrews3000.png"
+  },
+  "beerPageSize": 12
+}
