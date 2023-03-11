@@ -178,3 +178,7 @@ div.brew-container {
     width: 90%;
   }
 }
+div.episode p picture img {
+  width: 300px;
+  height: auto;
+}
