@@ -36,7 +36,7 @@
     "@fontsource/be-vietnam-pro": "^4.5.8",
     "@fontsource/ia-writer-mono": "^4.5.3",
     "@fontsource/roboto-mono": "^4.5.10",
-    "astro": "^2.1.0",
+    "astro": "^2.1.2",
     "astro-embed": "^0.2.1",
     "astro-icon": "^0.8.0",
     "astro-pagefind": "file:../astro-components/astro-pagefind",
@@ -52,9 +52,9 @@
     "sharp": "^0.31.3"
   },
   "devDependencies": {
-    "astro-eslint-parser": "^0.11.0",
-    "eslint": "^8.35.0",
-    "eslint-plugin-astro": "^0.23.0",
+    "astro-eslint-parser": "^0.12.0",
+    "eslint": "^8.36.0",
+    "eslint-plugin-astro": "^0.24.0",
     "prettier": "^2.8.4",
     "prettier-plugin-astro": "^0.8.0"
   }
