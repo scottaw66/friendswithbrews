@@ -1,5 +1,59 @@
 [
   {
+    "id": "B6D8ylFWlLWDcRcJ_ER-s",
+    "name": "Triple Fruited Tripel",
+    "brewery": "OMMEGANG Brewery",
+    "image": "OmmegangTripleFruitedTripel-557163BC-E53C-439C-B529-DCE8E3E37E0C",
+    "description": "A fruited feast for the senses. Delightful aromas of ripe peach, creamy mango and juicy orange, with a hint of carbonation to tickle the nose. Three fruits, three times added to a balance blend of citrusy hops makes each sip more refreshing than the last. Well-complimented by a vibrant ginger hue and sitting nicely at 9% ABV, Triple Fruited Tripel makes for an easy drinking ale that's juicy and smooth.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["27"],
+    "url": "https://www.ommegang.com/beerinfo/triple-fruited-tripel/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "A mere 9.0% alcohol. Probably my favorite brewery and a nice strong fruity beer."
+      }
+    ]
+  },
+  {
+    "id": "2ZdX5ghMk-rA9Vy5nDBt2",
+    "name": "Nayo Ovalle",
+    "brewery": "Coava Coffee Roasters",
+    "image": "CoavaCoffeeRoastersNayoOvalle-557163BC-E53C-439C-B529-DCE8E3E37E0C",
+    "description": "Look for well-rounded notes of orange, almond butter, and milk chocolate in the cup.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["27"],
+    "url": "https://shop.coavacoffee.com/collections/coffee/products/nayo-ovalle-1",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "Coava is probably my favorite current roaster, and this is another smooth blend. Yes! Recommend!"
+      }
+    ]
+  },
+  {
+    "id": "9ElmiXbmgPvtH3PPK1Uex",
+    "name": "Salted Caramel Porter",
+    "brewery": "Cascade Lakes Brewing Co",
+    "image": "CascadeLakesBrewingCoSaltedCaramelPorter-557163BC-E53C-439C-B529-DCE8E3E37E0C",
+    "description": "A lightly-roasted, mahogany-colored, medium-bodied malt that is as smooth as a Marvin Gaye love song. With a sweet, salted-caramel flavor, this special porter is a delicious ale you’ll want to enjoy over and over.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["27"],
+    "url": "https://www.cascadelakes.com/beers",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "This is a great porter. It's only 5.8%, which is great, and it's tasty and smooth. Drink it!"
+      }
+    ]
+  },
+  {
     "id": "2ihXR9sygVv2Pt8m9SumA",
     "name": "Chai Love Spiced Chai Black Tea",
     "brewery": "Tiesta Tea",
