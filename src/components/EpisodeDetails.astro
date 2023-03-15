@@ -60,11 +60,7 @@ const transcript = await getCollection("transcripts", ({ id }) => {
     title={episode.data.title}
   />
   <div class="brew-container">
-    {
-      brews.map((brew) => (
-        <BrewDetails brew={brew} episode={episode.data.slug} />
-      ))
-    }
+    {brews.map((brew) => <BrewDetails brew={brew} episode={episode.slug} />)}
   </div>
 </div>
 
