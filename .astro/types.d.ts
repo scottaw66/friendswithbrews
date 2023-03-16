@@ -266,8 +266,6 @@ declare module 'astro:content' {
   data: InferEntrySchema<"episodes">
 } & { render(): Render[".md"] },
 },
-"srt": {
-},
 "transcripts": {
 "1.md": {
   id: "1.md",
