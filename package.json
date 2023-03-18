@@ -52,9 +52,9 @@
     "sharp": "^0.31.3"
   },
   "devDependencies": {
-    "astro-eslint-parser": "^0.12.0",
+    "astro-eslint-parser": "^0.13.0",
     "eslint": "^8.36.0",
-    "eslint-plugin-astro": "^0.25.0",
+    "eslint-plugin-astro": "^0.26.0",
     "prettier": "^2.8.4",
     "prettier-plugin-astro": "^0.8.0"
   }
