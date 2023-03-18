@@ -1,0 +1,3252 @@
+1
+00:00:00,000 --> 00:00:04,640
+i can't find it. why don't i have Friends with Brews? i think i deleted the wrong one.
+
+2
+00:00:04,640 --> 00:00:12,240
+I haveoh here it is. Friends with Brews! Best opening ever. Best opening ever of a best week opening ever.
+
+3
+00:00:12,240 --> 00:00:18,960
+What a week. Whew. Well you had the best opening ever. I saw the best finale ever to the World Cup just now.
+
+4
+00:00:18,960 --> 00:00:25,920
+Holy moly. Yeah I think a lot of people did including I saw people posting on Mastodon.
+
+5
+00:00:25,920 --> 00:00:31,120
+Yeah, you know what? I almost said I saw people posting on Mastodon that they don't like soccer
+
+6
+00:00:31,120 --> 00:00:36,560
+It is boring and yet they thought that was the most exciting thing they've ever seen. Yeah, it was an amazing
+
+7
+00:00:36,560 --> 00:00:44,040
+Minus the I don't like soccer part. I do like soccer. I did enjoy one woman's comment though on Mastodon
+
+8
+00:00:44,040 --> 00:00:47,820
+She said if I want to see men who can't score. I'll just go read the comments on Twitter
+
+9
+00:00:47,820 --> 00:00:52,800
+Funny funny. Okay. Okay. Hey speaking of Mastodon
+
+10
+00:00:53,480 --> 00:00:59,200
+Real quick. I don't think this is gonna be a Mastodon episode. No, but what is your preferred?
+
+11
+00:00:59,200 --> 00:01:05,340
+Desktop Mastodon client the website. They're all I was wondering mammoth has
+
+12
+00:01:05,340 --> 00:01:08,240
+mammoth has
+
+13
+00:01:08,240 --> 00:01:13,360
+Mammoths. Oh my god, Scott mammoth. Yeah, definitely mammoth time for mammoth Wapner
+
+14
+00:01:13,360 --> 00:01:19,880
+Okay, let me start all over. It's been a week. And as you know, I was just waking up. We just headed to podcast
+
+15
+00:01:21,280 --> 00:01:27,060
+Okay, which is great you wake up on the wrong side of the bed you're exhausted you're pissy you're angry at everything
+
+16
+00:01:27,060 --> 00:01:29,460
+Let's record. I'm actually not this time
+
+17
+00:01:29,460 --> 00:01:33,800
+I was angry last week for reasons that you know why because I was really physically out of sorts
+
+18
+00:01:33,800 --> 00:01:35,840
+Uh-huh
+
+19
+00:01:35,840 --> 00:01:41,080
+No, actually I was gonna say that's the one thing it's been a week and I do feel utterly exhausted
+
+20
+00:01:41,080 --> 00:01:46,120
+But the one nice thing about being physically trained is my body still feels good. Like I still feel good
+
+21
+00:01:46,760 --> 00:01:50,400
+Mm-hmm, so I saw I'm in a good mood because that now what were you gonna talk about?
+
+22
+00:01:50,400 --> 00:01:52,740
+What was I gonna come in on? What was I trying to say?
+
+23
+00:01:52,740 --> 00:01:57,120
+Oh mammoth mammoth may not specifically be written to run on the Mac
+
+24
+00:01:57,120 --> 00:02:02,520
+But it runs on the Mac and I don't know if that's just because it gets the iPad it runs on the Apple silicon Mac
+
+25
+00:02:02,520 --> 00:02:09,880
+And I don't know if that's just because it's running the straight iPad version or if he actually is tweaking it for a Mac version
+
+26
+00:02:09,880 --> 00:02:12,720
+I can't remember. It's in test flight. I think it probably
+
+27
+00:02:12,720 --> 00:02:15,720
+Let me open test flight mammoth
+
+28
+00:02:15,720 --> 00:02:25,440
+It doesn't say? So I'm guessing that he just said run it on all platforms, but he's probably
+
+29
+00:02:25,440 --> 00:02:29,680
+not doing anything to make it specifically Mac-like. So anyway, the reason I don't use
+
+30
+00:02:29,680 --> 00:02:35,040
+Mammoth on the Mac is because every time I try to post something it just crashes. It just disappears.
+
+31
+00:02:35,040 --> 00:02:37,560
+That's a good reason to not use it on the Mac.
+
+32
+00:02:37,560 --> 00:02:40,840
+Yeah, on the other hand, it keeps you from saying things you'll regret later.
+
+33
+00:02:40,840 --> 00:02:43,640
+Well, that's also a good reason.
+
+34
+00:02:43,640 --> 00:02:49,160
+So I use the website and then of course on iPad and iPhone I use the ivory
+
+35
+00:02:49,160 --> 00:02:53,640
+Test flight beta right and I'm using that as well. I haven't done much with it
+
+36
+00:02:53,640 --> 00:03:00,320
+I've only posted like two things I noticed but you know, that's okay. I'm okay with that. I'm trying to get you involved more
+
+37
+00:03:00,320 --> 00:03:08,880
+I'm I am okay not being wedded to another social media site with me the balance like
+
+38
+00:03:08,880 --> 00:03:11,200
+if I am watching
+
+39
+00:03:11,360 --> 00:03:17,120
+security folks and I want like the latest news and stuff, then that's one thing. But
+
+40
+00:03:17,120 --> 00:03:22,240
+I don't need like, okay, Twitter's gone. I haven't been like actively looking at Twitter
+
+41
+00:03:22,240 --> 00:03:27,580
+in years. I get that. Well, I know that. Anyway. Yeah. So, so I'm not looking for something
+
+42
+00:03:27,580 --> 00:03:31,760
+to look at, but, but I like the things that you curate for me, Scott. You might as well
+
+43
+00:03:31,760 --> 00:03:38,580
+enjoy it in the good days. This is as good as Mastodon's ever going to get in terms of
+
+44
+00:03:38,580 --> 00:03:39,980
+Lack of a**holes.
+
+45
+00:03:39,980 --> 00:03:40,980
+Probably.
+
+46
+00:03:40,980 --> 00:03:47,060
+And on the same token, we now have the owner of Twitter over there banning journalists
+
+47
+00:03:47,060 --> 00:03:49,740
+and links to Mastodon.
+
+48
+00:03:49,740 --> 00:03:50,740
+Did you see that part?
+
+49
+00:03:50,740 --> 00:03:52,260
+I totally missed that a couple days ago.
+
+50
+00:03:52,260 --> 00:03:54,440
+Yeah, he's not naive and well-meaning.
+
+51
+00:03:54,440 --> 00:03:56,440
+He's naive and very ill-intentioned.
+
+52
+00:03:56,440 --> 00:04:00,340
+Oh, let's talk about our brews before we get any further.
+
+53
+00:04:00,340 --> 00:04:01,340
+Yeah, let's.
+
+54
+00:04:01,340 --> 00:04:02,340
+Why don't you go first?
+
+55
+00:04:02,340 --> 00:04:03,340
+Because I got to pick up the name again.
+
+56
+00:04:03,340 --> 00:04:04,580
+Today's a coffee day.
+
+57
+00:04:04,580 --> 00:04:05,880
+It is a coffee day.
+
+58
+00:04:05,880 --> 00:04:06,880
+Coffee day for me as well.
+
+59
+00:04:06,880 --> 00:04:13,360
+Okay, I'm having a Water Avenue, which is brewed in Portland, where I live.
+
+60
+00:04:13,360 --> 00:04:16,840
+Water Avenue, my goal in life by the way, Peter, is to make everyone think that that's
+
+61
+00:04:16,840 --> 00:04:21,480
+actually how you say Portland, and have everyone say "Portland" so that I can tell that they're
+
+62
+00:04:21,480 --> 00:04:23,400
+a listener to this podcast.
+
+63
+00:04:23,400 --> 00:04:24,400
+Portlandia.
+
+64
+00:04:24,400 --> 00:04:28,880
+Water Avenue, coffee company, Wonderland.
+
+65
+00:04:28,880 --> 00:04:30,040
+Perfect for Portland.
+
+66
+00:04:30,040 --> 00:04:34,800
+It's a cozy blend for misty mornings, and I gotta say it was a little misty earlier.
+
+67
+00:04:34,800 --> 00:04:40,360
+It's a medium roast, wonderfully balanced with festive tasting notes of, get ready for
+
+68
+00:04:40,360 --> 00:04:44,620
+this, baking spice, brown sugar, and toasted nuts.
+
+69
+00:04:44,620 --> 00:04:45,620
+Huh.
+
+70
+00:04:45,620 --> 00:04:48,760
+These are not your father's toasted nuts, by the way.
+
+71
+00:04:48,760 --> 00:04:51,720
+I couldn't have read it better myself.
+
+72
+00:04:51,720 --> 00:04:53,600
+Oh my god.
+
+73
+00:04:53,600 --> 00:04:58,240
+These are not your father's toasted nuts.
+
+74
+00:04:58,240 --> 00:04:59,720
+You didn't make that up, did you?
+
+75
+00:04:59,720 --> 00:05:01,000
+No, I did, actually.
+
+76
+00:05:01,000 --> 00:05:02,000
+That part I made up.
+
+77
+00:05:02,000 --> 00:05:03,000
+Oh, you did?
+
+78
+00:05:03,000 --> 00:05:05,700
+I did make up the part about these are not your father's toasted nuts.
+
+79
+00:05:05,700 --> 00:05:06,760
+Okay. Okay.
+
+80
+00:05:06,760 --> 00:05:09,240
+Seemed like it. I just am offering it up to them.
+
+81
+00:05:09,240 --> 00:05:11,440
+If they're listening by chance,
+
+82
+00:05:11,440 --> 00:05:14,360
+I want them to know that not only do we want sponsorship,
+
+83
+00:05:14,360 --> 00:05:15,840
+they can have that slogan for free.
+
+84
+00:05:15,840 --> 00:05:17,640
+Awesome. Well,
+
+85
+00:05:17,640 --> 00:05:22,440
+I am drinking a cup of Wegmans Dark Horizon
+
+86
+00:05:22,440 --> 00:05:23,440
+coffee.
+
+87
+00:05:23,440 --> 00:05:25,840
+That is a dark horizon. Is it an event horizon?
+
+88
+00:05:25,840 --> 00:05:29,840
+It's bold with, uh, with notes of dark chocolate.
+
+89
+00:05:29,840 --> 00:05:32,440
+It is a medium dark roast.
+
+90
+00:05:32,460 --> 00:05:38,160
+Now you know, normally I go all in on the dark stuff, but I say dark horizon, it's distant
+
+91
+00:05:38,160 --> 00:05:39,160
+horizon.
+
+92
+00:05:39,160 --> 00:05:40,160
+Did I say distant?
+
+93
+00:05:40,160 --> 00:05:41,160
+It's distant, distant horizon.
+
+94
+00:05:41,160 --> 00:05:42,160
+Distant event horizon.
+
+95
+00:05:42,160 --> 00:05:43,660
+There's no event in it.
+
+96
+00:05:43,660 --> 00:05:45,580
+It's distant horizon.
+
+97
+00:05:45,580 --> 00:05:46,580
+And I like it a lot.
+
+98
+00:05:46,580 --> 00:05:52,140
+The first time I've had it was this morning, and I am on my third cup and I have not put
+
+99
+00:05:52,140 --> 00:05:53,220
+anything in it.
+
+100
+00:05:53,220 --> 00:05:55,500
+Didn't put any cream, which I normally do.
+
+101
+00:05:55,500 --> 00:06:00,860
+I suspect it probably would taste even better with cream, but I wanted to just taste it
+
+102
+00:06:00,860 --> 00:06:03,100
+straight up and it's really nice.
+
+103
+00:06:03,100 --> 00:06:06,060
+From the website, bold with notes of dark chocolate,
+
+104
+00:06:06,060 --> 00:06:08,720
+blend of beans from Colombia, Brazil,
+
+105
+00:06:08,720 --> 00:06:11,140
+Ethiopia, and Nicaragua.
+
+106
+00:06:11,140 --> 00:06:14,300
+From crop to cup, sourced and roasted with care,
+
+107
+00:06:14,300 --> 00:06:16,780
+our supplier partner has direct relationships
+
+108
+00:06:16,780 --> 00:06:18,900
+with global coffee farmers that bring you the best
+
+109
+00:06:18,900 --> 00:06:22,220
+and responsibly sourced coffee from around the world.
+
+110
+00:06:22,220 --> 00:06:24,820
+Our food you feel good about, Yellow Banner,
+
+111
+00:06:24,820 --> 00:06:27,140
+is your shortcut to great tasting products
+
+112
+00:06:27,140 --> 00:06:30,340
+with no artificial colors, flavors, or preservatives.
+
+113
+00:06:30,340 --> 00:06:32,760
+Yes, these are not your father's toasted nuts.
+
+114
+00:06:32,760 --> 00:06:35,560
+It says nothing about your father's toasted nuts.
+
+115
+00:06:35,560 --> 00:06:36,560
+Okay.
+
+116
+00:06:36,560 --> 00:06:39,260
+Oh my god.
+
+117
+00:06:39,260 --> 00:06:42,020
+I'm so glad that I grew up and became an adult.
+
+118
+00:06:42,020 --> 00:06:52,880
+I am actually happy to report that my father is safe and sound.
+
+119
+00:06:52,880 --> 00:06:56,400
+So Vermont got a huge load of snow.
+
+120
+00:06:56,400 --> 00:06:57,400
+Giant blizzard.
+
+121
+00:06:57,400 --> 00:07:00,640
+Oh, oh, I thought this was back to the falling incident
+
+122
+00:07:00,640 --> 00:07:08,420
+No, they had a load of snow like two feet my debt by my dad's asked a snow falling incident and a couple yes
+
+123
+00:07:08,420 --> 00:07:11,600
+Exactly that kind of falling and a couple of years ago
+
+124
+00:07:11,600 --> 00:07:18,300
+I had persuaded him to put in a generator and I'm glad he has because for two days he had no power
+
+125
+00:07:18,300 --> 00:07:23,100
+I don't even know if he has any power now because he told me he was gonna snow blow and get out to the propane
+
+126
+00:07:23,100 --> 00:07:26,500
+Generator to see or to the propane tank to check the fuel level
+
+127
+00:07:26,740 --> 00:07:32,900
+But he's basically been running on generator power for the last two days now and it's great when I heard Adam
+
+128
+00:07:32,900 --> 00:07:35,580
+saying on blurring the lines that
+
+129
+00:07:35,580 --> 00:07:40,760
+His daughter's boyfriend I think was questioning him about why you would want
+
+130
+00:07:40,760 --> 00:07:49,220
+Backup stores of food like extra food supply on hand. Uh-huh. I thought to myself, you know, we do have some stuff
+
+131
+00:07:49,220 --> 00:07:54,380
+Stored away, but we're not as good as we could be. Mm-hmm
+
+132
+00:07:54,500 --> 00:07:59,580
+I'll freely admit that but to wonder why it's a good idea. Ah
+
+133
+00:07:59,580 --> 00:08:08,660
+Hello, I have an ex-girlfriend and this was right when covid was getting started and I was stocking up on
+
+134
+00:08:08,660 --> 00:08:11,380
+dried foods rice beans
+
+135
+00:08:11,380 --> 00:08:17,200
+Oatmeal right coffee and then other stuff that was just last forever
+
+136
+00:08:17,200 --> 00:08:19,860
+peanut butter speaking of toasted nuts
+
+137
+00:08:20,860 --> 00:08:27,980
+Cans of tuna canned vegetables and she was like, why would you why would you get canned vegetables?
+
+138
+00:08:27,980 --> 00:08:30,660
+We can get fresh and I was like, you don't
+
+139
+00:08:30,660 --> 00:08:34,620
+Get it. Do you this isn't about the quality of the eating experience?
+
+140
+00:08:34,620 --> 00:08:37,540
+Exactly. This was like, you know
+
+141
+00:08:37,540 --> 00:08:43,680
+I want to make sure I have something to eat and I'm gonna worry about how tasty and healthy it is later right now
+
+142
+00:08:43,680 --> 00:08:45,680
+Honestly, I'm looking for calories
+
+143
+00:08:47,360 --> 00:08:53,140
+Let me live first. Let me stay alive for a little while and then I'll worry about the fine dining experience
+
+144
+00:08:53,140 --> 00:08:55,600
+Uh-huh
+
+145
+00:08:55,600 --> 00:09:00,160
+Exactly. Was that the end? Was that the day you broke up there? It came shortly after actually
+
+146
+00:09:00,160 --> 00:09:05,780
+It wasn't that wasn't the day but it was it was it was it was it was that day adjacent
+
+147
+00:09:05,780 --> 00:09:14,400
+Anyway, so so you we both I think we have two thumbs up for our coffees. Is that safe to say?
+
+148
+00:09:14,400 --> 00:09:18,600
+Yeah, I think so. I think every time I have a coffee that I haven't tried before,
+
+149
+00:09:18,600 --> 00:09:22,100
+there's a little experimentation before I get the brewing of it exactly right.
+
+150
+00:09:22,100 --> 00:09:26,900
+And to be honest, I'm very non-scientific. I'm scientific about my baseline brew.
+
+151
+00:09:26,900 --> 00:09:32,600
+But I'm very non-scientific about what changes I make, and I can't even tell you what they are.
+
+152
+00:09:32,600 --> 00:09:36,400
+I just kind of go by feel, and then it turns out better, and I'm like,
+
+153
+00:09:36,400 --> 00:09:39,000
+"Hey, this coffee's better than I thought because I brewed it right this time."
+
+154
+00:09:39,000 --> 00:09:43,400
+So I think so. Right now, this one's a tiny bit bitterer than I would like,
+
+155
+00:09:43,400 --> 00:09:50,040
+but my assumption is that I just need a few less... I need less grams of beans for this one compared
+
+156
+00:09:50,040 --> 00:09:55,480
+to other ones maybe, and I think it would be really good. I think if I just dropped a couple
+
+157
+00:09:55,480 --> 00:10:01,320
+grams of beans off the list and maybe... yeah, probably that was the biggest thing. Cool,
+
+158
+00:10:01,320 --> 00:10:07,880
+all right. I don't change a whole lot else. So, it is Sunday, but I do have things going on today,
+
+159
+00:10:07,880 --> 00:10:11,720
+so let's stay on track. I'm not bailing on you, but I am trying to keep us focused. So,
+
+160
+00:10:11,720 --> 00:10:15,720
+So what else is next? Talk to me about the Google Drive user interface.
+
+161
+00:10:15,720 --> 00:10:21,720
+Yeah, I think I lost a follower on Mastodon because I was saying that Google has never
+
+162
+00:10:21,720 --> 00:10:25,520
+been able to design a UI to save their lives because I think they just fundamentally don't
+
+163
+00:10:25,520 --> 00:10:28,940
+understand human beings, which I think is a fair assessment.
+
+164
+00:10:28,940 --> 00:10:34,380
+Have you used Microsoft OneDrive or SharePoint? Yeah.
+
+165
+00:10:34,380 --> 00:10:37,880
+Have you used SharePoint? Yeah, I've used SharePoint. I hate SharePoint.
+
+166
+00:10:37,880 --> 00:10:43,000
+Okay. I mean, I not just calm yourself. I can see your blood pressure.
+
+167
+00:10:43,000 --> 00:10:46,680
+So I can see your pulse already pulsing through your ATP cat. Just calm down,
+
+168
+00:10:46,680 --> 00:10:51,040
+calm down, calm down. No, in all seriousness, what I'm saying is I agree with you.
+
+169
+00:10:51,040 --> 00:10:53,360
+Google drives, UI is a little bit crap,
+
+170
+00:10:53,360 --> 00:10:57,040
+but then I compare it to one of those times when I have to use SharePoint and
+
+171
+00:10:57,040 --> 00:11:00,000
+I'm like, Oh my God, this is so much worse.
+
+172
+00:11:00,000 --> 00:11:03,840
+But at least with SharePoint, if you say add a document, it says, Oh,
+
+173
+00:11:03,840 --> 00:11:05,440
+we're in a certain folder.
+
+174
+00:11:05,520 --> 00:11:08,640
+Maybe I should add that document here and it adds it there.
+
+175
+00:11:08,640 --> 00:11:12,080
+Google Drive, you make a copy of an existing document
+
+176
+00:11:12,080 --> 00:11:14,640
+that's in the friends with beer folder.
+
+177
+00:11:14,640 --> 00:11:17,660
+Which is the folder that I share with you?
+
+178
+00:11:17,660 --> 00:11:19,340
+So that you can see it.
+
+179
+00:11:19,340 --> 00:11:20,180
+Yeah.
+
+180
+00:11:20,180 --> 00:11:22,760
+Now, if I just make a copy of our template
+
+181
+00:11:22,760 --> 00:11:24,720
+and I start making show notes for today,
+
+182
+00:11:24,720 --> 00:11:26,940
+do you think Peter Nikolaidis is going to be able to see it?
+
+183
+00:11:26,940 --> 00:11:29,940
+No, because it doesn't put it in the same drive.
+
+184
+00:11:29,940 --> 00:11:32,680
+It doesn't put it in the friends with beer folder.
+
+185
+00:11:32,680 --> 00:11:38,680
+it puts it up in my personal drive in the root directory so that Peter cannot see it,
+
+186
+00:11:38,680 --> 00:11:43,480
+because that seems like the most logical reason I'd want to copy a file is to move it the hell away,
+
+187
+00:11:43,480 --> 00:11:50,920
+not to change it slightly. It makes perfect sense. Why, Peter? They're the only one that do that,
+
+188
+00:11:50,920 --> 00:11:58,040
+as far as I know. Yeah, I cannot tell you why that would happen. And then at least when you go to
+
+189
+00:11:58,040 --> 00:12:04,120
+SharePoint as slow and abominable and horrible as it is, it presents you with the stuff that
+
+190
+00:12:04,120 --> 00:12:09,120
+the people want to be in each view. You get there, there's some links, there's some folders,
+
+191
+00:12:09,120 --> 00:12:12,260
+blah blah blah, you go into the folders, the stuff is there, nothing moves around. You
+
+192
+00:12:12,260 --> 00:12:18,940
+go to drive.google.com and it says, "I'm going to show them a dashboard of the amazing things
+
+193
+00:12:18,940 --> 00:12:23,040
+that they don't know exists." Yeah, not only do I not know they exist, I don't want to
+
+194
+00:12:23,040 --> 00:12:27,520
+know they exist. I'm looking for my folder. I don't care about all that other stuff that
+
+195
+00:12:27,520 --> 00:12:32,240
+somebody shared with me five billion years ago. I don't care about the wallpaper that some idiot
+
+196
+00:12:32,240 --> 00:12:37,520
+put in Google Drive instead of posting on a website. I don't want it. I want my friends
+
+197
+00:12:37,520 --> 00:12:42,160
+with beer folder. Show me that. How about show me the folders? They're directly in my...
+
+198
+00:12:42,160 --> 00:12:48,160
+So let me play Google's advocate here for a second.
+
+199
+00:12:48,160 --> 00:12:49,280
+Oh my god, you ass.
+
+200
+00:12:53,600 --> 00:12:57,840
+one person could argue, and this is hilarious, right?
+
+201
+00:12:57,840 --> 00:13:01,740
+That what they're doing is more privacy.
+
+202
+00:13:01,740 --> 00:13:05,680
+I can't even stay with the straight face.
+
+203
+00:13:05,680 --> 00:13:07,880
+By hiding your own stuff from you?
+
+204
+00:13:07,880 --> 00:13:11,160
+Well, no, hiding it so that hiding it so that I don't get,
+
+205
+00:13:11,160 --> 00:13:14,520
+so you make a copy of it and I don't see the copy by default.
+
+206
+00:13:14,520 --> 00:13:17,480
+That part of it. Yeah. Yeah. Right. So you get to make your copy,
+
+207
+00:13:17,480 --> 00:13:19,760
+but just in case you didn't want to overshare.
+
+208
+00:13:19,760 --> 00:13:20,520
+Okay.
+
+209
+00:13:20,520 --> 00:13:24,820
+then what I need to do is test to see if that is the same way in non-shared folders
+
+210
+00:13:24,820 --> 00:13:29,680
+because if it does the same thing with a non-shared folder then that is wrong.
+
+211
+00:13:29,680 --> 00:13:31,820
+But that's a point that I never thought of.
+
+212
+00:13:31,820 --> 00:13:35,020
+So let me go to my drive.
+
+213
+00:13:35,020 --> 00:13:37,020
+Yep, I'm going to make a new folder.
+
+214
+00:13:37,020 --> 00:13:38,320
+New folder.
+
+215
+00:13:38,320 --> 00:13:40,320
+I'm going to make a test.
+
+216
+00:13:40,320 --> 00:13:41,720
+Testing.
+
+217
+00:13:41,720 --> 00:13:43,820
+Yes, Google is very testing.
+
+218
+00:13:43,820 --> 00:13:45,320
+Testing.
+
+219
+00:13:45,320 --> 00:13:47,020
+Now I'm going to make a new document.
+
+220
+00:13:47,020 --> 00:13:48,920
+Okay, so I go to untitled documents.
+
+221
+00:13:48,920 --> 00:13:50,780
+So where does it, oh, I see what the problem is.
+
+222
+00:13:50,780 --> 00:13:53,280
+The problem is that Google Drive and Google Docs
+
+223
+00:13:53,280 --> 00:13:55,460
+want to be two separate things.
+
+224
+00:13:55,460 --> 00:13:56,320
+Hmm.
+
+225
+00:13:56,320 --> 00:14:00,560
+And so now when I say, hi, that's the name of my document,
+
+226
+00:14:00,560 --> 00:14:04,640
+saved to Drive, so now I want to go back to Drive.
+
+227
+00:14:04,640 --> 00:14:05,800
+Oh, it did save it in testing.
+
+228
+00:14:05,800 --> 00:14:07,320
+Okay, you know what?
+
+229
+00:14:07,320 --> 00:14:09,640
+Good troubleshooting.
+
+230
+00:14:09,640 --> 00:14:12,080
+You're the software tester today, not me.
+
+231
+00:14:12,080 --> 00:14:14,120
+That is exactly what Google's doing.
+
+232
+00:14:14,120 --> 00:14:17,360
+Believe me, when it comes to software, I can be testing.
+
+233
+00:14:17,360 --> 00:14:19,000
+Oh, you're very testing.
+
+234
+00:14:19,000 --> 00:14:19,500
+I am testing.
+
+235
+00:14:19,500 --> 00:14:20,600
+I can be trying, too.
+
+236
+00:14:20,600 --> 00:14:22,840
+But see, normally I think of all the weird test cases.
+
+237
+00:14:22,840 --> 00:14:24,340
+I didn't even think about the fact
+
+238
+00:14:24,340 --> 00:14:26,400
+that because it was a shared folder--
+
+239
+00:14:26,400 --> 00:14:27,560
+yeah.
+
+240
+00:14:27,560 --> 00:14:28,480
+OK.
+
+241
+00:14:28,480 --> 00:14:29,860
+Good to know.
+
+242
+00:14:29,860 --> 00:14:30,600
+You're welcome.
+
+243
+00:14:30,600 --> 00:14:31,480
+Brilliant.
+
+244
+00:14:31,480 --> 00:14:32,560
+Thank you.
+
+245
+00:14:32,560 --> 00:14:33,880
+Wow.
+
+246
+00:14:33,880 --> 00:14:35,640
+Wait, I want you to mark this down.
+
+247
+00:14:35,640 --> 00:14:38,680
+Scott Wilsey is admiring Peter Nikolaidis' technical skills
+
+248
+00:14:38,680 --> 00:14:40,800
+today.
+
+249
+00:14:40,800 --> 00:14:42,760
+What?
+
+250
+00:14:42,760 --> 00:14:43,320
+Yeah, OK.
+
+251
+00:14:43,320 --> 00:14:45,680
+Thanks.
+
+252
+00:14:45,680 --> 00:14:46,680
+I thought it was a nice thing.
+
+253
+00:14:46,680 --> 00:14:47,680
+Ah.
+
+254
+00:14:47,680 --> 00:14:49,680
+Okay, so we solved that mystery. That's actually-
+
+255
+00:14:49,680 --> 00:14:50,680
+Yay! You're welcome.
+
+256
+00:14:50,680 --> 00:14:51,680
+Alright, people.
+
+257
+00:14:51,680 --> 00:14:55,680
+So, Peter is your, uh, consultant.
+
+258
+00:14:55,680 --> 00:14:57,680
+Oh, man.
+
+259
+00:14:57,680 --> 00:14:59,680
+Oh, oh, oh.
+
+260
+00:14:59,680 --> 00:15:00,680
+I, uh, just-
+
+261
+00:15:00,680 --> 00:15:02,680
+Last night, I forgot to tell you.
+
+262
+00:15:02,680 --> 00:15:05,680
+I got a, uh, an email from, uh, our friends over at Meta
+
+263
+00:15:05,680 --> 00:15:08,680
+asking if, um, I wanted to, uh, interview for their security engineering team.
+
+264
+00:15:08,680 --> 00:15:09,680
+[Gasp]
+
+265
+00:15:09,680 --> 00:15:11,680
+Oh my god. Are you serious?
+
+266
+00:15:11,680 --> 00:15:12,680
+Mm-hmm.
+
+267
+00:15:12,680 --> 00:15:14,680
+And you said, "No, you're holding out to be on Twitter's security team?"
+
+268
+00:15:14,680 --> 00:15:25,200
+I might just do that. I might just do that. That'd be awesome. Oh, man.
+
+269
+00:15:25,200 --> 00:15:29,360
+I have not responded. Anyway.
+
+270
+00:15:29,360 --> 00:15:31,640
+That's okay. That's very minimal.
+
+271
+00:15:31,640 --> 00:15:33,040
+Carry on. Yeah, carry on.
+
+272
+00:15:33,040 --> 00:15:37,320
+Maybe you could get the goggles. You could be a virtual world security guy. You could
+
+273
+00:15:37,320 --> 00:15:39,460
+bumble around as an avatar typing cookie.
+
+274
+00:15:39,460 --> 00:15:41,120
+Type cookie, you idiot.
+
+275
+00:15:41,120 --> 00:15:43,120
+[laughter]
+
+276
+00:15:43,120 --> 00:15:45,120
+Oh boy.
+
+277
+00:15:45,120 --> 00:15:47,120
+Okay, so you and I both use rectangle.
+
+278
+00:15:47,120 --> 00:15:51,120
+And I believe that you have paid for it by now? Or not?
+
+279
+00:15:51,120 --> 00:15:53,120
+I have to check. I meant to.
+
+280
+00:15:53,120 --> 00:15:55,120
+It's a separate download.
+
+281
+00:15:55,120 --> 00:15:57,120
+I know, I know. Let me just check.
+
+282
+00:15:57,120 --> 00:15:59,120
+About... I was gonna say, if you haven't downloaded something separate...
+
+283
+00:15:59,120 --> 00:16:01,120
+I have not yet purchased the Pro.
+
+284
+00:16:01,120 --> 00:16:03,120
+Nope, I'm still running just plain old rectangle.
+
+285
+00:16:03,120 --> 00:16:07,120
+I did at one point get as far as going to the website, and then...
+
+286
+00:16:07,120 --> 00:16:09,120
+I got distracted somehow.
+
+287
+00:16:09,120 --> 00:16:12,760
+somehow. I'm also drinking a Gatorade Zero which I'm not going to put in the
+
+288
+00:16:12,760 --> 00:16:18,760
+show notes or in the brews sections. Not technically a brew so... It's a chemical
+
+289
+00:16:18,760 --> 00:16:22,620
+disguised as a sports drink. Okay well what I wanted to talk about with
+
+290
+00:16:22,620 --> 00:16:25,960
+rectangle is it definitely solves some problems that I feel like Apple should
+
+291
+00:16:25,960 --> 00:16:32,840
+have solved themselves. Okay. Basic window management that you know Apple should
+
+292
+00:16:32,840 --> 00:16:37,400
+have thought of. Stage manager is not the answer and I know that some people like
+
+293
+00:16:37,400 --> 00:16:45,340
+it, happy for you. So very, very happy for you. Not sharing that opinion. And I have
+
+294
+00:16:45,340 --> 00:16:49,600
+reasons why, but we're not here to talk about Stage Manager. If anyone feeds back at us
+
+295
+00:16:49,600 --> 00:16:56,760
+and says, "Oh my God, Stage Manager, amazing, lolz. I have reasons why no person with an
+
+296
+00:16:56,760 --> 00:17:02,680
+orderly mind would use Stage Manager." But, see how I'm not talking about Stage Manager?
+
+297
+00:17:02,680 --> 00:17:05,520
+Let's talk about rectangle. So what's your use case? What are the shortcuts that you
+
+298
+00:17:05,520 --> 00:17:10,440
+the most? What do you find the most useful about it that Mac OS doesn't have
+
+299
+00:17:10,440 --> 00:17:11,640
+built in natively?
+
+300
+00:17:11,640 --> 00:17:15,440
+Admittedly, I don't spend as much time moving back and forth
+
+301
+00:17:15,440 --> 00:17:23,560
+between a Windows computer keyboard and a Mac keyboard anymore. That said, I don't
+
+302
+00:17:23,560 --> 00:17:30,240
+like when I become overly reliant on keyboard shortcuts that I can't port
+
+303
+00:17:30,240 --> 00:17:39,040
+back and forth. Now my brain and thumbs have been trained so that I can use control whatever when
+
+304
+00:17:39,040 --> 00:17:43,440
+I'm sitting on a Windows keyboard and command whatever when I'm sitting at a Mac. That much I
+
+305
+00:17:43,440 --> 00:17:50,480
+can do easily. I still sometimes strip on that. But remembering like control option shift caret,
+
+306
+00:17:50,480 --> 00:17:57,760
+you know, whatever. Those are like, I'm never going to. So what I do is I have largely a default
+
+307
+00:17:57,760 --> 00:18:03,600
+rectangular rectangular rectangle configuration and I use it with the hot zones I guess they're
+
+308
+00:18:03,600 --> 00:18:08,160
+called when you move like the the window so if I want to take the current window I'm in
+
+309
+00:18:08,160 --> 00:18:13,360
+where it leaps to a certain position yeah so like I'll take this facetime window I'm looking at you
+
+310
+00:18:13,360 --> 00:18:19,760
+in right now and drag it to the top of my screen and it doesn't almost maximize right a zoom to
+
+311
+00:18:19,760 --> 00:18:25,600
+like full screen yeah yeah yeah and then I'll take it and bring it to the right edge the right or
+
+312
+00:18:25,600 --> 00:18:32,000
+rightmost edge and let it go there. Now you take up the right half of my screen. And if I take it
+
+313
+00:18:32,000 --> 00:18:38,720
+down to the bottom center of my window and let it go there, it takes up the middle third of the
+
+314
+00:18:38,720 --> 00:18:43,840
+screen. So those are the features that I'm using mostly. I haven't, I guess you can do like custom
+
+315
+00:18:43,840 --> 00:18:49,120
+layouts where you can put like this window in this special area and stuff, which I just haven't gotten
+
+316
+00:18:49,120 --> 00:18:56,160
+around to yet. I do that in Windows when I use PowerToys. They have, I think it's called
+
+317
+00:18:56,160 --> 00:19:02,720
+Zones, desktop zones, and I like that because like when I'm gaming for instance, I have a zone like
+
+318
+00:19:02,720 --> 00:19:08,880
+the gaming window will be here, my Discord window will be here, and a preview window with the rule
+
+319
+00:19:08,880 --> 00:19:13,200
+book will be here and just like snaps them all right in the perfect place and I like that.
+
+320
+00:19:13,200 --> 00:19:13,440
+Yeah.
+
+321
+00:19:13,440 --> 00:19:16,240
+Haven't gotten around to that with rectangle yet.
+
+322
+00:19:16,240 --> 00:19:20,000
+So I do have some, I do have a couple layouts saved.
+
+323
+00:19:20,000 --> 00:19:23,360
+The one thing is it requires me to have the programs already open,
+
+324
+00:19:23,360 --> 00:19:27,920
+but if I have those programs open and I hit that key shortcut, they will go to their places.
+
+325
+00:19:27,920 --> 00:19:32,640
+Now, the one thing about macOS that it is fairly good at is
+
+326
+00:19:32,640 --> 00:19:36,960
+those apps already remember their places, so I don't actually have to trigger that shortcut.
+
+327
+00:19:36,960 --> 00:19:43,440
+Right. Yep. So overall, I like it. I definitely will, you know, it's worth the $9.
+
+328
+00:19:44,320 --> 00:19:49,280
+Like I had mentioned this either on a previous episode of this episode of this show or was it Blurring the Lines?
+
+329
+00:19:49,280 --> 00:19:53,520
+I don't remember but I had mentioned that I purchased Moom from Many Tricks
+
+330
+00:19:53,520 --> 00:19:57,120
+Which I had heard about from John Chidgey over at the Engineered Network
+
+331
+00:19:57,120 --> 00:20:03,840
+Right, and then I purchased it which I had heard about from Peter Nikolaidis at the Blurring with Lines and Friends with Brews podcast
+
+332
+00:20:03,840 --> 00:20:09,520
+But Rectangle seemed to work better for me and it was easier for me to get started and more intuitive
+
+333
+00:20:09,680 --> 00:20:14,960
+So yeah, it's stuck in my brain. Yeah, it's absolutely worth, you know, the $9 or whatever to buy the pro
+
+334
+00:20:14,960 --> 00:20:19,220
+I should I'm just gonna do that on the podcast today, you know, that's what I'm gonna do
+
+335
+00:20:19,220 --> 00:20:23,040
+I think gentlemen Peter Nikolaidis is going to recite his credit card number into the microphone
+
+336
+00:20:23,040 --> 00:20:30,060
+Wouldn't go that far but what I will say I do have one complaint about it. Somebody's having a case of the Mondays
+
+337
+00:20:30,060 --> 00:20:36,020
+Where and it's only Tuesday. I mean, it's only Sunday. I mean, whatever Wow, don't rush my days off away
+
+338
+00:20:37,580 --> 00:20:43,680
+What I will say is one problem I have is with so I use virtual desktops and
+
+339
+00:20:43,680 --> 00:20:47,420
+it will and I also use my
+
+340
+00:20:47,420 --> 00:20:54,740
+iPad as a secondary display. Oh, oh, I've never tried that. Is that continuity? What is that called?
+
+341
+00:20:54,740 --> 00:20:58,100
+I think I don't remember if that's continuity. It's not universal control
+
+342
+00:20:58,100 --> 00:21:02,740
+Universally control is when you're controlling it but not using it as an extended display
+
+343
+00:21:02,740 --> 00:21:06,700
+So I just use that as an extended to so it's not universe but is it universal desktop?
+
+344
+00:21:06,700 --> 00:21:13,380
+I don't even remember doesn't matter. So it's literally just functioning as a display at just a display, correct?
+
+345
+00:21:13,380 --> 00:21:19,780
+You can do either way. You're not sliding over to it using iPad apps. It's displaying whatever's on your Mac, correct?
+
+346
+00:21:19,780 --> 00:21:26,140
+It's strictly just a display. That's all you're using it for. I think that's continuity display. That might be however
+
+347
+00:21:26,140 --> 00:21:29,640
+There's a problem with that is if I have virtual desktops
+
+348
+00:21:29,640 --> 00:21:33,980
+Let's just imagine I'm on my main desktop on my Mac. That's in the center
+
+349
+00:21:33,980 --> 00:21:37,680
+I have a virtual desktop to the right,
+
+350
+00:21:37,680 --> 00:21:41,300
+and I have my iPad to the left, okay?
+
+351
+00:21:41,300 --> 00:21:43,620
+So from left to right, I have iPad,
+
+352
+00:21:43,620 --> 00:21:45,980
+main display, virtual display.
+
+353
+00:21:45,980 --> 00:21:50,980
+If I drag a window to the far right window, boom,
+
+354
+00:21:50,980 --> 00:21:55,660
+rectangle snaps it to take up the right half of the screen.
+
+355
+00:21:55,660 --> 00:21:56,980
+No, I take that back.
+
+356
+00:21:56,980 --> 00:21:57,820
+I take that back.
+
+357
+00:21:57,820 --> 00:22:02,520
+If I drag it to the far left where the iPad is,
+
+358
+00:22:02,520 --> 00:22:08,440
+Rectangle will snap it to the left half of the screen if I drag it to the right side car it it
+
+359
+00:22:08,440 --> 00:22:12,920
+Drags to the virtual display off to the right
+
+360
+00:22:12,920 --> 00:22:18,880
+I move the application from the main display to the side to the secondary just virtual display
+
+361
+00:22:18,880 --> 00:22:20,880
+Yeah, and I can't drag it back
+
+362
+00:22:20,880 --> 00:22:24,000
+I have to invoke the the desktop
+
+363
+00:22:24,000 --> 00:22:28,220
+You know virtual desktops thing at the top with like three fingers swipe up on my trackpad
+
+364
+00:22:28,220 --> 00:22:31,120
+And then I have to drag it back to desktop one
+
+365
+00:22:31,760 --> 00:22:38,560
+Haven't gotten around to figure out if that's a configuration problem if that's a bug or whatnot. That's my one complaint about
+
+366
+00:22:38,560 --> 00:22:43,000
+Rectangle other than that. It's it's really cool and easily worth a few bucks
+
+367
+00:22:43,000 --> 00:22:48,360
+speaking of trackpad since he brought it up, I will say so I have a
+
+368
+00:22:48,360 --> 00:22:54,760
+What are you I have a Logitech M7 something Pro. I don't know. It's a decent mouse
+
+369
+00:22:54,760 --> 00:22:58,040
+Mm-hmm, and I like the mouse for the most part
+
+370
+00:22:58,160 --> 00:23:04,280
+But I also have a trackpad a magic trackpad sitting here on my left hand side of my keyboard and it's only there for
+
+371
+00:23:04,280 --> 00:23:08,040
+for those type of gestures that you're talking about okay, and
+
+372
+00:23:08,040 --> 00:23:12,960
+Because they're kind of magic if you remember them, they're amazing
+
+373
+00:23:12,960 --> 00:23:16,800
+Yeah, a lot of people don't like spaces where you maximize
+
+374
+00:23:16,800 --> 00:23:23,640
+You know you maximize a window really maximize not just maximize so that you can still see the menu bar and the and the dock
+
+375
+00:23:23,760 --> 00:23:28,680
+But it takes over the entire screen and it goes to its own separate place and you have to go sideways to get there
+
+376
+00:23:28,680 --> 00:23:30,300
+That's spaces, right?
+
+377
+00:23:30,300 --> 00:23:33,080
+The nice thing about spaces is if you use three fingers
+
+378
+00:23:33,080 --> 00:23:39,660
+You can swipe side to side between your apps and it is so much faster than command tabbing and finding the app in the command tab
+
+379
+00:23:39,660 --> 00:23:42,660
+List absolutely. Yeah, it's left swipe right swipe. It's great
+
+380
+00:23:42,660 --> 00:23:43,220
+Yes
+
+381
+00:23:43,220 --> 00:23:48,060
+And I get that people I get that the downside of it is if you have a bunch of them in
+
+382
+00:23:48,620 --> 00:23:53,140
+spaces, if you have a bunch of spaces, each with their own app, you may be swiping for
+
+383
+00:23:53,140 --> 00:23:54,780
+a while before you find the one you want.
+
+384
+00:23:54,780 --> 00:23:57,620
+I do agree that that could be better.
+
+385
+00:23:57,620 --> 00:24:04,060
+But if I just have a couple things, like VS Code is in there, Mail is in there, then I've
+
+386
+00:24:04,060 --> 00:24:08,260
+got like two, then I've only got to swipe four times max or three times max for that
+
+387
+00:24:08,260 --> 00:24:10,180
+scenario and it's great.
+
+388
+00:24:10,180 --> 00:24:11,180
+It's just super great.
+
+389
+00:24:11,180 --> 00:24:15,720
+And because I have the MacBook Pro now, when I'm using it as a laptop, it's ready.
+
+390
+00:24:15,720 --> 00:24:18,580
+When I'm at my desk I've got the trackpad here, it's ready.
+
+391
+00:24:18,580 --> 00:24:25,180
+I agree with you that for me Rectangle Pro makes the Mac, makes my Mac use and my Windows
+
+392
+00:24:25,180 --> 00:24:28,720
+use very functionally equivalent.
+
+393
+00:24:28,720 --> 00:24:31,560
+The keystrokes are different, but that's fine, they're very simple.
+
+394
+00:24:31,560 --> 00:24:34,600
+And I keep forgetting about the zones that you're talking about where you pull the window
+
+395
+00:24:34,600 --> 00:24:36,760
+and then it snaps, it does its thing.
+
+396
+00:24:36,760 --> 00:24:40,600
+I use the keyboard shortcuts for the stuff that I do the most often.
+
+397
+00:24:40,600 --> 00:24:45,100
+And the things that I do the most often are maximize this window, make this window take
+
+398
+00:24:45,100 --> 00:24:49,020
+up the top quarter of the screen, make this window take up the left half of the screen,
+
+399
+00:24:49,020 --> 00:24:52,460
+make this window take up the right half of the screen. Those are the things I do the
+
+400
+00:24:52,460 --> 00:24:59,140
+most. And that very much mirrors my Windows use where I want this window to hop over to
+
+401
+00:24:59,140 --> 00:25:03,620
+this monitor. I want this window on this monitor. I want this window to take up the full screen.
+
+402
+00:25:03,620 --> 00:25:08,900
+I want this window to not take up the full screen. So very, very similar. And those things
+
+403
+00:25:08,900 --> 00:25:14,980
+are built into Windows. If I wanted to do what you do and have my layouts and my zones,
+
+404
+00:25:14,980 --> 00:25:17,040
+that would require the Pro Tools.
+
+405
+00:25:17,040 --> 00:25:17,880
+What are they called?
+
+406
+00:25:17,880 --> 00:25:18,700
+The Pro, what are they called?
+
+407
+00:25:18,700 --> 00:25:19,540
+The tools?
+
+408
+00:25:19,540 --> 00:25:20,660
+Microsoft Powertoys.
+
+409
+00:25:20,660 --> 00:25:21,500
+Powertoys.
+
+410
+00:25:21,500 --> 00:25:22,340
+Powertoys.
+
+411
+00:25:22,340 --> 00:25:24,420
+Yeah, and I actually installed Powertoys at one point
+
+412
+00:25:24,420 --> 00:25:27,460
+because I didn't know some of the built-in
+
+413
+00:25:27,460 --> 00:25:29,860
+windowing shortcuts in Windows.
+
+414
+00:25:29,860 --> 00:25:33,580
+And then I was showing Mark, a guy I work with,
+
+415
+00:25:33,580 --> 00:25:38,300
+and he's like, "Oh, but what about the Windows shift
+
+416
+00:25:38,300 --> 00:25:40,660
+arrow key or the Windows arrow key or the Windows shift
+
+417
+00:25:40,660 --> 00:25:42,160
+arrow if you want to go a different monitor?"
+
+418
+00:25:42,160 --> 00:25:43,360
+I tried it and I'm like,
+
+419
+00:25:43,360 --> 00:25:45,360
+Okay, I'm uninstalling power toys.
+
+420
+00:25:45,360 --> 00:25:49,120
+So I just installed
+
+421
+00:25:49,120 --> 00:25:53,360
+Rectangle Pro while you were talking and I
+
+422
+00:25:53,360 --> 00:25:57,940
+disabled old rectangle on pro rectangle amateur
+
+423
+00:25:57,940 --> 00:26:02,720
+Yeah, I am now looking at looks like I had pretty much the default configuration
+
+424
+00:26:02,720 --> 00:26:09,360
+So that's good because I don't need to relearn any shortcuts or anything like that. So that's pretty good. So yeah, that's pretty cool
+
+425
+00:26:09,360 --> 00:26:12,140
+Here's a here's a power tip about rectangle. That is nice
+
+426
+00:26:12,220 --> 00:26:15,620
+So if you if you look at the menu bar thing and you click on it
+
+427
+00:26:15,620 --> 00:26:23,040
+You're looking at all those different options. You'll notice that next display and previous display are there but they don't have keyboard shortcuts
+
+428
+00:26:23,040 --> 00:26:27,640
+Now I'm sure that you can assign keyboard shortcuts, but here's another trick
+
+429
+00:26:27,640 --> 00:26:32,820
+let's say you're like me and you've got an Apple Studio display and then your laptop displays off to the left and
+
+430
+00:26:32,820 --> 00:26:36,640
+Messages let's say opens up on your studio display
+
+431
+00:26:36,640 --> 00:26:40,300
+But you really want it off on the MacBook Pro display because you're not gonna look at it that often
+
+432
+00:26:40,300 --> 00:26:46,380
+and you want it visible but out of your way. You don't have to use that. What you
+
+433
+00:26:46,380 --> 00:26:50,620
+can do is say, "Hey, I want this to use the left half," and you just keep hitting the
+
+434
+00:26:50,620 --> 00:26:54,380
+left half keyboard shortcut until it moves its way over to the left half on
+
+435
+00:26:54,380 --> 00:26:58,860
+the second monitor. It'll go to the second monitor. It won't just keep trying
+
+436
+00:26:58,860 --> 00:27:02,060
+to do it on the first monitor. On the second attempt it'll go, "Hey, he must
+
+437
+00:27:02,060 --> 00:27:05,260
+want this on the second monitor." And it's kind of weird because it'll go from the
+
+438
+00:27:05,260 --> 00:27:08,920
+left half on the first monitor to the right half on the second monitor, then to
+
+439
+00:27:08,920 --> 00:27:13,160
+right half, then to the left half on the second monitor. But it works really nice. So it's like
+
+440
+00:27:13,160 --> 00:27:19,240
+basically hitting it twice instead of once or whatever. Okay, fair enough. Let's talk a little
+
+441
+00:27:19,240 --> 00:27:25,720
+more about a couple more things on similar veins to what we're talking about. Okay. In addition to
+
+442
+00:27:25,720 --> 00:27:33,800
+Moom, which I did not buy, about three years ago, I did buy Witch, W-I-T-C-H, also from ManyTricks,
+
+443
+00:27:33,800 --> 00:27:41,400
+the same author. And it's essentially a better task manager, like an alt or a command tab replacement.
+
+444
+00:27:41,400 --> 00:27:43,240
+Oh okay, let's hear about that.
+
+445
+00:27:43,240 --> 00:27:50,120
+Well, I contacted the developer and I was complaining because recently I've not been
+
+446
+00:27:50,120 --> 00:27:58,200
+able to use Witch because it just times out. Like I'll hit command tab, it takes a beat or 10 for it
+
+447
+00:27:58,200 --> 00:28:04,760
+to show up and then I see all of the apps and then it just scrolls through all of them and
+
+448
+00:28:04,760 --> 00:28:10,920
+slams up against the last one in the task list and then I let go of I can't move like I can't command
+
+449
+00:28:10,920 --> 00:28:17,800
+shift or move back around so essentially anytime I hit command tab it will always go to the last
+
+450
+00:28:17,800 --> 00:28:23,560
+program running and so he asked me like what programs are you running and do you have a lot
+
+451
+00:28:23,560 --> 00:28:27,240
+of windows open so I took a screenshot of everything and I was like yep well here's a
+
+452
+00:28:27,240 --> 00:28:32,760
+simple list of, you know, like all this stuff. And the response was to the tune of, yeah, you're using
+
+453
+00:28:32,760 --> 00:28:38,520
+a lot of apps that use a lot of resources. So we can't really handle that. I'll fix that in version
+
+454
+00:28:38,520 --> 00:28:46,280
+five, but that's down the road. But he did get this three years later, he offered to refund my purchase.
+
+455
+00:28:46,280 --> 00:28:48,360
+After three years of trying to solve your problem?
+
+456
+00:28:48,360 --> 00:28:51,320
+Well, I only reported it this week.
+
+457
+00:28:51,320 --> 00:28:54,760
+And after three years of trying to learn Swift UI? Oh, okay. Nevermind. Sorry.
+
+458
+00:28:55,720 --> 00:28:56,720
+So...
+
+459
+00:28:56,720 --> 00:29:04,120
+Rob, if you're listening, Scott's the one being a jerk to you, not me.
+
+460
+00:29:04,120 --> 00:29:05,160
+I'm not being a jerk to you.
+
+461
+00:29:05,160 --> 00:29:06,800
+I'm just asking questions.
+
+462
+00:29:06,800 --> 00:29:09,000
+I did not take him up on the offer.
+
+463
+00:29:09,000 --> 00:29:11,440
+I wrote him back and I said, "No, I've gotten value for your program."
+
+464
+00:29:11,440 --> 00:29:12,680
+It was like nine bucks again or something.
+
+465
+00:29:12,680 --> 00:29:14,200
+I was like, "No, I got value from it."
+
+466
+00:29:14,200 --> 00:29:15,200
+Oh, for sure.
+
+467
+00:29:15,200 --> 00:29:18,240
+And not only that, you bothered him for at least $9 worth of support.
+
+468
+00:29:18,240 --> 00:29:19,240
+Absolutely.
+
+469
+00:29:19,240 --> 00:29:20,240
+You know?
+
+470
+00:29:20,240 --> 00:29:27,280
+said there's another program that I used also called share mouse. Never share your mouse with
+
+471
+00:29:27,280 --> 00:29:33,760
+another person. Never share your mouse, but I do share it with another computer. Now I had for a
+
+472
+00:29:33,760 --> 00:29:40,800
+long time would have multiple desktops or laptops on my desktop, my physical desktop. And I was using
+
+473
+00:29:40,800 --> 00:29:46,800
+a program called synergy back in the day. This is like more than 10 years ago. And then synergy was,
+
+474
+00:29:46,800 --> 00:29:51,200
+it was an open source product, it was free, blah, blah, blah. It was great. And then the author
+
+475
+00:29:51,200 --> 00:29:55,280
+wanted to, you know, like take a commercial and I guess there's still a free version,
+
+476
+00:29:55,280 --> 00:30:01,120
+but there's a commercial version. I just didn't like the direction in which he was taking it. And
+
+477
+00:30:01,120 --> 00:30:06,720
+the communications coming out of him were just like, eh, I don't like that. So I ended up moving
+
+478
+00:30:06,720 --> 00:30:14,000
+to, um, share mouse, which unlike synergy, I think synergy was Mac Linux and windows. And I believe
+
+479
+00:30:14,000 --> 00:30:16,460
+I believe ShareMouse is just Mac and Windows,
+
+480
+00:30:16,460 --> 00:30:19,060
+but I don't have a Linux desktop anymore, so it was fine.
+
+481
+00:30:19,060 --> 00:30:20,440
+And I was able to pay for support,
+
+482
+00:30:20,440 --> 00:30:22,700
+and it generally worked pretty well.
+
+483
+00:30:22,700 --> 00:30:25,540
+But I've recently found out that Barrier
+
+484
+00:30:25,540 --> 00:30:30,300
+is apparently a Synergy fork, and it is free open source.
+
+485
+00:30:30,300 --> 00:30:34,500
+So my ShareMouse paid subscription is about to end up,
+
+486
+00:30:34,500 --> 00:30:37,180
+it's about to expire sometime, I think,
+
+487
+00:30:37,180 --> 00:30:38,820
+around Christmas or something.
+
+488
+00:30:38,820 --> 00:30:42,620
+And I'm planning on pivoting over to Barrier at that time.
+
+489
+00:30:42,620 --> 00:30:46,260
+I'll be testing it between a Windows PC and a Mac.
+
+490
+00:30:46,260 --> 00:30:48,900
+So barrier instead of share mouse.
+
+491
+00:30:48,900 --> 00:30:49,900
+Okay.
+
+492
+00:30:49,900 --> 00:30:50,900
+Instead of Synergy.
+
+493
+00:30:50,900 --> 00:30:51,900
+So yes.
+
+494
+00:30:51,900 --> 00:30:53,900
+Is share mouse one word or two?
+
+495
+00:30:53,900 --> 00:30:54,900
+Yep, one word.
+
+496
+00:30:54,900 --> 00:30:56,980
+And I believe with like the studly caps, I believe it's a capital M.
+
+497
+00:30:56,980 --> 00:30:58,820
+Oh no, they've got a space in there.
+
+498
+00:30:58,820 --> 00:30:59,980
+No, they don't.
+
+499
+00:30:59,980 --> 00:31:05,020
+Oh, the title on the website looks like, not the title, but the logo on the website looks
+
+500
+00:31:05,020 --> 00:31:07,580
+like it, but in their copy text they say one word.
+
+501
+00:31:07,580 --> 00:31:08,580
+Yeah.
+
+502
+00:31:08,580 --> 00:31:11,460
+Definitely, capital S, capital M. Definitely share mouse.
+
+503
+00:31:11,460 --> 00:31:17,620
+So overall it works pretty well, but for random, for reasons I don't know of, like it'll randomly
+
+504
+00:31:17,620 --> 00:31:21,820
+lose the connection on both systems and I just have to restart it on both and then it
+
+505
+00:31:21,820 --> 00:31:22,960
+just works again.
+
+506
+00:31:22,960 --> 00:31:24,100
+So what's the one you're going to?
+
+507
+00:31:24,100 --> 00:31:25,100
+Sorry.
+
+508
+00:31:25,100 --> 00:31:26,100
+I'm going to try Barrier.
+
+509
+00:31:26,100 --> 00:31:27,100
+The Barrier Reef?
+
+510
+00:31:27,100 --> 00:31:28,600
+Uh, no Reef, just Barrier.
+
+511
+00:31:28,600 --> 00:31:30,420
+And this is Mac utility only?
+
+512
+00:31:30,420 --> 00:31:32,100
+Nope, this is cross-platform.
+
+513
+00:31:32,100 --> 00:31:33,940
+I believe it's Mac Windows Linux.
+
+514
+00:31:33,940 --> 00:31:37,860
+Oh, this is probably this GitHub thing.
+
+515
+00:31:37,860 --> 00:31:39,860
+Debauchy Barrier.
+
+516
+00:31:39,860 --> 00:31:42,220
+Debauchery.
+
+517
+00:31:42,220 --> 00:31:43,420
+So all of these are like,
+
+518
+00:31:43,420 --> 00:31:47,300
+Sharemouse was like $69 for three years,
+
+519
+00:31:47,300 --> 00:31:48,380
+I want to say or something.
+
+520
+00:31:48,380 --> 00:31:50,420
+But the other things, you know, Rectangle,
+
+521
+00:31:50,420 --> 00:31:53,180
+Moom, Witch, Barrier, they're all like, or even Barrier,
+
+522
+00:31:53,180 --> 00:31:55,220
+I don't think Barrier has a commercial offering.
+
+523
+00:31:55,220 --> 00:31:56,360
+You know, we're talking like 10 bucks.
+
+524
+00:31:56,360 --> 00:31:57,380
+What do you mean for three?
+
+525
+00:31:57,380 --> 00:32:00,780
+Sharemouse did like three year subscription.
+
+526
+00:32:00,780 --> 00:32:04,620
+Oh, that's a weird, that's a weird deal, dude.
+
+527
+00:32:04,620 --> 00:32:05,780
+Yeah, it's a business thing though.
+
+528
+00:32:05,780 --> 00:32:07,620
+I mean, they give me a discount.
+
+529
+00:32:07,620 --> 00:32:10,380
+I understand the whole subscription thing,
+
+530
+00:32:10,380 --> 00:32:13,420
+but what I mean is to do a three year,
+
+531
+00:32:13,420 --> 00:32:15,120
+okay, I get it, I get what they're doing.
+
+532
+00:32:15,120 --> 00:32:17,420
+It's just an unusual proposition.
+
+533
+00:32:17,420 --> 00:32:20,120
+Usually they give you a year and if you pay for the year,
+
+534
+00:32:20,120 --> 00:32:22,680
+you get a slight discount or maybe not,
+
+535
+00:32:22,680 --> 00:32:25,000
+but you pay for a year at a time or you can pay monthly,
+
+536
+00:32:25,000 --> 00:32:26,420
+but three year, that's bold.
+
+537
+00:32:26,420 --> 00:32:30,000
+You can do, I'm pretty sure you could do a year at a time.
+
+538
+00:32:30,000 --> 00:32:32,060
+I think I bought three because I was like, you know,
+
+539
+00:32:32,060 --> 00:32:33,200
+I'll just get a discount.
+
+540
+00:32:33,200 --> 00:32:34,320
+Oh, okay, gotcha.
+
+541
+00:32:34,320 --> 00:32:38,340
+So anyway, and ShareMouse does have a free version.
+
+542
+00:32:38,340 --> 00:32:40,080
+But yeah, right now, ShareMouse Pro,
+
+543
+00:32:40,080 --> 00:32:42,580
+one year of maintenance is 120 bucks.
+
+544
+00:32:42,580 --> 00:32:43,660
+Uh-huh.
+
+545
+00:32:43,660 --> 00:32:45,340
+I'm not gonna pay that.
+
+546
+00:32:45,340 --> 00:32:46,420
+I wouldn't think not.
+
+547
+00:32:46,420 --> 00:32:50,420
+Unless I have such a bad experience with Barrier.
+
+548
+00:32:50,420 --> 00:32:51,780
+Yeah, it looks, yeah.
+
+549
+00:32:51,780 --> 00:32:55,700
+If I renew it, however, let me find out here.
+
+550
+00:32:55,700 --> 00:32:57,120
+I'm curious what they're looking to buy.
+
+551
+00:32:57,120 --> 00:32:59,620
+Register license.
+
+552
+00:32:59,620 --> 00:33:02,540
+Copy your license key.
+
+553
+00:33:02,540 --> 00:33:04,780
+Yes, Peter, copy your license key.
+
+554
+00:33:04,780 --> 00:33:06,260
+Is this 21?
+
+555
+00:33:06,260 --> 00:33:07,380
+Or is this 22?
+
+556
+00:33:07,380 --> 00:33:08,780
+'Cause I have one that we're editing
+
+557
+00:33:08,780 --> 00:33:10,460
+that I haven't published yet.
+
+558
+00:33:10,460 --> 00:33:12,620
+I thought this was 21.
+
+559
+00:33:12,620 --> 00:33:13,540
+Yes, you're right.
+
+560
+00:33:13,540 --> 00:33:15,180
+20 is the one I'm editing.
+
+561
+00:33:15,180 --> 00:33:16,200
+Jeez.
+
+562
+00:33:16,200 --> 00:33:17,820
+Yeah, I just, I lose track.
+
+563
+00:33:17,820 --> 00:33:18,700
+Tell you, it's been a week.
+
+564
+00:33:18,700 --> 00:33:20,660
+Like I said, I worked an extra 12.
+
+565
+00:33:20,660 --> 00:33:21,500
+I tell ya, man.
+
+566
+00:33:21,500 --> 00:33:22,500
+That I didn't expect to.
+
+567
+00:33:22,500 --> 00:33:25,860
+And I still did my workouts.
+
+568
+00:33:25,860 --> 00:33:27,140
+I pulled an all-nighter,
+
+569
+00:33:27,140 --> 00:33:28,560
+then I worked eight more hours that day,
+
+570
+00:33:28,560 --> 00:33:30,620
+then I still did two hours of workouts that night.
+
+571
+00:33:30,620 --> 00:33:31,460
+Come on.
+
+572
+00:33:31,460 --> 00:33:32,280
+Wow.
+
+573
+00:33:32,280 --> 00:33:39,780
+Wow. I don't make excuses and say I'm not going to work out. Now, yesterday was a day off, but that's because I was way overdue for a day off.
+
+574
+00:33:39,780 --> 00:33:46,280
+Of fitness, not of work. I did work yesterday. For a lot longer than I expected to, by the way.
+
+575
+00:33:46,280 --> 00:33:57,280
+Alright. Well, hey. I've been taking it easy and blatantly not doing nearly as much exercise because I've messed up my knee again and I want the damn thing to get better.
+
+576
+00:33:57,280 --> 00:34:02,280
+Right. I scared myself. A couple days ago, all of a sudden I had a pain right under my knee.
+
+577
+00:34:02,280 --> 00:34:06,280
+And it felt weird. And now it's completely gone.
+
+578
+00:34:06,280 --> 00:34:13,280
+I could still run, but when I was walking around I would feel it. It scared me. I thought, "Oh no, I haven't had knee problems in forever."
+
+579
+00:34:13,280 --> 00:34:16,280
+But then it went away. And I think, you know what I think it was from, literally?
+
+580
+00:34:16,280 --> 00:34:22,280
+I was doing a treadmill run, and I was tired, and I was bored, and I was running at a decent pace,
+
+581
+00:34:22,280 --> 00:34:25,560
+and I just started going side to side like a loose skater or something.
+
+582
+00:34:25,560 --> 00:34:28,760
+I was just kind of running side to side on the treadmill. Just don't know why.
+
+583
+00:34:28,760 --> 00:34:32,200
+I was listening to some music to get me motivated and I was kind of getting into it.
+
+584
+00:34:32,200 --> 00:34:36,680
+So I was darting side to side. And I think that lateral action on my knee is probably what did it.
+
+585
+00:34:36,680 --> 00:34:39,720
+It started like a day and a half after that and then now it's gone.
+
+586
+00:34:39,720 --> 00:34:44,280
+So you know something I don't really care for that much?
+
+587
+00:34:44,280 --> 00:34:45,480
+Treadmills?
+
+588
+00:34:45,480 --> 00:34:46,760
+GitHub.
+
+589
+00:34:46,760 --> 00:34:47,960
+Oh.
+
+590
+00:34:47,960 --> 00:34:51,000
+Like when I land on a GitHub project page.
+
+591
+00:34:51,560 --> 00:34:52,060
+Yep.
+
+592
+00:34:52,060 --> 00:34:57,460
+I have no freaking clue how to download the program.
+
+593
+00:34:57,460 --> 00:35:00,300
+Okay, I used to be that way, but what they assume is--
+
+594
+00:35:00,300 --> 00:35:00,960
+Help me.
+
+595
+00:35:00,960 --> 00:35:02,800
+Let's click on the Barrier Link, for example.
+
+596
+00:35:02,800 --> 00:35:05,000
+That's exactly where I went. Where do I go?
+
+597
+00:35:05,000 --> 00:35:06,960
+You're on a desktop browser, right?
+
+598
+00:35:06,960 --> 00:35:07,460
+Yep.
+
+599
+00:35:07,460 --> 00:35:10,600
+So here's why they make this more confusing.
+
+600
+00:35:10,600 --> 00:35:14,260
+And I didn't figure this out until I learned how to use Git.
+
+601
+00:35:14,260 --> 00:35:15,060
+Got it.
+
+602
+00:35:15,060 --> 00:35:17,060
+Once I start using Git, that problem goes away,
+
+603
+00:35:17,060 --> 00:35:18,400
+because you're just gonna clone the thing,
+
+604
+00:35:18,400 --> 00:35:23,240
+and you're gonna do it from a command line probably, or a Git client.
+
+605
+00:35:23,240 --> 00:35:27,800
+Right, but if you are producing software...
+
+606
+00:35:27,800 --> 00:35:34,480
+I guess, okay, if the intention is to make sure that end users never see your code on
+
+607
+00:35:34,480 --> 00:35:37,320
+your program, then Git is awesome.
+
+608
+00:35:37,320 --> 00:35:38,560
+But if you just want to download...
+
+609
+00:35:38,560 --> 00:35:39,560
+Never see your code.
+
+610
+00:35:39,560 --> 00:35:43,480
+Yeah, I want to download an executable and install it on two of my machines.
+
+611
+00:35:43,480 --> 00:35:46,240
+Oh, Git Hub's horrible for that.
+
+612
+00:35:46,240 --> 00:35:47,240
+That's what I'm talking about.
+
+613
+00:35:47,240 --> 00:35:51,680
+Like right now, today, I don't want-look, I can't compile anything on my Windows machine.
+
+614
+00:35:51,680 --> 00:35:52,680
+I don't have a compiler.
+
+615
+00:35:52,680 --> 00:35:54,760
+I don't want the code for this project.
+
+616
+00:35:54,760 --> 00:35:57,240
+I just want to install it on my Windows machine.
+
+617
+00:35:57,240 --> 00:36:00,640
+So for me as an end user right now, I'm like, "WTF, mate?"
+
+618
+00:36:00,640 --> 00:36:03,680
+Okay, now just because you're downloading it doesn't necessarily mean you're going to
+
+619
+00:36:03,680 --> 00:36:04,840
+have to compile it.
+
+620
+00:36:04,840 --> 00:36:07,560
+You can make a release with a binary executable in it.
+
+621
+00:36:07,560 --> 00:36:08,560
+Right.
+
+622
+00:36:08,560 --> 00:36:10,800
+And if I could find that easily, I'd be a much happier user.
+
+623
+00:36:10,800 --> 00:36:12,960
+Okay, well that depends on the project.
+
+624
+00:36:12,960 --> 00:36:13,960
+Exactly.
+
+625
+00:36:13,960 --> 00:36:18,160
+In terms of just downloading the Git repo, you click the code button and then you have options.
+
+626
+00:36:18,160 --> 00:36:21,660
+Do you want to clone this? Do you want to open it with GitHub desktop, which no one ever does?
+
+627
+00:36:21,660 --> 00:36:23,660
+Or do you want to download a zip file?
+
+628
+00:36:23,660 --> 00:36:28,160
+As far as whether or not there's a binary available, that's if they create a package.
+
+629
+00:36:28,160 --> 00:36:29,160
+Exactly.
+
+630
+00:36:29,160 --> 00:36:34,360
+Right. And this one says no package is published. So that means that you download this source.
+
+631
+00:36:34,360 --> 00:36:36,160
+There is a dist folder here.
+
+632
+00:36:36,160 --> 00:36:39,660
+And if I look in the dist folder, I see a Mac OS bundle.
+
+633
+00:36:39,660 --> 00:36:43,160
+When I scroll down, I see a clean build.bat.
+
+634
+00:36:43,160 --> 00:36:46,800
+Under bundle there's a barrier dot app. What the heck is Wix?
+
+635
+00:36:46,800 --> 00:36:51,360
+I don't know, but I don't care. But here's where it is right here. If you go to this bundle
+
+636
+00:36:51,360 --> 00:36:55,820
+But I do care because I also want to run this on Windows and I see a batch file
+
+637
+00:36:55,820 --> 00:36:57,940
+I would assume it's that Wix thing.
+
+638
+00:36:57,940 --> 00:37:03,280
+I don't know what the heck those things are. Barrier dot SLN. Yeah.
+
+639
+00:37:03,280 --> 00:37:06,980
+I don't know but that sounds like a gap in our knowledge not a gap in his process
+
+640
+00:37:09,300 --> 00:37:12,660
+Sure, okay. Give the guy the, you know, the benefit of the doubt.
+
+641
+00:37:12,660 --> 00:37:17,540
+This is my normal experience. When I go to a GitHub project, I feel like an idiot.
+
+642
+00:37:17,540 --> 00:37:19,140
+Yeah, no, I get it.
+
+643
+00:37:19,140 --> 00:37:25,460
+There's a clean build.bat file, and it says it uses CMake.
+
+644
+00:37:25,460 --> 00:37:27,620
+Wix is a window installer XML.
+
+645
+00:37:27,620 --> 00:37:29,700
+Windows installer XML. Okay.
+
+646
+00:37:29,700 --> 00:37:34,500
+Wix was the first Microsoft project to be released under an open source license.
+
+647
+00:37:34,500 --> 00:37:36,100
+Interesting.
+
+648
+00:37:36,100 --> 00:37:42,660
+So it sounds really old and I don't know what you do once you download that onto your device.
+
+649
+00:37:42,660 --> 00:37:47,860
+The Mac OS one has an app already built so you don't have to do anything.
+
+650
+00:37:47,860 --> 00:37:52,900
+Somebody wrote an article that said that it's incredibly easy to install with pre-compiled
+
+651
+00:37:52,900 --> 00:37:54,900
+binaries for Windows. Okay.
+
+652
+00:37:54,900 --> 00:37:59,940
+And I'm like, okay, where are they? So I'm just going to put it this way. It
+
+653
+00:37:59,940 --> 00:38:04,660
+looks to me like the Mac OS one is super easy to do. The Windows one, there's something you
+
+654
+00:38:04,660 --> 00:38:09,460
+have to understand and I haven't looked to see what the Linux options are under dist. RPM.
+
+655
+00:38:09,460 --> 00:38:20,500
+So on a page, okay so I did find a page it's DeBarrier, oh it's the wiki page. So you go to
+
+656
+00:38:20,500 --> 00:38:30,100
+github.com/debocibarrierwiki and there I see packaging status. So I see a bunch of things
+
+657
+00:38:30,100 --> 00:38:40,420
+there but here's the funny thing I see win get I don't see win doze and I don't see Mac I see tons
+
+658
+00:38:40,420 --> 00:38:46,660
+of Linux that wiki link is available it shows on everything it's kind of up to the developer to do
+
+659
+00:38:46,660 --> 00:38:53,940
+something with it yeah exactly so again this is like I said this is just you know he doesn't seem
+
+660
+00:38:53,940 --> 00:38:59,780
+to be going out of his way to make it easy for a Mac or Windows person to install this without
+
+661
+00:38:59,780 --> 00:39:05,140
+downloading the code, etc, etc. Oh my god, you have to install... that's because this project
+
+662
+00:39:05,140 --> 00:39:09,620
+requires a bunch of stuff that I don't want on my computer. You have to install Qt for Windows.
+
+663
+00:39:09,620 --> 00:39:15,940
+I don't want that. I hell as much don't want that on my Mac. I would never do this.
+
+664
+00:39:15,940 --> 00:39:22,340
+Dependency hell. Right. Now the nice thing about with Mac is you can install those dependencies
+
+665
+00:39:22,340 --> 00:39:28,180
+with Homebrew. Right. If you want them in the first place. If you want them. I don't want them.
+
+666
+00:39:28,180 --> 00:39:33,980
+I don't know why I have such a barrier against QT, but it just seems like one of those things that all the apps that want it make me mad.
+
+667
+00:39:33,980 --> 00:39:40,320
+And so, and I don't want QT. It's an old, it's an outmoded, look, I have a GUI already, let me use it!
+
+668
+00:39:40,320 --> 00:39:41,720
+Mm-hmm.
+
+669
+00:39:41,720 --> 00:39:42,220
+So.
+
+670
+00:39:42,220 --> 00:39:46,220
+Ahh, so maybe I'm not gonna, I don't know, though, 120 bucks.
+
+671
+00:39:46,220 --> 00:39:53,420
+Oh, and that, that seems to be my renewal price too, for ShareMouse, is $120 per year.
+
+672
+00:39:53,420 --> 00:39:56,020
+That seems high.
+
+673
+00:39:56,020 --> 00:39:57,720
+Peter, I just want to say something.
+
+674
+00:39:57,720 --> 00:40:00,720
+First of all, keep looking for other options.
+
+675
+00:40:00,720 --> 00:40:02,360
+Secondly, I am looking.
+
+676
+00:40:02,360 --> 00:40:04,480
+There is a reason this thing is called "barrier."
+
+677
+00:40:04,480 --> 00:40:10,480
+They throw up so many barriers to entry that it makes you furious that you even thought
+
+678
+00:40:10,480 --> 00:40:14,240
+of using it, and it makes you furious that they even thought of you using it.
+
+679
+00:40:14,240 --> 00:40:15,480
+Uh huh.
+
+680
+00:40:15,480 --> 00:40:17,160
+Yeah, this is not.
+
+681
+00:40:17,160 --> 00:40:19,200
+I wouldn't do this one, that's for sure.
+
+682
+00:40:19,200 --> 00:40:22,680
+I might have to though, I don't know man.
+
+683
+00:40:22,680 --> 00:40:26,400
+I don't know, I guess I have to figure how QT-averse am I.
+
+684
+00:40:26,400 --> 00:40:28,200
+Very, it should be the correct answer.
+
+685
+00:40:28,200 --> 00:40:29,520
+And here's the other thing, Peter,
+
+686
+00:40:29,520 --> 00:40:31,840
+how often are you actually gonna need this anymore?
+
+687
+00:40:31,840 --> 00:40:34,440
+I use it fairly frequently.
+
+688
+00:40:34,440 --> 00:40:38,940
+I definitely, so on my main, my main work setup now is
+
+689
+00:40:38,940 --> 00:40:42,240
+I have a computer off to my left with a secondary display.
+
+690
+00:40:42,240 --> 00:40:44,180
+That's strictly for the hospital.
+
+691
+00:40:44,180 --> 00:40:46,480
+It is air gapped, it's completely separate.
+
+692
+00:40:46,480 --> 00:40:48,280
+It's not part of this equation.
+
+693
+00:40:48,280 --> 00:40:51,840
+The rest of it, I have my MacBook Air primary display,
+
+694
+00:40:51,840 --> 00:40:56,240
+and then I have my big widescreen connected to it.
+
+695
+00:40:56,240 --> 00:40:57,820
+So I have those two.
+
+696
+00:40:57,820 --> 00:41:01,240
+Off to the right, I have another Windows laptop,
+
+697
+00:41:01,240 --> 00:41:04,200
+17 inch or 16 inch, 15 inch, I don't even remember, big.
+
+698
+00:41:04,200 --> 00:41:05,420
+How many computers are we up to now?
+
+699
+00:41:05,420 --> 00:41:06,980
+Three, is that the third one?
+
+700
+00:41:06,980 --> 00:41:08,720
+Three, yes.
+
+701
+00:41:08,720 --> 00:41:11,040
+That's the one I use the sharing with.
+
+702
+00:41:11,040 --> 00:41:15,080
+My Logitech MX70 or whatever it is, don't know.
+
+703
+00:41:15,080 --> 00:41:16,760
+It's got a button here
+
+704
+00:41:16,760 --> 00:41:19,460
+and it's got frequencies one, two, and three.
+
+705
+00:41:19,460 --> 00:41:21,680
+Now I haven't done this,
+
+706
+00:41:21,680 --> 00:41:26,080
+but I think that by pairing at a certain frequency,
+
+707
+00:41:26,080 --> 00:41:29,480
+which you can do with a specific computer.
+
+708
+00:41:29,480 --> 00:41:31,820
+You could pair at the different frequency settings
+
+709
+00:41:31,820 --> 00:41:32,840
+on each of your computers,
+
+710
+00:41:32,840 --> 00:41:34,300
+and all you have to do is press that button once
+
+711
+00:41:34,300 --> 00:41:36,100
+to transfer it to the other computer.
+
+712
+00:41:36,100 --> 00:41:40,680
+But what about the keyboard?
+
+713
+00:41:40,680 --> 00:41:42,680
+Oh, you didn't say anything about a keyboard, Peter.
+
+714
+00:41:42,680 --> 00:41:46,280
+Yeah, this is KVM sharing, is what we're doing.
+
+715
+00:41:46,280 --> 00:41:48,020
+We're sharing the keyboard, the video,
+
+716
+00:41:48,020 --> 00:41:49,360
+and the mouse switching.
+
+717
+00:41:49,360 --> 00:41:50,560
+You just said mouse.
+
+718
+00:41:50,560 --> 00:41:54,360
+So I'm looking at another one
+
+719
+00:41:54,360 --> 00:41:57,720
+called Mouse Without Borders, but it's Windows only.
+
+720
+00:41:57,720 --> 00:41:59,200
+Mouse Without Borders. Multiplicity.
+
+721
+00:41:59,200 --> 00:42:01,040
+It has a normal practice that it practices
+
+722
+00:42:01,040 --> 00:42:03,880
+for like 50 years, and then once every 10 years,
+
+723
+00:42:03,880 --> 00:42:05,240
+maybe it'll go for a year to-
+
+724
+00:42:05,240 --> 00:42:06,520
+Goes away on sabbatical.
+
+725
+00:42:06,520 --> 00:42:09,120
+Right, and does the mouse without borders thing.
+
+726
+00:42:09,120 --> 00:42:10,400
+Yep, exactly.
+
+727
+00:42:10,400 --> 00:42:12,040
+Yeah, I don't know.
+
+728
+00:42:12,040 --> 00:42:17,040
+So it looks like Barrier, Synergy, and ShareMouse are like,
+
+729
+00:42:17,040 --> 00:42:19,320
+that's all I'm finding right now
+
+730
+00:42:19,320 --> 00:42:21,400
+that's actually cross-platform compatible.
+
+731
+00:42:21,400 --> 00:42:27,400
+Synergy Virtual KVM. Yes. We didn't talk about that one did we? Did you mention? No that was the
+
+732
+00:42:27,400 --> 00:42:32,760
+one that I used and then I said the developer started and you know like took it in a direction
+
+733
+00:42:32,760 --> 00:42:39,000
+I wasn't really caring for. What do you mean it became a porn site? No he just like like I was
+
+734
+00:42:39,000 --> 00:42:44,520
+getting he wanted to charge for it it wasn't clear why I would want to do that and then all of a
+
+735
+00:42:44,520 --> 00:42:49,080
+sudden I was getting like pictures of like hey look here's our new office and there was a picture
+
+736
+00:42:49,080 --> 00:42:56,440
+of two people sitting at a desk and I'm like, you want me to pay so you can have two people
+
+737
+00:42:56,440 --> 00:42:57,440
+sitting at a desk?
+
+738
+00:42:57,440 --> 00:42:59,080
+Yeah, he's got employees, you dummy.
+
+739
+00:42:59,080 --> 00:43:00,080
+When to stick with hardware?
+
+740
+00:43:00,080 --> 00:43:04,440
+If you need to connect one monitor to multiple computers, you'll still need a traditional
+
+741
+00:43:04,440 --> 00:43:05,440
+KVM.
+
+742
+00:43:05,440 --> 00:43:06,700
+Yeah, that's not what I'm looking for.
+
+743
+00:43:06,700 --> 00:43:10,520
+Because I like to share, like, I don't like my hands on one keyboard and mouse.
+
+744
+00:43:10,520 --> 00:43:12,640
+Yes, yeah, and you can turn your head.
+
+745
+00:43:12,640 --> 00:43:14,480
+Yep, exactly.
+
+746
+00:43:14,480 --> 00:43:15,480
+Anyway.
+
+747
+00:43:15,480 --> 00:43:19,120
+Okay, so I'm clicking on Synergies by now.
+
+748
+00:43:19,120 --> 00:43:22,040
+I see $29 lifetime download access.
+
+749
+00:43:22,040 --> 00:43:23,920
+That's not that bad.
+
+750
+00:43:23,920 --> 00:43:26,220
+29 for lifetime is not that bad.
+
+751
+00:43:26,220 --> 00:43:28,280
+However, here's the other thing too.
+
+752
+00:43:28,280 --> 00:43:29,940
+Back when I was complaining about it,
+
+753
+00:43:29,940 --> 00:43:31,180
+the reason I was complaining was like,
+
+754
+00:43:31,180 --> 00:43:33,600
+there were a number of bugs that I had submitted.
+
+755
+00:43:33,600 --> 00:43:36,040
+And instead of like seeing any progress
+
+756
+00:43:36,040 --> 00:43:38,620
+on the bug fixing front, I was seeing like,
+
+757
+00:43:38,620 --> 00:43:40,700
+we just bought an office kind of thing.
+
+758
+00:43:40,700 --> 00:43:42,840
+So, so I was not, yeah.
+
+759
+00:43:42,840 --> 00:43:44,840
+So that's when I switched over to,
+
+760
+00:43:44,840 --> 00:43:45,960
+I believe to ShareMouse.
+
+761
+00:43:45,960 --> 00:43:48,840
+And that was maybe, I don't know what the timeline is.
+
+762
+00:43:48,840 --> 00:43:53,280
+That might be why ShareMouse or why barrier spun up.
+
+763
+00:43:53,280 --> 00:43:56,320
+It might've been in, because it is a fork of Synergy.
+
+764
+00:43:56,320 --> 00:43:57,140
+Is it?
+
+765
+00:43:57,140 --> 00:43:59,320
+So does Synergy have QT in it?
+
+766
+00:43:59,320 --> 00:44:00,160
+I don't know.
+
+767
+00:44:00,160 --> 00:44:01,920
+Well, if it does, I doubt it.
+
+768
+00:44:01,920 --> 00:44:02,860
+Maybe it does.
+
+769
+00:44:02,860 --> 00:44:04,120
+Wouldn't surprise me.
+
+770
+00:44:04,120 --> 00:44:05,700
+Welcome to World Class Productivity.
+
+771
+00:44:05,700 --> 00:44:08,800
+Fortune 500 companies and over 2 million customers
+
+772
+00:44:08,800 --> 00:44:10,640
+rely on Synergy every day, Peter,
+
+773
+00:44:10,640 --> 00:44:12,300
+including Pixar and Apple,
+
+774
+00:44:12,300 --> 00:44:14,360
+two companies that you may have heard of.
+
+775
+00:44:14,360 --> 00:44:15,720
+Huh.
+
+776
+00:44:15,720 --> 00:44:18,680
+There's a Scott with one T that gave a good review to it.
+
+777
+00:44:18,680 --> 00:44:20,480
+I can't trust him because he's got,
+
+778
+00:44:20,480 --> 00:44:22,640
+he doesn't have the right number of Ts.
+
+779
+00:44:22,640 --> 00:44:23,920
+Skeet.
+
+780
+00:44:23,920 --> 00:44:26,080
+Skeeter, mosquito.
+
+781
+00:44:26,080 --> 00:44:27,720
+Yeah. Mosquito loves it.
+
+782
+00:44:27,720 --> 00:44:32,160
+Yeah. So I'm kinda, yeah, I'm kinda torn here.
+
+783
+00:44:32,160 --> 00:44:33,000
+I don't know.
+
+784
+00:44:33,000 --> 00:44:34,960
+Peter, have you heard the good news about hardware KVMs?
+
+785
+00:44:34,960 --> 00:44:38,800
+No, what are they?
+
+786
+00:44:38,800 --> 00:44:39,620
+Don't know.
+
+787
+00:44:39,620 --> 00:44:40,520
+But, and here's the other thing,
+
+788
+00:44:40,520 --> 00:44:43,860
+I don't know if there are any KVMs modern enough
+
+789
+00:44:43,860 --> 00:44:46,320
+to allow you to use Bluetooth devices with them.
+
+790
+00:44:46,320 --> 00:44:48,740
+I'm sure there must be some adapters you can plug into them,
+
+791
+00:44:48,740 --> 00:44:50,900
+but I never tried.
+
+792
+00:44:50,900 --> 00:44:54,320
+No, I do have a hardware KVM on my desktop.
+
+793
+00:44:54,320 --> 00:44:55,480
+I haven't really used it though,
+
+794
+00:44:55,480 --> 00:44:58,280
+since I had just two Windows machines on my desktop.
+
+795
+00:44:58,280 --> 00:45:00,520
+And that's where I would switch between like hospital one
+
+796
+00:45:00,520 --> 00:45:01,720
+and non-hospital one.
+
+797
+00:45:01,720 --> 00:45:02,560
+Yeah.
+
+798
+00:45:02,560 --> 00:45:03,600
+So anyway.
+
+799
+00:45:03,600 --> 00:45:05,520
+You know, some people have a day phone and a night phone.
+
+800
+00:45:05,520 --> 00:45:07,880
+You've got a hospital computer and a non-hospital computer.
+
+801
+00:45:07,880 --> 00:45:09,120
+Makes perfect sense.
+
+802
+00:45:09,120 --> 00:45:09,960
+All right.
+
+803
+00:45:09,960 --> 00:45:12,920
+Well, on that note, we should wrap this puppy up,
+
+804
+00:45:12,920 --> 00:45:15,160
+Put a bow in it, et cetera, et cetera.
+
+805
+00:45:15,160 --> 00:45:17,440
+Stick a fork in it, blah, blah, blah.
+
+806
+00:45:17,440 --> 00:45:18,280
+Do the whole thing.
+
+807
+00:45:18,280 --> 00:45:19,880
+Push the big red KVM button.
+
+808
+00:45:19,880 --> 00:45:22,040
+Big red KVM button.
+
+809
+00:45:22,040 --> 00:45:23,640
+Counting it, why don't you count us down
+
+810
+00:45:23,640 --> 00:45:25,080
+and then we'll push the button.
+
+811
+00:45:25,080 --> 00:45:26,120
+Three.
+
+812
+00:45:26,120 --> 00:45:27,780
+I'm starting at three, is that okay?
+
+813
+00:45:27,780 --> 00:45:28,620
+Click.
+
