@@ -227,6 +227,13 @@ declare module 'astro:content' {
   collection: "episodes",
   data: InferEntrySchema<"episodes">
 } & { render(): Render[".md"] },
+"28.md": {
+  id: "28.md",
+  slug: "28",
+  body: string,
+  collection: "episodes",
+  data: InferEntrySchema<"episodes">
+} & { render(): Render[".md"] },
 "3.md": {
   id: "3.md",
   slug: "3",

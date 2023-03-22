@@ -1,5 +1,41 @@
 [
   {
+    "id": "WLyJQ1RnJ8oQlTlyytoFG",
+    "name": "Grapefruit",
+    "brewery": "Schöfferhofer",
+    "image": "SchofferhoferGrapefruit-090DE181-3980-4EEC-BF21-FFEB2C2F0F77",
+    "description": "Schöfferhofer Grapefruit is the unique combination of sparkling smooth Schöfferhofer unfiltered wheat beer with natural grapefruit flavoured drink. A refreshing, well-rounded taste with tangy character and hints of sweetness is pleasing to palate.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["28"],
+    "url": "https://www.schofferhofer.us/wheat-beerbeer",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "A definite thumbs-up, one of my repeats. It is well-rounded and pleasing, just like they say."
+      }
+    ]
+  },
+  {
+    "id": "0KB1Usd4sM7rG5qNZ4c9a",
+    "name": "Blackbird Stout",
+    "brewery": "Bierly Brewing",
+    "image": "BierlyBrewingBlackbirdStout-090DE181-3980-4EEC-BF21-FFEB2C2F0F77",
+    "description": "Our newest year-round release, a long-awaited stout! Blackbird Stout is brewed with malted millet and malted rice for a dark, earthy, roasty flavor. An instant favorite. Brewed with malted millet, malted rice, hops, yeast, and water.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["28"],
+    "url": "https://www.bierlybrewing.com/our-beers/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-down",
+        "description": "Not the best gluten-free beer I've had... A little thin, a little bitter. Wanted to like it but I can't recommend it."
+      }
+    ]
+  },
+  {
     "id": "B6D8ylFWlLWDcRcJ_ER-s",
     "name": "Triple Fruited Tripel",
     "brewery": "OMMEGANG Brewery",
@@ -547,7 +583,7 @@
     "description": "Single Track is our single origin rotating espresso at Backporch. For this Single Track we chose a coffee from Antigua Guatemala under the name of Hunapu. Coffees from Antigua have depth and sweetness going for them, as well as some nice fruited notes. We found this coffee to have notes of: dried fig, cacao nibs and molasses. This coffee is suitable for both espresso and filter.",
     "type": "coffee",
     "sortOrder": "0",
-    "episodes": ["16", "17"],
+    "episodes": ["16", "17", "28"],
     "url": "https://www.backporchcoffeeroasters.com/buyonline/singletrack",
     "rating": [
       {
