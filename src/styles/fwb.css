@@ -9,9 +9,11 @@
 html {
   --surface-light: #eacda3;
   --text-light: black;
-  --menu-surface-light: #5b3e34;
+  --header-surface-light: #ecc979;
+  --header-text-light: black;
+  --menu-surface-light: #c9ab67;
   --menu-border-light: #0d0a01;
-  --menu-text-light: #eacda3;
+  --menu-text-light: black;
   --link-text-light: #5b3e34;
   --episode-title-light: #5b3e34;
   --episode-text-light: black;
@@ -24,6 +26,8 @@ html {
 
   --surface-dark: #0d0a01;
   --text-dark: #fff;
+  --header-surface-dark: #eacda3;
+  --header-text-dark: #311d1c;
   --menu-surface-dark: #eacda3;
   --menu-border-dark: #5b3e34;
   --menu-text-dark: #311d1c;
@@ -41,6 +45,8 @@ html {
 :root {
   --surface: var(--surface-light);
   --text: var(--text-light);
+  --header-surface: var(--header-surface-light);
+  --header-text: var(--header-text-light);
   --menu-surface: var(--menu-surface-light);
   --menu-border: var(--menu-border-light);
   --menu-text: var(--menu-text-light);
@@ -71,6 +77,8 @@ html {
   :root {
     --surface: var(--surface-dark);
     --text: var(--text-dark);
+    --header-surface: var(--header-surface-dark);
+    --header-text: var(--header-text-dark);
     --menu-surface: var(--menu-surface-dark);
     --menu-border: var(--menu-border-dark);
     --menu-text: var(--menu-text-dark);

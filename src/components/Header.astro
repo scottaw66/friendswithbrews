@@ -1,25 +1,57 @@
 ---
+import config from "config";
 import logo from "../images/FwBrews-site-header.svg";
 ---
 
+<div class="header">
+  <div><a href="/"><img class="header-image" src={logo.src} /></a></div>
+  <div class="site-title"><a href="/">Friends with Brews !</a></div>
+  <div class="site-tagline">
+    <p class="tagline">{config.get("description")}</p>
+  </div>
+</div>
 <div class="nav-container">
   <nav>
     <div class="menu1"><a href="/">Home</a></div>
     <div class="menu2"><a href="/friends">The Friends</a></div>
-    <div class="menu3">
-      <a href="/"><img class="header-image" src={logo.src} /></a>
-    </div>
+    <div class="menu3"></div>
     <div class="menu4"><a href="/brews/1">The Brews</a></div>
     <div class="menu5"><a href="/episodes/1">Episodes</a></div>
   </nav>
 </div>
 
 <style>
+  div.header {
+    width: 100%;
+    background-color: var(--header-surface);
+    padding: 0 2rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    color: var(--header-text);
+  }
+  div.site-title {
+    font-family: "CaptainEdward";
+    font-weight: 900;
+    font-size: 4rem;
+  }
+  div.site-title a {
+    text-decoration: none;
+    color: var(--header-text);
+  }
+  div.site-tagline {
+    max-width: 350px;
+    text-transform: uppercase;
+    margin-top: 0.45rem;
+  }
+  .header-image {
+    height: 10rem;
+    margin: 1rem -1rem 0 0;
+  }
   div.nav-container {
     width: 100%;
     background-color: var(--menu-surface);
     border-bottom: solid 5px var(--menu-border);
-    margin-bottom: 8em;
   }
   nav {
     display: grid;
@@ -33,13 +65,6 @@ import logo from "../images/FwBrews-site-header.svg";
     align-items: center;
     font-family: "CaptainEdward";
     position: relative;
-  }
-
-  .header-image {
-    height: 10rem;
-    position: absolute;
-    left: calc(50% - 80px);
-    top: 0.25rem;
   }
 
   nav a {
