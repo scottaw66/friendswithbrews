@@ -8,11 +8,17 @@ const title = "Subscribe to " + config.get("title");
 ---
 
 <Base title={title}>
-  <h1>Subscribe!</h1>
+  <h1>Follow!</h1>
   <p>
     Please freely subscribe to our podcast so you never miss an episode! And by
     freely, I mean free, because it may cost you some time, but it won't cost
     you a dime!
+  </p>
+  <p>
+    And <a rel="me" href={config.get("social.mastodon")}
+      >follow us on Mastodon</a
+    >, because why not hang out online with strangers instead of talking to your
+    family?
   </p>
   <p>
     <span class="podcast-name">{config.get("title")}</span> is available directly
@@ -64,6 +70,10 @@ const title = "Subscribe to " + config.get("title");
 </Base>
 
 <style>
+  a {
+    text-decoration: none;
+    color: var(--link-text);
+  }
   span.podcast-name {
     font-weight: bold;
   }

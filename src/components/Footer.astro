@@ -8,18 +8,11 @@ import Search from "../components/Search.astro";
 <div class="footer" data-pagefind-ignore>
   <Search />
   <div class="footer-links">
-    <div>
-      <a rel="me" href="https://appdot.net/@friendswbrews"
-        ><Icon name="simple-icons:mastodon" />
-      </a>
-    </div>
     <div>&copy;{year}</div>
     <div><Icon name="bi:cpu-fill" /></div>
     <div>
       {config.get("name")}
     </div>
-    <div><Icon name="ps:rss" /></div>
-    <div><a href="/subscribe">Subscribe</a></div>
   </div>
 </div>
 
@@ -50,15 +43,14 @@ import Search from "../components/Search.astro";
   }
   [astro-icon] {
     height: 1rem;
-    margin: 0 0 -0.1rem;
-    padding: 0;
+    margin: 0.4rem 0 0;
   }
   @media screen and (max-width: 450px) {
     .footer-links {
       font-size: 0.8rem;
     }
     [astro-icon] {
-      margin: 0 0 -0.2rem;
+      margin: 0.2rem 0 0;
     }
   }
 </style>

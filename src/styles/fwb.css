@@ -126,7 +126,7 @@ body {
 }
 
 main {
-  max-width: 70ch;
+  max-width: 80ch;
   min-height: calc(100vh - 330px); /*100 vh - header & footer h */
   margin: 0 auto;
   padding: 0 2rem 3rem;
