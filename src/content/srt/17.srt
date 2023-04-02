@@ -340,7 +340,7 @@ And I can put a whole 20 grams of this coffee in there.
 
 86
 00:05:27,400 --> 00:05:33,760
->>COREY Now, these back porch roasters are located somewhere in Oregon, but I have to
+COREY Now, these back porch roasters are located somewhere in Oregon, but I have to
 
 87
 00:05:33,760 --> 00:05:34,760
@@ -360,7 +360,7 @@ So, they're in Hipster Bend.
 
 91
 00:05:38,320 --> 00:05:39,320
->>ADAM Okay.
+ADAM Okay.
 
 92
 00:05:39,320 --> 00:05:43,600
@@ -384,11 +384,11 @@ So that's, you know, they've got some staying power.
 
 97
 00:05:54,320 --> 00:05:57,080
->>COREY The beer has been around for 599 years.
+COREY The beer has been around for 599 years.
 
 98
 00:05:57,080 --> 00:06:03,500
->>TYLER Yeah, exactly. It's about 4.9% alcohol. And again, it's a wheaty, light, I would say
+TYLER Yeah, exactly. It's about 4.9% alcohol. And again, it's a wheaty, light, I would say
 
 99
 00:06:03,500 --> 00:06:07,020
@@ -400,11 +400,11 @@ orange that might help.
 
 101
 00:06:08,220 --> 00:06:09,220
->>COREY Did you say Wheaties?
+COREY Did you say Wheaties?
 
 102
 00:06:09,220 --> 00:06:12,780
->>TYLER It's good. I mean, it's a refreshing. Yeah, it's Wheaties. Just pour it on your
+TYLER It's good. I mean, it's a refreshing. Yeah, it's Wheaties. Just pour it on your
 
 103
 00:06:12,780 --> 00:06:18,100

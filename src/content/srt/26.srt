@@ -336,7 +336,7 @@ Light Roast. So I have not talked to you in a long time, honestly.
 
 85
 00:06:07,140 --> 00:06:13,580
->> Last time was on a podcast. Last time was "Bubblesort" or did I just say "Bubblesort"
+ Last time was on a podcast. Last time was "Bubblesort" or did I just say "Bubblesort"
 
 86
 00:06:13,580 --> 00:06:17,540
@@ -348,7 +348,7 @@ called "Bubblesort" and yeah, that's the last time we spoke, right?
 
 88
 00:06:21,300 --> 00:06:27,060
->> Are you a subscriber to the Multiverse Theory? Because I'm thinking it did exist,
+ Are you a subscriber to the Multiverse Theory? Because I'm thinking it did exist,
 
 89
 00:06:27,060 --> 00:06:31,660
@@ -740,7 +740,7 @@ is really low resolution. And then on top of that, the autofocus is no good, rig
 
 186
 00:13:49,740 --> 00:13:56,740
->> Yeah, the viewfinder, I remember the viewfinders used to be problematic. And even on DSLRs,
+ Yeah, the viewfinder, I remember the viewfinders used to be problematic. And even on DSLRs,
 
 187
 00:13:56,740 --> 00:13:59,820
@@ -752,7 +752,7 @@ it started being a bit of a pain for a little while.
 
 189
 00:14:02,340 --> 00:14:09,260
->> Yes, yes. It's better now because you have giant megapixel counts in like the Canon high
+ Yes, yes. It's better now because you have giant megapixel counts in like the Canon high
 
 190
 00:14:09,260 --> 00:14:14,620
@@ -3484,11 +3484,11 @@ guy.
 
 872
 00:56:39,700 --> 00:56:43,220
->> Right. Yeah. But you also, once you get something working, you don't fiddle with it.
+ Right. Yeah. But you also, once you get something working, you don't fiddle with it.
 
 873
 00:56:43,220 --> 00:56:49,100
->> No, I do not. No, I do not. That is one thing I do not do. Like if it's working now,
+ No, I do not. No, I do not. That is one thing I do not do. Like if it's working now,
 
 874
 00:56:49,100 --> 00:56:51,220
