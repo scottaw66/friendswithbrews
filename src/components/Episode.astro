@@ -21,7 +21,7 @@ const { episode, audio, index, pageNum } = Astro.props;
 const { Content } = await episode.render();
 const brews = brewList(episode.data.episode);
 const transcript = await getCollection("transcripts", ({ id }) => {
-  return id.endsWith(`${episode.data.episode}.md`);
+  return id === `${episode.data.episode}.md`;
 });
 ---
 

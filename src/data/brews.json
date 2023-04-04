@@ -1,5 +1,23 @@
 [
   {
+    "id": "ICCZW0otIQ9vXYh4itaAk",
+    "name": "Melon Cart",
+    "brewery": "Golden Road Brewing",
+    "image": "GoldenRoadBrewingMelonCart-BDDF0EE9-192D-4C4C-A439-3A122AEAA317",
+    "description": "Tastes like freshly cut melons and the California sun right in your hand. This light, crisp Wheat Ale is bursting with watermelon, honeydew, and cantalope flavors, finishing bright and refreshing.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["29"],
+    "url": "https://untappd.com/b/golden-road-brewing-melon-cart/2307694",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "This one is a whopping 4% alcohol. I enjoyed this more than I expected to. Now I think this has more flavor than the Guava Cart."
+      }
+    ]
+  },
+  {
     "id": "WLyJQ1RnJ8oQlTlyytoFG",
     "name": "Grapefruit",
     "brewery": "Schöfferhofer",
@@ -169,7 +187,7 @@
     "description": "Made for the assistant brewer's wedding this kettle sour is made with white wheat, flaked oats, marrionberries, raspberries, and mosaic.",
     "type": "beer",
     "sortOrder": "0",
-    "episodes": ["25"],
+    "episodes": ["25", "29"],
     "url": "https://untappd.com/b/ex-novo-brewing-marryin-berries/2096007",
     "rating": [
       {

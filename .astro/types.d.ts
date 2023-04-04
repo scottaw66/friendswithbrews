@@ -234,6 +234,13 @@ declare module 'astro:content' {
   collection: "episodes",
   data: InferEntrySchema<"episodes">
 } & { render(): Render[".md"] },
+"29.md": {
+  id: "29.md",
+  slug: "29",
+  body: string,
+  collection: "episodes",
+  data: InferEntrySchema<"episodes">
+} & { render(): Render[".md"] },
 "3.md": {
   id: "3.md",
   slug: "3",
@@ -308,7 +315,7 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] },
 "19.md": {
   id: "19.md",
-  slug: "19",
+  slug: "T19",
   body: string,
   collection: "transcripts",
   data: InferEntrySchema<"transcripts">
@@ -329,7 +336,7 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] },
 "21.md": {
   id: "21.md",
-  slug: "21",
+  slug: "T21",
   body: string,
   collection: "transcripts",
   data: InferEntrySchema<"transcripts">
@@ -379,6 +386,20 @@ declare module 'astro:content' {
 "28.md": {
   id: "28.md",
   slug: "T28",
+  body: string,
+  collection: "transcripts",
+  data: InferEntrySchema<"transcripts">
+} & { render(): Render[".md"] },
+"29.md": {
+  id: "29.md",
+  slug: "T29",
+  body: string,
+  collection: "transcripts",
+  data: InferEntrySchema<"transcripts">
+} & { render(): Render[".md"] },
+"3.md": {
+  id: "3.md",
+  slug: "T3",
   body: string,
   collection: "transcripts",
   data: InferEntrySchema<"transcripts">
