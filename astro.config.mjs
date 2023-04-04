@@ -26,6 +26,9 @@ export default defineConfig({
   site: "https://friendswithbeer.com/",
   trailingSlash: "ignore",
   outDir: "dist",
+  build: {
+    format: "file",
+  },
   integrations: [
     pagefind(),
     sitemap(),
