@@ -1,0 +1,2608 @@
+1
+00:00:00,000 --> 00:00:29,820
+I don't even... after all that, I... G-B-B-B-B... G-B-Beeb. Friends with Brews! Wow. So, do you make it seem like that was loud or something? Well, it is. Compared to your normal speaking voice, that comes across very loudly. Alright, well let me open the loop back, and let me turn down the... I'm sure that our dear listener will appreciate these measures that you're taking. Okay, now let me do that again. Friends with Brews! Better? Sure. So, there was no difference.
+
+2
+00:00:29,820 --> 00:00:33,140
+I'm trying to get a helpful answer from you here.
+
+3
+00:00:33,140 --> 00:00:34,940
+It did not sound any different.
+
+4
+00:00:34,940 --> 00:00:40,100
+I'm adjusting the percentage of volume compared to the voice that Loopback gives that.
+
+5
+00:00:40,100 --> 00:00:41,300
+And it's all going through Loopback.
+
+6
+00:00:41,300 --> 00:00:44,580
+Loopback is what merges the mic and the Farrago.
+
+7
+00:00:44,580 --> 00:00:46,060
+Oh, wow.
+
+8
+00:00:46,060 --> 00:00:48,940
+So our listeners are getting a crash course on podcast.
+
+9
+00:00:48,940 --> 00:00:51,500
+No, we talked about this before when you were asking about...
+
+10
+00:00:51,500 --> 00:00:52,500
+No, we...
+
+11
+00:00:52,500 --> 00:00:53,500
+Okay, let me try again.
+
+12
+00:00:53,500 --> 00:00:55,100
+See, my mouse is hopping all over the place.
+
+13
+00:00:55,100 --> 00:00:57,180
+This is where I get nervous about Bluetooth.
+
+14
+00:00:57,180 --> 00:00:59,020
+Friends with Brews.
+
+15
+00:00:59,020 --> 00:01:06,220
+sounds a little less distinctly different than you there. So I would call that an improvement.
+
+16
+00:01:06,220 --> 00:01:11,820
+A little less distinctly different. That means that it's more the same as my volumes. Yeah,
+
+17
+00:01:11,820 --> 00:01:16,220
+okay. My god, you took a route to get there. I got time. Taking the scenic route.
+
+18
+00:01:16,220 --> 00:01:20,140
+Okay, Peter. I'd like to move us right along to a Peter...
+
+19
+00:01:20,140 --> 00:01:26,540
+Nikolaidis. Now we had a chance to meet this young man, and boy, that's just a straight shooter with
+
+20
+00:01:26,540 --> 00:01:30,540
+upper management written all over them. Have you heard that recently? Was that your last review?
+
+21
+00:01:30,540 --> 00:01:37,900
+I can't imagine anybody saying that for me on a review because that would sound like I would be
+
+22
+00:01:37,900 --> 00:01:41,980
+like you know deserving of more money and nobody wants to pay more money these days.
+
+23
+00:01:41,980 --> 00:01:47,500
+Just because you get a promotion that does not necessarily have anything to do with more money.
+
+24
+00:01:47,500 --> 00:01:52,300
+It can. It can. But that expectation should be squished immediately. Okay, so here's the thing
+
+25
+00:01:52,300 --> 00:01:57,820
+Peter. Last time I had coffee and you complained bitterly about me not preparing it in front of the
+
+26
+00:01:57,820 --> 00:02:04,140
+audience. So I'm going to start preparing to brew my tea. I'm going to heat my water back up.
+
+27
+00:02:04,140 --> 00:02:05,820
+How does one brew tea?
+
+28
+00:02:05,820 --> 00:02:09,740
+No, I wanted to find out about your tea brewing method. That's why I put that question in the
+
+29
+00:02:09,740 --> 00:02:15,180
+show notes. But I'm going to brew the tea. And today I'm having Harney & Sons Kagoshima
+
+30
+00:02:15,180 --> 00:02:22,220
+Sencha. And this stuff is 49 cents a cup, according to them. This tin was 20 bucks.
+
+31
+00:02:22,220 --> 00:02:29,620
+Yeah. Wow. And so I'm going to, I'm gonna, I have a little ceramic teapot here which I don't like.
+
+32
+00:02:29,620 --> 00:02:34,740
+That's one of the things I wanted to ask you. This spout, this basically guarantees that some
+
+33
+00:02:34,740 --> 00:02:38,420
+of the water is going to go down the cup, or actually down the front of the teapot. It's
+
+34
+00:02:38,420 --> 00:02:45,600
+gonna drip, it's guaranteed. I'm sure that some super duper tea ceremony person could do it
+
+35
+00:02:45,600 --> 00:02:51,380
+without it, but I can't. Well they would hold it like over the front too, they would pour it
+
+36
+00:02:51,380 --> 00:02:56,980
+properly yeah I know but here's the thing it's this bottom so it basically winds up
+
+37
+00:02:56,980 --> 00:03:04,060
+running off here you know huh yeah I get it I get anyway so right now I've got my electric
+
+38
+00:03:04,060 --> 00:03:09,500
+kettle here it's getting close to 160 degrees when it hits 160 I'm going to first of all
+
+39
+00:03:09,500 --> 00:03:15,580
+get my tea leaves into my ceramic pitcher my brewer my whatever you want to call it
+
+40
+00:03:15,580 --> 00:03:25,720
+teapot. I have I have a spoon that is for exactly one cup of tea not one cup of
+
+41
+00:03:25,720 --> 00:03:32,740
+leaves but one cup of tea it's like a teaspoon or teaspoon of leaves. That's
+
+42
+00:03:32,740 --> 00:03:37,000
+really cool I grabbed the wrong beer I need to run downstairs and swap it out
+
+43
+00:03:37,000 --> 00:03:40,680
+because I grabbed another guava cart which I had last week. Oh my god you can't
+
+44
+00:03:40,680 --> 00:03:43,640
+even remember last week. You brew your tea and I'll be right back.
+
+45
+00:03:43,640 --> 00:03:49,560
+Well, there we go. I've got one. I'm going to put two scoops of leaves in here because
+
+46
+00:03:49,560 --> 00:03:52,420
+I'm going to have two cups of tea. There we go.
+
+47
+00:03:52,420 --> 00:03:56,200
+Because the other thing I don't like about this little ceramic teapot is that the strainer
+
+48
+00:03:56,200 --> 00:04:03,000
+is, the little strainer basket is fairly high up in the teapot, which I guess would be normal.
+
+49
+00:04:03,000 --> 00:04:08,840
+However, it means that I have to have it pretty full in order for the leaves to steep.
+
+50
+00:04:08,840 --> 00:04:12,120
+Now my water is at 160 degrees.
+
+51
+00:04:12,120 --> 00:04:14,000
+I've got a gooseneck kettle.
+
+52
+00:04:14,000 --> 00:04:15,160
+I'm goosenecking it.
+
+53
+00:04:15,160 --> 00:04:17,180
+I have returned.
+
+54
+00:04:17,180 --> 00:04:18,840
+What have you got, dear sir?
+
+55
+00:04:18,840 --> 00:04:23,040
+I have Golden Road Brewing Melon Cart.
+
+56
+00:04:23,040 --> 00:04:24,360
+Wait a minute.
+
+57
+00:04:24,360 --> 00:04:25,760
+Isn't that what you had last time?
+
+58
+00:04:25,760 --> 00:04:30,240
+Well, the show says Guava Cart.
+
+59
+00:04:30,240 --> 00:04:31,200
+Unless-wait a minute.
+
+60
+00:04:31,200 --> 00:04:32,440
+I thought this was Melon Cart.
+
+61
+00:04:32,440 --> 00:04:33,120
+You had Melon Cart last time.
+
+62
+00:04:33,120 --> 00:04:36,520
+Oh, I'm looking at the website, which hasn't been updated,
+
+63
+00:04:36,520 --> 00:04:37,400
+to include the latest.
+
+64
+00:04:37,400 --> 00:04:39,400
+The latest episode still hasn't been edited yet, Peter.
+
+65
+00:04:39,400 --> 00:04:43,400
+That's the beauty of doing this, is that I have one in the can.
+
+66
+00:04:43,400 --> 00:04:46,400
+You had this exact one last time, and you had that other one previous.
+
+67
+00:04:46,400 --> 00:04:48,400
+Well, it's okay to have a repeat.
+
+68
+00:04:48,400 --> 00:04:49,400
+I...
+
+69
+00:04:49,400 --> 00:04:50,400
+[sigh]
+
+70
+00:04:50,400 --> 00:04:52,400
+[sigh]
+
+71
+00:04:52,400 --> 00:04:55,400
+[sigh]
+
+72
+00:04:55,400 --> 00:04:57,400
+God, you're bad at podcasting.
+
+73
+00:04:57,400 --> 00:04:59,400
+You know, I just...
+
+74
+00:04:59,400 --> 00:05:01,400
+This is like the worst of the beers, too.
+
+75
+00:05:01,400 --> 00:05:04,400
+I mean, it's okay, but it's not great.
+
+76
+00:05:04,400 --> 00:05:08,120
+By the time my watch actually gets around to setting a two-minute timer, it's gonna be three hours from now
+
+77
+00:05:08,120 --> 00:05:16,040
+Well, you're using Siri, right? Yeah. Hmm. I I do have a few other beers downstairs that I should grab
+
+78
+00:05:16,040 --> 00:05:19,240
+I would prefer to grab a new one. How's your house that tea coming brewing?
+
+79
+00:05:19,240 --> 00:05:22,280
+I just you heard me said a two-minute timer perfect. That was for the tea
+
+80
+00:05:22,280 --> 00:05:27,660
+Yeah, so I've had this tea before I can't remember what it tasted like because I've had it such a long time ago
+
+81
+00:05:27,660 --> 00:05:29,400
+in theory
+
+82
+00:05:29,400 --> 00:05:34,760
+Kagoshima Sencha is what I grew up on because I lived in Kagoshima and because Sencha is a popular
+
+83
+00:05:34,760 --> 00:05:37,640
+form of green tea to drink and
+
+84
+00:05:37,640 --> 00:05:42,240
+So it's one of my favorites. It's one of the ones I grew up with. It's one of the ones I like
+
+85
+00:05:42,240 --> 00:05:49,300
+It's one of the ones I want and for some reason it's generally expensive to get good Kagoshima Sencha in the United States of America
+
+86
+00:05:49,300 --> 00:05:52,260
+so anyway
+
+87
+00:05:52,260 --> 00:05:54,440
+I've been biding my time
+
+88
+00:05:54,880 --> 00:06:01,680
+drinking through my different teas. And also, I have a problem where I go through phases where
+
+89
+00:06:01,680 --> 00:06:06,960
+tea just doesn't quite do it for me, and I wind up drinking a ton of coffee. And I guess that's okay,
+
+90
+00:06:06,960 --> 00:06:11,600
+but really what I should do is drink a lot more tea, because even though I just complained bitterly
+
+91
+00:06:11,600 --> 00:06:20,000
+about the price of tea, but not in China. Haha. Anybody get that? No? Too soon? If I drink a lot
+
+92
+00:06:20,000 --> 00:06:23,760
+of coffee, it gets really expensive fast, and in general you can get pretty good tea that's not
+
+93
+00:06:23,760 --> 00:06:29,120
+super expensive. Might not be Kagoshima Sencha, but it can still be pretty good tea. And so,
+
+94
+00:06:29,120 --> 00:06:34,560
+for that reason alone. And also, tea tends to be less caffeinated by the time it's processed
+
+95
+00:06:34,560 --> 00:06:40,880
+than coffee. There's my timer is done. Peter, here's the cup I'm going to use. You may recognize
+
+96
+00:06:40,880 --> 00:06:47,840
+this. I do recognize that. Oh my God. You've had that for a while. Yeah, since you came out to our
+
+97
+00:06:47,840 --> 00:06:53,440
+house the first time, right? Yeah, like 2013 or so. 10-year cup. All right, well, I will be drinking
+
+98
+00:06:53,440 --> 00:07:00,400
+tonight a Jack's Abbey pineapple guava passion fruit radler and I thought this was appropriate
+
+99
+00:07:00,400 --> 00:07:05,760
+because there's a pineapple and it's got some like some leafy stemmy things coming off of it
+
+100
+00:07:05,760 --> 00:07:14,560
+those I think those are fronds and this is the fronds with beer podcast right so oh okay I
+
+101
+00:07:14,560 --> 00:07:19,440
+thought you were going with Hans and Franz I was lost there cheers okay so this is a pretty good
+
+102
+00:07:20,160 --> 00:07:24,720
+pretty good tea it describes itself as a good mix of sweet and bitter and i would say that's
+
+103
+00:07:24,720 --> 00:07:31,200
+actually correct and i will say that this is a pretty weak beer wait you've you had it like a
+
+104
+00:07:31,200 --> 00:07:37,760
+two and a half percent the couple weeks ago and then you had i think this one's like four okay
+
+105
+00:07:37,760 --> 00:07:43,760
+so you should be used to that you costa rica bastard oh yeah yeah yeah i actually had some
+
+106
+00:07:43,760 --> 00:07:49,040
+scottish ale that i was going to drink for this podcast but unfortunately there's no longer any
+
+107
+00:07:49,040 --> 00:07:57,920
+of that Scottish ale left. Did we establish if you are actually brewing tea? Yes, tea is brewed.
+
+108
+00:07:57,920 --> 00:08:02,320
+What are you talking about? Okay. Either that or everyone in the universe that talks about tea is
+
+109
+00:08:02,320 --> 00:08:07,520
+wrong. No, they call about, they talk about steeping tea. No, they talk about brewing tea.
+
+110
+00:08:07,520 --> 00:08:13,600
+No, you steep tea. Is tea brewed? Or is it number X? How to brew tea perfectly every time. How to
+
+111
+00:08:13,600 --> 00:08:16,880
+brew tea perfectly every time. What's the difference between brewing tea and steeping tea?
+
+112
+00:08:17,440 --> 00:08:20,720
+Brewing and steeping are both part and parcel of the same process.
+
+113
+00:08:20,720 --> 00:08:26,240
+Brewing is the act of making tea, while steeping is the process involved.
+
+114
+00:08:26,240 --> 00:08:27,620
+Okay.
+
+115
+00:08:27,620 --> 00:08:32,800
+Steeping is steeping the leaves, brewing is the fact that you're making the tea,
+
+116
+00:08:32,800 --> 00:08:36,240
+you're using hot water, you're going from a...
+
+117
+00:08:36,240 --> 00:08:36,740
+Great!
+
+118
+00:08:36,740 --> 00:08:43,600
+You're taking an element, pouring hot water over it, and the result is that it drips down into the
+
+119
+00:08:43,600 --> 00:08:46,080
+cup, and it becomes something else, which is tea.
+
+120
+00:08:46,080 --> 00:08:47,280
+That's brewing.
+
+121
+00:08:47,280 --> 00:08:53,680
+Mm-hmm. Okay. Okay. There you go. Yes. Good. Good. Okay, so you've got that. So I'm drinking
+
+122
+00:08:53,680 --> 00:09:01,040
+a rather weak, not so flavorful beer. That grapefruit shandy radler from Schöfer Höfer
+
+123
+00:09:01,040 --> 00:09:05,560
+last week definitely has way more flavor, but then again grapefruit juice tends to have
+
+124
+00:09:05,560 --> 00:09:09,640
+more flavor than beer. Yeah, and just for the listener, I want it to be known that Peter's
+
+125
+00:09:09,640 --> 00:09:14,200
+already downed his first glass of that. It wasn't a completely full glass. No, but I
+
+126
+00:09:14,200 --> 00:09:18,780
+fix that. So what do we got for topics today besides the bros? Well I wanted to
+
+127
+00:09:18,780 --> 00:09:22,120
+find out a little bit about your teas, the type of teas that you like and
+
+128
+00:09:22,120 --> 00:09:26,920
+what's your process for, dare I say, brewing them? Mmm well now that we've
+
+129
+00:09:26,920 --> 00:09:32,680
+established that I'm brewing them. So I tend to like black teas and green teas,
+
+130
+00:09:32,680 --> 00:09:38,500
+less so herbal teas, although I will dabble in those sometimes. You and I are
+
+131
+00:09:38,500 --> 00:09:46,740
+practically tea soul mates here. Oh my god. I have a bunch of, I think, I think Genmaicha is my
+
+132
+00:09:46,740 --> 00:09:52,180
+favorite of the green teas, especially with the toasted, with the rice, you know, with puffed rice
+
+133
+00:09:52,180 --> 00:09:55,940
+in it. That's really yummy. And here's, here's the weird thing about Genmaicha. It is technically a
+
+134
+00:09:55,940 --> 00:10:00,820
+green tea, absolutely, but I don't think of it in exactly the same way as a green tea because it
+
+135
+00:10:00,820 --> 00:10:08,740
+definitely has it's pretty different than like a sencha straight sencha. Yeah I do straight
+
+136
+00:10:08,740 --> 00:10:14,740
+sensha's from time to time. I do like the genmaicha though in fact I hadn't had genmaicha for probably
+
+137
+00:10:14,740 --> 00:10:19,940
+decade probably since I lived in Japan until you showed me that bag of genmaicha and I went and
+
+138
+00:10:19,940 --> 00:10:24,500
+bought the exact same bag and I remember that it's pretty good stuff yeah. I still have most of that
+
+139
+00:10:24,500 --> 00:10:29,860
+bag in my in my basement. So do I but I just looked at it and it's expired it's past its best.
+
+140
+00:10:29,860 --> 00:10:37,420
+tea does... doesn't tea last for like a long time? it's dry. yeah but it's best used by... it was like
+
+141
+00:10:37,420 --> 00:10:44,020
+the it was like last year it does last a lot longer than coffee for example. fair enough. you can still
+
+142
+00:10:44,020 --> 00:10:51,380
+have tea that tea that goes bad. so when I brew it if it's loose leaf tea which it usually is I've
+
+143
+00:10:51,380 --> 00:10:58,100
+got a little you know just like a little cup filter filter cup and I warm the water up in an
+
+144
+00:10:58,100 --> 00:11:04,140
+electric kettle, not goosenecked by the way, and get it to the desired temperature either
+
+145
+00:11:04,140 --> 00:11:10,260
+you know like really hot for black not quite as hot for green. I usually will warm up the
+
+146
+00:11:10,260 --> 00:11:15,460
+cup with some hot water first and then pour the water back into the tea kettle. Then I
+
+147
+00:11:15,460 --> 00:11:22,060
+take my little filtery thingy mabobber put a tablespoon or a teaspoon of tea into that,
+
+148
+00:11:22,060 --> 00:11:27,060
+stick it in the cup, pour the water, set a timer, wait, drink. That's about it. Do you
+
+149
+00:11:27,060 --> 00:11:33,540
+find that when you drink tea you wish for more flavor very often? Or let me put
+
+150
+00:11:33,540 --> 00:11:37,780
+it this way, does tea come across as a little bit too subtle to you sometimes?
+
+151
+00:11:37,780 --> 00:11:43,700
+No, no. I mean I know the difference between tea and black coffee for example.
+
+152
+00:11:43,700 --> 00:11:47,620
+I wonder what I'm doing wrong. Or maybe I'm just used to drinking coffee straight
+
+153
+00:11:47,620 --> 00:11:51,340
+black so much that I'm just used to stronger flavors, I don't know. That could
+
+154
+00:11:51,340 --> 00:11:56,220
+be. You know, it's different. Like if you're craving coffee and
+
+155
+00:11:56,220 --> 00:12:01,020
+instead you grab a cup of tea, I just... I don't know, it doesn't seem like it's gonna work out
+
+156
+00:12:01,020 --> 00:12:05,580
+right. That's not what I'm saying at all, but what I'm saying is I'm not satisfied with my...
+
+157
+00:12:05,580 --> 00:12:11,660
+I'm not as satisfied with the tea that I brew as I want to be, and I can't really understand why,
+
+158
+00:12:11,660 --> 00:12:19,660
+because it's a pretty simple process. Okay. But like if I go to a Japanese restaurant and have
+
+159
+00:12:19,660 --> 00:12:23,100
+green tea there, I usually don't think about it. I usually am fine with it. I'm not sitting there
+
+160
+00:12:23,100 --> 00:12:27,540
+thinking hmm you know this could be better. Hmm this could be coffee. No I
+
+161
+00:12:27,540 --> 00:12:33,280
+don't know. Somebody punch Peter in the head. No I've stopped boxing I'm good
+
+162
+00:12:33,280 --> 00:12:37,720
+right now. Oh my god my Mac! Jiminy Christmas there's something going on with
+
+163
+00:12:37,720 --> 00:12:42,840
+Bluetooth when I use my AirPods and I use my continuity cam. I don't know what
+
+164
+00:12:42,840 --> 00:12:46,620
+happens with Bluetooth but all of a sudden my Mac just becomes unusable. The mouse which is
+
+165
+00:12:46,620 --> 00:12:51,440
+Bluetooth just starts stuttering all over the place and we're lucky that I
+
+166
+00:12:51,440 --> 00:12:53,440
+I haven't lost sound so far.
+
+167
+00:12:53,440 --> 00:12:55,440
+Man, what is it with Apple and Bluetooth?
+
+168
+00:12:55,440 --> 00:12:56,940
+It can't be that hard, can it?
+
+169
+00:12:56,940 --> 00:12:58,440
+How long has Bluetooth been around now?
+
+170
+00:12:58,440 --> 00:13:01,440
+It's been something like 45 years or something since Bluetooth came out.
+
+171
+00:13:01,440 --> 00:13:06,440
+Think closer to 25 years, but it's been around for a while.
+
+172
+00:13:06,440 --> 00:13:08,440
+Hmm. You're right, only 25.
+
+173
+00:13:08,440 --> 00:13:11,440
+There's no way anybody could have figured out how to make it work in that amount of time.
+
+174
+00:13:11,440 --> 00:13:14,440
+So, your beer is completely gone. Is that one can down?
+
+175
+00:13:14,440 --> 00:13:17,440
+No, there's still more.
+
+176
+00:13:17,440 --> 00:13:22,860
+I grabbed the can thinking it was gonna be super empty and it was not super empty
+
+177
+00:13:22,860 --> 00:13:31,540
+I'm still pacing myself. You know, this is I'm at 10k pace rather than marathon pace, but I'm pacing myself. Mm-hmm
+
+178
+00:13:31,540 --> 00:13:34,960
+Okay, so why do you care about Hokusai all of a sudden?
+
+179
+00:13:34,960 --> 00:13:38,960
+Why am I suddenly seeing stuff about Hokusai did somebody is there this an anniversary of a death?
+
+180
+00:13:38,960 --> 00:13:44,500
+What's going on? Because all of a sudden I'm seeing posts about woodblock ukiyo-e or whatever is called Prince
+
+181
+00:13:44,500 --> 00:13:49,180
+Well, there's an exhibit right now at the Boston Museum of Fine Arts.
+
+182
+00:13:49,180 --> 00:13:50,680
+Oh, okay.
+
+183
+00:13:50,680 --> 00:13:54,780
+And I went there and saw it yesterday and it was really cool.
+
+184
+00:13:54,780 --> 00:14:03,920
+Okay, so talk about it. First of all, explain to people who Hokusai was and what Hokusai did and what that art form is all about.
+
+185
+00:14:03,920 --> 00:14:09,000
+Well, he was a woodblock printwell, he was an artist, okay?
+
+186
+00:14:09,000 --> 00:14:13,800
+and some of his most famous stuff was done in the form of woodblock prints.
+
+187
+00:14:13,800 --> 00:14:23,320
+So he lived in... he was... he lasted for a while. He was born in 1760 and died in 1849.
+
+188
+00:14:23,320 --> 00:14:29,720
+So if you've ever seen... like if you haven't seen it, I mean if you don't recognize it,
+
+189
+00:14:29,720 --> 00:14:35,880
+if you saw the picture of the great wave you would recognize it. And if you haven't seen it,
+
+190
+00:14:35,880 --> 00:14:41,880
+you have almost certainly seen things influenced by his work. If you haven't
+
+191
+00:14:41,880 --> 00:14:44,600
+seen it you have almost certainly failed is what I think Peter's trying to say.
+
+192
+00:14:44,600 --> 00:14:50,400
+You may have failed, yes. But he did a lot of different paintings, wood blocks, and
+
+193
+00:14:50,400 --> 00:14:54,800
+similar works. He was just, he was, you know, famous artist, woodblock printer, and
+
+194
+00:14:54,800 --> 00:15:01,360
+it's pretty cool. The exhibit was really good. I tended to focus more
+
+195
+00:15:01,360 --> 00:15:08,240
+towards his original work and another one who came around shortly after him. But they had a lot of
+
+196
+00:15:08,240 --> 00:15:15,360
+other more modern derivative works from, you know, like Andy Warhol, for example, and other, you know,
+
+197
+00:15:15,360 --> 00:15:20,880
+famous and not so famous artists. Wait, Andy Warhol made a woodblock version of the Campbell
+
+198
+00:15:20,880 --> 00:15:28,400
+Soup Can? What? Not exactly, but he did do stuff that was influenced by Hokusai. He made an almost
+
+199
+00:15:28,400 --> 00:15:31,520
+identical wave, but he made like one little drop of the wave different.
+
+200
+00:15:31,520 --> 00:15:34,240
+It was actually a wave of soup.
+
+201
+00:15:34,240 --> 00:15:38,080
+With chicken and noodles in the sea.
+
+202
+00:15:38,080 --> 00:15:45,920
+So I also had some fun with this because, as you know, I play role-playing games,
+
+203
+00:15:45,920 --> 00:15:49,600
+and one of my favorite ones that I'm running these days is...
+
+204
+00:15:49,600 --> 00:15:50,720
+Written by chatgpt.
+
+205
+00:15:50,720 --> 00:15:54,800
+...based on comic books and superpowers.
+
+206
+00:15:56,160 --> 00:16:00,320
+And so I have, oh, it's only available in Microsoft Edge.
+
+207
+00:16:00,320 --> 00:16:01,160
+Really?
+
+208
+00:16:01,160 --> 00:16:02,480
+That's funny, 'cause I could have sworn
+
+209
+00:16:02,480 --> 00:16:05,360
+I was doing this on my desktop the other day
+
+210
+00:16:05,360 --> 00:16:07,640
+and that's not running Microsoft Edge.
+
+211
+00:16:07,640 --> 00:16:08,480
+Don't believe 'em.
+
+212
+00:16:08,480 --> 00:16:09,480
+Don't believe 'em when they say that.
+
+213
+00:16:09,480 --> 00:16:14,480
+I've been using Bing and their AI
+
+214
+00:16:14,480 --> 00:16:19,560
+alternative to ChatGPT, also powered by GPT.
+
+215
+00:16:19,560 --> 00:16:25,980
+But what I did was I said,
+
+216
+00:16:25,980 --> 00:16:31,580
+So here's the funny thing. In my superpowers campaign that I run, it's a fusion of like the
+
+217
+00:16:31,580 --> 00:16:41,020
+Marvel universe, the DC universe, and a few other lesser known universes. But the only rule I have
+
+218
+00:16:41,020 --> 00:16:49,420
+is in general the characters who show up in this world are not like... Superman is not going to
+
+219
+00:16:49,420 --> 00:16:56,220
+show up. But there could be a very Superman-like character, but he's gonna probably have an
+
+220
+00:16:56,220 --> 00:17:05,820
+even slightly different name. Like Dooperman? No, like Supreme or Samaritan. Supreme? Supreme
+
+221
+00:17:05,820 --> 00:17:16,540
+Man. Sure, right? So Supreme Male. Supreme Dude. Super Guy. You know? So anyway, so one of my
+
+222
+00:17:16,540 --> 00:17:22,060
+favorite characters that I really like is called the demon from DC Comics and
+
+223
+00:17:22,060 --> 00:17:29,980
+his real name is Etrigan. So I asked chatgpt to give me a good name
+
+224
+00:17:29,980 --> 00:17:35,980
+in my alternate universe for this character and base it on
+
+225
+00:17:35,980 --> 00:17:42,580
+Japanese mythology. And then I went to Bing and their AI image
+
+226
+00:17:42,580 --> 00:17:52,540
+creator and I said give me a picture of a blend of Etrigan but in inspired
+
+227
+00:17:52,540 --> 00:17:58,780
+in the style of Hokusai. Okay. And it's actually pretty good. I came back
+
+228
+00:17:58,780 --> 00:18:02,380
+came back with a few cool you know images I'm like great this is what I'm
+
+229
+00:18:02,380 --> 00:18:06,220
+using in my game for you know for the character. Now you got to send this to
+
+230
+00:18:06,220 --> 00:18:10,500
+me. I'm gonna add them I'm adding them right into the into the show notes.
+
+231
+00:18:10,500 --> 00:18:16,940
+It's beautiful. Yeah. So yeah. So, so AI image generation. Another thing I did was,
+
+232
+00:18:16,940 --> 00:18:21,380
+Oh wait, so that's standard in Bing now? Yeah. Part of Bing, Bing chat.
+
+233
+00:18:21,380 --> 00:18:27,380
+So I have a question. That kind of thing costs money. Like if you go do image generation,
+
+234
+00:18:27,380 --> 00:18:30,260
+you generally pay some small fee and then you get X number of...
+
+235
+00:18:30,260 --> 00:18:33,940
+Microsoft has money. So yeah, I get that. That's what I was going to ask is they're
+
+236
+00:18:33,940 --> 00:18:38,740
+just going to make that free in Bing for forever. I assume there's, there's gotta be some sort of
+
+237
+00:18:38,740 --> 00:18:40,360
+limits though, like you can't just...
+
+238
+00:18:40,360 --> 00:18:47,240
+Yeah. Bing is only...well first off, it's definitely throttled because I started having
+
+239
+00:18:47,240 --> 00:18:54,000
+it make images like on Saturday night. I told it...so I'm putting together a proposal for
+
+240
+00:18:54,000 --> 00:19:00,260
+a website redesign for a client of mine. I looked at the website and they're a lobbyist
+
+241
+00:19:00,260 --> 00:19:08,320
+firm. So they have a picture of like the Capitol building at night, but it's taken like from
+
+242
+00:19:08,320 --> 00:19:14,240
+street level. So you see like the crosswalks and the street signs and stuff. And I was like, okay,
+
+243
+00:19:14,240 --> 00:19:18,960
+you know, that's got a real common man feel to it, you know, like walking the streets. And I was
+
+244
+00:19:18,960 --> 00:19:24,800
+like, but it would be better if we could get something from up above. Right. So I asked my
+
+245
+00:19:24,800 --> 00:19:32,400
+friend Bing Image Creator to create a picture of a view of the Capitol from above at night, you know,
+
+246
+00:19:32,400 --> 00:19:36,560
+with this perspective. And it came back with a bunch of options and they're perfectly good.
+
+247
+00:19:37,760 --> 00:19:41,680
+See, I must be doing something horribly wrong because whenever I use these image generators,
+
+248
+00:19:41,680 --> 00:19:46,880
+no matter what cues I try to come up with, it gives me crap that I just can't stand and don't
+
+249
+00:19:46,880 --> 00:19:52,240
+want. It has nothing to do with what I was picturing in my head. So my first foray into
+
+250
+00:19:52,240 --> 00:19:58,720
+this with Bing image search gave me way better results than any of the other ones. Like,
+
+251
+00:19:58,720 --> 00:20:04,160
+Etrigan does not have six fingers, for example. Are you sure? I am sure. I can count them. Yeah.
+
+252
+00:20:04,720 --> 00:20:08,800
+So yeah, Bing image search, you know, image creator, I mean, was pretty cool.
+
+253
+00:20:08,800 --> 00:20:16,080
+I also got invited to Google BARD as of today. I've given it two prompts and so far it's like,
+
+254
+00:20:16,080 --> 00:20:19,760
+I'm sorry, I can't help you with that. But GPT and Bing were able to.
+
+255
+00:20:19,760 --> 00:20:24,160
+Google, I've heard that Google BARD has basically been sh*t in the bed.
+
+256
+00:20:24,160 --> 00:20:25,120
+It's been neutered.
+
+257
+00:20:25,120 --> 00:20:30,720
+In terms of, yeah. So you know what I need to do? I used to have this sound clip and now apparently
+
+258
+00:20:30,720 --> 00:20:34,800
+I don't have it. I have got to get myself because apparently we're gonna play with these things
+
+259
+00:20:34,800 --> 00:20:39,520
+I've got to get myself the Monty Python sound clip. Ah, I see you have a machine that goes bing
+
+260
+00:20:39,520 --> 00:20:42,400
+Bing
+
+261
+00:20:42,400 --> 00:20:45,360
+I'm gonna have to get that and play that
+
+262
+00:20:45,360 --> 00:20:51,760
+It'll be like a Siracusa the thing every time you say file instead of file system every time you say Bing
+
+263
+00:20:51,760 --> 00:20:54,480
+I'm gonna have to play that sound clip file. He says file system
+
+264
+00:20:54,480 --> 00:20:59,280
+Yeah, have you heard ATP don't you that's why Marco rings the little bell or whatever
+
+265
+00:20:59,280 --> 00:21:02,640
+whenever John Siracusa talks about the file system, yes.
+
+266
+00:21:02,640 --> 00:21:07,440
+I never knew what the... I heard the story about the bell and the bell that broke and stuff.
+
+267
+00:21:07,440 --> 00:21:09,120
+I never knew that that's what it was for.
+
+268
+00:21:09,120 --> 00:21:12,000
+It's for every time that John Siracusa mentions file system.
+
+269
+00:21:12,000 --> 00:21:14,800
+Okay, today I learned something new.
+
+270
+00:21:14,800 --> 00:21:20,640
+Yep, John Siracusa is as obsessed with the file system as you are with AI.
+
+271
+00:21:20,640 --> 00:21:26,720
+And he also, like, he organizes his files, right? He uses a filing system on his file system,
+
+272
+00:21:27,360 --> 00:21:32,560
+As opposed to, you know, like you heathens who just throw everything on the desktop and let finder do all the work to find it, right?
+
+273
+00:21:32,560 --> 00:21:35,520
+Right, but usually when he's talking about the file system
+
+274
+00:21:35,520 --> 00:21:40,320
+he's talking about the mechanics of how it works and why he wanted apple to introduce a new file system for all those years and
+
+275
+00:21:40,320 --> 00:21:42,080
+then they finally did and
+
+276
+00:21:42,080 --> 00:21:43,200
+Got it
+
+277
+00:21:43,200 --> 00:21:44,640
+so
+
+278
+00:21:44,640 --> 00:21:47,620
+Do you think gordon moore knew a thing or two about file systems?
+
+279
+00:21:47,620 --> 00:21:52,080
+No, I don't I think he knew a thing or two about transistors
+
+280
+00:21:52,080 --> 00:21:54,860
+transistors
+
+281
+00:21:55,340 --> 00:21:57,760
+Transistors yes, and if it wasn't for him
+
+282
+00:21:57,760 --> 00:22:02,000
+Well, I wouldn't say that though. That's not true. I was about to say something that wasn't true
+
+283
+00:22:02,000 --> 00:22:05,140
+I was about to say if it wasn't for him. We would never have had transistor radios
+
+284
+00:22:05,140 --> 00:22:09,080
+but he was extremely influential in the
+
+285
+00:22:09,080 --> 00:22:12,360
+Way that transistors are used in CPUs
+
+286
+00:22:12,360 --> 00:22:19,320
+Probably would you say these days? He's most famous for his law. He is famous for his law and he did not like
+
+287
+00:22:19,320 --> 00:22:22,820
+necessarily being associated with that law not because
+
+288
+00:22:23,660 --> 00:22:26,200
+He thought that it was incorrect or anything like that
+
+289
+00:22:26,200 --> 00:22:30,960
+But more of just because of the three people that are associated with each other including him
+
+290
+00:22:30,960 --> 00:22:36,380
+He was the most reticent in terms of seeking publicity or you know
+
+291
+00:22:36,380 --> 00:22:42,600
+Liking to be known liking to be called famous liking to be recognized for his achievements and so on and so forth
+
+292
+00:22:42,600 --> 00:22:47,600
+He was a he was a do it type of guy interesting the Gordon and Betty Moore foundation
+
+293
+00:22:47,600 --> 00:22:50,780
+So anyway, the reason we're mentioning him is listener in case you haven't heard
+
+294
+00:22:50,780 --> 00:22:53,440
+Gordon Moore passed away
+
+295
+00:22:53,440 --> 00:23:00,320
+last week at the time of this recording. So yeah, and he was the one who founded, who famously coined Moore's law,
+
+296
+00:23:00,320 --> 00:23:06,040
+which is that processing power doubles roughly every 18 months and
+
+297
+00:23:06,040 --> 00:23:11,400
+also, the price drops by about half roughly in that same time frame.
+
+298
+00:23:11,400 --> 00:23:19,760
+It's held up fairly well, right? Now they've gotten to a point where you can't, they're not making them as small,
+
+299
+00:23:19,760 --> 00:23:25,080
+you know, like, I don't know, how many nanometers are the circuits down to now? I don't even know.
+
+300
+00:23:25,080 --> 00:23:33,560
+Well, what's their name? The Taiwanese guys. TSMC. They are claiming, I think they claim to have
+
+301
+00:23:33,560 --> 00:23:38,000
+three and a half right now, and they're claiming that their two nanometers gonna come on in 2024,
+
+302
+00:23:38,000 --> 00:23:44,080
+2025. It's hard to say because they measure things differently. Everybody has ways that they measure.
+
+303
+00:23:44,080 --> 00:23:50,240
+But at any rate, right now, standard processors are somewhere between three and a half to seven
+
+304
+00:23:50,240 --> 00:23:54,160
+nanometer, depending on what device you're talking about. Okay. All right. Well, anyway,
+
+305
+00:23:54,160 --> 00:24:00,160
+rest in peace, Gordon Moore. I hope in the grand scheme of things that you did more good than bad.
+
+306
+00:24:00,160 --> 00:24:08,320
+Yeah, so it's interesting that the Moore's law has been stated different ways by people. I think
+
+307
+00:24:08,320 --> 00:24:14,160
+that the actual law was the number of transistors in an IC doubles every two years.
+
+308
+00:24:14,160 --> 00:24:18,320
+Yes, but that changed. Not that the power doubles every—
+
+309
+00:24:18,320 --> 00:24:24,120
+Right, but that's been changed and reinterpreted, etc., by lots of people.
+
+310
+00:24:24,120 --> 00:24:31,520
+Right, but I think what he said was. And then the thing is that Moore's law started coming crashing
+
+311
+00:24:31,520 --> 00:24:37,040
+to a halt a few years ago, and everybody was like, "Oh, wow, those are cool illustrations." People
+
+312
+00:24:37,040 --> 00:24:44,080
+saying that now it can't happen anymore and so forth, but once EUV came along and allowed
+
+313
+00:24:44,080 --> 00:24:49,040
+people to make smaller and smaller and smaller and smaller processes again that could actually
+
+314
+00:24:49,040 --> 00:24:54,320
+physically work, then in other words, once they became able to etch those tiny little
+
+315
+00:24:54,320 --> 00:24:57,520
+lines even smaller and smaller, it kind of picked up again.
+
+316
+00:24:57,520 --> 00:25:02,780
+So I don't know if we're back on track for the rest of eternity, probably not.
+
+317
+00:25:02,780 --> 00:25:05,080
+There has to be a scaling point.
+
+318
+00:25:05,080 --> 00:25:07,700
+can only get so small even if it is incredibly small.
+
+319
+00:25:07,700 --> 00:25:08,900
+Can they go microscopic?
+
+320
+00:25:08,900 --> 00:25:13,060
+Alright, so this Etrigan, does that actually look like Etrigan?
+
+321
+00:25:13,060 --> 00:25:14,060
+Yeah.
+
+322
+00:25:14,060 --> 00:25:15,060
+He looks like a ****.
+
+323
+00:25:15,060 --> 00:25:16,060
+What do you like this guy?
+
+324
+00:25:16,060 --> 00:25:17,060
+Well he's a demon.
+
+325
+00:25:17,060 --> 00:25:18,060
+Of course he's gonna be an a-hole.
+
+326
+00:25:18,060 --> 00:25:19,060
+Click.
+
+327
+00:25:19,060 --> 00:25:20,060
+Oh.
+
+328
+00:25:20,060 --> 00:25:21,060
+I know.
+
+329
+00:25:21,060 --> 00:25:23,500
+I'm trying, but my mouse is doing its thing again.
+
+330
+00:25:23,500 --> 00:25:24,500
+Jeez.
+
+331
+00:25:24,500 --> 00:25:25,500
+You know what's interesting?
+
+332
+00:25:25,500 --> 00:25:30,220
+My mouse does that, but my trackpad, which is also Bluetooth, works perfectly smoothly.
+
+333
+00:25:30,220 --> 00:25:31,420
+I should just use that.
+
+334
+00:25:31,420 --> 00:25:32,420
+Interesting.
+
+335
+00:25:32,420 --> 00:25:33,420
+Very interesting.
+
+336
+00:25:33,420 --> 00:25:38,860
+I have a Bluetooth mouse and I like it a lot. It's this little thing I picked up more than
+
+337
+00:25:38,860 --> 00:25:45,380
+a year ago now on Amazon. It was like 20 bucks or something. It's great. But it goes to sleep
+
+338
+00:25:45,380 --> 00:25:50,620
+like aggressively to save battery life, which is fine. It's just that every time I go to
+
+339
+00:25:50,620 --> 00:25:54,300
+grab it, I have to give it I have to give myself like an extra second for it to wake
+
+340
+00:25:54,300 --> 00:25:56,940
+up before I start moving and clicking it and stuff.
+
+341
+00:25:56,940 --> 00:25:58,620
+Is it called cat and mouse?
+
+342
+00:25:58,620 --> 00:26:01,660
+No, it's not called cat and. It's just a mouse.
+
+343
+00:26:01,660 --> 00:26:10,380
+Oh, okay. So there was something else that happened to you, not just a mouse, but you also have $43.35 in your pocket right now.
+
+344
+00:26:10,380 --> 00:26:18,860
+Yeah, I don't remember exactly when, but apparently I was part of a class who took some action and filed a lawsuit against Apple.
+
+345
+00:26:18,860 --> 00:26:19,940
+Very good.
+
+346
+00:26:19,940 --> 00:26:25,260
+And last week I got a check in the mail for $43.35.
+
+347
+00:26:25,260 --> 00:26:32,860
+I have to assume it was during the days when, like, they were slowing down the iPhone 6s
+
+348
+00:26:32,860 --> 00:26:35,820
+or something, you know, for battery life preservation.
+
+349
+00:26:35,820 --> 00:26:36,820
+But I don't know.
+
+350
+00:26:36,820 --> 00:26:37,820
+I have no idea.
+
+351
+00:26:37,820 --> 00:26:43,420
+Usually with class action lawsuits, there's something that says what this lawsuit is for.
+
+352
+00:26:43,420 --> 00:26:44,960
+Replacement device lawsuit.
+
+353
+00:26:44,960 --> 00:26:48,340
+So I would assume it had something to do with a replacement device.
+
+354
+00:26:48,340 --> 00:26:50,580
+Did you ever get a replacement device?
+
+355
+00:26:50,580 --> 00:26:53,340
+I mean, I've replaced my Apple devices numerous times.
+
+356
+00:26:53,340 --> 00:26:54,760
+I don't even remember.
+
+357
+00:26:54,760 --> 00:26:56,560
+I mean, I vaguely remember receiving it,
+
+358
+00:26:56,560 --> 00:26:59,040
+but I get so many of these class action lawsuit notifications
+
+359
+00:26:59,040 --> 00:27:01,740
+and postcards these days, I have no idea.
+
+360
+00:27:01,740 --> 00:27:03,720
+My suspicion is that, you know,
+
+361
+00:27:03,720 --> 00:27:05,200
+like I bought an iPhone 8
+
+362
+00:27:05,200 --> 00:27:07,160
+because my iPhone 5 was slow or something.
+
+363
+00:27:07,160 --> 00:27:08,960
+I don't know.
+
+364
+00:27:08,960 --> 00:27:11,640
+Three days ago, just curious if you received a check
+
+365
+00:27:11,640 --> 00:27:13,600
+from the replacement device lawsuit.
+
+366
+00:27:13,600 --> 00:27:15,640
+This is apparently a class action suit
+
+367
+00:27:15,640 --> 00:27:16,920
+that Apple was hit with over their practice
+
+368
+00:27:16,920 --> 00:27:18,940
+of giving customers remanufactured phones
+
+369
+00:27:18,940 --> 00:27:21,680
+for AppleCare warranty replacements.
+
+370
+00:27:21,680 --> 00:27:23,280
+Oh, interesting.
+
+371
+00:27:23,280 --> 00:27:25,800
+Well, I definitely have gotten new phones.
+
+372
+00:27:25,800 --> 00:27:27,720
+Well, they apparently weren't new, Peter.
+
+373
+00:27:27,720 --> 00:27:28,880
+Apparently not.
+
+374
+00:27:28,880 --> 00:27:30,040
+So I got a whopping-
+
+375
+00:27:30,040 --> 00:27:32,080
+Otherwise you wouldn't have gotten $43 and-
+
+376
+00:27:32,080 --> 00:27:33,280
+35 cents.
+
+377
+00:27:33,280 --> 00:27:34,120
+Yep.
+
+378
+00:27:34,120 --> 00:27:34,940
+So great.
+
+379
+00:27:34,940 --> 00:27:35,780
+Thanks, some attorney.
+
+380
+00:27:35,780 --> 00:27:37,800
+I wonder how much the attorney's got.
+
+381
+00:27:37,800 --> 00:27:38,780
+Thanks, some attorney.
+
+382
+00:27:38,780 --> 00:27:40,040
+Like for each check that went out
+
+383
+00:27:40,040 --> 00:27:42,600
+that someone like me got for $43.35,
+
+384
+00:27:42,600 --> 00:27:45,360
+they probably got 150 bucks or something.
+
+385
+00:27:45,360 --> 00:27:49,720
+Oh, they got way more than a hundred bucks for your $43.55.
+
+386
+00:27:49,720 --> 00:27:51,960
+They probably got a thousand bucks for your $43.55.
+
+387
+00:27:51,960 --> 00:27:53,000
+There you go.
+
+388
+00:27:53,000 --> 00:27:54,840
+So yeah, because America.
+
+389
+00:27:54,840 --> 00:27:59,560
+Hey, where's my clip?
+
+390
+00:27:59,560 --> 00:28:02,200
+Okay, I wanted to talk about something interesting.
+
+391
+00:28:02,200 --> 00:28:03,040
+Go for it.
+
+392
+00:28:03,040 --> 00:28:04,360
+Maybe this will get you back into the mood
+
+393
+00:28:04,360 --> 00:28:08,000
+to get onto Apple TV and start watching Roy Kent again.
+
+394
+00:28:08,000 --> 00:28:13,000
+But Brett Goldstein, who is a co-producer, co-writer,
+
+395
+00:28:13,000 --> 00:28:15,640
+anyway, he's involved with the production of Ted Lasso.
+
+396
+00:28:15,640 --> 00:28:16,480
+Okay.
+
+397
+00:28:16,480 --> 00:28:18,300
+He's not just a fine actor.
+
+398
+00:28:18,300 --> 00:28:21,680
+He is also in charge of this show
+
+399
+00:28:21,680 --> 00:28:24,680
+and he's instrumental in its production anyway.
+
+400
+00:28:24,680 --> 00:28:26,700
+He went onto Sesame Street recently
+
+401
+00:28:26,700 --> 00:28:30,220
+and he played hide and seek with Elmo and Grover.
+
+402
+00:28:30,220 --> 00:28:33,140
+There also was a part where he introduced himself
+
+403
+00:28:33,140 --> 00:28:34,860
+to Oscar the Grouch, which was pretty hilarious.
+
+404
+00:28:34,860 --> 00:28:36,080
+There was a stare down happening,
+
+405
+00:28:36,080 --> 00:28:38,940
+but I didn't record that part,
+
+406
+00:28:38,940 --> 00:28:41,180
+but I wanna play just a couple,
+
+407
+00:28:41,180 --> 00:28:42,720
+25 seconds of this to be exact,
+
+408
+00:28:42,720 --> 00:28:46,820
+so that you can hear it and see if it makes you want to
+
+409
+00:28:46,820 --> 00:28:49,500
+at least watch this YouTube video, if not watch Ted Lasso.
+
+410
+00:28:49,500 --> 00:28:50,480
+Hello there.
+
+411
+00:28:50,480 --> 00:28:51,480
+I'm here with Elmo.
+
+412
+00:28:51,480 --> 00:28:54,980
+Oh yeah, we were just deciding what game to play.
+
+413
+00:28:54,980 --> 00:28:56,780
+You know, we really love games.
+
+414
+00:28:56,780 --> 00:28:58,280
+He's here!
+
+415
+00:28:58,280 --> 00:28:59,480
+He's there!
+
+416
+00:28:59,480 --> 00:29:02,280
+He's everywhere!
+
+417
+00:29:02,280 --> 00:29:05,680
+And I, Adorable Grover, love games too.
+
+418
+00:29:05,680 --> 00:29:07,280
+They're all different types of games.
+
+419
+00:29:07,280 --> 00:29:09,680
+Like soccer!
+
+420
+00:29:09,680 --> 00:29:11,780
+Actually, I call it football.
+
+421
+00:29:11,780 --> 00:29:14,180
+I thought you told me he was an expert on games.
+
+422
+00:29:14,180 --> 00:29:14,880
+Don't worry about it.
+
+423
+00:29:14,880 --> 00:29:17,180
+I thought you told me he was an expert on games.
+
+424
+00:29:17,180 --> 00:29:19,080
+So I take it you don't remember the Roy Kent,
+
+425
+00:29:19,080 --> 00:29:24,860
+He's here. He's there. He's everywhere. I don't remember that part. No. Are you serious? Yeah. Oh
+
+426
+00:29:24,860 --> 00:29:31,100
+Wow, okay. You need to go you need to get Apple TV now so you can go back and rewatch so you can remember
+
+427
+00:29:31,100 --> 00:29:32,960
+Okay
+
+428
+00:29:32,960 --> 00:29:36,700
+Well, I figured I might rewatch some but it wasn't that long ago
+
+429
+00:29:36,700 --> 00:29:41,380
+I didn't think I would really need to rewatch Ted lasso season 2 to catch it was that long ago
+
+430
+00:29:41,380 --> 00:29:42,520
+Trust me
+
+431
+00:29:42,520 --> 00:29:48,380
+That's the thing all these TV series have so much time in between that there's no way anybody can possibly be expected to remember
+
+432
+00:29:48,380 --> 00:29:55,100
+happened. But I only watched season two like a few months ago. Is that true? Yeah, because I waited
+
+433
+00:29:55,100 --> 00:30:00,780
+a long time. You were that late to the game? Yeah. When did it actually end? The last episode of
+
+434
+00:30:00,780 --> 00:30:05,580
+season two aired in October 2021. Right, and I waited. Yeah, so you've spent for freaking ever.
+
+435
+00:30:05,580 --> 00:30:09,740
+Yeah. I doubt it was a few months ago, Peter. You already know how this goes. Anytime you and I
+
+436
+00:30:09,740 --> 00:30:12,860
+make an estimate of time, we always think that something happened just recently and it was
+
+437
+00:30:12,860 --> 00:30:20,860
+was usually 10 years ago. Well, it was before I went to Costa Rica. Mm-hmm. As was almost everything
+
+438
+00:30:20,860 --> 00:30:27,180
+in your life. I don't remember much more beyond that, so there you go. Yeah. Most of your life,
+
+439
+00:30:27,180 --> 00:30:33,660
+99.9999% of your life was before you went to Costa Rica. You're probably right. So that doesn't
+
+440
+00:30:33,660 --> 00:30:41,180
+narrow it down. But I hope to have a lot afterwards too. Oh yeah, I'm not trying to put an upper limit
+
+441
+00:30:41,180 --> 00:30:45,980
+on things here. It's not what I'm talking about. All right, let's skip over my typewriter one. I
+
+442
+00:30:45,980 --> 00:30:50,620
+found it interesting, but you probably don't give a crap. I just found it interesting that people are
+
+443
+00:30:50,620 --> 00:30:58,060
+into analog typewriters the way that people are into other analog devices. And this is an article
+
+444
+00:30:58,060 --> 00:31:02,460
+-I'll put this link in -it's an article by Glenn Fleischman, who some of the listeners will
+
+445
+00:31:02,460 --> 00:31:07,980
+be familiar with, and he just talks about some interesting typewriting stores in the area of
+
+446
+00:31:07,980 --> 00:31:14,460
+Washington he's in. But it did bring up something to me which is, how did you learn to touch
+
+447
+00:31:14,460 --> 00:31:20,380
+type and did you have experience with typewriters as opposed to computers or were computers
+
+448
+00:31:20,380 --> 00:31:21,740
+your first typing experience?
+
+449
+00:31:21,740 --> 00:31:30,300
+No, my mom did have an electronic typewriter when I was a kid. So I learned on that and
+
+450
+00:31:30,300 --> 00:31:36,180
+it even had an erase function. So you could go you could back it up, back it up, back
+
+451
+00:31:36,180 --> 00:31:41,620
+it up and then hit a, you know, which essentially put like white out over the letter and stuff. Yes.
+
+452
+00:31:41,620 --> 00:31:46,500
+Yeah, it was probably a Selectric of some kind. Yeah, we had a very, we had a typewriter that
+
+453
+00:31:46,500 --> 00:31:50,340
+was exactly like that in terms of what you just described. I don't know if it was the same
+
+454
+00:31:50,340 --> 00:31:55,060
+typewriter or not, but yeah, it was same type of thing. Yeah. And I learned, in theory, I learned
+
+455
+00:31:55,060 --> 00:32:01,700
+how to type in high school, but in my typing class, the last paper that we had to submit was
+
+456
+00:32:02,500 --> 00:32:07,300
+basically a paper complete with outlines and all this indentation and all these other things.
+
+457
+00:32:07,300 --> 00:32:09,140
+You had to learn how to use the functionality of the typewriter.
+
+458
+00:32:09,140 --> 00:32:12,340
+And it was the rules of typing. It was basically
+
+459
+00:32:12,340 --> 00:32:17,380
+what is the correct way to type a paper such as the one that you were typing. It was very meta.
+
+460
+00:32:17,380 --> 00:32:22,340
+And I wasn't paying any attention at all. I didn't learn a damn thing in that class. And so
+
+461
+00:32:22,340 --> 00:32:27,060
+I was violating every rule that I was saying that needed to be used. And my parents pointed
+
+462
+00:32:27,060 --> 00:32:30,980
+that out to me and I had to retype the whole thing. But anyway, I didn't really start becoming
+
+463
+00:32:30,980 --> 00:32:36,100
+a good typist until I started using computers, because what would happen is my brother went off
+
+464
+00:32:36,100 --> 00:32:40,020
+to college, he came back to Japan from the United States for a short period of time, and he got
+
+465
+00:32:40,020 --> 00:32:45,620
+himself an Apple II clone. He built an Apple II clone. And if I wanted to play games on it,
+
+466
+00:32:45,620 --> 00:32:49,220
+first of all, I had to get the magazines and I had to type the game listings in.
+
+467
+00:32:49,220 --> 00:32:53,940
+That was the deal. I would type the games in and then I was allowed to play them for a little while.
+
+468
+00:32:53,940 --> 00:32:57,860
+And so that's how it worked. And that's how I basically learned how to type, was my brother
+
+469
+00:32:58,660 --> 00:33:04,180
+putting me into indentured servitude by entering games into his computer, which I was happy to do.
+
+470
+00:33:04,180 --> 00:33:06,580
+That's pretty cool.
+
+471
+00:33:06,580 --> 00:33:07,380
+It is.
+
+472
+00:33:07,380 --> 00:33:14,020
+I learned by playing around with the typewriter. I certainly did not know how to touch type.
+
+473
+00:33:14,020 --> 00:33:21,220
+I don't think I ever actually took a keyboarding or typing class. So I just sort of learned. And
+
+474
+00:33:21,220 --> 00:33:26,180
+one of the ways you can tell that I don't do it right is I don't use my pinkies all that much.
+
+475
+00:33:26,980 --> 00:33:32,260
+and I also use my left index finger most of the time to hit the B key.
+
+476
+00:33:32,260 --> 00:33:39,540
+Okay. One of the interesting things about me is it took me a long time. I was never that good with
+
+477
+00:33:39,540 --> 00:33:45,540
+numbers or the special characters for a long, long time. I would usually have to look. But to be
+
+478
+00:33:45,540 --> 00:33:49,860
+honest, it's only been in recent years that now I can do those without looking. And I think part of
+
+479
+00:33:49,860 --> 00:33:54,260
+that's just because I'm doing a lot more programming than I used to do. Okay. And a lot of those special
+
+480
+00:33:54,260 --> 00:33:58,260
+characters get used in programming. One of the things I do want to read from this story,
+
+481
+00:33:58,260 --> 00:34:03,300
+though it's pretty interesting, this guy's dad, the author's dad, is talking about how he
+
+482
+00:34:03,300 --> 00:34:11,940
+went from being a Hutton Peck typist to a Touch typist. And in the early 1950s, this family owned
+
+483
+00:34:11,940 --> 00:34:17,780
+a retail furniture business, and as a teenager this guy, this is the author's dad, he would hang
+
+484
+00:34:17,780 --> 00:34:23,140
+around the store office and he would type, he would hang around and he would just type stuff
+
+485
+00:34:23,140 --> 00:34:29,380
+out on the typewriter using a one-finger method. And then this guy who was the advertising manager
+
+486
+00:34:29,380 --> 00:34:34,180
+of the... how do you say this? Poughkeepsie, New York? How do you pronounce that? Poughkeepsie.
+
+487
+00:34:34,180 --> 00:34:39,060
+Poughkeepsie. Okay. Poughkeepsie Journal. This guy was the advertising manager of the Poughkeepsie
+
+488
+00:34:39,060 --> 00:34:44,900
+Journal, and he came by and he saw this kid doing this and he said, "Listen, stop wasting your time
+
+489
+00:34:44,900 --> 00:34:49,700
+and learn how to actually type." And so the kid signed up for a typing class in high school and
+
+490
+00:34:49,700 --> 00:34:54,940
+and became proficient and learning to touch type it might seem like a huge thing it really
+
+491
+00:34:54,940 --> 00:34:57,300
+doesn't take that long and boy is it ever worth it.
+
+492
+00:34:57,300 --> 00:35:04,260
+I don't know who that PSA was for but there you go.
+
+493
+00:35:04,260 --> 00:35:06,420
+You deal with young children all the time right?
+
+494
+00:35:06,420 --> 00:35:07,420
+Some of the people that work for you.
+
+495
+00:35:07,420 --> 00:35:10,100
+You can feel like it.
+
+496
+00:35:10,100 --> 00:35:14,060
+Yeah I'm just curious I'm just curious how many kids actually know how to type anymore
+
+497
+00:35:14,060 --> 00:35:18,120
+my daughter says that she doesn't think that most of the kids in her class know how to
+
+498
+00:35:18,120 --> 00:35:19,120
+touch type.
+
+499
+00:35:19,120 --> 00:35:24,480
+surprise me. Not at all. Yeah. I bet none of them know any keyboard shortcuts either on their
+
+500
+00:35:24,480 --> 00:35:32,480
+computer. Mm-hmm. Kids today. Kids today. I don't know, man. I'm increasingly frustrated with...
+
+501
+00:35:32,480 --> 00:35:40,320
+not so much kids, just... Humans. It's not just kids, dude. It's not just kids. The most
+
+502
+00:35:40,320 --> 00:35:45,760
+destructive people on the planet right now are middle-aged people. Middle-aged to upper
+
+503
+00:35:45,760 --> 00:35:50,880
+middle-aged people. The people that believe in the QAnons, the people that are on Facebook
+
+504
+00:35:50,880 --> 00:35:57,280
+getting angry about conspiracy theories, most of those people are middle-aged or thereabouts.
+
+505
+00:35:57,280 --> 00:36:03,440
+I firmly believe that the worst thing for humanity right now is middle-aged people with too much time
+
+506
+00:36:03,440 --> 00:36:08,880
+on their hands. You're probably not wrong. So, two quick things that I found that I wanted to talk
+
+507
+00:36:08,880 --> 00:36:15,440
+about. I hope you don't mind. See this watch band? Can you see me? I can. I see that.
+
+508
+00:36:15,440 --> 00:36:21,020
+Yeah, this is a $20 watch band. It's elastic. It's got a little buckle here that allows
+
+509
+00:36:21,020 --> 00:36:27,840
+you to adjust the tension of it. But it's a $20 Speigen? Spigen? Spigen? Anyway.
+
+510
+00:36:27,840 --> 00:36:30,480
+Spigen. Spigen die Deutsch.
+
+511
+00:36:30,480 --> 00:36:31,480
+Spigen de Band?
+
+512
+00:36:31,480 --> 00:36:35,440
+Yeah, Spigen de Band. And I put a link to it where I bought it on Amazon. But it's a
+
+513
+00:36:35,440 --> 00:36:38,780
+nice little band. It's orange. It would look good with your ultra. It would actually fit
+
+514
+00:36:38,780 --> 00:36:41,480
+the ultra. This fits the bigger sizes of watches.
+
+515
+00:36:41,480 --> 00:36:42,480
+Okay.
+
+516
+00:36:42,480 --> 00:36:46,420
+I like it. I don't know. It's just another option. I don't know if you're like me I tend to
+
+517
+00:36:46,420 --> 00:36:50,800
+Switch bands quite often just depending on the mood. I like to switch them up
+
+518
+00:36:50,800 --> 00:36:54,300
+So I don't remember if we talked about it on blurring the lines
+
+519
+00:36:54,300 --> 00:36:59,700
+but I recently purchased a four pack of Apple watch ultra bands and
+
+520
+00:36:59,700 --> 00:37:04,720
+Today I sent the original pack back because two of them
+
+521
+00:37:04,720 --> 00:37:07,040
+stopped working
+
+522
+00:37:07,040 --> 00:37:11,840
+So it was a combination of ocean bands, but these weren't Apple
+
+523
+00:37:11,880 --> 00:37:18,440
+Yeah, they were not real Apple. No, that would have been $400. So there were ocean bands and
+
+524
+00:37:18,440 --> 00:37:21,220
+two ocean and two trail loops
+
+525
+00:37:21,220 --> 00:37:28,600
+Both of the trail loops stopped they broke so you would you could insert it but it would slide right out the other side
+
+526
+00:37:28,600 --> 00:37:33,320
+Not a problem. What are you complaining about? Two of them broke. Did you throw them in?
+
+527
+00:37:33,320 --> 00:37:39,480
+Did you throw those trail bands into the ocean? I did not throw those into the ocean because I
+
+528
+00:37:40,440 --> 00:37:48,200
+I did complain and said that you know, I wanted a replacement and they shipped me a replacement
+
+529
+00:37:48,200 --> 00:37:53,940
+So yes, very good. Of course, I had to do the dance to return the other ones which I have just done
+
+530
+00:37:53,940 --> 00:37:58,080
+I went to Amazon just to look at the ones that you know
+
+531
+00:37:58,080 --> 00:38:03,960
+they were mentioning and I see Amazon is now suggesting the Amazon smart thermostat with
+
+532
+00:38:03,960 --> 00:38:06,640
+shockers
+
+533
+00:38:06,640 --> 00:38:08,640
+It works with Alexa
+
+534
+00:38:09,760 --> 00:38:12,200
+Wouldn't have expected that something from Amazon
+
+535
+00:38:12,200 --> 00:38:19,580
+Somehow we just went from watch band something that hangs on your wrist to thermostat something that hangs on your wall. Well, it's a smart
+
+536
+00:38:19,580 --> 00:38:27,100
+Intelligent unit thing on your wrist and you bought them at both at Amazon. So there you go. Oh, okay
+
+537
+00:38:27,100 --> 00:38:31,780
+I see. Yeah somehow the end that and the way that was is I went to Amazon. So that's how
+
+538
+00:38:31,780 --> 00:38:38,340
+But one of the things that I'm impressed with about the Spigen is the spigen the spigen spigen de deutsch der spigen
+
+539
+00:38:39,220 --> 00:38:43,680
+Dare speak and one of the things that impressed me about it is exactly what you're talking about
+
+540
+00:38:43,680 --> 00:38:49,620
+most of the knockoff bands do not have good clasps or the part that fits into the watch and
+
+541
+00:38:49,620 --> 00:38:54,300
+Most of those even if they do work and they don't become
+
+542
+00:38:54,300 --> 00:38:58,300
+Dangerous on the trail as it were. Yep. They just don't feel the same
+
+543
+00:38:58,300 --> 00:39:02,860
+They they're a little rough to fit in one side will fit in smooth and the other will be a little tight
+
+544
+00:39:02,860 --> 00:39:05,960
+They're just not high quality. This one is super nice
+
+545
+00:39:05,960 --> 00:39:12,800
+I would believe I could believe that these were made by Apple. Okay, it's a it's a nice knockoff very nice
+
+546
+00:39:12,800 --> 00:39:15,960
+yeah, they slide right in they click right in they're perfectly sized and
+
+547
+00:39:15,960 --> 00:39:21,160
+It's an identical experience on both sides. That's cool. It sounded
+
+548
+00:39:21,160 --> 00:39:22,840
+Uniformity, you know what I mean?
+
+549
+00:39:22,840 --> 00:39:28,000
+Okay, and then finally the other the last thing that I want to point out that I found was an app called hush now you
+
+550
+00:39:28,000 --> 00:39:30,000
+Have an app called shush
+
+551
+00:39:30,400 --> 00:39:36,260
+And I have an app called Hush. Yes, okay. And this app is an app that will be of
+
+552
+00:39:36,260 --> 00:39:40,300
+interest to people who are processing audio on their Macintoshes. And basically
+
+553
+00:39:40,300 --> 00:39:44,820
+it uses state-of-the-art AI, this will intrigue you, to clean up recorded speech.
+
+554
+00:39:44,820 --> 00:39:49,660
+And it does a really good job. So a couple episodes ago your track had some
+
+555
+00:39:49,660 --> 00:39:53,340
+background noise on it. I don't know if it was your air conditioner or what.
+
+556
+00:39:53,340 --> 00:39:58,060
+I got it out with my iZotope tools, my iZotope plugins for Logic.
+
+557
+00:39:58,060 --> 00:40:04,300
+However, when you speak, I can still hear it just a tiny bit cutting in and out.
+
+558
+00:40:04,300 --> 00:40:09,940
+Now, I took that track, I still had the raw track for that, so I took that track and I
+
+559
+00:40:09,940 --> 00:40:17,260
+ran it through Hush and oh my god, it was completely gone and there was no change in
+
+560
+00:40:17,260 --> 00:40:18,700
+the quality of your voice whatsoever.
+
+561
+00:40:18,700 --> 00:40:20,540
+I could not tell that noise had ever been there.
+
+562
+00:40:20,540 --> 00:40:22,340
+It was so stupendously good.
+
+563
+00:40:22,340 --> 00:40:23,740
+Is it using AI?
+
+564
+00:40:23,740 --> 00:40:24,740
+Mm-hmm.
+
+565
+00:40:24,740 --> 00:40:25,740
+Okay.
+
+566
+00:40:25,740 --> 00:40:26,740
+Just checking.
+
+567
+00:40:26,740 --> 00:40:27,740
+It says it is, right on the website.
+
+568
+00:40:27,740 --> 00:40:29,820
+Well in that case it must be, it must be true.
+
+569
+00:40:29,820 --> 00:40:32,020
+So they're either lying or...
+
+570
+00:40:32,020 --> 00:40:37,240
+Anyway, so that was really cool and so I immediately bought that up.
+
+571
+00:40:37,240 --> 00:40:41,340
+Now one thing that I did find is I tested it by running some really short clips with
+
+572
+00:40:41,340 --> 00:40:46,100
+lots of noise in the background through and some of those it didn't do quite as good of
+
+573
+00:40:46,100 --> 00:40:51,840
+a job on and some of them it definitely affected some of the speech.
+
+574
+00:40:51,840 --> 00:40:54,700
+And I don't know if it's just because it's too short of a sample for it to figure out
+
+575
+00:40:54,700 --> 00:41:00,220
+what it wants to filter or because it is just too noisy to begin with.
+
+576
+00:41:00,220 --> 00:41:06,100
+Like one of them was a thing in a movie where there's a bunch of paper shredding going on
+
+577
+00:41:06,100 --> 00:41:11,300
+in the background and the guy is saying something and it tried to filter that out and it mangled
+
+578
+00:41:11,300 --> 00:41:15,380
+the voice just a little bit and then I can't remember what the other one was but yeah it's
+
+579
+00:41:15,380 --> 00:41:16,620
+not perfect.
+
+580
+00:41:16,620 --> 00:41:21,460
+However for a typical spoken audio recording where people have some kind of noise in the
+
+581
+00:41:21,460 --> 00:41:25,400
+background like their windows open, they've got some traffic hum, maybe they
+
+582
+00:41:25,400 --> 00:41:30,780
+have a air conditioner going, something like that. This may very well do the job
+
+583
+00:41:30,780 --> 00:41:35,140
+and though it's not cheap, you can try it for free for something like 21 days or
+
+584
+00:41:35,140 --> 00:41:38,940
+two weeks, I don't even remember now. Okay. And so you can download it and try it
+
+585
+00:41:38,940 --> 00:41:42,460
+and see how it works for you and give it a go. And they have a sample on
+
+586
+00:41:42,460 --> 00:41:45,900
+their website, it says here it for yourself and they have a noisy and you listen to
+
+587
+00:41:45,900 --> 00:41:49,900
+it and they have hushed and you listen to it. That's not made up. That is
+
+588
+00:41:49,900 --> 00:41:55,180
+how good it would actually I'm sure it did do with that particular type of
+
+589
+00:41:55,180 --> 00:41:58,820
+noise in the background it's really really good so yeah that's pretty cool I
+
+590
+00:41:58,820 --> 00:42:02,900
+liked that I really like that because although I have the isotope plugins
+
+591
+00:42:02,900 --> 00:42:06,900
+they're definitely not perfect and they do require a lot of tweaking to get the
+
+592
+00:42:06,900 --> 00:42:12,060
+results that you want and this was just a drop a file on and get their result
+
+593
+00:42:12,060 --> 00:42:17,340
+out so between hush and shush we've got some some decent decent capabilities
+
+594
+00:42:17,340 --> 00:42:27,420
+here. Yeah, we've got the shush. Well, that's pretty cool. Have you found anything of interest
+
+595
+00:42:27,420 --> 00:42:33,820
+in this recent days? Interest. I mean, I'm, I don't know. I'm still enjoying and still getting
+
+596
+00:42:33,820 --> 00:42:41,020
+value out of ChatGPT, but like, are there a lot of people who are doing like way more creative
+
+597
+00:42:41,020 --> 00:42:45,820
+things with it than I am, but I don't know that I really care. I don't, I don't really know if that
+
+598
+00:42:45,820 --> 00:42:50,380
+that really matters much. Like I said though, I have that four pack of watch bands, which
+
+599
+00:42:50,380 --> 00:42:51,380
+is kind of nice.
+
+600
+00:42:51,380 --> 00:42:58,760
+Yeah. I've never been one that believes that like for all these utilities and all these
+
+601
+00:42:58,760 --> 00:43:04,020
+things that I enjoy tinkering with on my Mac and there's a ton of them, it's all related
+
+602
+00:43:04,020 --> 00:43:09,020
+to stuff that I am doing or want to do. I've never been a believer in going out in search
+
+603
+00:43:09,020 --> 00:43:13,880
+of a problem to solve in order to use a specific tool. It should be the other way around. Now,
+
+604
+00:43:13,880 --> 00:43:15,400
+once you have a problem to solve,
+
+605
+00:43:15,400 --> 00:43:19,640
+But if I was going to apply for a new job as a prompt engineer, then the problem I need
+
+606
+00:43:19,640 --> 00:43:21,840
+to solve is I need to get good at prompts.
+
+607
+00:43:21,840 --> 00:43:25,280
+Uh, Peter, you don't need to worry about that because you've got upper management written
+
+608
+00:43:25,280 --> 00:43:27,280
+all over you.
+
+609
+00:43:27,280 --> 00:43:28,280
+Great!
+
+610
+00:43:28,280 --> 00:43:29,280
+Thanks!
+
+611
+00:43:29,280 --> 00:43:30,280
+Yeah.
+
+612
+00:43:30,280 --> 00:43:31,280
+Why?
+
+613
+00:43:31,280 --> 00:43:34,200
+Why do you have upper management written all over you?
+
+614
+00:43:34,200 --> 00:43:36,260
+Because I have the memo.
+
+615
+00:43:36,260 --> 00:43:37,480
+Because you have the memo.
+
+616
+00:43:37,480 --> 00:43:39,440
+The memo changed your career.
+
+617
+00:43:39,440 --> 00:43:41,960
+Oh, dear God.
+
+618
+00:43:41,960 --> 00:43:43,720
+I have the memo.
+
+619
+00:43:43,720 --> 00:43:44,720
+I love it.
+
+620
+00:43:44,720 --> 00:43:49,480
+the memo. All right. Peter, tell people how they can find us, why they would want to find
+
+621
+00:43:49,480 --> 00:43:56,680
+us. You can find us at frondswithbros.com. Right, and you must touch type that, by the
+
+622
+00:43:56,680 --> 00:44:04,380
+way. Yes. On your IBM Selectric. Well, I asked chatgpt to tell them where to find us, actually.
+
+623
+00:44:04,380 --> 00:44:13,020
+So pull out your IBM Selectric and type frondswithbros. Fronds with bros? Yeah, no, we're on Mastodon.
+
+624
+00:44:13,020 --> 00:44:14,720
+You are...
+
+625
+00:44:14,720 --> 00:44:15,720
+I don't remember...
+
+626
+00:44:15,720 --> 00:44:17,120
+Scott A.W.
+
+627
+00:44:17,120 --> 00:44:18,120
+Scott Aw.
+
+628
+00:44:18,120 --> 00:44:19,120
+Scottaw.
+
+629
+00:44:19,120 --> 00:44:20,120
+Yeah.
+
+630
+00:44:20,120 --> 00:44:22,920
+Scott A.W. at app dot net.
+
+631
+00:44:22,920 --> 00:44:24,040
+Wait, no.
+
+632
+00:44:24,040 --> 00:44:25,040
+You are...
+
+633
+00:44:25,040 --> 00:44:26,040
+I don't...
+
+634
+00:44:26,040 --> 00:44:27,040
+And that's the dot.
+
+635
+00:44:27,040 --> 00:44:31,040
+A, P, P, D, O, T.
+
+636
+00:44:31,040 --> 00:44:32,100
+App dot net dot net.
+
+637
+00:44:32,100 --> 00:44:34,700
+Then an actual dot, and then N, E, T.
+
+638
+00:44:34,700 --> 00:44:38,920
+But you are at Scott A.W. at app dot net dot net.
+
+639
+00:44:38,920 --> 00:44:39,920
+Right?
+
+640
+00:44:39,920 --> 00:44:40,920
+Oh boy, okay.
+
+641
+00:44:40,920 --> 00:44:44,120
+nikolaidis@infosec.exchange. That's the best way to find this.
+
+642
+00:44:44,120 --> 00:44:47,480
+Okay, every time... From now on, whenever we're about to announce our Mastodon name,
+
+643
+00:44:47,480 --> 00:44:48,680
+so I'm going to play this clip.
+
+644
+00:44:48,680 --> 00:44:50,920
+Settle in. This looks like it's going to be a long one.
+
+645
+00:44:50,920 --> 00:44:53,640
+There you go. It's a long one, all right.
+
+646
+00:44:53,640 --> 00:44:59,080
+It's a long one. All right, yes. And then we do have a website, which is actually,
+
+647
+00:44:59,080 --> 00:45:05,080
+regardless of what Peter says, it's at friendswithbrews.com. That's B-R-E-W-S.
+
+648
+00:45:05,080 --> 00:45:10,280
+It's not the type of brews that you incur when your trail band comes off your watch
+
+649
+00:45:10,280 --> 00:45:14,440
+and you're diving for your watch to save it from being broken and you fall on your face on the trail.
+
+650
+00:45:14,440 --> 00:45:20,200
+Not that kind of bruise at all. Right. On that note. Oh, on that note. On that note. I think
+
+651
+00:45:20,200 --> 00:45:25,320
+we're at that note. Okay. Are you gonna big red button us? I think we should probably
+
+652
+00:45:25,320 --> 00:45:28,040
+push that big red button. Tell your friends.
+

@@ -1,5 +1,41 @@
 [
   {
+    "id": "oewrfIA92sY8t0YogDfdK",
+    "name": "Kagoshima Green Tea",
+    "brewery": "Harney & Sons",
+    "image": "HarneyandSonsKagoshimaGreenTea-F34ACB0E-E610-4608-B8F1-F54BFFEFAF30",
+    "description": "One of the best Senchas from the Kagoshima area in southern Japan, this brew is light in the cup with a good balance of sweet and bitter flavors.",
+    "type": "tea",
+    "sortOrder": "0",
+    "episodes": ["30"],
+    "url": "https://www.harney.com/products/kagoshima?variant=29491943302",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "I grew up on Kagoshima green tea, and this is a pretty good one. I might need to experiment with the brewing a bit, but overall, very satisfying."
+      }
+    ]
+  },
+  {
+    "id": "42Am0VTem_alwMQc6b86-",
+    "name": "Pineapple, Guava, Passion Radler",
+    "brewery": "Jack's Abby",
+    "image": "JacksAbbyPineappleGuavaPassionRadler-F34ACB0E-E610-4608-B8F1-F54BFFEFAF30",
+    "description": "The most refreshing beer style for fun in the sun. The Radler was invented for crowds of German cyclists and we’re sharing our beer and fruit blends for whatever you’re up to this summer.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["30"],
+    "url": "https://jacksabby.com/beers/pineapple-guava-passion-radler/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-down",
+        "description": "A rather weak, not so flavorful beer."
+      }
+    ]
+  },
+  {
     "id": "ICCZW0otIQ9vXYh4itaAk",
     "name": "Melon Cart",
     "brewery": "Golden Road Brewing",
