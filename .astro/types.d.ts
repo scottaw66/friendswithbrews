@@ -428,7 +428,7 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] },
 "30.md": {
   id: "30.md",
-  slug: "30",
+  slug: "T30",
   body: string,
   collection: "transcripts",
   data: InferEntrySchema<"transcripts">
