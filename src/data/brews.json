@@ -1,5 +1,41 @@
 [
   {
+    "id": "f5uJ82CPDlBQyuqoasYfR",
+    "name": "Yacht Rocket",
+    "brewery": "Urban Family Brewing Co.",
+    "image": "UrbanFamilyBrewingYachtRocket-3866C475-8F64-4952-A6C3-AFFA9E10B33C",
+    "description": "Urban Family Brewing Co. says nothing about their own beer, because their website is one of those MANY, MANY beer websites that doesn't actually feature a list of the beers they sell in stores.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["32"],
+    "url": "https://untappd.com/b/urban-family-brewing-yacht-rocket/3978639",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "Sour, light, and refreshing. I will definitely drink this again."
+      }
+    ]
+  },
+  {
+    "id": "wOCwnnYPamuPnCH5ixVYu",
+    "name": "Special Effects Hoppy Amber",
+    "brewery": "Brooklyn Brewery",
+    "image": "BrooklynBrewerySpecialEffectsHoppyAmber-3866C475-8F64-4952-A6C3-AFFA9E10B33C",
+    "description": "Brooklyn Special Effects Hoppy Amber tastes just like a regular beer, but therein lies the special effect: it’s not. We use a special fermentation method that develops the flavors, aromas & character of beer with none of the alcohol, and a generous dry hopping resulting in lively hop notes and a clean finish.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["32"],
+    "url": "https://brooklynbrewery.com/brooklyn-beers/non-alcoholic/special-effects-hoppy-amber/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "This tastes probably like what IPA drinkers consider beer. That said, this tastes more like an amber ale with some hoppiness. It's like a watery amber ale. It's pretty weak, but it has some flavor that is not offensive, and I have to say, I drink it when I'm not desperate."
+      }
+    ]
+  },
+  {
     "id": "BuTkvw94xKlJSzE2eFaSh",
     "name": "Blonde Espresso Roast",
     "brewery": "Starbucks",
