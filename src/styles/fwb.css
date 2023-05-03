@@ -194,3 +194,6 @@ div.episode p picture img {
   width: 300px;
   height: auto;
 }
+#search .pagefind-ui__result-thumb {
+  display: none;
+}
