@@ -1,5 +1,41 @@
 [
   {
+    "id": "QM4t_c8jskHyWOR56YzYc",
+    "name": "Pineapple IPA",
+    "brewery": "Cascade Lakes Brewing Co",
+    "image": "CascadeLakesBrewingCoPineappleIPA-36300F6D-71A9-4940-A387-A4802B572142",
+    "description": "We are stoked to offer this tasty IPA where mountain pine aromas collide with the tropics. Flavorful hops blend with a splash of pineapple to create a party in a can.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["33"],
+    "url": "https://www.cascadelakes.com/beers",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-down",
+        "description": "So hoppy. SO. HOPPY. I don't understand the appeal of IPAs. I bought this because somehow while I saw and got excited by the word pineapple, I completely missed the all-caps IPA right below it."
+      }
+    ]
+  },
+  {
+    "id": "lXuOZAH0pMpi_wjxA8HTF",
+    "name": "Pomegranate",
+    "brewery": "Schöfferhofer",
+    "image": "SchfferhoferPomegranate-36300F6D-71A9-4940-A387-A4802B572142",
+    "description": "Schöfferhofer Pomegranate is the unique combination of sparkling smooth Schöfferhofer unfiltered hefeweizen beer with natural pomegranate flavored drink. Delicious exotic notes of pomegranate meet the crisp, smooth taste of hefeweizen for a uniquely refreshing beer.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["33"],
+    "url": "https://www.schofferhofer.us/wheat-beerbeer",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "A solid thumbs-up. Not quite as good as the grapefruit, but very tasty."
+      }
+    ]
+  },
+  {
     "id": "f5uJ82CPDlBQyuqoasYfR",
     "name": "Yacht Rocket",
     "brewery": "Urban Family Brewing Co.",
@@ -205,7 +241,7 @@
     "description": "A lightly-roasted, mahogany-colored, medium-bodied malt that is as smooth as a Marvin Gaye love song. With a sweet, salted-caramel flavor, this special porter is a delicious ale you’ll want to enjoy over and over.",
     "type": "beer",
     "sortOrder": "0",
-    "episodes": ["27"],
+    "episodes": ["27", "33"],
     "url": "https://www.cascadelakes.com/beers",
     "rating": [
       {
