@@ -1,5 +1,59 @@
 [
   {
+    "id": "9hW7jEFFTnMBCRO5wIV53",
+    "name": "Classic Belgian Sour Ale",
+    "brewery": "Rodenbach",
+    "image": "RodenbachClassic-F87911AC-ADD1-469E-98DD-A90C2263E284",
+    "description": "Rodenbach Classic sets the bar for Flemish red-brown ales. This ale owes its sweet and sour fruitiness and refreshing taste to the fact that it is partially matured in oak casks.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["34"],
+    "url": "https://int.rodenbach.be/global/en/bieren/rodenbach-classic.html",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "Not excessively sour, and quite drinkable, so we're good!"
+      }
+    ]
+  },
+  {
+    "id": "xE2hmWfuurmldgIgheZOP",
+    "name": "Blueberry Boyfriend",
+    "brewery": "Prairie Artisan Ales",
+    "image": "PrairieArtisanAlesBlueberryBoyfriend-F87911AC-ADD1-469E-98DD-A90C2263E284",
+    "description": "Real boyfriends are idiots. Blueberry Boyfriends are always there for you.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["34"],
+    "url": "https://prairieales.com/beer/blueberry-boyfriend/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "This is very sour, and I LOVE it. The lemon zest doesn't really show up in the taste profile except to make sure the blueberry is not too sweet. Great stuff."
+      }
+    ]
+  },
+  {
+    "id": "vFRbdqbcybMQWmH2SFPW4",
+    "name": "Cafe Carmelita",
+    "brewery": "Tony's Coffee",
+    "image": "TonysCoffeeCafeCarmelita-F87911AC-ADD1-469E-98DD-A90C2263E284",
+    "description": "Hands down our #1 coffee, Cafe Carmelita is smooth and delicious. This timeless blend is roasted to bring out notes of cocoa and caramel. Whether you’re making coffee at home or the office, this is one crowd-pleaser.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["34"],
+    "url": "https://www.tonyscoffee.com/product/cafe-carmelita/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "I like it, even though it initally brewed slightly bitter for me. Brew it at 200 degrees like it asks for, and you'll be glad you did."
+      }
+    ]
+  },
+  {
     "id": "QM4t_c8jskHyWOR56YzYc",
     "name": "Pineapple IPA",
     "brewery": "Cascade Lakes Brewing Co",
