@@ -10,6 +10,8 @@ export function brewIcon(brewType) {
       return "mdi:tea";
     case "coffee":
       return "fa-solid:coffee";
+    case "water":
+      return "ion:waterdrop";
     default:
       return "ion:beer";
   }
