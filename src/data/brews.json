@@ -1,5 +1,41 @@
 [
   {
+    "id": "vMzSoaRmU-MTbIBEBi8iK",
+    "name": "Shepplekofeggan",
+    "brewery": "Monkless Belgian Ales",
+    "image": "MonklessBelgianAlesShepplekofeggan-BAF8EB72-1946-4ECC-8561-13877B65BF76",
+    "description": "The hard-saying yet easy-drinking Shepplekofeggan was created as an ode to friendship. Pronounced “shêp-ul-kof-again”, it is named after four friends who love their lighter beers; it’s namesakes “Sheets-Epple-Intelkoffer-Duggan” inspired this refreshing Belgian Witbier, which is finished with fresh orange zest and coriander and packed full of citrusy flavor. It just begs for great friends to share it with, and is proof that all Belgian-style beers don’t have to be big in alcohol -- only big in flavor.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["35"],
+    "url": "https://prairieales.com/beer/blueberry-boyfriend/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "Good enough for my wife to steal. We like wheats, we like spices, and this is a good example of all of those."
+      }
+    ]
+  },
+  {
+    "id": "hBuOEAveebtn4a5-aKnIT",
+    "name": "Blood Orange",
+    "brewery": "Hop Wtr",
+    "image": "HopWtrBloodOrange-BAF8EB72-1946-4ECC-8561-13877B65BF76",
+    "description": "Refreshing and hydrating, HOP WTR Blood Orange is packed with Citra, Amarillo, Mosaic and Azacca hops, delivering a bright, citrusy flavor with a strong hint of hops, all with no calories and no sugar.",
+    "type": "water",
+    "sortOrder": "0",
+    "episodes": ["35"],
+    "url": "https://hopwtr.com/products/blood-orange-non-alcoholic-sparkling-hop-water-12-pack",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-down",
+        "description": "Something you would probably only drink when you're desperate. It's like a club soda with some kind of flavor that is not beer."
+      }
+    ]
+  },
+  {
     "id": "9hW7jEFFTnMBCRO5wIV53",
     "name": "Classic Belgian Sour Ale",
     "brewery": "Rodenbach",

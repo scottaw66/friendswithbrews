@@ -24,12 +24,7 @@ const { bottle } = Astro.props;
 ---
 
 <Base title={bottle.name}>
-  <div
-    class="brew-details"
-    data-pagefind-filter="filter by[content]"
-    content="brew"
-    data-pagefind-meta=`result type: ${bottle.type}`
-  >
+  <div class="brew-details" data-pagefind-meta=`result type: ${bottle.type}`>
     <h3>{bottle.brewery}</h3>
     <h2>{bottle.name}</h2>
     <div class="bottle">
