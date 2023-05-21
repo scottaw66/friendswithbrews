@@ -1,0 +1,48 @@
+<div class="nav-container">
+  <nav role="navigation">
+    <ul>
+      <li><a href="/friends">The Friends</a></li>
+      <li><a href="/brews/1">The Brews</a></li>
+      <li><a href="/episodes/1">Episodes</a></li>
+      <li><a href="/transcripts/1">Transcripts</a></li>
+      <li><a href="/follow">Follow</a></li>
+    </ul>
+  </nav>
+</div>
+
+<style>
+  div.nav-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--menu-surface);
+    border-bottom: solid 5px var(--menu-border);
+  }
+  nav {
+    margin: 0 auto;
+    font-family: "CaptainEdward";
+    font-size: 1.5rem;
+  }
+  nav ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+  }
+  nav ul li a:hover {
+    text-decoration: none;
+    background-color: var(--menu-border);
+    color: var(--header-surface);
+  }
+  @media screen and (max-width: 850px) {
+    nav {
+      font-size: 1rem;
+    }
+  }
+</style>

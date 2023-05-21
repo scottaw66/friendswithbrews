@@ -125,11 +125,31 @@ body {
   color: var(--text);
 }
 
+div#wrapper-grid {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-areas:
+    "header"
+    "menu"
+    "main"
+    "footer";
+  justify-items: center;
+}
+
+aside {
+  width: 100%;
+}
+
 main {
   max-width: 80ch;
   min-height: calc(100vh - 330px); /*100 vh - header & footer h */
   margin: 0 auto;
   padding: 0 2rem 3rem;
+}
+
+aside,
+main {
+  min-width: 0;
 }
 
 h1 {
@@ -162,6 +182,12 @@ h3 {
   }
   h2 {
     font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    padding: 0 0.5rem 3rem;
   }
 }
 

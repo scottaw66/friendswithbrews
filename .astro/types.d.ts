@@ -602,7 +602,9 @@ declare module 'astro:content' {
 	};
 
 	type DataEntryMap = {
-		
+		"srt": {
+};
+
 	};
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;

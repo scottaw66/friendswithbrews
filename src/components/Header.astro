@@ -3,7 +3,7 @@ import config from "config";
 import logo from "../images/FwBrews-site-header.svg";
 ---
 
-<div class="header">
+<header>
   <div class="banner" role="banner">
     <div class="site-title">
       <div class="title1"><a href="/">Friends</a></div><div class="title2">
@@ -15,28 +15,16 @@ import logo from "../images/FwBrews-site-header.svg";
     </div>
     <div class="site-tagline">{config.get("description")}</div>
   </div>
-  <div class="nav-container">
-    <nav role="navigation">
-      <ul>
-        <li><a href="/friends">The Friends</a></li>
-        <li><a href="/brews/1">The Brews</a></li>
-        <li><a href="/episodes/1">Episodes</a></li>
-        <li><a href="/transcripts/1">Transcripts</a></li>
-        <li><a href="/follow">Follow</a></li>
-      </ul>
-    </nav>
-  </div>
-</div>
+</header>
 
 <style>
-  div.header {
+  header {
     width: 100%;
     background-color: var(--header-surface);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3rem;
   }
   div.banner {
     width: 100%;
@@ -80,11 +68,6 @@ import logo from "../images/FwBrews-site-header.svg";
     text-transform: uppercase;
     margin-top: 0.5rem;
   }
-  div.nav-container {
-    width: 100%;
-    background-color: var(--menu-surface);
-    border-bottom: solid 5px var(--menu-border);
-  }
   @media screen and (max-width: 850px) {
     div.banner {
       gap: 1.5rem;
@@ -103,9 +86,6 @@ import logo from "../images/FwBrews-site-header.svg";
     }
   }
   @media screen and (max-width: 680px) {
-    div.header {
-      margin-bottom: 1rem;
-    }
     div.site-title {
       margin: 1rem 0;
     }
@@ -126,34 +106,6 @@ import logo from "../images/FwBrews-site-header.svg";
     }
     .header-image {
       height: 4.5rem;
-    }
-  }
-  nav {
-    margin: 0 auto;
-    font-family: "CaptainEdward";
-    font-size: 1.5rem;
-  }
-  nav ul {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    justify-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  nav ul li a {
-    display: block;
-    text-decoration: none;
-    padding: 1rem;
-  }
-  nav ul li a:hover {
-    text-decoration: none;
-    background-color: var(--menu-border);
-    color: var(--header-surface);
-  }
-  @media screen and (max-width: 850px) {
-    nav {
-      font-size: 1rem;
     }
   }
 </style>

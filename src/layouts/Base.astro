@@ -1,5 +1,6 @@
 ---
 import Header from "../components/Header.astro";
+import Menu from "../components/Menu.astro";
 import Footer from "../components/Footer.astro";
 import "../styles/fwb.css";
 
@@ -29,10 +30,13 @@ const { title, description } = Astro.props;
     />
   </head>
   <body>
-    <Header />
-    <main>
-      <slot />
-    </main>
-    <Footer />
+    <div id="wrapper-grid">
+      <Header />
+      <aside><Menu /></aside>
+      <main>
+        <slot />
+      </main>
+      <Footer />
+    </div>
   </body>
 </html>
