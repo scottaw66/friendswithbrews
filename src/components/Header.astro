@@ -25,6 +25,7 @@ import logo from "../images/FwBrews-site-header.svg";
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    grid-area: header;
   }
   div.banner {
     width: 100%;
@@ -67,6 +68,11 @@ import logo from "../images/FwBrews-site-header.svg";
     max-width: 350px;
     text-transform: uppercase;
     margin-top: 0.5rem;
+  }
+  @media only screen and (max-width: 899px) {
+    header {
+      border-bottom: solid 5px var(--menu-border);
+    }
   }
   @media screen and (max-width: 850px) {
     div.banner {

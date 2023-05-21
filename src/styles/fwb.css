@@ -136,8 +136,18 @@ div#wrapper-grid {
   justify-items: center;
 }
 
+/* Screens under 900px have the menu under the main content with a link to the menu up near the title */
+@media only screen and (max-width: 899px) {
+  div#wrapper-grid {
+    display: grid;
+    grid-template-rows: min-content min-content min-content min-content;
+    grid-template-areas: "header" "main" "footer" "menu";
+  }
+}
+
 aside {
   width: 100%;
+  grid-area: menu;
 }
 
 main {
@@ -145,6 +155,7 @@ main {
   min-height: calc(100vh - 330px); /*100 vh - header & footer h */
   margin: 0 auto;
   padding: 0 2rem 3rem;
+  grid-area: main;
 }
 
 aside,
