@@ -23,17 +23,7 @@ const latestEpisodes = allEpisodes.slice(0, 1);
       tea, and podcasting! It's also about Apple, fitness, food, random news, and
       sometimes our friend Adam!
     </p>
-    <div class="action-list">
-      <div>
-        <a href="/episodes/1"><Icon name="fontisto:podcast" />Episodes</a>
-      </div>
-      <div>
-        <a href="/transcripts/1"
-          ><Icon name="ic:baseline-document-scanner" />Transcripts</a
-        >
-      </div>
-      <div><a href="/subscribe"><Icon name="ps:rss" />Subscribe</a></div>
-    </div>
+
     <span data-pagefind-ignore>
       <h2 class="latest"><Icon name="fa:certificate" />Latest Episode !!</h2>
 
@@ -58,71 +48,30 @@ const latestEpisodes = allEpisodes.slice(0, 1);
   [astro-icon="fa:certificate"] {
     height: 0.9em;
     margin: 0 0.5em -0.1rem 0;
-    color: var(--menu-surface);
+    color: var(--text);
   }
 
   [astro-icon="bi:arrow-down-circle-fill"] {
     height: 0.9em;
     margin: 0 0.5em -0.1rem 0.5em;
-    color: var(--menu-surface);
+    color: var(--text);
   }
 
   [astro-icon="dashicons:awards"] {
     height: 1em;
     margin: 0 0.2em -0.1em -0.1em;
     padding: 0;
-    color: var(--menu-surface);
-  }
-
-  [astro-icon="fontisto:podcast"],
-  [astro-icon="ps:rss"],
-  [astro-icon="ic:baseline-document-scanner"] {
-    height: 1.1em;
-    margin: 0 0.5em -0.1em 0;
-    color: var(--menu-surface);
+    color: var(--text);
   }
 
   h2.latest {
     font-family: "Be Vietnam Pro";
     font-size: 1.2em;
     font-style: italic;
-    color: var(--menu-surface);
+    color: var(--text);
   }
 
   h2 {
     margin-top: 3rem;
-  }
-  p.tagline {
-    font-style: italic;
-    font-weight: bold;
-    font-size: 0.8em;
-    color: var(--menu-surface);
-    margin: 0 2rem 2rem 2rem;
-  }
-  p.tagline:before,
-  p.tagline:after {
-    content: '"';
-  }
-
-  div.action-list {
-    display: flex;
-    margin: 0 auto;
-    column-gap: 2rem;
-    justify-content: center;
-    font-size: 0.8em;
-    font-weight: 500;
-    text-transform: uppercase;
-  }
-
-  div.action-list a {
-    color: var(--menu-surface);
-    text-decoration: none;
-  }
-
-  @media screen and (max-width: 469.98px) {
-    div.action-list {
-      column-gap: 1rem;
-      font-size: 0.6em;
-    }
   }
 </style>

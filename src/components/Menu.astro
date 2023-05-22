@@ -1,6 +1,7 @@
 <div class="nav-container">
   <nav id="main-nav" role="navigation">
     <ul>
+      <li><a href="/">Home</a></li>
       <li><a href="/friends">The Friends</a></li>
       <li><a href="/brews/1">The Brews</a></li>
       <li><a href="/episodes/1">Episodes</a></li>
@@ -18,11 +19,6 @@
     border-bottom: solid 5px var(--menu-border);
     grid-area: menu;
   }
-  @media only screen and (max-width: 899px) {
-    div.nav-container {
-      border-bottom: none;
-    }
-  }
   nav {
     margin: 0 auto;
     font-family: "CaptainEdward";
@@ -30,11 +26,13 @@
   }
   nav ul {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     justify-items: center;
+    align-items: center;
     list-style: none;
     margin: 0;
     padding: 0;
+    gap: 1rem;
   }
   nav ul li a {
     display: block;
@@ -46,9 +44,35 @@
     background-color: var(--menu-border);
     color: var(--header-surface);
   }
-  @media screen and (max-width: 850px) {
-    nav {
-      font-size: 1rem;
+  nav ul li:first-child {
+    padding-left: 2rem;
+  }
+  nav ul li:last-child {
+    padding-right: 2rem;
+  }
+  @media only screen and (max-width: 899px) {
+    div.nav-container {
+      border-bottom: none;
+    }
+    nav ul {
+      width: fit-content;
+      grid-template-columns: none;
+      grid-template-rows: repeat(6, 1fr);
+      justify-items: start;
+      padding: 0 2rem 3rem;
+      gap: 0.5rem;
+      margin: 0 6rem;
+    }
+    nav ul li:first-child {
+      padding-left: 0;
+    }
+    nav ul li a {
+      padding: 0;
+    }
+  }
+  @media only screen and (max-width: 599px) {
+    nav ul {
+      margin: 0;
     }
   }
 </style>

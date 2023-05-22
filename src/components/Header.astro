@@ -113,7 +113,7 @@ import logo from "../images/FwBrews-site-header.svg";
   }
   @media screen and (max-width: 680px) {
     header [astro-icon] {
-      width: 1.5rem;
+      width: 1.75rem;
     }
     div.site-title {
       margin: 1rem 0;
@@ -135,6 +135,20 @@ import logo from "../images/FwBrews-site-header.svg";
     }
     .header-image {
       height: 4.5rem;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .header-image {
+      padding-top: 0.5rem;
+    }
+    div.site-title {
+      line-height: normal;
+    }
+    div.title1 {
+      font-size: 1.5rem;
+    }
+    div.title2 {
+      font-size: 1rem;
     }
   }
 </style>
