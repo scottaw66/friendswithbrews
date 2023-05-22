@@ -108,6 +108,10 @@ html {
   font-display: swap;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 *:last-child {
   margin-bottom: 0;
 }
@@ -154,7 +158,7 @@ main {
   max-width: 80ch;
   min-height: calc(100vh - 330px); /*100 vh - header & footer h */
   margin: 0 auto;
-  padding: 0 2rem 3rem;
+  padding: 1rem 2rem 3rem;
   grid-area: main;
 }
 
@@ -185,20 +189,14 @@ h3 {
     font-size: 1.1rem;
   }
   main {
-    max-width: 95%;
-    padding: 0 1.5rem 3rem;
+    max-width: 90%;
+    padding: 0.5rem 1rem 3rem;
   }
   h1 {
     font-size: 2.5rem;
   }
   h2 {
     font-size: 1.5rem;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  main {
-    padding: 0 0.5rem 3rem;
   }
 }
 
