@@ -21,7 +21,7 @@ html {
   --brew-bg-light: #b49664;
   --pager-light: #fff;
   --pager-bg-light: #0d0a01;
-  --pager-link-text-light: #eacda3;
+  --pager-link-text-light: #f5e4bb;
   --progress-value-light: #b49664;
   --player-surface-light: var(--pager-bg-light);
   --player-text-light: var(--surface-light);
@@ -29,12 +29,12 @@ html {
   --surface-dark: #161413;
   --text-dark: #fff;
   --header-surface-dark: #161413;
-  --header-text-dark: #eacda3;
+  --header-text-dark: #f5e4bb;
   --menu-surface-dark: black;
-  --menu-border-dark: #eacda3;
+  --menu-border-dark: #f5e4bb;
   --menu-text-dark: #ecc979;
-  --link-text-dark: #eacda3;
-  --episode-title-dark: #eacda3;
+  --link-text-dark: #f5e4bb;
+  --episode-title-dark: #f5e4bb;
   --episode-text-dark: #fff;
   --episode-latest-bg-dark: #161413;
   --brew-bg-dark: #1c1504;
@@ -42,7 +42,7 @@ html {
   --pager-bg-dark: #5b3e34;
   --pager-link-text-dark: var(--link-text-dark);
   --progress-value-dark: #fff;
-  --player-surface-dark: #eacda3;
+  --player-surface-dark: #f5e4bb;
   --player-text-dark: var(--header-surface-dark);
 }
 
