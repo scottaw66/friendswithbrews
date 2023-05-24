@@ -1,5 +1,23 @@
 [
   {
+    "id": "YRh-aXfX-JJsN2u3YtHrA",
+    "name": "River Trip",
+    "brewery": "Water Avenue Coffee",
+    "image": "WaterAvenueRiverTrip-0B11AEFB-43B2-446E-8CB8-6463A99CA368",
+    "description": "Our yearly homage to summer. A clean and bright cup that perfectly compliments a morning sun peaking over canyon walls. A combination of seasonal, fresh coffees from our longest-standing partners in Guatemala and Africa. Tasting Notes: Orange, Macadamia Nut, and Fudgesicle-like Chocolate.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["36"],
+    "url": "https://wateravenuecoffee.com/collections/latest-releases/products/river-trip-blend",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "Trippy bag, but good honest flavor that's not THAT out there. I like it. I want it. I'll buy it again."
+      }
+    ]
+  },
+  {
     "id": "vMzSoaRmU-MTbIBEBi8iK",
     "name": "Shepplekofeggan",
     "brewery": "Monkless Belgian Ales",
