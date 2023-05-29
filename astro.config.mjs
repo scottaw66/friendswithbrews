@@ -6,10 +6,9 @@ import sitemap from "@astrojs/sitemap";
 
 export function customMarkup({ src, sources, width, height, alt }) {
   return `
-  
+  <a href="${src}">
   <picture>
   ${sources}
-  <a href="${src}">
   <img
     src="${src}"
     width="${width}"
@@ -17,8 +16,8 @@ export function customMarkup({ src, sources, width, height, alt }) {
     alt="${alt}"
     loading="lazy"
     decoding="async">
-    </a>
    </picture>
+   </a>
    `;
 }
 
@@ -48,7 +47,7 @@ export default defineConfig({
   markdown: {},
   vite: {
     ssr: {
-      external: ["svgo", "@11ty/eleventy-img"],
+      external: ["svgo"],
     },
   },
 });
