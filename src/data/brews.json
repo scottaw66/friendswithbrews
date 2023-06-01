@@ -1,5 +1,77 @@
 [
   {
+    "id": "oKqdJsOLJKhbipVCOkGzf",
+    "name": "0",
+    "brewery": "Guinness",
+    "image": "Guinness0-00951EC5-4221-4CEC-989D-2F5F9D5E6E99",
+    "description": "Guinness 0 boasts a beautifully smooth taste, perfectly balanced flavor, and unique dark color, similar to Guinness Draught, brewed to be non-alcoholic. The resulting product is a non-alcoholic stout that is unmistakably Guinness, inspired by the same dark, ruby red liquid and creamy head, hints of chocolate and coffee, smoothly balanced with bitter, sweet and roasted notes.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["37"],
+    "url": "https://www.guinness.com/en-us/beers/guinness-zero",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "Pretty much like a Guinness, just a little flatter."
+      }
+    ]
+  },
+  {
+    "id": "otwfwvYcp_iJ9Syq0b3pB",
+    "name": "Barista",
+    "brewery": "Burlington Beer Co.",
+    "image": "BurlingtonBeerCompanyBarista-52A742E5-21E2-49A8-9196-1B5B3BD28835",
+    "description": "Barista is a Double Coffee Porter, aged on locally roasted coffee beans by our friends at Abracadabra Coffee Company in Woodstock, VT. We age this Robust Porter on more than Two Pounds of Coffee per Barrel for an intense character of freshly brewed Coffee, complimented by malt flavors and aromas of Dark Chocolate, Raisins, Caramel, and Vanilla.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["37"],
+    "url": "https://www.burlingtonbeercompany.com/barista",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "It's no mochaccino, and supposedly they still make mochaccino, but it's a distant second, maybe a third even. Oh, it's a good beer!"
+      }
+    ]
+  },
+  {
+    "id": "0IInjMtEN6VVXJqmAE1ll",
+    "name": "Robust Porter",
+    "brewery": "Reuben's Brews",
+    "image": "ReubensBrewsRobustPorter-9052E366-FB63-4684-B869-ED0743C108CB",
+    "description": "Our Robust Porter is brewed with eight malts to make a roasty brew with coffee and chocolate in the nose, balanced by complex caramel malt flavor and a medium full, malty mouthfeel. One of the five beers we had on draft the day we opened!",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["37"],
+    "url": "https://reubensbrews.com/beer/robust-porter/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "Slightly bitter, but I like it. I'll drink this again. It's a good porter that's not overly barrel aged or smoky or leathery. It's just a good porter."
+      }
+    ]
+  },
+  {
+    "id": "WCbPGVIpFOvYSUnMNwxO2",
+    "name": "Special Effects Pils",
+    "brewery": "Brooklyn Brewery",
+    "image": "BrooklynBrewerySpecialEffectsPils-CD1EB391-F9EB-4B4A-AF15-7FEC0065E80B",
+    "description": "Everybody (well, almost everybody!) loves a pilsner for two main reasons: crisp refreshment, and an easy, approachable style. Our Special Effects Pils delivers on all those beloved pilsner characteristics, just without the buzz, so there’s no distractions to keep you from enjoying this remarkably refreshing brew. Its familiar, easy flavor profile makes it a surefire crowd pleaser, its clean edge makes it the perfect palate cleanser between courses or as a daytime picnic companion, and it’s exactly what you’ll want to reach for for some snappy refreshment at the end of a long day. Special Effects Pilsner invites you to kick back, take a crisp sip, and focus on flavor.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["37"],
+    "url": "https://brooklynbrewery.com/brooklyn-beers/non-alcoholic/special-effects-pils/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "I said I was desperate to drink this, but I'm not desperate to drink it and I'm also not desperate to drink it. It's a good non-alcoholic beer, which means it's a bit weak but it's also not bad."
+      }
+    ]
+  },
+  {
     "id": "YRh-aXfX-JJsN2u3YtHrA",
     "name": "River Trip",
     "brewery": "Water Avenue Coffee",
@@ -25,7 +97,7 @@
     "description": "The hard-saying yet easy-drinking Shepplekofeggan was created as an ode to friendship. Pronounced “shêp-ul-kof-again”, it is named after four friends who love their lighter beers; it’s namesakes “Sheets-Epple-Intelkoffer-Duggan” inspired this refreshing Belgian Witbier, which is finished with fresh orange zest and coriander and packed full of citrusy flavor. It just begs for great friends to share it with, and is proof that all Belgian-style beers don’t have to be big in alcohol -- only big in flavor.",
     "type": "beer",
     "sortOrder": "0",
-    "episodes": ["35"],
+    "episodes": ["35", "37"],
     "url": "https://www.monkless.com/beers",
     "rating": [
       {
