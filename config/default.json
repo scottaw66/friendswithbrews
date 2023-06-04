@@ -17,7 +17,7 @@
   },
   "episodes": {
     "path": "/",
-    "audioPrefix": "https://pints.friendswith.beer/",
+    "audioPrefix": "https://pints.friendswithbrews.com/",
     "paginationSize": 5
   },
   "transcripts": {
