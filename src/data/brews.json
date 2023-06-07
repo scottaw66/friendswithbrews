@@ -1,5 +1,59 @@
 [
   {
+    "id": "uvYs4Xjh42wPi0Sn4JPBq",
+    "name": "Copper Legend",
+    "brewery": "Jack's Abby",
+    "image": "JacksAbbyCopperLegend-5BEDE794-B59B-460A-AD35-F8D294AFFA0C",
+    "description": "Oktoberfest is the world’s most legendary beer festival and it deserves a legendary beer. Copper Legend is the perfect marriage of caramel, sweet toasty malts, and infinite drinkability. Raise one this fest season and Be The Legend!",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["38"],
+    "url": "https://jacksabby.com/beers/copper-legend/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "I'm a fan. Obviously this is a thumbs up for sure. Copper Legend is marked by its robust and bready malt character, featuring undertones of caramel sweetness. It's well balanced, with a light hop bitterness that keeps the sweetness in check."
+      }
+    ]
+  },
+  {
+    "id": "KrPsDt8GUp4mZq5Q8CRkM",
+    "name": "Pils",
+    "brewery": "Von Ebert Brewing",
+    "image": "VonEbertPils-5BEDE794-B59B-460A-AD35-F8D294AFFA0C",
+    "description": "Tasting Notes: Fresh flowers, white peppercorn and lightly toasted crackers.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["38"],
+    "url": "https://www.vonebertbrewing.com/core-beer",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "I don't know if I would have known this was supposed to taste like peppercorn and crackers if the can didn't say it, but I *can* taste it. I like it. Feels somewhat light and refreshing. Great summer beer."
+      }
+    ]
+  },
+  {
+    "id": "-wwignWXvKUsVuz3oMN7J",
+    "name": "English Breakfast Black Tea",
+    "brewery": "Wegmans",
+    "image": "WegmansEnglishBreakfastTea-5BEDE794-B59B-460A-AD35-F8D294AFFA0C",
+    "description": "A Robust Blend of Black Teas. Steep and enjoy! Allow us to share with you the most natural and authentic tea experience in your cup.",
+    "type": "tea",
+    "sortOrder": "0",
+    "episodes": ["38"],
+    "url": "https://shop.wegmans.com/product/46639/wegmans-just-tea-english-breakfast-black-tea-bags",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "A good breakfast tea. I like black teas and I enjoy this one in general."
+      }
+    ]
+  },
+  {
     "id": "oKqdJsOLJKhbipVCOkGzf",
     "name": "0",
     "brewery": "Guinness",
@@ -457,7 +511,7 @@
     "description": "Top quality specialty coffees from East Africa, Central, & South America offer caramel sweetness, chocolate layered with complex fruit notes, and crisp acidity. This tried and true coffee is the kind of cup you want to drink every day. Rich. Chocolatey.",
     "type": "coffee",
     "sortOrder": "0",
-    "episodes": ["26"],
+    "episodes": ["26", "38"],
     "url": "https://shop.coavacoffee.com/collections/coffee/products/s-o-blend-1",
     "rating": [
       {
