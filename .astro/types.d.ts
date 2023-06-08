@@ -459,175 +459,182 @@ declare module 'astro:content' {
 "transcripts": {
 "1.md": {
 	id: "1.md";
-  slug: "T1";
+  slug: "1";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "17.md": {
 	id: "17.md";
-  slug: "T17";
+  slug: "17";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "18.md": {
 	id: "18.md";
-  slug: "T18";
+  slug: "18";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "19.md": {
 	id: "19.md";
-  slug: "T19";
+  slug: "19";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "2.md": {
 	id: "2.md";
-  slug: "T2";
+  slug: "2";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "20.md": {
 	id: "20.md";
-  slug: "T20";
+  slug: "20";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "21.md": {
 	id: "21.md";
-  slug: "T21";
+  slug: "21";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "22.md": {
 	id: "22.md";
-  slug: "T22";
+  slug: "22";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "23.md": {
 	id: "23.md";
-  slug: "T23";
+  slug: "23";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "24.md": {
 	id: "24.md";
-  slug: "T24";
+  slug: "24";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "25.md": {
 	id: "25.md";
-  slug: "T25";
+  slug: "25";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "26.md": {
 	id: "26.md";
-  slug: "T26";
+  slug: "26";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "27.md": {
 	id: "27.md";
-  slug: "T27";
+  slug: "27";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "28.md": {
 	id: "28.md";
-  slug: "T28";
+  slug: "28";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "29.md": {
 	id: "29.md";
-  slug: "T29";
+  slug: "29";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "3.md": {
 	id: "3.md";
-  slug: "T3";
+  slug: "3";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "30.md": {
 	id: "30.md";
-  slug: "T30";
+  slug: "30";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "31.md": {
 	id: "31.md";
-  slug: "T31";
+  slug: "31";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "32.md": {
 	id: "32.md";
-  slug: "T32";
+  slug: "32";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "33.md": {
 	id: "33.md";
-  slug: "T33";
+  slug: "33";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "34.md": {
 	id: "34.md";
-  slug: "T34";
+  slug: "34";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "35.md": {
 	id: "35.md";
-  slug: "T35";
+  slug: "35";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "36.md": {
 	id: "36.md";
-  slug: "T36";
+  slug: "36";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "37.md": {
 	id: "37.md";
-  slug: "T37";
+  slug: "37";
+  body: string;
+  collection: "transcripts";
+  data: InferEntrySchema<"transcripts">
+} & { render(): Render[".md"] };
+"38.md": {
+	id: "38.md";
+  slug: "38";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "4.md": {
 	id: "4.md";
-  slug: "T4";
+  slug: "4";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">

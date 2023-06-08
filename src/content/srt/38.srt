@@ -1,0 +1,6108 @@
+1
+00:00:00,000 --> 00:00:05,760
+Hey, welcome dear listener. This is Peter. Just in case you're wondering, this is going to be
+
+2
+00:00:05,760 --> 00:00:14,400
+Scott and my reaction, not in real time and certainly not a response, nothing so thoughtful,
+
+3
+00:00:14,400 --> 00:00:19,840
+to today's WWDC keynote, at least today's at the time that we're recording this.
+
+4
+00:00:19,840 --> 00:00:26,480
+So if you haven't already, we recommend that you go directly to apple.com and find the
+
+5
+00:00:26,480 --> 00:00:30,880
+keynote. As of right now, it's right on the homepage, so it really should be easy for you
+
+6
+00:00:30,880 --> 00:00:37,280
+to find. You have no excuse other than maybe not wanting to or, you know, not having the time or
+
+7
+00:00:37,280 --> 00:00:51,200
+some such. So please go ahead and do that now. I'm not bruised. I'm not bruised.
+
+8
+00:00:39,840 --> 00:00:41,840
+Friends with Brews!
+
+9
+00:00:41,840 --> 00:00:45,840
+Hi Peter, what's happening?
+
+10
+00:00:42,180 --> 00:00:44,180
+Peter with Brews!
+
+11
+00:00:45,840 --> 00:00:47,840
+We need to talk about your TPS reports.
+
+12
+00:00:47,780 --> 00:00:49,780
+I... okay yeah everything's fine.
+
+13
+00:00:49,780 --> 00:00:51,540
+[silence]
+
+14
+00:00:51,200 --> 00:01:09,640
+So, I did not make a Google Doc, I know you were wondering, but I did not.
+
+15
+00:00:51,540 --> 00:00:57,700
+That weird problem I had that one time where once we started recording the first time my levels dropped
+
+16
+00:00:57,700 --> 00:00:59,900
+that hasn't happened since then
+
+17
+00:00:59,900 --> 00:01:04,100
+I'm hoping whatever was wrong they fixed because I've had an update to Audio Hijack since then
+
+18
+00:01:04,100 --> 00:01:09,740
+No, I didn't either I didn't have time
+
+19
+00:01:06,820 --> 00:01:18,800
+[ Silence ]
+
+20
+00:01:09,640 --> 00:01:28,720
+All I did was real-time response watching the WWDC today, the keynote.
+
+21
+00:01:09,740 --> 00:01:17,640
+Right, I had to watch the Apple event
+
+22
+00:01:17,640 --> 00:01:21,480
+and then I had to work out, and then I had to go get my daughter, and then I had to come home,
+
+23
+00:01:18,800 --> 00:01:36,780
+[ Silence ]
+
+24
+00:01:21,480 --> 00:01:25,080
+and my family was talking about stuff, and then I had to make a coffee,
+
+25
+00:01:25,080 --> 00:01:27,960
+and then I had to call you, or you had to call me.
+
+26
+00:01:27,960 --> 00:01:38,760
+You used Messages as a Google Docs. You just start spamming it with a million instant reactions.
+
+27
+00:01:28,720 --> 00:01:39,320
+I did analogs to most of those things, minus the daughter part.
+
+28
+00:01:36,780 --> 00:01:54,760
+[ Silence ]
+
+29
+00:01:38,760 --> 00:01:46,440
+I didn't see any of your messages, Peter.
+
+30
+00:01:39,320 --> 00:01:47,080
+Because I was talking, I was sharing my feelings with you in real time as I was having them.
+
+31
+00:01:46,440 --> 00:01:52,000
+I just I want you to know how it feels
+
+32
+00:01:47,080 --> 00:01:48,080
+I figured you didn't.
+
+33
+00:01:48,080 --> 00:01:52,080
+That happens.
+
+34
+00:01:52,000 --> 00:01:56,280
+Kojima-san
+
+35
+00:01:52,080 --> 00:01:54,880
+Kojima-san to you.
+
+36
+00:01:54,760 --> 00:02:12,740
+[ Silence ]
+
+37
+00:01:54,880 --> 00:01:58,140
+I think it's funny how they introduce him as like, you know, Mr. Kojima as opposed to
+
+38
+00:01:56,280 --> 00:02:08,680
+well I think it's I think it's he-dae-oh but okay let's talk about our beers
+
+39
+00:01:58,140 --> 00:02:05,520
+like, you know, uh, Kojiro Kojima or Ken Kojima or anything, you know, Kojima-san.
+
+40
+00:02:05,520 --> 00:02:11,520
+[silence]
+
+41
+00:02:08,680 --> 00:02:12,640
+because my cup is dripping now it's already not frozen
+
+42
+00:02:11,520 --> 00:02:13,520
+Fine.
+
+43
+00:02:12,640 --> 00:02:16,640
+First of all, are you drinking a beer, and what are you drinking?
+
+44
+00:02:12,740 --> 00:02:24,720
+[ Silence ]
+
+45
+00:02:13,520 --> 00:02:15,520
+[silence]
+
+46
+00:02:15,520 --> 00:02:17,520
+Not yet, but I will.
+
+47
+00:02:16,640 --> 00:02:19,640
+No, that... okay, well... you know what...
+
+48
+00:02:17,520 --> 00:02:19,520
+[silence]
+
+49
+00:02:19,520 --> 00:02:25,520
+I have in front of me, in my cold little hand, well my hot little hand, a cold little beer.
+
+50
+00:02:19,640 --> 00:02:30,640
+Wow!
+
+51
+00:02:24,720 --> 00:02:39,700
+[ Silence ]
+
+52
+00:02:25,520 --> 00:02:29,520
+I have Jack's Abby Copper Legend.
+
+53
+00:02:29,520 --> 00:02:36,640
+This is a seasonal release. It's from last year. It'll be back soon, but this is their Oktoberfest.
+
+54
+00:02:30,640 --> 00:02:37,640
+Oh.
+
+55
+00:02:36,640 --> 00:02:39,360
+And this is one of my favorite beers.
+
+56
+00:02:37,640 --> 00:02:49,120
+So, where I work, that would have to have an orange tag and it would have to be ordered
+
+57
+00:02:39,360 --> 00:02:44,700
+So I liked it so much that I bought a couple of extra cases last year and hoarded them.
+
+58
+00:02:39,700 --> 00:02:54,680
+[ Silence ]
+
+59
+00:02:44,700 --> 00:02:55,380
+Really, why is that?
+
+60
+00:02:49,120 --> 00:02:54,840
+from the copper store and it would have to be segregated from the non-copper stuff.
+
+61
+00:02:54,680 --> 00:03:06,660
+[ Silence ]
+
+62
+00:02:54,840 --> 00:03:00,840
+You don't know about copper and semiconductor manufacturing, do you?
+
+63
+00:02:58,820 --> 00:03:02,820
+This may surprise you, but I don't work in semiconductor manufacturing, so...
+
+64
+00:03:00,840 --> 00:03:02,840
+Okay.
+
+65
+00:03:02,820 --> 00:03:04,820
+[laughs]
+
+66
+00:03:02,840 --> 00:03:04,380
+Anyway.
+
+67
+00:03:04,380 --> 00:03:12,580
+Here's what I have. I have a Von Ebert Brewing, which for some reason their logo is a boar
+
+68
+00:03:04,820 --> 00:03:12,820
+Mm-hmm.
+
+69
+00:03:06,660 --> 00:03:24,640
+[ Silence ]
+
+70
+00:03:12,580 --> 00:03:19,260
+and this is their pils. German style pilsner. 4.9% alcohol by volume. 16 fluid ounces. The
+
+71
+00:03:12,820 --> 00:03:16,820
+pils.
+
+72
+00:03:16,820 --> 00:03:26,820
+It looks summery.
+
+73
+00:03:19,260 --> 00:03:24,360
+can is really good Peter. This is a nice can. It's beautiful. This is a very summery can.
+
+74
+00:03:24,360 --> 00:03:31,920
+Look at this. Yeah. Tasting notes. Fresh flowers. Don't really know about that. White peppercorn
+
+75
+00:03:24,640 --> 00:03:26,700
+you
+
+76
+00:03:26,700 --> 00:03:44,680
+[ Silence ]
+
+77
+00:03:26,820 --> 00:03:38,820
+So you're saying you don't habitually go down and snack on the flowers outside?
+
+78
+00:03:31,920 --> 00:03:33,920
+and lightly toasted crackers.
+
+79
+00:03:33,920 --> 00:03:40,920
+Not really.
+
+80
+00:03:38,820 --> 00:03:41,820
+Okay.
+
+81
+00:03:40,920 --> 00:03:43,420
+I could.
+
+82
+00:03:41,820 --> 00:03:44,660
+Well, I mean, then you would know.
+
+83
+00:03:43,420 --> 00:03:48,920
+I read an interesting article today that someone posted on Mastodon,
+
+84
+00:03:44,660 --> 00:03:57,940
+Oh.
+
+85
+00:03:44,680 --> 00:04:02,660
+[ Silence ]
+
+86
+00:03:48,920 --> 00:03:53,920
+and it suggested that we could do the world a big favor by getting rid of our lawns
+
+87
+00:03:53,920 --> 00:03:56,920
+and instead planting wildflowers, and I thought that was a pretty good idea.
+
+88
+00:03:56,920 --> 00:03:57,920
+Cheers.
+
+89
+00:03:57,920 --> 00:04:07,480
+Alright, so tell me about your backyard and then we'll express our opinions of our beers.
+
+90
+00:03:57,940 --> 00:04:01,420
+Interesting that you mention that because a lot of my backyard, which is...
+
+91
+00:04:01,420 --> 00:04:03,420
+Oh yes, cheers.
+
+92
+00:04:02,660 --> 00:04:20,640
+[ Silence ]
+
+93
+00:04:03,420 --> 00:04:04,420
+Cheers.
+
+94
+00:04:04,420 --> 00:04:10,420
+Well, my backyard, a lot of my backyard is not my backyard.
+
+95
+00:04:07,480 --> 00:04:32,000
+Argh, it'sprot Sioux.
+
+96
+00:04:10,420 --> 00:04:14,260
+that's not just because I own a condo so I would only own one eighth of my backyard.
+
+97
+00:04:14,260 --> 00:04:19,500
+Turns out, and I found this after I bought this place, most of our backyard
+
+98
+00:04:19,500 --> 00:04:24,060
+is not our backyard unless you expand our to be the wider collective that
+
+99
+00:04:20,640 --> 00:04:38,620
+[ Silence ]
+
+100
+00:04:24,060 --> 00:04:27,820
+includes the state of Massachusetts because it's owned by the Department of
+
+101
+00:04:27,820 --> 00:04:33,940
+Conservation and Recreation. And the plan is that they're going to be putting a
+
+102
+00:04:32,000 --> 00:04:42,000
+[silence]
+
+103
+00:04:33,940 --> 00:04:39,180
+running/walking bike path out there which I'm one of, you know, I think out of all
+
+104
+00:04:38,620 --> 00:04:44,600
+[ Silence ]
+
+105
+00:04:39,180 --> 00:04:46,540
+of my condo association, I'm pretty much the one guy who's like, "Yeah, this sounds okay."
+
+106
+00:04:42,000 --> 00:04:44,000
+You're the one guy that might use it.
+
+107
+00:04:44,000 --> 00:04:52,000
+[silence]
+
+108
+00:04:44,600 --> 00:04:54,580
+[ Silence ]
+
+109
+00:04:46,540 --> 00:04:49,340
+I mean, you know, I was a little offended when I found it was running right through
+
+110
+00:04:49,340 --> 00:04:55,980
+my backyard only to find it's not my backyard. But that said, they are planning on turning
+
+111
+00:04:52,000 --> 00:04:53,000
+Hmm.
+
+112
+00:04:53,000 --> 00:04:59,000
+[silence]
+
+113
+00:04:54,580 --> 00:05:06,560
+[ Silence ]
+
+114
+00:04:55,980 --> 00:05:01,420
+a lot of what is lawn now into wildflowers. So, go Mastodon user. You should be happy.
+
+115
+00:04:59,000 --> 00:05:00,000
+That's good.
+
+116
+00:05:00,000 --> 00:05:08,000
+Go Massachusetts! Go Mastodon-Chusetts!
+
+117
+00:05:03,420 --> 00:05:06,420
+Go Massachusetts! Yeah, so there you go.
+
+118
+00:05:06,420 --> 00:05:09,420
+Massachusetts.
+
+119
+00:05:06,560 --> 00:05:18,540
+[ Silence ]
+
+120
+00:05:08,000 --> 00:05:18,000
+No, I think the lawn, I think the American way of living for those who have yards, I think it has to go passe. I think it's ridiculous.
+
+121
+00:05:18,000 --> 00:05:23,000
+It can't be, I think it's dumb. I don't think it can be sustained anymore.
+
+122
+00:05:18,540 --> 00:05:30,520
+[ Silence ]
+
+123
+00:05:23,000 --> 00:05:29,120
+I think that if anything is going to finally break the peer pressure of communities all having to have neatly manicured lawns,
+
+124
+00:05:29,120 --> 00:05:33,520
+it has to be climate change, because at some point people are just going to freaking give up.
+
+125
+00:05:30,520 --> 00:05:42,500
+[ Silence ]
+
+126
+00:05:32,420 --> 00:05:39,420
+Yeah, big giant ones especially are kind of...
+
+127
+00:05:33,520 --> 00:05:36,640
+When they can't water their lawn and it just dies all the time, what's the point?
+
+128
+00:05:36,640 --> 00:05:47,440
+Yeah, let's talk about our giant reactions to our giant beers.
+
+129
+00:05:39,420 --> 00:05:40,420
+Yeah, I don't know.
+
+130
+00:05:40,420 --> 00:05:45,420
+I mean, I'm sure some things live there, but more things could live in other habitats.
+
+131
+00:05:42,500 --> 00:05:56,480
+[ Silence ]
+
+132
+00:05:45,420 --> 00:05:48,700
+Woohoo!
+
+133
+00:05:48,700 --> 00:05:49,700
+I'm a fan.
+
+134
+00:05:49,700 --> 00:05:58,580
+Obviously, you know, this is a thumbs up for sure.
+
+135
+00:05:52,640 --> 00:05:57,360
+So what did the... did it describe... did it have tasting notes like I had?
+
+136
+00:05:56,480 --> 00:06:12,460
+[ Silence ]
+
+137
+00:05:57,360 --> 00:06:01,280
+Are you supposed to taste flowers?
+
+138
+00:05:58,580 --> 00:05:59,660
+This does not taste like flowers.
+
+139
+00:05:59,660 --> 00:06:01,660
+Let me see what the can says.
+
+140
+00:06:01,280 --> 00:06:10,280
+Are you supposed to taste... is it supposed to taste flowers?
+
+141
+00:06:01,660 --> 00:06:06,980
+I don't think it's supposed to taste like flowers. That much I can tell you.
+
+142
+00:06:06,980 --> 00:06:10,120
+You know, well they don't say anything on the can. Let's go to the website.
+
+143
+00:06:10,120 --> 00:06:13,340
+Let's go to the website.
+
+144
+00:06:10,280 --> 00:06:15,040
+They sound terrible. Jack...
+
+145
+00:06:12,460 --> 00:06:24,440
+[ Silence ]
+
+146
+00:06:13,340 --> 00:06:15,780
+Jack's...
+
+147
+00:06:15,040 --> 00:06:17,040
+Jackastic or whatever his name is.
+
+148
+00:06:15,780 --> 00:06:18,900
+Abby...
+
+149
+00:06:17,040 --> 00:06:32,180
+Oh my god. Dear chatgpt, how do I get to the website?
+
+150
+00:06:18,900 --> 00:06:19,820
+Copper...
+
+151
+00:06:19,820 --> 00:06:22,860
+Leg... I think it's just Jack. Just Jack's Abby Copeland.
+
+152
+00:06:22,860 --> 00:06:24,660
+Okay.
+
+153
+00:06:24,440 --> 00:06:40,420
+[ Silence ]
+
+154
+00:06:24,660 --> 00:06:29,180
+Jack's Abby Copper Legend. Well, nope, nope, nope. That's the untapped review. I don't want that.
+
+155
+00:06:29,180 --> 00:06:34,940
+Hey ChatGPT, rate this beer for me.
+
+156
+00:06:34,940 --> 00:06:41,220
+I bet you it'll be happy to write beer reviews for me for things that it's never tasted.
+
+157
+00:06:40,420 --> 00:06:51,400
+[ Silence ]
+
+158
+00:06:41,220 --> 00:06:45,880
+Because it's an AI and it can't taste.
+
+159
+00:06:43,120 --> 00:06:45,440
+as a large language whatever it says about itself
+
+160
+00:06:45,440 --> 00:06:54,080
+however tons of losers who you've never met have said blah blah blah
+
+161
+00:06:45,880 --> 00:06:48,900
+As an AI language model, I'm incapable of tasting.
+
+162
+00:06:48,900 --> 00:06:54,440
+I have no taste.
+
+163
+00:06:51,400 --> 00:06:57,380
+[ Silence ]
+
+164
+00:06:54,080 --> 00:07:01,760
+it's important to note that some people say that it's terrible while others say
+
+165
+00:06:54,440 --> 00:06:58,180
+Have said things, and I will paraphrase all of those to come up with something completely
+
+166
+00:06:57,380 --> 00:07:15,360
+[ Silence ]
+
+167
+00:06:58,180 --> 00:07:03,680
+[silence]
+
+168
+00:07:01,760 --> 00:07:03,360
+it's the best beer that's ever been brewed
+
+169
+00:07:03,360 --> 00:07:10,160
+up to the individual person yeah
+
+170
+00:07:03,680 --> 00:07:08,680
+Ultimately, the choice of how much you like a beer is up on, you know, up to the person drinking it, right?
+
+171
+00:07:08,680 --> 00:07:14,180
+Copper Legend. It's an August through October release, and it says,
+
+172
+00:07:10,160 --> 00:07:17,160
+Mmm. Oh!
+
+173
+00:07:14,180 --> 00:07:19,680
+"Octoperfest is the world's most legendary beer festival, and it deserves a legendary beer.
+
+174
+00:07:15,360 --> 00:07:28,340
+[ Silence ]
+
+175
+00:07:17,160 --> 00:07:32,560
+Mm-mm.
+
+176
+00:07:19,680 --> 00:07:26,680
+Copper Legend is the perfect marriage of caramel, sweet, toasty malts, and infinite drinkability.
+
+177
+00:07:26,680 --> 00:07:31,860
+Raise one this fest season and be the legend.
+
+178
+00:07:28,340 --> 00:07:30,340
+You
+
+179
+00:07:30,340 --> 00:07:32,340
+You
+
+180
+00:07:31,860 --> 00:07:40,400
+So there you go.
+
+181
+00:07:32,340 --> 00:07:34,340
+You
+
+182
+00:07:32,560 --> 00:07:35,560
+You're raising it before the fest season. You're not supposed to crack that open until
+
+183
+00:07:34,340 --> 00:07:36,340
+You
+
+184
+00:07:35,560 --> 00:07:36,080
+August.
+
+185
+00:07:36,080 --> 00:07:39,120
+How did you get a hold of that, number one? And number two, where are the
+
+186
+00:07:36,340 --> 00:07:38,340
+You
+
+187
+00:07:38,340 --> 00:07:40,340
+(I'm not sure what I said here)
+
+188
+00:07:39,120 --> 00:07:39,920
+authorities?
+
+189
+00:07:39,920 --> 00:07:47,400
+Do I have a siren sound?
+
+190
+00:07:40,340 --> 00:07:42,340
+You
+
+191
+00:07:40,400 --> 00:07:47,280
+I told you that I liked it so much that I got it last year and I stocked up.
+
+192
+00:07:42,340 --> 00:07:44,340
+(The End)
+
+193
+00:07:44,340 --> 00:07:51,340
+[Silence]
+
+194
+00:07:47,280 --> 00:07:49,280
+Oof.
+
+195
+00:07:47,400 --> 00:07:48,400
+Let's see...
+
+196
+00:07:48,400 --> 00:07:49,560
+Random sounds...
+
+197
+00:07:49,280 --> 00:07:55,600
+Yeah, that's gratuitous.
+
+198
+00:07:49,560 --> 00:07:50,760
+Is there a siren?
+
+199
+00:07:50,760 --> 00:07:52,500
+There's a good punch.
+
+200
+00:07:51,340 --> 00:07:51,840
+[Punch]
+
+201
+00:07:51,840 --> 00:07:55,340
+[Tires screech]
+
+202
+00:07:52,500 --> 00:07:56,440
+There's a car screech.
+
+203
+00:07:55,340 --> 00:07:57,260
+(beep)
+
+204
+00:07:55,600 --> 00:07:57,600
+That's gratuitous.
+
+205
+00:07:56,440 --> 00:07:57,440
+There's a coin.
+
+206
+00:07:57,260 --> 00:07:59,180
+(beep)
+
+207
+00:07:57,440 --> 00:07:59,920
+Ooh, the Mario coin.
+
+208
+00:07:57,600 --> 00:07:59,440
+Perfect.
+
+209
+00:07:59,180 --> 00:08:11,160
+[ Silence ]
+
+210
+00:07:59,440 --> 00:08:02,440
+Mario coin.
+
+211
+00:07:59,920 --> 00:08:02,640
+Anyway, consider that to be a siren.
+
+212
+00:08:02,440 --> 00:08:04,880
+Yeah.
+
+213
+00:08:02,640 --> 00:08:03,640
+You're in trouble.
+
+214
+00:08:03,640 --> 00:08:04,880
+You're drinking the beer out of season.
+
+215
+00:08:04,880 --> 00:08:07,560
+So...
+
+216
+00:08:04,880 --> 00:08:05,880
+What happened to your camera?
+
+217
+00:08:05,880 --> 00:08:07,320
+All of a sudden it's like zoomed way up.
+
+218
+00:08:07,320 --> 00:08:10,280
+It's like, "Scott can't see enough of Peter.
+
+219
+00:08:07,560 --> 00:08:22,600
+Well, I went to the JacksAbby site and they have a separate site called copperlegends.com
+
+220
+00:08:10,280 --> 00:08:13,480
+Here, I heard you like more Peter in your Peter, so here's Peter."
+
+221
+00:08:11,160 --> 00:08:13,220
+you
+
+222
+00:08:13,220 --> 00:08:15,280
+you
+
+223
+00:08:13,480 --> 00:08:14,480
+What?
+
+224
+00:08:14,480 --> 00:08:18,480
+Literally what happened?
+
+225
+00:08:15,280 --> 00:08:31,260
+[ Silence ]
+
+226
+00:08:18,480 --> 00:08:33,480
+Oh, it started using your camera.
+
+227
+00:08:22,600 --> 00:08:28,600
+where you are supposed to hoist your beer and hold it out because that's an Oktoberfest thing.
+
+228
+00:08:28,600 --> 00:08:34,280
+And as I went there it went it's like "hey hold your camera up and show" and I was like "no" and
+
+229
+00:08:32,080 --> 00:08:44,520
+[ Silence ]
+
+230
+00:08:33,480 --> 00:08:35,480
+Oh
+
+231
+00:08:34,280 --> 00:08:39,080
+I didn't click no I clicked yes by accident and it messed around with FaceTime.
+
+232
+00:08:35,480 --> 00:08:44,040
+Okay, I was gonna say if they don't give you permission because they don't know what people are doing when they go to that website
+
+233
+00:08:39,080 --> 00:08:47,800
+I am the copper legend.
+
+234
+00:08:44,040 --> 00:08:46,080
+They can't just turn the camera on
+
+235
+00:08:44,720 --> 00:08:54,280
+[ Silence ]
+
+236
+00:08:46,080 --> 00:08:48,520
+Hey, honey, let's go
+
+237
+00:08:47,800 --> 00:08:54,440
+[Laughter]
+
+238
+00:08:48,520 --> 00:08:59,440
+Right
+
+239
+00:08:54,440 --> 00:08:58,680
+No, because my hand was wet from the beer, so the trackpad was a little
+
+240
+00:08:54,600 --> 00:09:00,560
+[ Silence ]
+
+241
+00:08:58,680 --> 00:09:03,960
+sticky and I went to tap and the mouse had not moved where I thought it had moved to.
+
+242
+00:08:59,440 --> 00:09:08,440
+I guess we're in the Oktoberfest Hall of Fame now!
+
+243
+00:09:00,560 --> 00:09:12,540
+[ Silence ]
+
+244
+00:09:03,960 --> 00:09:13,560
+There you go. Actually, you know, I'm really curious. Let's just find out.
+
+245
+00:09:08,440 --> 00:09:10,160
+Okay, okay.
+
+246
+00:09:10,160 --> 00:09:37,680
+[silence]
+
+247
+00:09:12,540 --> 00:09:21,520
+[ Silence ]
+
+248
+00:09:14,440 --> 00:09:21,000
+Please write me a review of Jack's Abby Copper Legend.
+
+249
+00:09:21,000 --> 00:09:23,480
+Anyway, let's see what ChatGPT says about this beer.
+
+250
+00:09:21,520 --> 00:09:23,520
+Thank you.
+
+251
+00:09:23,480 --> 00:09:28,600
+Sure, I'd be glad to provide a review of Jack's Abby Copper Legend.
+
+252
+00:09:24,040 --> 00:09:26,040
+I
+
+253
+00:09:26,040 --> 00:09:28,040
+Thank you.
+
+254
+00:09:28,040 --> 00:09:34,020
+[ Silence ]
+
+255
+00:09:28,600 --> 00:09:31,480
+However, please note that since I'm an artificial intelligence,
+
+256
+00:09:31,480 --> 00:09:35,480
+I don't actually have the capability to taste beer or any other food and drink,
+
+257
+00:09:34,180 --> 00:09:44,020
+[ Silence ]
+
+258
+00:09:35,480 --> 00:09:37,400
+so I can't provide a personal opinion.
+
+259
+00:09:37,400 --> 00:09:43,560
+But it did give it a 4 out of 5 rating.
+
+260
+00:09:37,680 --> 00:09:50,880
+It is a good thing it told us that because we would never have known.
+
+261
+00:09:43,560 --> 00:09:47,800
+It says it's a legendary seasonal beer that certainly leaves an impression known as a
+
+262
+00:09:44,020 --> 00:10:05,920
+[silence]
+
+263
+00:09:47,800 --> 00:09:51,720
+traditional Oktoberfest lager. It fits perfectly in the chillier nights of autumn and the warm
+
+264
+00:09:51,720 --> 00:09:57,320
+color by its warm color and inviting aroma. You know, for an AI that can't taste and has
+
+265
+00:09:57,320 --> 00:10:02,040
+never tasted this beer, it wrote a pretty good review of it. I say we put this right on the website.
+
+266
+00:10:02,000 --> 00:10:05,920
+That sounds good actually. Okay, here's me trying to use chat gpt to get a beer review
+
+267
+00:10:02,040 --> 00:10:02,880
+Bye.
+
+268
+00:10:02,880 --> 00:10:05,280
+We will all be.
+
+269
+00:10:05,280 --> 00:10:26,720
+We will all be.
+
+270
+00:10:05,920 --> 00:10:08,820
+Why does it say "paper jam" when there is no paper jam?
+
+271
+00:10:05,920 --> 00:10:15,600
+Oh, I haven't talked about my beer so my beer
+
+272
+00:10:08,820 --> 00:10:11,220
+I swear to God, one of these days I-I-I just-
+
+273
+00:10:11,220 --> 00:10:13,800
+(upbeat music)
+
+274
+00:10:13,800 --> 00:10:25,780
+[ Silence ]
+
+275
+00:10:15,600 --> 00:10:23,700
+So let me review. Let me step back just a moment in time fresh flowers white peppercorn and lightly toasted crackers
+
+276
+00:10:23,700 --> 00:10:30,100
+There is a bit of a crackery taste to it. I have to give it that I wouldn't have called it crackers
+
+277
+00:10:26,700 --> 00:10:29,440
+[ Silence ]
+
+278
+00:10:26,720 --> 00:10:52,120
+[silence]
+
+279
+00:10:29,440 --> 00:10:43,420
+[ Silence ]
+
+280
+00:10:31,120 --> 00:10:34,640
+But I guess maybe it's more of the peppercorn that i'm tasting
+
+281
+00:10:34,640 --> 00:10:39,680
+Anyway, there is definitely something to this beer where peppercorn and or crackers don't sound out of line to me
+
+282
+00:10:39,680 --> 00:10:43,440
+But if you had punched me in the face and taken this can away from me
+
+283
+00:10:43,420 --> 00:10:53,400
+[ Silence ]
+
+284
+00:10:43,440 --> 00:10:47,040
+Before I had a chance to read it. I never would have said to you. Ah
+
+285
+00:10:47,040 --> 00:10:49,440
+peppercorn and crackers
+
+286
+00:10:49,440 --> 00:10:51,600
+At first I would have said why'd you punch me in the face?
+
+287
+00:10:52,120 --> 00:11:01,120
+Ah, so I just realized in addition, boy, I am really, I really can't use messages anymore.
+
+288
+00:10:53,400 --> 00:11:11,380
+[ Silence ]
+
+289
+00:11:00,720 --> 00:11:02,720
+As your notepad, oh
+
+290
+00:11:01,120 --> 00:11:08,800
+No, like I realized I got distracted today and one of my friends asked me, you know,
+
+291
+00:11:02,720 --> 00:11:20,720
+Oh
+
+292
+00:11:08,800 --> 00:11:13,280
+a question. He just happened to be like at the Apple store or something. And I sent some
+
+293
+00:11:11,380 --> 00:11:17,360
+[ Silence ]
+
+294
+00:11:13,280 --> 00:11:18,380
+of my real time reactions to him instead of you. And that's why you didn't talk to me
+
+295
+00:11:17,360 --> 00:11:31,340
+[ Silence ]
+
+296
+00:11:18,380 --> 00:11:22,640
+back and tell me like if they had mentioned large language models or
+
+297
+00:11:22,640 --> 00:11:29,140
+generative AI or anything like that. So there's a section of my reviews were
+
+298
+00:11:29,140 --> 00:11:38,900
+missing. The reason was I pivoted over to a friend's messages thread because he
+
+299
+00:11:29,840 --> 00:11:31,840
+Oh, okay.
+
+300
+00:11:31,340 --> 00:11:49,320
+[ Silence ]
+
+301
+00:11:31,840 --> 00:11:56,720
+Right, well all the rest of you had to scrounge together PCs out of copy machine parts.
+
+302
+00:11:38,900 --> 00:11:42,820
+had just gone to the Apple Store yesterday and he's been a
+
+303
+00:11:42,820 --> 00:11:50,020
+huge Mac fan for decades. Like he had a Mac, he was like the kid in junior high
+
+304
+00:11:49,320 --> 00:12:00,300
+[ Silence ]
+
+305
+00:11:50,020 --> 00:11:54,580
+school whose mom you know got him a Mac for instance.
+
+306
+00:11:54,580 --> 00:12:04,940
+Dude I had a Tandy I mean... Anyway so I've got all these things and so he had
+
+307
+00:11:57,220 --> 00:11:58,460
+Your PC is gone, alright?
+
+308
+00:11:58,460 --> 00:11:59,760
+Oh, n trapped.
+
+309
+00:11:59,760 --> 00:12:01,840
+But I shouldn't have this app that needed a little push.
+
+310
+00:12:00,300 --> 00:12:10,280
+[ Silence ]
+
+311
+00:12:01,840 --> 00:12:02,860
+July 25th
+
+312
+00:12:02,860 --> 00:12:23,580
+Hi, this is
+
+313
+00:12:04,940 --> 00:12:13,700
+just gone and experimented with the eye tracking and here we come into WDC and
+
+314
+00:12:10,280 --> 00:12:25,260
+[ Silence ]
+
+315
+00:12:13,700 --> 00:12:17,340
+we're like yeah most useless feature ever right and I had only just found it
+
+316
+00:12:17,340 --> 00:12:22,100
+a few weeks ago I think I mentioned it to you or Adam also and I was like okay
+
+317
+00:12:22,100 --> 00:12:25,060
+it's kind of interesting but what would I how do you get out of this wait now I
+
+318
+00:12:23,840 --> 00:12:41,840
+[silence]
+
+319
+00:12:25,060 --> 00:12:28,860
+don't want this anymore turn it off he was in the Apple Store just playing with
+
+320
+00:12:25,260 --> 00:12:37,240
+[ Silence ]
+
+321
+00:12:28,860 --> 00:12:34,660
+this yesterday and now of course here we come in to the VR headset where of
+
+322
+00:12:34,660 --> 00:12:37,860
+Of course they're using eye tracking for everything.
+
+323
+00:12:37,780 --> 00:12:43,060
+[ Silence ]
+
+324
+00:12:37,860 --> 00:12:39,860
+Well, not everything, their hand gestures too, of course.
+
+325
+00:12:39,860 --> 00:12:42,420
+But I thought that was kind of interesting though.
+
+326
+00:12:41,840 --> 00:12:45,840
+Here's what I hope though. I hope that, first of all, I haven't talked to anybody
+
+327
+00:12:42,420 --> 00:13:01,340
+Oh.
+
+328
+00:12:43,060 --> 00:13:01,040
+[ Silence ]
+
+329
+00:12:45,840 --> 00:12:50,840
+who uses the eye tracking as an accessibility feature, which it is right now.
+
+330
+00:12:50,840 --> 00:12:58,840
+But I'm hoping that maybe their work on this AR headset will also translate into better eye tracking in general.
+
+331
+00:12:58,840 --> 00:13:00,840
+But you also have to remember something.
+
+332
+00:13:00,840 --> 00:13:04,840
+Typical Macs don't have the best cameras in the world. There is that.
+
+333
+00:13:01,040 --> 00:13:13,020
+[ Silence ]
+
+334
+00:13:01,340 --> 00:13:08,340
+[silence]
+
+335
+00:13:04,840 --> 00:13:07,840
+It greatly depends on what the camera is that's looking at you.
+
+336
+00:13:07,840 --> 00:13:16,840
+That's why I do do that. Hi iPhone.
+
+337
+00:13:08,340 --> 00:13:14,340
+Sure. Yeah, I mean that's why you can use your iPhone instead of your rack camera if you choose.
+
+338
+00:13:13,020 --> 00:13:22,000
+[ Silence ]
+
+339
+00:13:14,340 --> 00:13:22,340
+[silence]
+
+340
+00:13:16,840 --> 00:13:23,840
+By the way, if anything was trying to eye-track you right now, it would be impossible because all it would get is reflections from your glasses, yeah.
+
+341
+00:13:22,000 --> 00:13:39,980
+[ Silence ]
+
+342
+00:13:22,340 --> 00:13:28,340
+The glare. The glare in my glasses. Yeah, I don't pay the extra money for the anti-glare
+
+343
+00:13:23,840 --> 00:13:35,840
+Well, I think it's supposed to protect your eyes, not theirs, but...
+
+344
+00:13:28,340 --> 00:13:30,780
+because I'm like, I don't want you looking at my eyes anyway,
+
+345
+00:13:30,780 --> 00:13:32,380
+so I don't care if you see glare.
+
+346
+00:13:32,380 --> 00:13:35,820
+[LAUGHTER]
+
+347
+00:13:35,820 --> 00:13:36,980
+Oh, is that how that works?
+
+348
+00:13:35,840 --> 00:13:41,840
+Yeah, I think so. I think you're shooting yourself in the foot to mock other people.
+
+349
+00:13:36,980 --> 00:13:40,260
+[LAUGHTER]
+
+350
+00:13:39,980 --> 00:13:57,960
+[ Silence ]
+
+351
+00:13:40,260 --> 00:13:47,740
+I can't see my eyes.
+
+352
+00:13:41,840 --> 00:13:44,640
+Yeah, you can't see my eyes I can't either I'm blind
+
+353
+00:13:44,640 --> 00:14:00,460
+Okay, speaking of seeing your own eyes, yeah, that's a good idea let's talk about some Apple products apparently some things were introduced today
+
+354
+00:13:47,740 --> 00:13:48,260
+My eyes.
+
+355
+00:13:48,260 --> 00:13:53,700
+I think I'm going to pour some more beer here.
+
+356
+00:13:53,700 --> 00:13:55,940
+(slurping)
+
+357
+00:13:55,940 --> 00:14:04,160
+Apparently, yeah, I heard a couple things, just one or two.
+
+358
+00:13:57,960 --> 00:13:59,960
+Thank you.
+
+359
+00:13:59,960 --> 00:14:11,940
+[ Silence ]
+
+360
+00:14:00,460 --> 00:14:06,760
+Okay, so let me ask you a genuine question
+
+361
+00:14:04,160 --> 00:14:15,140
+I have an, yes, yeah.
+
+362
+00:14:06,760 --> 00:14:13,300
+Do you actually care about that 15 inch MacBook Air because you have an M2 MacBook Air right or is yours an M1?
+
+363
+00:14:11,940 --> 00:14:29,920
+[ Silence ]
+
+364
+00:14:13,300 --> 00:14:23,320
+You're a FOMO guy
+
+365
+00:14:15,140 --> 00:14:18,260
+Look, I have, one of my favorite college professors
+
+366
+00:14:18,260 --> 00:14:21,740
+diagnosed me early on as having upgrades disease.
+
+367
+00:14:22,900 --> 00:14:25,340
+I always want to have the latest and greatest, right?
+
+368
+00:14:23,320 --> 00:14:41,820
+[silence]
+
+369
+00:14:25,340 --> 00:14:27,500
+But that said, no, I'm perfectly happy
+
+370
+00:14:27,500 --> 00:14:31,220
+with my current smallish MacBook Air.
+
+371
+00:14:29,920 --> 00:14:47,900
+[ Silence ]
+
+372
+00:14:31,220 --> 00:14:34,140
+And again, especially given the VR headset now,
+
+373
+00:14:34,140 --> 00:14:36,580
+you know, or the AR VR headset,
+
+374
+00:14:36,580 --> 00:14:39,340
+you know, you can turn that thing into a giant 4K display.
+
+375
+00:14:39,340 --> 00:14:40,820
+I was like, yeah, give me an 11 inch,
+
+376
+00:14:40,820 --> 00:14:42,620
+give me a tiny little MacBook again.
+
+377
+00:14:41,820 --> 00:14:46,020
+That's the thing, like, Vic was like, "maybe I'll get one of these instead of a studio display."
+
+378
+00:14:42,620 --> 00:14:54,220
+[Silence]
+
+379
+00:14:46,020 --> 00:14:51,920
+And I'm like, "okay, well, it's not only is it double the cost, but the studio display is 5k, this thing's 4k."
+
+380
+00:14:47,900 --> 00:14:57,880
+[ Silence ]
+
+381
+00:14:51,920 --> 00:14:53,720
+Now granted, you can take it with you.
+
+382
+00:14:53,720 --> 00:15:06,720
+Right, but I how often do you actually go a place where you where you're going
+
+383
+00:14:54,220 --> 00:14:59,180
+Uh-huh. Yeah, I'm not I want to see let's see Vic haul a 5K display,
+
+384
+00:14:57,880 --> 00:15:09,860
+[ Silence ]
+
+385
+00:14:59,180 --> 00:15:01,100
+on the next time he hops onto an airplane.
+
+386
+00:15:01,100 --> 00:15:17,740
+[silence]
+
+387
+00:15:06,720 --> 00:15:09,520
+to strap that thing onto your head and make use of it for enough time
+
+388
+00:15:09,520 --> 00:15:12,020
+to make up for the fact that it's double the price?
+
+389
+00:15:09,860 --> 00:15:19,840
+[ Silence ]
+
+390
+00:15:12,020 --> 00:15:15,660
+No. Most of the time you're going to use the perfectly beautiful monitor
+
+391
+00:15:15,660 --> 00:15:18,540
+that comes on your Apple laptop, and you're going to be happy with that.
+
+392
+00:15:17,740 --> 00:15:24,700
+Yeah, I'm not saying that I would buy this just to be a screen replacement,
+
+393
+00:15:18,540 --> 00:15:25,540
+it.
+
+394
+00:15:20,160 --> 00:15:34,500
+[ Silence ]
+
+395
+00:15:24,700 --> 00:15:31,020
+but with all the other stuff it does and a 4K display, yeah, I'd be perfectly happy with that.
+
+396
+00:15:25,540 --> 00:15:42,700
+You have low standards, my friend.
+
+397
+00:15:31,020 --> 00:15:35,980
+I mean I'm talking to you now, I'm looking at you now on a 4K display.
+
+398
+00:15:34,620 --> 00:15:46,080
+[ Silence ]
+
+399
+00:15:35,980 --> 00:15:40,380
+I have a 4K display and I'm perfectly happy with a 4K display.
+
+400
+00:15:40,380 --> 00:15:41,380
+Isn't it?
+
+401
+00:15:41,380 --> 00:15:42,380
+I think it's a 4K display, isn't it?
+
+402
+00:15:42,380 --> 00:15:43,380
+That's what I bought.
+
+403
+00:15:42,700 --> 00:15:46,980
+Yeah, you bought a 4K. You did.
+
+404
+00:15:43,380 --> 00:15:44,380
+I don't even remember now.
+
+405
+00:15:44,380 --> 00:15:47,940
+Yeah, and it was a huge upgrade for me, right?
+
+406
+00:15:46,080 --> 00:16:01,060
+[ Silence ]
+
+407
+00:15:46,980 --> 00:15:50,420
+Can you do "About this Mac" and tell me what CPU it has?
+
+408
+00:15:47,940 --> 00:15:53,700
+Yeah, I've got the M2.
+
+409
+00:15:50,420 --> 00:15:51,880
+About this Mac.
+
+410
+00:15:51,880 --> 00:15:52,880
+Click on the apple.
+
+411
+00:15:52,880 --> 00:15:55,100
+Yeah, but the M2, what?
+
+412
+00:15:53,700 --> 00:16:00,660
+About this Mac, M2 2022.
+
+413
+00:15:55,100 --> 00:15:56,100
+Do...
+
+414
+00:15:56,100 --> 00:15:57,100
+Oh, so...
+
+415
+00:15:57,100 --> 00:15:59,180
+No, but what does it say for chip?
+
+416
+00:15:59,180 --> 00:16:02,180
+Just M2?
+
+417
+00:16:00,660 --> 00:16:05,660
+It says MacBook Air, new paragraph, M2, 2022.
+
+418
+00:16:01,060 --> 00:16:19,040
+[ Silence ]
+
+419
+00:16:02,180 --> 00:16:11,260
+No, no.
+
+420
+00:16:05,660 --> 00:16:07,720
+I can go into more info.
+
+421
+00:16:07,720 --> 00:16:11,260
+Chip, Apple M2, that's what it says.
+
+422
+00:16:11,260 --> 00:16:30,640
+Okay, if I go into, so I just clicked on settings
+
+423
+00:16:11,260 --> 00:16:13,620
+Your "About this screen" is completely different than mine.
+
+424
+00:16:13,620 --> 00:16:19,000
+and has a picture of a laptop, then in a header it says MacBook Pro, then it says 14 inch
+
+425
+00:16:19,000 --> 00:16:24,580
+2021, then there's a space, and then it says chip, Apple M1 Pro, memory, 16 gigabytes.
+
+426
+00:16:19,040 --> 00:16:37,020
+[ Silence ]
+
+427
+00:16:24,580 --> 00:16:35,660
+That's not the more info thing, that's just the about this.
+
+428
+00:16:30,640 --> 00:16:33,120
+and about this Mac and I read what was there.
+
+429
+00:16:33,120 --> 00:16:35,540
+Now, if I go to more info, I get more.
+
+430
+00:16:35,540 --> 00:16:41,260
+Your about sounds like my more info.
+
+431
+00:16:35,660 --> 00:16:40,580
+But that's what I'm trying to figure out is why is it different?
+
+432
+00:16:37,020 --> 00:16:43,000
+[ Silence ]
+
+433
+00:16:40,580 --> 00:16:43,040
+No.
+
+434
+00:16:41,260 --> 00:16:43,060
+Yeah, what you describe here.
+
+435
+00:16:43,000 --> 00:16:54,980
+[ Silence ]
+
+436
+00:16:43,040 --> 00:16:45,720
+That's what I don't understand is we have the same operating system, right?
+
+437
+00:16:43,060 --> 00:16:48,440
+I think so.
+
+438
+00:16:45,720 --> 00:16:53,920
+Aren't you on Ventura?
+
+439
+00:16:48,440 --> 00:16:49,400
+Pretty sure I have the latest,
+
+440
+00:16:49,400 --> 00:16:52,100
+I mean, I have an update that's due for later,
+
+441
+00:16:52,100 --> 00:16:54,000
+you know, installation later tonight.
+
+442
+00:16:53,920 --> 00:16:55,520
+So on the about this thing, what did it say?
+
+443
+00:16:54,980 --> 00:17:12,960
+[ Silence ]
+
+444
+00:16:55,520 --> 00:17:01,560
+Mac OS Ventura 13.4 or 13 point whatever 13.3.
+
+445
+00:17:00,120 --> 00:17:03,880
+Yeah, 13.3.1A.
+
+446
+00:17:01,560 --> 00:17:03,480
+Hmm.
+
+447
+00:17:03,480 --> 00:17:09,440
+Okay, anyway, I guess the thing that I'm getting at is you just have a straight M2.
+
+448
+00:17:03,880 --> 00:17:15,860
+And it's certainly not an M2 Ultra.
+
+449
+00:17:09,440 --> 00:17:11,120
+It's not an M2 Pro, it's not an M2.
+
+450
+00:17:11,120 --> 00:17:16,080
+The Airs probably don't have that.
+
+451
+00:17:12,960 --> 00:17:24,940
+[ Silence ]
+
+452
+00:17:15,860 --> 00:17:22,420
+And they just said an M2.
+
+453
+00:17:16,080 --> 00:17:18,640
+So what does the new MacBook Air come with?
+
+454
+00:17:18,640 --> 00:17:19,640
+Just an M2?
+
+455
+00:17:19,640 --> 00:17:26,680
+Or does it come with an M2?
+
+456
+00:17:22,420 --> 00:17:23,560
+I thought it was just an M2.
+
+457
+00:17:23,560 --> 00:17:26,380
+I think it's just the guts, the same processor though.
+
+458
+00:17:24,940 --> 00:17:27,100
+(silence)
+
+459
+00:17:26,680 --> 00:17:27,680
+It's just a bigger...
+
+460
+00:17:27,100 --> 00:17:37,080
+[ Silence ]
+
+461
+00:17:27,680 --> 00:17:35,200
+Yeah, you're right.
+
+462
+00:17:27,780 --> 00:17:30,660
+bigger form factor, more speakers, etc.
+
+463
+00:17:30,660 --> 00:17:31,660
+So no, I don't need that.
+
+464
+00:17:31,660 --> 00:17:34,180
+I'm not really feeling envy.
+
+465
+00:17:34,180 --> 00:17:39,900
+I'm not feeling that envy.
+
+466
+00:17:35,200 --> 00:17:37,840
+It says it's virtually identical with the key difference being the size.
+
+467
+00:17:37,080 --> 00:17:49,060
+[ Silence ]
+
+468
+00:17:37,840 --> 00:17:42,860
+No, you wouldn't.
+
+469
+00:17:39,900 --> 00:17:42,480
+I like smaller displays.
+
+470
+00:17:42,480 --> 00:17:54,380
+I'm pretty happy with it.
+
+471
+00:17:42,860 --> 00:17:46,880
+If they had upgraded the display so it was the same display that I have, then you would
+
+472
+00:17:46,880 --> 00:17:52,360
+feel envy, because the MacBook Air display is not quite as nice as the MacBook Pro display.
+
+473
+00:17:49,060 --> 00:17:51,120
+you
+
+474
+00:17:51,140 --> 00:17:53,200
+you
+
+475
+00:17:52,360 --> 00:17:56,440
+All right, then don't feel the envy.
+
+476
+00:17:53,200 --> 00:18:11,180
+[ Silence ]
+
+477
+00:17:54,380 --> 00:17:56,540
+No envy.
+
+478
+00:17:56,440 --> 00:18:00,920
+I thought the differentiation between the Mac Studio and the Mac Pro was very interesting.
+
+479
+00:17:56,540 --> 00:18:06,380
+Hmm.
+
+480
+00:18:00,920 --> 00:18:10,440
+I found it extremely interesting that the new Mac Pro uses the afterburners.
+
+481
+00:18:06,380 --> 00:18:09,100
+All the PCI slots.
+
+482
+00:18:09,100 --> 00:18:12,100
+Afterburners!
+
+483
+00:18:10,440 --> 00:18:13,240
+Built-in afterburner performance.
+
+484
+00:18:12,100 --> 00:18:14,780
+Is that really what they're called?
+
+485
+00:18:12,180 --> 00:18:33,180
+[ Silence ]
+
+486
+00:18:13,240 --> 00:18:19,400
+No, no, no.
+
+487
+00:18:14,780 --> 00:18:22,540
+That's not a nickname like "Firewire" or "Thunderbolt" or anything?
+
+488
+00:18:19,400 --> 00:18:23,520
+Those used to be something you had to add in.
+
+489
+00:18:22,540 --> 00:18:32,180
+So isn't it just a burner? Well you would have to add it in, that would make it an afterburner.
+
+490
+00:18:23,520 --> 00:18:24,820
+But now they're built in.
+
+491
+00:18:24,820 --> 00:18:28,120
+The equivalent of seven of those.
+
+492
+00:18:28,120 --> 00:18:30,120
+a burner
+
+493
+00:18:30,120 --> 00:18:41,380
+Peter
+
+494
+00:18:32,180 --> 00:18:43,740
+So if it comes with a built-in isn't it just a burner? They punched in the whole, you know,
+
+495
+00:18:33,180 --> 00:18:45,160
+[ Silence ]
+
+496
+00:18:41,380 --> 00:18:54,880
+Right and they made it no farther than 20 miles up the road or whatever
+
+497
+00:18:43,740 --> 00:18:48,020
+like how did they pick the name for Sonoma for the new version? They just punched it
+
+498
+00:18:45,520 --> 00:19:07,300
+[ Silence ]
+
+499
+00:18:48,020 --> 00:18:55,020
+into their hippie van and said "awesome vineyards" and... and...
+
+500
+00:18:54,880 --> 00:19:01,160
+server.
+
+501
+00:18:55,020 --> 00:19:02,100
+and you think that "burner" is a bad joke? It seems pretty darn on point if you ask me.
+
+502
+00:19:01,160 --> 00:19:06,560
+Craig Federighi is pretty much a dad joke generator.
+
+503
+00:19:02,100 --> 00:19:08,860
+Yeah, Mac stuff, it looks cool. No, it doesn't apply to me right now. I'm not in the market.
+
+504
+00:19:06,560 --> 00:19:13,460
+iOS 17, I thought it looked pretty good.
+
+505
+00:19:07,300 --> 00:19:19,280
+[ Silence ]
+
+506
+00:19:08,860 --> 00:19:11,860
+What about the stuff that we are going to leverage?
+
+507
+00:19:11,860 --> 00:19:29,840
+[ Silence ]
+
+508
+00:19:13,460 --> 00:19:17,160
+I saw some people complaining as normal that, "Oh no, there's no huge upgrades."
+
+509
+00:19:17,160 --> 00:19:22,520
+Listen, they directly said that this is the 15th year of the App Store.
+
+510
+00:19:19,280 --> 00:19:37,260
+[ Silence ]
+
+511
+00:19:22,520 --> 00:19:28,780
+That means it's the 16th year of iPhone OS/iOS.
+
+512
+00:19:28,780 --> 00:19:31,080
+It's a pretty mature operating system.
+
+513
+00:19:29,840 --> 00:19:50,840
+[silence]
+
+514
+00:19:31,080 --> 00:19:35,920
+There's not a whole lot of stuff that's going to get added every single year.
+
+515
+00:19:35,920 --> 00:19:41,000
+And it's also the year when they were probably put in the final push to get their headset
+
+516
+00:19:37,260 --> 00:19:55,240
+[ Silence ]
+
+517
+00:19:41,000 --> 00:19:42,480
+shipped.
+
+518
+00:19:42,480 --> 00:19:46,480
+So the things that did come in iOS I'm perfectly happy with.
+
+519
+00:19:46,480 --> 00:19:48,540
+I mean I think name drop looks pretty cool.
+
+520
+00:19:48,540 --> 00:20:13,820
+I don't think I'll use it all that often.
+
+521
+00:19:50,840 --> 00:19:58,840
+I liked it. I won't use it all that often, but yes, I can see myself making use of it.
+
+522
+00:19:55,240 --> 00:20:07,220
+[ Silence ]
+
+523
+00:19:58,840 --> 00:20:03,840
+was just at a conference two weeks ago and this guy was doing this you know he
+
+524
+00:20:03,840 --> 00:20:06,560
+was trying to type my name and I was like here's my email address it's blah
+
+525
+00:20:06,560 --> 00:20:12,400
+blah blah and he was typing my name and it was P E Y E R wait back back back you
+
+526
+00:20:07,220 --> 00:20:25,200
+[ Silence ]
+
+527
+00:20:12,400 --> 00:20:15,840
+know and he kept on getting it wrong and
+
+528
+00:20:13,820 --> 00:20:17,340
+Yeah it's a pain in the ass exchanging information when you're typing when you're both standing
+
+529
+00:20:15,840 --> 00:20:22,040
+yeah do you remember the app called Bump
+
+530
+00:20:17,340 --> 00:20:20,340
+they're typing them into phones.
+
+531
+00:20:20,340 --> 00:20:34,180
+Uh, vaguely.
+
+532
+00:20:23,800 --> 00:20:29,600
+It came out, I want to say like in it was the late 2000s and stuff
+
+533
+00:20:26,100 --> 00:20:30,280
+[ Silence ]
+
+534
+00:20:29,600 --> 00:20:33,800
+I guess it would know it. I thought it was 2007. It was after it was an iOS app though
+
+535
+00:20:30,280 --> 00:20:36,260
+[ Silence ]
+
+536
+00:20:33,800 --> 00:20:44,740
+No, it wasn't after airdrop, but it was it was it used the accelerometer if you had bump installed and I had bump installed
+
+537
+00:20:34,180 --> 00:20:38,340
+It wasn't, it was way, it had to be after 2007 because it had to be after AirDrop came
+
+538
+00:20:36,260 --> 00:20:54,240
+[ Silence ]
+
+539
+00:20:38,340 --> 00:20:41,340
+out.
+
+540
+00:20:41,340 --> 00:20:50,340
+Yeah, but what technology did it use to share them with each other?
+
+541
+00:20:44,740 --> 00:20:46,740
+We would bump
+
+542
+00:20:49,900 --> 00:20:53,720
+Colorometer and you had to have the app installed so if the two of you were in the same
+
+543
+00:20:50,340 --> 00:20:51,340
+Oh.
+
+544
+00:20:51,340 --> 00:20:56,020
+Oh, oh, oh.
+
+545
+00:20:53,720 --> 00:20:58,340
+Location and you two both bumped at the same time it would share your contact info
+
+546
+00:20:54,240 --> 00:21:12,220
+[ Silence ]
+
+547
+00:20:56,020 --> 00:21:18,020
+[silence]
+
+548
+00:20:58,340 --> 00:21:05,540
+bump is a discontinued iOS and Android mobile app that enables smartphone users to transfer contact information in
+
+549
+00:21:05,540 --> 00:21:14,700
+2011 it was number 8 on Apple's list of all-time most popular free iPhone apps by February 2013 it had been downloaded
+
+550
+00:21:12,220 --> 00:21:18,200
+[ Silence ]
+
+551
+00:21:14,700 --> 00:21:17,980
+125 million times
+
+552
+00:21:17,980 --> 00:21:26,980
+That's cool. That is cool.
+
+553
+00:21:18,020 --> 00:21:19,020
+Peter, check this out.
+
+554
+00:21:19,020 --> 00:21:27,380
+So, name drop even works when you bring an iPhone near an Apple Watch, which is cool.
+
+555
+00:21:19,160 --> 00:21:25,660
+[ Silence ]
+
+556
+00:21:25,660 --> 00:21:27,720
+you
+
+557
+00:21:26,980 --> 00:21:43,420
+Yes, over the internet. I liked that as well. Yep. I mentioned this to you too in a text a few days
+
+558
+00:21:27,380 --> 00:21:33,280
+One of the other things I liked about changes to AirDrop itself were that you can start
+
+559
+00:21:27,720 --> 00:21:41,700
+[ Silence ]
+
+560
+00:21:33,280 --> 00:21:38,100
+sharing a bunch of stuff via AirDrop and then walk away, and you'll still get them.
+
+561
+00:21:38,100 --> 00:21:42,340
+Right, yeah, I do too.
+
+562
+00:21:41,700 --> 00:21:53,680
+[ Silence ]
+
+563
+00:21:42,340 --> 00:21:49,340
+What do you mean?
+
+564
+00:21:43,420 --> 00:21:52,140
+ago I had not realized that you can use NFC on air tags. If you tap an air tag with your phone
+
+565
+00:21:49,340 --> 00:21:51,340
+Yeah.
+
+566
+00:21:51,340 --> 00:21:53,340
+Right.
+
+567
+00:21:52,140 --> 00:21:58,540
+it will give you information about it and it'll say like this is an air tag and you know are you
+
+568
+00:21:53,340 --> 00:22:01,340
+[silence]
+
+569
+00:21:53,680 --> 00:22:05,660
+[ Silence ]
+
+570
+00:21:58,540 --> 00:22:04,140
+being followed here's you know here's your safety stuff. So I expect that my father will never do
+
+571
+00:22:01,340 --> 00:22:03,340
+Right.
+
+572
+00:22:03,340 --> 00:22:13,340
+[silence]
+
+573
+00:22:04,140 --> 00:22:09,500
+that when I tell him and he forgets that I put an air tag in his car so I can track his car for him
+
+574
+00:22:05,660 --> 00:22:14,640
+[ Silence ]
+
+575
+00:22:10,060 --> 00:22:13,820
+and know if he's like visiting my mom on days when he forgets where he put his phone.
+
+576
+00:22:13,340 --> 00:22:17,340
+I was going to say, does he lose his car a lot and call you up?
+
+577
+00:22:13,820 --> 00:22:22,700
+No, he doesn't. But every now and then he like forgets to charge his phone or he leaves it at
+
+578
+00:22:14,640 --> 00:22:24,620
+[ Silence ]
+
+579
+00:22:17,340 --> 00:22:19,340
+Peter, I don't know where my car is.
+
+580
+00:22:19,340 --> 00:22:41,300
+This way you'll know where he is.
+
+581
+00:22:22,700 --> 00:22:25,580
+home or something like that. So this is this way I'll be able to, you know, I'll call,
+
+582
+00:22:24,620 --> 00:22:36,600
+[ Silence ]
+
+583
+00:22:25,580 --> 00:22:30,380
+don't get an answer, but I can see that the car is moving or, you know, it was in
+
+584
+00:22:30,380 --> 00:22:35,260
+Vermont today and then it was in New Hampshire and like okay well the car is moving around and
+
+585
+00:22:35,260 --> 00:22:38,060
+and dad hasn't called so either he, you know,
+
+586
+00:22:36,600 --> 00:22:48,580
+[ Silence ]
+
+587
+00:22:38,060 --> 00:22:40,900
+it got stolen or he's just driving around without his phone.
+
+588
+00:22:40,900 --> 00:22:58,440
+Yeah, I would think that it would.
+
+589
+00:22:41,300 --> 00:22:48,220
+I do like the real-time voicemail transcriptions because that way I'm hoping it also works
+
+590
+00:22:48,220 --> 00:22:52,620
+with the "don't answer numbers you don't know" thing so that it goes straight to voicemail
+
+591
+00:22:48,580 --> 00:22:59,560
+[ Silence ]
+
+592
+00:22:52,620 --> 00:22:56,100
+and then if they're leaving their voicemail and I see the transcription live I can answer
+
+593
+00:22:56,100 --> 00:22:58,300
+it if I need to.
+
+594
+00:22:58,300 --> 00:23:00,180
+I would think so too, but I don't know.
+
+595
+00:22:58,440 --> 00:23:06,440
+[silence]
+
+596
+00:22:59,560 --> 00:23:17,540
+[ Silence ]
+
+597
+00:23:00,180 --> 00:23:02,140
+But I have that feature turned on.
+
+598
+00:23:02,140 --> 00:23:07,020
+Literally my phone doesn't ring for callers I don't know because I get so many spam calls.
+
+599
+00:23:06,440 --> 00:23:10,440
+Yeah. Oh, I have Silence Unknown Callers enabled too, for sure.
+
+600
+00:23:07,020 --> 00:23:16,860
+Yeah, but every now and then I miss something that I need.
+
+601
+00:23:10,440 --> 00:23:18,760
+Right. Oh, I'm expecting, I'm looking at gathering insurance quotes right now,
+
+602
+00:23:16,860 --> 00:23:26,680
+Yeah.
+
+603
+00:23:17,540 --> 00:23:29,520
+[ Silence ]
+
+604
+00:23:18,760 --> 00:23:24,280
+and I'm waiting for a call and I know it's going to go straight to voicemail and I'll just,
+
+605
+00:23:24,280 --> 00:23:26,040
+you know, whatever. I'll call them back.
+
+606
+00:23:26,040 --> 00:23:44,040
+[silence]
+
+607
+00:23:26,680 --> 00:23:30,540
+So messages in FaceTime, you said that puts Google Voice out of a job, but I don't think
+
+608
+00:23:29,520 --> 00:23:41,500
+[ Silence ]
+
+609
+00:23:30,540 --> 00:23:38,140
+so because here's the reason why. Unless you can hand out fake phone numbers with it. Because
+
+610
+00:23:38,140 --> 00:23:41,860
+that's the reason I use Google Voice is so that I can give a phone number that's not
+
+611
+00:23:41,540 --> 00:23:44,960
+...
+
+612
+00:23:41,860 --> 00:23:43,100
+my phone number to people.
+
+613
+00:23:43,100 --> 00:24:07,100
+[silence]
+
+614
+00:23:44,040 --> 00:23:50,120
+Right, no. I was specifically referring to the call filtering or call screening option,
+
+615
+00:23:44,960 --> 00:23:56,940
+[ Silence ]
+
+616
+00:23:50,120 --> 00:23:53,880
+where it lets you, you know, basically you can start, you can start screening your call and you're
+
+617
+00:23:53,880 --> 00:23:59,480
+Like, "Hey, Scott, it's Peter. I was just wondering, are we recording today?"
+
+618
+00:23:56,940 --> 00:24:14,920
+[ Silence ]
+
+619
+00:23:59,480 --> 00:24:01,480
+And then you can just answer the phone in real time.
+
+620
+00:24:01,480 --> 00:24:03,240
+Like, "Oh, hey, Peter. Yeah, sorry. I was
+
+621
+00:24:03,240 --> 00:24:06,760
+waiting to make sure you weren't a spammer," or something like that.
+
+622
+00:24:06,760 --> 00:24:17,160
+Mm-hmm.
+
+623
+00:24:07,100 --> 00:24:17,100
+And I like the audio message transcriptions in Apple messages because you send me those a lot of times when there's no bloody way I can stop and listen to that thing.
+
+624
+00:24:14,920 --> 00:24:26,900
+[ Silence ]
+
+625
+00:24:17,100 --> 00:24:21,100
+And I will say, part of that's Apple's fault because they make it so inconvenient.
+
+626
+00:24:17,380 --> 00:24:21,380
+Jeez, that sounds crazy.
+
+627
+00:24:21,100 --> 00:24:27,100
+Number one, I work in a place where sometimes it's hard to hear when I'm on the test floor because there's a lot of air flowing through.
+
+628
+00:24:21,380 --> 00:24:49,380
+[Silence]
+
+629
+00:24:26,900 --> 00:24:28,900
+Thank you.
+
+630
+00:24:27,100 --> 00:24:33,100
+And there's a lot of loud equipment, semiconductor test equipment, lots of power, lots of air, lots of noise.
+
+631
+00:24:28,900 --> 00:24:37,880
+[ Silence ]
+
+632
+00:24:33,100 --> 00:24:39,580
+noise. But what Apple does is it makes it inconvenient anywhere because you can't just
+
+633
+00:24:37,880 --> 00:24:49,860
+[ Silence ]
+
+634
+00:24:39,580 --> 00:24:45,100
+press play and then lock the screen and continue listening through your AirPods because it stops.
+
+635
+00:24:45,100 --> 00:24:51,180
+You have to have the phone on the screen unlocked and that means you can't jam it in your pocket
+
+636
+00:24:49,380 --> 00:24:51,380
+Mm-hmm.
+
+637
+00:24:49,860 --> 00:25:07,840
+[ Silence ]
+
+638
+00:24:51,180 --> 00:24:54,940
+because who knows what will happen while it's in your pocket if it's unlocked. So you literally
+
+639
+00:24:51,380 --> 00:25:11,540
+Yep.
+
+640
+00:24:54,940 --> 00:24:59,420
+just have to stand there and listen to the thing and not do anything else and it just is such a
+
+641
+00:24:59,420 --> 00:25:04,620
+major pain in the ass and it's Apple's fault. So this is a nice feature that I
+
+642
+00:25:04,620 --> 00:25:09,340
+really like because this will let you much more conveniently use your voice to
+
+643
+00:25:07,840 --> 00:25:25,820
+[ Silence ]
+
+644
+00:25:09,340 --> 00:25:14,460
+leave a message while you're walking along or doing whatever.
+
+645
+00:25:13,020 --> 00:25:20,660
+Yep, well as you have observed on numerous occasions, it's easier for the sender to send
+
+646
+00:25:14,460 --> 00:25:24,500
+It's easier for the sender.
+
+647
+00:25:20,660 --> 00:25:22,760
+a voice memo.
+
+648
+00:25:22,760 --> 00:25:27,920
+It's not so easy for the recipient sometimes, you know, many times for the recipient.
+
+649
+00:25:24,500 --> 00:25:35,500
+[silence]
+
+650
+00:25:25,820 --> 00:25:37,800
+[ Silence ]
+
+651
+00:25:27,920 --> 00:25:32,980
+But even then, yeah, Apple doesn't make it easy just for regular recipients because you
+
+652
+00:25:32,980 --> 00:25:36,980
+start playing back and then if you put the thing in your pocket it stops playing.
+
+653
+00:25:35,500 --> 00:25:40,500
+You can't. You have to... it's a "stop everything you're doing" thing.
+
+654
+00:25:36,980 --> 00:25:42,820
+Yep, yep, so it is not as easy.
+
+655
+00:25:37,800 --> 00:25:59,800
+[ Silence ]
+
+656
+00:25:40,500 --> 00:25:43,500
+[silence]
+
+657
+00:25:42,820 --> 00:25:43,820
+It's not good.
+
+658
+00:25:43,500 --> 00:25:46,500
+Right. It's even worse than a phone call, which I hate, because...
+
+659
+00:25:43,820 --> 00:25:55,140
+It's not good.
+
+660
+00:25:46,500 --> 00:25:52,500
+I don't even like phone calls, but it's even worse than a phone call, because at least with the phone call I can click the screen and shove it back in my pocket,
+
+661
+00:25:52,500 --> 00:25:57,220
+on walking or doing whatever I wanted to do with my hands. I've asked so many people, "Do you ever
+
+662
+00:25:55,140 --> 00:26:15,140
+[silence]
+
+663
+00:25:57,220 --> 00:26:02,180
+use the audio messages in messages?" and they're like, "I hate them things. Get them away from me."
+
+664
+00:25:59,800 --> 00:26:00,800
+[ Glasses Clink ]
+
+665
+00:26:01,300 --> 00:26:17,280
+[ Silence ]
+
+666
+00:26:02,180 --> 00:26:07,540
+Because they are a stop, this makes it nice. Because those voice messages are super nice
+
+667
+00:26:07,540 --> 00:26:13,380
+when you're the sender, and they should be made to be usable by everyone, and I like that. So
+
+668
+00:26:13,380 --> 00:26:15,220
+feel free to start sending them. We'll see how it works.
+
+669
+00:26:15,140 --> 00:26:18,140
+Well, once you get the beta installed anyway, right?
+
+670
+00:26:15,220 --> 00:26:19,780
+I'm not gonna. I probably won't.
+
+671
+00:26:17,280 --> 00:26:35,260
+[ Silence ]
+
+672
+00:26:18,140 --> 00:26:23,140
+On your carry phone? [laughs]
+
+673
+00:26:19,780 --> 00:26:25,780
+That's not the issue for me. It's just like I get tired of being on the beta train.
+
+674
+00:26:23,140 --> 00:26:30,100
+I miss the announcement. I'm assuming it's coming out in September.
+
+675
+00:26:25,780 --> 00:26:31,780
+I don't know. I didn't see that.
+
+676
+00:26:30,100 --> 00:26:36,340
+Yeah, I mean, I think some new stuff, okay, home screen modifications, great.
+
+677
+00:26:31,780 --> 00:26:48,780
+Right. And I don't think I'll ever use it anyway because I don't have...
+
+678
+00:26:35,260 --> 00:26:42,240
+[ Silence ]
+
+679
+00:26:36,340 --> 00:26:40,420
+Turning it into an alarm clock mode, you know, great.
+
+680
+00:26:40,420 --> 00:26:44,180
+That's a feature that's only, you know, 15 years overdue.
+
+681
+00:26:42,240 --> 00:27:00,220
+[ Silence ]
+
+682
+00:26:44,180 --> 00:26:45,380
+So I'll take that.
+
+683
+00:26:45,380 --> 00:26:47,540
+(silence)
+
+684
+00:26:47,540 --> 00:26:59,020
+I do, but I do have a Qi charger
+
+685
+00:26:48,780 --> 00:26:52,180
+I don't you I just don't use my iPhone that way I don't have any charging
+
+686
+00:26:52,180 --> 00:26:57,820
+stands that I look at my iPhone on I just don't I just don't do that
+
+687
+00:26:57,820 --> 00:27:04,380
+okay
+
+688
+00:26:59,020 --> 00:27:02,400
+and I will set my iPhone up on that at night.
+
+689
+00:27:00,400 --> 00:27:08,900
+[ Silence ]
+
+690
+00:27:02,400 --> 00:27:03,900
+So I will use it at nighttime.
+
+691
+00:27:03,900 --> 00:27:06,780
+I don't generally, during the day I usually plug in.
+
+692
+00:27:04,380 --> 00:27:08,340
+right
+
+693
+00:27:06,780 --> 00:27:08,900
+You know, and it would support sideways charging.
+
+694
+00:27:08,340 --> 00:27:20,020
+[Silence]
+
+695
+00:27:08,900 --> 00:27:14,560
+[ Silence ]
+
+696
+00:27:08,900 --> 00:27:10,060
+So I could do that.
+
+697
+00:27:10,060 --> 00:27:12,960
+However, I prefer things to be pitch black
+
+698
+00:27:12,960 --> 00:27:14,340
+when I'm sleeping.
+
+699
+00:27:14,340 --> 00:27:20,340
+I want no light whatsoever so that no light is going to disturb me and wake me up early.
+
+700
+00:27:14,560 --> 00:27:26,540
+[ Silence ]
+
+701
+00:27:20,020 --> 00:27:23,300
+I literally almost said you should sleep with my wife. She's the same way.
+
+702
+00:27:20,340 --> 00:27:24,840
+[laughter]
+
+703
+00:27:23,300 --> 00:27:28,260
+[Laughter]
+
+704
+00:27:24,840 --> 00:27:26,840
+[clink]
+
+705
+00:27:26,540 --> 00:27:45,520
+[ Silence ]
+
+706
+00:27:26,840 --> 00:27:28,840
+[sigh]
+
+707
+00:27:28,260 --> 00:27:31,700
+Let me walk that back just a tiny bit and clarify. Yeah.
+
+708
+00:27:28,840 --> 00:27:30,340
+You know...
+
+709
+00:27:30,340 --> 00:27:31,840
+Wow!
+
+710
+00:27:31,700 --> 00:27:33,700
+*laughing*
+
+711
+00:27:31,840 --> 00:27:37,340
+Yeah, so, I mean, yeah, okay, so it's interesting how, like, you were so gung-ho for me to come back and visit again,
+
+712
+00:27:33,700 --> 00:27:41,540
+Peter I have a small favor to ask of you
+
+713
+00:27:37,340 --> 00:27:39,340
+and she was too, I'm...
+
+714
+00:27:39,340 --> 00:27:43,840
+Huh. Interesting.
+
+715
+00:27:41,540 --> 00:27:43,540
+*laughing*
+
+716
+00:27:43,540 --> 00:27:50,520
+My wife's getting bored. No, literally no, she's the same way though. She is exactly the same way
+
+717
+00:27:43,840 --> 00:27:45,840
+Oh brother.
+
+718
+00:27:45,520 --> 00:27:55,500
+[ Silence ]
+
+719
+00:27:45,840 --> 00:27:47,840
+[laughs]
+
+720
+00:27:47,840 --> 00:28:01,840
+Mmm.
+
+721
+00:27:50,520 --> 00:27:52,300
+She has to have it pitch black
+
+722
+00:27:52,300 --> 00:27:59,840
+I mean and no noise if two particles of dust collide way off in space somewhere outside the solar system. She hears it
+
+723
+00:27:55,560 --> 00:28:15,560
+[ Silence ]
+
+724
+00:28:00,580 --> 00:28:05,100
+And she'll see whatever minute tiny minuscule bit of light that it produces
+
+725
+00:28:01,840 --> 00:28:06,840
+Gotcha. Okay.
+
+726
+00:28:05,100 --> 00:28:08,460
+She's very much that along those lines
+
+727
+00:28:06,840 --> 00:28:09,840
+So iOS, okay fine.
+
+728
+00:28:08,460 --> 00:28:16,420
+Don't care don't don't give it
+
+729
+00:28:09,840 --> 00:28:14,840
+iPad OS stage manager updates? Don't know. Don't use it. Don't use it.
+
+730
+00:28:14,840 --> 00:28:20,840
+I have an iPad Mini, so I can't use it. And I haven't used it on the...
+
+731
+00:28:15,560 --> 00:28:13,240
+[ Glasses Cl gorilla hearts cl pokemon singing judicial
+
+732
+00:28:16,060 --> 00:28:18,300
+(clanging)
+
+733
+00:28:16,420 --> 00:28:27,260
+There's a thing in settings somewhere, I don't know I
+
+734
+00:28:18,300 --> 00:28:32,280
+[ Silence ]
+
+735
+00:28:20,840 --> 00:28:24,840
+How do you even turn it on on the Mac? I don't even remember.
+
+736
+00:28:24,840 --> 00:28:27,840
+Yeah, so I haven't used that.
+
+737
+00:28:28,020 --> 00:28:33,200
+Did give it a shot on the Mac and I immediately decided this is so limiting compared to all the other
+
+738
+00:28:32,280 --> 00:28:42,260
+[ Silence ]
+
+739
+00:28:33,200 --> 00:28:37,060
+Window management tools available on the Mac. I don't want to do it
+
+740
+00:28:36,840 --> 00:28:41,920
+I didn't pay any attention to it, so I have no idea what's new there.
+
+741
+00:28:37,060 --> 00:28:47,900
+Yeah, don't know don't care the the iPad I don't really care about the only thing I am curious about is why
+
+742
+00:28:41,920 --> 00:29:05,160
+Yep.
+
+743
+00:28:42,260 --> 00:29:00,240
+[ Silence ]
+
+744
+00:28:47,900 --> 00:28:53,560
+Does the iPad get multiple timers now, but they didn't say anything about that on the iPhone
+
+745
+00:28:53,560 --> 00:28:55,800
+they also
+
+746
+00:28:55,800 --> 00:29:02,580
+Talked about working with PDFs on the iPad making them more editable like you can do more with with PDFs on the iPad
+
+747
+00:29:00,240 --> 00:29:16,220
+[ Silence ]
+
+748
+00:29:02,580 --> 00:29:05,400
+Which is nice because maybe I can quit paying for PDF expert
+
+749
+00:29:05,400 --> 00:29:09,220
+And I think they also said that will work on the Mac
+
+750
+00:29:06,080 --> 00:29:08,080
+Mm-hmm.
+
+751
+00:29:08,080 --> 00:29:14,880
+So, question.
+
+752
+00:29:09,220 --> 00:29:12,960
+But I never really saw if that's gonna work on the iPhone or not. I would hope so
+
+753
+00:29:12,960 --> 00:29:20,880
+Mm-hmm
+
+754
+00:29:14,880 --> 00:29:20,920
+Did they mention in the notes, so like their PDF, you know, better note integration with,
+
+755
+00:29:16,220 --> 00:29:18,220
+Thank you.
+
+756
+00:29:18,220 --> 00:29:30,200
+[ Silence ]
+
+757
+00:29:20,880 --> 00:29:21,380
+Mm-hmm.
+
+758
+00:29:20,920 --> 00:29:23,480
+better PDF integration with notes.
+
+759
+00:29:21,380 --> 00:29:31,080
+They did not say.
+
+760
+00:29:23,480 --> 00:29:25,940
+Did they announce searching?
+
+761
+00:29:25,940 --> 00:29:27,360
+Does search search?
+
+762
+00:29:27,360 --> 00:29:31,760
+Does it do OCR like Evernote does?
+
+763
+00:29:30,200 --> 00:29:52,180
+[ Silence ]
+
+764
+00:29:31,080 --> 00:29:36,640
+There's form fill features, right?
+
+765
+00:29:31,760 --> 00:29:33,320
+I didn't catch that.
+
+766
+00:29:33,320 --> 00:29:42,880
+form fill features, easier annotation stuff like that, which seems natural, given the
+
+767
+00:29:36,640 --> 00:29:37,140
+Editing.
+
+768
+00:29:37,140 --> 00:29:42,720
+Right, completely edit them.
+
+769
+00:29:42,720 --> 00:29:48,680
+Two things that would be nice that would
+
+770
+00:29:42,880 --> 00:29:44,320
+Apple Pencil and everything.
+
+771
+00:29:44,320 --> 00:29:46,220
+Yeah, so that sounds kind of cool.
+
+772
+00:29:46,220 --> 00:29:50,220
+I can use that.
+
+773
+00:29:48,680 --> 00:29:54,320
+allow me to get rid of PDF expert is being able to search in PDFs and also
+
+774
+00:29:50,220 --> 00:29:59,820
+[
+
+775
+00:29:52,180 --> 00:30:10,160
+[ Silence ]
+
+776
+00:29:54,320 --> 00:30:00,720
+being able to scan straight to PDF format
+
+777
+00:29:59,820 --> 00:30:00,820
+Mm-hmm]
+
+778
+00:30:00,720 --> 00:30:04,800
+directly from within notes or whatever
+
+779
+00:30:00,820 --> 00:30:05,260
+Yep, I can see that being useful.
+
+780
+00:30:04,800 --> 00:30:17,680
+oh that is true health going to the iPad is a good one yeah
+
+781
+00:30:05,260 --> 00:30:08,380
+Okay, so iOS sounds kind of cool.
+
+782
+00:30:08,380 --> 00:30:10,140
+iPadOS, okay, a couple things.
+
+783
+00:30:10,140 --> 00:30:12,860
+The health app, yeah, there are definitely times...
+
+784
+00:30:10,160 --> 00:30:22,140
+[ Silence ]
+
+785
+00:30:12,860 --> 00:30:17,840
+Yeah, and why?
+
+786
+00:30:17,680 --> 00:30:24,280
+One nice thing about it is that I have shortcuts that I can run that use health data, like
+
+787
+00:30:17,840 --> 00:30:24,840
+That doesn't seem all that big.
+
+788
+00:30:22,780 --> 00:30:35,440
+[ Silence ]
+
+789
+00:30:24,280 --> 00:30:27,940
+mostly to calculate because I'm very specific when I want to know how many calories I have
+
+790
+00:30:24,840 --> 00:30:36,840
+Right. Right.
+
+791
+00:30:27,940 --> 00:30:29,140
+left for the day.
+
+792
+00:30:29,140 --> 00:30:31,460
+I don't want to count all of my physical activity.
+
+793
+00:30:31,460 --> 00:30:35,540
+I only want to count my exercise, my workouts.
+
+794
+00:30:35,440 --> 00:30:45,420
+[ Silence ]
+
+795
+00:30:35,540 --> 00:30:40,260
+And so I have a shortcut that says, it looks at food DOM or whatever it's called.
+
+796
+00:30:36,840 --> 00:30:42,840
+Food noms!
+
+797
+00:30:40,260 --> 00:30:44,060
+And it says, yeah, it says, how many calories have you eaten today?
+
+798
+00:30:42,840 --> 00:30:58,840
+[silence]
+
+799
+00:30:44,060 --> 00:30:48,260
+And then it says, "How many calories have you burned in workouts today?"
+
+800
+00:30:45,420 --> 00:30:57,400
+[ Silence ]
+
+801
+00:30:48,260 --> 00:30:51,140
+And then it shows me what my remaining calories is.
+
+802
+00:30:51,140 --> 00:30:53,460
+That is something I can only run on my phone.
+
+803
+00:30:53,460 --> 00:30:56,940
+And it will be very nice when I can also, if I'm just reading on my iPad or something
+
+804
+00:30:56,940 --> 00:30:59,900
+and I'm curious, I can also run it there, for example.
+
+805
+00:30:57,400 --> 00:31:13,380
+[ Silence ]
+
+806
+00:30:58,840 --> 00:30:59,340
+Got it.
+
+807
+00:30:59,340 --> 00:31:02,840
+[silence]
+
+808
+00:30:59,900 --> 00:31:02,620
+Things like that, that never made sense not to have it on the iPad.
+
+809
+00:31:02,620 --> 00:31:09,620
+Yeah, that's nice. Okay, well let's talk about macOS then.
+
+810
+00:31:02,840 --> 00:31:04,140
+Yeah, I think it's gonna be cool.
+
+811
+00:31:04,140 --> 00:31:05,340
+But, you know, that's a no-brainer.
+
+812
+00:31:05,340 --> 00:31:06,340
+Multiple timers.
+
+813
+00:31:06,340 --> 00:31:06,840
+That's a-
+
+814
+00:31:06,840 --> 00:31:08,540
+I have them on my freaking watch!
+
+815
+00:31:08,540 --> 00:31:09,740
+Right?
+
+816
+00:31:09,620 --> 00:31:16,620
+Yeah, that's nice.
+
+817
+00:31:09,740 --> 00:31:10,440
+You know, so-
+
+818
+00:31:10,740 --> 00:31:13,220
+And I thought, oh that was another interesting thing.
+
+819
+00:31:13,220 --> 00:31:14,120
+Something else though.
+
+820
+00:31:13,380 --> 00:31:31,360
+[ Silence ]
+
+821
+00:31:14,120 --> 00:31:17,960
+The Apple TV screen savers coming to Mac OS.
+
+822
+00:31:16,620 --> 00:31:30,040
+Okay, well let's talk about macOS then.
+
+823
+00:31:17,960 --> 00:31:19,920
+That sounds kinda nice.
+
+824
+00:31:19,920 --> 00:31:21,280
+I could use those, you know?
+
+825
+00:31:21,280 --> 00:31:23,320
+So I think it's kind of interesting.
+
+826
+00:31:23,320 --> 00:31:28,100
+Yeah, well we sort of did and, did we?
+
+827
+00:31:28,100 --> 00:31:31,040
+Wait, no we talked about Macs, we didn't talk about Mac OS.
+
+828
+00:31:31,040 --> 00:31:34,180
+And yeah, dear listener, this is all over the place,
+
+829
+00:31:31,360 --> 00:31:49,340
+[ Silence ]
+
+830
+00:31:34,180 --> 00:31:35,720
+but that's always the case.
+
+831
+00:31:35,720 --> 00:31:37,260
+Because we're drinking beer.
+
+832
+00:31:37,360 --> 00:31:43,160
+drinking beer and we assume that we assume that you are too or that you have
+
+833
+00:31:39,640 --> 00:31:41,640
+We assume you are too.
+
+834
+00:31:41,640 --> 00:31:55,120
+Did we tell them that ahead of time?
+
+835
+00:31:43,160 --> 00:31:46,880
+in the past you know what what it's like no we assume that you've watched the
+
+836
+00:31:46,880 --> 00:31:50,700
+keynote we assume that you know kind of what we're talking about and that we're
+
+837
+00:31:50,180 --> 00:32:05,280
+[ Silence ]
+
+838
+00:31:50,700 --> 00:31:53,920
+just giving our opinions on those things
+
+839
+00:31:53,920 --> 00:31:56,840
+no
+
+840
+00:31:55,120 --> 00:32:01,120
+Like, hey, go listen to the keynote or watch the keynote before you listen to this episode.
+
+841
+00:31:56,840 --> 00:32:05,560
+okay Peter here let me make a gong and then you say it in a in an official way
+
+842
+00:32:01,120 --> 00:32:10,640
+Great.
+
+843
+00:32:05,280 --> 00:32:14,260
+[ Silence ]
+
+844
+00:32:05,560 --> 00:32:08,920
+as though this was the very beginning of the podcast and I will take that and I
+
+845
+00:32:08,920 --> 00:32:12,080
+will put it at the beginning so ready
+
+846
+00:32:10,640 --> 00:32:15,080
+Hey, welcome dear listener.
+
+847
+00:32:12,080 --> 00:32:22,060
+[ Silence ]
+
+848
+00:32:14,760 --> 00:32:20,460
+[ Silence ]
+
+849
+00:32:15,080 --> 00:32:16,440
+This is Peter.
+
+850
+00:32:16,440 --> 00:32:24,340
+Just in case you're wondering, this is going to be Scott and my reaction, not in real time
+
+851
+00:32:20,740 --> 00:32:26,840
+[ Silence ]
+
+852
+00:32:22,060 --> 00:32:40,040
+[ Silence ]
+
+853
+00:32:24,340 --> 00:32:30,500
+and certainly not a response, nothing so thoughtful, to today's WWDC keynote.
+
+854
+00:32:26,840 --> 00:32:38,820
+[ Silence ]
+
+855
+00:32:30,500 --> 00:32:33,540
+At least today is at the time that we're recording this.
+
+856
+00:32:33,540 --> 00:32:39,460
+So if you haven't already, we recommend that you go directly to Apple.com and find the
+
+857
+00:32:38,820 --> 00:32:56,800
+[ Silence ]
+
+858
+00:32:39,460 --> 00:32:40,460
+keynote.
+
+859
+00:32:40,040 --> 00:32:42,040
+You
+
+860
+00:32:40,460 --> 00:32:44,660
+As of right now, it's right on the homepage, so it really should be easy for you to find.
+
+861
+00:32:42,040 --> 00:32:56,840
+And dear listener don't worry I was totally only kidding about Peter sleeping with my wife
+
+862
+00:32:44,660 --> 00:32:50,540
+You have no excuse other than maybe not wanting to or, you know, not having the time or some
+
+863
+00:32:50,540 --> 00:32:51,540
+such.
+
+864
+00:32:51,540 --> 00:32:54,660
+So please, go ahead and do that now.
+
+865
+00:32:54,660 --> 00:32:59,860
+Oh boy.
+
+866
+00:32:56,800 --> 00:33:08,780
+[ Silence ]
+
+867
+00:32:56,840 --> 00:33:02,520
+Okay, I'll move that to the beginning so thank you
+
+868
+00:32:59,860 --> 00:33:04,580
+Great!
+
+869
+00:33:02,520 --> 00:33:05,440
+Not the joke part
+
+870
+00:33:05,220 --> 00:33:05,280
+i
+
+871
+00:33:05,280 --> 00:33:34,260
+[ Silence ]
+
+872
+00:33:05,440 --> 00:33:12,440
+Okay, the one thing I did like is that they finally are at least trying to address the horrible widget situation in Mac OS.
+
+873
+00:33:08,780 --> 00:33:23,760
+[ Silence ]
+
+874
+00:33:12,440 --> 00:33:19,940
+They're getting them out of that horrible long thing where notifications pop up and then your widgets move down and then you have these endless.
+
+875
+00:33:19,940 --> 00:33:24,440
+One thing they didn't talk about though was are they making the notification thing better on Mac OS?
+
+876
+00:33:23,760 --> 00:33:30,740
+[ Silence ]
+
+877
+00:33:24,440 --> 00:33:29,440
+Because on Mac OS, like at least on the iOS devices like the iPad and the...
+
+878
+00:33:29,440 --> 00:33:34,240
+Well, is that even true anymore? I was going to say, usually the notifications on one will
+
+879
+00:33:30,740 --> 00:33:41,720
+[ Silence ]
+
+880
+00:33:34,240 --> 00:33:38,420
+disappear if you respond to them on the other, but I'm not 100% sure the notifications always
+
+881
+00:33:34,260 --> 00:33:45,260
+[silence]
+
+882
+00:33:38,420 --> 00:33:42,540
+disappear on my iPad if I respond to them on my phone. But I know one thing's for sure,
+
+883
+00:33:41,720 --> 00:33:56,700
+[ Silence ]
+
+884
+00:33:42,540 --> 00:33:50,020
+they damn well don't disappear on the Mac when you respond to them on another. Yeah.
+
+885
+00:33:45,260 --> 00:33:47,960
+On the Mac, right, right.
+
+886
+00:33:47,960 --> 00:33:50,560
+Yeah, no, I think they do.
+
+887
+00:33:50,020 --> 00:33:56,400
+Badges do, yeah.
+
+888
+00:33:50,560 --> 00:33:53,160
+I'm pretty sure, well I know at least like badges and things do.
+
+889
+00:33:53,160 --> 00:33:54,560
+I don't remember the notifications.
+
+890
+00:33:54,560 --> 00:33:56,560
+Now I need to take a look.
+
+891
+00:33:56,400 --> 00:33:57,620
+But I'm not sure about notifications.
+
+892
+00:33:56,560 --> 00:33:57,060
+Yeah.
+
+893
+00:33:56,700 --> 00:34:14,680
+[ Silence ]
+
+894
+00:33:57,060 --> 00:34:26,420
+[silence]
+
+895
+00:33:57,620 --> 00:34:01,460
+But anyway, I would love for them to deal with the notification thing, but just making
+
+896
+00:34:01,460 --> 00:34:03,740
+the widgets better is pretty good.
+
+897
+00:34:03,740 --> 00:34:05,820
+So we'll have to see how that shakes out on Mac OS.
+
+898
+00:34:05,820 --> 00:34:07,220
+Will it make widgets more useful?
+
+899
+00:34:07,220 --> 00:34:08,220
+Maybe.
+
+900
+00:34:08,220 --> 00:34:12,140
+Anyway, I'm glad that they're at least addressing it and thinking about it.
+
+901
+00:34:12,140 --> 00:34:18,940
+I also like the fact that if your iPhone is nearby, you can use widgets that are really
+
+902
+00:34:14,680 --> 00:34:30,660
+[ Silence ]
+
+903
+00:34:18,940 --> 00:34:22,140
+only available on your iPhone, you can also use those on your Mac.
+
+904
+00:34:22,140 --> 00:34:26,100
+As long as your iPhone's nearby, you can use widgets that really only appear on your iPhone
+
+905
+00:34:26,100 --> 00:34:27,980
+on your Mac, which is pretty cool.
+
+906
+00:34:26,420 --> 00:34:31,540
+That was cool. That was pretty cool. I agree with you on that one. I look...
+
+907
+00:34:27,980 --> 00:34:28,980
+Yeah.
+
+908
+00:34:28,980 --> 00:34:39,740
+Because what if you... because who's going to put water llama on their friggin' Mac?
+
+909
+00:34:30,660 --> 00:34:44,640
+[ Silence ]
+
+910
+00:34:31,540 --> 00:34:39,140
+That's such a great name. And as you mentioned,
+
+911
+00:34:39,140 --> 00:34:46,260
+it should be Water Camel. But yeah, sure, Llama. Why not? Water Llama. Yeah, Water Llama.
+
+912
+00:34:39,740 --> 00:34:46,700
+It is a great name.
+
+913
+00:34:44,640 --> 00:34:56,620
+[ Silence ]
+
+914
+00:34:46,260 --> 00:34:55,060
+Anyway, yeah, no. But you had mentioned some time ago, you mentioned a lucid air.
+
+915
+00:34:46,700 --> 00:34:49,500
+water whatever
+
+916
+00:34:49,500 --> 00:34:57,820
+hmm
+
+917
+00:34:55,060 --> 00:35:00,500
+the world's most expensive electric vehicles and stuff.
+
+918
+00:34:56,620 --> 00:35:08,600
+[ Silence ]
+
+919
+00:34:57,820 --> 00:35:02,180
+did I I mentioned it
+
+920
+00:35:00,500 --> 00:35:06,900
+And when he was... you mentioned, now Peter you can get a Lucid Air or something.
+
+921
+00:35:02,180 --> 00:35:11,460
+oh right I was giving you Tesla options yeah
+
+922
+00:35:06,900 --> 00:35:13,860
+And coincidentally I... yeah, I had only just heard of it in the most recent, the annual
+
+923
+00:35:08,600 --> 00:35:26,580
+[ Silence ]
+
+924
+00:35:11,460 --> 00:35:27,860
+[Silence]
+
+925
+00:35:13,860 --> 00:35:16,500
+Consumer Reports vehicles issue.
+
+926
+00:35:16,500 --> 00:35:18,140
+I had only just heard of that then.
+
+927
+00:35:18,140 --> 00:35:20,060
+I was like, oh Scott heard of it.
+
+928
+00:35:20,060 --> 00:35:22,760
+I live in a cave obviously so that's why I haven't heard it.
+
+929
+00:35:22,760 --> 00:35:26,920
+Craig Federicchi's demonstration when he was demonstrating the vehicle widget, it was for
+
+930
+00:35:26,580 --> 00:35:44,560
+[ Silence ]
+
+931
+00:35:26,920 --> 00:35:44,460
+Lucid Air.
+
+932
+00:35:27,860 --> 00:35:31,380
+Yeah, I saw it, but Peter, let me ask you two things. Number one,
+
+933
+00:35:31,380 --> 00:35:34,500
+do you live in a cave because you're Batman? And number two,
+
+934
+00:35:34,500 --> 00:35:37,940
+is your Batmobile electric? So I guess I have three questions. And number three,
+
+935
+00:35:37,940 --> 00:35:42,420
+Do you really think that's Craig's? Do you really think that's what he really drives?
+
+936
+00:35:42,420 --> 00:35:48,820
+Because like is that guitar really his? Is that hair really his? You know lots of questions.
+
+937
+00:35:44,460 --> 00:35:47,020
+Why wouldn't he?
+
+938
+00:35:44,560 --> 00:35:57,540
+[ Silence ]
+
+939
+00:35:47,020 --> 00:35:49,020
+Why wouldn't he?
+
+940
+00:35:48,820 --> 00:35:58,580
+Yeah but I wonder if he was playing that guitar. Craig Federica I think used to be in a rock band.
+
+941
+00:35:49,020 --> 00:35:50,440
+I think it's his real hair.
+
+942
+00:35:50,440 --> 00:35:51,760
+I think that's his real hair.
+
+943
+00:35:51,760 --> 00:36:00,760
+That was definitely a fake guitar.
+
+944
+00:35:58,320 --> 00:36:25,900
+[ Silence ]
+
+945
+00:35:58,580 --> 00:35:59,860
+I'm not 100% sure on that.
+
+946
+00:36:00,760 --> 00:36:04,960
+I mean, does he at least play with a software called Rockband?
+
+947
+00:36:04,960 --> 00:36:10,060
+We could verify this.
+
+948
+00:36:06,420 --> 00:36:08,980
+Did Craig Federighi ever...
+
+949
+00:36:08,980 --> 00:36:12,820
+No, I'm asking Google.
+
+950
+00:36:10,060 --> 00:36:15,320
+Are you asking ChatGPT?
+
+951
+00:36:12,820 --> 00:36:16,500
+Craig Federighi...
+
+952
+00:36:15,320 --> 00:36:24,120
+Nice.
+
+953
+00:36:16,500 --> 00:36:19,780
+Accomplishments history.
+
+954
+00:36:19,780 --> 00:36:21,300
+Sometimes called Hair Force One.
+
+955
+00:36:21,300 --> 00:36:22,180
+Yes, we know that.
+
+956
+00:36:22,180 --> 00:36:26,580
+Public image...
+
+957
+00:36:25,900 --> 00:36:43,880
+[ Silence ]
+
+958
+00:36:26,580 --> 00:36:30,180
+It doesn't really say.
+
+959
+00:36:30,180 --> 00:36:30,660
+I don't know.
+
+960
+00:36:30,660 --> 00:36:31,940
+I like Craig Federighi though.
+
+961
+00:36:31,940 --> 00:36:33,620
+Anyway, if that wasn't him playing...
+
+962
+00:36:33,620 --> 00:36:35,140
+If he wasn't really playing the guitar,
+
+963
+00:36:35,140 --> 00:36:42,300
+They did a pretty good because his hands were it looked like he was doing the right things. He wasn't just doing guitar hero
+
+964
+00:36:42,300 --> 00:36:51,680
+I don't believe that
+
+965
+00:36:42,600 --> 00:36:49,940
+Was it like do you think he was really using that iPad like Thor throwing Mjolnir and having it come back to him as well?
+
+966
+00:36:43,880 --> 00:36:55,860
+[ Silence ]
+
+967
+00:36:49,940 --> 00:36:55,460
+Or more I guess more like Captain America's shield actually. That's the catch was a little more.
+
+968
+00:36:51,680 --> 00:36:57,340
+I don't believe that
+
+969
+00:36:55,460 --> 00:36:58,920
+Oh I thought that was real.
+
+970
+00:36:55,860 --> 00:37:14,840
+[ Silence ]
+
+971
+00:36:57,340 --> 00:37:03,940
+I love this. There's an article from 2016 in the ringer called apples. Craig Federicki is perfect and
+
+972
+00:37:04,380 --> 00:37:07,180
+And the snippet that shows on DuckDuckGo is,
+
+973
+00:37:07,180 --> 00:37:10,260
+"He went to UC Berkeley and I'm 95% sure
+
+974
+00:37:10,260 --> 00:37:12,900
+he was stoned a lot there."
+
+975
+00:37:12,120 --> 00:37:14,120
+*sigh*
+
+976
+00:37:12,900 --> 00:37:16,300
+"He's a fan of the awesome Canadian rock trio Rush,
+
+977
+00:37:14,120 --> 00:37:16,120
+*sigh*
+
+978
+00:37:14,840 --> 00:37:32,820
+[ Silence ]
+
+979
+00:37:16,120 --> 00:37:18,120
+*silence*
+
+980
+00:37:16,300 --> 00:37:18,860
+which is dorky but in a hot dad way."
+
+981
+00:37:18,120 --> 00:37:22,120
+What? Rush is dorky?
+
+982
+00:37:18,860 --> 00:37:20,020
+That's hilarious.
+
+983
+00:37:20,020 --> 00:37:26,020
+No, the fact that he loves Rush is dorky
+
+984
+00:37:22,120 --> 00:37:24,120
+Excuse me, who wrote this?
+
+985
+00:37:24,120 --> 00:37:26,120
+*silence*
+
+986
+00:37:26,020 --> 00:37:27,460
+but in a hot dad way.
+
+987
+00:37:26,120 --> 00:37:29,120
+I love Rush!
+
+988
+00:37:29,120 --> 00:37:32,120
+And I'm hot, but I'm not a dad. What the?
+
+989
+00:37:32,120 --> 00:37:34,120
+*scoffs*
+
+990
+00:37:32,820 --> 00:37:44,800
+[ Silence ]
+
+991
+00:37:32,900 --> 00:37:34,400
+Anyway, I'll put a link to this article.
+
+992
+00:37:34,120 --> 00:37:43,620
+[silence]
+
+993
+00:37:34,400 --> 00:37:35,240
+That's hilarious.
+
+994
+00:37:35,240 --> 00:37:37,200
+Apple's Craig Henry is perfect.
+
+995
+00:37:37,200 --> 00:37:39,000
+So what else?
+
+996
+00:37:39,000 --> 00:37:40,160
+What else do we want to talk about?
+
+997
+00:37:40,160 --> 00:37:41,380
+What do you think about gaming?
+
+998
+00:37:41,380 --> 00:37:45,120
+Do you think the fact that they have a metal conversion kit
+
+999
+00:37:43,620 --> 00:37:46,120
+Kojima-san.
+
+1000
+00:37:44,800 --> 00:38:02,780
+[ Silence ]
+
+1001
+00:37:45,120 --> 00:37:47,260
+Kojima-san!
+
+1002
+00:37:46,120 --> 00:37:55,620
+[silence]
+
+1003
+00:37:47,260 --> 00:37:50,500
+Do you think they're actually going to do you think any game makers are going to go?
+
+1004
+00:37:50,500 --> 00:37:53,880
+Oh, my God, Apple made it so easy for me to convert my games to metal now.
+
+1005
+00:37:53,880 --> 00:37:54,720
+Now I'm going to do it.
+
+1006
+00:37:54,720 --> 00:37:57,260
+Do you think do you think so?
+
+1007
+00:37:55,620 --> 00:38:00,620
+Haven't they been saying stuff like this, like, since the iMac?
+
+1008
+00:37:57,260 --> 00:38:02,680
+No, this is a new thing that's made
+
+1009
+00:38:00,620 --> 00:38:06,940
+[silence]
+
+1010
+00:38:02,680 --> 00:38:07,080
+that's made to convert your games to using metal specifically easier.
+
+1011
+00:38:02,780 --> 00:38:21,760
+[ Silence ]
+
+1012
+00:38:06,940 --> 00:38:12,020
+Okay, I was not paying any attention to that. I'm not a gamer anymore.
+
+1013
+00:38:07,080 --> 00:38:26,440
+Did you say ball-der with a D or baller?
+
+1014
+00:38:12,020 --> 00:38:18,100
+I play games every now and then. I play Baldur's Gate, which is, which was re-released in
+
+1015
+00:38:18,100 --> 00:38:22,280
+2014 and originally released in like 2001.
+
+1016
+00:38:21,760 --> 00:38:39,740
+[ Silence ]
+
+1017
+00:38:22,280 --> 00:38:25,340
+Baldur.
+
+1018
+00:38:26,440 --> 00:38:48,760
+You and your... you and your Norse gods.
+
+1019
+00:38:26,580 --> 00:38:33,160
+Durr as in the god of the Norse, you know, god of whatever he was who was killed by mistletoe
+
+1020
+00:38:33,160 --> 00:38:37,860
+I play that game and again
+
+1021
+00:38:37,860 --> 00:38:43,840
+That's something that was released like 20 years ago and then re-released remastered in like 2014 or something
+
+1022
+00:38:39,740 --> 00:38:57,720
+[ Silence ]
+
+1023
+00:38:43,840 --> 00:38:46,280
+That's the kind of game I play. I don't need
+
+1024
+00:38:46,280 --> 00:38:48,820
+metal or whatever
+
+1025
+00:38:48,760 --> 00:38:50,800
+You know what's really bad about my beer?
+
+1026
+00:38:48,820 --> 00:38:56,280
+That's not a bad thing that means it was a good thing so before we rush out to get another beer
+
+1027
+00:38:50,800 --> 00:38:51,800
+It's gone.
+
+1028
+00:38:51,800 --> 00:38:51,800
+It's all gone.
+
+1029
+00:38:51,800 --> 00:39:05,240
+Ooh!
+
+1030
+00:38:56,280 --> 00:39:00,440
+I'm going to follow up with a brew here. I have a spare at my standby.
+
+1031
+00:38:57,720 --> 00:39:06,700
+[ Silence ]
+
+1032
+00:39:00,440 --> 00:39:04,780
+It's a cup of Wegmans English Breakfast Black Tea.
+
+1033
+00:39:05,240 --> 00:39:09,560
+Well I am drinking a coffee that I've drunk on the show before, but right now I couldn't
+
+1034
+00:39:06,700 --> 00:39:18,680
+[ Silence ]
+
+1035
+00:39:09,560 --> 00:39:14,680
+tell you what it was without going to look, so I'm going to go search on friendswithbrews.com
+
+1036
+00:39:14,680 --> 00:39:17,840
+because I hear there's a wonderful search engine there.
+
+1037
+00:39:17,840 --> 00:39:19,800
+I'm going to search for coffee.
+
+1038
+00:39:18,680 --> 00:39:36,660
+[ Silence ]
+
+1039
+00:39:19,800 --> 00:39:21,800
+I think it's the S.O. blend.
+
+1040
+00:39:21,800 --> 00:39:24,000
+Yes, I'm drinking the S.O. blend.
+
+1041
+00:39:24,000 --> 00:39:26,280
+Coava Coffee Roasters S.O. blend.
+
+1042
+00:39:24,780 --> 00:39:26,780
+Cool over
+
+1043
+00:39:26,280 --> 00:39:27,940
+I've drank it before on this podcast.
+
+1044
+00:39:26,780 --> 00:39:35,240
+Okay
+
+1045
+00:39:27,940 --> 00:39:32,680
+It's honeycrisp apple, dark caramel, and chocolate covered fruits, Peter.
+
+1046
+00:39:32,680 --> 00:39:34,360
+It's a thing of beauty.
+
+1047
+00:39:34,360 --> 00:39:35,360
+I love their coffees.
+
+1048
+00:39:35,240 --> 00:39:40,860
+Oh wow, it's amazing. So
+
+1049
+00:39:35,360 --> 00:39:41,040
+And I love the website, by the way, with the search feature.
+
+1050
+00:39:36,660 --> 00:39:54,640
+[ Silence ]
+
+1051
+00:39:40,860 --> 00:39:45,540
+Some other yeah, yeah
+
+1052
+00:39:41,040 --> 00:39:42,880
+I wonder who put that on there.
+
+1053
+00:39:42,880 --> 00:39:43,880
+Hmm.
+
+1054
+00:39:43,880 --> 00:39:44,880
+Some genius.
+
+1055
+00:39:44,880 --> 00:39:45,880
+Most likely.
+
+1056
+00:39:45,540 --> 00:39:46,540
+Yeah, yeah.
+
+1057
+00:39:45,880 --> 00:39:46,880
+Hmm.
+
+1058
+00:39:46,540 --> 00:40:00,760
+Okay.
+
+1059
+00:39:46,880 --> 00:39:48,320
+Alright, it must be Craig Federighi.
+
+1060
+00:39:48,320 --> 00:39:53,920
+Here is perfect. So I did see some people complaining that Death Stranding has been out for a while blah blah blah
+
+1061
+00:39:53,920 --> 00:39:58,460
+But Kojima did say that they're gonna bring other games to it as well
+
+1062
+00:39:54,640 --> 00:40:12,620
+[ Silence ]
+
+1063
+00:39:58,460 --> 00:40:02,120
+So
+
+1064
+00:40:00,760 --> 00:40:02,760
+Yeah.
+
+1065
+00:40:02,120 --> 00:40:15,840
+I personally don't care. Yeah, I personally don't care
+
+1066
+00:40:02,760 --> 00:40:03,760
+Well, I think that makes sense.
+
+1067
+00:40:03,760 --> 00:40:05,280
+You know, if you're a gamer, that's great.
+
+1068
+00:40:05,280 --> 00:40:11,960
+You know, I know a lot of people have a Mac and would like to play PC games and/or Xbox
+
+1069
+00:40:11,960 --> 00:40:12,960
+games or whatnot.
+
+1070
+00:40:12,620 --> 00:40:26,600
+[ Silence ]
+
+1071
+00:40:13,000 --> 00:40:14,000
+But, yeah.
+
+1072
+00:40:14,000 --> 00:40:16,000
+I think that's what I think, too.
+
+1073
+00:40:16,000 --> 00:40:17,000
+So, you know, great.
+
+1074
+00:40:17,000 --> 00:40:18,000
+Good for them.
+
+1075
+00:40:17,580 --> 00:40:22,980
+The only game I want to play I want them to bring the bedrock edition of Minecraft to the Mac
+
+1076
+00:40:18,000 --> 00:40:46,000
+[silence]
+
+1077
+00:40:22,980 --> 00:40:28,100
+So that my daughter and I can play it and I can play it on my Mac and she can play it on her iPad Pro
+
+1078
+00:40:26,600 --> 00:40:44,580
+[ Silence ]
+
+1079
+00:40:28,100 --> 00:40:33,640
+But I can't the only version of Minecraft that will run on the Mac is Java Edition
+
+1080
+00:40:33,640 --> 00:40:38,840
+I don't want that and it's also not compatible with the bedrock version in terms of playing together
+
+1081
+00:40:38,840 --> 00:40:44,840
+Like we can't jump into the same world and all that. That's all I care about. I don't I just I don't care about games
+
+1082
+00:40:44,580 --> 00:40:56,560
+[ Silence ]
+
+1083
+00:40:44,840 --> 00:40:46,840
+I don't want to sit around playing games
+
+1084
+00:40:46,000 --> 00:40:48,000
+I'm with you.
+
+1085
+00:40:46,840 --> 00:41:02,680
+[silence]
+
+1086
+00:40:48,000 --> 00:40:55,000
+So, iOS, Mac OS, oh widgets? I do want to have widgets though. We touched on those.
+
+1087
+00:40:55,000 --> 00:41:00,000
+I can definitely see myself throwing some widgets. I remember back when Mac OS had widgets.
+
+1088
+00:40:56,560 --> 00:41:08,540
+[ Silence ]
+
+1089
+00:41:00,000 --> 00:41:03,000
+They were on their own home separate page.
+
+1090
+00:41:02,680 --> 00:41:06,680
+Oh yeah, they weren't called witches though. What were those things called? What was that view called?
+
+1091
+00:41:03,000 --> 00:41:11,000
+I don't know, but they were definitely widgets. They may not have been called widgets, but they were widgets.
+
+1092
+00:41:06,680 --> 00:41:14,760
+They were, yeah. I don't remember what that view was called, but eventually they got rid of it.
+
+1093
+00:41:08,540 --> 00:41:18,520
+[ Silence ]
+
+1094
+00:41:14,000 --> 00:41:21,000
+But it's gone now. But it's coming back. It's coming back to our desktop. So that's cool. So I'm happy about that.
+
+1095
+00:41:14,760 --> 00:41:25,760
+Let us talk about watchOS for us, yeah.
+
+1096
+00:41:18,520 --> 00:41:27,500
+[ Silence ]
+
+1097
+00:41:21,000 --> 00:41:25,000
+That's probably the coolest thing right there.
+
+1098
+00:41:25,000 --> 00:41:33,000
+Yeah, having the ability to scroll up on the home screen and see your widgets there. That's cool.
+
+1099
+00:41:25,760 --> 00:41:45,200
+[silence]
+
+1100
+00:41:28,160 --> 00:41:38,520
+[ Silence ]
+
+1101
+00:41:33,000 --> 00:41:37,000
+Start a timer and immediately scroll up and see it right there. Nice!
+
+1102
+00:41:37,000 --> 00:41:44,000
+That means when I teach yoga classes, I don't have to use a dedicated screen that has all of my timers as complications.
+
+1103
+00:41:38,520 --> 00:41:56,500
+[ Silence ]
+
+1104
+00:41:44,000 --> 00:41:45,000
+So I like that.
+
+1105
+00:41:45,000 --> 00:42:07,000
+[silence]
+
+1106
+00:41:45,200 --> 00:41:51,120
+And it means that instead of using the generally useless Siri watch face,
+
+1107
+00:41:51,120 --> 00:41:56,640
+now you'll use a smart stack if you want and what I don't know what they didn't show is can you build
+
+1108
+00:41:56,500 --> 00:41:58,560
+you
+
+1109
+00:41:56,640 --> 00:42:02,480
+your own stacks is it like the iphone where okay you can get a smart stack but you can also build
+
+1110
+00:41:58,560 --> 00:42:10,540
+[ Silence ]
+
+1111
+00:42:02,480 --> 00:42:06,240
+your own stacks with widgets that never go away they didn't address that so maybe not
+
+1112
+00:42:07,000 --> 00:42:08,840
+It uses machine learning.
+
+1113
+00:42:08,840 --> 00:42:13,040
+Back on that note, wait, sorry, back up, back to iOS 17.
+
+1114
+00:42:10,540 --> 00:42:28,520
+[ Silence ]
+
+1115
+00:42:13,040 --> 00:42:15,000
+Back to iOS, I missed something.
+
+1116
+00:42:15,000 --> 00:42:18,540
+Improvements to dictation and autocorrect and Siri.
+
+1117
+00:42:18,400 --> 00:42:21,280
+I was going to mention that and say we'll see how that goes, but...
+
+1118
+00:42:18,540 --> 00:42:22,920
+We'll believe it when we see it.
+
+1119
+00:42:21,280 --> 00:42:35,600
+But you know what though? They're using a large language model now, a specifically tuned
+
+1120
+00:42:22,920 --> 00:42:24,800
+But I mean, the fact that Craig said,
+
+1121
+00:42:24,800 --> 00:42:28,680
+"Sometimes you just wanna type a ducking word."
+
+1122
+00:42:28,520 --> 00:42:40,500
+[ Silence ]
+
+1123
+00:42:28,680 --> 00:42:29,880
+Okay, that was great.
+
+1124
+00:42:29,880 --> 00:42:30,700
+I know.
+
+1125
+00:42:30,700 --> 00:42:44,060
+Right.
+
+1126
+00:42:35,600 --> 00:42:40,720
+large language model for the auto-correction, which I think is not what they were doing before.
+
+1127
+00:42:40,500 --> 00:42:58,480
+[ Silence ]
+
+1128
+00:42:40,720 --> 00:42:46,720
+So there's actually some hope for it. Because although I may have to correct
+
+1129
+00:42:44,060 --> 00:42:57,540
+(sighs)
+
+1130
+00:42:47,280 --> 00:42:55,780
+ChatGPT when it tells me that to disable a site in nginx I need to go into the sites available directory instead of the sites enabled directory and remove a link
+
+1131
+00:42:55,780 --> 00:43:01,380
+and I have to tell it it's not the sites available directory you want it's the sites enabled directory
+
+1132
+00:42:57,540 --> 00:43:11,060
+Yeah, yeah.
+
+1133
+00:42:58,480 --> 00:43:16,460
+[ Silence ]
+
+1134
+00:43:01,380 --> 00:43:06,180
+that kind of stuff it might get confused about but it's pretty freaking good at language
+
+1135
+00:43:06,180 --> 00:43:10,580
+it can very eloquently express things that are incorrect to me
+
+1136
+00:43:10,580 --> 00:43:28,580
+[silence]
+
+1137
+00:43:11,060 --> 00:43:14,180
+I'm impressed that it got that close.
+
+1138
+00:43:14,180 --> 00:43:17,880
+Usually I think it doesn't get like, you know, this instead of that.
+
+1139
+00:43:16,460 --> 00:43:26,440
+[ Silence ]
+
+1140
+00:43:17,880 --> 00:43:19,280
+Usually it just makes up something else.
+
+1141
+00:43:19,280 --> 00:43:25,080
+It would be like the enabled sites directory or, you know, something else or, you know,
+
+1142
+00:43:25,080 --> 00:43:29,080
+like active sites directory, you know, something like that.
+
+1143
+00:43:26,440 --> 00:43:44,440
+[ Silence ]
+
+1144
+00:43:28,580 --> 00:43:33,580
+Somewhere along the line it read about, it saw the word "Engine X" and it saw the word "Sites available"
+
+1145
+00:43:29,080 --> 00:43:39,080
+Yeah, must be it. Done.
+
+1146
+00:43:33,580 --> 00:43:37,580
+and it thought that, whatever, I don't know how they trained those things, yeah.
+
+1147
+00:43:37,580 --> 00:43:41,460
+Anyway, watchOS does look good.
+
+1148
+00:43:39,080 --> 00:43:47,080
+Yep.
+
+1149
+00:43:41,460 --> 00:43:43,280
+Yeah, I like the redesign to the widgets.
+
+1150
+00:43:43,280 --> 00:43:47,280
+I like the redesign to some of the apps.
+
+1151
+00:43:44,940 --> 00:43:58,940
+[ Silence ]
+
+1152
+00:43:47,280 --> 00:43:49,960
+Vic pointed out to me, he was like, "Hey, did you see the cycling stuff?"
+
+1153
+00:43:49,960 --> 00:43:52,240
+And I'm like, "Yeah, that's great, but I don't bike outdoors anymore."
+
+1154
+00:43:52,240 --> 00:44:05,240
+[silence]
+
+1155
+00:43:53,080 --> 00:43:56,440
+Yeah, none of the fitness stuff.
+
+1156
+00:43:56,440 --> 00:43:57,960
+I was like, okay, whatever.
+
+1157
+00:43:57,960 --> 00:44:00,600
+I mean, every now and then, I still cycle
+
+1158
+00:43:58,940 --> 00:44:08,940
+[ Silence ]
+
+1159
+00:44:00,600 --> 00:44:02,900
+and I'll mountain bike from time to time,
+
+1160
+00:44:02,900 --> 00:44:06,720
+but none of that had me up in arms or whatever.
+
+1161
+00:44:05,240 --> 00:44:15,240
+See, in the past I would have liked the fact that now it could connect to and read your Bluetooth accessories like your speed and cadence sensors, but I don't even have an outdoor bike at the moment.
+
+1162
+00:44:06,720 --> 00:44:14,560
+Mm-hmm.
+
+1163
+00:44:08,940 --> 00:44:26,920
+[ Silence ]
+
+1164
+00:44:14,560 --> 00:44:16,840
+Mm.
+
+1165
+00:44:15,240 --> 00:44:22,120
+So, you know, it's not that I am not glad that they did that I am glad it's just I
+
+1166
+00:44:16,840 --> 00:44:18,760
+Wow.
+
+1167
+00:44:18,760 --> 00:44:20,940
+(silence)
+
+1168
+00:44:20,940 --> 00:44:39,780
+Okay.
+
+1169
+00:44:22,120 --> 00:44:29,760
+never gonna use those things and I'm wondering how it's generating its estimates for functional threshold power because
+
+1170
+00:44:26,920 --> 00:44:38,900
+[ Silence ]
+
+1171
+00:44:29,760 --> 00:44:36,120
+There are very expensive power meters that you can buy that go into your pedals on
+
+1172
+00:44:36,120 --> 00:44:44,160
+road bikes that are specifically for calculating how much wattage you're generating your body how much power you're outputting and
+
+1173
+00:44:38,900 --> 00:44:47,880
+[ Silence ]
+
+1174
+00:44:39,780 --> 00:44:44,280
+Hm.
+
+1175
+00:44:44,280 --> 00:44:55,960
+[silence]
+
+1176
+00:44:45,160 --> 00:44:50,220
+They cost a lot of money, so I'm curious as to how accurate this thing really is, but it's it's interesting
+
+1177
+00:44:47,880 --> 00:44:56,860
+[ Silence ]
+
+1178
+00:44:50,220 --> 00:44:55,340
+Anyway, uh, you said something about waypoints. What's so great about cellular waypoints?
+
+1179
+00:44:55,340 --> 00:45:09,080
+Oh, okay
+
+1180
+00:44:55,960 --> 00:45:00,760
+Waypoints, like telling you the last time when you're out in the backcountry
+
+1181
+00:44:56,860 --> 00:45:14,840
+[ Silence ]
+
+1182
+00:45:00,760 --> 00:45:06,520
+how the watch will automatically mark a place like this was the last place you had cell signal.
+
+1183
+00:45:06,520 --> 00:45:12,680
+So if you get lost and you need to make a phone call and get you back there or even like here,
+
+1184
+00:45:09,080 --> 00:45:18,840
+I broke my leg all I have to do is get up and hike 20 miles back to that place where
+
+1185
+00:45:12,680 --> 00:45:17,480
+you can make a GPS call from here. So that was pretty cool.
+
+1186
+00:45:14,840 --> 00:45:23,820
+[ Silence ]
+
+1187
+00:45:17,480 --> 00:45:29,240
+Perfect! That reminds me, I have still not yet actually tried the SOS feature or
+
+1188
+00:45:18,840 --> 00:45:21,120
+I lost that cellular connection.
+
+1189
+00:45:21,120 --> 00:45:22,120
+Yes!
+
+1190
+00:45:22,120 --> 00:45:23,120
+Saved!
+
+1191
+00:45:23,120 --> 00:45:24,120
+Peter.
+
+1192
+00:45:23,820 --> 00:45:41,800
+[ Silence ]
+
+1193
+00:45:24,120 --> 00:45:25,120
+Peter.
+
+1194
+00:45:25,120 --> 00:45:40,120
+Peter, Peter, Peter, it's time for you to find out how much the Massachusetts emergency
+
+1195
+00:45:29,240 --> 00:45:35,900
+the alarm on the Ultra. The two things, like the reasons that I bought these
+
+1196
+00:45:35,900 --> 00:45:39,720
+things, I don't even know if they work yet.
+
+1197
+00:45:39,720 --> 00:45:48,400
+I'll just call 911 or... oh brother.
+
+1198
+00:45:40,120 --> 00:45:45,680
+services actually cares about you.
+
+1199
+00:45:41,800 --> 00:45:59,780
+[ Silence ]
+
+1200
+00:45:45,680 --> 00:45:51,360
+See if anyone shows up.
+
+1201
+00:45:48,400 --> 00:45:52,400
+SOS yourself, jeez.
+
+1202
+00:45:51,360 --> 00:45:53,880
+If people are walking by you on the path going, "Why are you staring at the sky?
+
+1203
+00:45:52,400 --> 00:46:01,200
+No one's coming, no one loves me.
+
+1204
+00:45:53,880 --> 00:45:55,760
+I'm waiting for a helicopter and nobody's coming.
+
+1205
+00:45:55,760 --> 00:45:59,020
+No one cares.
+
+1206
+00:45:59,020 --> 00:46:02,160
+Damn it. Oh, my God.
+
+1207
+00:45:59,780 --> 00:46:11,760
+[ Silence ]
+
+1208
+00:46:01,200 --> 00:46:05,000
+Oh boy.
+
+1209
+00:46:02,160 --> 00:46:05,200
+OK, so let's talk about the headset in the room.
+
+1210
+00:46:05,000 --> 00:46:07,000
+[laughs]
+
+1211
+00:46:05,200 --> 00:46:07,300
+Let's talk about the headset in the room.
+
+1212
+00:46:07,000 --> 00:46:09,360
+Yeah
+
+1213
+00:46:07,300 --> 00:46:09,300
+[laughter]
+
+1214
+00:46:09,300 --> 00:46:30,980
+No, and I think that
+
+1215
+00:46:09,360 --> 00:46:16,640
+Okay, as is often the case, you know, the Steve Jobs reality distortion effect still
+
+1216
+00:46:11,760 --> 00:46:29,740
+[ Silence ]
+
+1217
+00:46:16,640 --> 00:46:19,520
+persists and as I was watching that
+
+1218
+00:46:19,520 --> 00:46:25,360
+demonstration I was like, yeah, I could I could see myself with one of those but right now
+
+1219
+00:46:25,360 --> 00:46:28,840
+I don't want to spend three grand on something or three and a half grand as the case might be
+
+1220
+00:46:28,840 --> 00:46:48,120
+be.
+
+1221
+00:46:29,740 --> 00:46:47,720
+[ Silence ]
+
+1222
+00:46:30,980 --> 00:46:32,740
+I think that
+
+1223
+00:46:32,740 --> 00:46:36,660
+This is not an original idea. A lot of people have already said this. This is step one
+
+1224
+00:46:36,660 --> 00:46:42,000
+in a long series of steps just like the original Mac was a boxy little
+
+1225
+00:46:42,000 --> 00:46:46,720
+underpowered undermemoried overpriced step towards a very useful Macintosh
+
+1226
+00:46:46,720 --> 00:46:51,400
+computer this is a first step towards a future where you can see things in your
+
+1227
+00:46:47,720 --> 00:46:59,700
+[ Silence ]
+
+1228
+00:46:48,120 --> 00:47:10,120
+[silence]
+
+1229
+00:46:51,400 --> 00:46:56,720
+eyes augmented over you know your reality that you can still see and being
+
+1230
+00:46:56,720 --> 00:47:00,720
+able to move your hands and do things to control them that future will get here
+
+1231
+00:46:59,700 --> 00:47:11,680
+[ Silence ]
+
+1232
+00:47:00,720 --> 00:47:04,640
+but this is step one and it's not palatable for a lot of people both
+
+1233
+00:47:04,640 --> 00:47:09,360
+because of price and because of clunkiness. It's a gigantic... this looks like a gaming headset.
+
+1234
+00:47:09,360 --> 00:47:21,360
+Oh yeah, it is not only the most stylish, it definitely has the best hardware and they
+
+1235
+00:47:10,120 --> 00:47:16,440
+Yes, that said, out of all the VR headsets I have seen, this is the most stylish.
+
+1236
+00:47:11,680 --> 00:47:29,660
+[ Silence ]
+
+1237
+00:47:16,440 --> 00:47:29,960
+Right.
+
+1238
+00:47:21,360 --> 00:47:25,200
+definitely went the extra mile on everything. And that is why I was not surprised when they said
+
+1239
+00:47:25,200 --> 00:47:30,480
+$3499. I was actually thinking this could cost close to five grand at one point. They went out
+
+1240
+00:47:29,660 --> 00:47:45,640
+[ Silence ]
+
+1241
+00:47:29,960 --> 00:47:46,960
+[silence]
+
+1242
+00:47:30,480 --> 00:47:36,280
+out of their way to point out all these potential use cases like this will be
+
+1243
+00:47:36,280 --> 00:47:39,440
+great for work this will be great for entertainment this will be great for
+
+1244
+00:47:39,440 --> 00:47:42,520
+games this will be great for calls this will be great for all these things one
+
+1245
+00:47:42,520 --> 00:47:45,840
+thing they didn't talk about was when you make a FaceTime call what do the
+
+1246
+00:47:45,640 --> 00:48:03,620
+[ Silence ]
+
+1247
+00:47:45,840 --> 00:47:50,880
+other people see did they
+
+1248
+00:47:46,960 --> 00:47:54,960
+I thought they did talk about that. I thought they said that, yeah, it renders your avatar of some sort.
+
+1249
+00:47:50,880 --> 00:47:56,840
+that's a bad experience for the other person
+
+1250
+00:47:54,960 --> 00:47:58,460
+I mean, not if they've done a really good job and they've nailed it.
+
+1251
+00:47:56,840 --> 00:48:05,240
+[silence]
+
+1252
+00:47:58,460 --> 00:48:04,960
+If what I'm thinking is what they're going to be doing, though, you know, they're essentially basically deep faking you.
+
+1253
+00:48:03,620 --> 00:48:13,600
+[ Silence ]
+
+1254
+00:48:04,960 --> 00:48:14,960
+There you go.
+
+1255
+00:48:05,240 --> 00:48:07,800
+"Vision Pro FaceTime call."
+
+1256
+00:48:07,800 --> 00:48:12,280
+"Apple's Vision Pro headset will turn you into a digital avatar when FaceTiming."
+
+1257
+00:48:12,280 --> 00:48:14,040
+You're absolutely right. This is from The Verge.
+
+1258
+00:48:13,600 --> 00:48:19,580
+[ Silence ]
+
+1259
+00:48:14,040 --> 00:48:18,760
+[silence]
+
+1260
+00:48:14,960 --> 00:48:18,460
+See, I may not read your text messages, but I get video.
+
+1261
+00:48:18,460 --> 00:48:23,460
+It's an AI-generated avatar of you.
+
+1262
+00:48:18,760 --> 00:48:20,680
+Oh my god, it looks kind of creepy though.
+
+1263
+00:48:20,100 --> 00:48:32,100
+[ Silence ]
+
+1264
+00:48:20,680 --> 00:48:23,240
+[silence]
+
+1265
+00:48:23,240 --> 00:48:24,520
+Oh, I see.
+
+1266
+00:48:23,460 --> 00:48:30,740
+Yeah, it deepfakes you.
+
+1267
+00:48:24,520 --> 00:48:29,260
+You point the thing at yourself let it generate the avatar and then from then on it uses that
+
+1268
+00:48:29,260 --> 00:48:43,880
+The price yeah vic missed it, too
+
+1269
+00:48:30,740 --> 00:48:37,700
+So as you know, I had to jump to a call right at the very end, so I literally missed the
+
+1270
+00:48:37,700 --> 00:48:44,320
+last minute of the presentation where they announced the price.
+
+1271
+00:48:43,880 --> 00:48:48,600
+I don't know to be honest
+
+1272
+00:48:44,320 --> 00:48:45,520
+When is it available?
+
+1273
+00:48:45,520 --> 00:48:49,580
+Is it available next week like everything else?
+
+1274
+00:48:45,960 --> 00:49:03,940
+[ Silence ]
+
+1275
+00:48:48,600 --> 00:48:53,240
+I missed that part of it too because so many people were messaging me that I i'm a monotasker now
+
+1276
+00:48:49,580 --> 00:49:02,020
+Huh, so like if you get messages and stuff, and if you get more than one message at a
+
+1277
+00:48:53,240 --> 00:48:56,320
+I can't I can't do too many things at once anymore
+
+1278
+00:48:56,320 --> 00:49:07,320
+If I'm reading a message no because I know that there's more than one and I scroll up
+
+1279
+00:49:02,020 --> 00:49:08,660
+time you might miss one?
+
+1280
+00:49:03,940 --> 00:49:06,000
+you
+
+1281
+00:49:06,000 --> 00:49:15,980
+[ Silence ]
+
+1282
+00:49:07,320 --> 00:49:11,900
+That's a lot different than trying to listen to something and reading at the same time
+
+1283
+00:49:08,660 --> 00:49:17,900
+Anyway, I think it looks cool.
+
+1284
+00:49:11,900 --> 00:49:14,540
+No, I don't miss messages
+
+1285
+00:49:14,540 --> 00:49:26,340
+[silence]
+
+1286
+00:49:15,980 --> 00:49:33,960
+[ Silence ]
+
+1287
+00:49:17,900 --> 00:49:20,780
+I am definitely more interested in it now.
+
+1288
+00:49:20,780 --> 00:49:25,420
+I do not think I will be buying version one of this product.
+
+1289
+00:49:25,420 --> 00:49:29,900
+Just like any Apple.
+
+1290
+00:49:26,340 --> 00:49:28,740
+It says "Vision Pro will be available sometime next year."
+
+1291
+00:49:28,740 --> 00:49:30,840
+Yeah, I can't justify... I can't...
+
+1292
+00:49:29,900 --> 00:49:30,180
+Next year.
+
+1293
+00:49:30,180 --> 00:49:49,660
+[silence]
+
+1294
+00:49:30,840 --> 00:49:34,540
+This is money that if I had, it would be going straight into my daughter's college fund.
+
+1295
+00:49:33,960 --> 00:49:52,940
+[ Silence ]
+
+1296
+00:49:34,540 --> 00:49:37,940
+It would not be going to Apple for a headset.
+
+1297
+00:49:37,940 --> 00:49:41,640
+And someone on Mastodon said, "Hey, did it bother anyone else?
+
+1298
+00:49:41,640 --> 00:49:46,600
+Am I the only one that was bothered by the guy playing with his child while staring through this thing at them?
+
+1299
+00:49:46,600 --> 00:49:49,240
+And i'm like no that really bugged the hell out of me, too
+
+1300
+00:49:49,240 --> 00:49:54,520
+for wearing around the house and interacting with other humans this thing has to
+
+1301
+00:49:49,660 --> 00:49:50,300
+Hmm.
+
+1302
+00:49:50,300 --> 00:49:58,820
+[silence]
+
+1303
+00:49:52,940 --> 00:50:10,920
+[ Silence ]
+
+1304
+00:49:54,520 --> 00:49:58,680
+This is where apple has to start now. I totally get why they release this now
+
+1305
+00:49:58,680 --> 00:50:02,840
+But it's not going to be socially acceptable until it gets to the end point of it
+
+1306
+00:49:58,820 --> 00:49:59,820
+[sigh]
+
+1307
+00:49:59,820 --> 00:50:05,020
+[silence]
+
+1308
+00:50:02,840 --> 00:50:04,840
+Looks like a pair of glasses that you're wearing
+
+1309
+00:50:04,840 --> 00:50:22,840
+[Silence]
+
+1310
+00:50:05,020 --> 00:50:14,420
+You say that now, but in 2007 it was not socially acceptable to be having a conversation while doing this all the time.
+
+1311
+00:50:10,920 --> 00:50:26,900
+[ Silence ]
+
+1312
+00:50:14,420 --> 00:50:20,820
+And dear listener, you can't see me. I'm staring at my phone and not even looking at Scott while I talk to him.
+
+1313
+00:50:20,820 --> 00:50:23,220
+And people do this all the time.
+
+1314
+00:50:22,840 --> 00:50:28,840
+But Peter, human beings have this instinctive thing about other human faces.
+
+1315
+00:50:23,220 --> 00:50:28,420
+[silence]
+
+1316
+00:50:26,900 --> 00:50:36,880
+[ Silence ]
+
+1317
+00:50:28,420 --> 00:50:28,920
+Yeah.
+
+1318
+00:50:28,840 --> 00:50:33,340
+And it doesn't matter if you're--when you're staring at your phone, you still have a normal human face.
+
+1319
+00:50:28,920 --> 00:50:39,420
+[silence]
+
+1320
+00:50:33,340 --> 00:50:39,180
+But when you cover up part of your face, it removes the idea that you're really interacting from me
+
+1321
+00:50:36,880 --> 00:50:45,860
+[ Silence ]
+
+1322
+00:50:39,180 --> 00:50:43,180
+Yeah, but that's ex-
+
+1323
+00:50:39,420 --> 00:50:42,420
+Didn't you used to go snowboarding?
+
+1324
+00:50:42,420 --> 00:50:45,420
+You ever talk to people while you were wearing your goggles?
+
+1325
+00:50:43,180 --> 00:50:47,700
+And that's totally expected because society expects it
+
+1326
+00:50:45,420 --> 00:50:48,220
+[silence]
+
+1327
+00:50:45,860 --> 00:50:51,840
+[ Silence ]
+
+1328
+00:50:47,700 --> 00:50:52,140
+But if you're just standing in your kitchen and the entire top of the head is covered
+
+1329
+00:50:48,220 --> 00:50:51,920
+This will change.
+
+1330
+00:50:51,840 --> 00:51:02,820
+[ Silence ]
+
+1331
+00:50:51,920 --> 00:50:53,420
+It will change.
+
+1332
+00:50:52,140 --> 00:50:56,400
+I know but it still bugged the hell out of me. It just bugged me
+
+1333
+00:50:53,420 --> 00:50:55,420
+[silence]
+
+1334
+00:50:55,420 --> 00:51:00,260
+I'm not saying it's right, and I'm not saying it's not going to bug me when it happens,
+
+1335
+00:50:56,400 --> 00:51:07,200
+[silence]
+
+1336
+00:51:00,260 --> 00:51:01,820
+but it will change.
+
+1337
+00:51:01,820 --> 00:51:07,140
+People will just adapt and we will become more disconnected and more rude and less engaged.
+
+1338
+00:51:02,820 --> 00:51:20,800
+[ Silence ]
+
+1339
+00:51:07,140 --> 00:51:28,140
+[silence]
+
+1340
+00:51:07,200 --> 00:51:13,840
+But what I'm saying is, to me, interacting with your own flesh and blood child,
+
+1341
+00:51:13,840 --> 00:51:18,560
+a small human being who's learning from everything that you're doing in front of them,
+
+1342
+00:51:18,560 --> 00:51:24,320
+that to me is worse than looking at your phone. I mean, looking at the phone and clearly not paying
+
+1343
+00:51:20,800 --> 00:51:30,780
+[ Silence ]
+
+1344
+00:51:24,320 --> 00:51:38,480
+attention to the child bad enough but having your eyes covered
+
+1345
+00:51:28,140 --> 00:51:30,940
+I think it's the exact same thing.
+
+1346
+00:51:30,780 --> 00:51:49,760
+[ Silence ]
+
+1347
+00:51:30,940 --> 00:51:32,440
+I think it's the exact same thing,
+
+1348
+00:51:32,440 --> 00:51:35,140
+because if you're interacting with your child and look at your phone,
+
+1349
+00:51:35,140 --> 00:51:39,380
+you're teaching your child that it's okay to not be engaging with the person you're talking to.
+
+1350
+00:51:38,480 --> 00:51:42,560
+because your phone goes down from time to time this thing
+
+1351
+00:51:39,380 --> 00:52:08,020
+[silence]
+
+1352
+00:51:42,560 --> 00:51:47,840
+stays on your face it doesn't go away so a hundred percent of the time you're
+
+1353
+00:51:47,840 --> 00:51:50,800
+saying i'm not interacting with you don't expect
+
+1354
+00:51:49,760 --> 00:52:01,740
+[ Silence ]
+
+1355
+00:51:50,800 --> 00:51:54,080
+a hell of a lot from me and by the way if it seems like i'm interacting with
+
+1356
+00:51:54,080 --> 00:51:57,240
+with you maybe I am but maybe I'm also looking something else this is worse
+
+1357
+00:51:57,240 --> 00:52:01,920
+than the phone because they can never see your eyes move away from it to them
+
+1358
+00:52:01,740 --> 00:52:03,920
+(silence)
+
+1359
+00:52:01,920 --> 00:52:05,880
+which with the phone even the most inattentive parent will occasionally
+
+1360
+00:52:03,920 --> 00:52:18,920
+[ Silence ]
+
+1361
+00:52:05,880 --> 00:52:09,600
+glance up and pretend to listen to the child
+
+1362
+00:52:08,020 --> 00:52:12,740
+But I thought when someone else got close to you, your eyes were visible to them.
+
+1363
+00:52:09,600 --> 00:52:15,940
+it does but it's still when they were showing that guy interacting with the
+
+1364
+00:52:12,740 --> 00:52:25,880
+All right.
+
+1365
+00:52:15,940 --> 00:52:19,100
+child you couldn't see it until they did the close-up of the guy it still just
+
+1366
+00:52:18,920 --> 00:52:20,420
+[ Glasses clinking ]
+
+1367
+00:52:19,100 --> 00:52:21,720
+looked like he was being an ******** in his own home not paying attention to his
+
+1368
+00:52:20,920 --> 00:52:38,900
+[ Silence ]
+
+1369
+00:52:21,720 --> 00:52:25,480
+family. That's literally what it looked like. I'm just saying that it is
+
+1370
+00:52:25,480 --> 00:52:30,120
+something that I don't think Apple can hand wave away.
+
+1371
+00:52:25,880 --> 00:52:34,020
+I would not have thought 20 years ago if you told me that anybody, you know,
+
+1372
+00:52:30,120 --> 00:52:48,920
+But is that really okay? Is that really something we want to make even worse?
+
+1373
+00:52:34,020 --> 00:52:37,460
+it's going to be totally cool for people to be staring at their phone while they're
+
+1374
+00:52:37,460 --> 00:52:41,540
+supposed to be having a conversation with you that that would be okay, but somehow it is.
+
+1375
+00:52:38,900 --> 00:52:48,880
+[ Silence ]
+
+1376
+00:52:41,540 --> 00:52:45,400
+No!
+
+1377
+00:52:45,400 --> 00:52:53,220
+I remember like I was teaching a yoga class a couple of years ago and I walked into the
+
+1378
+00:52:48,880 --> 00:52:58,860
+[ Silence ]
+
+1379
+00:52:48,920 --> 00:52:50,920
+[silence]
+
+1380
+00:52:50,920 --> 00:53:02,900
+[ Silence ]
+
+1381
+00:52:53,220 --> 00:53:01,140
+studio and I had my phone and I before I said anything else to anybody I said to the students
+
+1382
+00:52:58,860 --> 00:53:16,840
+[ Silence ]
+
+1383
+00:53:01,140 --> 00:53:07,220
+there I said first off I just want you to know I forgot my printed lesson plan so I'm calling it
+
+1384
+00:53:02,900 --> 00:53:21,900
+[Silence]
+
+1385
+00:53:07,220 --> 00:53:11,520
+it up here and I will be referring to my notes on my phone tonight."
+
+1386
+00:53:11,520 --> 00:53:17,100
+And one of the students looked up and said, "Is it bad that I didn't even think anything
+
+1387
+00:53:16,840 --> 00:53:26,820
+[ Silence ]
+
+1388
+00:53:17,100 --> 00:53:20,380
+of you looking at your phone?"
+
+1389
+00:53:20,380 --> 00:53:23,080
+And I was like, "Yeah, maybe."
+
+1390
+00:53:21,900 --> 00:53:26,900
+Did you just say "get out"? You threw them out. Get away from me.
+
+1391
+00:53:23,080 --> 00:53:27,840
+Kind of.
+
+1392
+00:53:26,820 --> 00:53:40,800
+[ Silence ]
+
+1393
+00:53:26,900 --> 00:53:28,900
+me.
+
+1394
+00:53:27,840 --> 00:53:30,880
+So watchOS widgets, that looks cool.
+
+1395
+00:53:28,900 --> 00:53:44,240
+Yeah, and I like the fact that if you are obviously detained it gives you an
+
+1396
+00:53:30,880 --> 00:53:33,800
+Scrolling up to find your stuff, that looks cool.
+
+1397
+00:53:33,800 --> 00:53:34,800
+Safety features.
+
+1398
+00:53:34,800 --> 00:53:36,400
+Oh, the new safety features.
+
+1399
+00:53:36,400 --> 00:53:41,640
+Check in, the check in feature, I'm on my way home, I should be home by around 11.
+
+1400
+00:53:40,800 --> 00:53:58,780
+[ Silence ]
+
+1401
+00:53:41,640 --> 00:53:51,080
+Right, oh, he's in traffic, okay, fine.
+
+1402
+00:53:44,240 --> 00:53:49,180
+opportunity to say, "Hey, add more time to this so they don't panic."
+
+1403
+00:53:49,180 --> 00:54:00,620
+Well, then it doesn't, then you don't update it.
+
+1404
+00:53:51,080 --> 00:53:56,600
+Now what if you're getting kidnapped and the kidnapper just pulls off to the side of the
+
+1405
+00:53:56,600 --> 00:53:58,600
+road?
+
+1406
+00:53:58,600 --> 00:54:06,120
+Well, it stopped.
+
+1407
+00:53:58,780 --> 00:54:16,760
+[ Silence ]
+
+1408
+00:54:00,620 --> 00:54:04,420
+And then you also the people on the other end get a notification of saying, Hey, this
+
+1409
+00:54:04,420 --> 00:54:08,620
+guy's not getting where they're said they were going to.
+
+1410
+00:54:06,120 --> 00:54:08,440
+But they can tell that you're not stuck in traffic.
+
+1411
+00:54:08,440 --> 00:54:09,440
+That's right.
+
+1412
+00:54:08,620 --> 00:54:10,740
+Yeah.
+
+1413
+00:54:09,440 --> 00:54:10,440
+Okay.
+
+1414
+00:54:10,440 --> 00:54:11,440
+So yeah.
+
+1415
+00:54:10,740 --> 00:54:16,580
+[silence]
+
+1416
+00:54:11,440 --> 00:54:19,800
+But what if you get kidnapped and they wisely detain you in an area with a lot of traffic?
+
+1417
+00:54:16,580 --> 00:54:20,020
+Well yeah, but if the traffic is going loop-de-loop around the
+
+1418
+00:54:16,760 --> 00:54:35,740
+[ Silence ]
+
+1419
+00:54:19,800 --> 00:54:24,480
+Perfect.
+
+1420
+00:54:20,020 --> 00:54:23,940
+fountain in main square and obviously not heading towards your home, it's still
+
+1421
+00:54:23,940 --> 00:54:26,500
+going to be obvious to them that something's wrong.
+
+1422
+00:54:24,480 --> 00:54:26,480
+Perfect.
+
+1423
+00:54:26,480 --> 00:54:27,280
+[laughs]
+
+1424
+00:54:26,500 --> 00:54:30,660
+Unless the kidnapper wants to go to your house for some reason, "Hey let's take you
+
+1425
+00:54:27,280 --> 00:54:53,960
+Mm-hmm.
+
+1426
+00:54:30,660 --> 00:54:33,300
+home!" "You bastard, I'm taking you home. This will show you."
+
+1427
+00:54:33,300 --> 00:54:37,700
+You know, they'll know. But anyway, going back to the headset, I just want to say
+
+1428
+00:54:35,740 --> 00:54:45,720
+[ Silence ]
+
+1429
+00:54:37,700 --> 00:54:42,580
+Even though this is not a product for me, and even though I think this is not a product for most people for a long time,
+
+1430
+00:54:42,580 --> 00:54:47,380
+I think there will be many iterations before many people want to buy this product.
+
+1431
+00:54:45,720 --> 00:55:03,700
+[ Silence ]
+
+1432
+00:54:47,380 --> 00:54:53,740
+It really does look like Apple did it right. It really does look like this is better than what's already there.
+
+1433
+00:54:53,740 --> 00:54:55,460
+It's certainly better hardware.
+
+1434
+00:54:53,960 --> 00:55:00,960
+Yep.
+
+1435
+00:54:55,460 --> 00:55:00,180
+But it looks like if the software works the way they showed, with the hand gestures, with the movements,
+
+1436
+00:55:00,180 --> 00:55:06,540
+with the being able to focus on different things and rearrange your desktop and all that stuff, it does look really nice.
+
+1437
+00:55:00,960 --> 00:55:06,960
+Yep.
+
+1438
+00:55:03,700 --> 00:55:19,680
+[ Silence ]
+
+1439
+00:55:06,540 --> 00:55:10,080
+it does look like this is at least done proper.
+
+1440
+00:55:06,960 --> 00:55:13,960
+Yep.
+
+1441
+00:55:10,080 --> 00:55:11,280
+Will it succeed or not?
+
+1442
+00:55:11,280 --> 00:55:12,120
+I don't know.
+
+1443
+00:55:12,120 --> 00:55:13,880
+Eventually, probably yes.
+
+1444
+00:55:13,880 --> 00:55:15,820
+Eventually in the future, we're going to wear glasses
+
+1445
+00:55:13,960 --> 00:55:16,960
+Mm-hmm.
+
+1446
+00:55:15,820 --> 00:55:17,280
+and we're going to see AR stuff.
+
+1447
+00:55:16,960 --> 00:55:18,960
+Mm-hmm.
+
+1448
+00:55:17,280 --> 00:55:19,360
+That's just we know that's going to happen.
+
+1449
+00:55:18,960 --> 00:55:22,600
+yeah it'll happen
+
+1450
+00:55:19,360 --> 00:55:22,560
+Is it going to be Apple that's going to succeed?
+
+1451
+00:55:19,680 --> 00:55:25,120
+[ Silence ]
+
+1452
+00:55:22,560 --> 00:55:24,900
+Maybe, maybe not, but this is a very good first step.
+
+1453
+00:55:22,600 --> 00:55:29,680
+I like the fact that they support Zeiss corrective lenses as add-ons so you
+
+1454
+00:55:24,900 --> 00:55:32,100
+Yeah, how much do those cost?
+
+1455
+00:55:25,120 --> 00:55:43,100
+[ Silence ]
+
+1456
+00:55:29,680 --> 00:55:32,560
+just add those in
+
+1457
+00:55:32,100 --> 00:55:34,840
+Anytime you see the word Zeiss, you can add $300 to the price.
+
+1458
+00:55:32,560 --> 00:55:38,720
+I was gonna say those are cheap yeah I mean that's gonna just add just a
+
+1459
+00:55:34,840 --> 00:55:42,680
+Can't it just say LensCrafter?
+
+1460
+00:55:38,720 --> 00:55:42,760
+pittance on top of your existing
+
+1461
+00:55:42,680 --> 00:55:44,320
+I mean, come on guys.
+
+1462
+00:55:42,760 --> 00:55:48,440
+Lenscrafter is not bad. Give me Warby Parker would you? I'd much rather that
+
+1463
+00:55:43,100 --> 00:55:57,080
+[ Silence ]
+
+1464
+00:55:44,320 --> 00:55:45,320
+Seriously.
+
+1465
+00:55:45,320 --> 00:55:46,320
+Yeah, exactly.
+
+1466
+00:55:46,320 --> 00:55:51,360
+I think it's a first good step.
+
+1467
+00:55:48,440 --> 00:55:50,440
+Yeah.
+
+1468
+00:55:50,440 --> 00:56:02,960
+[Silence]
+
+1469
+00:55:51,360 --> 00:55:53,680
+I think this is where they had to start.
+
+1470
+00:55:53,680 --> 00:56:00,620
+I do understand if the rumors are true that some people within Apple felt like releasing
+
+1471
+00:55:57,080 --> 00:56:15,060
+[ Silence ]
+
+1472
+00:56:00,620 --> 00:56:01,620
+this was a mistake.
+
+1473
+00:56:01,620 --> 00:56:08,900
+I get that sentiment because it is expensive and it's not a universal appeal device.
+
+1474
+00:56:02,960 --> 00:56:03,700
+Mm-hmm.
+
+1475
+00:56:03,700 --> 00:56:32,440
+[no audio]
+
+1476
+00:56:08,900 --> 00:56:14,220
+But I also understand the fact that for this technology, if Apple is afraid that eventually
+
+1477
+00:56:14,220 --> 00:56:19,420
+something like this is going to eat the phone, they have to be one of the companies on the
+
+1478
+00:56:15,060 --> 00:56:25,040
+[ Silence ]
+
+1479
+00:56:19,420 --> 00:56:22,260
+path towards this or else they're going to get eaten.
+
+1480
+00:56:22,260 --> 00:56:24,100
+It's just like the original Mac.
+
+1481
+00:56:24,100 --> 00:56:29,140
+Even though Steve Jobs's vision of what computing would probably be like for most people is
+
+1482
+00:56:25,040 --> 00:56:43,020
+[ Silence ]
+
+1483
+00:56:29,140 --> 00:56:30,940
+was probably more similar to the iPad,
+
+1484
+00:56:30,940 --> 00:56:32,640
+he certainly couldn't start there.
+
+1485
+00:56:32,440 --> 00:56:38,280
+I don't know that the the objection being not universally appealing to people. I mean,
+
+1486
+00:56:32,640 --> 00:56:45,100
+Those are things that still,
+
+1487
+00:56:38,280 --> 00:56:42,680
+I know plenty of people who don't want an Apple Watch and plenty of people who don't want an iPad.
+
+1488
+00:56:42,680 --> 00:57:08,200
+COVID changed a lot though.
+
+1489
+00:56:43,020 --> 00:56:55,000
+[ Silence ]
+
+1490
+00:56:45,100 --> 00:56:48,020
+even those are things that could universally appeal
+
+1491
+00:56:48,020 --> 00:56:50,060
+to way more people than this can.
+
+1492
+00:56:50,060 --> 00:56:52,340
+How many people are gonna pay $3,500
+
+1493
+00:56:52,340 --> 00:56:53,780
+for something you strap onto your face
+
+1494
+00:56:53,780 --> 00:56:56,340
+and they're only actually gonna feel good about wearing
+
+1495
+00:56:55,000 --> 00:57:12,980
+[ Silence ]
+
+1496
+00:56:56,340 --> 00:56:58,240
+when they're at home by themselves?
+
+1497
+00:56:58,240 --> 00:57:01,040
+They're not going to do this at work, not when other people are around.
+
+1498
+00:57:01,040 --> 00:57:02,380
+They're not going to do this on an airplane.
+
+1499
+00:57:02,380 --> 00:57:03,720
+I don't care what Apple says.
+
+1500
+00:57:03,720 --> 00:57:06,120
+First of all, just carrying the thing around is a pain in the ass.
+
+1501
+00:57:06,120 --> 00:57:07,080
+It just takes up s--
+
+1502
+00:57:07,080 --> 00:57:11,460
+True.
+
+1503
+00:57:08,200 --> 00:57:11,680
+A lot of people spend a lot more time at home than they used to.
+
+1504
+00:57:11,460 --> 00:57:16,520
+For me, it'll be--
+
+1505
+00:57:11,680 --> 00:57:14,680
+I'll check back again maybe at version 3.
+
+1506
+00:57:12,980 --> 00:57:32,660
+I have the memo.
+
+1507
+00:57:14,680 --> 00:57:20,880
+Well, let's find out. We'll find out.
+
+1508
+00:57:16,520 --> 00:57:18,760
+I think it'll be more like 5, maybe 10.
+
+1509
+00:57:18,760 --> 00:57:24,040
+Why?
+
+1510
+00:57:20,880 --> 00:57:23,280
+On that note, I think we should wrap things up.
+
+1511
+00:57:23,280 --> 00:57:29,080
+Because I haven't eaten dinner yet and I'm hungry, and I've had beer.
+
+1512
+00:57:24,040 --> 00:57:28,040
+Why do you have a big red button in your pocket?
+
+1513
+00:57:28,040 --> 00:57:33,880
+Oh, I get the message.
+
+1514
+00:57:29,080 --> 00:57:36,680
+Alright, I'll be sure to send you another copy of the memo.
+
+1515
+00:57:33,880 --> 00:57:43,260
+Right.
+
+1516
+00:57:36,680 --> 00:57:41,180
+And dear listener, if you want to find us, you already found us.
+
+1517
+00:57:41,180 --> 00:57:42,700
+Links are in the show notes.
+
+1518
+00:57:42,700 --> 00:57:44,380
+Links are everywhere.
+
+1519
+00:57:43,260 --> 00:57:50,920
+Friends with Brews.com use the search feature.
+
+1520
+00:57:44,380 --> 00:57:46,580
+Wherever you found this podcast, that's where you found it.
+
+1521
+00:57:46,580 --> 00:57:47,080
+That's it.
+
+1522
+00:57:47,080 --> 00:57:52,880
+Yeah, it's use the search feature.
+
+1523
+00:57:52,880 --> 00:57:54,580
+Find the beers that we drank about.
+
+1524
+00:57:54,580 --> 00:57:57,480
+Don't drink the ones that we said you needed to be desperate for.
+
+1525
+00:57:57,480 --> 00:58:01,880
+Ugh, yuck, yuck.
+
+1526
+00:57:57,640 --> 00:58:01,080
+If they say thumbs down and they say desperate, don't do them.
+
+1527
+00:58:01,880 --> 00:58:04,080
+I think we should push the big red button.
+
