@@ -1,5 +1,41 @@
 [
   {
+    "id": "GKLkRZfiMJqibpyajNLld",
+    "name": "I Believe in Nashville Blonde Ale",
+    "brewery": "I Believe Brewing Co",
+    "image": "IBelieveBrewingCoIBelieveInBlondeAle-979F6E63-9C29-4AE9-B3D8-DDA4898566C6",
+    "description": "The I Believe In Nashville Blonde Ale is brewed right here in Nashville. We wouldn’t have it any other way.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["39"],
+    "url": "https://ibelievebrewing.com/",
+    "rating": [
+      {
+        "host": "Adam",
+        "vote": "thumbs-up",
+        "description": "I think you'd like this. Almost no hop. Very malty. Like Yuengling but without any bitter taste."
+      }
+    ]
+  },
+  {
+    "id": "BmXGfeDwMQ2v6OgFUgFdZ",
+    "name": "Czech Pilsner",
+    "brewery": "Buoy Beer Company",
+    "image": "BuoyCzechPilsner-979F6E63-9C29-4AE9-B3D8-DDA4898566C6",
+    "description": "Bright traditional taste. A classic pilsner with roots in the great beer heritage of the Czech Republic. Our Czech-Style Pilsner features Saaz hops supporting layers of rounded malt flavors. Fresh crackers with noble hop bitterness, clean finish.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["39"],
+    "url": "https://buoybeer.com/beer/czech-pilsner/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "Not the absolute best Pilsner I've ever had, but it's good. I think I'd have it with pizza."
+      }
+    ]
+  },
+  {
     "id": "uvYs4Xjh42wPi0Sn4JPBq",
     "name": "Copper Legend",
     "brewery": "Jack's Abby",
