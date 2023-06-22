@@ -1,5 +1,41 @@
 [
   {
+    "id": "PsVk_Gcc28wU65h-Aw3E3",
+    "name": "Organic Whole Bean Peruvian Decaf",
+    "brewery": "Wegmans",
+    "image": "WegmansOrganicWholeBeanPeruvianDecaf-F6002848-3E45-4C22-97D7-D419AC8D6C68",
+    "description": "Nutty with a Sweet Finish.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["40"],
+    "url": "https://shop.wegmans.com/product/218876/wegmans-organic-coffee-specialty-whole-bean-peruvian-decaf",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "Unlike most of my normal go-tos, this is a light roast, and it's pretty good! I had a splash of cream in it, and it's very drinkable."
+      }
+    ]
+  },
+  {
+    "id": "p_W5ZDbk1uRUS6NmGu1oL",
+    "name": "El Lager Dorado",
+    "brewery": "Ferment Brewing Company",
+    "image": "FermentBrewingCompanyElLagerDorado-F6002848-3E45-4C22-97D7-D419AC8D6C68",
+    "description": "El Lager Dorado is brewed with maize and wild agave syrup to create a crisp, refreshing lager with a special zing. ¡Salud!",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["40"],
+    "url": "https://fermentbrewing.com/collections/beer/products/el-lager-dorado",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "One of the better lagers I've had. A good summer beer. It's light, relatively low alcohol, and very easy drinking."
+      }
+    ]
+  },
+  {
     "id": "GKLkRZfiMJqibpyajNLld",
     "name": "I Believe in Nashville Blonde Ale",
     "brewery": "I Believe Brewing Co",
