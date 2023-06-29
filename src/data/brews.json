@@ -1,5 +1,41 @@
 [
   {
+    "id": "cztuWOTsTjYwh-U1b4zzC",
+    "name": "House Party Pale Ale",
+    "brewery": "Ferment Brewing Company",
+    "image": "FermentBrewingCompanyHousePartyAle-8F800CB7-032A-4C36-9AF1-66706293316F",
+    "description": "Fascinatingly fruity but not necessarily hoppy, this unfiltered Pale Ale is bold with notes of passionfruit, rhubarb, and grapefruit.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["41"],
+    "url": "https://fermentbrewing.com/collections/beer/products/house-party-pale-ale",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "It's not as good as their El Lager Dorado, but I like it. It's not an ale that I'll search for, but it is a smooth drinking beer."
+      }
+    ]
+  },
+  {
+    "id": "OAWUOSBFuW0PIU_cgP5VK",
+    "name": "Belgian White",
+    "brewery": "Blue Moon Brewing Company",
+    "image": "BlueMoonBrewingCompanyBelgianWhite-8F800CB7-032A-4C36-9AF1-66706293316F",
+    "description": "A wheat beer brewed with Valencia orange peel for a subtle sweetness and bright, citrus aroma. Valencia Orange Peel and Coriander. Garnished with an orange slice to heighten the citrus aroma and taste.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["41"],
+    "url": "https://www.bluemoonbrewingcompany.com/en-US/currently-available/blue-moon-belgian-white",
+    "rating": [
+      {
+        "host": "Vic",
+        "vote": "thumbs-up",
+        "description": "It's a Belgian White, but it's really a domestic beer. I like it better than your standard selections of domestic beers."
+      }
+    ]
+  },
+  {
     "id": "PsVk_Gcc28wU65h-Aw3E3",
     "name": "Organic Whole Bean Peruvian Decaf",
     "brewery": "Wegmans",
