@@ -1,5 +1,23 @@
 [
   {
+    "id": "nofe6jIFlUZrdgMxKzux_",
+    "name": "Cream Ale",
+    "brewery": "Buoy Beer Company",
+    "image": "BuoyBeerCompanyCreamAle.png-FD14510E-E257-4314-8435-6F292683A0CD",
+    "description": "Crisp, clean, classic. Where Ales meet Lagers, a uniquely American brew is born. Our Cream Ale is fresh and inviting, with a restrained use of Willamette hops for a crisp, familiar finish. It's like those days we get here, where impossibly big clouds frame the purest, sunniest sky you can imagine.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["42"],
+    "url": "https://buoybeer.com/beer/cream-ale/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "This is easily my favorite Buoy beer so far. Smooth, flavorful, and light. This is a wonderful summer beer."
+      }
+    ]
+  },
+  {
     "id": "cztuWOTsTjYwh-U1b4zzC",
     "name": "House Party Pale Ale",
     "brewery": "Ferment Brewing Company",
@@ -25,7 +43,7 @@
     "description": "A wheat beer brewed with Valencia orange peel for a subtle sweetness and bright, citrus aroma. Valencia Orange Peel and Coriander. Garnished with an orange slice to heighten the citrus aroma and taste.",
     "type": "beer",
     "sortOrder": "0",
-    "episodes": ["41"],
+    "episodes": ["41","42"],
     "url": "https://www.bluemoonbrewingcompany.com/en-US/currently-available/blue-moon-belgian-white",
     "rating": [
       {
