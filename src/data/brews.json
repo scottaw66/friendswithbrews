@@ -1,5 +1,41 @@
 [
   {
+    "id": "ZEipHSX4q1aBXGzubGVTo",
+    "name": "Oregon Sunshine Golden Ale",
+    "brewery": "Captured by Porches Brewing",
+    "image": "CapturedByPorchesBrewingOregonSunshineGoldenAle-FA6BDEEE-9D7B-4F51-A835-16AEDE807487",
+    "description": "There is no description provided by the brewer, but's locally sourced ingredients engineer to be pest resistant.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["43"],
+    "url": "https://www.capturedbyporches.com/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "It's a good ale, slightly darker than some, with a touch of bitterness. I do like it but I won't buy it again on purpose because it's not my favorite ale of all time."
+      }
+    ]
+  },
+  {
+    "id": "4c1WqkN9abfYCiNXeEBic",
+    "name": "Maifest",
+    "brewery": "Jack's Abby",
+    "image": "JacksAbbyMaifest-FA6BDEEE-9D7B-4F51-A835-16AEDE807487",
+    "description": "Celebrate the arrival of warmer weather with Maifest. This golden lager, named after the springtime counterpart to Oktoberfest, features Pilsner malt and noble hops for sweet and balanced taste.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["43"],
+    "url": "https://jacksabby.com/beers/maifest/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "I'm a fan. Obviously this is a thumbs up for sure."
+      }
+    ]
+  },
+  {
     "id": "nofe6jIFlUZrdgMxKzux_",
     "name": "Cream Ale",
     "brewery": "Buoy Beer Company",
