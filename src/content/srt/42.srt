@@ -1,0 +1,3744 @@
+1
+00:00:00,000 --> 00:00:04,000
+Friends with Brews. What's the matter? Are you about to tell me we're not actually recording?
+
+2
+00:00:04,000 --> 00:00:09,200
+No, no, no, no, no, no. We're recording, but I can't help but to notice that I think I commented
+
+3
+00:00:09,200 --> 00:00:14,320
+on this last time too. Now this sounds familiar. The record button is actually turned into a button
+
+4
+00:00:14,320 --> 00:00:19,840
+that says run. Yes. And I don't like that. That's most irregular. It means run the session.
+
+5
+00:00:19,840 --> 00:00:25,920
+I understand. If you notice up in your Mac menu bar, you can just click on that little
+
+6
+00:00:25,920 --> 00:00:29,520
+wave thing and start your sessions right there without even having their individual session
+
+7
+00:00:29,520 --> 00:00:35,920
+windows open. Where's that? It's a little wavelength looking thingy. In the menu bar? Yeah. I see it,
+
+8
+00:00:35,920 --> 00:00:42,160
+bartender was hiding it. Yeah. Audio hijack. Oh, hey! Is that always there or just when the app's
+
+9
+00:00:42,160 --> 00:00:47,840
+running? No, just when the app's running. Hmm. I'm gonna have to tell bartender not to hide that
+
+10
+00:00:47,840 --> 00:00:53,120
+anymore. Yeah, your bartender's being a bad bartender. By the way, we should tell people who
+
+11
+00:00:53,120 --> 00:00:58,400
+we are. I am Scott Willsey, host of Friends with Brews. Always here, much to the disappointment of
+
+12
+00:00:58,400 --> 00:01:04,880
+whoever. And people might recognize that once again you're not Peter, and they might also
+
+13
+00:01:04,880 --> 00:01:09,200
+recognize that you were just on last episode. And even though I said you're going to be
+
+14
+00:01:09,200 --> 00:01:13,760
+back again, I didn't know it was going to be on the very next episode. Vic Hudson.
+
+15
+00:01:13,760 --> 00:01:20,880
+Yes, I am Vic of Hudson. Of Kentucky. Of Kentucky. Of the Kentucky Hudsons.
+
+16
+00:01:20,880 --> 00:01:24,880
+Oh my god. That's a dark branch of the tree right there.
+
+17
+00:01:24,880 --> 00:01:30,560
+Oh, I thought I was getting too specific. I was gonna start throwing out GPS coordinates and...
+
+18
+00:01:30,560 --> 00:01:33,360
+Let's refrain from the GPS coordinates.
+
+19
+00:01:33,360 --> 00:01:33,860
+All right.
+
+20
+00:01:33,860 --> 00:01:39,200
+You can say the central Kentucky area. I'm actually even okay with the town, I like Berea.
+
+21
+00:01:39,200 --> 00:01:41,040
+It's a nice little community here.
+
+22
+00:01:41,040 --> 00:01:45,600
+Your cat looks very unimpressed to be associated with one of the Hudson's from Kentucky.
+
+23
+00:01:45,600 --> 00:01:49,680
+I think she's sleeping. Oh, oh no, we woke her up.
+
+24
+00:01:49,680 --> 00:01:50,180
+Oh no.
+
+25
+00:01:52,160 --> 00:01:56,880
+She doesn't look happy. She looks like my cat does when he first wake up and he just sits there and it's kind of like
+
+26
+00:01:56,880 --> 00:02:00,080
+I don't know who I am. I don't know who you are. I don't know where I am. Who am I?
+
+27
+00:02:00,080 --> 00:02:02,000
+Where is this?
+
+28
+00:02:02,000 --> 00:02:06,800
+Who are you takes a while for the program to get fully loaded? I know the feeling by the way
+
+29
+00:02:06,800 --> 00:02:09,760
+Good times. Oh, I think she wants out
+
+30
+00:02:09,760 --> 00:02:12,400
+You want out bella?
+
+31
+00:02:12,400 --> 00:02:15,760
+This is not professional podcasting
+
+32
+00:02:15,760 --> 00:02:17,680
+Have a nice day
+
+33
+00:02:17,680 --> 00:02:23,120
+It's professional podcatzing professional podcatzing. Wait, how did you let her out?
+
+34
+00:02:23,120 --> 00:02:27,840
+What do you have a little trap door down by there? What? No the door to my office is right next to me
+
+35
+00:02:27,840 --> 00:02:32,160
+Oh, so that's your closet door behind you then. Yes. Yes. Yes. Yes. Yes. Okay
+
+36
+00:02:32,160 --> 00:02:34,800
+You can see the closet door
+
+37
+00:02:34,800 --> 00:02:40,320
+You can see a window with a curtain. Can I make myself bigger here so I can see what you see without spinning around backwards
+
+38
+00:02:40,320 --> 00:02:44,880
+There we go. Now that I know that's a closet door back there and not a
+
+39
+00:02:45,360 --> 00:02:48,080
+entrance door. I'll quit waiting for somebody to come bursting through that door.
+
+40
+00:02:48,080 --> 00:02:53,120
+Yes, you can see the guest bed, you can see the corner of my printer stand,
+
+41
+00:02:53,120 --> 00:02:58,320
+and the printer over to my right, you can see my my daily prescription pill minder.
+
+42
+00:02:58,320 --> 00:03:00,640
+Is that what that is?
+
+43
+00:03:00,640 --> 00:03:03,200
+The little blue and orange thing, yeah.
+
+44
+00:03:03,200 --> 00:03:06,400
+Oh, you know Apple makes an app for that.
+
+45
+00:03:06,400 --> 00:03:11,120
+Got the blood pressure. I use the app for that, but it's got the, uh, they're just all neatly
+
+46
+00:03:11,120 --> 00:03:13,680
+divided up so I can take them really quickly in the morning and go.
+
+47
+00:03:14,160 --> 00:03:17,440
+That's the best way to do it Okay, got my blood pressure meds in it.
+
+48
+00:03:17,440 --> 00:03:22,240
+Okay, I actually like the medications feature in health. Yeah, I do too. I adopted it
+
+49
+00:03:22,240 --> 00:03:27,200
+very quickly as soon as they came out and and I enjoy it. Hold up your Apple Watch Ultra again.
+
+50
+00:03:27,200 --> 00:03:32,560
+I want to see what the face on it looks like. What your... Oh, I see. Okay, it looked like two blue
+
+51
+00:03:32,560 --> 00:03:37,600
+complications and I couldn't tell what it was. That's pretty cool. Can you see that? I like that.
+
+52
+00:03:37,600 --> 00:03:43,040
+Yeah, yeah, yeah. I like that with having the rings inside the analog watch hands but still
+
+53
+00:03:43,040 --> 00:03:46,240
+being able to have all the other big complications. That's pretty cool.
+
+54
+00:03:46,240 --> 00:03:49,120
+I don't think you're seeing it right. The rings are next to it.
+
+55
+00:03:49,120 --> 00:03:51,920
+I don't think so. I will fight you.
+
+56
+00:03:51,920 --> 00:03:53,200
+What's underneath the clock hands?
+
+57
+00:03:53,200 --> 00:03:55,600
+Hold on a moment. I'm sending you a screenshot.
+
+58
+00:03:55,600 --> 00:03:58,400
+This will save some time and effort.
+
+59
+00:03:58,400 --> 00:04:00,560
+This is wonderful audio.
+
+60
+00:04:00,560 --> 00:04:02,800
+This is...
+
+61
+00:04:02,800 --> 00:04:08,080
+Hasn't synced to the phone yet. Still hasn't synced to the phone yet.
+
+62
+00:04:08,080 --> 00:04:09,360
+There's a chicken sandwich.
+
+63
+00:04:11,040 --> 00:04:14,960
+While we're waiting for syncing to happen, let's talk about our beers.
+
+64
+00:04:14,960 --> 00:04:15,680
+Okay.
+
+65
+00:04:15,680 --> 00:04:18,240
+Can I assume that you're having a... what are you having?
+
+66
+00:04:18,240 --> 00:04:20,800
+I'm having the Blue Moon again.
+
+67
+00:04:20,800 --> 00:04:23,520
+Belgian White, okay. Well, I thought maybe it was different Blue Moon.
+
+68
+00:04:23,520 --> 00:04:27,920
+And I may have also had a wee nip of some stuff called Maker's Mark.
+
+69
+00:04:27,920 --> 00:04:30,400
+See, you should have brought that out and told me about that.
+
+70
+00:04:30,400 --> 00:04:33,920
+I just took a quick swig out of the bottle while I was getting the beer out of the fridge.
+
+71
+00:04:33,920 --> 00:04:36,800
+Uh-huh. You saw it and it just called you, huh?
+
+72
+00:04:36,800 --> 00:04:40,640
+It did. I had to walk past it. I mean, that really is not syncing to my phone.
+
+73
+00:04:40,640 --> 00:04:45,520
+So I've had a Buoy beer Buoy Czech ale on here before but does that say cream ale?
+
+74
+00:04:45,520 --> 00:04:50,400
+Yeah this time I'm having the Buoy beer cream ale and I know already from experience this is the
+
+75
+00:04:50,400 --> 00:04:57,040
+far better of the two drinks. Yeah. So that's what I'm having so it's a new one for me.
+
+76
+00:04:57,040 --> 00:05:01,440
+Peter gets mad at me when I do repeats and I don't do repeats very often. I think I've only
+
+77
+00:05:01,440 --> 00:05:06,240
+done repeat beers one time. I've done repeat coffee quite a bit. Why can't you do a repeat
+
+78
+00:05:06,240 --> 00:05:12,160
+you like something. Well, because the point of the show is to try new stuff and talk about it. Oh,
+
+79
+00:05:12,160 --> 00:05:19,520
+sorry, Peter. I've tainted the show with Blue Moon twice in a row. Well, it's the fact that it's the
+
+80
+00:05:19,520 --> 00:05:24,320
+same Blue Moon. It's your own fault. He's had Wegeman's Decaf Coffee as his choice of brew
+
+81
+00:05:24,320 --> 00:05:30,240
+before, so that you can't... Blue Moon is still above that in my professional opinion. Okay,
+
+82
+00:05:30,240 --> 00:05:36,160
+that's pretty. This is good stuff. Yeah, this is a good ale. Maybe I should have poured mine in a
+
+83
+00:05:36,160 --> 00:05:40,320
+glass. I'm just here rednecking it up all the way. That's okay, at least it's not a can. This is a
+
+84
+00:05:40,320 --> 00:05:46,720
+good cream ale. It's nice and light, but tasty. I really enjoy this. This is their best drink I've
+
+85
+00:05:46,720 --> 00:05:50,880
+ever had from Buoy beer. Generally, I'm not that impressed with Buoy beer, but the cream
+
+86
+00:05:50,880 --> 00:05:54,960
+ale is one that I will recommend to not all my friends and family, because some of those
+
+87
+00:05:54,960 --> 00:06:01,520
+don't drink. But anyway, I'll recommend it for the people that don't have drinking self-control.
+
+88
+00:06:01,520 --> 00:06:06,560
+All right, so Vic, we were going to talk about something interesting today.
+
+89
+00:06:06,560 --> 00:06:08,080
+Oh, right, the g******* internets.
+
+90
+00:06:08,080 --> 00:06:11,040
+Oh, really?
+
+91
+00:06:11,040 --> 00:06:11,540
+Yeah.
+
+92
+00:06:11,540 --> 00:06:14,560
+There's interesting stuff on the internets?
+
+93
+00:06:14,560 --> 00:06:16,560
+No, no, we were going to talk about your...
+
+94
+00:06:16,560 --> 00:06:17,520
+G******** internets.
+
+95
+00:06:17,520 --> 00:06:23,520
+Your internets at your house. You've had internets problem. What's going on with that?
+
+96
+00:06:23,520 --> 00:06:25,680
+What's the status? First of all, give everyone the fla-
+
+97
+00:06:25,680 --> 00:06:27,280
+Well, I don't have problems.
+
+98
+00:06:27,280 --> 00:06:29,360
+Painful. No, you don't have problems.
+
+99
+00:06:29,360 --> 00:06:35,640
+I don't have problems, but since we're gonna talk about the internets, I just want to take the time to say people tweet about me
+
+100
+00:06:35,640 --> 00:06:40,720
+With gifs and everything. I know some folks pronounce it gifts, but I hear you Wow
+
+101
+00:06:40,720 --> 00:06:47,540
+Wow, it's too bad Twitter is what it is right now, is that yeah
+
+102
+00:06:47,540 --> 00:06:51,520
+Maybe we can we fix that with editing. Yeah
+
+103
+00:06:51,520 --> 00:06:54,560
+people toot about me
+
+104
+00:06:57,240 --> 00:07:01,400
+I mean, somebody really should have thought that through more.
+
+105
+00:07:01,400 --> 00:07:05,400
+I'm kind of, I'm less impressed with Mastodon the more time goes on, but that's a whole
+
+106
+00:07:05,400 --> 00:07:06,640
+other podcast.
+
+107
+00:07:06,640 --> 00:07:07,640
+Let me put it this way.
+
+108
+00:07:07,640 --> 00:07:12,000
+Every social network has a phase where all they do is talk about their own selves incessantly.
+
+109
+00:07:12,000 --> 00:07:14,920
+They just talk about the stupid network, right?
+
+110
+00:07:14,920 --> 00:07:18,360
+Mastodon's been around for years and it has never, and I don't think will ever get past
+
+111
+00:07:18,360 --> 00:07:20,400
+that point.
+
+112
+00:07:20,400 --> 00:07:23,240
+And that just means that there's not enough normal people having normal conversations
+
+113
+00:07:23,240 --> 00:07:24,240
+on it.
+
+114
+00:07:24,240 --> 00:07:27,720
+bunch of people talking about the stupid social network that they're on.
+
+115
+00:07:27,720 --> 00:07:30,560
+I just ignore them all equally. Yeah.
+
+116
+00:07:30,560 --> 00:07:35,240
+I post things out to them on occasion, although I haven't been doing much of that lately even, to be honest.
+
+117
+00:07:35,240 --> 00:07:41,000
+I actually think you are more consistent with your use of social networks when you don't, because
+
+118
+00:07:41,000 --> 00:07:44,640
+I don't understand people who blast stuff out there but they never even go to the site.
+
+119
+00:07:44,640 --> 00:07:48,160
+They're expecting other people to do something they won't do themselves, you know what I mean?
+
+120
+00:07:48,160 --> 00:07:50,600
+It's just weird. Yeah. It's just, I don't get it.
+
+121
+00:07:50,600 --> 00:07:56,160
+I don't get people who just use it as a fire hose to spray the crowd with and they won't
+
+122
+00:07:56,160 --> 00:07:57,640
+stand in the shower themselves.
+
+123
+00:07:57,640 --> 00:07:58,640
+I don't know.
+
+124
+00:07:58,640 --> 00:08:00,640
+That metaphor went weird.
+
+125
+00:08:00,640 --> 00:08:04,360
+I'm going to back away from that one.
+
+126
+00:08:04,360 --> 00:08:07,680
+At a certain point, we got to move on.
+
+127
+00:08:07,680 --> 00:08:09,240
+Yes, we do.
+
+128
+00:08:09,240 --> 00:08:12,240
+So tell us the history about your d***ing internets.
+
+129
+00:08:12,240 --> 00:08:13,800
+My d***ing internets.
+
+130
+00:08:13,800 --> 00:08:14,800
+Okay.
+
+131
+00:08:14,800 --> 00:08:15,800
+That's right.
+
+132
+00:08:15,800 --> 00:08:19,960
+So I don't actually have an internet problem per se, as in the internets are working and
+
+133
+00:08:19,960 --> 00:08:25,380
+they are fine but uh recently I received an email from my service provider which
+
+134
+00:08:25,380 --> 00:08:31,240
+is metronet my I like to call them the gigabit fiber people to whom I
+
+135
+00:08:31,240 --> 00:08:36,900
+subscribe to a gigabit service plan you know both ways dual stream gigabit up
+
+136
+00:08:36,900 --> 00:08:43,660
+gigabit down and they sent me an email for only $15 more I could double my
+
+137
+00:08:43,660 --> 00:08:49,980
+speed. Two gigabits! 1.21 gigabits? How come I don't have that as a sound clip? Oh wow!
+
+138
+00:08:49,980 --> 00:08:56,300
+I really need to get some Back to the Future sound clips. Yes you do. I'm making a new set right now
+
+139
+00:08:56,300 --> 00:09:01,980
+in Froggo and I'll populate it later. Okay, sounds good. Anyway, so they sent me an offer
+
+140
+00:09:01,980 --> 00:09:07,740
+to upgrade to two gigabits for only $15 more a month and to me that seemed like a no-brainer.
+
+141
+00:09:07,740 --> 00:09:13,260
+I understand and I know that I can't really use two gigabits. I don't have anything that
+
+142
+00:09:13,260 --> 00:09:20,460
+needs that kind of bandwidth going on in here but i have recently done some ethernet wiring through
+
+143
+00:09:20,460 --> 00:09:24,540
+the house so that i could get some stuff off of wi-fi you know mainly the entertainment center
+
+144
+00:09:24,540 --> 00:09:29,020
+type stuff i think you mean ether webs but i'll forgive you and we'll call it ethernet just for
+
+145
+00:09:29,020 --> 00:09:34,620
+now ether webs works yeah that's cool i mean my desk in here was always ethernet for the imac but
+
+146
+00:09:34,620 --> 00:09:40,300
+right yeah yeah i also dropped a line to uh put it into the entertainment center for my playstation
+
+147
+00:09:40,300 --> 00:09:46,140
+and the Apple TV so we could you know have better streaming and stuff and and my gaming and downloads and all that such and
+
+148
+00:09:46,140 --> 00:09:49,200
+The the router that I have the Eero Pro
+
+149
+00:09:49,200 --> 00:09:52,260
+6e I think is the name of it
+
+150
+00:09:52,260 --> 00:09:56,040
+It's actually supposed to be able to support two gigabits coming into it
+
+151
+00:09:56,040 --> 00:10:01,380
+And then it devotes one gigabit directly to the Ethernet and the rescue the Wi-Fi
+
+152
+00:10:01,380 --> 00:10:04,020
+So I thought that would be kind of nice to take care of
+
+153
+00:10:05,320 --> 00:10:12,080
+The problem is as of yet and I've done some wiring changes and I have an additional piece of hardware coming today
+
+154
+00:10:12,080 --> 00:10:16,260
+So I can do a further probably final diagnostic check just to make sure
+
+155
+00:10:16,260 --> 00:10:19,380
+The company says I should be getting the two gigabits
+
+156
+00:10:19,380 --> 00:10:24,140
+They say they're showing that I'm getting the two gigabits, but whenever I run my aero speed test
+
+157
+00:10:24,140 --> 00:10:28,340
+I'm still just getting the single gigabit and it makes me frown. Yeah, that makes me frown, too
+
+158
+00:10:28,340 --> 00:10:32,140
+yeah, I replaced the cable that runs between the
+
+159
+00:10:33,500 --> 00:10:37,940
+think that things really called a modem I think it's an ONT or something like
+
+160
+00:10:37,940 --> 00:10:43,820
+that yeah yeah I replaced the cable that runs between it and the router thinking
+
+161
+00:10:43,820 --> 00:10:47,300
+maybe you know because older cables can't really support you know the
+
+162
+00:10:47,300 --> 00:10:51,220
+multi gigabit speed so I got a new cable and I replaced that well how long is
+
+163
+00:10:51,220 --> 00:10:55,280
+that cable it's like three feet man oh okay your ONT is right outside your
+
+164
+00:10:55,280 --> 00:10:58,900
+window no it's actually right on top of the kitchen cabinet where the the router
+
+165
+00:10:58,900 --> 00:11:06,220
+is oh it's inside it is oh that's interesting cuz I had when I was here
+
+166
+00:11:06,220 --> 00:11:12,380
+the day they came to install the gigabit fibers and tech support people love me
+
+167
+00:11:12,380 --> 00:11:15,640
+when they come out to do stuff like that cuz I actually did the attic run for him
+
+168
+00:11:15,640 --> 00:11:19,620
+he passed a wire to me from inside I carried it through the attic and dropped
+
+169
+00:11:19,620 --> 00:11:22,840
+it down into the kitchen you know I really I don't want to be hands-on with
+
+170
+00:11:22,840 --> 00:11:26,100
+that kind of stuff I kind of enjoy it it gets hot up there but I enjoy the work
+
+171
+00:11:26,100 --> 00:11:31,020
+and stuff but yeah so all of that stuff is centrally located in the house on the
+
+172
+00:11:31,020 --> 00:11:34,380
+top of a kitchen cabinet and it's literally almost dead center in my house
+
+173
+00:11:34,380 --> 00:11:38,500
+and it's nice and I off the floor good Wi-Fi vantage point all that I originally
+
+174
+00:11:38,500 --> 00:11:41,800
+set that up all back in the day when I only had one router in the house and I
+
+175
+00:11:41,800 --> 00:11:44,900
+didn't have you know the extension points and stuff the beacons I think
+
+176
+00:11:44,900 --> 00:11:49,660
+you're all calls to him you know one other advantage to helping the guy out
+
+177
+00:11:49,660 --> 00:11:52,260
+and doing the attic work is you don't have to let him use your bathroom or
+
+178
+00:11:52,260 --> 00:11:55,580
+offer him a glass of water well no cuz he was still in the house he's still
+
+179
+00:11:55,580 --> 00:11:58,540
+No, no, no.
+
+180
+00:11:58,540 --> 00:12:04,940
+You gotta crawl in a space in order to get my bathroom.
+
+181
+00:12:04,940 --> 00:12:11,900
+You gotta crawl in a space in order to get my bathroom.
+
+182
+00:12:11,900 --> 00:12:16,220
+Wow.
+
+183
+00:12:16,220 --> 00:12:18,220
+You're a tough customer, Willsey.
+
+184
+00:12:18,220 --> 00:12:22,020
+Yeah, you gotta have standards.
+
+185
+00:12:22,020 --> 00:12:24,780
+I mean, otherwise next thing you know, the pizza guy will want to.
+
+186
+00:12:24,780 --> 00:12:25,900
+It's just unbelievable.
+
+187
+00:12:25,900 --> 00:12:26,620
+I don't have pizza.
+
+188
+00:12:26,620 --> 00:12:28,580
+The pizza guy doesn't come in the house.
+
+189
+00:12:28,580 --> 00:12:30,700
+We don't have pizza guys anymore because we have an Eero now.
+
+190
+00:12:30,700 --> 00:12:32,340
+Because you have an hero.
+
+191
+00:12:32,340 --> 00:12:34,540
+I think you mean an Ooni pizza oven.
+
+192
+00:12:34,540 --> 00:12:37,020
+I do mean an Ooni pizza oven, not an hero.
+
+193
+00:12:37,020 --> 00:12:40,180
+It's it has a bunch of E's in front of it or a bunch of O's.
+
+194
+00:12:40,180 --> 00:12:42,700
+I don't know how many has two O's.
+
+195
+00:12:42,700 --> 00:12:45,220
+How many of those pretty beers have you had?
+
+196
+00:12:45,220 --> 00:12:47,780
+I'm just tired. I don't know why I'm so tired today.
+
+197
+00:12:47,780 --> 00:12:50,420
+Yeah, I took a good nap on the couch a little while ago.
+
+198
+00:12:50,700 --> 00:12:52,060
+That's what I needed to do after this.
+
+199
+00:12:52,060 --> 00:12:53,060
+Yeah.
+
+200
+00:12:53,060 --> 00:13:00,300
+I got most of my exercise done early, like you did last time, and I saved my nap until after my beer.
+
+201
+00:13:00,300 --> 00:13:02,140
+I'm doing things in the correct order this time.
+
+202
+00:13:02,140 --> 00:13:02,720
+Yeah.
+
+203
+00:13:02,720 --> 00:13:03,720
+Good call.
+
+204
+00:13:03,720 --> 00:13:05,080
+Anyway, so...
+
+205
+00:13:05,080 --> 00:13:06,080
+Watch faces.
+
+206
+00:13:06,080 --> 00:13:07,620
+I'm sending the watch face finally.
+
+207
+00:13:07,620 --> 00:13:16,760
+So the hardware I have coming today is a dongle so that I can just plug that Ethernet wire coming out of the ONT directly into my MacBook Pro.
+
+208
+00:13:16,760 --> 00:13:17,120
+Right.
+
+209
+00:13:17,120 --> 00:13:18,120
+And see what it reports.
+
+210
+00:13:18,120 --> 00:13:18,620
+Yeah.
+
+211
+00:13:18,620 --> 00:13:23,620
+What I'm wondering about now is maybe the whatever servers that Eero uses for their speed test.
+
+212
+00:13:23,620 --> 00:13:26,420
+Maybe it's capped out a gigabit. I don't know.
+
+213
+00:13:26,420 --> 00:13:30,820
+How come Amazon is taking so long to get this to you? Don't they have a gigantic warehouse somewhere in Kentucky?
+
+214
+00:13:30,820 --> 00:13:31,820
+I'm sure they do.
+
+215
+00:13:31,820 --> 00:13:34,820
+I'll think of a few of them here in Kentucky. It should be on its way.
+
+216
+00:13:34,820 --> 00:13:38,120
+I know a guy that used to work there, actually. One of them.
+
+217
+00:13:38,120 --> 00:13:39,620
+I think I might know that guy too.
+
+218
+00:13:39,620 --> 00:13:42,620
+Yeah, I think you do. Anyway.
+
+219
+00:13:42,620 --> 00:13:45,520
+Interesting. I thought maybe you had already gotten the dongle.
+
+220
+00:13:45,520 --> 00:13:46,920
+Oh, that's a nice watch face.
+
+221
+00:13:46,920 --> 00:13:53,640
+No, the dongle is supposed to arrive today. Actually, I haven't checked on that. Let me double check. When I ordered it, it was supposed to have arrived today.
+
+222
+00:13:53,640 --> 00:13:56,040
+Mm-hmm. Is Jeff Bezos personally flying it in?
+
+223
+00:13:56,040 --> 00:14:00,120
+You're order- no, I doubt that's gonna happen. My package is out for delivery.
+
+224
+00:14:00,120 --> 00:14:03,400
+Just tell him you're forming a union. He'll show up to break your neck.
+
+225
+00:14:03,400 --> 00:14:04,400
+All right.
+
+226
+00:14:04,400 --> 00:14:06,400
+[laughs]
+
+227
+00:14:06,400 --> 00:14:07,400
+What, too soon?
+
+228
+00:14:07,400 --> 00:14:08,400
+Mm.
+
+229
+00:14:08,400 --> 00:14:10,400
+[laughs]
+
+230
+00:14:10,400 --> 00:14:13,000
+They don't really like that word.
+
+231
+00:14:13,000 --> 00:14:15,400
+What, union busting?
+
+232
+00:14:15,400 --> 00:14:19,400
+Just you know, they like the busting part. Yeah, right.
+
+233
+00:14:19,400 --> 00:14:24,400
+Yeah, nobody wants unions, do they? No. Except for people that have to work for a living.
+
+234
+00:14:24,400 --> 00:14:30,400
+I gotta say unions are a mixed bag. Unions can be incredibly inflexible. Unions can lead to inflexible employees.
+
+235
+00:14:30,400 --> 00:14:37,400
+I've seen a lot of those guys over the years who won't do anything outside their purview, even the slightest thing, even if it's right in front of them.
+
+236
+00:14:37,400 --> 00:14:42,400
+They have to take breaks at a specific time. Sometimes unions are a little negative.
+
+237
+00:14:42,400 --> 00:14:49,940
+But, unions are also, unfortunately, a necessity because employers can and do take advantage
+
+238
+00:14:49,940 --> 00:14:50,940
+of their people.
+
+239
+00:14:50,940 --> 00:14:58,120
+I think there are a lot of jobs these days that probably don't necessarily need one.
+
+240
+00:14:58,120 --> 00:15:04,320
+Back in the days when they first started making unions and stuff, we had like 15-year-old
+
+241
+00:15:04,320 --> 00:15:07,240
+children working in steel mills and stuff.
+
+242
+00:15:07,240 --> 00:15:10,200
+Yeah, some people want us to go back to that point.
+
+243
+00:15:10,200 --> 00:15:13,560
+a lot of those people they kind of needed a union looking out for them.
+
+244
+00:15:13,560 --> 00:15:14,120
+Yes.
+
+245
+00:15:14,120 --> 00:15:19,960
+I don't know that the guys begging your groceries at Meijer's need a union, or Kroger's, or wherever.
+
+246
+00:15:19,960 --> 00:15:21,480
+Here's the problem...
+
+247
+00:15:21,480 --> 00:15:23,080
+Maybe they do, I don't know.
+
+248
+00:15:23,080 --> 00:15:27,560
+Right, that's the thing. When I worked in a grocery store, I was young, I wasn't making
+
+249
+00:15:27,560 --> 00:15:31,800
+much money, it just seemed like they're just taking away what was already not any money.
+
+250
+00:15:31,800 --> 00:15:33,160
+Right.
+
+251
+00:15:33,160 --> 00:15:37,560
+And I didn't feel like I was getting a whole lot out of it, but I'm sure there were some people
+
+252
+00:15:37,560 --> 00:15:42,280
+that were getting something out of that union. I remember over the time that I worked at Safeway
+
+253
+00:15:42,280 --> 00:15:50,120
+for a few years, I think there was a couple strikes maybe. And I'm sure that there was a reason for
+
+254
+00:15:50,120 --> 00:15:55,720
+the strikes. And that was the problem was I was just kind of clueless. I only saw what I was
+
+255
+00:15:55,720 --> 00:16:00,920
+making. I never felt threatened by my employer, but at the same time, I was just a dumb kid with
+
+256
+00:16:00,920 --> 00:16:07,000
+no qualifications, so I wasn't making a lot of money. So it was hard for me to see the reasoning
+
+257
+00:16:07,000 --> 00:16:12,320
+behind unions. And then after that, all the other unions I came into contact with were
+
+258
+00:16:12,320 --> 00:16:17,180
+trades guys who, like I said, were extremely inflexible about their jobs. And it just drove
+
+259
+00:16:17,180 --> 00:16:21,980
+me nuts. When you're halfway through doing something, it'll just take a few more minutes,
+
+260
+00:16:21,980 --> 00:16:25,480
+but no, they want to go to lunch right that second. And it's like, I could never work
+
+261
+00:16:25,480 --> 00:16:28,000
+that way. I would just finish the freaking thing and go to lunch when I was done. You
+
+262
+00:16:28,000 --> 00:16:29,000
+know that?
+
+263
+00:16:29,000 --> 00:16:30,000
+Right.
+
+264
+00:16:30,000 --> 00:16:35,560
+So I had a negative view of unions that way. And I remember my dad way back in the day
+
+265
+00:16:35,560 --> 00:16:40,700
+when he was working for mutual grocers, I think. I can't remember anyway. They were
+
+266
+00:16:40,700 --> 00:16:45,080
+union. And he had this thing that I'm sure you've heard of, of other guys coming up and
+
+267
+00:16:45,080 --> 00:16:48,220
+saying, "Don't work so hard. You're going to make us all look bad. We don't want the
+
+268
+00:16:48,220 --> 00:16:52,160
+expectation to be that we have to work that hard." That kind of stuff just drives me insane.
+
+269
+00:16:52,160 --> 00:16:56,680
+We like to operate with a lowered expectation and you're wrecking it.
+
+270
+00:16:56,680 --> 00:17:02,400
+That kind of stuff drives me nuts. And I think in some cases, unions have fostered that kind
+
+271
+00:17:02,400 --> 00:17:08,980
+of attitude. But there's also good unions, and there's also groups of people who, though
+
+272
+00:17:08,980 --> 00:17:13,460
+they want to unionize, they're not doing it so they can be lazy. They're doing it because
+
+273
+00:17:13,460 --> 00:17:16,880
+they're not making a lot of money and their employer is taking advantage. Or they just
+
+274
+00:17:16,880 --> 00:17:21,260
+want to be able to set some terms for their work, like, "Don't use AI to write everything.
+
+275
+00:17:21,260 --> 00:17:27,580
+Use us instead." You know, stuff like that. So there are some reasonable... Unfortunately,
+
+276
+00:17:27,580 --> 00:17:31,180
+I think we're at a point in history where unionizing is becoming more necessary for
+
+277
+00:17:31,180 --> 00:17:36,100
+quite a few people again. Interesting. Maybe they're not 15 but it's hard to
+
+278
+00:17:36,100 --> 00:17:40,040
+make a living now and a lot of employers aren't really paying people... well I know
+
+279
+00:17:40,040 --> 00:17:44,440
+that just getting cost of living increases is almost impossible. Yeah and
+
+280
+00:17:44,440 --> 00:17:47,680
+it's really hard to argue that point at all when I sit here and I think about
+
+281
+00:17:47,680 --> 00:17:51,660
+the fact that like one of the saddest things about this country, one of the
+
+282
+00:17:51,660 --> 00:17:55,680
+things that makes me saddest about this country is that we actually live in a
+
+283
+00:17:55,680 --> 00:18:02,720
+society where the federal government has to mandate, "Okay, this is the absolute least
+
+284
+00:18:02,720 --> 00:18:07,280
+amount you're allowed to pay people." It makes me sad that a law like that is needed.
+
+285
+00:18:07,280 --> 00:18:11,040
+Right, and it's not even that isn't an amount that you or I would want to live on.
+
+286
+00:18:11,040 --> 00:18:15,040
+No, well, it's an amount that most people can't live on.
+
+287
+00:18:15,040 --> 00:18:18,400
+You'd have to live somewhere dirt cheap. You'd have to have absolutely nothing.
+
+288
+00:18:18,400 --> 00:18:25,440
+You certainly don't want to have kids that you want to be able to do things like activities.
+
+289
+00:18:25,440 --> 00:18:32,040
+Sports. Oh, no, no, no programs anything. They sit in their corner and they're lucky if they get an Etch A Sketch, right?
+
+290
+00:18:32,040 --> 00:18:34,780
+Here's your tablet
+
+291
+00:18:34,780 --> 00:18:42,080
+This one comes with auto erase and you're for sure never gonna send those kids to any expensive school
+
+292
+00:18:42,080 --> 00:18:44,620
+another thing about this country
+
+293
+00:18:44,620 --> 00:18:49,620
+You know, there are times where we get taxed and it's valid to say no
+
+294
+00:18:49,620 --> 00:18:53,740
+No, don't tax us anymore because you're wasting the tax dollars that we're giving you like around here
+
+295
+00:18:53,740 --> 00:18:58,420
+Oh, they definitely waste some tax dollars. Yeah, like around here they're saying they don't have the
+
+296
+00:18:58,420 --> 00:19:02,580
+money to provide mental health services and all that. No, no, they have the money. It's just being
+
+297
+00:19:02,580 --> 00:19:07,940
+misallocated. Yes. But there are countries where people get taxed way higher than us,
+
+298
+00:19:07,940 --> 00:19:11,320
+but they actually get something for their tax dollars. They all get healthcare. They all get
+
+299
+00:19:11,320 --> 00:19:16,020
+education. They all get transit. They all get all these things that we have to shell out personal
+
+300
+00:19:16,020 --> 00:19:22,820
+funds for. So our taxes may be lower, but we still have a lower standard of living.
+
+301
+00:19:22,820 --> 00:19:31,140
+Yeah, and a really broken healthcare system fed by an insurance machine that sucks that will pay
+
+302
+00:19:31,140 --> 00:19:37,060
+for the least amount they possibly can. Yeah, I have friends that will argue against any kind
+
+303
+00:19:37,060 --> 00:19:43,620
+of taxes all day long, but they never stop to consider the fact that their standard of living
+
+304
+00:19:43,620 --> 00:19:48,100
+also relatively sucks. Like for people that are getting older and all of a sudden they
+
+305
+00:19:48,100 --> 00:19:52,620
+need healthcare, it's kind of harder for them. It shouldn't be that way. It shouldn't be
+
+306
+00:19:52,620 --> 00:19:58,420
+when you're young and you have great employment. When I was young, I had the most amazing insurance
+
+307
+00:19:58,420 --> 00:20:02,100
+in the universe. I didn't need it.
+
+308
+00:20:02,100 --> 00:20:03,500
+I miss good insurance.
+
+309
+00:20:03,500 --> 00:20:11,060
+I know. I miss no high deductible, no deductible, just super low deductible. You walk in, you
+
+310
+00:20:11,060 --> 00:20:14,060
+paid $20 or whatever it is, copay, and you're done.
+
+311
+00:20:14,060 --> 00:20:15,380
+I could do you one better than that.
+
+312
+00:20:15,380 --> 00:20:17,720
+Me and a buddy at my old monolith, 3000,
+
+313
+00:20:17,720 --> 00:20:19,860
+where I used to work, we would argue every year
+
+314
+00:20:19,860 --> 00:20:21,900
+when open enrollment time came along.
+
+315
+00:20:21,900 --> 00:20:23,500
+Because for years, we had a choice
+
+316
+00:20:23,500 --> 00:20:25,800
+of like three or four plans.
+
+317
+00:20:25,800 --> 00:20:29,260
+And I always-- I just said, I'm going to--
+
+318
+00:20:29,260 --> 00:20:30,860
+I paid for the plan that actually
+
+319
+00:20:30,860 --> 00:20:35,900
+cost me the most out of pocket, but had zero deductible.
+
+320
+00:20:35,900 --> 00:20:39,060
+I had copays, and that was about it.
+
+321
+00:20:39,060 --> 00:20:44,260
+I didn't worry about anything. You know, I had I had a hernia fixed that way
+
+322
+00:20:44,260 --> 00:20:50,440
+I think I might have still had that plan with my collarbone crisis. I can't remember for sure
+
+323
+00:20:50,440 --> 00:20:56,780
+But then eventually they ended up phasing that plan out and they all had deductibles and then it was just the party was over
+
+324
+00:20:56,780 --> 00:21:02,360
+But we would argue about it and he was like why why why do you pay all that money?
+
+325
+00:21:02,360 --> 00:21:06,000
+You're young and you're healthy and and you never need to go to the doctor
+
+326
+00:21:06,000 --> 00:21:12,160
+and so you're just giving all that money away and I was like, man, you don't understand. I mean,
+
+327
+00:21:12,160 --> 00:21:20,320
+you're not wrong, but the day you have an accident or something happens and you get really sick,
+
+328
+00:21:20,320 --> 00:21:26,880
+that $10,000 deductible you signed on for so you could keep more of your money every week,
+
+329
+00:21:26,880 --> 00:21:32,240
+that's gonna hurt real bad. Yeah, especially since they probably didn't have an HSA accompanying that
+
+330
+00:21:32,240 --> 00:21:36,720
+high deductible. Right. Yeah, that's the part that sucks. Like, okay, I have a high deductible.
+
+331
+00:21:36,720 --> 00:21:42,400
+It's not that high. I have a high deductible, but I also have an HSA and whatever money goes into
+
+332
+00:21:42,400 --> 00:21:48,080
+the HSA out of my paycheck, yeah, it's my money that's kind of disappearing. But right now we've
+
+333
+00:21:48,080 --> 00:21:53,760
+got a decent amount in there for anything we need it for medically. And that includes eye care,
+
+334
+00:21:53,760 --> 00:22:01,200
+all that stuff. We can use it for those kinds of expenses. And it has come in handy. It saved our,
+
+335
+00:22:01,200 --> 00:22:04,880
+It definitely saved our finances when it came to my daughter's teeth, for example.
+
+336
+00:22:04,880 --> 00:22:09,520
+Yeah, well that's what I would recommend to anybody that has the option for both,
+
+337
+00:22:09,520 --> 00:22:13,280
+you know. Well, I mean, you're gonna have the deductible insurance, you don't get around that
+
+338
+00:22:13,280 --> 00:22:18,160
+anymore. I don't think anybody's got insurance without a deductible. But if you can also get
+
+339
+00:22:18,160 --> 00:22:25,360
+into an HSA, then usually what I would recommend is like, within reason, you know, depending on what
+
+340
+00:22:25,360 --> 00:22:30,960
+your health situation is, but it's not a bad idea to have an HSA with a limit, you know, that matches
+
+341
+00:22:30,960 --> 00:22:36,640
+what your deductible is. Yeah, right. Yeah, mine doesn't have a limit of how much I can have in
+
+342
+00:22:36,640 --> 00:22:40,160
+there. It just has a limit of how... there's some kind of federal limit, I think, of how much you
+
+343
+00:22:40,160 --> 00:22:46,640
+can pay in per year. Yeah. Does it roll over? Yeah. Does the money roll over? Yeah, it stays in there.
+
+344
+00:22:46,640 --> 00:22:52,720
+Yeah. Okay. See, the last time I was at a company with an HSA, you had to actually use it or lose
+
+345
+00:22:52,720 --> 00:22:56,960
+it every year. Oh, yeah. No. And that really bothered me, because I don't know who got that
+
+346
+00:22:56,960 --> 00:23:01,400
+that money but it wasn't me right now we've got three and a half years worth
+
+347
+00:23:01,400 --> 00:23:06,380
+of money in there that's pretty good yeah so you're sitting good yeah go break
+
+348
+00:23:06,380 --> 00:23:13,800
+a collarbone yeah sounds great I'll just well I mean honestly though I mean that
+
+349
+00:23:13,800 --> 00:23:17,900
+was insurance was pretty good back then and that wasn't too terribly long ago I
+
+350
+00:23:17,900 --> 00:23:24,160
+think I had the hernia fixed in 2016 and I think that the whole thing cost me
+
+351
+00:23:24,160 --> 00:23:29,640
+like I want to say just through various co-pays and stuff I think it might have
+
+352
+00:23:29,640 --> 00:23:34,000
+cost me like two or three hundred bucks see I think I was already I think I
+
+353
+00:23:34,000 --> 00:23:39,580
+already had to go to I think for the plans offered to us it already made
+
+354
+00:23:39,580 --> 00:23:44,640
+sense for me to go to high deductible with HSA by that point yeah it's been
+
+355
+00:23:44,640 --> 00:23:49,040
+quite a while since I had a really good plan without a high deductible it's been
+
+356
+00:23:49,040 --> 00:23:53,740
+a long time I always steered away from the deductible wins because we did not
+
+357
+00:23:53,740 --> 00:24:00,700
+have the HSA. We had expensive premiums out of your check and no deductible or a
+
+358
+00:24:00,700 --> 00:24:04,120
+deductible and cheap premiums out of your check but there was no HSA
+
+359
+00:24:04,120 --> 00:24:08,800
+alongside it. But I'm saying for the insurance plans that were offered to us, I
+
+360
+00:24:08,800 --> 00:24:14,320
+don't think the non high deductible plan has been viable for a long long time now
+
+361
+00:24:14,320 --> 00:24:18,920
+because I can't remember if it's just the co-pays, the amount they'll cover, I
+
+362
+00:24:18,920 --> 00:24:21,960
+don't remember what it is but it doesn't make sense anymore. It's not the good
+
+363
+00:24:21,960 --> 00:24:26,760
+insurance it used to be. It's pretty lame. Right. And I would imagine at this point,
+
+364
+00:24:26,760 --> 00:24:29,880
+those premiums coming out of your check are pretty steep too.
+
+365
+00:24:29,880 --> 00:24:33,640
+Right. Exactly. And that's the thing. That's why employers have gone to this is because
+
+366
+00:24:33,640 --> 00:24:38,760
+they can't afford, they can't afford to do otherwise. This is the problem. This is what
+
+367
+00:24:38,760 --> 00:24:43,920
+I don't understand is like America is a capitalist country. Everybody's pro business and all
+
+368
+00:24:43,920 --> 00:24:49,140
+that. I can't understand why the raging capitalists think that it's such a great idea that instead
+
+369
+00:24:49,140 --> 00:24:54,660
+of having universal health care that they tie insurance to work because that puts a
+
+370
+00:24:54,660 --> 00:24:56,400
+burden on the employer too.
+
+371
+00:24:56,400 --> 00:24:57,400
+It does.
+
+372
+00:24:57,400 --> 00:24:59,080
+That should be anti-capitalist.
+
+373
+00:24:59,080 --> 00:25:01,660
+That should be against the whole notion of capitalism.
+
+374
+00:25:01,660 --> 00:25:02,780
+You would think so.
+
+375
+00:25:02,780 --> 00:25:03,780
+I don't know.
+
+376
+00:25:03,780 --> 00:25:09,200
+I'm not by any means a right-winging conservative or anything like that, but for the most part,
+
+377
+00:25:09,200 --> 00:25:14,860
+I tend to stay away from like a more socialist type of financial system for us because in
+
+378
+00:25:14,860 --> 00:25:17,460
+a lot of areas capitalism really works well for us.
+
+379
+00:25:17,460 --> 00:25:18,980
+In some areas not so much.
+
+380
+00:25:18,980 --> 00:25:24,640
+I don't think it works in healthcare one thing that I would always advocate for is we really need some universal health care
+
+381
+00:25:24,640 --> 00:25:26,840
+I think that to his credit
+
+382
+00:25:26,840 --> 00:25:31,420
+I think Obama tried to address this issue and his Congress tried to address this issue
+
+383
+00:25:31,420 --> 00:25:33,880
+you know when they pass the Affordable Care Act, but
+
+384
+00:25:33,880 --> 00:25:36,720
+I've always felt like just
+
+385
+00:25:36,720 --> 00:25:42,040
+Feeding the insurance machine is the wrong way to tackle the problem
+
+386
+00:25:42,040 --> 00:25:48,000
+Because then the medical rates still stay really high because
+
+387
+00:25:48,640 --> 00:25:56,480
+most people aren't actually paying them insurance companies are paying them and then the insurance premiums just go way up and then
+
+388
+00:25:56,480 --> 00:26:02,360
+The bulk of what that law did was just required us all to have insurance and then they offered some really dirt cheap
+
+389
+00:26:02,360 --> 00:26:07,200
+Offerings, you know for people that just couldn't get it anywhere else. But here's my thing
+
+390
+00:26:07,200 --> 00:26:12,080
+I mean anytime you look at like I don't know what's the auto insurance situation like where you live?
+
+391
+00:26:12,080 --> 00:26:17,120
+Are you required to have at least liability by law or anything like that? Oh, yeah. Okay. Yeah
+
+392
+00:26:17,120 --> 00:26:23,700
+I think that's everywhere in the United States. We are here in Kentucky as well, but I do know a lot of people
+
+393
+00:26:23,700 --> 00:26:25,700
+I don't know if it's still the case
+
+394
+00:26:25,700 --> 00:26:32,560
+But when I was younger a lot of my friends would actually go and register their cars in Tennessee
+
+395
+00:26:32,560 --> 00:26:38,200
+Because they did not have an insurance requirement law that can't be true anymore though
+
+396
+00:26:38,200 --> 00:26:43,980
+I don't think it probably is but I'll tell you one thing that it did notice at the time if you were in, Tennessee
+
+397
+00:26:43,980 --> 00:26:50,940
+and you tried to get insurance, it was much cheaper because you weren't required to have
+
+398
+00:26:50,940 --> 00:26:56,860
+it. So the insurance companies actually had to compete for your business. You know, these
+
+399
+00:26:56,860 --> 00:27:01,020
+days if you're required to have it, they know you got to have it and they know they can
+
+400
+00:27:01,020 --> 00:27:04,580
+charge whatever they want and they know we're just going to bend over and take it.
+
+401
+00:27:04,580 --> 00:27:11,180
+Well, the other problem with medical insurance too is they don't pay equivalent amounts for
+
+402
+00:27:11,180 --> 00:27:15,100
+the same types of services. Like, they negotiate with hospitals, so they'll basically pay for a
+
+403
+00:27:15,100 --> 00:27:20,140
+bunch of things in bulk, and the rates that they pay for any given thing just change all the time.
+
+404
+00:27:20,140 --> 00:27:25,420
+It's like a shell game. And I'm sure the insurance companies aren't losing any money. Now, granted,
+
+405
+00:27:25,420 --> 00:27:28,540
+I doubt that the hospitals are either because they want to get paid, but they're just playing
+
+406
+00:27:28,540 --> 00:27:31,660
+some kind of crazy financial shell game, and I don't know how it works, and I don't know why
+
+407
+00:27:31,660 --> 00:27:36,140
+they do it that way, but it doesn't benefit the consumer. I'm positive about that.
+
+408
+00:27:36,140 --> 00:27:38,780
+Yeah, I would definitely agree with that.
+
+409
+00:27:40,060 --> 00:27:43,820
+I don't know, there's a lot of things like this that I don't have any answers for, but I can tell you that
+
+410
+00:27:43,820 --> 00:27:47,980
+Yeah, people who are religious about the way things are right now are nuts
+
+411
+00:27:47,980 --> 00:27:50,780
+Mm-hmm
+
+412
+00:27:50,780 --> 00:27:52,380
+But whatever
+
+413
+00:27:52,380 --> 00:27:54,860
+Yeah, there's there's a lot of things that like what you just said
+
+414
+00:27:54,860 --> 00:28:00,300
+I I don't I don't have the answer for it, but I know that what we have now is broken and we do need something different
+
+415
+00:28:00,300 --> 00:28:03,340
+I agree
+
+416
+00:28:03,340 --> 00:28:07,340
+I agree. Maybe you're in the wrong place. Maybe you're in the wrong place
+
+417
+00:28:08,060 --> 00:28:08,560
+Could be.
+
+418
+00:28:08,560 --> 00:28:11,360
+Could be.
+
+419
+00:28:11,360 --> 00:28:13,460
+What else do we have to talk about?
+
+420
+00:28:13,460 --> 00:28:14,460
+Is that it?
+
+421
+00:28:14,460 --> 00:28:15,260
+Are we done already?
+
+422
+00:28:15,260 --> 00:28:16,160
+We just talked about your
+
+423
+00:28:16,160 --> 00:28:20,160
+internets and is that is that all you wanted to talk about?
+
+424
+00:28:20,160 --> 00:28:21,360
+I don't know.
+
+425
+00:28:21,360 --> 00:28:22,560
+I don't have anything to talk about.
+
+426
+00:28:22,560 --> 00:28:23,860
+I got absolutely nothing.
+
+427
+00:28:23,860 --> 00:28:26,660
+Did you just do a bottle clink for him?
+
+428
+00:28:26,660 --> 00:28:30,660
+Internets for when I said the sound clip can say it and it's okay.
+
+429
+00:28:30,660 --> 00:28:31,560
+That's not swearing.
+
+430
+00:28:31,560 --> 00:28:31,860
+Okay.
+
+431
+00:28:31,860 --> 00:28:36,160
+I was just thinking there were lots of unbottled clinked and internets is
+
+432
+00:28:36,160 --> 00:28:36,660
+earlier.
+
+433
+00:28:36,660 --> 00:28:37,360
+Yeah.
+
+434
+00:28:37,760 --> 00:28:39,600
+No, no, I think I put bottle clinks in.
+
+435
+00:28:39,600 --> 00:28:41,400
+Anyway, if I just throw a few bottle clinks in,
+
+436
+00:28:41,400 --> 00:28:43,220
+I can copy and paste.
+
+437
+00:28:43,220 --> 00:28:44,400
+All right.
+
+438
+00:28:44,400 --> 00:28:45,500
+As long as they're in the timeline
+
+439
+00:28:45,500 --> 00:28:48,200
+and I don't have to go looking for them on my computer.
+
+440
+00:28:48,200 --> 00:28:49,040
+Okay.
+
+441
+00:28:49,040 --> 00:28:50,400
+'Cause I don't know how computers work, Vic.
+
+442
+00:28:50,400 --> 00:28:53,260
+There's a file system.
+
+443
+00:28:53,260 --> 00:28:54,420
+There's a finder?
+
+444
+00:28:54,420 --> 00:28:55,260
+Ding.
+
+445
+00:28:55,260 --> 00:28:56,080
+What's that?
+
+446
+00:28:56,080 --> 00:28:56,920
+Yeah, that's right.
+
+447
+00:28:56,920 --> 00:28:57,760
+Oh, damn it.
+
+448
+00:28:57,760 --> 00:28:58,580
+I need a bell.
+
+449
+00:28:58,580 --> 00:29:00,080
+Do I have a bell?
+
+450
+00:29:00,080 --> 00:29:01,480
+I don't have a bell.
+
+451
+00:29:01,480 --> 00:29:03,640
+Are you telling me we've got all these systems here
+
+452
+00:29:03,640 --> 00:29:04,640
+and we don't have--
+
+453
+00:29:04,640 --> 00:29:05,720
+I have Hector's bell.
+
+454
+00:29:05,720 --> 00:29:06,760
+(bell dings)
+
+455
+00:29:06,760 --> 00:29:08,760
+There you go, that's it!
+
+456
+00:29:08,760 --> 00:29:10,760
+[laughter]
+
+457
+00:29:10,760 --> 00:29:12,760
+File system!
+
+458
+00:29:12,760 --> 00:29:15,760
+I think I've got Hector's Bell somewhere, but I can't find it in this mess.
+
+459
+00:29:15,760 --> 00:29:16,760
+Hmm.
+
+460
+00:29:16,760 --> 00:29:24,760
+My Farrago's a mess. Although I did just discover the smart sets and set up a favorites folder, so now within seconds, you know what I can do?
+
+461
+00:29:24,760 --> 00:29:26,760
+Hold on, I'm gonna fix my knee.
+
+462
+00:29:26,760 --> 00:29:27,760
+Oh!
+
+463
+00:29:27,760 --> 00:29:28,760
+[grunts]
+
+464
+00:29:28,760 --> 00:29:30,760
+[laughter]
+
+465
+00:29:30,760 --> 00:29:32,760
+I love that.
+
+466
+00:29:32,760 --> 00:29:34,760
+[music]
+
+467
+00:29:34,760 --> 00:29:35,760
+Bells.
+
+468
+00:29:35,760 --> 00:29:38,080
+That is some bells.
+
+469
+00:29:38,080 --> 00:29:39,080
+Those are cathedral bells.
+
+470
+00:29:39,080 --> 00:29:40,080
+What is that?
+
+471
+00:29:40,080 --> 00:29:41,080
+That's familiar, I know that.
+
+472
+00:29:41,080 --> 00:29:43,080
+Uh, I don't know, it just says...
+
+473
+00:29:43,080 --> 00:29:44,320
+Is that from the sample set?
+
+474
+00:29:44,320 --> 00:29:46,040
+It's from, yeah, it's from Freesound.
+
+475
+00:29:46,040 --> 00:29:47,920
+It just says cathedral bells, close A.
+
+476
+00:29:47,920 --> 00:29:48,920
+Yeah.
+
+477
+00:29:48,920 --> 00:29:52,400
+Yeah, I don't know.
+
+478
+00:29:52,400 --> 00:29:53,400
+Hand bells.
+
+479
+00:29:53,400 --> 00:29:54,400
+Mm-hmm.
+
+480
+00:29:54,400 --> 00:30:00,280
+Wait, I'll bet this has got a bell.
+
+481
+00:30:00,280 --> 00:30:01,280
+That's a cash register.
+
+482
+00:30:01,280 --> 00:30:02,280
+It is?
+
+483
+00:30:02,280 --> 00:30:05,120
+I really like the emojis on the Farrago board now.
+
+484
+00:30:05,120 --> 00:30:06,040
+- What emojis?
+
+485
+00:30:06,040 --> 00:30:06,880
+- Kind of nice.
+
+486
+00:30:06,880 --> 00:30:08,740
+You haven't seen the emojis on the...
+
+487
+00:30:08,740 --> 00:30:10,720
+- No, what am I doing wrong?
+
+488
+00:30:10,720 --> 00:30:13,200
+Farrago is our soundboard app of choice, everybody.
+
+489
+00:30:13,200 --> 00:30:14,680
+- Screenshot incoming.
+
+490
+00:30:14,680 --> 00:30:15,920
+- It's great podcasting.
+
+491
+00:30:15,920 --> 00:30:17,920
+I'm gonna have to include these in the show notes.
+
+492
+00:30:17,920 --> 00:30:19,080
+- Great podcasting.
+
+493
+00:30:19,080 --> 00:30:19,920
+- I'm waiting.
+
+494
+00:30:19,920 --> 00:30:22,560
+Your gigabit ethernet is letting you down.
+
+495
+00:30:22,560 --> 00:30:25,240
+- No, I think we're just blowholing it up
+
+496
+00:30:25,240 --> 00:30:26,640
+and taking up all the gigabit.
+
+497
+00:30:26,640 --> 00:30:29,440
+- Oh, how'd you do that?
+
+498
+00:30:29,440 --> 00:30:31,520
+- I just, it was just there.
+
+499
+00:30:31,520 --> 00:30:35,620
+And then I did pick some for some of my old favorites.
+
+500
+00:30:35,620 --> 00:30:39,540
+If you pick a tile, any tile,
+
+501
+00:30:39,540 --> 00:30:43,220
+and then look at it in the inspector,
+
+502
+00:30:43,220 --> 00:30:46,920
+and there's a field at the very top that says emoji.
+
+503
+00:30:46,920 --> 00:30:48,540
+- Oh yeah, look at that.
+
+504
+00:30:48,540 --> 00:30:49,380
+That is amazing.
+
+505
+00:30:49,380 --> 00:30:53,340
+- And you can change the colors and make it pretty.
+
+506
+00:30:53,340 --> 00:30:55,740
+- Yeah, that's cool.
+
+507
+00:30:55,740 --> 00:30:57,580
+- You can add notes.
+
+508
+00:30:57,580 --> 00:30:58,860
+I think you could always add notes.
+
+509
+00:30:58,860 --> 00:31:01,420
+I don't think that's new, but the emojis is new.
+
+510
+00:31:01,420 --> 00:31:03,420
+I put the brain exploding emoji on this one.
+
+511
+00:31:03,420 --> 00:31:05,880
+You press that and poof, I'm there.
+
+512
+00:31:05,880 --> 00:31:06,720
+There you go.
+
+513
+00:31:06,720 --> 00:31:07,540
+Poof.
+
+514
+00:31:07,540 --> 00:31:09,780
+(laughing)
+
+515
+00:31:09,780 --> 00:31:11,220
+This is a really nice update.
+
+516
+00:31:11,220 --> 00:31:12,580
+And did you also notice
+
+517
+00:31:12,580 --> 00:31:15,080
+that you can have multiple windows open?
+
+518
+00:31:15,080 --> 00:31:17,740
+You can open a set in its own window.
+
+519
+00:31:17,740 --> 00:31:20,700
+You can open one of your soundboards in its own window.
+
+520
+00:31:20,700 --> 00:31:22,700
+So you can have multiple soundboards open
+
+521
+00:31:22,700 --> 00:31:25,400
+and see them at the same time.
+
+522
+00:31:25,400 --> 00:31:27,860
+That is nice.
+
+523
+00:31:27,860 --> 00:31:28,700
+That, yeah.
+
+524
+00:31:28,700 --> 00:31:29,520
+Oh, I see.
+
+525
+00:31:29,520 --> 00:31:33,240
+it doesn't show it in the app anymore.
+
+526
+00:31:33,240 --> 00:31:35,400
+- No, it's just this board's opening a new window
+
+527
+00:31:35,400 --> 00:31:36,560
+or this set's opening.
+
+528
+00:31:36,560 --> 00:31:38,040
+- That's kind of clever.
+
+529
+00:31:38,040 --> 00:31:40,320
+Oh my God, you really did go to town on this today,
+
+530
+00:31:40,320 --> 00:31:41,160
+didn't you?
+
+531
+00:31:41,160 --> 00:31:42,560
+- Yeah, I spent about 20 minutes or so
+
+532
+00:31:42,560 --> 00:31:43,600
+just playing around in it,
+
+533
+00:31:43,600 --> 00:31:45,380
+looking to see what was new and different.
+
+534
+00:31:45,380 --> 00:31:47,040
+- And the neat thing is when,
+
+535
+00:31:47,040 --> 00:31:49,720
+so in the main window in the app,
+
+536
+00:31:49,720 --> 00:31:51,440
+when you click on a different set,
+
+537
+00:31:51,440 --> 00:31:53,440
+it shows you the fact that that one set
+
+538
+00:31:53,440 --> 00:31:55,220
+is open somewhere still.
+
+539
+00:31:55,220 --> 00:31:56,200
+- Yeah.
+
+540
+00:31:56,200 --> 00:31:57,720
+- That is very cool.
+
+541
+00:31:57,720 --> 00:31:58,560
+- It is.
+
+542
+00:31:58,560 --> 00:32:00,040
+Nice. Wow.
+
+543
+00:32:00,040 --> 00:32:01,820
+We should just make a soundboard podcast
+
+544
+00:32:01,820 --> 00:32:04,240
+where all we do is play sounds back and forth
+
+545
+00:32:04,240 --> 00:32:07,400
+and respond to each other with sounds off our soundboard.
+
+546
+00:32:07,400 --> 00:32:08,480
+Sounds good to me.
+
+547
+00:32:08,480 --> 00:32:10,120
+Yeah, I think it would get a lot of listens.
+
+548
+00:32:10,120 --> 00:32:11,920
+(laughs)
+
+549
+00:32:11,920 --> 00:32:13,500
+Sounds good to me, man.
+
+550
+00:32:13,500 --> 00:32:16,000
+All right, what else do we have?
+
+551
+00:32:16,000 --> 00:32:17,360
+I can't believe how boring we are.
+
+552
+00:32:17,360 --> 00:32:19,760
+You wanna talk about cast iron and cooking?
+
+553
+00:32:19,760 --> 00:32:22,600
+(laughs)
+
+554
+00:32:22,600 --> 00:32:24,120
+We can, but which aspect you have to pick?
+
+555
+00:32:24,120 --> 00:32:25,680
+No, we don't have to.
+
+556
+00:32:25,680 --> 00:32:28,080
+No, no, you have to pick an aspect, though.
+
+557
+00:32:28,080 --> 00:32:33,920
+An aspect you can't talk about both cast-iron and cooking. There's not enough time in the day for that
+
+558
+00:32:33,920 --> 00:32:41,160
+They kind of are linked hand in hand. You just made some amazing brioche buns. I did make some amazing brioche buns
+
+559
+00:32:41,160 --> 00:32:43,640
+Let's talk about that. Do you like baking Scott? I
+
+560
+00:32:43,640 --> 00:32:48,400
+Do what kind of cooking do you like to do normal cooking?
+
+561
+00:32:48,400 --> 00:32:51,140
+normal cooking like oven
+
+562
+00:32:51,140 --> 00:32:55,560
+Cooking I'm better at that. Let me put it that way. I'm better at it baking
+
+563
+00:32:55,560 --> 00:33:02,000
+I'm not as good at but I can make pizza dough. The other thing about baking is trying to learn stuff from my wife
+
+564
+00:33:02,000 --> 00:33:06,200
+She doesn't measure anything. So I asked her how much of this did you put in?
+
+565
+00:33:06,200 --> 00:33:09,320
+I just want a baseline so I don't go crazy with something
+
+566
+00:33:09,320 --> 00:33:12,260
+I'm not saying it has to be exact
+
+567
+00:33:12,260 --> 00:33:18,200
+I need to know the relativity of how much this goes in versus this other thing so that I get the ratios pretty much
+
+568
+00:33:18,200 --> 00:33:23,900
+Close enough that I have a friend that I swap recipes and stuff with and and that
+
+569
+00:33:23,960 --> 00:33:31,420
+aspects kind of maddening because she cooks like that and yeah oftentimes her ingredients list will say things like a spoon of this or a
+
+570
+00:33:31,420 --> 00:33:33,940
+Spoon of that or a size big spoon
+
+571
+00:33:33,940 --> 00:33:39,520
+One time I was told and I quote
+
+572
+00:33:39,520 --> 00:33:42,740
+four seconds of honey
+
+573
+00:33:42,740 --> 00:33:47,460
+Hold the bottle up in drizzle it for four seconds
+
+574
+00:33:47,460 --> 00:33:53,360
+That is a really unique way of measuring the amount of honey. You're putting in something
+
+575
+00:33:53,360 --> 00:34:17,360
+It is. It's funny. It's amusing. But at the same time, it's kind of frustrating when you're trying to learn how to make stuff and you just want a frickin' discrete measurement, man. We've got several different measurement systems we could use. We could use metric, we could use standard. I mean, there's all kinds of ways we can quantify. We can do weights, we can do grams and ounces. No.
+
+576
+00:34:17,360 --> 00:34:23,600
+And I agree with Clay that once you're familiar with the process and you kind of have an idea
+
+577
+00:34:23,600 --> 00:34:28,080
+of how much you want to use of a given thing for everything, you don't have to measure
+
+578
+00:34:28,080 --> 00:34:29,080
+stuff anymore.
+
+579
+00:34:29,080 --> 00:34:30,320
+I totally get that.
+
+580
+00:34:30,320 --> 00:34:34,400
+But when I'm learning how to do stuff, I want to have some baseline.
+
+581
+00:34:34,400 --> 00:34:39,400
+It also, you need some time to learn how things are going to impact things.
+
+582
+00:34:39,400 --> 00:34:43,920
+You know, certain spices and herbs, what they're going to taste like, and how they might interact
+
+583
+00:34:43,920 --> 00:34:49,760
+differently with beef versus chicken or pork or fish and you know so there's a lot of finesse
+
+584
+00:34:49,760 --> 00:34:51,080
+that you...
+
+585
+00:34:51,080 --> 00:34:55,000
+I do some freestyling every now and then, not as much as Clay would like.
+
+586
+00:34:55,000 --> 00:34:58,800
+He regular chastises me for it but I do some every now and then.
+
+587
+00:34:58,800 --> 00:35:04,000
+But you know I just... as much of a cooking enthusiast as I've become, I still know that
+
+588
+00:35:04,000 --> 00:35:06,440
+I'm nowhere near professional at it.
+
+589
+00:35:06,440 --> 00:35:10,540
+And I'm still for the most part just pretty comfortable at finding a good recipe for something
+
+590
+00:35:10,540 --> 00:35:12,540
+I want to make and just follow in the recipe and
+
+591
+00:35:12,540 --> 00:35:18,620
+Like maybe it would be cool if I could just freestyle it and throw it all together
+
+592
+00:35:18,620 --> 00:35:23,480
+But at the same time I don't care that I had to follow a recipe to made it make it
+
+593
+00:35:23,480 --> 00:35:27,420
+You know, I still just enjoy eating it when it's done and it still tastes great
+
+594
+00:35:27,420 --> 00:35:31,440
+And that's that's what matters to me, but see if I have a recipe and it has amounts
+
+595
+00:35:31,440 --> 00:35:34,520
+Like sometimes my wife will look at recipes and she goes yeah
+
+596
+00:35:34,520 --> 00:35:36,180
+Yeah, they asked for this but we don't need it
+
+597
+00:35:36,180 --> 00:35:38,020
+We can use this other thing and that makes sense to me
+
+598
+00:35:38,020 --> 00:35:43,020
+But at least I have something to start with and then it gives me a clue of where I can deviate
+
+599
+00:35:43,020 --> 00:35:46,000
+What might be equivalent at least you know?
+
+600
+00:35:46,000 --> 00:35:47,500
+Yeah, I don't know
+
+601
+00:35:47,500 --> 00:35:53,580
+I'm still there's still a lot of things that I have to think about when I make and so mm-hmm for those type of things
+
+602
+00:35:53,580 --> 00:35:55,700
+When I'm starting out to make them
+
+603
+00:35:55,700 --> 00:35:59,500
+I still want to have some kind of reference so I don't just go nuts and feed people garbage
+
+604
+00:35:59,500 --> 00:36:06,940
+Yeah, I will say this I'm gonna throw clay a bone here in addition to the really good Brioche buns
+
+605
+00:36:06,940 --> 00:36:11,680
+I made last night, which I'm gonna talk more about those in a minute. Those are so good. I had my chicken breading
+
+606
+00:36:11,680 --> 00:36:15,960
+I freestyle that mm-hmm, and there's no recipe for my chicken breading
+
+607
+00:36:15,960 --> 00:36:18,560
+What'd you use? I use
+
+608
+00:36:18,560 --> 00:36:22,360
+your traditional breading method I use a
+
+609
+00:36:22,360 --> 00:36:29,600
+bowl of flour a bowl of egg and milk mixed and then a bowl of bread crumbs and then I put
+
+610
+00:36:29,600 --> 00:36:36,560
+Salt and pepper and a little bit of poultry seasoning in the flour and then I put a generous amount of Cajun seasoning
+
+611
+00:36:36,560 --> 00:36:42,380
+So it made it kind of a spicy chicken and then I put I really cajun seasoned up the breadcrumbs pretty good
+
+612
+00:36:42,380 --> 00:36:48,860
+What are the breadcrumbs panko is the panko? Yeah. Yeah. Okay, you say panko. I thought it was panko
+
+613
+00:36:48,860 --> 00:36:54,200
+Well panko would be the Japanese way to say it. Okay panko. All right, I stand corrected panko
+
+614
+00:36:54,200 --> 00:36:58,600
+I usually call them panko breadcrumbs. The original panko is Japanese and
+
+615
+00:36:58,600 --> 00:37:02,900
+Mm-hmm. Pan just actually means bread. Yeah
+
+616
+00:37:03,060 --> 00:37:09,180
+Yeah, and ko is like little and then if you look at that chicken sandwich I sent you that particular piece of chicken
+
+617
+00:37:09,180 --> 00:37:16,080
+I got just a tad bit too done. But it's a nice breading on there. No, it's good. Yeah, it was delicious lunch
+
+618
+00:37:16,080 --> 00:37:21,740
+Why did you say it's too done - was it dry? No, it's just a little dark. I like the yeah
+
+619
+00:37:21,740 --> 00:37:24,500
+Yeah, yeah a little more Golding the breading is just a little dark
+
+620
+00:37:24,500 --> 00:37:30,700
+It's not burnt by any means still very tender and juicy still very edible, but the breading is just a little too done
+
+621
+00:37:31,180 --> 00:37:35,320
+Yeah, it didn't look bad. It didn't look burnt. But look at that bun
+
+622
+00:37:35,320 --> 00:37:43,760
+No, Vic is staring at his buns I am staring at my buns this is actually the first time I made a brioche dough
+
+623
+00:37:43,760 --> 00:37:47,340
+Well, actually, I think I made one once before and I didn't realize it several times actually
+
+624
+00:37:47,340 --> 00:37:50,160
+I think my cinnamon roll recipe would actually be considered brioche
+
+625
+00:37:50,160 --> 00:37:57,080
+Well, I think that my cinnamon roll recipe would actually be considered brioche because it's got milk eggs and sugar in it
+
+626
+00:37:57,320 --> 00:38:04,040
+Okay, and that's that's what qualifies a brioche is a brioche. Yeah, but I've never heard of a cinnamon roll is called brioche though
+
+627
+00:38:04,040 --> 00:38:10,160
+Maybe I'm wrong. No, I'm not a cinnamon roll expert. I don't think I've ever heard anybody referred to him that way either
+
+628
+00:38:10,160 --> 00:38:15,280
+I just I think that it would fall into that category because of the the way the dough is made
+
+629
+00:38:15,280 --> 00:38:20,840
+But I really I really liked I've always liked the cinnamon roll dough when I made it. It's yeah
+
+630
+00:38:20,840 --> 00:38:23,820
+I'm gonna try to articulate it, but it's kind of hard to find the words
+
+631
+00:38:23,820 --> 00:38:27,020
+But it's just you know some doughs like a pizza dough
+
+632
+00:38:27,020 --> 00:38:33,940
+Seems really fragile and easy to tear and and you know if you're not careful when you're working with it and stuff
+
+633
+00:38:33,940 --> 00:38:41,620
+Yeah, and a little more sticky and just I don't the brioche dough and the cinnamon roll dough
+
+634
+00:38:41,620 --> 00:38:45,440
+It's it's it's a firmer dough. It's good. It's a little more hearty
+
+635
+00:38:45,440 --> 00:38:50,080
+If that makes any sense to you, it feels drier to the touch
+
+636
+00:38:50,080 --> 00:38:55,120
+It's just easier to work with and to hold and to mold and stuff and doesn't feel as fragile
+
+637
+00:38:55,120 --> 00:39:00,580
+Yeah, that makes sense. Sure. I just I really like the texture of it and I really like the outcome of it
+
+638
+00:39:00,580 --> 00:39:05,720
+Okay, so tell me these brioche buns. How did they turn out? Because I can't tell from the picture
+
+639
+00:39:05,720 --> 00:39:08,880
+Are they soft are they a little bit crisp? Are they they are?
+
+640
+00:39:08,880 --> 00:39:10,880
+pretty soft
+
+641
+00:39:10,880 --> 00:39:16,480
+Mm-hmm. They actually this is a side topic. We'll table for a few minutes, but
+
+642
+00:39:17,340 --> 00:39:21,140
+They're pretty soft. Although today they feel kind of firm in the bag that I put them in
+
+643
+00:39:21,140 --> 00:39:25,640
+But the second I heated that one up and toasted it for that sandwich it softened right up again
+
+644
+00:39:25,640 --> 00:39:30,740
+I think part of why it's hard for me to tell what the consistency of it is because you toasted it. Yeah
+
+645
+00:39:30,740 --> 00:39:37,040
+Yeah, and then last night out of that when they were fresh out of the oven they were very very fluffy and soft and moist
+
+646
+00:39:37,040 --> 00:39:40,280
+Okay, so that's cool. That's the first time you ever made those. That's really cool
+
+647
+00:39:40,280 --> 00:39:43,380
+Have you made other what other breads have you made before that besides?
+
+648
+00:39:43,380 --> 00:39:48,820
+Oh, I make all kinds of bread loaves and buns and yeast rolls and...
+
+649
+00:39:48,820 --> 00:39:54,780
+Yeast rolls? Banana breads. Yea! What do you mean by yeast roll? Like think steakhouse rolls.
+
+650
+00:39:54,780 --> 00:39:59,120
+Oh, okay. Yeah. Yeah. Yea, a yeast roll.
+
+651
+00:39:59,120 --> 00:40:04,260
+Okay, I've never called them a yeast roll. And pizza crusts. I make lots of pizza crusts.
+
+652
+00:40:04,260 --> 00:40:07,200
+Not as many as they used to. I need to make a good pizza sometime soon.
+
+653
+00:40:07,200 --> 00:40:09,820
+We've been lazy and calling the papa here lately.
+
+654
+00:40:10,460 --> 00:40:15,420
+Tomorrow's the fourth of July and you don't need no papa on the fourth. No, we don't need no pop on the fourth
+
+655
+00:40:15,420 --> 00:40:18,280
+We're probably gonna actually be eating some chicken because I got a bunch of it
+
+656
+00:40:18,280 --> 00:40:28,440
+Chicken and chicken and brioche buns and or I've actually I've got some burgers that I have padded out myself and they're sitting in
+
+657
+00:40:28,440 --> 00:40:33,280
+My freezer I might make some of those feet on some of those buns. We still got them around. Mmm. Here's a question
+
+658
+00:40:33,280 --> 00:40:39,400
+Oh, I guess I don't does your wife make a lot of buns and stuff like that because you said you don't know
+
+659
+00:40:39,400 --> 00:40:44,360
+No, not a lot of bread. She does occasionally and when she does she makes amazing bread.
+
+660
+00:40:44,360 --> 00:40:45,360
+But it is a lot of work.
+
+661
+00:40:45,360 --> 00:40:49,560
+Here's one thing that I found about making these dough products at home. The day I make
+
+662
+00:40:49,560 --> 00:40:54,460
+them, when they're fresh out of the oven, they're always good, but they're never as
+
+663
+00:40:54,460 --> 00:40:57,720
+good as they are the day you make them fresh out of the oven.
+
+664
+00:40:57,720 --> 00:40:58,720
+For sure.
+
+665
+00:40:58,720 --> 00:41:03,660
+And when it comes to like buns and stuff like this, you know, they seems like they feel
+
+666
+00:41:03,660 --> 00:41:10,940
+heavier and tougher and drier even as soon as one day later. Why do you think they don't stay soft
+
+667
+00:41:10,940 --> 00:41:15,340
+like store-bought stuff does? I don't know because they don't have all the... I don't know. I have no
+
+668
+00:41:15,340 --> 00:41:21,260
+idea and it doesn't really seem to matter how you keep them. No. I've tried in foil, I've tried in
+
+669
+00:41:21,260 --> 00:41:27,180
+plastic, I've tried just wrapped in a towel. But like you can bring a stupid pack of Walmart
+
+670
+00:41:27,180 --> 00:41:31,580
+hamburger buns home and they'll stay nice and soft for a week and a half until the cockroaches
+
+671
+00:41:31,580 --> 00:41:33,820
+just carry them away or whatever, but.
+
+672
+00:41:33,820 --> 00:41:35,900
+- But they still won't taste as good as those,
+
+673
+00:41:35,900 --> 00:41:37,660
+as the ones you made on the first day.
+
+674
+00:41:37,660 --> 00:41:39,900
+- No, they won't, they won't.
+
+675
+00:41:39,900 --> 00:41:41,500
+- I don't know, but I will say one thing.
+
+676
+00:41:41,500 --> 00:41:42,620
+Have you ever made beer bread?
+
+677
+00:41:42,620 --> 00:41:43,980
+Beer bread is amazingly good.
+
+678
+00:41:43,980 --> 00:41:45,140
+- I have not.
+
+679
+00:41:45,140 --> 00:41:46,580
+Talk to me about beer bread.
+
+680
+00:41:46,580 --> 00:41:48,060
+- Just take any beer and pour it in there.
+
+681
+00:41:48,060 --> 00:41:49,580
+You can find good recipes for beer bread,
+
+682
+00:41:49,580 --> 00:41:51,760
+but my wife has made some amazing beer bread.
+
+683
+00:41:51,760 --> 00:41:53,340
+Now, if you want bread that's good
+
+684
+00:41:53,340 --> 00:41:55,420
+when it's brand new fresh and it's still warm
+
+685
+00:41:55,420 --> 00:41:58,640
+and it slathers some butter on there that melts into it.
+
+686
+00:41:58,640 --> 00:41:59,860
+- Is it basically just a bread,
+
+687
+00:41:59,860 --> 00:42:01,780
+but you're using beer instead of the water?
+
+688
+00:42:01,780 --> 00:42:03,000
+- Yes, basically.
+
+689
+00:42:03,000 --> 00:42:04,900
+I don't know if it's instead of,
+
+690
+00:42:04,900 --> 00:42:07,580
+but it replaces some of the water, yeah.
+
+691
+00:42:07,580 --> 00:42:10,500
+I don't know if you use no water.
+
+692
+00:42:10,500 --> 00:42:12,200
+- I'll look into it, sounds interesting.
+
+693
+00:42:12,200 --> 00:42:15,120
+- BeerBreadRecipe.com, oh no, sorry.
+
+694
+00:42:15,120 --> 00:42:17,700
+Classic beer bread, Beer Bread Recipe.
+
+695
+00:42:17,700 --> 00:42:18,920
+Oh yeah, they don't use any water.
+
+696
+00:42:18,920 --> 00:42:21,660
+So they are, this one does replace the entire thing
+
+697
+00:42:21,660 --> 00:42:23,200
+of water with beer, yeah.
+
+698
+00:42:23,200 --> 00:42:24,360
+- Yeah.
+
+699
+00:42:24,360 --> 00:42:25,680
+- Yeah, it's good stuff though.
+
+700
+00:42:25,680 --> 00:42:27,340
+It just, ah.
+
+701
+00:42:27,340 --> 00:42:31,180
+Let me guess, beer, flour, yeast, salt,
+
+702
+00:42:31,180 --> 00:42:32,500
+maybe a little bit of sugar.
+
+703
+00:42:32,500 --> 00:42:36,460
+This one actually uses baking powder and no yeast.
+
+704
+00:42:36,460 --> 00:42:38,180
+Oh, okay.
+
+705
+00:42:38,180 --> 00:42:39,620
+I guess the yeast is in the beer.
+
+706
+00:42:39,620 --> 00:42:41,260
+Not either that or it's just depending
+
+707
+00:42:41,260 --> 00:42:43,180
+upon the baking powder to rise.
+
+708
+00:42:43,180 --> 00:42:46,100
+It could be, it says don't use it
+
+709
+00:42:46,100 --> 00:42:49,300
+if you're using self-rising flour, which sometimes we use.
+
+710
+00:42:49,300 --> 00:42:51,020
+We have both kinds of flour.
+
+711
+00:42:51,020 --> 00:42:51,860
+Blasphemy.
+
+712
+00:42:51,860 --> 00:42:55,460
+Sometimes, sometimes, you know what I've used?
+
+713
+00:42:55,460 --> 00:42:56,300
+I'm not kidding.
+
+714
+00:42:56,300 --> 00:43:02,140
+used for pancakes I've used self rising pancake flour and also still put a
+
+715
+00:43:02,140 --> 00:43:05,020
+little baking powder in it I got the fluffiest pancakes you've ever seen in
+
+716
+00:43:05,020 --> 00:43:10,100
+your life yeah it was good I know I've kind of steered away from anything self
+
+717
+00:43:10,100 --> 00:43:13,980
+rising when I wanted cornbread I went searching far and wide you know it's
+
+718
+00:43:13,980 --> 00:43:19,340
+actually kind of hard to find cornmeal these days that's not self rising yeah
+
+719
+00:43:19,340 --> 00:43:26,260
+I'm glad that you stay away from that self rising I just really like to have
+
+720
+00:43:26,260 --> 00:43:32,620
+full control of it you know. What was it I said earlier my full stack
+
+721
+00:43:32,620 --> 00:43:38,860
+vertically integrated kitchen. That's a show title right there.
+
+722
+00:43:38,860 --> 00:43:45,280
+No I get it. I don't know why you wouldn't enjoy that. You made all
+
+723
+00:43:45,280 --> 00:43:48,940
+of it from top to bottom. Well I doubt that you made the pickle. I did not make
+
+724
+00:43:48,940 --> 00:43:53,500
+the pickle or the mayo. I did make the bun. I did make the chicken.
+
+725
+00:43:53,500 --> 00:43:59,820
+the chicken. I made the honey mustard. That's a good honey mustard recipe too man. I love it.
+
+726
+00:43:59,820 --> 00:44:04,780
+Honey mustard is good. I discovered that I think it's been about a month, month and a half ago
+
+727
+00:44:04,780 --> 00:44:08,620
+and I just whenever we get low on it I mix more up it's become a staple in the fridge.
+
+728
+00:44:08,620 --> 00:44:13,660
+I'll put it on sandwiches especially chicken. I love it on chicken. The wife uses it as a
+
+729
+00:44:13,660 --> 00:44:22,140
+dressing on salads. Good stuff. Yeah I don't, I can't see it, I can't see a problem in wanting to
+
+730
+00:44:22,140 --> 00:44:27,180
+make the sandwich from top to bottom. That's right. Throw a pickle in there that you can't possibly make.
+
+731
+00:44:27,180 --> 00:44:31,980
+Well you can make pickles. I think that's just some salt, vinegar, and cucumbers.
+
+732
+00:44:31,980 --> 00:44:37,500
+No no no yeah yeah but you can't make a pickle. Some dill. Some dill. We need some dill weed in there.
+
+733
+00:44:37,500 --> 00:44:42,780
+You do. Now I want to make pickles. I don't I don't want to make pickles. I have to go to Walmart. I'll
+
+734
+00:44:42,780 --> 00:44:48,460
+see you. That's one thing I don't want to do. There are some things I don't want to do. Yeah. Yeah.
+
+735
+00:44:48,460 --> 00:44:51,260
+Anyway, well that's cool. What's your next project?
+
+736
+00:44:51,260 --> 00:44:53,260
+I wonder if that is all there is to pickles.
+
+737
+00:44:53,260 --> 00:44:53,820
+I don't know.
+
+738
+00:44:53,820 --> 00:44:54,380
+I think it is.
+
+739
+00:44:54,380 --> 00:44:57,660
+I'm sure it's like everything else that there's probably details and tricks to get it.
+
+740
+00:44:57,660 --> 00:45:01,660
+Probably need tons of chemical preservatives I need to dump in there if I really want to match
+
+741
+00:45:01,660 --> 00:45:02,780
+the store-bought experience.
+
+742
+00:45:02,780 --> 00:45:06,460
+Vic, if you want to age well you've got to preserve your pickle.
+
+743
+00:45:06,460 --> 00:45:07,260
+Preserve your...
+
+744
+00:45:07,260 --> 00:45:12,540
+That's not a show title too? I mean...
+
+745
+00:45:15,580 --> 00:45:19,020
+Oh boy, no, let's go with full stack vertically integrated kitchen.
+
+746
+00:45:19,020 --> 00:45:27,420
+You can use preserve your pickle on this is the show. Clay will be all about it.
+
+747
+00:45:27,420 --> 00:45:33,420
+If he ever does it again, he's like, he's like, I don't know when he's going to be able to record
+
+748
+00:45:33,420 --> 00:45:39,660
+again. He's just like, I'm dipping out. I think that's it. I can see it already. I'm dipping out.
+
+749
+00:45:39,660 --> 00:45:44,780
+I don't know what my next project is. I'm gonna have to give it some thought. I can tell you,
+
+750
+00:45:44,780 --> 00:45:49,880
+I'm gonna be making more buns though and I'm gonna have a lot of different sandwiches on those buns in my future
+
+751
+00:45:49,880 --> 00:45:52,840
+They're just so good man. It's a good project
+
+752
+00:45:52,840 --> 00:45:54,180
+Yeah
+
+753
+00:45:54,180 --> 00:46:00,980
+Might cut the recipe in half and just make them a little more fresh like it said you should get eight out of it somehow
+
+754
+00:46:00,980 --> 00:46:06,800
+I got nine. I don't know where that went wrong. It was a circle that I cut evenly I thought
+
+755
+00:46:06,800 --> 00:46:10,460
+You got a nice bun
+
+756
+00:46:10,460 --> 00:46:14,300
+Got a nice bun like having a cat with too many toes
+
+757
+00:46:14,300 --> 00:46:21,380
+There may have been some some drink involved. Maybe you should drink more, Vic.
+
+758
+00:46:21,380 --> 00:46:26,140
+You could get 12 next time. I would definitely like... I would like the buns
+
+759
+00:46:26,140 --> 00:46:29,900
+to be a little bit bigger. Like, if you look at my my chicken sandwich there,
+
+760
+00:46:29,900 --> 00:46:35,520
+there's... the ratio of chicken to bun is just not exactly even. No. It doesn't have
+
+761
+00:46:35,520 --> 00:46:38,980
+to be perfectly even, and I guess there's probably an argument to be made that I
+
+762
+00:46:38,980 --> 00:46:42,540
+could definitely benefit from a smaller portion of chicken, but... That's what I was
+
+763
+00:46:42,540 --> 00:46:49,500
+to ask was I know you have knives in your house. I do. I actually cut that chicken. I did. I started
+
+764
+00:46:49,500 --> 00:46:54,140
+I did. I started with regular chicken breasts and I sliced them horizontally, you know, to make the
+
+765
+00:46:54,140 --> 00:46:59,660
+thin cut chicken breasts. Oh yeah yeah yeah yeah but I mean but once you sized up how well it was
+
+766
+00:46:59,660 --> 00:47:04,220
+going to fit in the bun or not you didn't do any cutting. Oh no no no no once it's fried it goes
+
+767
+00:47:04,220 --> 00:47:11,900
+on the sandwich man the time to cut would have been before. It was sticking out quite a ways.
+
+768
+00:47:11,900 --> 00:47:17,260
+Why would I cut that perfectly pretty looking piece of breaded chicken?
+
+769
+00:47:17,260 --> 00:47:19,900
+Because it was sticking out three feet on one side? I don't know.
+
+770
+00:47:19,900 --> 00:47:23,100
+Or I could just make slightly bigger buns.
+
+771
+00:47:23,100 --> 00:47:26,380
+That's true. You're gonna have to next time.
+
+772
+00:47:26,380 --> 00:47:30,140
+I'm thinking I'm gonna cut it back to six because they don't need to be a whole lot bigger.
+
+773
+00:47:30,140 --> 00:47:30,700
+Those are...
+
+774
+00:47:30,700 --> 00:47:32,700
+No, they don't.
+
+775
+00:47:32,700 --> 00:47:37,900
+Just a tiny little bit bigger than your traditional like just your plain basic
+
+776
+00:47:37,900 --> 00:47:41,580
+cheap generic hamburger bun. They're just a little bigger in diameter than that.
+
+777
+00:47:41,580 --> 00:47:47,780
+You know, I just realized my only problem with baking as opposed to cooking is it's super hard for me to figure out
+
+778
+00:47:47,780 --> 00:47:51,660
+It's super hard for me to keep track of how many calories are going into a certain thing
+
+779
+00:47:51,660 --> 00:47:57,740
+Yeah, you'd pretty much have to just dump your whole recipe into the app and then divide it into the number of portions you make
+
+780
+00:47:57,740 --> 00:48:02,240
+Right. Yeah, I'm assuming you stick pretty close to the recipe. It'll figure it out for you, but
+
+781
+00:48:02,240 --> 00:48:09,820
+Yeah, I've never done so do that either stick close to the recipe or just if you modify the recipe put your
+
+782
+00:48:10,020 --> 00:48:17,320
+Displifications into the app - I've never bothered to calculate how many calories one of my pizzas is for example. Oh, you don't want to know
+
+783
+00:48:17,320 --> 00:48:25,020
+And you think your pizzas are bad I usually make mine a meat lovers with a pretty thick crust
+
+784
+00:48:25,020 --> 00:48:33,260
+See that Ooni works better if you don't overload the pizza crust, but also not only that yeah lately
+
+785
+00:48:33,260 --> 00:48:38,500
+We've been kind of tending to favor stuff. That's not just mostly meat it tends to better if it's
+
+786
+00:48:39,140 --> 00:48:42,960
+Personally, I like a good like for cheese pizza. Yeah, I'll eat that
+
+787
+00:48:42,960 --> 00:48:46,180
+There's definitely something to be said for a good cheese pizza
+
+788
+00:48:46,180 --> 00:48:49,780
+I don't know. I have actually it's been several months since I made a pizza
+
+789
+00:48:49,780 --> 00:48:52,260
+But I can tell you when I order pizzas here lately
+
+790
+00:48:52,260 --> 00:48:56,020
+I've been scaling back from I'm not doing the meat lovers hardly ever at all anymore
+
+791
+00:48:56,020 --> 00:48:59,620
+what I've been getting into lately is just a pepperoni and
+
+792
+00:48:59,620 --> 00:49:05,020
+mushrooms and maybe some extra cheese and occasionally a little bit of Italian sausage on it and
+
+793
+00:49:05,420 --> 00:49:10,100
+I'm really thinking the next time I make one at home. I'm gonna make it a little more strip back like that
+
+794
+00:49:10,100 --> 00:49:12,780
+We made a interesting kind of
+
+795
+00:49:12,780 --> 00:49:17,380
+What was it? It was spicy like a Mexican pizza and it had refried beans on it
+
+796
+00:49:17,380 --> 00:49:20,800
+But then we fried an egg and threw it on top. We made little pizzas like that last time
+
+797
+00:49:20,800 --> 00:49:25,100
+So it was kind of like a Mexican pizza, but then had a fried egg on top. It was pretty good
+
+798
+00:49:25,100 --> 00:49:30,320
+It really was good. Did you get the yolk done or did you leave the yolk kind of runny?
+
+799
+00:49:30,540 --> 00:49:36,640
+How did you handle that? It was semi runny. Yeah. Yeah, so it's kind of it. That was good though. Yeah. Yeah
+
+800
+00:49:36,640 --> 00:49:41,260
+We're making each other hungry. We've definitely discussed egg sandwiches in the past
+
+801
+00:49:41,260 --> 00:49:46,860
+Not on this show. Yeah, they have to be fried. Yeah, I usually prefer a scrambled egg sandwich
+
+802
+00:49:46,860 --> 00:49:52,820
+But I also I do also appreciate a good good fried egg sandwich and when I do I like it when you know
+
+803
+00:49:52,820 --> 00:49:58,040
+The yolks just running down everywhere and then you can take some of the bread and stop it back up and I mean that's good
+
+804
+00:49:58,040 --> 00:49:59,240
+stuff
+
+805
+00:49:59,240 --> 00:50:03,980
+Yeah, I tend to do the when I make a fried egg sandwich I tend to make the yolk
+
+806
+00:50:03,980 --> 00:50:08,500
+Not as runny I tend to either make it so that it's
+
+807
+00:50:08,500 --> 00:50:14,820
+Medium runny or else it's not runny at all. I don't know why that's just the way I do it
+
+808
+00:50:14,820 --> 00:50:21,300
+Is that a flavor texture thing or is that a just to make it a little neater to eat thing?
+
+809
+00:50:21,300 --> 00:50:26,920
+Probably a little both. Okay. I rely on the butter melting in combining with the cheese and
+
+810
+00:50:27,660 --> 00:50:34,240
+Whatever I put on there whether it be bacon or ham or whatever to provide the kind of liquidy. Yeah. Yeah here lately
+
+811
+00:50:34,240 --> 00:50:38,560
+I've actually I've taken a pretty good passion like before I made these brioche buns
+
+812
+00:50:38,560 --> 00:50:42,340
+I found me a recipe a month or two back a couple months back
+
+813
+00:50:42,340 --> 00:50:47,580
+I think and I started making these hoagie buns like a sub sandwich loaf like a little mini sub sandwich loaf
+
+814
+00:50:47,580 --> 00:50:54,460
+And I just here lately between that and my love of tortoise. I've just really grown a fondness for
+
+815
+00:50:55,680 --> 00:51:02,100
+Just a nice fully loaded sandwich. Just put a bunch of crap on there and it's just oozing everywhere while you're eating it
+
+816
+00:51:02,100 --> 00:51:06,400
+and then you got to finish eating it with a fork after you finish the sandwich and I just
+
+817
+00:51:06,400 --> 00:51:13,200
+Mmm, like last night's chicken sandwich on that sandwich. I had mayo lettuce tomato honey mustard
+
+818
+00:51:13,200 --> 00:51:16,040
+Mm-hmm sauteed jalapenos
+
+819
+00:51:16,040 --> 00:51:22,220
+Sauteed mushrooms. Can't remember if I put the red onion on it or not. I was planning to and
+
+820
+00:51:23,040 --> 00:51:26,320
+I had intended to put some pepper check cheese on it, but I did forget that
+
+821
+00:51:26,320 --> 00:51:32,720
+Forgot the pepper check cheese, but it's just this glorious messy sandwich man. It was all over me when I was
+
+822
+00:51:32,720 --> 00:51:38,680
+But it was so good Scott much better than subway, right? You'll never get that there. Oh, yeah. Yeah
+
+823
+00:51:38,680 --> 00:51:46,020
+Yeah, I mean we still order subway for convenience sometimes. But yeah, I've really grown an appreciation for sandwiches
+
+824
+00:51:46,020 --> 00:51:52,360
+We make at home. It's much it's amazing how much of good cooking is just interesting mixes of flavors and textures
+
+825
+00:51:52,920 --> 00:51:58,280
+Mm-hmm. Yeah, that was the thing. That was the thing that first got me to I really like a good torta
+
+826
+00:51:58,280 --> 00:52:04,900
+You know so many different flavors and textures in those sandwiches. Yeah. Yeah, I do too. I don't we've never made those
+
+827
+00:52:04,900 --> 00:52:07,800
+Well, you should try it sometime good stuff
+
+828
+00:52:07,800 --> 00:52:14,200
+Yeah, I'll surf the internet for a Vic's torta recipe. I can send it to you
+
+829
+00:52:14,200 --> 00:52:18,680
+Why don't you start a recipe website? I've actually considered that
+
+830
+00:52:19,680 --> 00:52:25,620
+Fix kitchen needs to have are you still are you instagramming it up or what are you doing? No
+
+831
+00:52:25,620 --> 00:52:27,620
+I haven't made any videos in a long time
+
+832
+00:52:27,620 --> 00:52:31,360
+now you just there's a lot of work in the editing and stuff and
+
+833
+00:52:31,360 --> 00:52:37,160
+It also really slowed down the actual cooking it does with us
+
+834
+00:52:37,160 --> 00:52:42,840
+Yeah, which was a point of contention because she's usually elsewhere in the house. Like are we gonna eat soon?
+
+835
+00:52:46,600 --> 00:52:51,120
+And I'm in there, you know trying to move my tripod and stuff to try and get a different angle
+
+836
+00:52:51,120 --> 00:52:55,720
+They're like not until I get at least 100 likes on Instagram. Yeah, pretty much
+
+837
+00:52:55,720 --> 00:53:01,480
+Yeah, you gotta have someone else doing the film work I need a cameraman she's not willing
+
+838
+00:53:01,480 --> 00:53:06,860
+Alright, well, we don't have time to talk about seasoning today. See how I saved us, but the brioche buns was a good one
+
+839
+00:53:06,860 --> 00:53:08,860
+I think that sounds like
+
+840
+00:53:08,860 --> 00:53:15,800
+Well, you spent a lot of time seasoning things over and over and over again I do
+
+841
+00:53:15,800 --> 00:53:22,300
+do see that to me isn't fun I don't want that that to me is I find it relaxing
+
+842
+00:53:22,300 --> 00:53:26,160
+it's not that I don't like the tools of the trade but doing cooking is way more
+
+843
+00:53:26,160 --> 00:53:29,880
+interesting to me than yeah oh I agree the cooking is more interesting but I
+
+844
+00:53:29,880 --> 00:53:34,000
+also you know just oil in the pans and wiping the oil back off and it's just
+
+845
+00:53:34,000 --> 00:53:40,080
+it it's a process that just kind of relaxes me I don't know then I toss them
+
+846
+00:53:40,080 --> 00:53:43,960
+all in the oven and I stink the house up for an hour or two and and cause cancer
+
+847
+00:53:43,960 --> 00:53:53,000
+like we talked about last time. Let's keep that on the down low. I have to tell the whole world.
+
+848
+00:53:53,000 --> 00:53:56,920
+It's a very small amount of free radicals in the air. Very small amount of cancer.
+
+849
+00:53:56,920 --> 00:54:04,920
+Don't worry, we have good news and bad news. The good news is it's a very small amount of cancer.
+
+850
+00:54:04,920 --> 00:54:07,480
+The bad news is it's in a location that you can't believe.
+
+851
+00:54:12,840 --> 00:54:14,840
+Probably shouldn't joke about that
+
+852
+00:54:14,840 --> 00:54:16,600
+No
+
+853
+00:54:16,600 --> 00:54:18,600
+How long's it been since you mowed your lawn? Oh
+
+854
+00:54:18,600 --> 00:54:22,520
+For me to mow the yard, yeah
+
+855
+00:54:22,520 --> 00:54:29,960
+Two years. It's been two years since you've mowed the yard. I pay the guy across the street. Oh my god
+
+856
+00:54:29,960 --> 00:54:33,640
+I never thought it would come to this. I thought that was like a one-time thing
+
+857
+00:54:33,640 --> 00:54:39,520
+It started that way and then you just realized this is dumb. Why have I been doing this all my life?
+
+858
+00:54:39,680 --> 00:54:43,000
+Yeah, kinda also, I'm just fat and lazy these days
+
+859
+00:54:43,000 --> 00:54:49,300
+Hey, I could spend that time seasoning my pants and making sandwiches man
+
+860
+00:54:49,300 --> 00:54:53,800
+Did I tell you I'm thinking about converting my yard from grass to wildflowers?
+
+861
+00:54:53,800 --> 00:54:59,880
+Just finding a good mix of wildflowers and just letting them go to town. It's better for the planet
+
+862
+00:54:59,880 --> 00:55:04,060
+You did not tell me that but I heard you and yeah
+
+863
+00:55:04,060 --> 00:55:07,220
+Was it you and Peter or you and Adam that were discussing it? I don't
+
+864
+00:55:07,740 --> 00:55:13,020
+had I don't remember it was discussed recently on your show I heard that I'm
+
+865
+00:55:13,020 --> 00:55:16,380
+sorry I'm repeating stories now I'm gonna have to stop podcast sorry
+
+866
+00:55:16,380 --> 00:55:20,360
+apparently I'm sorry myself no I'm seriously thinking about it I think the
+
+867
+00:55:20,360 --> 00:55:23,820
+wife would actually like that it's kind of interesting because it can look pretty
+
+868
+00:55:23,820 --> 00:55:29,720
+cool now granted it doesn't look as neat and orderly and purposeful as a nicely
+
+869
+00:55:29,720 --> 00:55:33,300
+manicured lawn but it's also a hell of a lot less work takes a lot less water
+
+870
+00:55:33,300 --> 00:55:38,100
+It's better for the environment. It is definitely better for the environment. Yeah
+
+871
+00:55:38,100 --> 00:55:40,160
+So, I don't know I'm thinking about it
+
+872
+00:55:40,160 --> 00:55:46,040
+I might have to ask my all my neighbors if they would the not looking so nice and orderly part though gets me a little
+
+873
+00:55:46,040 --> 00:55:47,340
+bit
+
+874
+00:55:47,340 --> 00:55:52,060
+But I've seen instances of it where it looks really good and I need to research and find out how they did it
+
+875
+00:55:52,060 --> 00:55:56,280
+Yeah, I think it could it needs to be like the right mix. It has to be thick enough
+
+876
+00:55:56,280 --> 00:56:01,940
+It has to be I think what I'd probably want to do and this would be an expensive project
+
+877
+00:56:01,940 --> 00:56:05,540
+I don't think I'd ever do it. I think I'd probably go more the route of
+
+878
+00:56:05,540 --> 00:56:09,260
+Gravel and
+
+879
+00:56:09,260 --> 00:56:15,820
+You've got these little islands of the wildflowers in the gravel. Yeah, that's what they do in like, Arizona and New Mexico
+
+880
+00:56:15,820 --> 00:56:19,900
+I think so. You got kind of like a park courtyard kind of situation, you know, I
+
+881
+00:56:19,900 --> 00:56:25,380
+Would find that more appealing and that's what they do in places where like Arizona
+
+882
+00:56:25,380 --> 00:56:30,640
+I think sometime some places in New Mexico maybe in where they're a little light on the rain and a little
+
+883
+00:56:31,140 --> 00:56:31,980
+a little high on the temperature.
+
+884
+00:56:31,980 --> 00:56:33,180
+- Yeah, and it just doesn't make sense.
+
+885
+00:56:33,180 --> 00:56:34,300
+But I do think in general,
+
+886
+00:56:34,300 --> 00:56:37,840
+the whole pouring water on precious lawns lifestyle
+
+887
+00:56:37,840 --> 00:56:38,680
+has to go away.
+
+888
+00:56:38,680 --> 00:56:40,060
+It just doesn't make sense anymore.
+
+889
+00:56:40,060 --> 00:56:41,180
+- Well, I don't water mine.
+
+890
+00:56:41,180 --> 00:56:42,620
+Most of us here in Kentucky don't water ours.
+
+891
+00:56:42,620 --> 00:56:43,540
+- Yeah, we don't either.
+
+892
+00:56:43,540 --> 00:56:45,060
+We let it die in the summer and it comes back-
+
+893
+00:56:45,060 --> 00:56:47,400
+- Some retired people in the community water theirs.
+
+894
+00:56:47,400 --> 00:56:49,100
+It's almost like a rite of passage, I think.
+
+895
+00:56:49,100 --> 00:56:51,180
+You gotta retire and then start watering the lawn.
+
+896
+00:56:51,180 --> 00:56:54,180
+But most of us just let it turn brown and die.
+
+897
+00:56:54,180 --> 00:56:55,300
+- Shouting at the neighbors.
+
+898
+00:56:55,300 --> 00:56:56,140
+- Yes.
+
+899
+00:56:56,140 --> 00:56:57,620
+- Whenever their dogs come anywhere near.
+
+900
+00:56:57,620 --> 00:57:00,180
+- Most of us just let it turn brown and die.
+
+901
+00:57:00,180 --> 00:57:04,180
+Yeah, I do too. But the problem with that is and I don't know if it's because of that or.
+
+902
+00:57:04,180 --> 00:57:17,180
+Something else, but we all got tons of moss and all kinds of other crap at the same time, like our yards went from looking pretty good whenever they would come back every year, they they looked pretty good to now, also, and they're just infested with junk.
+
+903
+00:57:17,180 --> 00:57:19,980
+It's just terrible. My lawn looks horrible right now.
+
+904
+00:57:19,980 --> 00:57:21,980
+Yeah, you get a lot of weeds in the yard that way.
+
+905
+00:57:21,980 --> 00:57:25,040
+Yeah. So anyway, it's time to do something.
+
+906
+00:57:25,040 --> 00:57:26,480
+And I'm thinking maybe wildflowers.
+
+907
+00:57:26,480 --> 00:57:29,860
+But I got it first. I got to research it to see if I can make it look halfway decent.
+
+908
+00:57:29,860 --> 00:57:32,380
+And then I got to make sure my neighbors aren't going to.
+
+909
+00:57:32,380 --> 00:57:35,680
+I just want to find out if there's any huge adverse reactions against it.
+
+910
+00:57:35,680 --> 00:57:37,780
+And then I'll do it anyway. But.
+
+911
+00:57:37,780 --> 00:57:40,760
+Got to run it through a committee.
+
+912
+00:57:40,760 --> 00:57:43,920
+I'll just I just want to see how badly they're going to freak out when I do it anyway.
+
+913
+00:57:43,920 --> 00:57:46,660
+Do you have an HOA there?
+
+914
+00:57:46,660 --> 00:57:49,520
+No, no. I mean, technically, I think there probably is.
+
+915
+00:57:49,520 --> 00:57:52,920
+But who would be nothing anybody bothers to?
+
+916
+00:57:52,920 --> 00:57:54,860
+No, no, no, no.
+
+917
+00:57:54,860 --> 00:57:56,780
+That's the beautiful thing about the builder ones.
+
+918
+00:57:56,780 --> 00:57:59,780
+When the builders come in and they set up all these stupid CC&Rs,
+
+919
+00:57:59,780 --> 00:58:02,540
+everybody just ignores them as soon as they're gone.
+
+920
+00:58:02,540 --> 00:58:03,960
+Like, what are they going to do?
+
+921
+00:58:03,960 --> 00:58:05,200
+The builders never going to come back.
+
+922
+00:58:05,200 --> 00:58:06,620
+And why do they care anyway?
+
+923
+00:58:06,620 --> 00:58:07,820
+They don't live there. Right.
+
+924
+00:58:07,820 --> 00:58:09,500
+They got their money. They're gone. Yeah.
+
+925
+00:58:09,500 --> 00:58:12,880
+No, we don't have any of those pesky neighbors peering around at each other
+
+926
+00:58:12,880 --> 00:58:14,620
+to make sure that everybody's,
+
+927
+00:58:14,620 --> 00:58:16,880
+you know, snipping every blade of grass or whatever.
+
+928
+00:58:16,880 --> 00:58:20,840
+Their mailbox is two and a half inches slower than all the others
+
+929
+00:58:20,840 --> 00:58:22,920
+in the neighborhood. It's an eyesore.
+
+930
+00:58:23,960 --> 00:58:27,020
+I swear those things were created just to give some people purpose in life.
+
+931
+00:58:27,020 --> 00:58:31,720
+It's either that or commit suicide. So, yeah, I think so. I think so.
+
+932
+00:58:31,720 --> 00:58:37,760
+My therapist told me I'm going to die if I don't start peering at my neighbor's
+
+933
+00:58:37,760 --> 00:58:38,600
+lawn.
+
+934
+00:58:38,600 --> 00:58:44,200
+Oh boy. On that note, should we press the yellow button?
+
+935
+00:58:44,200 --> 00:58:48,120
+I think so. Where's my, tell my friends, where's my, wait, wait, wait, wait.
+
+936
+00:58:48,120 --> 00:58:51,280
+Where's my tell my friends. Wait, wait, wait. Tell your friends.
+
