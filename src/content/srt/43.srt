@@ -1,0 +1,2468 @@
+1
+00:00:00,000 --> 00:00:07,920
+Friends with Brews! Peter. Scott. You're actually Peter this time. I am and you are definitely Scott.
+
+2
+00:00:07,920 --> 00:00:14,240
+Hi Peter. Hi Scott. Hi. I've been wanting to use that. I don't know if you noticed, you probably
+
+3
+00:00:14,240 --> 00:00:20,640
+didn't because why would you, but uh John Chidgey was missing doing a just a casual tech podcast
+
+4
+00:00:20,640 --> 00:00:27,040
+after bubble sort kind of fizzled out. Mm-hmm. And so he started one called "Is This the Show?"
+
+5
+00:00:27,040 --> 00:00:31,320
+And it's supposed to be John and Clay and myself.
+
+6
+00:00:31,320 --> 00:00:35,280
+Sometimes it might be Vic or Ronnie if Clay's not available.
+
+7
+00:00:35,280 --> 00:00:40,080
+And anyway, I just used that sound clip all the time on them
+
+8
+00:00:40,080 --> 00:00:41,620
+and I just told them I'm going to do it every episode.
+
+9
+00:00:41,620 --> 00:00:45,480
+I'm going to say, hi, Peter, for no reason other than that's what I do when I podcast.
+
+10
+00:00:45,480 --> 00:00:47,520
+So I did not notice that.
+
+11
+00:00:47,520 --> 00:00:50,620
+But maybe we should just invite him over to this one and call it a day.
+
+12
+00:00:50,620 --> 00:00:53,520
+that's true. i think we should have Chidgey on the podcast.
+
+13
+00:00:53,520 --> 00:00:55,740
+That's never happened before. Never.
+
+14
+00:00:55,740 --> 00:00:57,820
+Oh, wait. Yeah, except for that one time.
+
+15
+00:00:57,820 --> 00:01:01,380
+I have never actually podcasted with him in real time. Right.
+
+16
+00:01:01,380 --> 00:01:04,380
+We have never been on the same podcast concurrently.
+
+17
+00:01:04,380 --> 00:01:07,580
+That's correct. Correct. What are you drinking today? Let's mix it up.
+
+18
+00:01:07,580 --> 00:01:11,220
+Usually I tell you first, but you tell me you're like the Kevin Bacon of podcasting.
+
+19
+00:01:11,220 --> 00:01:13,060
+A lot of people are loosely related to you,
+
+20
+00:01:13,060 --> 00:01:15,180
+but they've never actually podcasted with you.
+
+21
+00:01:15,180 --> 00:01:18,300
+Six degrees of podcast Nikolaidis. Okay.
+
+22
+00:01:18,300 --> 00:01:20,820
+I have a weird beer.
+
+23
+00:01:20,820 --> 00:01:23,180
+It's it's so weird. This is weird.
+
+24
+00:01:23,220 --> 00:01:26,580
+You can't even find the brewer on here almost.
+
+25
+00:01:26,580 --> 00:01:29,720
+I had to turn it sideways to see that this is
+
+26
+00:01:29,720 --> 00:01:35,060
+brewed by Porches at Boring Wine and Beer Taproom,
+
+27
+00:01:35,060 --> 00:01:36,540
+Boring, Oregon.
+
+28
+00:01:36,540 --> 00:01:38,840
+There is, yes, there's a town called Boring, Oregon.
+
+29
+00:01:38,840 --> 00:01:40,940
+Does Elon Musk have a company hosted there?
+
+30
+00:01:40,940 --> 00:01:41,460
+Nope.
+
+31
+00:01:41,460 --> 00:01:42,840
+It's not that kind of boring.
+
+32
+00:01:42,840 --> 00:01:44,660
+It's the boring boring, which is why in Oregon
+
+33
+00:01:44,660 --> 00:01:45,440
+we drink a lot of beer.
+
+34
+00:01:45,440 --> 00:01:45,840
+So.
+
+35
+00:01:45,840 --> 00:01:46,700
+Okay.
+
+36
+00:01:46,700 --> 00:01:49,760
+But what it is, it's called Captured Oregon
+
+37
+00:01:49,760 --> 00:01:51,380
+Sunshine Golden Ale.
+
+38
+00:01:51,620 --> 00:01:56,620
+16 fluid ounces of ale, 20 IBU, 5.1% alcohol by volume.
+
+39
+00:01:56,620 --> 00:01:58,060
+Let me read this to you.
+
+40
+00:01:58,060 --> 00:02:01,340
+This is quite the little sermon here
+
+41
+00:02:01,340 --> 00:02:02,780
+on the side of my beer can.
+
+42
+00:02:02,780 --> 00:02:05,240
+Oregon Sunshine Golden Ale is made
+
+43
+00:02:05,240 --> 00:02:07,660
+with a full pint variety barley,
+
+44
+00:02:07,660 --> 00:02:09,860
+which was bred at Oregon State University
+
+45
+00:02:09,860 --> 00:02:14,720
+to be disease resistant for the Pacific Northwest.
+
+46
+00:02:14,720 --> 00:02:17,840
+This batch was made using barley grown and malted
+
+47
+00:02:17,840 --> 00:02:21,300
+by Mecha Grade Malt in Madras, Oregon.
+
+48
+00:02:21,300 --> 00:02:26,760
+Hops were directly purchased from Crosby Hop Farm in Woodburn, Oregon.
+
+49
+00:02:26,760 --> 00:02:31,640
+This golden ale is brewed as a single malt, single hop, smash beer.
+
+50
+00:02:31,640 --> 00:02:36,320
+It is light and easy to drink and nicely captures the varietal distinctiveness
+
+51
+00:02:36,320 --> 00:02:40,100
+of full pint barley, as well as the.
+
+52
+00:02:40,100 --> 00:02:43,240
+OK, what is this word?
+
+53
+00:02:43,240 --> 00:02:47,620
+It's T E R R O I R of the region.
+
+54
+00:02:47,620 --> 00:02:48,320
+What does that mean?
+
+55
+00:02:48,320 --> 00:02:50,040
+At first, I thought it said terror.
+
+56
+00:02:50,040 --> 00:02:53,840
+It's just kind of weird because Oregon's a lot of things, but I don't know if I feel terror.
+
+57
+00:02:53,840 --> 00:02:55,400
+The terror of the region.
+
+58
+00:02:55,400 --> 00:02:58,000
+Rawr.
+
+59
+00:02:58,000 --> 00:02:58,440
+Yeah.
+
+60
+00:02:58,440 --> 00:03:00,480
+Anyway, blah, blah, blah.
+
+61
+00:03:00,480 --> 00:03:03,080
+The bottom line is it's a collaborative effort.
+
+62
+00:03:03,080 --> 00:03:06,600
+They're really proud of themselves, but how does it taste?
+
+63
+00:03:06,600 --> 00:03:07,200
+You might ask.
+
+64
+00:03:07,200 --> 00:03:08,400
+I might ask.
+
+65
+00:03:08,400 --> 00:03:14,200
+Let's find out before I talk, before we talk about taste though, you should tell us what your beer is.
+
+66
+00:03:14,200 --> 00:03:15,400
+Okay.
+
+67
+00:03:15,720 --> 00:03:20,300
+I have a Jack's Abby, Kraft lagers,
+
+68
+00:03:20,300 --> 00:03:23,400
+Maifest, M-A-I-F-E-S-T.
+
+69
+00:03:23,400 --> 00:03:25,520
+That's German for Mayfest.
+
+70
+00:03:25,520 --> 00:03:27,920
+Because as you know, in European languages,
+
+71
+00:03:27,920 --> 00:03:31,720
+when two vowels go a-walking, the second does the talking.
+
+72
+00:03:31,720 --> 00:03:33,260
+So you hear the I.
+
+73
+00:03:33,260 --> 00:03:34,480
+Oh, I thought you were gonna say
+
+74
+00:03:34,480 --> 00:03:37,040
+a baby consonant is born or something.
+
+75
+00:03:37,040 --> 00:03:39,280
+Mayfest, hop into spring,
+
+76
+00:03:39,280 --> 00:03:44,280
+brewed with pilsner malt, noble hops, decoction brewed.
+
+77
+00:03:44,520 --> 00:03:46,040
+I have no idea what that means.
+
+78
+00:03:46,040 --> 00:03:47,400
+It's probably another German word.
+
+79
+00:03:47,400 --> 00:03:50,420
+Celebrate the arrival of warmer weather with Maifest.
+
+80
+00:03:50,420 --> 00:03:51,700
+The Golden Lager,
+
+81
+00:03:51,700 --> 00:03:55,520
+named after the springtime counterparts to Oktoberfest,
+
+82
+00:03:55,520 --> 00:03:58,640
+features Pilsner malt and Noble hops
+
+83
+00:03:58,640 --> 00:04:01,000
+for a sweet and balanced taste.
+
+84
+00:04:01,000 --> 00:04:03,080
+5.8% alcohol.
+
+85
+00:04:03,080 --> 00:04:05,500
+Do those hops seem noble to you?
+
+86
+00:04:05,500 --> 00:04:07,000
+I'll tell you in a minute.
+
+87
+00:04:07,000 --> 00:04:08,120
+That was my click.
+
+88
+00:04:08,120 --> 00:04:09,300
+Now muh pour. - I heard it.
+
+89
+00:04:09,300 --> 00:04:10,180
+Yep, the pour.
+
+90
+00:04:10,180 --> 00:04:11,280
+Wow, look at that mug.
+
+91
+00:04:11,280 --> 00:04:13,800
+Frosty mug sensation.
+
+92
+00:04:13,800 --> 00:04:14,640
+Oh yeah.
+
+93
+00:04:14,640 --> 00:04:16,120
+All right, looking good so far.
+
+94
+00:04:16,120 --> 00:04:17,920
+You just held it straight up.
+
+95
+00:04:17,920 --> 00:04:19,360
+Got tons of foam on there.
+
+96
+00:04:19,360 --> 00:04:22,480
+Ooh, it smells wheaty.
+
+97
+00:04:22,480 --> 00:04:24,600
+It smells really wheaty.
+
+98
+00:04:24,600 --> 00:04:26,600
+I think I'm gonna like this.
+
+99
+00:04:26,600 --> 00:04:27,740
+Oh wow.
+
+100
+00:04:27,740 --> 00:04:30,080
+Okay, maybe my head is still spinning
+
+101
+00:04:30,080 --> 00:04:31,840
+from all the stuff we were doing earlier.
+
+102
+00:04:31,840 --> 00:04:32,680
+Oh wow.
+
+103
+00:04:32,680 --> 00:04:34,840
+Which just for the listeners edification,
+
+104
+00:04:34,840 --> 00:04:35,980
+it was computer related stuff,
+
+105
+00:04:35,980 --> 00:04:37,520
+so I don't get any weird ideas.
+
+106
+00:04:37,520 --> 00:04:39,840
+But maybe my head is still spinning from all that,
+
+107
+00:04:39,840 --> 00:04:41,000
+but this beer tastes better
+
+108
+00:04:41,000 --> 00:04:42,880
+than the first couple of times I've had it,
+
+109
+00:04:42,880 --> 00:04:45,960
+because my review is gonna be it's a little too bitter.
+
+110
+00:04:45,960 --> 00:04:47,980
+But right now this does not taste bitter to me.
+
+111
+00:04:47,980 --> 00:04:49,480
+This does not taste bitter at all.
+
+112
+00:04:49,480 --> 00:04:51,760
+I'm, wow.
+
+113
+00:04:51,760 --> 00:04:53,440
+Peter's happy.
+
+114
+00:04:53,440 --> 00:04:55,840
+Yeah, I'm celebrating Mayfest, man.
+
+115
+00:04:55,840 --> 00:04:56,980
+This is good.
+
+116
+00:04:56,980 --> 00:04:58,720
+This is really good.
+
+117
+00:04:58,720 --> 00:05:00,280
+Jack's Abbey is interesting 'cause-
+
+118
+00:05:00,280 --> 00:05:02,880
+This is, thumbs up, thumbs up, man.
+
+119
+00:05:02,880 --> 00:05:04,240
+I gotta go look at our website,
+
+120
+00:05:04,240 --> 00:05:05,440
+which I don't know if I've ever told you,
+
+121
+00:05:05,440 --> 00:05:09,240
+but our website, we've got this search on it.
+
+122
+00:05:09,240 --> 00:05:12,040
+I think you have told me and the listener.
+
+123
+00:05:12,040 --> 00:05:16,580
+Mm. And Jack's Abbey, that's a different looking can from them, isn't it?
+
+124
+00:05:16,580 --> 00:05:21,540
+They well, they they all their seasonal stuff, they they mix it up a little bit.
+
+125
+00:05:21,540 --> 00:05:22,800
+Where's the search?
+
+126
+00:05:22,800 --> 00:05:25,300
+But it's down at the bottom.
+
+127
+00:05:25,300 --> 00:05:27,500
+I found it. How come?
+
+128
+00:05:27,500 --> 00:05:30,040
+Is this the first Jack's Abbey you've actually drank?
+
+129
+00:05:30,040 --> 00:05:32,540
+No, no, I've had several.
+
+130
+00:05:32,540 --> 00:05:36,600
+I see Jack's Abbey copper legend right there.
+
+131
+00:05:36,600 --> 00:05:39,100
+Right. How come it didn't come up in search?
+
+132
+00:05:39,100 --> 00:05:41,100
+I don't know. Oh, I spelled Abby wrong.
+
+133
+00:05:41,940 --> 00:05:44,140
+That's why I spelled Abby wrong.
+
+134
+00:05:44,140 --> 00:05:45,680
+Can't you just do like Jack?
+
+135
+00:05:45,680 --> 00:05:46,620
+Oh, it's goes down below.
+
+136
+00:05:46,620 --> 00:05:47,720
+See, that's what confuses me.
+
+137
+00:05:47,720 --> 00:05:48,320
+The search.
+
+138
+00:05:48,320 --> 00:05:48,620
+Right.
+
+139
+00:05:48,620 --> 00:05:49,920
+It goes below the search bar.
+
+140
+00:05:49,920 --> 00:05:51,020
+It looks like nothing's happening.
+
+141
+00:05:51,020 --> 00:05:52,080
+Yeah, it is weird.
+
+142
+00:05:52,080 --> 00:05:52,720
+That's weird.
+
+143
+00:05:52,720 --> 00:05:53,960
+That's really weird.
+
+144
+00:05:53,960 --> 00:05:59,160
+So what I might do instead of doing that is just make a dedicated search page and
+
+145
+00:05:59,160 --> 00:06:00,460
+then that'll take care of that problem.
+
+146
+00:06:00,460 --> 00:06:05,240
+So apparently this is only the third Jack's Abby to make an appearance on this
+
+147
+00:06:05,240 --> 00:06:05,560
+show.
+
+148
+00:06:05,560 --> 00:06:09,080
+I'm going to need to start paying attention to that and fixing that because I've had
+
+149
+00:06:09,080 --> 00:06:13,960
+the Pineapple Guava Passion Radler and the Copper Legend,
+
+150
+00:06:13,960 --> 00:06:17,800
+which is the Oktoberfest, which is my other favorite.
+
+151
+00:06:17,800 --> 00:06:19,500
+Okay, those two cans are fairly similar.
+
+152
+00:06:19,500 --> 00:06:21,480
+So I guess this is pretty much the same style, isn't it?
+
+153
+00:06:21,480 --> 00:06:22,320
+Let me see that again.
+
+154
+00:06:22,320 --> 00:06:24,320
+Well, it should be similar to Copper Legend.
+
+155
+00:06:24,320 --> 00:06:25,880
+Yeah, it's very similar to Copper Legend.
+
+156
+00:06:25,880 --> 00:06:26,900
+Yeah, yeah, it is.
+
+157
+00:06:26,900 --> 00:06:28,840
+Okay, you're right, I'm sorry.
+
+158
+00:06:28,840 --> 00:06:30,240
+So yeah, thumbs up, absolutely.
+
+159
+00:06:30,240 --> 00:06:31,280
+I'm a fan.
+
+160
+00:06:31,280 --> 00:06:32,800
+Yep, thumbs up before.
+
+161
+00:06:32,800 --> 00:06:35,920
+You can just copy the review for Copper Legend
+
+162
+00:06:35,920 --> 00:06:38,040
+and change the name to Mayfest and we're good.
+
+163
+00:06:38,040 --> 00:06:39,280
+Okay. All right.
+
+164
+00:06:39,280 --> 00:06:40,300
+Cool. - Sounds good.
+
+165
+00:06:40,300 --> 00:06:41,300
+That's beautiful.
+
+166
+00:06:41,300 --> 00:06:42,820
+You make my life easy, Peter.
+
+167
+00:06:42,820 --> 00:06:43,660
+We're done.
+
+168
+00:06:43,660 --> 00:06:44,500
+Let's just close it up.
+
+169
+00:06:44,500 --> 00:06:45,340
+We're done.
+
+170
+00:06:45,340 --> 00:06:46,960
+No, wait, we had to talk something.
+
+171
+00:06:46,960 --> 00:06:49,120
+Listen to our public service announcement.
+
+172
+00:06:49,120 --> 00:06:51,600
+What am I holding up to the camera, Scott?
+
+173
+00:06:51,600 --> 00:06:54,440
+You are holding up an AirPods Pro case,
+
+174
+00:06:54,440 --> 00:06:57,480
+but I can't tell from here if it's a...
+
+175
+00:06:57,480 --> 00:06:58,320
+Yeah, I don't know.
+
+176
+00:06:58,320 --> 00:07:00,240
+I can't tell which is the generation one
+
+177
+00:07:00,240 --> 00:07:01,600
+or which is the generation two one.
+
+178
+00:07:01,600 --> 00:07:03,400
+You've got two AirPods Pro cases.
+
+179
+00:07:03,400 --> 00:07:05,460
+Unless you look at the correct side.
+
+180
+00:07:05,460 --> 00:07:06,300
+Okay.
+
+181
+00:07:06,300 --> 00:07:08,500
+Correct side, not the right side,
+
+182
+00:07:08,500 --> 00:07:10,380
+'cause it's the left, well, no, it is the right side,
+
+183
+00:07:10,380 --> 00:07:12,140
+but yeah, you gotta look at the correct side
+
+184
+00:07:12,140 --> 00:07:13,080
+and then you can tell.
+
+185
+00:07:13,080 --> 00:07:16,140
+So the question that I posed to you was,
+
+186
+00:07:16,140 --> 00:07:18,160
+as you know, my original AirPods Pros,
+
+187
+00:07:18,160 --> 00:07:19,620
+they are completely dead.
+
+188
+00:07:19,620 --> 00:07:21,260
+They are dead. - They got super jealous.
+
+189
+00:07:21,260 --> 00:07:23,200
+They realized that I had second generation
+
+190
+00:07:23,200 --> 00:07:24,420
+and they're like, "What's the point?
+
+191
+00:07:24,420 --> 00:07:25,380
+"We're dying."
+
+192
+00:07:25,380 --> 00:07:26,220
+Yeah.
+
+193
+00:07:26,220 --> 00:07:27,780
+So I recycled them the other day.
+
+194
+00:07:27,780 --> 00:07:30,420
+Usually, if you're envious of somebody
+
+195
+00:07:30,420 --> 00:07:33,220
+because they've moved on, don't kill yourself, kill them.
+
+196
+00:07:33,220 --> 00:07:35,060
+Your AirPods Pro did it wrong.
+
+197
+00:07:35,060 --> 00:07:36,620
+But anyway, they died.
+
+198
+00:07:36,620 --> 00:07:41,620
+So I kept the case because I said,
+
+199
+00:07:41,620 --> 00:07:46,700
+"Hey, maybe I can use this as just a charging case
+
+200
+00:07:46,700 --> 00:07:49,400
+for my AirPods 2."
+
+201
+00:07:49,400 --> 00:07:50,560
+Peter says, "Hey."
+
+202
+00:07:50,560 --> 00:07:51,480
+Yep.
+
+203
+00:07:51,480 --> 00:07:54,860
+Right, now, unlike the guys over at,
+
+204
+00:07:54,860 --> 00:07:56,300
+like Marco was talking about how,
+
+205
+00:07:56,300 --> 00:07:58,220
+"Oh, you gotta have at least two pairs of AirPods,
+
+206
+00:07:58,220 --> 00:07:59,140
+you know, blah, blah, blah."
+
+207
+00:07:59,140 --> 00:08:01,980
+Well, I'm starting to agree with them,
+
+208
+00:08:01,980 --> 00:08:04,380
+but I figured at least I would have two cases
+
+209
+00:08:04,380 --> 00:08:08,540
+for those times when I'm downstairs wearing my AirPods
+
+210
+00:08:08,540 --> 00:08:10,060
+and then I walk upstairs,
+
+211
+00:08:10,060 --> 00:08:13,140
+leave the charging case downstairs and want to charge them.
+
+212
+00:08:13,140 --> 00:08:14,300
+So the question was,
+
+213
+00:08:14,300 --> 00:08:19,080
+can I do that with the old first gen AirPods Pro case?
+
+214
+00:08:19,080 --> 00:08:22,920
+The answer is yes, but,
+
+215
+00:08:22,920 --> 00:08:27,920
+but as one would expect no less from Apple,
+
+216
+00:08:27,920 --> 00:08:31,460
+they make it complicated because it warns you.
+
+217
+00:08:31,460 --> 00:08:33,580
+Now, what do you think it might warn you, Scott?
+
+218
+00:08:33,580 --> 00:08:35,780
+What do you think it might try to tell you
+
+219
+00:08:35,780 --> 00:08:39,600
+if you put an AirPods Pro second generation
+
+220
+00:08:39,600 --> 00:08:43,980
+into an AirPods Pro first generation case?
+
+221
+00:08:43,980 --> 00:08:44,980
+I have no idea.
+
+222
+00:08:44,980 --> 00:08:47,080
+I thought, see the problems that I was imagining
+
+223
+00:08:47,080 --> 00:08:50,580
+were things around Find My and a bunch of other ID related,
+
+224
+00:08:50,580 --> 00:08:53,140
+you know, AirPods identity related issues, but.
+
+225
+00:08:53,140 --> 00:08:55,900
+Mm-hmm, I was thinking something like that.
+
+226
+00:08:55,900 --> 00:08:59,140
+What happened is it got wrong
+
+227
+00:08:59,140 --> 00:09:02,680
+and it said mismatched AirPods Pro.
+
+228
+00:09:02,680 --> 00:09:06,720
+The AirPods in the charging case are different generations
+
+229
+00:09:06,720 --> 00:09:08,980
+and do not work together.
+
+230
+00:09:08,980 --> 00:09:12,380
+Your left AirPod is of second generation.
+
+231
+00:09:12,380 --> 00:09:15,620
+Your right AirPod is of first generation.
+
+232
+00:09:15,620 --> 00:09:17,660
+And for a minute there, I was like,
+
+233
+00:09:17,660 --> 00:09:21,060
+oh, did I throw away the wrong AirPod?
+
+234
+00:09:21,060 --> 00:09:23,160
+Click.
+
+235
+00:09:23,160 --> 00:09:24,840
+No, I did not.
+
+236
+00:09:24,840 --> 00:09:26,580
+Apple is wrong.
+
+237
+00:09:26,580 --> 00:09:29,980
+The mismatch is strictly between the pods.
+
+238
+00:09:29,980 --> 00:09:31,540
+Now I didn't leave them in very long,
+
+239
+00:09:31,540 --> 00:09:34,140
+but I did put them both in, I could see they were charging.
+
+240
+00:09:34,140 --> 00:09:36,460
+I looked on my phone, it showed they were charging.
+
+241
+00:09:36,460 --> 00:09:37,980
+I pulled them back out, they paired,
+
+242
+00:09:37,980 --> 00:09:39,740
+everything worked just fine.
+
+243
+00:09:39,740 --> 00:09:42,080
+So it seems to me like it's not gonna cause
+
+244
+00:09:42,080 --> 00:09:45,300
+any irreparable damage, but it does confuse,
+
+245
+00:09:45,300 --> 00:09:47,460
+because my iPhone, just like when you pair a new
+
+246
+00:09:47,460 --> 00:09:50,580
+or a new AirPods shows up and the bottom swipe up display
+
+247
+00:09:50,580 --> 00:09:52,460
+shows up on the screen and you can't do anything
+
+248
+00:09:52,460 --> 00:09:54,660
+other than dismiss it, I do get that
+
+249
+00:09:54,660 --> 00:09:56,900
+every time I stick them in there, so it gets confused.
+
+250
+00:09:56,900 --> 00:09:58,740
+It's like, oh, you're mismatching your AirPods.
+
+251
+00:09:58,740 --> 00:10:00,940
+I'm like, no, actually dude, they're right.
+
+252
+00:10:00,940 --> 00:10:04,460
+So you can do it, but you're never going to feel comfortable about it.
+
+253
+00:10:04,460 --> 00:10:05,380
+Bingo.
+
+254
+00:10:05,380 --> 00:10:07,620
+Cause I'm like, okay, what are you screwing up now?
+
+255
+00:10:07,620 --> 00:10:08,140
+Right.
+
+256
+00:10:08,140 --> 00:10:10,880
+So at that point I'm like, yeah, maybe Marco is right.
+
+257
+00:10:10,880 --> 00:10:13,060
+Cause I have fully bought in now.
+
+258
+00:10:13,060 --> 00:10:15,260
+I even, you know, I use them trail running.
+
+259
+00:10:15,260 --> 00:10:19,420
+I've even used them occasionally for for biking, you know, even for
+
+260
+00:10:19,420 --> 00:10:20,780
+mountain biking once in a while.
+
+261
+00:10:20,780 --> 00:10:26,020
+I think the original AirPods would not be so good for exercise, but the AirPods
+
+262
+00:10:26,020 --> 00:10:30,100
+pro are actually the current gen regular AirPods will be fine with the short stem.
+
+263
+00:10:30,100 --> 00:10:31,460
+It has to be this design though.
+
+264
+00:10:31,460 --> 00:10:32,740
+It has to be this short.
+
+265
+00:10:32,740 --> 00:10:34,500
+Yeah, oh yeah.
+
+266
+00:10:34,500 --> 00:10:37,820
+This hooks to the ear better than the previous.
+
+267
+00:10:37,820 --> 00:10:38,660
+Absolutely.
+
+268
+00:10:38,660 --> 00:10:43,340
+Anyway, so that was one little update I wanted to share.
+
+269
+00:10:43,340 --> 00:10:48,340
+The other thing I wanted to talk about was Inflection AI.
+
+270
+00:10:48,340 --> 00:10:50,980
+And I sent you a podcast, a link to it.
+
+271
+00:10:50,980 --> 00:10:53,500
+I don't know if you have listened to it,
+
+272
+00:10:53,500 --> 00:10:56,480
+but it's the Chat GPT podcast.
+
+273
+00:10:56,480 --> 00:10:58,860
+The guy talks about more than just Chat GPT.
+
+274
+00:10:58,860 --> 00:11:03,220
+He talks about like, you know, all the latest news in AI.
+
+275
+00:11:03,220 --> 00:11:04,440
+The guy is prolific.
+
+276
+00:11:04,440 --> 00:11:08,520
+He's releasing like two to four episodes a day.
+
+277
+00:11:08,520 --> 00:11:11,140
+That's like he sits around and does nothing
+
+278
+00:11:11,140 --> 00:11:15,880
+but like monitor, you know, AI news, but it's good.
+
+279
+00:11:15,880 --> 00:11:17,640
+Yeah, but I looked at it and I was like,
+
+280
+00:11:17,640 --> 00:11:20,720
+you know I don't like daily podcasts because I will never,
+
+281
+00:11:20,720 --> 00:11:23,140
+I wind up throwing 99% of them away.
+
+282
+00:11:23,140 --> 00:11:24,540
+Yeah, his is really good.
+
+283
+00:11:24,540 --> 00:11:26,760
+I'm always interested in the current, you know,
+
+284
+00:11:26,760 --> 00:11:28,600
+developments in AI stuff.
+
+285
+00:11:28,600 --> 00:11:30,960
+No, but it's not because I don't think they're good
+
+286
+00:11:30,960 --> 00:11:33,360
+necessarily, it's just because they're daily, it's too much.
+
+287
+00:11:33,360 --> 00:11:36,540
+Yeah, yeah, but he's like more like, you know,
+
+288
+00:11:36,540 --> 00:11:38,200
+morning, noon and night kind of thing.
+
+289
+00:11:38,200 --> 00:11:39,780
+How does he make any money?
+
+290
+00:11:39,780 --> 00:11:41,380
+Does he have sponsors?
+
+291
+00:11:41,380 --> 00:11:43,680
+He's got, he has some sponsors,
+
+292
+00:11:43,680 --> 00:11:45,120
+but he's also doing startups.
+
+293
+00:11:45,120 --> 00:11:47,400
+He's been involved apparently in at least a couple
+
+294
+00:11:47,400 --> 00:11:49,280
+of startups and he has a new one now, which he promotes.
+
+295
+00:11:49,280 --> 00:11:50,120
+But how does he have time?
+
+296
+00:11:50,120 --> 00:11:51,600
+It sounds like he's podcasting all day.
+
+297
+00:11:51,600 --> 00:11:53,800
+I have no idea, that's a good question.
+
+298
+00:11:53,800 --> 00:11:58,800
+Anyway, he recently had an in-depth conversation with,
+
+299
+00:11:58,800 --> 00:12:03,120
+what's it called, Pi, which is the Inflection AI.
+
+300
+00:12:03,120 --> 00:12:04,400
+The intention is it's supposed to be
+
+301
+00:12:04,400 --> 00:12:06,940
+your personal AI assistant.
+
+302
+00:12:06,940 --> 00:12:08,900
+So I don't know anything about it, I've never used it,
+
+303
+00:12:08,900 --> 00:12:12,020
+but apparently Inflection is like the number two funded
+
+304
+00:12:12,020 --> 00:12:15,100
+AI company after OpenAI.
+
+305
+00:12:15,100 --> 00:12:17,360
+So kind of a big deal.
+
+306
+00:12:17,360 --> 00:12:21,980
+Their AI apparently has been programmed,
+
+307
+00:12:21,980 --> 00:12:26,620
+So its model has been programmed to value all forms of life equally.
+
+308
+00:12:26,620 --> 00:12:29,180
+I'm just going to let that sit for a second.
+
+309
+00:12:29,180 --> 00:12:31,100
+My cat will be pleased to hear this.
+
+310
+00:12:31,100 --> 00:12:32,100
+Yes.
+
+311
+00:12:32,100 --> 00:12:33,100
+Yes.
+
+312
+00:12:33,100 --> 00:12:37,820
+I mean, as long as it values life, that's important.
+
+313
+00:12:37,820 --> 00:12:47,880
+So if you say, for example, I have a hornet's nest on my back door, how can I destroy that
+
+314
+00:12:47,880 --> 00:12:49,880
+hornet's nest?
+
+315
+00:12:49,880 --> 00:12:55,560
+AI might very well come back and say, "No, it's wrong for you to do that. You shouldn't do that
+
+316
+00:12:55,560 --> 00:13:00,520
+because the lives of the hornets matters just as much as yours." Right, but is it going to make a
+
+317
+00:13:00,520 --> 00:13:05,960
+weird, crazy decision where it says, "Someone clearly has to die here, but I think the hornets
+
+318
+00:13:05,960 --> 00:13:10,760
+should live and the human's going to die." That's the problem because he had an in-depth,
+
+319
+00:13:10,760 --> 00:13:16,760
+back-and-forth argument or discussion with this thing where it said, for instance, you know,
+
+320
+00:13:16,760 --> 00:13:24,200
+like the life of a sea turtle was just as, or a sea turtle egg might be just as important as
+
+321
+00:13:24,200 --> 00:13:31,000
+a human life. And then he even went down to the life of a single honeybee being as important as
+
+322
+00:13:31,000 --> 00:13:35,960
+a human life. Well, to the planet is pretty important. I mean, the fact if the bees die,
+
+323
+00:13:35,960 --> 00:13:43,720
+anyway, could be forget about ecology. Yes. When it comes to sea turtles, I think there are tons
+
+324
+00:13:43,720 --> 00:13:48,360
+of sea turtles that are more valuable than some of the people I've seen wandering around this planet.
+
+325
+00:13:48,360 --> 00:13:59,400
+I'm tempted to agree with you. However, I don't think I want my personal AI assistant to have my
+
+326
+00:13:59,400 --> 00:14:04,120
+values first and foremost. Call me greedy, call me selfish, right?
+
+327
+00:14:04,120 --> 00:14:08,520
+Yeah, I guess if you just called it a generic AI and it wasn't assigned to you,
+
+328
+00:14:09,080 --> 00:14:14,120
+then maybe, okay, it'd be, we still don't want to make them those kinds of value judgments anyway.
+
+329
+00:14:14,120 --> 00:14:16,440
+Right. - But your own personal assistant
+
+330
+00:14:16,440 --> 00:14:22,840
+shouldn't suddenly run off with a turtle. - There you go. So anyway, that's, you know,
+
+331
+00:14:22,840 --> 00:14:28,440
+we're sort of laughing at it, but this might very well be the kind of Skynet thing that comes about.
+
+332
+00:14:28,440 --> 00:14:34,600
+They're like, well, you know, like an example, for instance, is like, let's say we're using this
+
+333
+00:14:34,600 --> 00:14:41,560
+in a Palantir sort of deployment, and we're going to use this to send this platoon of
+
+334
+00:14:41,560 --> 00:14:48,560
+Navy SEALs around, you know, or, you know, to storm this beach or something. And the
+
+335
+00:14:48,560 --> 00:14:53,720
+AI is now aware, "Oh, wait, there's a sea turtle egg on this beach." So we have to avoid
+
+336
+00:14:53,720 --> 00:14:58,580
+that at all costs and go around causing, you know, like half the platoon to get killed
+
+337
+00:14:58,580 --> 00:15:03,320
+or something like that. So that's the type of concern we have. And
+
+338
+00:15:03,320 --> 00:15:09,320
+because these AIs, as you know, are such a black box where not even the creators know
+
+339
+00:15:09,320 --> 00:15:13,880
+how they're coming to the decisions that they're coming to. The AI itself doesn't even know
+
+340
+00:15:13,880 --> 00:15:19,720
+how it's coming to these decisions. How is it, you know, we're never going to know, right? It
+
+341
+00:15:19,720 --> 00:15:26,200
+could just say like, "Oh, hey Scott, we have this great cure for cancer for you, but you know what,
+
+342
+00:15:26,200 --> 00:15:30,360
+it's going to cost some honeybees for us to produce it and they're worth just as much as
+
+343
+00:15:30,360 --> 00:15:32,020
+you and there's more of them than there is for you.
+
+344
+00:15:32,020 --> 00:15:34,960
+So, sorry, can't help you.
+
+345
+00:15:34,960 --> 00:15:35,800
+Yeah.
+
+346
+00:15:35,800 --> 00:15:36,940
+So that's a concern.
+
+347
+00:15:36,940 --> 00:15:38,960
+The other thing, I know that equating
+
+348
+00:15:38,960 --> 00:15:40,900
+large language models with all,
+
+349
+00:15:40,900 --> 00:15:44,040
+I know that conflating large language models
+
+350
+00:15:44,040 --> 00:15:46,320
+with all of AI is inaccurate.
+
+351
+00:15:46,320 --> 00:15:47,160
+Yes.
+
+352
+00:15:47,160 --> 00:15:48,920
+Because there's just a lot of things
+
+353
+00:15:48,920 --> 00:15:50,560
+that you don't want large language models doing
+
+354
+00:15:50,560 --> 00:15:52,580
+that other types of AI should be doing.
+
+355
+00:15:52,580 --> 00:15:56,440
+But we know from talking to chat GPT,
+
+356
+00:15:56,440 --> 00:15:58,580
+how it'll say something and then you'll say,
+
+357
+00:15:58,580 --> 00:15:59,620
+no, no, no, what about this?
+
+358
+00:15:59,620 --> 00:16:04,580
+"Oh, yes, that's correct my mistake." Well, you don't want it walking back its decisions after
+
+359
+00:16:04,580 --> 00:16:07,140
+it's already flown an airplane into the ocean.
+
+360
+00:16:07,140 --> 00:16:12,900
+Oh, you're right. We shouldn't have done that. Really. Guess what? I could have also made that
+
+361
+00:16:12,900 --> 00:16:18,660
+wrong decision and, you know, realize it happened. I didn't need billions of dollars in AI for that.
+
+362
+00:16:18,660 --> 00:16:21,780
+Wow. I see children's sneakers floating on the waves. That seems bad.
+
+363
+00:16:21,780 --> 00:16:29,380
+That seems bad. Let me rethink my decisions. Make some bad AI life choices right there.
+
+364
+00:16:29,380 --> 00:16:32,860
+Send me a link to one episode of that in specific that I need to listen to.
+
+365
+00:16:32,860 --> 00:16:36,460
+And then that one that I sent you is the link to that specific episode.
+
+366
+00:16:36,460 --> 00:16:41,380
+Meanwhile, in other news, Vermont is experiencing some pretty major flooding
+
+367
+00:16:41,380 --> 00:16:44,100
+right now because of all the rain we've been getting.
+
+368
+00:16:44,100 --> 00:16:45,420
+I was going to ask you about that.
+
+369
+00:16:45,420 --> 00:16:50,100
+Cause I saw that places in new England were getting flooded and I was wondering,
+
+370
+00:16:50,100 --> 00:16:54,660
+isn't Boston in new England, but you're not having that problem.
+
+371
+00:16:54,660 --> 00:16:56,500
+It is, but we're okay.
+
+372
+00:16:56,500 --> 00:16:58,460
+Let me just take a look out real quick.
+
+373
+00:16:58,660 --> 00:17:05,340
+I can see the Mystic River out right behind behind me and the yachts the yacht club that is literally my neighbor
+
+374
+00:17:05,340 --> 00:17:10,020
+All the boats are just there sitting there. Everything's very calm Peter. I want to remind you that you're upstairs
+
+375
+00:17:10,020 --> 00:17:14,000
+So if you see the boats floating by the window, that's a bad sign. That could be a bad sign
+
+376
+00:17:14,000 --> 00:17:19,380
+Yes, but my childhood best friend just sent me a bunch of videos from there
+
+377
+00:17:19,380 --> 00:17:25,120
+So I'm really curious to I've got to take a look at one I can hear the water running in the video
+
+378
+00:17:25,120 --> 00:17:30,260
+I think is that what I was hearing? Yep. He's showing me a picture of some people
+
+379
+00:17:30,260 --> 00:17:35,020
+kayaking on the river that used to be the
+
+380
+00:17:35,020 --> 00:17:40,340
+Baseball fields down in my hometown. Did they call it home run river?
+
+381
+00:17:40,340 --> 00:17:44,880
+Well, here's the thing if they kind of don't stay ahead of the current
+
+382
+00:17:44,880 --> 00:17:47,420
+They're about I'd say
+
+383
+00:17:47,420 --> 00:17:53,460
+Half a mile from a dam and a pretty major waterfall that would pretty
+
+384
+00:17:54,100 --> 00:17:56,160
+Certainly kill them if they go over it
+
+385
+00:17:56,160 --> 00:17:59,480
+So that's probably why the caption he sent me is truly stupid people
+
+386
+00:17:59,480 --> 00:18:01,920
+You need to ask him for an update on what happened to those people
+
+387
+00:18:01,920 --> 00:18:05,560
+Well, he didn't show them going over the river or over the waterfall
+
+388
+00:18:05,560 --> 00:18:09,360
+Anyway, you have to be a subscriber to get that one an insider bingo
+
+389
+00:18:09,360 --> 00:18:15,560
+Paid subscriber only flood fans only only flood fans exactly Wow
+
+390
+00:18:15,560 --> 00:18:21,540
+Alright, so those are my two little updates on that and then the other the next update I wanted to give is I have been
+
+391
+00:18:22,400 --> 00:18:25,440
+Gradually moving to Notion.
+
+392
+00:18:25,440 --> 00:18:27,780
+I'm continuing to do that.
+
+393
+00:18:27,780 --> 00:18:29,520
+I have not done a mass exodus,
+
+394
+00:18:29,520 --> 00:18:33,140
+so I am using both Notion and the incumbent.
+
+395
+00:18:33,140 --> 00:18:33,980
+Yes.
+
+396
+00:18:33,980 --> 00:18:36,020
+A note-taking solution.
+
+397
+00:18:36,020 --> 00:18:36,860
+Right.
+
+398
+00:18:36,860 --> 00:18:39,600
+And basically I'm using the old version
+
+399
+00:18:39,600 --> 00:18:41,980
+as a decision support system,
+
+400
+00:18:41,980 --> 00:18:44,300
+but Notion is my new platform for all this stuff.
+
+401
+00:18:44,300 --> 00:18:47,940
+So I'm not trying to put any new data into the old one.
+
+402
+00:18:47,940 --> 00:18:50,300
+The old one, friend of the show,
+
+403
+00:18:50,300 --> 00:18:55,300
+you may know, we call by the name Evernote.
+
+404
+00:18:55,300 --> 00:18:57,180
+Well, we call it NeverNote,
+
+405
+00:18:57,180 --> 00:18:58,900
+but the company calls it Evernote.
+
+406
+00:18:58,900 --> 00:19:00,480
+So Scott, what's going on with Evernote?
+
+407
+00:19:00,480 --> 00:19:05,480
+Well, Peter, as you know, they were bought by a company.
+
+408
+00:19:05,480 --> 00:19:09,560
+They were bought out by Bending Spoons last year,
+
+409
+00:19:09,560 --> 00:19:13,000
+which is a mobile developer, which is kind of weird.
+
+410
+00:19:13,000 --> 00:19:16,460
+It's an Italian mobile developer, so they bought Evernote.
+
+411
+00:19:16,460 --> 00:19:17,540
+Don't know why.
+
+412
+00:19:17,540 --> 00:19:18,880
+Because it was cheap.
+
+413
+00:19:18,880 --> 00:19:20,480
+[sighs]
+
+414
+00:19:20,480 --> 00:19:26,400
+Now they're laying off all of their US and most of their Chile-based employees.
+
+415
+00:19:26,400 --> 00:19:29,040
+So there's not going to be any more in America.
+
+416
+00:19:29,040 --> 00:19:30,880
+Which, you know what?
+
+417
+00:19:30,880 --> 00:19:36,160
+That in and of itself doesn't necessarily mean that Evernote is doomed.
+
+418
+00:19:36,160 --> 00:19:39,840
+Maybe they just want to hang out with their Italian buddies and they don't want to...
+
+419
+00:19:39,840 --> 00:19:43,440
+But we already know that Evernote's doomed. It's not a good sign.
+
+420
+00:19:43,440 --> 00:19:48,480
+Yeah... I'm not super optimistic.
+
+421
+00:19:48,480 --> 00:19:51,760
+No, I think Evernote's a dead elephant walking.
+
+422
+00:19:51,760 --> 00:19:55,560
+There are two services that I was seriously considering
+
+423
+00:19:55,560 --> 00:19:58,980
+not renewing my subscriptions on this year.
+
+424
+00:19:58,980 --> 00:20:02,400
+One of them was Strava and the other was Evernote.
+
+425
+00:20:02,400 --> 00:20:07,940
+And I believe if I recall correctly, yes,
+
+426
+00:20:07,940 --> 00:20:10,620
+both of them resumed.
+
+427
+00:20:10,620 --> 00:20:12,660
+They renewed in June.
+
+428
+00:20:12,660 --> 00:20:15,500
+And so I didn't actually cancel them on either of them.
+
+429
+00:20:15,500 --> 00:20:16,500
+And I was like, nice.
+
+430
+00:20:16,500 --> 00:20:17,540
+You know what? Whatever.
+
+431
+00:20:17,540 --> 00:20:22,780
+I'm just gonna let it go. Whatever. So here's a question for you. How come Paradigm didn't acquire Evernote?
+
+432
+00:20:22,780 --> 00:20:26,100
+I mean if this tiny little Italian company full of people sitting around
+
+433
+00:20:26,100 --> 00:20:27,860
+drinking
+
+434
+00:20:27,860 --> 00:20:33,680
+Cappuccinos or yeah, I don't think they got quite that small where it was. Oh
+
+435
+00:20:33,680 --> 00:20:35,780
+You know
+
+436
+00:20:35,780 --> 00:20:41,220
+Within it. Oh wait. No, sorry didn't meet our business model. That's okay. That's what it was
+
+437
+00:20:41,220 --> 00:20:46,720
+Yeah, your business model being you didn't want to take out a 40 billion dollar loan something like that. Yeah
+
+438
+00:20:46,720 --> 00:20:50,240
+Yeah, anyway, my Evernote subscription is set to renew
+
+439
+00:20:50,240 --> 00:20:55,240
+in February of 2024, and they have a credit card on file
+
+440
+00:20:55,240 --> 00:20:58,000
+that expires in this month.
+
+441
+00:20:58,000 --> 00:21:01,280
+So that's a self-corrected problem.
+
+442
+00:21:01,280 --> 00:21:02,720
+So I don't need to touch that.
+
+443
+00:21:02,720 --> 00:21:05,540
+If I wasn't not wanting to do too much
+
+444
+00:21:05,540 --> 00:21:07,280
+to my computer right now, since we're podcasting,
+
+445
+00:21:07,280 --> 00:21:09,920
+and I wasn't drinking a beer right now,
+
+446
+00:21:09,920 --> 00:21:12,480
+I would try to dig into it and find out
+
+447
+00:21:12,480 --> 00:21:14,600
+when was the last time I actually paid for Evernote
+
+448
+00:21:14,600 --> 00:21:16,120
+and when I last used Evernote.
+
+449
+00:21:16,120 --> 00:21:19,220
+I don't remember when we made the mass notes migration.
+
+450
+00:21:19,220 --> 00:21:20,720
+I can probably look at some of my notes
+
+451
+00:21:20,720 --> 00:21:22,840
+and see when they were created and get a pretty good idea.
+
+452
+00:21:22,840 --> 00:21:24,600
+Or look at your Evernote
+
+453
+00:21:24,600 --> 00:21:27,520
+and see what the date last modified was.
+
+454
+00:21:27,520 --> 00:21:29,840
+Yeah, I may still have access to it.
+
+455
+00:21:29,840 --> 00:21:30,880
+Yeah, I probably do.
+
+456
+00:21:30,880 --> 00:21:32,920
+Yeah. - Yep, interesting.
+
+457
+00:21:32,920 --> 00:21:35,680
+Yeah, so that's something I can be concerned about.
+
+458
+00:21:35,680 --> 00:21:38,000
+It's a shame because Evernote was great.
+
+459
+00:21:38,000 --> 00:21:42,280
+It was, I mean, there was the Evernote podcast
+
+460
+00:21:42,280 --> 00:21:45,080
+and I listened to the Evernote podcast, which was--
+
+461
+00:21:45,080 --> 00:21:45,920
+So did I.
+
+462
+00:21:45,920 --> 00:21:50,160
+The CEO, the CTO, and I want to say the CFO or whatever.
+
+463
+00:21:50,160 --> 00:21:51,680
+A random elephant.
+
+464
+00:21:51,680 --> 00:21:52,560
+Random elephant.
+
+465
+00:21:52,560 --> 00:21:53,920
+And it was fun.
+
+466
+00:21:53,920 --> 00:21:56,160
+And you know, like sometimes it was just pointless.
+
+467
+00:21:56,160 --> 00:21:59,300
+It was just three guys talking, but it was like, wow,
+
+468
+00:21:59,300 --> 00:22:01,300
+this is what it's like being the CEO
+
+469
+00:22:01,300 --> 00:22:03,000
+of a billion dollar startup.
+
+470
+00:22:03,000 --> 00:22:04,160
+That's kind of cool.
+
+471
+00:22:04,160 --> 00:22:06,920
+No, I think what happened is the fact
+
+472
+00:22:06,920 --> 00:22:09,400
+that they were sitting around doing pointless stuff all day
+
+473
+00:22:09,400 --> 00:22:11,160
+is what happened.
+
+474
+00:22:11,160 --> 00:22:12,440
+Yeah, you think?
+
+475
+00:22:12,440 --> 00:22:13,280
+Yeah.
+
+476
+00:22:13,280 --> 00:22:14,440
+And you know, the stuff like, you know, like, oh,
+
+477
+00:22:14,440 --> 00:22:18,680
+We're going to have Evernote Food and Evernote Hello.
+
+478
+00:22:18,680 --> 00:22:20,920
+Remember all those little spinoff apps and stuff?
+
+479
+00:22:20,920 --> 00:22:22,880
+They did lose focus a little bit.
+
+480
+00:22:22,880 --> 00:22:25,160
+I think what they should have done was Evernote Scanner
+
+481
+00:22:25,160 --> 00:22:27,000
+was a great idea.
+
+482
+00:22:27,000 --> 00:22:27,840
+Yep.
+
+483
+00:22:27,840 --> 00:22:28,660
+And that's it.
+
+484
+00:22:28,660 --> 00:22:29,500
+Scannable, right?
+
+485
+00:22:29,500 --> 00:22:30,340
+Scannable was good.
+
+486
+00:22:30,340 --> 00:22:31,640
+What about Skitch?
+
+487
+00:22:31,640 --> 00:22:34,680
+I forget, did they develop Skitch or did they acquire Skitch?
+
+488
+00:22:34,680 --> 00:22:36,640
+I don't remember, but Skitch was good.
+
+489
+00:22:36,640 --> 00:22:38,000
+Skitch was pretty good.
+
+490
+00:22:38,000 --> 00:22:39,320
+I think they might've acquired.
+
+491
+00:22:39,320 --> 00:22:41,520
+Yeah, I mean, I used Skitch constantly.
+
+492
+00:22:41,520 --> 00:22:43,120
+Yeah, luckily all that stuff is built
+
+493
+00:22:43,120 --> 00:22:45,080
+into all the Apple OS's now.
+
+494
+00:22:45,080 --> 00:22:47,960
+Right, so it's not novel, it's not unique anymore.
+
+495
+00:22:47,960 --> 00:22:51,080
+Speaking of that, here's a question for you.
+
+496
+00:22:51,080 --> 00:22:55,160
+On Windows, there's the Snip and Capture tool,
+
+497
+00:22:55,160 --> 00:22:57,400
+but there is nothing in that tool
+
+498
+00:22:57,400 --> 00:23:00,760
+like drawing a rectangle around something.
+
+499
+00:23:00,760 --> 00:23:02,660
+There's the pens and there's a ruler,
+
+500
+00:23:02,660 --> 00:23:04,320
+so you can highlight straight lines,
+
+501
+00:23:04,320 --> 00:23:07,480
+you can flip it and make a box, but it's janky.
+
+502
+00:23:07,480 --> 00:23:10,000
+Why don't they have the draw a box around something
+
+503
+00:23:10,000 --> 00:23:11,960
+like, am I missing something?
+
+504
+00:23:11,960 --> 00:23:13,820
+It's literally not there, right?
+
+505
+00:23:13,820 --> 00:23:17,700
+And that was like one of the killer features of Skitch.
+
+506
+00:23:17,700 --> 00:23:20,860
+Just being able to draw a box around something.
+
+507
+00:23:20,860 --> 00:23:22,280
+Yeah, and it's one of the killer features
+
+508
+00:23:22,280 --> 00:23:24,040
+built into Apple operating systems.
+
+509
+00:23:24,040 --> 00:23:24,880
+Yep.
+
+510
+00:23:24,880 --> 00:23:26,280
+You have to admit, when it comes to screenshots
+
+511
+00:23:26,280 --> 00:23:28,380
+and annotations, Apple is way ahead of Microsoft.
+
+512
+00:23:28,380 --> 00:23:29,220
+Uh-huh.
+
+513
+00:23:29,220 --> 00:23:32,260
+Originally developed by Plasq, P-L-A-S-Q,
+
+514
+00:23:32,260 --> 00:23:36,540
+Skitch was acquired by Evernote in August 2011.
+
+515
+00:23:36,540 --> 00:23:40,060
+And then in 2015, they ended support for Skitch for Windows,
+
+516
+00:23:40,060 --> 00:23:45,360
+Windows Touch, iOS, and Android, but they said they will continue
+
+517
+00:23:45,360 --> 00:23:48,940
+sketch for the Mac. And they may even still at this point, but the
+
+518
+00:23:48,940 --> 00:23:51,360
+way I know it is like when I grab an old computer, I haven't
+
+519
+00:23:51,360 --> 00:23:54,460
+logged into for a while and I opened up like a browser that I
+
+520
+00:23:54,460 --> 00:23:57,040
+hadn't launched for a while. It's like, I'm reloading all your
+
+521
+00:23:57,040 --> 00:23:59,460
+plugins. Here's the Evernote web clipper. I'm like, right.
+
+522
+00:23:59,460 --> 00:24:03,220
+Goodbye. Yeah. Bye. Don't need that. Anyway. So I'm still
+
+523
+00:24:03,220 --> 00:24:07,240
+keeping it. I honestly, I don't know that I'm going to miss the
+
+524
+00:24:07,240 --> 00:24:09,600
+only feature that I was concerned about really was the
+
+525
+00:24:09,600 --> 00:24:18,960
+search into PDFs. Yeah. Which is not something I consciously do, right? It's come up a few times.
+
+526
+00:24:18,960 --> 00:24:22,720
+What if you drink too many of those beers and you unconsciously do it, Peter?
+
+527
+00:24:22,720 --> 00:24:28,160
+Bingo. No, but I mean, have you ever searched in Evernote, not consciously looking for PDFs,
+
+528
+00:24:28,160 --> 00:24:32,480
+but found something that was actually in a PDF and then you pull out the PDF and read it?
+
+529
+00:24:32,480 --> 00:24:36,160
+Yes, except it's never been what I've been looking for.
+
+530
+00:24:36,160 --> 00:24:38,560
+Oh. So it's always been like a book.
+
+531
+00:24:38,560 --> 00:24:40,160
+So it's way less than helpful.
+
+532
+00:24:40,160 --> 00:24:43,520
+Exactly. It hasn't been a feature that I really have really needed.
+
+533
+00:24:43,520 --> 00:24:49,440
+So, but I also found out though that iOS supports searching into PDFs.
+
+534
+00:24:49,440 --> 00:24:53,280
+So the operating system itself, if you have PDFs in the file system,
+
+535
+00:24:53,280 --> 00:24:54,800
+it will index those and read them for you.
+
+536
+00:24:54,800 --> 00:24:55,920
+And not iOS, macOS.
+
+537
+00:24:55,920 --> 00:24:56,480
+macOS.
+
+538
+00:24:56,480 --> 00:25:01,920
+And, and the next version of Notes is going to have way better support for
+
+539
+00:25:01,920 --> 00:25:04,400
+annotating and doing all kinds of stuff in PDFs.
+
+540
+00:25:04,400 --> 00:25:05,120
+Correct.
+
+541
+00:25:05,120 --> 00:25:05,760
+Yeah.
+
+542
+00:25:05,760 --> 00:25:13,440
+So anyway, I don't know. I may be on a, you know, Notion just has so much functionality. It is,
+
+543
+00:25:13,440 --> 00:25:20,080
+it's a very powerful platform. So I really, I want to love it and you know, it's fine. I'm getting
+
+544
+00:25:20,080 --> 00:25:25,600
+used to it. I'm like, okay, this is pretty cool. I just, I really wish that Apple Notes was
+
+545
+00:25:25,600 --> 00:25:32,160
+completely cross-platform, right? Not 99% of the time. I don't need it to be, but that one or 2%
+
+546
+00:25:32,160 --> 00:25:38,720
+when I'm on another thing. It's like, I get it. I wish I had it here. So. We need to accelerate
+
+547
+00:25:38,720 --> 00:25:44,640
+because I'm I'm down to like my last four ounces of this beer. So I ate before I worked out and
+
+548
+00:25:44,640 --> 00:25:51,440
+I ate a little bit more after I worked out. But this still. Yeah, I'm. This is good. This is
+
+549
+00:25:51,440 --> 00:25:56,000
+good stuff though. I approve of this. It is a I think it's slightly better. It's not as light
+
+550
+00:25:56,000 --> 00:26:00,640
+in summary as a bunch of the ales I've been drinking lately. Right. But it's I don't know
+
+551
+00:26:00,640 --> 00:26:05,680
+how to describe it. It is a little more bitter, but it's pretty good stuff. I guess I probably
+
+552
+00:26:05,680 --> 00:26:10,720
+won't purposely buy more of this just because beer costs money. Well, I mean, you know what
+
+553
+00:26:10,720 --> 00:26:16,880
+I mean? Like if I'm going to spend money on beer. That needs to be in your review. I probably won't
+
+554
+00:26:16,880 --> 00:26:21,440
+purposely spend any more money on it. Right. But that's just because I don't have an endless
+
+555
+00:26:21,440 --> 00:26:26,480
+beer budget. I know, but that's a review if I ever heard it. I probably won't purposely
+
+556
+00:26:26,480 --> 00:26:31,040
+buy any more of this. I might buy it by accident. Yeah. Yeah. But I'm enjoying it right now.
+
+557
+00:26:31,040 --> 00:26:38,000
+There are some people that would say that any, if you drink enough of any beer,
+
+558
+00:26:38,000 --> 00:26:41,760
+you would start to enjoy it. Some people would say that. I don't know that I agree.
+
+559
+00:26:41,760 --> 00:26:45,200
+Did you know originally Evernote apparently was written in C sharp?
+
+560
+00:26:45,200 --> 00:26:53,680
+Really? But up to version 3.5, but in version four, they switched to good old genuine C++.
+
+561
+00:26:55,040 --> 00:26:58,640
+Is that because so was it only available on Windows?
+
+562
+00:26:58,640 --> 00:27:00,960
+Oh, that's what I'm just reading what it said.
+
+563
+00:27:00,960 --> 00:27:04,760
+It said in 2010, the programming language used to write Evernote software
+
+564
+00:27:04,760 --> 00:27:10,480
+was changed from C# for version 3.5 to C++ in version 4 to improve performance.
+
+565
+00:27:10,480 --> 00:27:13,360
+Was that only on Windows or was that for all versions?
+
+566
+00:27:13,360 --> 00:27:14,520
+I don't I don't know how that can be.
+
+567
+00:27:14,520 --> 00:27:16,020
+For sure, it wasn't the iOS app.
+
+568
+00:27:16,020 --> 00:27:19,240
+You don't think?
+
+569
+00:27:19,240 --> 00:27:21,740
+I don't know. I don't know. I'm just saying.
+
+570
+00:27:21,740 --> 00:27:23,320
+Yeah. Anyway, there you go.
+
+571
+00:27:23,320 --> 00:27:27,080
+So yeah, I think we should put a pin in this one, even though it's a little shorter than normal.
+
+572
+00:27:27,080 --> 00:27:28,120
+I think that sounds perfect.
+
+573
+00:27:28,120 --> 00:27:35,560
+30 minutes is a good mark for it. So I would say let's throw a plug into this other podcast again
+
+574
+00:27:35,560 --> 00:27:38,600
+that you mentioned with you and Clay and John Chidgey called...
+
+575
+00:27:38,600 --> 00:27:40,680
+Is this the show?
+
+576
+00:27:40,680 --> 00:27:46,040
+Is this the show? I will download and listen to the first two episodes because I am curious.
+
+577
+00:27:46,040 --> 00:27:46,600
+Yeah.
+
+578
+00:27:46,600 --> 00:27:50,920
+I wouldn't mind being a guest over there too, if you had a need for me for some reason.
+
+579
+00:27:50,920 --> 00:27:51,160
+Okay.
+
+580
+00:27:51,160 --> 00:27:51,960
+Yeah.
+
+581
+00:27:51,960 --> 00:27:52,360
+Let's see.
+
+582
+00:27:52,360 --> 00:27:53,680
+It depends on you.
+
+583
+00:27:53,680 --> 00:27:55,080
+Here's the problem though.
+
+584
+00:27:55,080 --> 00:27:58,040
+Chidgey is in Australia.
+
+585
+00:27:58,040 --> 00:28:03,040
+Yes. I used to report when I was at company name
+
+586
+00:28:03,040 --> 00:28:06,760
+that we do not speak and I was their global senior manager
+
+587
+00:28:06,760 --> 00:28:08,700
+of security operations and threat intelligence.
+
+588
+00:28:08,700 --> 00:28:12,160
+I reported to the CISO in Australia.
+
+589
+00:28:12,160 --> 00:28:13,840
+He was in Melbourne.
+
+590
+00:28:13,840 --> 00:28:17,320
+So just dear listener, if you're wondering,
+
+591
+00:28:17,320 --> 00:28:22,320
+they're a world renowned email security company.
+
+592
+00:28:22,320 --> 00:28:29,920
+with headquarters in Lexington, Massachusetts, as well as London, England, with a branch office
+
+593
+00:28:29,920 --> 00:28:32,400
+in Melbourne, just in case you're wondering. Anyway.
+
+594
+00:28:32,400 --> 00:28:32,400
+
+
+595
+00:28:32,400 --> 00:28:34,880
+Just in case you want some very specific search terms.
+
+596
+00:28:34,880 --> 00:28:39,120
+I reported to the CISO who was located in the Melbourne, Australia office.
+
+597
+00:28:39,120 --> 00:28:46,320
+I also had a team in London and a team here and someone else, where the heck the other
+
+598
+00:28:46,320 --> 00:28:51,040
+person was, it was someone on the West Coast too. So I'm used to playing time zone juggle,
+
+599
+00:28:51,040 --> 00:28:52,000
+just so you know.
+
+600
+00:28:52,000 --> 00:28:56,980
+So the recording that we usually do it's it's every other Saturday. This week is one of our Saturdays
+
+601
+00:28:56,980 --> 00:29:02,080
+And it's at 6 a.m. My time. So it'd be 9 a.m. Your time 9 a.m
+
+602
+00:29:02,080 --> 00:29:10,900
+My time and normally you're already out running your half marathon by then just gonna say I have just I just on an impulse
+
+603
+00:29:10,900 --> 00:29:17,840
+Uh last week I did register for my next race and it is actually a half marathon trail run
+
+604
+00:29:17,840 --> 00:29:19,680
+wow
+
+605
+00:29:19,680 --> 00:29:23,600
+So what a surprise. I won't actually be running my half marathon that morning,
+
+606
+00:29:23,600 --> 00:29:27,560
+but I will be running training for my half marathon.
+
+607
+00:29:27,560 --> 00:29:31,640
+Yeah. Yeah. Yeah. Yeah. No, we'll have you as a, but let me know when you're having,
+
+608
+00:29:31,640 --> 00:29:34,800
+I mean, I'm okay. I might be free at that point. Yeah. Let me,
+
+609
+00:29:34,800 --> 00:29:37,260
+let me talk to those guys and say, Hey, Peter is a good, uh,
+
+610
+00:29:37,260 --> 00:29:39,720
+you can also be an alternate. What if you showed up instead of me one time?
+
+611
+00:29:39,720 --> 00:29:45,240
+Oh my God. I can say, hi, I'm Scott. Yep. And you were like, what? No,
+
+612
+00:29:45,240 --> 00:29:48,520
+Scott Scott's working on this annoying server upgrade, you know,
+
+613
+00:29:48,520 --> 00:29:52,760
+migration project for me so I could be here podcasting. Yeah. And,
+
+614
+00:29:52,760 --> 00:29:55,840
+and I have to send Chidgey the sound clip. Hi Peter. Perfect.
+
+615
+00:29:55,840 --> 00:29:59,360
+That doesn't sound at all like him. Hey, on that note,
+
+616
+00:29:59,360 --> 00:30:03,480
+I think we should end it on this high note and cheers to you and push the big
+
+617
+00:30:03,480 --> 00:30:05,160
+red button. Tell your friends.
+
