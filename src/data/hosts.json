@@ -26,6 +26,12 @@
     "bio": "Scott is an old school semiconductor guy, painfully infrequent writer, and off and on podcaster. Scott loves playing with computers, biking, running, yoga, and cats. Most of all, Scott loves his amazing family.",
     "socials": [
       {
+        "type": "threads",
+        "name": "@scottwillsey.com",
+        "url": "https://www.threads.net/@scott.willsey",
+        "icon": "noto:sewing-needle"
+      },
+      {
         "type": "mastodon",
         "name": "@scottaw@appdot.net",
         "url": "https://appdot.net/@scottaw",
