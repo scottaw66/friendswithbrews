@@ -1,5 +1,59 @@
 [
   {
+    "id": "TeHCEctCjTWmTYM1arelm",
+    "name": "Pre Pro",
+    "brewery": "Jack's Abby",
+    "image": "JacksAbbyPrePro-B3CDE1C9-FB34-4100-A2E7-4E60C90D9AC4",
+    "description": "In the years leading up to Prohibition, there was an explosion of breweries built by German immigrants brewing beers that took the best of the homeland and mixed it with the best of their new country, much like our brewery today. Celebrate our country and it’s orgins with this Pre-Prohibition Pilsner brewed with corn and old school American hops to create a classic American combo.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["44"],
+    "url": "https://jacksabby.com/beers/pre-pro/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "Not as good as the Maifest, but it is good. I would buy it again and I would drink it again. In fact, I AM drinking it again."
+      }
+    ]
+  },
+  {
+    "id": "wJccO3b7_KWDKlJJLxZ1f",
+    "name": "Back Pedal Brew",
+    "brewery": "Middle Fork Roasters",
+    "image": "MiddleForkRoastersBackPedalBrew-B3CDE1C9-FB34-4100-A2E7-4E60C90D9AC4",
+    "description": "Roast: Medium, Flavor Profile: Savory Smooth Structured, Origin: Brazil Indonesia.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["44"],
+    "url": "https://middleforkroasters.com/products/back-pedal-brew",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "No bitterness, no acidity, but not the smoothest of the smooth. Probably not in my favorites list, but it's a good, solid cup of coffee."
+      }
+    ]
+  },
+  {
+    "id": "HYrhDhhe_701WuzVqopJo",
+    "name": "Felix Pilsner",
+    "brewery": "Bierly Brewing",
+    "image": "BierlyBrewingFelixPilsner-B3CDE1C9-FB34-4100-A2E7-4E60C90D9AC4",
+    "description": "Latin for lucky, this Bohemian style pilsner lager is named in honor of JP and Amelia’s first child, Felix. This pilsner is smooth and clean with a balanced hop flavor. Brewed with sorghum, brown rice, Belgian-style candi sugar, Czech Saaz hops, Oregon Magnum hops, yeast, and water. Made in the classic Pilsner style, this beer is brewed under strict temperature control and lagered (laid up) for two weeks.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["44"],
+    "url": "https://www.bierlybrewing.com/our-beers/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "This tastes a LOT like the Buoy Czech Pilsner. Very good, not my favorite, but it is one of the better gluten-free beers I've tried."
+      }
+    ]
+  },
+  {
     "id": "ZEipHSX4q1aBXGzubGVTo",
     "name": "Oregon Sunshine Golden Ale",
     "brewery": "Captured by Porches Brewing",
