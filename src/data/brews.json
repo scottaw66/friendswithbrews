@@ -1,5 +1,41 @@
 [
   {
+    "id": "zF_7L2ctIASMFMeDlMhSU",
+    "name": "Peru",
+    "brewery": "Bennett Coffee Roasting Company",
+    "image": "BennettCoffeeRoastingCompany-97482457-311A-4F5B-BC40-96B48B6A15B2",
+    "description": "There is no description provided by the roaster, unfortunately.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["45"],
+    "url": "https://www.bennettcoffeeroasting.com",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "A really nice locally roasted coffee that was a suprise gift and a wonderful find. Would absolutely buy again."
+      }
+    ]
+  },
+  {
+    "id": "__9aje2oCzLKiNyvz_Tn1",
+    "name": "Non-alcoholic",
+    "brewery": "Corona",
+    "image": "CoronaNonAlcoholic-58D4CE26-45B4-45F9-99C1-D0D4AE9E5776",
+    "description": "The taste of the original in a non-alcoholic brew. Meet Corona Non-alcoholic. It has the same crisp and balanced taste of your favorite Mexican Lager. Add a lime wedge and enjoy anytime.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["45"],
+    "url": "https://www.coronausa.com/pages/corona-non-alcoholic",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "It tastes like a Corona."
+      }
+    ]
+  },
+  {
     "id": "TeHCEctCjTWmTYM1arelm",
     "name": "Pre Pro",
     "brewery": "Jack's Abby",
