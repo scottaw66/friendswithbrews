@@ -1,0 +1,3056 @@
+1
+00:00:00,000 --> 00:00:05,080
+five, four, three, two, whatever.
+
+2
+00:00:05,080 --> 00:00:07,080
+Friends with brews!
+
+3
+00:00:07,080 --> 00:00:08,360
+Hi, Peter.
+
+4
+00:00:08,360 --> 00:00:09,400
+Hi, Peter.
+
+5
+00:00:09,400 --> 00:00:11,800
+Hi, Scott. Hi.
+
+6
+00:00:11,800 --> 00:00:13,760
+Well, we've had quite the adventure.
+
+7
+00:00:13,760 --> 00:00:21,680
+Dude, all this, and then I was like, wait, let's do some work first and not have fun after I get owed.
+
+8
+00:00:21,680 --> 00:00:23,760
+I need this beer, but here's the problem, Scott.
+
+9
+00:00:23,760 --> 00:00:26,880
+OK, real quick. You're Scott, I'm Peter. You're drinking coffee.
+
+10
+00:00:26,880 --> 00:00:27,120
+Yeah.
+
+11
+00:00:27,120 --> 00:00:32,120
+I'm drinking a Corona non-alcoholic beer with wine.
+
+12
+00:00:32,120 --> 00:00:34,960
+With wine, with lime.
+
+13
+00:00:34,960 --> 00:00:36,080
+- With lime, I was gonna say.
+
+14
+00:00:36,080 --> 00:00:37,200
+That sounds like it would be good
+
+15
+00:00:37,200 --> 00:00:38,640
+with a non-alcoholic taco.
+
+16
+00:00:38,640 --> 00:00:41,400
+- I might make those later.
+
+17
+00:00:41,400 --> 00:00:42,840
+I'll make non-alcoholic nachos,
+
+18
+00:00:42,840 --> 00:00:45,200
+which is really the same thing as a non-alcoholic taco
+
+19
+00:00:45,200 --> 00:00:46,440
+just in a different presentation.
+
+20
+00:00:46,440 --> 00:00:47,920
+- That is very true.
+
+21
+00:00:47,920 --> 00:00:50,560
+Well, Peter, we've had quite the adventure
+
+22
+00:00:50,560 --> 00:00:54,240
+and let me see, Mac OS history.
+
+23
+00:00:54,240 --> 00:00:58,400
+Wow, non-alcoholic Corona tastes suspiciously like Corona.
+
+24
+00:00:58,400 --> 00:01:01,200
+Yeah, let's find out. Actually, that's good though, right?
+
+25
+00:01:01,200 --> 00:01:01,700
+I guess.
+
+26
+00:01:01,700 --> 00:01:11,440
+Okay, Mac OS was first introduced in 1999 as Mac OS Server 1.0,
+
+27
+00:01:11,440 --> 00:01:18,240
+and then the first desktop version came out in March of 2001.
+
+28
+00:01:19,200 --> 00:01:30,040
+Peter, the reason I'm bringing this up is I feel like Apple's had just a little bit of time to work on their audio subsystem.
+
+29
+00:01:30,040 --> 00:01:35,140
+I think... no. They need another...
+
+30
+00:01:35,140 --> 00:01:36,380
+Another 23 years?
+
+31
+00:01:36,380 --> 00:01:39,020
+Five... 10 years. 10 years.
+
+32
+00:01:39,020 --> 00:01:39,520
+Okay.
+
+33
+00:01:39,520 --> 00:01:46,700
+10 years from now, we're gonna have audio working. And Bluetooth will be working. Everything will be fine.
+
+34
+00:01:46,700 --> 00:01:51,340
+The listener, you can't see me, but I'm just shaking my head with my eyes closed.
+
+35
+00:01:51,340 --> 00:01:52,940
+It's pretty ridiculous.
+
+36
+00:01:52,940 --> 00:01:57,820
+It is ridiculous how much pain we go through these days to get podcasting started.
+
+37
+00:01:57,820 --> 00:01:58,820
+I...
+
+38
+00:01:58,820 --> 00:01:59,820
+Yeah.
+
+39
+00:01:59,820 --> 00:02:02,060
+Yeah, you summed it right up.
+
+40
+00:02:02,060 --> 00:02:04,460
+I can't even tell if my shush is working.
+
+41
+00:02:04,460 --> 00:02:05,460
+It's working.
+
+42
+00:02:05,460 --> 00:02:06,460
+Okay, it is working.
+
+43
+00:02:06,460 --> 00:02:07,460
+Good.
+
+44
+00:02:07,460 --> 00:02:08,460
+Great.
+
+45
+00:02:08,460 --> 00:02:09,900
+So yeah, what's going on, man?
+
+46
+00:02:09,900 --> 00:02:11,100
+What's the haps?
+
+47
+00:02:11,100 --> 00:02:12,100
+Excellent.
+
+48
+00:02:12,100 --> 00:02:15,060
+Okay, so tell me about your Corona beer.
+
+49
+00:02:15,060 --> 00:02:18,780
+Okay, if you've ever had a Corona it tastes kind of like that.
+
+50
+00:02:18,780 --> 00:02:21,980
+That's a victory though, because sometimes non-alcoholic beers don't taste anything like
+
+51
+00:02:21,980 --> 00:02:23,420
+their alcoholic counterparts.
+
+52
+00:02:23,420 --> 00:02:26,060
+Yep, it tastes like beer.
+
+53
+00:02:26,060 --> 00:02:29,720
+You know, it tastes like weak beer, but Corona is kind of weak beer.
+
+54
+00:02:29,720 --> 00:02:30,720
+No offense.
+
+55
+00:02:30,720 --> 00:02:31,720
+No offense.
+
+56
+00:02:31,720 --> 00:02:32,720
+It's just...
+
+57
+00:02:32,720 --> 00:02:36,180
+I don't know why people might take this wrong, but it's not meant that way.
+
+58
+00:02:36,180 --> 00:02:39,260
+Corona is amazing with like Mexican food and stuff like that.
+
+59
+00:02:39,260 --> 00:02:40,520
+Don't ask me why.
+
+60
+00:02:40,520 --> 00:02:41,520
+Is that...
+
+61
+00:02:41,520 --> 00:02:42,560
+That's racist.
+
+62
+00:02:42,560 --> 00:02:43,560
+That's what I was wondering.
+
+63
+00:02:43,560 --> 00:02:44,560
+Like, is it?
+
+64
+00:02:44,560 --> 00:02:49,040
+I don't think it is because it is so good with it. It could be ethnist. It could be ethnist. Well,
+
+65
+00:02:49,040 --> 00:02:53,920
+here's why I think that's true. I think it's true because one of my favorite Mexican restaurants I
+
+66
+00:02:53,920 --> 00:02:58,800
+go to around here, one of the better beers that they have on option is Corona. And so I have it
+
+67
+00:02:58,800 --> 00:03:02,880
+with Mexican food a lot and it does go good with Mexican food because it's light, it's not
+
+68
+00:03:02,880 --> 00:03:07,920
+overpowering. It's better than having a dark chocolatey beer with Mexican food for sure.
+
+69
+00:03:10,000 --> 00:03:15,360
+So I think that the association is made in my mind partly because local Mexican restaurants
+
+70
+00:03:15,360 --> 00:03:20,160
+have made that association for me and it does happen to work very well with Mexican food.
+
+71
+00:03:20,160 --> 00:03:26,880
+Yeah and an example of that, I went back to Medford Brewing Company this past weekend.
+
+72
+00:03:26,880 --> 00:03:28,080
+Oh after we talked?
+
+73
+00:03:28,080 --> 00:03:31,600
+I believe so for a second, round two. I don't remember.
+
+74
+00:03:31,600 --> 00:03:33,280
+Do you remember the daughter's name this time?
+
+75
+00:03:33,280 --> 00:03:37,760
+She was not there but the other guy who was waiting on us who was tending bar was there.
+
+76
+00:03:37,760 --> 00:03:38,960
+Was he the son?
+
+77
+00:03:38,960 --> 00:03:43,360
+I don't think so. I don't see that. So he wasn't even an illegitimate son. No relation whatsoever.
+
+78
+00:03:43,360 --> 00:03:48,320
+I, you know, we didn't get into that. Hey bastard, bring me another beer.
+
+79
+00:03:48,320 --> 00:03:56,160
+So what happened was, no, we went there, I took my girlfriend there and she's not a big beer
+
+80
+00:03:56,160 --> 00:04:01,040
+drinker. But I told her that, you know, they had a lot of beers and some of them I thought she would
+
+81
+00:04:01,040 --> 00:04:08,480
+think are cute. You know, for her cute is good. So I ordered a flight of eight this time and they
+
+82
+00:04:08,480 --> 00:04:13,280
+were just really cool because they let me customize it the way I wanted it. So you know,
+
+83
+00:04:13,280 --> 00:04:17,600
+I went down the list, I was like, I'll take one of your lagers, definitely we need two of the
+
+84
+00:04:17,600 --> 00:04:23,920
+Whit beers, you know, the poet Wheat beer. I ordered her a couple of the IPAs because she
+
+85
+00:04:23,920 --> 00:04:29,600
+generally thinks those are good for some reason, and the barley wine, and then I got up to seven
+
+86
+00:04:29,600 --> 00:04:34,240
+beers and I was like, can I just leave this one to be determined? He's like, yeah, sure.
+
+87
+00:04:34,800 --> 00:04:39,360
+And I know other places would be like, "Nope, you know, a flight is this many. We're determining what
+
+88
+00:04:39,360 --> 00:04:43,280
+the flight is. You have to choose all..." You know, so I was just like, I like the fact that
+
+89
+00:04:43,280 --> 00:04:47,840
+they were like really easygoing, let's you do what you want. You know, about a half hour later,
+
+90
+00:04:47,840 --> 00:04:51,760
+I'm just about finishing up the, you know, the flight. I'm like, you know, I hold up the empty
+
+91
+00:04:51,760 --> 00:04:54,400
+glass. He's like, "Yep, what do you need?" And I was like, "Yep, another one of the Whitbeer."
+
+92
+00:04:54,400 --> 00:05:01,600
+Okay, perfect. So two thumbs up. What I don't know is if this Sunday coming up, they will be doing
+
+93
+00:05:01,600 --> 00:05:08,160
+their Sunday morning runs because they, according to one source, they run, they have a running
+
+94
+00:05:08,160 --> 00:05:15,200
+club there the first three Sundays of every week. And according to another source, they
+
+95
+00:05:15,200 --> 00:05:21,360
+have a running club there every Sunday except the fourth Sunday of the month. But July has
+
+96
+00:05:21,360 --> 00:05:23,360
+five Sundays.
+
+97
+00:05:23,360 --> 00:05:27,240
+Oh, so do they or don't they?
+
+98
+00:05:27,240 --> 00:05:28,560
+Do they have one or not?
+
+99
+00:05:28,560 --> 00:05:32,800
+I mean, you showed up and say, "Haha, I got you, you lazy bastards."
+
+100
+00:05:32,800 --> 00:05:35,520
+Yeah, but who would I say that to?
+
+101
+00:05:35,520 --> 00:05:37,760
+The people who didn't show up.
+
+102
+00:05:37,760 --> 00:05:38,760
+They're not going to hear me.
+
+103
+00:05:38,760 --> 00:05:41,840
+I know, but you'll still be saying it to them.
+
+104
+00:05:41,840 --> 00:05:42,840
+Great.
+
+105
+00:05:42,840 --> 00:05:43,840
+Yes.
+
+106
+00:05:43,840 --> 00:05:44,960
+The answer is yes, I can.
+
+107
+00:05:44,960 --> 00:05:45,960
+I can do that.
+
+108
+00:05:45,960 --> 00:05:52,280
+If a runner shows up and there's no one to hear him, is he still late for the run?
+
+109
+00:05:52,280 --> 00:05:55,760
+A prophet in the wilderness is still telling the truth, even though nobody goes to the
+
+110
+00:05:55,760 --> 00:05:56,760
+wilderness, Peter.
+
+111
+00:05:56,760 --> 00:05:59,320
+You are the running prophet.
+
+112
+00:05:59,320 --> 00:06:00,320
+Okay.
+
+113
+00:06:00,320 --> 00:06:03,460
+I didn't say running for profit, by the way.
+
+114
+00:06:03,460 --> 00:06:04,680
+This isn't a new self-help book.
+
+115
+00:06:04,680 --> 00:06:05,680
+I wish.
+
+116
+00:06:05,680 --> 00:06:06,680
+I mean, that would be kind of cool.
+
+117
+00:06:06,680 --> 00:06:09,580
+My new job be like just, you know, running prophet.
+
+118
+00:06:09,580 --> 00:06:15,320
+If I could be one of those guys who gets paid like a ton of money to, you know, like do
+
+119
+00:06:15,320 --> 00:06:17,320
+that, I'd be down with that.
+
+120
+00:06:17,320 --> 00:06:19,360
+A ton of money to be real runny?
+
+121
+00:06:19,360 --> 00:06:20,360
+Yes.
+
+122
+00:06:20,360 --> 00:06:21,360
+Okay.
+
+123
+00:06:21,360 --> 00:06:24,120
+I want to talk about my coffee since I also have a brew.
+
+124
+00:06:24,120 --> 00:06:26,620
+as a coffee of a type of a brew.
+
+125
+00:06:26,620 --> 00:06:30,720
+And this is from a local roasting company in Hillsboro,
+
+126
+00:06:30,720 --> 00:06:33,380
+also very near that sushi restaurant that we went to
+
+127
+00:06:33,380 --> 00:06:35,780
+that one night downtown underneath the library.
+
+128
+00:06:35,780 --> 00:06:36,620
+- I remember that.
+
+129
+00:06:36,620 --> 00:06:38,680
+- We're going there tonight again, by the way.
+
+130
+00:06:38,680 --> 00:06:40,420
+And anyway, it's near there.
+
+131
+00:06:40,420 --> 00:06:43,140
+It's called the Bennett Coffee Roasting Company,
+
+132
+00:06:43,140 --> 00:06:44,980
+and this is their Peru blend.
+
+133
+00:06:44,980 --> 00:06:47,940
+And it says creamy dark chocolate, brown sugar cinnamon.
+
+134
+00:06:47,940 --> 00:06:50,500
+And I gotta say, I don't, again,
+
+135
+00:06:50,500 --> 00:06:53,300
+it's one of those ones where it's smooth
+
+136
+00:06:53,300 --> 00:06:55,340
+and very nicely drinkable,
+
+137
+00:06:55,340 --> 00:06:58,840
+those particular flavors don't leap out at me,
+
+138
+00:06:58,840 --> 00:06:59,680
+but that's fine.
+
+139
+00:06:59,680 --> 00:07:02,120
+I'd rather have them be subtle than to be too strong.
+
+140
+00:07:02,120 --> 00:07:05,680
+However, creamy dark chocolate and brown sugar cinnamon,
+
+141
+00:07:05,680 --> 00:07:08,000
+I would be okay with them being a little bit strong.
+
+142
+00:07:08,000 --> 00:07:10,120
+Those sound like amazing flavors.
+
+143
+00:07:10,120 --> 00:07:12,460
+So maybe I just need to use more beans.
+
+144
+00:07:12,460 --> 00:07:13,700
+Here's my procedure.
+
+145
+00:07:13,700 --> 00:07:16,860
+In order to cut down on the acidity of coffee
+
+146
+00:07:16,860 --> 00:07:18,080
+and to preserve my stomach,
+
+147
+00:07:18,080 --> 00:07:20,420
+'cause I do drink quite a bit of coffee during the day,
+
+148
+00:07:20,420 --> 00:07:22,600
+I have a great big coffee cup here.
+
+149
+00:07:22,600 --> 00:07:28,800
+I don't know what size this is, but I'm guessing it's at least 16 ounce, maybe 18 or 20.
+
+150
+00:07:28,800 --> 00:07:29,800
+I don't know, it's huge.
+
+151
+00:07:29,800 --> 00:07:30,800
+That's... that looks...
+
+152
+00:07:30,800 --> 00:07:32,320
+I think it's a 16er.
+
+153
+00:07:32,320 --> 00:07:33,320
+Maybe.
+
+154
+00:07:33,320 --> 00:07:34,320
+Yeah, probably.
+
+155
+00:07:34,320 --> 00:07:40,400
+Anyway, I use 13 grams of beans and 500 grams of water, which is a high water to bean ratio,
+
+156
+00:07:40,400 --> 00:07:42,120
+but it actually is not weak.
+
+157
+00:07:42,120 --> 00:07:44,820
+It's not a watery tasting blend when I do that.
+
+158
+00:07:44,820 --> 00:07:48,520
+And I've been doing that with most of my coffees that I've been buying lately.
+
+159
+00:07:48,520 --> 00:07:51,640
+I grind on a just under a medium grind.
+
+160
+00:07:51,640 --> 00:07:55,120
+By just under, I mean slightly finer than a medium grind.
+
+161
+00:07:55,120 --> 00:07:58,800
+And I, like I said, 12 to 13 grams of coffee,
+
+162
+00:07:58,800 --> 00:08:01,880
+500 grams ish of water, 201 degrees.
+
+163
+00:08:01,880 --> 00:08:04,600
+Although by the time it goes over the grounds,
+
+164
+00:08:04,600 --> 00:08:06,560
+it's probably in the 190s.
+
+165
+00:08:06,560 --> 00:08:11,160
+And yeah, and then it's a Kalita Wave dripper that I use.
+
+166
+00:08:11,160 --> 00:08:13,200
+And that's my technique.
+
+167
+00:08:13,200 --> 00:08:15,240
+And it turns out a pretty good cup of coffee.
+
+168
+00:08:15,240 --> 00:08:17,040
+So yeah, I'm a fan of this.
+
+169
+00:08:17,040 --> 00:08:18,120
+This is good stuff.
+
+170
+00:08:18,120 --> 00:08:21,640
+Did you see the link that I sent you to the new AeroPress XL?
+
+171
+00:08:21,640 --> 00:08:22,920
+You did.
+
+172
+00:08:22,920 --> 00:08:25,280
+It's a double-sized AeroPress.
+
+173
+00:08:25,280 --> 00:08:28,680
+That's actually very good because I could use that for my coffee cup
+
+174
+00:08:28,680 --> 00:08:32,680
+and my wife could use it for hers, which is about half the size of this one.
+
+175
+00:08:32,680 --> 00:08:37,400
+I'm finding that usually if I just double up in a standard AeroPress,
+
+176
+00:08:37,400 --> 00:08:41,800
+that's enough, except if I'm making something for myself
+
+177
+00:08:41,800 --> 00:08:44,480
+and, you know, my girlfriend, for example. Right.
+
+178
+00:08:44,480 --> 00:08:47,960
+That's when I need, you know, that's when I have to break out
+
+179
+00:08:47,960 --> 00:08:50,440
+two aeropresses. >> Right, because, yeah, right.
+
+180
+00:08:50,440 --> 00:08:55,960
+>> I kind of think... So I read the Wired review and the summary was, "Yeah, now that we have it,
+
+181
+00:08:55,960 --> 00:08:59,480
+we've all been waiting for it and it works great just as we expected. And now that we have it,
+
+182
+00:08:59,480 --> 00:09:04,200
+we're not really sure we need it." And that's kind of where I'm falling on that. So I'm thinking,
+
+183
+00:09:04,200 --> 00:09:08,760
+like, if one of mine breaks and I need to replace it, I'll probably get one. But right now I have
+
+184
+00:09:08,760 --> 00:09:12,680
+three aeropresses. >> Okay, Peter, I'll be right over to break all your aeropresses.
+
+185
+00:09:12,680 --> 00:09:13,680
+>> Yeah, okay, thanks.
+
+186
+00:09:13,680 --> 00:09:17,200
+I'll order a new one in XL.
+
+187
+00:09:17,200 --> 00:09:19,320
+>> So this is an interesting coffee roaster, though.
+
+188
+00:09:19,320 --> 00:09:22,900
+They of course, they, well, as they said, this is their Peru blend.
+
+189
+00:09:22,900 --> 00:09:25,840
+They source it from a bunch of different places.
+
+190
+00:09:25,840 --> 00:09:29,360
+They started selling at farmer markets, and then they finally opened a little store in
+
+191
+00:09:29,360 --> 00:09:34,600
+Hillsboro, and apparently they also sell products from other local merchants like,
+
+192
+00:09:34,600 --> 00:09:36,800
+I don't know what, I haven't been there.
+
+193
+00:09:36,800 --> 00:09:37,800
+My wife's been there.
+
+194
+00:09:37,800 --> 00:09:39,520
+I'll have to ask her, what else did they have there?
+
+195
+00:09:39,520 --> 00:09:41,920
+But anyway, it's a cute little place.
+
+196
+00:09:41,920 --> 00:09:43,360
+Old town Hillsboro.
+
+197
+00:09:43,360 --> 00:09:44,360
+What do we offer?
+
+198
+00:09:44,360 --> 00:09:45,880
+What flavors do they say they offer?
+
+199
+00:09:45,880 --> 00:09:55,920
+They've got medium roast Brazil, dark roast Brazil, espresso blend, Ethiopian ur-ag-gef?
+
+200
+00:09:55,920 --> 00:09:56,920
+Mexican Chiapas?
+
+201
+00:09:56,920 --> 00:09:59,260
+I like Brazilian dark.
+
+202
+00:09:59,260 --> 00:10:01,640
+Those are, that's, you're speaking my language.
+
+203
+00:10:01,640 --> 00:10:03,840
+Mexican Chiapas and Mexican decaf.
+
+204
+00:10:03,840 --> 00:10:06,840
+Although they must not have everything on there because they don't show this Peru blend
+
+205
+00:10:06,840 --> 00:10:08,940
+that I'm currently drinking.
+
+206
+00:10:08,940 --> 00:10:10,160
+That sounds incomplete.
+
+207
+00:10:10,160 --> 00:10:11,760
+All right.
+
+208
+00:10:11,760 --> 00:10:18,640
+that for that? What else is going on? Well, my Tesla died. Oh yeah, speaking of audio issues,
+
+209
+00:10:18,640 --> 00:10:25,240
+now let's switch to auto issues. Mm-hmm. Auto issues, audio issues, caffeine issues. Yeah,
+
+210
+00:10:25,240 --> 00:10:34,280
+I was at the local Wegmans last night and I was about to drive home and I got in the car and I got
+
+211
+00:10:34,280 --> 00:10:43,380
+the dreaded "brr brr brr" noise from the Tesla and the park neutral reverse... wait, park
+
+212
+00:10:43,380 --> 00:10:48,580
+reverse neutral drive letters ran across the console to show you where you would shift.
+
+213
+00:10:48,580 --> 00:10:56,080
+were all red. They're not usually red. They're usually white. Yeah. Red generally means bad.
+
+214
+00:10:56,080 --> 00:11:00,000
+It wasn't a rebranding thing? Elon Musk didn't push a rebranding to your... okay.
+
+215
+00:11:00,000 --> 00:11:07,320
+This was not Tesla X or SpaceX or Twitter X or X X or anything like that. This was
+
+216
+00:11:07,320 --> 00:11:10,440
+Rear motor has been disabled
+
+217
+00:11:10,440 --> 00:11:14,900
+Performance you can still drive the car but performance may be impacted
+
+218
+00:11:14,900 --> 00:11:21,440
+Well got news for you Tesla when you only have a rear motor in the car
+
+219
+00:11:21,440 --> 00:11:22,840
+Yeah
+
+220
+00:11:22,840 --> 00:11:28,300
+Performances affected. All right, like a hundred percent effective. Why did it say that? Why did it phrase it that way?
+
+221
+00:11:28,300 --> 00:11:32,300
+It makes it sound like it has dual motors when they have dual motors in the Tesla is one of them in the front
+
+222
+00:11:32,300 --> 00:11:34,580
+Yeah, dual motors would be all-wheel drive
+
+223
+00:11:34,580 --> 00:11:37,480
+So you got one up front for front two wheels one in the back for the back two wheels
+
+224
+00:11:37,480 --> 00:11:43,380
+So you have a single motor exactly and the software is not smart enough to distinguish between that which is awesome
+
+225
+00:11:43,380 --> 00:11:48,780
+Peter if you're gonna cheap out and buy the single motor Tesla you kind of deserve this don't you feel like I?
+
+226
+00:11:48,780 --> 00:11:57,820
+Never really, you know thought when I was buying cars that I had to buy a backup motor until now. Thanks Elon
+
+227
+00:11:57,820 --> 00:11:59,820
+Thanks Elon. Thanks X.
+
+228
+00:11:59,820 --> 00:12:08,820
+So yeah, and to add to that, I called AAA and I tried to schedule a tow. Two hours had gone by, hadn't heard anything, called back.
+
+229
+00:12:08,820 --> 00:12:13,820
+And of course, because I call and they're like, use the app here. We just texted you the link. Okay, fine. Texted the link.
+
+230
+00:12:13,820 --> 00:12:17,820
+And they're like, yep, we'll be in touch when we have a car on the way, you know, truck on the way. Great.
+
+231
+00:12:17,820 --> 00:12:18,820
+We'll be in touch.
+
+232
+00:12:18,820 --> 00:12:22,820
+I happened to be an hour away from home or a mile away from home. So I sent my girlfriend home.
+
+233
+00:12:22,820 --> 00:12:26,620
+I sent my girlfriend home, she took an Uber and took the groceries home because we had
+
+234
+00:12:26,620 --> 00:12:31,420
+a bunch of stuff, you know, like dairy and vegetables and cold things that were starting
+
+235
+00:12:31,420 --> 00:12:36,020
+to melt. So, she went home, I waited for an hour, nothing. I was like, "All right, enough
+
+236
+00:12:36,020 --> 00:12:43,060
+of this." I walked home. I get home, two hours later, call AAA, "What's going on?" "No, nothing."
+
+237
+00:12:43,060 --> 00:12:49,100
+"Oh, yeah, we're really busy." "Uh-huh, okay, great." She's the lady I spoke to, it was
+
+238
+00:12:49,100 --> 00:12:58,540
+oh it's 7 42 now you'll get a you'll get a stat i know i think she said they'll be there by 532.
+
+239
+00:12:58,540 --> 00:13:02,860
+It's all right great so i'm waiting clock gets down it gets to about
+
+240
+00:13:02,860 --> 00:13:10,860
+5 20 i get on my bike and i ride over back to the car nothing going on nothing 5 31 i get a phone
+
+241
+00:13:10,860 --> 00:13:17,900
+call hi this is triple a we're due to extremely high call volumes or whatever you know like we
+
+242
+00:13:17,900 --> 00:13:23,740
+we're having trouble finding someone, we'll be back in touch in half an hour. So, half
+
+243
+00:13:23,740 --> 00:13:29,900
+an hour later, I get the exact same call and half an hour later, I get the exact same call.
+
+244
+00:13:29,900 --> 00:13:34,940
+I call AAA again, I'm like "look, can I call another tow truck?" and they're like "yeah,
+
+245
+00:13:34,940 --> 00:13:37,940
+if you can find one, just submit, there's a reimbursement form". I'm like "fine, I'll
+
+246
+00:13:37,940 --> 00:13:39,420
+do that".
+
+247
+00:13:39,420 --> 00:13:45,660
+So, I call my local towing company who tows for my condo, right? When someone parks illegally
+
+248
+00:13:45,660 --> 00:13:52,060
+in our parking lot. And I was like, yeah, I need a flatbed to bring my car. He's like,
+
+249
+00:13:52,060 --> 00:13:55,340
+I'm sorry, sir, we're totally busy tonight. You know, we're almost like, wow, I guess
+
+250
+00:13:55,340 --> 00:13:58,460
+I don't know, Sunday night's the night for all of the tow trucks and records or, you
+
+251
+00:13:58,460 --> 00:14:05,640
+know, flatbeds to run around. So I said, well, my car's stuck over in Wegmans parking lot
+
+252
+00:14:05,640 --> 00:14:09,580
+right now and I'm just concerned that they're going to tow it overnight. And he says, no,
+
+253
+00:14:09,580 --> 00:14:15,580
+okay we do the towing for them so I was like oh well if you're too busy to tow
+
+254
+00:14:15,580 --> 00:14:19,640
+for them tonight then I guess I'll leave my car there so I went to bed. No no no so
+
+255
+00:14:19,640 --> 00:14:23,020
+here's what would be funny right they can't come and get your car because
+
+256
+00:14:23,020 --> 00:14:26,660
+they're too busy but you leave it towing my car and calls it in and they tow it
+
+257
+00:14:26,660 --> 00:14:31,140
+for you oh yeah that'd be hilarious Scott that
+
+258
+00:14:31,140 --> 00:14:35,140
+would it be just great I'm saying you could work the system Peter right you
+
+259
+00:14:35,140 --> 00:14:38,900
+should call me you should go to Wegmans and say hey there's a Tesla out there
+
+260
+00:14:38,900 --> 00:14:41,420
+It's been here for a long time.
+
+261
+00:14:41,420 --> 00:14:45,700
+I tell you what though, if you have it brought over to my place.
+
+262
+00:14:45,700 --> 00:14:52,900
+Anyway, so this morning I got the call and again, there was delays, delays, delays, but
+
+263
+00:14:52,900 --> 00:14:55,700
+they finally got a truck, showed up.
+
+264
+00:14:55,700 --> 00:15:00,100
+Guy showed up, guy didn't speak very much English, but I spoke enough Portuguese to
+
+265
+00:15:00,100 --> 00:15:01,860
+get by with him.
+
+266
+00:15:01,860 --> 00:15:04,460
+And as I was waiting, just as he arrived and he starts-
+
+267
+00:15:04,460 --> 00:15:05,460
+Wait, did you say Portuguese?
+
+268
+00:15:05,460 --> 00:15:06,460
+Yeah, Brazilian.
+
+269
+00:15:06,460 --> 00:15:07,460
+Wait, this happened in the-
+
+270
+00:15:07,460 --> 00:15:10,980
+We have a lot of Brazilians around. Oh, really? We have a lot of Brazilians in this neighborhood.
+
+271
+00:15:10,980 --> 00:15:14,660
+Oh, yeah. Yeah. There's plenty of people who don't speak English around here or at least not very
+
+272
+00:15:14,660 --> 00:15:19,460
+well. I can believe that, but Portuguese is pretty unusual. Oh, no, we have lots of Brazilians in
+
+273
+00:15:19,460 --> 00:15:25,780
+this area. Lots. Wow. So as he shows up and he starts to connect the tow, the flatbed,
+
+274
+00:15:25,780 --> 00:15:30,340
+I get a message from Tesla saying, "Okay, your service appointment is confirmed." Because I had
+
+275
+00:15:30,340 --> 00:15:34,820
+been trying to get in touch with Tesla to schedule a new service. And of course I'm trying to call
+
+276
+00:15:34,820 --> 00:15:40,340
+them and it's impossible to actually get a human because oh just use the app just use the app i'm
+
+277
+00:15:40,340 --> 00:15:45,140
+like i don't want to talk to the freaking app i want to talk to someone anyway i asked the guy
+
+278
+00:15:45,140 --> 00:15:54,100
+hey can you take my car straight to the tesla service center right because my plan was until
+
+279
+00:15:54,100 --> 00:16:00,420
+i hear back from tesla bring it to my house then once it's here i'll have them take it you know to
+
+280
+00:16:00,420 --> 00:16:04,580
+the service center because my hope was you can come here and fix it Tesla because they'll do
+
+281
+00:16:04,580 --> 00:16:10,340
+that mobile service. Apparently, vehicle not good enough to drive is enough that they're like no,
+
+282
+00:16:10,340 --> 00:16:14,980
+we need to bring this in. So, I asked the guy right there, can you take it there instead? He's
+
+283
+00:16:14,980 --> 00:16:19,060
+like, oh, let me check my manager. He checks the manager and says yep, it's gonna cost $75
+
+284
+00:16:19,060 --> 00:16:25,940
+to tow because AAA will give you three miles free and then it's like three bucks a mile after that.
+
+285
+00:16:25,940 --> 00:16:31,360
+And he pulls out Google Maps shows me, you know the distance. Yeah, I give him 80 bucks in cash
+
+286
+00:16:31,360 --> 00:16:38,520
+I say thank you and he drives off. So some dude. I just paid some guy 80 bucks to go and vanish with my car
+
+287
+00:16:38,520 --> 00:16:43,280
+So that's the status. So my car is now there
+
+288
+00:16:43,280 --> 00:16:45,800
+I did manage to somehow I managed to
+
+289
+00:16:45,800 --> 00:16:52,020
+Dial through the menus and actually speak to a service rep over there and you verified that they know that your car is there
+
+290
+00:16:52,720 --> 00:16:59,740
+Well, that's the funny part. But anyway, they verified that they do prioritize, you know, like non-driveable cars that are towed in
+
+291
+00:16:59,740 --> 00:17:06,240
+So hopefully it'll be done before August 9th, which was the original date that they gave me. Okay
+
+292
+00:17:06,240 --> 00:17:13,400
+Yeah, yeah. Oh, oh and by the way, my car insurance policy does not cover a rental
+
+293
+00:17:13,400 --> 00:17:16,980
+I thought it did. Oh, I don't know when that changed
+
+294
+00:17:16,980 --> 00:17:24,460
+I don't know when that changed but I might have officially left that off because my Tesla warranty did include a rental
+
+295
+00:17:24,460 --> 00:17:27,000
+So I might have like not paid for that
+
+296
+00:17:27,000 --> 00:17:30,160
+So I think I have to add that back in now now that I don't have that anymore
+
+297
+00:17:30,160 --> 00:17:34,520
+Oh is your Tesla out of warranty now? It's out of the base warranty
+
+298
+00:17:34,520 --> 00:17:41,560
+But now it has just the drive warranty, which I'm hoping will cover but it doesn't cover a rental anymore
+
+299
+00:17:41,560 --> 00:17:43,560
+Does not cover doesn't cover Jack
+
+300
+00:17:43,940 --> 00:17:49,500
+So I'm hoping that this will be covered because you know when the car says drive disabled
+
+301
+00:17:49,500 --> 00:17:55,620
+Sounds like a drive issue now. They could very well come back and say oh, no, it's just an electronics issue
+
+302
+00:17:55,620 --> 00:18:00,940
+The drives fine. It just didn't know to turn it on and then I'm out however much to fix this too
+
+303
+00:18:00,940 --> 00:18:05,720
+So no, I think what happened is you didn't pay for Twitter blue. Sorry X blue
+
+304
+00:18:05,720 --> 00:18:13,300
+Right and they pushed a non drivable update to your that is true. I did not pay for X blue
+
+305
+00:18:13,300 --> 00:18:21,580
+So that's probably it. Yeah. Yeah. See I'm not completely in the Elon ecosystem. The Elon co-system.
+
+306
+00:18:21,580 --> 00:18:29,220
+The Elon X-stem. So tell me this, if you find out that this will be a billion dollars to fix,
+
+307
+00:18:29,220 --> 00:18:33,980
+you really do have an electric motor that's burnt out or whatever. Are you just gonna say,
+
+308
+00:18:33,980 --> 00:18:41,500
+keep it and buy a Kia? Well, if it really is the motor that's burnt out or whatnot,
+
+309
+00:18:41,500 --> 00:18:43,180
+that should be covered under warranty.
+
+310
+00:18:43,180 --> 00:18:46,180
+>> COREY Right, but if it's not, what if they say, "Hey, Peter, you're going to have to
+
+311
+00:18:46,180 --> 00:18:48,660
+fight us in court for 4,000 years"?
+
+312
+00:18:48,660 --> 00:18:52,860
+>> JONATHAN I don't think I have that kind of time.
+
+313
+00:18:52,860 --> 00:18:54,060
+I'm really busy.
+
+314
+00:18:54,060 --> 00:18:57,700
+I'm not going to dedicate 4,000 years to this.
+
+315
+00:18:57,700 --> 00:19:01,900
+>> COREY Yeah, I'm going to be really pissed if I get on your calendly and I can't schedule
+
+316
+00:19:01,900 --> 00:19:05,580
+you for a podcast for the next 4,000 years because you're busy fighting Tesla.
+
+317
+00:19:05,580 --> 00:19:13,260
+Peter, I just looked at the next available and it looks like you're at about 4,000. You're booking
+
+318
+00:19:13,260 --> 00:19:18,540
+about 4,000 years out. Yeah. I know it just says busy. It doesn't give you a lot of details,
+
+319
+00:19:18,540 --> 00:19:22,220
+but yeah, I'm fighting Tesla for the next 4,000 years. So yeah.
+
+320
+00:19:22,220 --> 00:19:25,500
+The good news is I don't know if humanity is actually going to last 4,000 more years. So
+
+321
+00:19:25,500 --> 00:19:27,420
+you might not have to carry that fight on that long.
+
+322
+00:19:27,420 --> 00:19:33,100
+I guess that's good. I don't know. It depends how you look at it. Right? So.
+
+323
+00:19:33,100 --> 00:19:34,780
+It's a brilliant victory. You win.
+
+324
+00:19:34,780 --> 00:19:36,060
+>> JONATHAN Oh man.
+
+325
+00:19:36,060 --> 00:19:37,580
+>> COREY Well, that sucks.
+
+326
+00:19:37,580 --> 00:19:43,660
+>> JONATHAN Yeah, but hey, if they fix it and get it drive-worthy, I've gotten some quotes again.
+
+327
+00:19:43,660 --> 00:19:49,020
+I'm planning on looking at trading it in. You know, I got some online quotes. Of course,
+
+328
+00:19:49,020 --> 00:19:53,820
+last time I got online quotes, I took it to a dealer and they're like, "There's this and this
+
+329
+00:19:53,820 --> 00:19:58,460
+and reasons. And so we can only give you like $10,000 less than what we said." Well, if they
+
+330
+00:19:58,460 --> 00:20:05,260
+try that now, but if I can get 20,000 for it, which it valued online at 22,000 based
+
+331
+00:20:05,260 --> 00:20:08,900
+on what I told it, then I'll throw that towards a trade towards a new car.
+
+332
+00:20:08,900 --> 00:20:15,220
+Dude, I still can't believe how lucky we were when we bought this hybrid Honda Accord. It
+
+333
+00:20:15,220 --> 00:20:20,440
+was still in the pandemic car shortage period. It was still in the period where some dealerships
+
+334
+00:20:20,440 --> 00:20:25,820
+were jacking prices up like crazy. And this car was hard to get. I was amazed that A,
+
+335
+00:20:25,820 --> 00:20:30,600
+We found a hybrid Honda Accord in the sport trim and the color that I wanted.
+
+336
+00:20:30,600 --> 00:20:32,240
+And not only that, it was cheap.
+
+337
+00:20:32,240 --> 00:20:37,240
+They added like two grand to it, but it was still way cheaper than what I thought it was
+
+338
+00:20:37,240 --> 00:20:38,240
+going to be.
+
+339
+00:20:38,240 --> 00:20:41,400
+And they way overpaid me for my trade in.
+
+340
+00:20:41,400 --> 00:20:45,880
+So it's just amazing the difference in experience that I had compared to what most of the world
+
+341
+00:20:45,880 --> 00:20:47,760
+is going through with respect to car dealerships.
+
+342
+00:20:47,760 --> 00:20:48,760
+Right.
+
+343
+00:20:48,760 --> 00:20:50,600
+And I don't remember if I talked with you about it.
+
+344
+00:20:50,600 --> 00:20:53,240
+I probably talked about it with Adam on blurring the lines.
+
+345
+00:20:53,240 --> 00:21:02,800
+back last what 2021 Christmas ish time 2021 I took my Tesla in and Herb
+
+346
+00:21:02,800 --> 00:21:10,680
+Chambers Kia quoted me online $32,000 in trade for my Tesla and then they also
+
+347
+00:21:10,680 --> 00:21:16,640
+said that's as much as it cost well not quite but close oh no that's how much a
+
+348
+00:21:16,640 --> 00:21:21,800
+model 3 costs on a Model S I I don't know what it what the Model S went for
+
+349
+00:21:21,800 --> 00:21:25,160
+Oh no. Ohhhhhh. Way more than that.
+
+350
+00:21:25,160 --> 00:21:25,480
+Okay.
+
+351
+00:21:25,480 --> 00:21:31,960
+So, and then they said, "Yeah, we've got a Kia EV6 MSRP, $50,000 or whatever."
+
+352
+00:21:31,960 --> 00:21:36,360
+I get there, they want like $60,000 some odd dollars for the Kia EV6.
+
+353
+00:21:36,360 --> 00:21:37,000
+Of course.
+
+354
+00:21:37,000 --> 00:21:42,360
+And they are offering me $10,000 to $12,000 less for the Tesla.
+
+355
+00:21:42,360 --> 00:21:48,040
+And this...can you beat me please? This f***ing s***
+
+356
+00:21:48,040 --> 00:21:53,720
+of a salesman looks at me, gives me a $20,000 difference, and he says, "So do we have a deal?"
+
+357
+00:21:53,720 --> 00:22:02,280
+To which I say, "No, not remotely." You have to understand, I feel like a little bit of a
+
+358
+00:22:02,280 --> 00:22:08,280
+bait and switch is going on because, you know, we came in, I was looking at this price for one car
+
+359
+00:22:08,280 --> 00:22:13,400
+and this price for the other. Now you're giving me this price, and that's the price I'm going to
+
+360
+00:22:13,400 --> 00:22:17,140
+to pay listener, you can't see this, but it goes up significantly. And then the trade
+
+361
+00:22:17,140 --> 00:22:23,160
+in value is this price. We ended up, dear listener, that trade in value goes way down.
+
+362
+00:22:23,160 --> 00:22:29,760
+And you know, just like the utter gall. So I was like, yeah, no, we don't. And they never
+
+363
+00:22:29,760 --> 00:22:30,760
+heard from me again.
+
+364
+00:22:30,760 --> 00:22:36,760
+So yeah, I gotta say that is kind of weird because anytime I've ever used the internet
+
+365
+00:22:36,760 --> 00:22:40,320
+quotes, they've always stuck to what they said the new car was going to cost. And of
+
+366
+00:22:40,320 --> 00:22:43,760
+course your trade-in could vary slightly depending on the condition, but it's never been that
+
+367
+00:22:43,760 --> 00:22:46,360
+far out of whack. I've never had that kind of experience.
+
+368
+00:22:46,360 --> 00:22:49,960
+And that's the thing too. He's like, "Oh, we've got some wheel damage here." I was like,
+
+369
+00:22:49,960 --> 00:22:52,240
+"Yeah, okay. So that's a wheel. Yep."
+
+370
+00:22:52,240 --> 00:22:54,040
+Yeah. A $10,000 wheel.
+
+371
+00:22:54,040 --> 00:22:58,000
+Yeah. I was like, "I don't think that wheel is accounting for the $20,000 discrepancy
+
+372
+00:22:58,000 --> 00:22:59,520
+that we're dealing with here though, dude."
+
+373
+00:22:59,520 --> 00:23:03,080
+No, no. But just for the, just accounting for the trade-in one, that's 10 grand.
+
+374
+00:23:03,080 --> 00:23:07,440
+Bingo. Yeah. Yeah. For a fricking wheel? I'm like, "Uh, no." I'm like, "Oh, well, it's
+
+375
+00:23:07,440 --> 00:23:09,240
+It's a rear-wheel drive in New England.
+
+376
+00:23:09,240 --> 00:23:14,000
+I'm like, "Hey Sparky, it was a rear-wheel drive in New England when I got the online
+
+377
+00:23:14,000 --> 00:23:15,660
+estimate too."
+
+378
+00:23:15,660 --> 00:23:19,400
+You know, I didn't pull the front-wheel drive out of it.
+
+379
+00:23:19,400 --> 00:23:20,760
+I didn't rip out a motor.
+
+380
+00:23:20,760 --> 00:23:22,480
+Oh brother, alright.
+
+381
+00:23:22,480 --> 00:23:24,800
+Although if you had ripped out a motor, you'd have a spare one right now.
+
+382
+00:23:24,800 --> 00:23:26,960
+Of course, it probably wouldn't fit in the back of the car.
+
+383
+00:23:26,960 --> 00:23:27,960
+Damn it.
+
+384
+00:23:27,960 --> 00:23:28,960
+Who knows?
+
+385
+00:23:28,960 --> 00:23:29,960
+But I'd have a four-wheel drive.
+
+386
+00:23:29,960 --> 00:23:30,960
+Anyway.
+
+387
+00:23:30,960 --> 00:23:31,960
+Anyway.
+
+388
+00:23:31,960 --> 00:23:32,960
+That's enough of that.
+
+389
+00:23:32,960 --> 00:23:34,900
+So yeah, alright, what else we got to talk about?
+
+390
+00:23:34,900 --> 00:23:36,020
+Let's keep moving.
+
+391
+00:23:36,020 --> 00:23:39,940
+got my beer, you've got your coffee, we can jump cut this one, you know? Just like, yeah,
+
+392
+00:23:39,940 --> 00:23:45,700
+so Twitter's gonna, he's gonna fix AI and he wants AI that's interested in the truth
+
+393
+00:23:45,700 --> 00:23:48,260
+and by truth we mean anything that...
+
+394
+00:23:48,260 --> 00:23:49,940
+Elon's view of life, yeah.
+
+395
+00:23:49,940 --> 00:23:55,540
+Right, his fake news, exactly, which is great. He's trash, I mean, I was just thinking there
+
+396
+00:23:55,540 --> 00:24:01,060
+wasn't anything left that he could do to Twitter to alienate people more, but now he's renaming
+
+397
+00:24:01,060 --> 00:24:03,700
+it, he's gonna get rid of the logo, he's gonna call it X.
+
+398
+00:24:03,700 --> 00:24:06,760
+Well, he's also cut off people's DMs.
+
+399
+00:24:06,760 --> 00:24:08,160
+He's rate limited them.
+
+400
+00:24:08,160 --> 00:24:13,060
+So here's the thing, Peter, remember how before he bought Twitter, he was bashing them saying
+
+401
+00:24:13,060 --> 00:24:15,680
+spam is easy to get rid of, you can automate it away.
+
+402
+00:24:15,680 --> 00:24:16,680
+He can't get rid of it.
+
+403
+00:24:16,680 --> 00:24:19,320
+So his solution is to restrict DMs.
+
+404
+00:24:19,320 --> 00:24:21,220
+You can, you can get rid of it.
+
+405
+00:24:21,220 --> 00:24:25,280
+If you destroy the entire platform, I guarantee there will be no spam on the platform.
+
+406
+00:24:25,280 --> 00:24:29,660
+If people can't DM you and you're rate limited in what you can do on the platform, eventually
+
+407
+00:24:29,660 --> 00:24:30,660
+the spam goes away.
+
+408
+00:24:30,660 --> 00:24:31,660
+But I mean.
+
+409
+00:24:31,660 --> 00:24:32,660
+Yep.
+
+410
+00:24:32,660 --> 00:24:33,660
+Brilliant job, Elmo.
+
+411
+00:24:33,660 --> 00:24:37,180
+>> Good job. Good job. Wonderful.
+
+412
+00:24:37,180 --> 00:24:41,420
+>> Yeah. Has anybody taken a platform and destroyed its value so rapidly?
+
+413
+00:24:41,420 --> 00:24:44,460
+>> It's pretty amazing. So a while ago,
+
+414
+00:24:44,460 --> 00:24:48,060
+you gave me and Adam a link to,
+
+415
+00:24:48,060 --> 00:24:52,340
+was it the 25 settings or something like that you should change in macOS?
+
+416
+00:24:52,340 --> 00:24:52,900
+>> Yes.
+
+417
+00:24:52,900 --> 00:24:54,700
+>> I have changed a few of them.
+
+418
+00:24:54,700 --> 00:24:56,100
+A lot of them I already had,
+
+419
+00:24:56,100 --> 00:25:00,540
+but the most significant one is I have put the dock on the left side,
+
+420
+00:25:00,540 --> 00:25:03,740
+And I took to that pretty quickly.
+
+421
+00:25:03,740 --> 00:25:06,340
+But did you auto-hide it? I can't stand it unless I auto-hide it.
+
+422
+00:25:06,340 --> 00:25:07,340
+And here's the reason why.
+
+423
+00:25:07,340 --> 00:25:10,540
+I've always auto-hidden. Always auto-hidden the dock.
+
+424
+00:25:10,540 --> 00:25:11,740
+Yeah, yeah. Oh, I never have.
+
+425
+00:25:11,740 --> 00:25:13,340
+But here, that's actually the smart...
+
+426
+00:25:13,340 --> 00:25:16,940
+It's especially smart to auto-hide if you have the dock at the bottom.
+
+427
+00:25:16,940 --> 00:25:19,740
+Which I used to have the dock at the bottom, but I didn't auto-hide it.
+
+428
+00:25:19,740 --> 00:25:21,340
+So, here's the thing though.
+
+429
+00:25:21,340 --> 00:25:22,340
+Yeah.
+
+430
+00:25:22,340 --> 00:25:24,740
+If you don't auto-hide the dock, but you have it on the side,
+
+431
+00:25:24,740 --> 00:25:27,340
+I can't stand the offset of the windows.
+
+432
+00:25:27,340 --> 00:25:29,520
+When you full screen something, it's offset by that dock.
+
+433
+00:25:29,520 --> 00:25:30,600
+And that just drives me insane.
+
+434
+00:25:30,600 --> 00:25:31,440
+Why?
+
+435
+00:25:31,440 --> 00:25:32,320
+Don't know.
+
+436
+00:25:32,320 --> 00:25:33,600
+Just a personal problem.
+
+437
+00:25:33,600 --> 00:25:34,440
+- Don't know.
+
+438
+00:25:34,440 --> 00:25:35,260
+- But it does.
+
+439
+00:25:35,260 --> 00:25:36,320
+- Don't know, don't care.
+
+440
+00:25:36,320 --> 00:25:38,520
+- The only thing that bothers me about the auto hide dock
+
+441
+00:25:38,520 --> 00:25:41,040
+is not being able to see the notifications on my message.
+
+442
+00:25:41,040 --> 00:25:44,520
+'Cause I don't let anything ding me up above
+
+443
+00:25:44,520 --> 00:25:45,640
+and show me stuff.
+
+444
+00:25:45,640 --> 00:25:47,720
+So I have to see that badge to know
+
+445
+00:25:47,720 --> 00:25:49,560
+that I have new messages.
+
+446
+00:25:49,560 --> 00:25:51,800
+And so I do have to check that occasionally.
+
+447
+00:25:51,800 --> 00:25:53,720
+But other than that, it's working out really well.
+
+448
+00:25:53,720 --> 00:25:54,560
+I really like it.
+
+449
+00:25:54,560 --> 00:25:55,400
+Yeah.
+
+450
+00:25:55,400 --> 00:25:56,220
+It gives me more space.
+
+451
+00:25:56,220 --> 00:25:58,980
+The only thing that acts weird sometimes is lasso.
+
+452
+00:25:58,980 --> 00:26:02,940
+When I use my keyboard shortcuts and lasso to position my windows,
+
+453
+00:26:02,940 --> 00:26:05,740
+sometimes it accounts for that dock space, even though the dock is auto hidden.
+
+454
+00:26:05,740 --> 00:26:09,080
+But if I move the menu slightly or the window slightly
+
+455
+00:26:09,080 --> 00:26:12,240
+and retrigger the shortcut again, then it seems to start working.
+
+456
+00:26:12,240 --> 00:26:13,980
+I've submitted that report to the developer.
+
+457
+00:26:13,980 --> 00:26:15,540
+He's not sure why.
+
+458
+00:26:15,540 --> 00:26:18,580
+I told him I would try my workaround of moving the window a little bit
+
+459
+00:26:18,580 --> 00:26:21,540
+and and hitting the keyboard shortcut again and see if it works every time,
+
+460
+00:26:21,540 --> 00:26:23,340
+just so it might give him a clue as to what's going on.
+
+461
+00:26:23,340 --> 00:26:27,120
+But aside from that it's I'm really digging this setup
+
+462
+00:26:27,120 --> 00:26:33,820
+Yeah, you know I did that and then I followed on to the next link and I do love the the guy's presentation style
+
+463
+00:26:33,820 --> 00:26:36,740
+It's it's yeah, I tell you my think
+
+464
+00:26:36,740 --> 00:26:42,060
+Then you'd be wrong and you know anyway is yeah. Yeah, I like I like his style there
+
+465
+00:26:42,060 --> 00:26:47,280
+He doesn't act like a standard youtuber. He's not like a hey guys. What's up? What's up guys?
+
+466
+00:26:47,280 --> 00:26:53,300
+I'm gonna I'm gonna talk to you for the next five minutes about nothing before I get into what you actually clicked on
+
+467
+00:26:53,300 --> 00:26:59,220
+this link for? Exactly. But anyway, I did follow the next link that YouTube suggested from him,
+
+468
+00:26:59,220 --> 00:27:04,740
+which was 25, I think, free amazing Mac apps that you have to be using. Yeah, I've checked several
+
+469
+00:27:04,740 --> 00:27:08,820
+of his. Occasionally he puts a new "check out these Mac apps" video out and sometimes they're
+
+470
+00:27:08,820 --> 00:27:12,100
+free and sometimes they're paid and he's usually got some pretty good suggestions in there.
+
+471
+00:27:12,100 --> 00:27:15,940
+We're talking about Snazzy, the Snazzy Labs channel, by the way, on YouTube.
+
+472
+00:27:15,940 --> 00:27:23,060
+And I'll have links to that in the notes of show. So I switched from Alfred to Raycast just to
+
+473
+00:27:23,060 --> 00:27:29,940
+try it out. And operating pretty much in the just the default settings I haven't really noticed much
+
+474
+00:27:29,940 --> 00:27:37,780
+of a difference except Alfred had been freezing on me for a while every now and then. Weird.
+
+475
+00:27:37,780 --> 00:27:41,860
+Raycast has not done that. Okay let me ask you this did you have any Alfred plugins that you
+
+476
+00:27:41,860 --> 00:27:46,820
+could disable and see if it made a difference? I don't remember enabling any Alfred plugins.
+
+477
+00:27:46,820 --> 00:27:51,540
+Maybe it's like searching contacts or something like that would that be an Alfred plugin? I don't
+
+478
+00:27:51,540 --> 00:27:56,500
+even know. So I don't know. I don't think that's a plugin. I think that's just a setting.
+
+479
+00:27:56,500 --> 00:28:03,460
+Yeah. But I did install Shottr and I used that a couple of times.
+
+480
+00:28:03,460 --> 00:28:09,060
+Yeah. That's just a normal feature. That's just a default results feature. If you open
+
+481
+00:28:09,060 --> 00:28:13,140
+Alfred and you go into features, default results, you can turn contacts off. Yeah. And you can
+
+482
+00:28:13,140 --> 00:28:17,620
+tell it to search preferences, contacts. You can also enable folders, images, documents, archives,
+
+483
+00:28:17,620 --> 00:28:20,100
+text files, Apple scripts. I'm going to enable all of them.
+
+484
+00:28:20,100 --> 00:28:27,460
+So I did enable searching. They call extensions in Raycast, not plugins. But I did enable the,
+
+485
+00:28:27,460 --> 00:28:33,540
+at least I thought I enabled the contacts one, but it doesn't see. Yeah, search contacts. It's
+
+486
+00:28:33,540 --> 00:28:39,300
+called search contacts. So I did that. They're called workflows in Alfred and third parties
+
+487
+00:28:39,300 --> 00:28:45,780
+can write them. And I've got a bunch of workflows in here for like text conversions, a chatbot one,
+
+488
+00:28:45,780 --> 00:28:50,900
+kaleidoscope integration, which is my diff tool, shortcuts integration, a bunch of different ones.
+
+489
+00:28:50,900 --> 00:28:55,940
+They work out pretty good. Oh, 1Password 1, too, so it'll search 1Password entries for me.
+
+490
+00:28:55,940 --> 00:28:56,820
+Well, that might be useful.
+
+491
+00:28:56,820 --> 00:29:01,220
+I think that's where the main difference would come down to, is if you have some workflows in
+
+492
+00:29:01,220 --> 00:29:04,500
+Alfred that you're used to and you want to recreate, or vice versa. If you get used to
+
+493
+00:29:04,500 --> 00:29:09,460
+Raycast and you start adding all kinds of plugins or whatever you said they're called, extensions.
+
+494
+00:29:09,460 --> 00:29:13,060
+Raycast has a 1Password extension, and it's enabled.
+
+495
+00:29:13,060 --> 00:29:19,140
+That might be the main thing of switching back and forth between the two is there might be differences in some of those things that are available.
+
+496
+00:29:19,140 --> 00:29:24,500
+And to be honest, I haven't looked that much at Raycast and I don't remember why.
+
+497
+00:29:24,500 --> 00:29:28,020
+I don't remember what it was about Raycast that... Anyway, I'll look at it again.
+
+498
+00:29:28,020 --> 00:29:34,500
+Anyway, I'm playing with it. I'm playing with it. And I'm playing with Shottr except I forget to use that. So...
+
+499
+00:29:34,500 --> 00:29:37,380
+Shottr? Is that like CleanShotX? I'm using CleanShotX.
+
+500
+00:29:37,380 --> 00:29:38,020
+I think it is.
+
+501
+00:29:38,020 --> 00:29:38,900
+For screen captures.
+
+502
+00:29:38,900 --> 00:29:40,420
+Like that? Yeah.
+
+503
+00:29:40,420 --> 00:29:46,020
+It's a screen capture annotation. You can do video on it, you know, capture screen video all that kind of stuff
+
+504
+00:29:46,020 --> 00:29:49,460
+Shottr has some pretty cool features though. Like you can
+
+505
+00:29:49,460 --> 00:29:52,020
+Select a tool once you take a okay
+
+506
+00:29:52,020 --> 00:29:57,780
+so my command shift 2 is now shotter and then I do a
+
+507
+00:29:57,780 --> 00:30:02,420
+You know, I drag and drop a rectangular area and it screen caps that
+
+508
+00:30:02,420 --> 00:30:09,300
+But then what's really cool is the things you can do to it. Like there's a highlighter. There's a blur
+
+509
+00:30:10,100 --> 00:30:11,100
+- Right.
+
+510
+00:30:11,100 --> 00:30:15,480
+- But there's really cool things like you can - oh, it's got the rectangle too, like
+
+511
+00:30:15,480 --> 00:30:17,380
+Skitch used to have, remember that?
+
+512
+00:30:17,380 --> 00:30:19,780
+- Yeah, so does Clean Shot X, yeah.
+
+513
+00:30:19,780 --> 00:30:24,480
+- But it can let you highlight and remove text.
+
+514
+00:30:24,480 --> 00:30:25,480
+- That's nice.
+
+515
+00:30:25,480 --> 00:30:31,760
+- For instance, or blur just text or blur everything else and stuff, it's pretty slick.
+
+516
+00:30:31,760 --> 00:30:36,300
+So what happens is like I just took a screenshot of some text, actually, you know, my Raycast
+
+517
+00:30:36,300 --> 00:30:39,660
+And then - so, I'm gonna do that.
+
+518
+00:30:39,660 --> 00:30:41,500
+I take a screenshot.
+
+519
+00:30:41,500 --> 00:30:43,900
+Now I've got a screenshot with some pictures and some words on it.
+
+520
+00:30:43,900 --> 00:30:49,200
+I select the blur tool and then I highlight the area I want to blur.
+
+521
+00:30:49,200 --> 00:30:52,340
+Then it pops up like, okay, by default it's you blur everything.
+
+522
+00:30:52,340 --> 00:30:57,800
+But now I can select blur text and now all the text is blurred but everything else remains
+
+523
+00:30:57,800 --> 00:30:58,800
+legible.
+
+524
+00:30:58,800 --> 00:30:59,800
+Stan; Oh, that is nice.
+
+525
+00:30:59,800 --> 00:31:04,160
+Or I can say erase text and all the text goes away
+
+526
+00:31:04,160 --> 00:31:12,660
+But everything else remains so if you like have a password field or a username field and something you can highlight that and your username
+
+527
+00:31:12,660 --> 00:31:18,760
+You know, whatever you have in there goes away. So that could be pretty slick. That sounds like something that I can't do
+
+528
+00:31:18,760 --> 00:31:22,060
+Yeah, it's worth looking at it's pretty slick pretty slick
+
+529
+00:31:22,060 --> 00:31:28,820
+Clean-shot versus Shottr. So it's Shottr sh o t t r t t r of course because web - yeah
+
+530
+00:31:28,860 --> 00:31:30,620
+- Yeah, Web 2.
+
+531
+00:31:30,620 --> 00:31:31,460
+- Shottr.
+
+532
+00:31:31,460 --> 00:31:32,940
+- Web 2 versus Web 3.
+
+533
+00:31:32,940 --> 00:31:34,320
+Okay, sounds good.
+
+534
+00:31:34,320 --> 00:31:36,020
+I will take a look at that.
+
+535
+00:31:36,020 --> 00:31:38,520
+Let's real briefly, Peter, you and I,
+
+536
+00:31:38,520 --> 00:31:40,580
+and I did this because you kind of talked me into it
+
+537
+00:31:40,580 --> 00:31:44,240
+'cause let me, I'm gonna offend some people.
+
+538
+00:31:44,240 --> 00:31:46,080
+I know a lot of people that get on betas
+
+539
+00:31:46,080 --> 00:31:48,180
+because they are of the FOMO type
+
+540
+00:31:48,180 --> 00:31:50,260
+and they're just always on the beta train.
+
+541
+00:31:50,260 --> 00:31:53,300
+But you are a lot more sensible about your OSs.
+
+542
+00:31:53,300 --> 00:31:57,140
+So when you got onto the iPhone and watched beta,
+
+543
+00:31:57,140 --> 00:32:00,180
+then I said, "Okay, I'm going to do that too."
+
+544
+00:32:00,180 --> 00:32:03,380
+And tell me what you think about the watch beta.
+
+545
+00:32:03,380 --> 00:32:15,100
+>> Okay, so whenever they change a micro interface like this, it's significant, right?
+
+546
+00:32:15,100 --> 00:32:19,220
+>> Right, there's so much muscle memory that has to be overcome.
+
+547
+00:32:19,220 --> 00:32:24,980
+>> Right, so right now, changing the action button, I guess it's called, now calls up
+
+548
+00:32:24,980 --> 00:32:28,100
+control center where that used to be a swipe up from the bottom.
+
+549
+00:32:28,100 --> 00:32:30,280
+I think that one's just called the side button.
+
+550
+00:32:30,280 --> 00:32:31,980
+It may be different on the Ultra.
+
+551
+00:32:31,980 --> 00:32:32,980
+The side button.
+
+552
+00:32:32,980 --> 00:32:34,860
+No, no, it's the side button.
+
+553
+00:32:34,860 --> 00:32:37,060
+The action button's on the other side on the Ultra.
+
+554
+00:32:37,060 --> 00:32:38,340
+Sorry, yes, the side button.
+
+555
+00:32:38,340 --> 00:32:40,260
+So the side button calls up control center.
+
+556
+00:32:40,260 --> 00:32:43,620
+At first I was like, it seems like a waste of a whole button.
+
+557
+00:32:43,620 --> 00:32:44,620
+I don't know.
+
+558
+00:32:44,620 --> 00:32:45,940
+But I do use it a lot.
+
+559
+00:32:45,940 --> 00:32:48,780
+I do frequently turn it to silence.
+
+560
+00:32:48,780 --> 00:32:51,500
+I want to change my focus.
+
+561
+00:32:51,500 --> 00:32:56,220
+I might want to call up the flashlight or AirPlay or, you know, check my battery life.
+
+562
+00:32:56,220 --> 00:32:57,220
+So okay, fine.
+
+563
+00:32:57,220 --> 00:32:58,580
+I use it enough.
+
+564
+00:32:58,580 --> 00:33:02,820
+Clicking the crown now calls up the application list.
+
+565
+00:33:02,820 --> 00:33:03,820
+Right.
+
+566
+00:33:03,820 --> 00:33:04,820
+Okay, fine.
+
+567
+00:33:04,820 --> 00:33:08,940
+And, you know, I had been using applications in a list.
+
+568
+00:33:08,940 --> 00:33:12,800
+If I put that in bubble, would that be in bubble mode or is it always in list mode?
+
+569
+00:33:12,800 --> 00:33:15,900
+It'll bring it'll come up in Honeycomb if you put it in Honeycomb.
+
+570
+00:33:15,900 --> 00:33:16,980
+For me, right, Honeycomb.
+
+571
+00:33:16,980 --> 00:33:18,460
+So for me, it's in list mode.
+
+572
+00:33:18,460 --> 00:33:19,460
+Okay, fine.
+
+573
+00:33:19,460 --> 00:33:21,980
+Here's one thing about the Honeycomb I will say real quickly.
+
+574
+00:33:21,980 --> 00:33:26,980
+The Honeycomb mode on this watchOS, it doesn't go outward.
+
+575
+00:33:26,980 --> 00:33:30,480
+So in other words, it's kind of like a list,
+
+576
+00:33:30,480 --> 00:33:33,160
+but you have more things side by side in the list.
+
+577
+00:33:33,160 --> 00:33:35,620
+So you still have to scroll vertically more
+
+578
+00:33:35,620 --> 00:33:36,600
+to see all your apps,
+
+579
+00:33:36,600 --> 00:33:38,180
+but you don't have to go side to side
+
+580
+00:33:38,180 --> 00:33:40,500
+in this huge circle looking for your apps.
+
+581
+00:33:40,500 --> 00:33:41,640
+- I haven't tried it yet.
+
+582
+00:33:41,640 --> 00:33:42,860
+Maybe I should try that.
+
+583
+00:33:42,860 --> 00:33:43,800
+- Yeah, it's a lot better.
+
+584
+00:33:43,800 --> 00:33:45,060
+- Okay, maybe I should try that.
+
+585
+00:33:45,060 --> 00:33:48,340
+- And all I had to do was move like four or five things
+
+586
+00:33:48,340 --> 00:33:51,740
+closer to the top and now I've got a very workable system.
+
+587
+00:33:51,740 --> 00:33:56,740
+- Okay, so then there's double pressing the crown button,
+
+588
+00:33:56,740 --> 00:34:01,540
+double pressing the crown, which now used to toggle back
+
+589
+00:34:01,540 --> 00:34:04,100
+to the previous application you had open.
+
+590
+00:34:04,100 --> 00:34:06,800
+But now it opens up more recent apps
+
+591
+00:34:06,800 --> 00:34:08,580
+like pressing the side button used to do.
+
+592
+00:34:08,580 --> 00:34:09,460
+- Which is pretty cool.
+
+593
+00:34:09,460 --> 00:34:11,660
+- Okay, but it's again, it's muscle memory.
+
+594
+00:34:11,660 --> 00:34:15,780
+You know, I'm trying to, I'm like, oh, okay, I don't know.
+
+595
+00:34:15,780 --> 00:34:17,220
+- It is, oh, absolutely.
+
+596
+00:34:17,220 --> 00:34:20,900
+I'm not discounting the muscle memory, but I am saying I like this.
+
+597
+00:34:20,900 --> 00:34:23,860
+If this had been what we would have originally been given, we wouldn't be complaining, I
+
+598
+00:34:23,860 --> 00:34:24,860
+don't think.
+
+599
+00:34:24,860 --> 00:34:25,860
+Right.
+
+600
+00:34:25,860 --> 00:34:26,860
+I mean, there were like when...
+
+601
+00:34:26,860 --> 00:34:27,860
+Okay, app view.
+
+602
+00:34:27,860 --> 00:34:28,860
+I found it.
+
+603
+00:34:28,860 --> 00:34:29,860
+Grid view.
+
+604
+00:34:29,860 --> 00:34:33,720
+Honeycomb view is actually called grid view.
+
+605
+00:34:33,720 --> 00:34:36,420
+So I'm in grid view now and you scroll...
+
+606
+00:34:36,420 --> 00:34:37,420
+Okay.
+
+607
+00:34:37,420 --> 00:34:38,420
+See?
+
+608
+00:34:38,420 --> 00:34:39,420
+Pretty nice, huh?
+
+609
+00:34:39,420 --> 00:34:40,420
+Much better than the old way.
+
+610
+00:34:40,420 --> 00:34:41,420
+Okay.
+
+611
+00:34:41,420 --> 00:34:42,420
+Okay.
+
+612
+00:34:42,420 --> 00:34:43,420
+All right.
+
+613
+00:34:43,420 --> 00:34:45,060
+I'm going to have to change it, but by default it's pretty good.
+
+614
+00:34:45,060 --> 00:34:46,060
+So okay, cool.
+
+615
+00:34:46,060 --> 00:34:47,060
+Grid view.
+
+616
+00:34:47,060 --> 00:34:50,820
+old one you had to use your finger on the screen with this one you don't have to you can just use
+
+617
+00:34:50,820 --> 00:34:54,820
+the crown and scroll through them all to scroll down yeah i like that okay that's better that's
+
+618
+00:34:54,820 --> 00:35:01,060
+an improvement all right cool i i did notice like it seems to pick up a little more quickly and
+
+619
+00:35:01,060 --> 00:35:05,940
+suggest an outdoor exercise like i got on my bike a couple times back and forth to my tesla
+
+620
+00:35:05,940 --> 00:35:11,380
+and forgot to start a workout and within like a minute or so it's like hey are you biking i'm like
+
+621
+00:35:11,380 --> 00:35:16,660
+well yes i am as opposed to like and again i haven't tried this with an outdoor walk so i
+
+622
+00:35:16,660 --> 00:35:20,220
+So I don't know, because usually it's like 15 minutes I'm into an outdoor walk.
+
+623
+00:35:20,220 --> 00:35:21,220
+It's like, are you walking?
+
+624
+00:35:21,220 --> 00:35:22,220
+I'm like, yes.
+
+625
+00:35:22,220 --> 00:35:23,220
+And it's like, okay, great.
+
+626
+00:35:23,220 --> 00:35:26,140
+We'll start an outdoor walk five minutes ago.
+
+627
+00:35:26,140 --> 00:35:27,900
+What about the first 10 minutes?
+
+628
+00:35:27,900 --> 00:35:29,520
+Okay, fine.
+
+629
+00:35:29,520 --> 00:35:30,520
+So I don't know.
+
+630
+00:35:30,520 --> 00:35:31,520
+I can't tell.
+
+631
+00:35:31,520 --> 00:35:34,380
+I'm comparing apples to oranges, so I can't tell if it's more, but it felt like it was
+
+632
+00:35:34,380 --> 00:35:35,380
+more accurate.
+
+633
+00:35:35,380 --> 00:35:41,460
+I did like seeing the status of my workout on the phone, if for no other reason than
+
+634
+00:35:41,460 --> 00:35:44,980
+to remember to stop the workout when I got home and looked at my phone.
+
+635
+00:35:44,980 --> 00:35:45,980
+Right.
+
+636
+00:35:45,980 --> 00:35:52,780
+things I like on the watch, I'm not thrilled with the preferences for groups of workouts now,
+
+637
+00:35:52,780 --> 00:35:59,260
+because it used to be like I would have say a bunch of different runs configured. I would have
+
+638
+00:35:59,260 --> 00:36:07,660
+default long run, an aerobic run which is at a low heart rate, tempo run which is at a high speed,
+
+639
+00:36:07,660 --> 00:36:13,660
+high heart rate, and I would have different thresholds and different alerts for each of these.
+
+640
+00:36:14,860 --> 00:36:22,940
+Now, unless I'm missing something, it seems like it is just a preference that applies to all of your run workouts.
+
+641
+00:36:22,940 --> 00:36:23,740
+Oh.
+
+642
+00:36:23,740 --> 00:36:31,380
+So every run, if I change, and I'm changing pretty much every day of the week, I'm doing a tempo run today.
+
+643
+00:36:31,380 --> 00:36:33,140
+I'm doing an aerobic run the next day.
+
+644
+00:36:33,140 --> 00:36:35,300
+I'm doing, you know, this run, this run, this run.
+
+645
+00:36:35,300 --> 00:36:36,620
+They change every time.
+
+646
+00:36:36,620 --> 00:36:44,780
+I have to go in and change the preference every time as opposed to just scrolling and saying tempo run or long run or whatever.
+
+647
+00:36:44,780 --> 00:36:46,300
+- Yeah, that's a setback.
+
+648
+00:36:46,300 --> 00:36:48,220
+- Yeah, I don't like that.
+
+649
+00:36:48,220 --> 00:36:53,100
+They also tweaked the ending of a workout a little bit.
+
+650
+00:36:53,100 --> 00:36:55,180
+- Yeah, it confused me at first.
+
+651
+00:36:55,180 --> 00:36:56,740
+I was like, what is going on?
+
+652
+00:36:56,740 --> 00:36:58,580
+'Cause it has more options now.
+
+653
+00:36:58,580 --> 00:37:01,300
+It's like, it's too easy to say pause.
+
+654
+00:37:01,300 --> 00:37:03,660
+Oh, actually it's too easy to select a new,
+
+655
+00:37:03,660 --> 00:37:04,500
+what's it called?
+
+656
+00:37:04,500 --> 00:37:06,380
+- To select a new workout, but it's-
+
+657
+00:37:06,380 --> 00:37:08,620
+- No, segment, like a segment.
+
+658
+00:37:08,620 --> 00:37:09,460
+- Oh, segment?
+
+659
+00:37:09,460 --> 00:37:12,180
+You used to double tap, that was a segment.
+
+660
+00:37:12,180 --> 00:37:13,180
+That's how it used to do. - Yeah, but now,
+
+661
+00:37:13,180 --> 00:37:14,400
+like if I'm running or something
+
+662
+00:37:14,400 --> 00:37:17,720
+and I try to stop it, it wants to start a new segment.
+
+663
+00:37:17,720 --> 00:37:18,720
+Is that what I'm thinking of?
+
+664
+00:37:18,720 --> 00:37:21,480
+Is the word segment or is it, what am I thinking of?
+
+665
+00:37:21,480 --> 00:37:23,800
+- So I think you said start a new workout.
+
+666
+00:37:23,800 --> 00:37:25,000
+- Yeah, okay, that's there too.
+
+667
+00:37:25,000 --> 00:37:26,960
+But first it shows start a new segment.
+
+668
+00:37:26,960 --> 00:37:27,800
+- Oh, okay, I didn't even catch that.
+
+669
+00:37:27,800 --> 00:37:28,720
+- Do you know what I mean?
+
+670
+00:37:28,720 --> 00:37:30,600
+It's like you can time different segments
+
+671
+00:37:30,600 --> 00:37:32,920
+and it doesn't detract from the overall time of the workout,
+
+672
+00:37:32,920 --> 00:37:35,240
+but it shows you individual stats for those segments.
+
+673
+00:37:35,240 --> 00:37:36,680
+That pops up and gets in my way.
+
+674
+00:37:36,680 --> 00:37:40,100
+And then there's also, if you get to the end workout screen,
+
+675
+00:37:40,100 --> 00:37:42,920
+there's end workout and there's start another workout.
+
+676
+00:37:42,920 --> 00:37:44,980
+And I keep, out of muscle memory,
+
+677
+00:37:44,980 --> 00:37:46,580
+I keep tapping that bottom one,
+
+678
+00:37:46,580 --> 00:37:49,240
+which is the color that end workout used to be.
+
+679
+00:37:49,240 --> 00:37:50,220
+- Yep.
+
+680
+00:37:50,220 --> 00:37:53,760
+And you don't like having to switch screens,
+
+681
+00:37:53,760 --> 00:37:55,580
+having to press and hold to switch it,
+
+682
+00:37:55,580 --> 00:37:56,840
+but I've gotten used to that.
+
+683
+00:37:56,840 --> 00:37:59,060
+- Used to be you could swipe right and left
+
+684
+00:37:59,060 --> 00:38:00,200
+and you would switch screens.
+
+685
+00:38:00,200 --> 00:38:02,600
+Now you have to hold it to go into edit mode
+
+686
+00:38:02,600 --> 00:38:04,300
+and then you can swipe between your screens.
+
+687
+00:38:04,300 --> 00:38:08,260
+However, and that really disturbed me at first,
+
+688
+00:38:08,260 --> 00:38:11,700
+but with being able to use the,
+
+689
+00:38:11,700 --> 00:38:15,500
+either swipe from the bottom or just scroll with the crown when you're on your screen
+
+690
+00:38:15,500 --> 00:38:17,620
+and suddenly get your widgets list.
+
+691
+00:38:17,620 --> 00:38:20,240
+Well now I've got my activity widget pinned there.
+
+692
+00:38:20,240 --> 00:38:22,880
+It shows me the date and time I've got my weather.
+
+693
+00:38:22,880 --> 00:38:26,240
+Then it has a little widget at the bottom that shows me activity I can start right from
+
+694
+00:38:26,240 --> 00:38:27,240
+there.
+
+695
+00:38:27,240 --> 00:38:30,260
+I can go to messages and that little messages bubble also shows you that you have messages
+
+696
+00:38:30,260 --> 00:38:32,780
+unread and how many there are.
+
+697
+00:38:32,780 --> 00:38:39,500
+So with those things pinned having that widget doc view right there available means I almost
+
+698
+00:38:39,500 --> 00:38:41,640
+never have to swipe screens anymore.
+
+699
+00:38:41,640 --> 00:38:47,420
+So yeah, it is annoying that if I did want to swipe screens, it's much more clunky to
+
+700
+00:38:47,420 --> 00:38:51,640
+do now, but I don't really want to do it as much because those widgets take over that
+
+701
+00:38:51,640 --> 00:38:57,940
+functionality because really the only reason I was using multiple screens was because you
+
+702
+00:38:57,940 --> 00:39:01,200
+can only have so many complications.
+
+703
+00:39:01,200 --> 00:39:07,660
+And widgets serve the purpose of giving you that information and/or giving you that functionality.
+
+704
+00:39:07,660 --> 00:39:09,180
+So it works.
+
+705
+00:39:09,180 --> 00:39:12,380
+So yeah, now that I'm, I'll play with the grid view again.
+
+706
+00:39:12,380 --> 00:39:14,620
+Now it seems like it's gotten more useful.
+
+707
+00:39:14,620 --> 00:39:16,820
+Other changes, let's see.
+
+708
+00:39:16,820 --> 00:39:20,980
+It's better when it comes to dictating or audio sending messages.
+
+709
+00:39:20,980 --> 00:39:25,700
+It's clearer that it's waiting for you to, you know, or it's thinking about it's holding
+
+710
+00:39:25,700 --> 00:39:26,860
+the message, holding the message.
+
+711
+00:39:26,860 --> 00:39:27,860
+Okay.
+
+712
+00:39:27,860 --> 00:39:28,860
+Now I'll send the message.
+
+713
+00:39:28,860 --> 00:39:29,860
+I agree.
+
+714
+00:39:29,860 --> 00:39:32,620
+Although it used to be, you could press the crown button to send.
+
+715
+00:39:32,620 --> 00:39:33,780
+Oh.
+
+716
+00:39:33,780 --> 00:39:35,820
+Now you press the crown button to cancel.
+
+717
+00:39:35,820 --> 00:39:36,820
+So.
+
+718
+00:39:36,820 --> 00:39:39,020
+Oh, that's a big.
+
+719
+00:39:39,020 --> 00:39:43,200
+But muscle memory almost, you know, I was like, oh, okay.
+
+720
+00:39:43,200 --> 00:39:46,300
+I didn't, you know, so that was not only that, but a frustrating one.
+
+721
+00:39:46,300 --> 00:39:47,300
+Yeah.
+
+722
+00:39:47,300 --> 00:39:50,800
+And when you make the exact opposite, well, I guess it's better that way than the other
+
+723
+00:39:50,800 --> 00:39:51,800
+way.
+
+724
+00:39:51,800 --> 00:39:54,360
+Cause if you used to get a message from your boss and you would swear at your boss and
+
+725
+00:39:54,360 --> 00:39:58,100
+dictation and then you would cancel it because you didn't really want to send it, but then
+
+726
+00:39:58,100 --> 00:40:00,620
+they changed it from cancel to send that would have been bad.
+
+727
+00:40:00,620 --> 00:40:06,560
+It is better, you know, to cancel rather than, but it's, it's still frustrating.
+
+728
+00:40:06,560 --> 00:40:10,840
+It's not a good thing when you make something do the exact opposite that it used to do.
+
+729
+00:40:10,840 --> 00:40:12,120
+Right, exactly.
+
+730
+00:40:12,120 --> 00:40:16,240
+Here's the thing that bothers me about dictation or even when you're doing text input with
+
+731
+00:40:16,240 --> 00:40:17,440
+your finger.
+
+732
+00:40:17,440 --> 00:40:21,600
+To change a word up above, if you don't actually want to change a word but you just want to
+
+733
+00:40:21,600 --> 00:40:25,480
+get rid of a comma or something, it can be really hard to get the selection cursor up
+
+734
+00:40:25,480 --> 00:40:27,280
+into that text to modify it.
+
+735
+00:40:27,280 --> 00:40:29,400
+If you just want to get rid of a ducking word?
+
+736
+00:40:29,400 --> 00:40:32,080
+Yeah, you can get the bottom row but then to...
+
+737
+00:40:32,080 --> 00:40:33,640
+I don't know, it's just frustrating.
+
+738
+00:40:33,640 --> 00:40:37,800
+I wind up leaving in commas that it puts there from dictations just because I can't get to
+
+739
+00:40:37,800 --> 00:40:40,600
+them and erase them very easily and I give up and I just send it.
+
+740
+00:40:40,600 --> 00:40:42,860
+It's like, whatever, you can figure it out.
+
+741
+00:40:42,860 --> 00:40:45,440
+But overall, I really like it.
+
+742
+00:40:45,440 --> 00:40:46,600
+I like the widgets.
+
+743
+00:40:46,600 --> 00:40:51,880
+I think I do a lot less scrolling of faces and overall, I think I'm pretty happy with
+
+744
+00:40:51,880 --> 00:40:52,880
+it.
+
+745
+00:40:52,880 --> 00:40:53,880
+Yep.
+
+746
+00:40:53,880 --> 00:40:56,220
+Yeah, no, I think it's definitely a step in the right direction.
+
+747
+00:40:56,220 --> 00:41:01,520
+I will be curious to see what you find out about your run types and if there's a way
+
+748
+00:41:01,520 --> 00:41:06,320
+that you can get that back without having to constantly be changing your settings before
+
+749
+00:41:06,320 --> 00:41:08,800
+every f-ing run.
+
+750
+00:41:08,800 --> 00:41:10,220
+Before every ducking run.
+
+751
+00:41:10,220 --> 00:41:11,280
+Every ducking run.
+
+752
+00:41:11,280 --> 00:41:12,280
+You know what?
+
+753
+00:41:12,280 --> 00:41:14,480
+He should have said, instead of saying, "Sometimes you just want to change a..."
+
+754
+00:41:14,480 --> 00:41:16,740
+Oh, "Sometimes you just want to send a ducking word.
+
+755
+00:41:16,740 --> 00:41:18,840
+Sometimes you just want to change a ducking run."
+
+756
+00:41:18,840 --> 00:41:19,840
+That's it.
+
+757
+00:41:19,840 --> 00:41:20,840
+I don't want to run.
+
+758
+00:41:20,840 --> 00:41:21,840
+I don't want to duck.
+
+759
+00:41:21,840 --> 00:41:22,840
+Yeah.
+
+760
+00:41:22,840 --> 00:41:23,840
+So there you go.
+
+761
+00:41:23,840 --> 00:41:24,840
+Check us out.
+
+762
+00:41:24,840 --> 00:41:25,840
+Push your button.
+
+763
+00:41:25,840 --> 00:41:26,840
+I'll push the button.
+
+764
+00:41:26,840 --> 00:41:27,840
+You push your button.
+
