@@ -704,35 +704,35 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] };
 "41.md": {
 	id: "41.md";
-  slug: "41";
+  slug: "T41";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "42.md": {
 	id: "42.md";
-  slug: "42";
+  slug: "T42";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "43.md": {
 	id: "43.md";
-  slug: "43";
+  slug: "T43";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "44.md": {
 	id: "44.md";
-  slug: "44";
+  slug: "T44";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
 "45.md": {
 	id: "45.md";
-  slug: "45";
+  slug: "T45";
   body: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
