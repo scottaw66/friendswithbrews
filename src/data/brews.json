@@ -1,5 +1,23 @@
 [
   {
+    "id": "p2Y41hSB7brTIlGSYRHvC",
+    "name": "Tres Arroyos Mexican Lager",
+    "brewery": "Three Creeks Brewing",
+    "image": "ThreeCreeksBrewingTresArroyosMexicanLager-6966CE82-9434-408D-A01B-37CCE2D4A66A",
+    "description": "This easy-drinking Mexican Cerveza transports you south of the border. Pilsner malt and Saaz hops create a clean, crisp and refreshing lager, while traditional flaked maize adds just a touch of sweetness. Lagered for for up to two months, Tres Arroyos is sure to please the most discerning palate. Salud!",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["46"],
+    "url": "https://www.threecreeksbrewing.com/beer/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "This is a good beer with what you would consider summer foods. Very light, very easy to drink with a *slight* bit of zing to it."
+      }
+    ]
+  },
+  {
     "id": "zF_7L2ctIASMFMeDlMhSU",
     "name": "Peru",
     "brewery": "Bennett Coffee Roasting Company",
@@ -169,7 +187,7 @@
     "description": "A wheat beer brewed with Valencia orange peel for a subtle sweetness and bright, citrus aroma. Valencia Orange Peel and Coriander. Garnished with an orange slice to heighten the citrus aroma and taste.",
     "type": "beer",
     "sortOrder": "0",
-    "episodes": ["41","42"],
+    "episodes": ["41", "42"],
     "url": "https://www.bluemoonbrewingcompany.com/en-US/currently-available/blue-moon-belgian-white",
     "rating": [
       {
@@ -1822,8 +1840,8 @@
     "description": "First in a series inspired by the iconic fruit cart vendors of Los Angeles. A light Wheat Ale bursting with lots of fresh mango flavor and aroma, finishing crisp and refreshing.",
     "type": "beer",
     "sortOrder": "0",
-    "episodes": ["4"],
-    "url": "https://www.goldenroad.la/beers/mango-cart",
+    "episodes": ["4", "46"],
+    "url": "https://www.goldenroad.la/mango-cart",
     "rating": [
       {
         "host": "Peter",
