@@ -7,105 +7,46 @@
 @import "@fontsource/ia-writer-mono";
 
 html {
-  --surface-light: #f5e4bb;
-  --text-light: black;
-  --header-surface-light: #ecc979;
-  --header-text-light: black;
-  --menu-surface-light: #c9ab67;
-  --menu-border-light: #0d0a01;
-  --menu-text-light: black;
-  --link-text-light: #5b3e34;
-  --episode-title-light: #5b3e34;
-  --episode-text-light: black;
-  --episode-latest-bg-light: var(--menu-surface-light);
-  --brew-bg-light: #b49664;
-  --pager-light: #fff;
-  --pager-bg-light: #0d0a01;
-  --pager-link-text-light: #f5e4bb;
-  --progress-value-light: #b49664;
-  --player-surface-light: var(--pager-bg-light);
-  --player-text-light: var(--surface-light);
-
-  --surface-dark: #161413;
-  --text-dark: #fff;
-  --header-surface-dark: #161413;
-  --header-text-dark: #f5e4bb;
-  --menu-surface-dark: black;
-  --menu-border-dark: #f5e4bb;
-  --menu-text-dark: #ecc979;
-  --link-text-dark: #f5e4bb;
-  --episode-title-dark: #f5e4bb;
-  --episode-text-dark: #fff;
-  --episode-latest-bg-dark: #161413;
-  --brew-bg-dark: #1c1504;
-  --pager-dark: var(--text-dark);
-  --pager-bg-dark: #5b3e34;
-  --pager-link-text-dark: var(--link-text-dark);
-  --progress-value-dark: #fff;
-  --player-surface-dark: #f5e4bb;
-  --player-text-dark: var(--header-surface-dark);
 }
 
 :root {
-  --surface: var(--surface-light);
-  --text: var(--text-light);
-  --header-surface: var(--header-surface-light);
-  --header-text: var(--header-text-light);
-  --menu-surface: var(--menu-surface-light);
-  --menu-border: var(--menu-border-light);
-  --menu-text: var(--menu-text-light);
-  --link-text: var(--link-text-light);
-  --episode-title: var(--episode-title-light);
-  --episode-text: var(--episode-text-light);
-  --episode-latest-bg: var(--episode-latest-bg-light);
-  --brew-bg: var(--brew-bg-light);
-  --pager: var(--pager-light);
-  --pager-bg: var(--pager-bg-light);
-  --pager-link-text: var(--pager-link-text-light);
-  --progress-value: var(--progress-value-light);
-  --player-surface: var(--player-surface-light);
-  --player-text: var(--player-text-light);
+  --surface: #f5e4bb;
+  --text: black;
+  --header-surface: #ecc979;
+  --header-text: black;
+  --menu-surface: #c9ab67;
+  --menu-border: #0d0a01;
+  --menu-text: black;
+  --link-text: #5b3e34;
+  --episode-title: #5b3e34;
+  --episode-text: black;
+  --episode-latest-bg: var(--menu-surface);
+  --brew-bg: #b49664;
+  --pager: #fff;
+  --pager-bg: #0d0a01;
+  --pager-link-text: #f5e4bb;
+  --progress-value: #b49664;
+  --player-surface: var(--pager-bg);
+  --player-text: var(--surface);
 
   --pagefind-ui-scale: 0.8;
-  --pagefind-ui-primary: var(--menu-surface);
+  --pagefind-ui-primary: var(--menu-border);
   --pagefind-ui-text: #fff;
-  --pagefind-ui-background: #0d0a01;
-  --pagefind-ui-border: var(--menu-border);
-  --pagefind-ui-tag: #0d0a01;
+  --pagefind-ui-input-text: #fff;
+  --pagefind-ui-message-text: #000;
+  --pagefind-ui-result-title-text: var(--link-text);
+  --pagefind-ui-result-text: var(--text);
+  --pagefind-ui-background: var(--menu-border);
+  --pagefind-input-background: var(--menu-border);
+  --pagefind-ui-border: var(--menu-surface);
+  --pagefind-ui-tag-text: #fff;
   --pagefind-ui-border-width: 2px;
   --pagefind-ui-border-radius: 8px;
   --pagefind-ui-image-border-radius: 8px;
   --pagefind-ui-image-box-ratio: 3 / 2;
   --pagefind-ui-font: sans-serif;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --surface: var(--surface-dark);
-    --text: var(--text-dark);
-    --header-surface: var(--header-surface-dark);
-    --header-text: var(--header-text-dark);
-    --menu-surface: var(--menu-surface-dark);
-    --menu-border: var(--menu-border-dark);
-    --menu-text: var(--menu-text-dark);
-    --link-text: var(--link-text-dark);
-    --episode-title: var(--episode-title-dark);
-    --episode-text: var(--episode-text-dark);
-    --episode-latest-bg: var(--episode-latest-bg-dark);
-    --brew-bg: var(--brew-bg-dark);
-    --pager: var(--pager-dark);
-    --pager-bg: var(--pager-bg-dark);
-    --pager-link-text: var(--pager-link-text-dark);
-    --progress-value: var(--progress-value-dark);
-    --player-surface: var(--player-surface-dark);
-    --player-text: var(--player-text-dark);
-
-    --pagefind-ui-primary: var(--menu-surface);
-    --pagefind-ui-text: var(--text);
-    --pagefind-ui-background: #83645a;
-    --pagefind-ui-border: var(--menu-border);
-    --pagefind-ui-tag: var(--pagefind-ui-background);
-  }
+  --pagefind-button-background: var(--pagefind-input-background);
+  --pagefind-button-color: var(--pagefind-ui-tag-text);
 }
 
 @font-face {
@@ -237,6 +178,44 @@ div.episode p picture img {
   width: 300px;
   height: auto;
 }
+
+#search .pagefind-ui__search-input,
+#search .pagefind-ui__search-clear {
+  background-color: var(--pagefind-input-background);
+  color: var(--pagefind-ui-input-text);
+}
+#search .pagefind-ui__result-title,
+#search .pagefind-ui__result-link {
+  display: inline-block;
+  font-weight: 700;
+  font-size: calc(35px * var(--pagefind-ui-scale));
+  color: var(--pagefind-ui-result-title-text);
+}
+#search .pagefind-ui__result-excerpt {
+  color: var(--pagefind-ui-result-text);
+  font-weight: 400;
+  font-size: calc(1.3rem * var(--pagefind-ui-scale));
+}
+#search .pagefind-ui__message {
+  color: var(--pagefind-ui-result-title-text);
+  margin: calc(0.5rem * var(--pagefind-ui-scale)) 0
+    calc(1.5rem * var(--pagefind-ui-scale))
+    calc(0.5rem * var(--pagefind-ui-scale));
+}
+#search .pagefind-ui__button {
+  color: var(--pagefind-button-color);
+  background: var(--pagefind-button-background);
+}
 #search .pagefind-ui__result-thumb {
   display: none;
+}
+
+#search .pagefind-ui__result-tag {
+  background-color: var(--menu-border);
+  color: var(--pagefind-ui-tag-text);
+}
+
+#search .pagefind-ui__filter-group,
+#search .pagefind-ui__filter-name {
+  color: var(--text);
 }

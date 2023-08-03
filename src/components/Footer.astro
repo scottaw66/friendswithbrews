@@ -2,11 +2,9 @@
 import config from "config";
 import { Icon } from "astro-icon";
 import { year } from "./utilities/DateFormat.js";
-import Search from "../components/Search.astro";
 ---
 
 <div class="footer" data-pagefind-ignore>
-  <Search />
   <div class="footer-links">
     <div>&copy;{year}</div>
     <div><Icon name="bi:cpu-fill" /></div>
