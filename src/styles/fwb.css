@@ -194,12 +194,12 @@ div.episode p picture img {
 #search .pagefind-ui__result-excerpt {
   color: var(--pagefind-ui-result-text);
   font-weight: 400;
-  font-size: calc(1.3rem * var(--pagefind-ui-scale));
+  font-size: calc(1.1rem * var(--pagefind-ui-scale));
 }
 #search .pagefind-ui__message {
   color: var(--pagefind-ui-result-title-text);
   margin: calc(0.5rem * var(--pagefind-ui-scale)) 0
-    calc(1.5rem * var(--pagefind-ui-scale))
+    calc(1.2rem * var(--pagefind-ui-scale))
     calc(0.5rem * var(--pagefind-ui-scale));
 }
 #search .pagefind-ui__button {
