@@ -38,12 +38,6 @@
         "icon": "simple-icons:mastodon"
       },
       {
-        "type": "bluesky",
-        "name": "@scottwillsey.com",
-        "url": "https://bsky.app/profile/scottwillsey.com",
-        "icon": "ri:sun-foggy-line"
-      },
-      {
         "type": "website",
         "url": "https://scottwillsey.com",
         "name": "scottwillsey.com",
