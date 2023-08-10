@@ -1,5 +1,23 @@
 [
   {
+    "id": "ueX2nuop96yurWztZZbOy",
+    "name": "Wood Chopper",
+    "brewery": "Little Beast Brewing",
+    "image": "LittleBeastBrewingWoodChopper-C3B6DBE8-4383-4641-8898-76F0FAB70C94",
+    "description": "This is our take on the classic Belgian-style wit bier. We layered in coriander, Curaçau orange peel, and lime zest to solidify the soft malt base. Easy drinking, spice and citrus. 4.5% ABV",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["47"],
+    "url": "http://www.littlebeastbrewing.com/beers",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "The artwork on this can looks like the same style artwork as used for the Portland Century jerseys a few years ago. It's cool. 4.5% ABV for the win! It's a good, easy drinking wheat. This is a thumbs-up. I hope Whole Foods keeps this one in stock. Maybe Little Beast Brewing should sponsor our podcast."
+      }
+    ]
+  },
+  {
     "id": "p2Y41hSB7brTIlGSYRHvC",
     "name": "Tres Arroyos Mexican Lager",
     "brewery": "Three Creeks Brewing",
@@ -61,7 +79,7 @@
     "description": "In the years leading up to Prohibition, there was an explosion of breweries built by German immigrants brewing beers that took the best of the homeland and mixed it with the best of their new country, much like our brewery today. Celebrate our country and it’s orgins with this Pre-Prohibition Pilsner brewed with corn and old school American hops to create a classic American combo.",
     "type": "beer",
     "sortOrder": "0",
-    "episodes": ["44"],
+    "episodes": ["44", "47"],
     "url": "https://jacksabby.com/beers/pre-pro/",
     "rating": [
       {
