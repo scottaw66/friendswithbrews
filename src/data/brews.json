@@ -1,5 +1,23 @@
 [
   {
+    "id": "77c96Pw3PXlTIXdW3zdkx",
+    "name": "Shotgun Wedding",
+    "brewery": "Country Boy Brewing",
+    "image": "CountryBoyShotgunWedding-607FD1DD-1B1F-4168-B235-89CC35BB5E96",
+    "description": "BROWN ALE AGED ON VANILLA BEANS",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["48"],
+    "url": "https://countryboybrewing.com/#BEER",
+    "rating": [
+      {
+        "host": "Vic",
+        "vote": "thumbs-up",
+        "description": "This is a nice dark one. I'm gonna give that the thumbs up! I like it!"
+      }
+    ]
+  },
+  {
     "id": "ueX2nuop96yurWztZZbOy",
     "name": "Wood Chopper",
     "brewery": "Little Beast Brewing",
@@ -709,13 +727,13 @@
     "description": "Our newest year-round release, a long-awaited stout! Blackbird Stout is brewed with malted millet and malted rice for a dark, earthy, roasty flavor. An instant favorite. Brewed with malted millet, malted rice, hops, yeast, and water.",
     "type": "beer",
     "sortOrder": "0",
-    "episodes": ["28"],
+    "episodes": ["28", "48"],
     "url": "https://www.bierlybrewing.com/our-beers/",
     "rating": [
       {
         "host": "Scott",
         "vote": "thumbs-down",
-        "description": "Not the best gluten-free beer I've had... A little thin, a little bitter. Wanted to like it but I can't recommend it."
+        "description": "Not the best gluten-free beer I've had... It does taste little bitter to me. Wanted to like it but I can't recommend it."
       }
     ]
   },
