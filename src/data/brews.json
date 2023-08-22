@@ -1,5 +1,59 @@
 [
   {
+    "id": "TxRhnFSoxfPxlGOWJPajL",
+    "name": "Cougar Bait",
+    "brewery": "Country Boy Brewing",
+    "image": "CountryBoyBrewingCougarBait-E0A34EA3-0C9B-44A4-946F-AE3F6A31357C",
+    "description": "Any fisherman worth his salt will tell you - it's all about the bait. Lucky for you, you're holding the good stuff. An American Blonde Ale, clean and crisp, Cougar Bait is sure to help you with your catch, whatever you may be fishing for.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["49"],
+    "url": "https://countryboybrewing.com/#BEER",
+    "rating": [
+      {
+        "host": "Vic",
+        "vote": "thumbs-up",
+        "description": "It doesn't really say anything about any flavor notes I'm supposed to be looking for, it just says American Blonde Ale.  I don't know enough about the different kinds of beers to really say, but it's good. I like it."
+      }
+    ]
+  },
+  {
+    "id": "do6wlgv8sx0criTa1DFhE",
+    "name": "Endless Trail",
+    "brewery": "Trailhead",
+    "image": "TrailheadEndlessTrail-E0A34EA3-0C9B-44A4-946F-AE3F6A31357C",
+    "description": "Specifically crafted to get you out on the trail. Robust all business sort of coffee. Notes of mulled wine, cinnamon & toasted rice. Very balanced and syrupy that holds its flavors in a thermos rather well. It'll get you to the summit, view or secret spot with ease. May all of our trails be endless.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["49"],
+    "url": "https://www.trailheadcoffeeroasters.com/coffee/sunbreak-medium-blend-coffee-portland-coffee-roasters-7hh59-hjrml",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "Yeah, I can taste the cinnamon, sure. It's good."
+      }
+    ]
+  },
+  {
+    "id": "xiqdtqIHWRNumSZPHS_Wh",
+    "name": "Zoigl-Weiss",
+    "brewery": "ZoiglHaus Brewing Company",
+    "image": "ZoiglHausZoigl-Weiss-E0A34EA3-0C9B-44A4-946F-AE3F6A31357C",
+    "description": "German malts provide the light breadiness while German hops give this beer a light spicy flavoring. The Bavarian Hefeweizen yeasts strain provides the rest: banana ester with a light phenolic clove note. This beer can be paired with nearly any food and is great for drinking on its own as well.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["49"],
+    "url": "https://zoiglhaus.com/portfolio-item/zoigl-weiss/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "This is a good wheat beer. It's not the clearest, there's some cloudiness to it, and I really like it. It's good. The good beer with the s%&+ website."
+      }
+    ]
+  },
+  {
     "id": "77c96Pw3PXlTIXdW3zdkx",
     "name": "Shotgun Wedding",
     "brewery": "Country Boy Brewing",
