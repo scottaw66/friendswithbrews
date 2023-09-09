@@ -19,7 +19,7 @@ const { Content } = await transcript.render();
 >
   <h2>
     <Icon name="ic:baseline-document-scanner" />
-    <a href={`${config.get("episodes.path")}${transcript.data.episode}`}
+    <a href={`${site.episodes.path}${transcript.data.episode}`}
       >Episode {transcript.data.episode} – {transcript.data.title}</a
     >
   </h2>
@@ -31,7 +31,7 @@ const { Content } = await transcript.render();
     > •
     <span
       ><Icon name="fontisto:podcast" /><a
-        href={`${config.get("episodes.path")}${transcript.data.episode}`}
+        href={`${site.episodes.path}${transcript.data.episode}`}
         >Episode Audio</a
       ></span
     > • <span
@@ -53,8 +53,7 @@ const { Content } = await transcript.render();
   <Content /><br />
   <div class="transcript-links">
     <Icon name="fontisto:podcast" /><a
-      href={`${config.get("episodes.path")}${transcript.data.episode}`}
-      >Episode Audio</a
+      href={`${site.episodes.path}${transcript.data.episode}`}>Episode Audio</a
     > • <span
       ><Icon name="ic:baseline-document-scanner" /><a href="/transcripts/1"
         >Transcripts Index</a

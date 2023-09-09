@@ -38,8 +38,8 @@ const transcript = await getCollection("transcripts", ({ id }) => {
     <span class="episode-number"
       ><a
         href={new URL(
-          path.join(config.get("episodes.path"), String(episode.data.episode)),
-          config.get("url")
+          path.join(site.episodes.path, String(episode.data.episode)),
+          site.url,
         )}
         >{episode.data.title}
       </a>
@@ -71,9 +71,7 @@ const transcript = await getCollection("transcripts", ({ id }) => {
       if ((index === 0 && pageNum === 1) || audio === "true") {
         return (
           <Player
-            file={`${config.get("episodes.audioPrefix")}${
-              episode.data.audioFile
-            }`}
+            file={`${site.episodes.audioPrefix}${episode.data.audioFile}`}
             episode={episode.data.episode}
             title={episode.data.title}
           />

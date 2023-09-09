@@ -9,7 +9,7 @@ export async function getStaticPaths({ paginate }) {
   const beers = brewList();
 
   return paginate(beers, {
-    pageSize: config.get("beerPageSize"),
+    pageSize: site.beerPageSize,
   });
 }
 const { page } = Astro.props;

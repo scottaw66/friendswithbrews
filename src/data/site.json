@@ -10,6 +10,7 @@
     "applePodcasts": "https://podcasts.apple.com/us/podcast/friends-with-brews-podcast/id1573648053"
   },
   "name": "Beeping Machine",
+  "email": "scott@beepingmachine.com",
   "episodes": {
     "path": "/",
     "audioPrefix": "https://pints.friendswithbrews.com/",

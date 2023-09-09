@@ -1,5 +1,5 @@
 ---
-import { Picture } from "@astrojs/image/components";
+import { Image } from "astro:assets";
 import { Icon } from "astro-icon";
 import Base from "../layouts/Base.astro";
 import hostsJson from "../data/hosts.json";
@@ -16,12 +16,10 @@ const hosts = Array.from(hostsJson);
         <div class="host">
           <div class="host-image">
             <a href={`/images/hosts/${host.image}`}>
-              <Picture
-                src={`/images/hosts/${host.image}`}
-                widths={[400, 800, 1200]}
-                aspectRatio="1:1"
-                sizes="200px"
-                formats={["avif", "webp"]}
+              <Image
+                src={`../assets/images/hosts/${host.image}`}
+                width={200}
+                height={200}
                 alt={host.firstname + " " + host.lastname}
               />
             </a>

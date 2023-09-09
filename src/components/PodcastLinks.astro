@@ -14,14 +14,12 @@ const { episode, transcript } = Astro.props;
 <div class="episode-links">
   <div class="download-link">
     <div>
-      <a
-        href={`${config.get("episodes.audioPrefix")}${episode.data.audioFile}`}
-      >
+      <a href={`${site.episodes.audioPrefix}${episode.data.audioFile}`}>
         <Icon name="mdi:cloud-download" />
       </a>
     </div>
     <div>
-      <a href={`${config.get("episodes.audioPrefix")}${episode.data.audioFile}`}
+      <a href={`${site.episodes.audioPrefix}${episode.data.audioFile}`}
         >Download</a
       >
     </div>
@@ -42,20 +40,20 @@ const { episode, transcript } = Astro.props;
   }
   <div class="download-link">
     <div>
-      <a href={config.get("social.overcast")}>
+      <a href={site.social.overcast}>
         <Icon name="simple-icons:overcast" />
       </a>
     </div>
-    <div><a href={config.get("social.overcast")}>Overcast</a></div>
+    <div><a href={site.social.overcast}>Overcast</a></div>
   </div>
   <div class="download-link">
     <div>
-      <a href={config.get("social.applePodcasts")}>
+      <a href={site.social.applePodcasts}>
         <Icon name="simple-icons:applepodcasts" />
       </a>
     </div>
     <div>
-      <a href={config.get("social.applePodcasts")}>Apple Podcasts</a>
+      <a href={site.social.applePodcasts}>Apple Podcasts</a>
     </div>
   </div>
 </div>

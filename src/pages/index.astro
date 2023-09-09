@@ -1,16 +1,16 @@
 ---
 import { getCollection } from "astro:content";
-import config from "config";
 import { Icon } from "astro-icon";
+import site from "../data/site.json";
 import Base from "../layouts/Base.astro";
 import EpisodeDetails from "../components/EpisodeDetails.astro";
 import Reviews from "../components/Reviews.astro";
 
-const title = config.get("title");
+const title = site.title;
 
 let allEpisodes = await getCollection("episodes");
 allEpisodes = allEpisodes.sort(
-  (a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf()
+  (a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf(),
 );
 
 const latestEpisodes = allEpisodes.slice(0, 1);
@@ -19,9 +19,9 @@ const latestEpisodes = allEpisodes.slice(0, 1);
 <Base title={title}>
   <article>
     <p>
-      <b>Friends with Brews Podcast</b> is about friends Peter and Scott, beer, coffee,
-      tea, and podcasting! It's also about Apple, fitness, food, random news, and
-      sometimes our friend Adam!
+      <b>Friends with Brews Podcast</b> is about friends Peter and Scott, beer,
+      coffee, tea, and podcasting! It's also about Apple, fitness, food, random
+      news, and sometimes our friend Adam!
     </p>
 
     <span data-pagefind-ignore>
