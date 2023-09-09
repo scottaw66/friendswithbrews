@@ -1,6 +1,6 @@
 {
   "name": "friendswithbrews",
-  "version": "1.0.2",
+  "version": "3.0.0",
   "description": "Friends with Brews web site",
   "scripts": {
     "dev": "export NODE_ENV=development && astro dev",
