@@ -28,11 +28,12 @@
     "peter",
     "scott"
   ],
-  "author": "Scott willsey",
+  "author": "Scott Willsey",
   "dependencies": {
+    "@11ty/eleventy-img": "^3.1.0",
     "@astrojs/rss": "^3.0.0",
     "@astrojs/sitemap": "^3.0.0",
-    "@fontsource/be-vietnam-pro": "^5.0.11",
+    "@fontsource/be-vietnam-pro": "^5.0.12",
     "@fontsource/ia-writer-mono": "^5.0.7",
     "@fontsource/roboto-mono": "^5.0.8",
     "astro": "^3.0.12",
@@ -48,7 +49,7 @@
   },
   "devDependencies": {
     "astro-eslint-parser": "^0.15.0",
-    "eslint": "^8.48.0",
+    "eslint": "^8.49.0",
     "eslint-plugin-astro": "^0.29.0",
     "prettier": "^3.0.3",
     "prettier-plugin-astro": "^0.12.0"

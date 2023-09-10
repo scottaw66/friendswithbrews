@@ -1,7 +1,7 @@
 ---
 import { Icon } from "astro-icon";
-import config from "config";
 import logo from "../images/FwBrews-site-header.svg";
+import site from "../data/site.json";
 ---
 
 <header>
@@ -15,7 +15,7 @@ import logo from "../images/FwBrews-site-header.svg";
       </div>
     </div>
     <div class="site-image">
-      <a href="/"><img class="header-image" src={logo.src} /></a>
+      <a href="/"><img class="header-image" src={logo} /></a>
     </div>
     <div class="site-tagline">{site.description}</div>
   </div>

@@ -1,9 +1,9 @@
 ---
 import { getCollection } from "astro:content";
-import config from "config";
 import Base from "../../layouts/Base.astro";
 import TranscriptListView from "../../components/TranscriptListView.astro";
 import Pager from "../../components/Pager.astro";
+import site from "../../data/site.json";
 
 export async function getStaticPaths({ paginate }) {
   let transcripts = await getCollection("transcripts");
@@ -19,7 +19,7 @@ export async function getStaticPaths({ paginate }) {
 const { page } = Astro.props;
 ---
 
-<Base title={`${site.title").replace(" Podcast", "} Transcripts`}>
+<Base title={`${site.title.replace("Podcast", "")} Transcripts`}>
   <h1>Transcripts</h1>
   <div data-pagefind-ignore>
     {

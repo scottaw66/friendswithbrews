@@ -1,8 +1,8 @@
 ---
 import type { CollectionEntry } from "astro:content";
-import config from "config";
 import { Icon } from "astro-icon";
-import { postdate } from "./utilities/DateFormat";
+import { postdate } from "./utilities/DateFormat.mjs";
+import site from "../data/site.json";
 
 interface Props {
   transcript: CollectionEntry<"transcripts">;
@@ -75,3 +75,4 @@ const { Content } = await transcript.render();
     width: 1em;
   }
 </style>
+./utilities/DateFormat.mjs

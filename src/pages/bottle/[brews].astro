@@ -1,6 +1,5 @@
 ---
 import { Icon } from "astro-icon";
-import { Picture } from "@astrojs/image/components";
 import { hostname, origin } from "../../components/utilities/urlparser.mjs";
 import {
   capitalize,
@@ -29,14 +28,7 @@ const { bottle } = Astro.props;
     <h2>{bottle.name}</h2>
     <div class="bottle">
       <a href={`/images/brews/${bottle.image}.png`}>
-        <Picture
-          src={`/images/brews/${bottle.image}.png`}
-          widths={[500, 1000, 1500]}
-          aspectRatio="1:1"
-          sizes="(max-width: 450px) 250px, (max-width: 580px) 350px, 450px"
-          formats={["avif", "webp", "png"]}
-          alt={`${bottle.brewery} ${bottle.name}`}
-        />
+        <Image src={`../../assets/images/brews/${bottle.image}.png`} alt={`${bottle.brewery} ${bottle.name}`} />
       </a>
     </div>
     <div class="description">

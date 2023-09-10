@@ -1,7 +1,8 @@
 ---
 import { Icon } from "astro-icon";
-import { Picture } from "@astrojs/image/components";
+
 import { capitalize, brewIcon } from "./utilities/stringformatter.mjs";
+
 
 const { brew, episode } = Astro.props;
 ---
@@ -9,14 +10,7 @@ const { brew, episode } = Astro.props;
 <div class="brew">
   <div class="brew-image">
     <a href={`/bottle/${brew.id}/`}>
-      <Picture
-        src={`/images/brews/${brew.image}.png`}
-        widths={[400, 800, 1200]}
-        aspectRatio="1:1"
-        sizes="200px"
-        formats={["avif", "webp", "png"]}
-        alt={`${brew.brewery} ${brew.name}`}
-      />
+      
     </a>
   </div>
   <div class="brew-text">

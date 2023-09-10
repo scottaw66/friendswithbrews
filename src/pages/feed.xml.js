@@ -1,6 +1,6 @@
 import rss from "@astrojs/rss";
 import sanitizeHtml from "sanitize-html";
-import { rfc2822, year } from "../components/utilities/DateFormat";
+import { rfc2822, year } from "../components/utilities/DateFormat.mjs";
 import site from "../data/site.json";
 
 export function GET(context) {
