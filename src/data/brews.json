@@ -1,5 +1,41 @@
 [
   {
+    "id": "7TlowCYjWP3OiiAN0mcAb",
+    "name": "Three Philosophers",
+    "brewery": "Ommegang Brewery",
+    "image": "OmmegangBreweryThreePhilosophers-6AA5D5AD-F8D7-40E3-9285-63D73FEDD89F",
+    "description": "Rich and complex, this tour de force is a glorious blend of elegant Belgian-style quadruple ale and authentic Belgian kriek, its malty depth and gentle sweetness enhanced by sparkling carbonation and a serendipitous touch of cherry. Pouring a mysterious chestnut brown, Three Philosophers is the perfect beer for leisurely sipping and quiet contemplation. The meaning of life? Even if you don't quite get there, this beer is sure to sweeten the journey.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["51"],
+    "url": "https://www.ommegang.com/beerinfo/three-philosophers/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-down",
+        "description": "I think my tastes have changed because I'm not enjoying this as much as I used to. It tastes too strong. "
+      }
+    ]
+  },
+   {
+    "id": "PKwMQu18hGiz8LjnRhIez",
+    "name": "Fall Hornin’ Pumpkin Ale",
+    "brewery": "Anderson Valley Brewing Company",
+    "image": "AndersonValleyBrewingCompanyFallHorninPumpkinAle-6AA5D5AD-F8D7-40E3-9285-63D73FEDD89F",
+    "description": "With a brilliant, deep copper hue and creamy beige-colored head, our Fall Hornin' Pumpkin Ale has inviting aromas of caramelized malt and baking bread with highlights of cinnamon, nutmeg, pumpkin and seasonal spices. The pleasantly creamy mouthfeel and silky body embrace the sweet caramel flavors and tang of spices (with just hint of hops) that ends in a smooth, round finish.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["51"],
+    "url": "https://avbc.com/beer/fall-hornin-pumpkin-ale/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "In general, pumpkin spice anything is overrated, but this is very good for a pumpkin spice. I'm giving it a thumbs up."
+      }
+    ]
+  },
+  {
     "id": "e3uYJK_-SeaNmUAJHcxdm",
     "name": "Hingakawa",
     "brewery": "Trailhead Coffee Roasters",
