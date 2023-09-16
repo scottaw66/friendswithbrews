@@ -20,6 +20,7 @@ export async function getStaticPaths() {
 }
 
 const { bottle } = Astro.props;
+const brewImage = bottle.image.replace(/(-)(\w{8}-\w{4}-\w{4}-\w{4}-\w{12})$/, "-1000$1$2") + ".webp";
 ---
 
 <Base title={bottle.name}>
@@ -28,7 +29,7 @@ const { bottle } = Astro.props;
     <h2>{bottle.name}</h2>
     <div class="bottle">
       <a href={`/images/brews/${bottle.image}.png`}>
-        
+        <img src={`/images/brews/${brewImage}`} alt={bottle.name} />
       </a>
     </div>
     <div class="description">
@@ -114,6 +115,8 @@ const { bottle } = Astro.props;
     border-radius: 10px;
     border: 5px solid var(--link-text);
     margin: 3rem auto 2rem;
+    height: 22em;
+    width: 22em;
   }
   div.description {
     font-size: 0.8em;
@@ -187,6 +190,10 @@ const { bottle } = Astro.props;
     color: var(--link-text);
   }
   @media screen and (max-width: 580px) {
+    div.bottle img {
+      height: 18em;
+      width: 18em;
+    }
     div.ratings {
       max-width: 350px;
     }
@@ -209,6 +216,12 @@ const { bottle } = Astro.props;
     [astro-icon] {
       width: 1.1rem;
       margin: 0 0 -0.1rem;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    div.bottle img {
+      height: 15em;
+      width: 15em;
     }
   }
 </style>

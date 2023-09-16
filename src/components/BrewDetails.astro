@@ -3,12 +3,14 @@ import { Icon } from "astro-icon";
 import { capitalize, brewIcon } from "./utilities/stringformatter.mjs";
 
 const { brew, episode } = Astro.props;
+
+const brewImage = brew.image.replace(/(-)(\w{8}-\w{4}-\w{4}-\w{4}-\w{12})$/, "-400$1$2") + ".webp";
 ---
 <!-- need 400x400, 1000x1000 -->
 <div class="brew">
   <div class="brew-image">
     <a href={`/bottle/${brew.id}/`}>
-      
+      <img src={`/images/brews/${brewImage}`} alt={brew.name} />
     </a>
   </div>
   <div class="brew-text">
