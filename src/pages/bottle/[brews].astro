@@ -28,7 +28,7 @@ const { bottle } = Astro.props;
     <h2>{bottle.name}</h2>
     <div class="bottle">
       <a href={`/images/brews/${bottle.image}.png`}>
-        <Image src={`../../assets/images/brews/${bottle.image}.png`} alt={`${bottle.brewery} ${bottle.name}`} />
+        
       </a>
     </div>
     <div class="description">
@@ -69,6 +69,14 @@ const { bottle } = Astro.props;
             >{capitalize(bottle.type)}</span
           >
         </div>
+      </div>
+      <div class="links">
+        <h4>Episode{bottle.episodes.length > 1 ? "s " : " "}</h4>
+        { bottle.episodes.map((ep, index, arr) => (
+            <span key={ep}>
+              <a href={`/${ep}/`}>{ep}</a>{index !== arr.length - 1 ? ", " : ""}
+            </span>
+        ))}
       </div>
       <div class="links">
         <h4>Link</h4>

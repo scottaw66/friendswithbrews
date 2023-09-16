@@ -4,7 +4,7 @@ import { capitalize, brewIcon } from "./utilities/stringformatter.mjs";
 
 const { brew, episode } = Astro.props;
 ---
-
+<!-- need 400x400, 1000x1000 -->
 <div class="brew">
   <div class="brew-image">
     <a href={`/bottle/${brew.id}/`}>
@@ -20,7 +20,6 @@ const { brew, episode } = Astro.props;
       <div class="rating">
         {
           brew.rating.map((rate) => (
-            <>
               <div>{rate.host}</div>
               <div>
                 {rate.vote === "thumbs-up" ? (
@@ -29,7 +28,6 @@ const { brew, episode } = Astro.props;
                   <Icon name="bi:hand-thumbs-down-fill" />
                 )}
               </div>
-            </>
           ))
         }
       </div>
@@ -49,8 +47,12 @@ const { brew, episode } = Astro.props;
     {
       !episode && (
         <div class="brew-episodes">
-          Episode{brew.episodes.length > 1 ? "s" : ""}
-          {brew.episodes.join(", ")}
+          Episode{brew.episodes.length > 1 ? "s " : " "}
+          { brew.episodes.map((ep, index, arr) => (
+            <span key={ep}>
+              <a href={`/${ep}/`}>{ep}</a>{index !== arr.length - 1 ? ", " : ""}
+            </span>
+          ))}
         </div>
       )
     }
@@ -101,7 +103,7 @@ const { brew, episode } = Astro.props;
   div.brew-details a:hover {
     text-decoration: underline;
   }
-  div.brew-episodes {
+  div.brew-episodes, div.brew-episodes a {
     margin: 0.25rem 0 0;
     font-size: 0.8rem;
   }
