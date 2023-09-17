@@ -1,6 +1,7 @@
 ---
 import { Icon } from "astro-icon";
-import logo from "../images/FwBrews-site-header.svg";
+import { Image } from "astro:assets";
+import logo from "../assets/images/FwBrews-site-header.svg";
 import site from "../data/site.json";
 ---
 
@@ -15,7 +16,7 @@ import site from "../data/site.json";
       </div>
     </div>
     <div class="site-image">
-      <a href="/"><img class="header-image" src={logo} /></a>
+      <a href="/"><img class="header-image" src="/images/FwBrews-site-header.svg" alt="Friends with Brews" /></a>
     </div>
     <div class="site-tagline">{site.description}</div>
   </div>
@@ -75,12 +76,11 @@ import site from "../data/site.json";
   }
   .header-image {
     height: 10rem;
-    margin: 1rem 0 2rem;
+    margin: 1rem 0 -0.25rem;
   }
   div.site-tagline {
     max-width: 350px;
     text-transform: uppercase;
-    margin-top: 0.5rem;
   }
   /* don't display the menu icon if the screen is wide enough */
   @media screen and (min-width: 899px) {

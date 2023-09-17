@@ -57,15 +57,13 @@ export function GET(context) {
       <itunes:title>${episode.frontmatter.title}</itunes:title>
       <itunes:episode>${episode.frontmatter.episode}</itunes:episode>
       <itunes:duration>${episode.frontmatter.length}</itunes:duration>
-      <itunes:image href="${site.url}images/${config.get(
-        "rss.image"
-      )}"/>
+      <itunes:image href="${site.url}images/${site.rss.image}"/>
       <itunes:explicit>No</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:summary><![CDATA[${
         episode.frontmatter.description
       }]]></itunes:summary>`,
-      ...post.frontmatter,
+      ...episode.frontmatter,
     })),
   });
 }
