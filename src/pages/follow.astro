@@ -1,10 +1,9 @@
 ---
-import config from "config";
 import { Icon } from "astro-icon";
-import { url } from "../components/utilities/urlparser.mjs";
 import Base from "../layouts/Base.astro";
+import site from "../data/site.json";
 
-const title = "Subscribe to " + config.get("title");
+const title = "Subscribe to " + site.title;
 ---
 
 <Base title={title}>
@@ -15,55 +14,52 @@ const title = "Subscribe to " + config.get("title");
     you a dime!
   </p>
   <p>
-    And <a rel="me" href={config.get("social.mastodon")}
-      >follow us on Mastodon</a
-    >, because why not hang out online with strangers instead of talking to your
+    And <a rel="me" href={site.social.mastodon}>follow us on Mastodon</a>,
+    because why not hang out online with strangers instead of talking to your
     family?
   </p>
   <p>
-    <span class="podcast-name">{config.get("title")}</span> is available directly
-    using our RSS feed, or on the following platforms.
+    <span class="podcast-name">{site.title}</span> is available directly using
+    our RSS feed, or on the following platforms.
   </p>
 
   <div class="episode-links">
     <div class="download-link">
       <div>
-        <a href={config.get("social.overcast")}>
+        <a href={site.social.overcast}>
           <Icon name="simple-icons:overcast" />
         </a>
       </div>
-      <div><a href={config.get("social.overcast")}>Overcast</a></div>
+      <div><a href={site.social.overcast}>Overcast</a></div>
     </div>
     <div class="download-link">
       <div>
-        <a href={config.get("social.applePodcasts")}>
+        <a href={site.social.applePodcasts}>
           <Icon name="simple-icons:applepodcasts" />
         </a>
       </div>
       <div>
-        <a href={config.get("social.applePodcasts")}>Apple Podcasts</a>
+        <a href={site.social.applePodcasts}>Apple Podcasts</a>
       </div>
     </div>
     <div class="download-link">
       <div>
-        <a href={url(config.get("url"), config.get("rss.fileName"))}>
+        <a href={`${site.rss.path}${site.rss.fileName}`}>
           <Icon name="ps:rss" />
         </a>
       </div>
       <div>
-        <a href={url(config.get("url"), config.get("rss.fileName"))}>RSS</a>
+        <a href={`${site.rss.path}${site.rss.fileName}`}>RSS</a>
       </div>
     </div>
     <div class="download-link">
       <div>
-        <a rel="me" href={config.get("social.mastodon")}>
-          <Icon name={config.get("social.mastodonIcon")} />
+        <a rel="me" href={site.social.mastodon}>
+          <Icon name={site.social.mastodonIcon} />
         </a>
       </div>
       <div>
-        <a rel="me" href={config.get("social.mastodon")}
-          >{config.get("social.mastodonName")}</a
-        >
+        <a rel="me" href={site.social.mastodon}>{site.social.mastodonName}</a>
       </div>
     </div>
   </div>

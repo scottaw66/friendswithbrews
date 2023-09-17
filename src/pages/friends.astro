@@ -1,54 +1,89 @@
 ---
-import { Picture } from "@astrojs/image/components";
+import { Image } from "astro:assets";
 import { Icon } from "astro-icon";
 import Base from "../layouts/Base.astro";
-import hostsJson from "../data/hosts.json";
 
 const title = "The Friends";
-const hosts = Array.from(hostsJson);
+
+import scott from "../assets/images/hosts/sawb.jpg";
+import peter from "../assets/images/hosts/peter.jpg";
 ---
 
 <Base title={title}>
   <h1>The Friends!</h1>
   <div class="hosts">
-    {
-      hosts.map((host) => (
         <div class="host">
           <div class="host-image">
-            <a href={`/images/hosts/${host.image}`}>
-              <Picture
-                src={`/images/hosts/${host.image}`}
-                widths={[400, 800, 1200]}
-                aspectRatio="1:1"
-                sizes="200px"
-                formats={["avif", "webp"]}
-                alt={host.firstname + " " + host.lastname}
+            <Image
+                src={peter}
+                width={200}
+                height={200}
+                alt="Peter Nikolaidis"
               />
-            </a>
           </div>
           <div class="host-details">
-            <h2>
-              {host.firstname} {host.lastname}
-            </h2>
-            <p>{host.bio}</p>
+            <h2>Peter Nikolaidis</h2>
+            <p>Peter Nikolaidis discovered his passion for computers and information technology at a young age. An IT and security professional, Peter practices yoga, martial arts, running, biking, as well as self-improvement and mindfulness.</p>
             <div class="host-socials">
-              {host.socials.map((social) => (
                 <div class="social">
                   <div>
-                    <Icon name={social.icon} />
+                    <Icon name="simple-icons:mastodon" />
                   </div>
                   <div>
-                    <a rel="me" href={social.url}>
-                      {social.name}
-                    </a>
+                    <a rel="me" href="https://infosec.exchange/@nikolaidis">@nikolaidis@infosec.exchange</a>
                   </div>
                 </div>
-              ))}
+                <div class="social">
+                  <div>
+                    <Icon name="fontisto:safari" />
+                  </div>
+                  <div>
+                    <a rel="me" href="https://pn72.com/">pn72.com</a>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
-      ))
-    }
+        <div class="host">
+          <div class="host-image">
+            <Image
+                src={scott}
+                width={200}
+                height={200}
+                alt="Scott Willsey"
+              />
+          </div>
+          <div class="host-details">
+            <h2>Scott Willsey</h2>
+            <p>Scott is an old school semiconductor guy, painfully infrequent writer, and off and on podcaster. Scott loves playing with computers, biking, running, yoga, and cats. Most of all, Scott loves his amazing family.</p>
+            <div class="host-socials">
+                <div class="social">
+                  <div>
+                    <Icon name="noto:sewing-needle" />
+                  </div>
+                  <div>
+                    <a rel="me" href="https://www.threads.net/@scott.willsey">@scott.willsey</a>
+                  </div>
+                </div>
+                <div class="social">
+                  <div>
+                    <Icon name="simple-icons:mastodon" />
+                  </div>
+                  <div>
+                    <a rel="me" href="https://appdot.net/@scottaw">@scottaw@appdot.net</a>
+                  </div>
+                </div>
+                <div class="social">
+                  <div>
+                    <Icon name="fontisto:safari" />
+                  </div>
+                  <div>
+                    <a rel="me" href="https://scottwillsey.com">scottwillsey.com</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
   </div>
 </Base>
 

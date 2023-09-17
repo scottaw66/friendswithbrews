@@ -1,15 +1,15 @@
 ---
-import config from "config";
 import { brewList } from "../../components/utilities/brewlist.mjs";
 import Base from "../../layouts/Base.astro";
 import BrewDetails from "../../components/BrewDetails.astro";
 import Pager from "../../components/Pager.astro";
+import site from "../../data/site.json"
 
 export async function getStaticPaths({ paginate }) {
   const beers = brewList();
 
   return paginate(beers, {
-    pageSize: config.get("beerPageSize"),
+    pageSize: site.beerPageSize,
   });
 }
 const { page } = Astro.props;

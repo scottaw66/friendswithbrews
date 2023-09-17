@@ -1,7 +1,7 @@
 ---
-import config from "config";
 import { Icon } from "astro-icon";
-import { year } from "./utilities/DateFormat.js";
+import { year } from "./utilities/DateFormat.mjs";
+import site from "../data/site.json";
 ---
 
 <div class="footer" data-pagefind-ignore>
@@ -9,7 +9,7 @@ import { year } from "./utilities/DateFormat.js";
     <div>&copy;{year}</div>
     <div><Icon name="bi:cpu-fill" /></div>
     <div>
-      {config.get("name")}
+      {site.name}
     </div>
   </div>
 </div>

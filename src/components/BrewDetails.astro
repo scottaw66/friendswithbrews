@@ -1,22 +1,16 @@
 ---
 import { Icon } from "astro-icon";
-import { Picture } from "@astrojs/image/components";
 import { capitalize, brewIcon } from "./utilities/stringformatter.mjs";
 
 const { brew, episode } = Astro.props;
----
 
+const brewImage = brew.image.replace(/(-)(\w{8}-\w{4}-\w{4}-\w{4}-\w{12})$/, "-400$1$2") + ".webp";
+---
+<!-- need 400x400, 1000x1000 -->
 <div class="brew">
   <div class="brew-image">
     <a href={`/bottle/${brew.id}/`}>
-      <Picture
-        src={`/images/brews/${brew.image}.png`}
-        widths={[400, 800, 1200]}
-        aspectRatio="1:1"
-        sizes="200px"
-        formats={["avif", "webp", "png"]}
-        alt={`${brew.brewery} ${brew.name}`}
-      />
+      <img src={`/images/brews/${brewImage}`} alt={brew.name} />
     </a>
   </div>
   <div class="brew-text">
@@ -28,7 +22,6 @@ const { brew, episode } = Astro.props;
       <div class="rating">
         {
           brew.rating.map((rate) => (
-            <>
               <div>{rate.host}</div>
               <div>
                 {rate.vote === "thumbs-up" ? (
@@ -37,7 +30,6 @@ const { brew, episode } = Astro.props;
                   <Icon name="bi:hand-thumbs-down-fill" />
                 )}
               </div>
-            </>
           ))
         }
       </div>
@@ -57,8 +49,12 @@ const { brew, episode } = Astro.props;
     {
       !episode && (
         <div class="brew-episodes">
-          Episode{brew.episodes.length > 1 ? "s" : ""}
-          {brew.episodes.join(", ")}
+          Episode{brew.episodes.length > 1 ? "s " : " "}
+          { brew.episodes.map((ep, index, arr) => (
+            <span key={ep}>
+              <a href={`/${ep}/`}>{ep}</a>{index !== arr.length - 1 ? ", " : ""}
+            </span>
+          ))}
         </div>
       )
     }
@@ -109,7 +105,7 @@ const { brew, episode } = Astro.props;
   div.brew-details a:hover {
     text-decoration: underline;
   }
-  div.brew-episodes {
+  div.brew-episodes, div.brew-episodes a {
     margin: 0.25rem 0 0;
     font-size: 0.8rem;
   }

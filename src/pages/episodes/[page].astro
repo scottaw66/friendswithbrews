@@ -1,9 +1,9 @@
 ---
 import { getCollection } from "astro:content";
-import config from "config";
 import Base from "../../layouts/Base.astro";
 import Episode from "../../components/Episode.astro";
 import Pager from "../../components/Pager.astro";
+import site from "../../data/site.json";
 
 export async function getStaticPaths({ paginate }) {
   let episodes = await getCollection("episodes");
@@ -13,13 +13,13 @@ export async function getStaticPaths({ paginate }) {
   );
 
   return paginate(episodes, {
-    pageSize: config.get("episodes.paginationSize"),
+    pageSize: site.episodes.paginationSize,
   });
 }
 const { page } = Astro.props;
 ---
 
-<Base title={`${config.get("title").replace(" Podcast", "")} Episodes`}>
+<Base title={`${site.title.replace("Podcast", "")} Episodes`}>
   <div data-pagefind-ignore>
     {
       page.data.map((episode, index) => {

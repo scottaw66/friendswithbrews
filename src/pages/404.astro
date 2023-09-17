@@ -1,15 +1,15 @@
 ---
-import config from "config";
-import { Picture } from "@astrojs/image/components";
+import { Image } from "astro:assets";
 import Base from "../layouts/Base.astro";
 import Search from "../components/Search.astro";
+import site from "../data/site.json";
 
-import emptyBottleImage from "../images/404/404-empty-bottle.jpg";
+import emptyBottleImage from "../assets/images/404/404-empty-bottle.jpg";
 
 let title = "404 not found";
 ---
 
-<Base title={title + " - " + config.get("title")}>
+<Base title={title + " - " + site.title}>
   <span data-pagefind-ignore>
     <article>
       <h1>{title}</h1>
@@ -19,14 +19,7 @@ let title = "404 not found";
       <p>Sorry, the bottle you're looking for is empty or missing!</p>
 
       <div class="missing-image">
-        <Picture
-          src={emptyBottleImage}
-          widths={[600, 900, 1800]}
-          aspectRatio="1:1"
-          sizes="300px"
-          formats={["avif", "webp"]}
-          alt={title}
-        />
+        <Image src={emptyBottleImage} width={300} alt={title} />
       </div>
 
       <p>

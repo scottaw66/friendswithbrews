@@ -1,6 +1,6 @@
 {
   "name": "friendswithbrews",
-  "version": "1.0.2",
+  "version": "3.0.0",
   "description": "Friends with Brews web site",
   "scripts": {
     "dev": "export NODE_ENV=development && astro dev",
@@ -28,9 +28,8 @@
     "peter",
     "scott"
   ],
-  "author": "Scott willsey",
+  "author": "Scott Willsey",
   "dependencies": {
-    "@astrojs/image": "^0.17.3",
     "@astrojs/rss": "^3.0.0",
     "@astrojs/sitemap": "^3.0.0",
     "@fontsource/be-vietnam-pro": "^5.0.12",
@@ -40,14 +39,11 @@
     "astro-embed": "^0.5.1",
     "astro-icon": "^0.8.1",
     "astro-pagefind": "^1.2.4",
-    "astro-remark-eleventy-image": "^2.0.1",
     "astro-seo": "^0.8.0",
-    "config": "^3.3.9",
     "date-fns": "^2.30.0",
     "date-fns-tz": "^2.0.0",
     "nanoid": "^5.0.1",
     "normalize.css": "^8.0.1",
-    "remark-gfm": "^3.0.1",
     "sanitize-html": "^2.11.0"
   },
   "devDependencies": {
