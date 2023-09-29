@@ -33,6 +33,7 @@ declare module 'astro:content' {
 				import('astro/zod').ZodLiteral<'webp'>,
 				import('astro/zod').ZodLiteral<'gif'>,
 				import('astro/zod').ZodLiteral<'svg'>,
+				import('astro/zod').ZodLiteral<'avif'>,
 			]
 		>;
 	}>;
@@ -499,6 +500,13 @@ declare module 'astro:content' {
 "51.md": {
 	id: "51.md";
   slug: "51";
+  body: string;
+  collection: "episodes";
+  data: InferEntrySchema<"episodes">
+} & { render(): Render[".md"] };
+"52.md": {
+	id: "52.md";
+  slug: "52";
   body: string;
   collection: "episodes";
   data: InferEntrySchema<"episodes">

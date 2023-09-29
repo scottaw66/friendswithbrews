@@ -1,5 +1,41 @@
 [
   {
+    "id": "h68nzNqjRP7_RDZ5k4uhJ",
+    "name": "Oktoberfest",
+    "brewery": "Opa Opa Brewing",
+    "image": "SCR-20230926-ucmy-C3FBC55F-987A-49FA-9622-F5334C9972E4",
+    "description": "Oktoberfest is a Märzen style beer brewed by Opa Opa Brewing Company in Easthampton, MA",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["52"],
+    "url": "https://www.opaopabrewing.com/our-beers/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "If I were a beer, this is what I'd be."
+      }
+    ]
+  },
+  {
+    "id": "pnJfFULSc3eNy298Cc0M5",
+    "name": "Piston Pale Ale",
+    "brewery": "Laurelwood Brewing Company",
+    "image": "SCR-20230926-ubgr-C3FBC55F-987A-49FA-9622-F5334C9972E4",
+    "description": "This latest update in our Pale Ale project explodes onto the senses with exuberant amounts of modern German hop varieties imparting an herbal earthy lemony spiciness.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["52"],
+    "url": "https://untappd.com/b/laurelwood-brewing-co-portland-pale-project-piston-pale-ale/266253",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-down",
+        "description": "Too hoppy. I haven't really liked any Laurelwood beers except for their Free Range Red Ale. This one is a pale ale and not an IPA, but still it's just too hoppy."
+      }
+    ]
+  },
+  {
     "id": "7TlowCYjWP3OiiAN0mcAb",
     "name": "Three Philosophers",
     "brewery": "Ommegang Brewery",
@@ -17,7 +53,7 @@
       }
     ]
   },
-   {
+  {
     "id": "PKwMQu18hGiz8LjnRhIez",
     "name": "Fall Hornin’ Pumpkin Ale",
     "brewery": "Anderson Valley Brewing Company",
