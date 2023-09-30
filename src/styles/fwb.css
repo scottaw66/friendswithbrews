@@ -174,9 +174,10 @@ div.brew-container {
     width: 90%;
   }
 }
-div.episode p picture img {
+div.episode p img {
   width: 300px;
   height: auto;
+  margin-left: 2rem;
 }
 
 #search .pagefind-ui__search-input,
