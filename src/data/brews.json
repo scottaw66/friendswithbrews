@@ -1,5 +1,23 @@
 [
   {
+    "id": "znGVzXubhLbFR05VxKKSZ",
+    "name": "OktoBAERfestbier",
+    "brewery": "Baerlic Beer Company",
+    "image": "BaerlicBeerCoOktoBAERfest-372CC0FA-4CA3-4EDC-AA54-08062E02E851",
+    "description": "Oktobaerfestbier is a German-style Märzen lager brewed with Czech Saaz and Liberty hops for spicy'n'herbal'n'fruity hop character that lays beautifully over a toasty'n'bready'n'rich malt presence that finishes crispy'n'dry. Drinks best out of your favorite bierstiefel (or boot-shaped glass!). Prost!",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["53"],
+    "url": "https://baerlic-brewing-company-llc.square.site/product/oktobaerfestbier-marzen-lager-16oz-cans-southeast/901",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "I enjoy this version of an Oktoberfest beer. They don't tell me on the can what tasting notes to expect, so I believe I can taste crackers. Crackers and ... october... festivals. Anyway, it's good. You'll like it."
+      }
+    ]
+  },
+  {
     "id": "h68nzNqjRP7_RDZ5k4uhJ",
     "name": "Oktoberfest",
     "brewery": "Opa Opa Brewing",
@@ -403,7 +421,7 @@
     "description": "Nutty with a Sweet Finish.",
     "type": "coffee",
     "sortOrder": "0",
-    "episodes": ["40"],
+    "episodes": ["40","53"],
     "url": "https://shop.wegmans.com/product/218876/wegmans-organic-coffee-specialty-whole-bean-peruvian-decaf",
     "rating": [
       {
@@ -979,7 +997,7 @@
     "description": "Top quality specialty coffees from East Africa, Central, & South America offer caramel sweetness, chocolate layered with complex fruit notes, and crisp acidity. This tried and true coffee is the kind of cup you want to drink every day. Rich. Chocolatey.",
     "type": "coffee",
     "sortOrder": "0",
-    "episodes": ["26", "38"],
+    "episodes": ["26", "38", "53"],
     "url": "https://shop.coavacoffee.com/collections/coffee/products/s-o-blend-1",
     "rating": [
       {
