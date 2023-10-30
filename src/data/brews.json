@@ -1,5 +1,41 @@
 [
   {
+    "id": "YodfV6yTeB75PJpmQDPgU",
+    "name": "Oktoberfest Märzen",
+    "brewery": "Hacker-Pschorr",
+    "image": "HackerPschorrOktoberfestMarzen-8E6221D0-7EB7-46B3-8AFA-5CA4A1E6AC1B",
+    "description": "As it was forbidden to brew in summer, a stronger beer -- the Märzen -- was brewed earlier in March. It would finally be served at the Oktoberfest, under the \"Heaven of Bavaria.\" We have returned once again to the age-old recipe and recreated that gloriously smooth, honey-coloured piece of history from times gone by. Perfect with: Bavarian sausage salad and all the titbits a true Bavarian would also enjoy: roast chicken, sausages or suckling pig cooked in Wiesn beer.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["54"],
+    "url": "https://www.hacker-pschorr.com/our-beers/usa/oktoberfest-maerzen",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "It is malty, it is toasty, and it is crisp. Very happy, this is good."
+      }
+    ]
+  },
+  {
+    "id": "6iMHrt6TM9RGG9__i9XPz",
+    "name": "Highbrow Blend",
+    "brewery": "Dapper & Wise Roasters",
+    "image": "DapperandWiseRoastersHighbrowBlend-8E6221D0-7EB7-46B3-8AFA-5CA4A1E6AC1B",
+    "description": "REMINDS US OF: Dark chocolate, walnut, cola. BEST AS: Drip or espresso. ROAST LEVEL: Medium",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["54"],
+    "url": "https://dapperandwise.com/collections/coffee/products/highbrow-blend",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "Nice and smooth, no bitterness. I definitely smell and taste the nuttiness."
+      }
+    ]
+  },
+  {
     "id": "znGVzXubhLbFR05VxKKSZ",
     "name": "OktoBAERfestbier",
     "brewery": "Baerlic Beer Company",
@@ -2200,7 +2236,7 @@
     "description": "A robust Porter that features two pounds per barrel of the finest Belgian dark chocolate, creating a slightly roasty pint with underlying chocolate sweetness.",
     "type": "beer",
     "sortOrder": "0",
-    "episodes": ["1"],
+    "episodes": ["1","54"],
     "url": "https://www.threecreeksbrewing.com/beer/",
     "rating": [
       {
