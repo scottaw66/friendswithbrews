@@ -1,5 +1,6 @@
 ---
 import { Icon } from "astro-icon";
+import { Picture } from "astro:assets";
 import { hostname, origin } from "../../components/utilities/urlparser.mjs";
 import {
   capitalize,
@@ -20,7 +21,7 @@ export async function getStaticPaths() {
 }
 
 const { bottle } = Astro.props;
-const brewImage = bottle.image.replace(/(-)(\w{8}-\w{4}-\w{4}-\w{4}-\w{12})$/, "-1000$1$2") + ".webp";
+//const brewImage = bottle.image.replace(/(-)(\w{8}-\w{4}-\w{4}-\w{4}-\w{12})$/, "-1000$1$2") + ".webp";
 ---
 
 <Base title={bottle.name}>
@@ -29,7 +30,11 @@ const brewImage = bottle.image.replace(/(-)(\w{8}-\w{4}-\w{4}-\w{4}-\w{12})$/, "
     <h2>{bottle.name}</h2>
     <div class="bottle">
       <a href={`/images/brews/${bottle.image}.png`}>
-        <img src={`/images/brews/${brewImage}`} alt={bottle.name} />
+        <Picture src={import(`../../assets/images/brews/${bottle.image}.png`)} 
+          formats={['avif', 'webp', 'jpg']} 
+          width="1000"
+          widths={[1500, 2000]}
+          alt={`${bottle.brewery} ${bottle.name}`} />
       </a>
     </div>
     <div class="description">
