@@ -1,5 +1,41 @@
 [
   {
+    "id": "J28-yahYGEvLWsZMY1lNz",
+    "name": "Sicilian Roast The Godfather",
+    "brewery": "Rao's Coffee Roasting Company",
+    "image": "RaosCoffeeRoastingCompanySicilianRoastTheGodfather-41768422-0BC6-419E-9EBF-CE9529DA7A67",
+    "description": "Our darkest roast, also know as 'The Godfather', is a dream for those who enjoy dark roasted coffee. A heavy-bodied Sicilian roast with sweet bourbon notes and a smooth, smoky finish.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["56"],
+    "url": "https://www.raoscoffee.com/product/Sicilian-Roast-The-Godfather",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "I like this one. I'm a fan of dark roasts. Good coffee."
+      }
+    ]
+  },
+  {
+    "id": "Vxtc77T-WAnlDSXwjMjQI",
+    "name": "Hologram",
+    "brewery": "Counter Culture Coffee",
+    "image": "CounterCultureHologram-41768422-0BC6-419E-9EBF-CE9529DA7A67",
+    "description": "Elevate your coffee experience to a new dimension. Hologram is an extraordinary medium-roast blend that showcases the finest coffees from around the world. Tantalizing notes of ripe fruit and chocolate create a multidimensional flavor experience that's as complex as it is approachable.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["56"],
+    "url": "https://counterculturecoffee.com/collections/coffee/products/12-oz-hologram",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-down",
+        "description": "Hologram may require a different brewing method than I used, but it's slightly bitter. It's certainly not the best Counter Culture coffee I've had. I'm going to give it a thumbs down. This is the first time I've given a thumbs down to a coffee on this podcast."
+      }
+    ]
+  },
+  {
     "id": "3Qn-YeeQ53YoF0udSyFlv",
     "name": "Tantamount Stout",
     "brewery": "Evasion Brewing",
@@ -1298,7 +1334,7 @@
   {
     "id": "3add4_Fjoih0VibmLWfrd",
     "name": "Slow Motion",
-    "brewery": "Counter Culture",
+    "brewery": "Counter Culture Coffee",
     "image": "CounterCultureSlowMotion-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E",
     "description": "For Slow Motion, we start by selecting the same high-quality coffees that appear in our other offerings and gently decaffeinate them in small batches using organic processing. Tasting notes: Smooth molasses and cocoa.",
     "type": "coffee",
