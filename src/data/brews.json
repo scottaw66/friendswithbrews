@@ -1,5 +1,23 @@
 [
   {
+    "id": "X5DqquhqFDLlVgnu34bnz",
+    "name": "Folkvangr",
+    "brewery": "Little Beast Brewing",
+    "image": "LittleBeastBrewingFolkvangr-087751D2-92F9-448F-B2D3-A17A3A49A22D",
+    "description": "Dark farmhouse ale fermented with Norwegian kviek yeast. 6.7% ABV",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["57"],
+    "url": "http://www.littlebeastbrewing.com/beers",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "It's dark, it's good, it's not bitter. What's not to like?"
+      }
+    ]
+  },
+  {
     "id": "J28-yahYGEvLWsZMY1lNz",
     "name": "Sicilian Roast The Godfather",
     "brewery": "Rao's Coffee Roasting Company",
@@ -1159,7 +1177,7 @@
     "description": "This is a favored staple here at Backporch. Syrupy and sweet, with hints of dark chocolate, cherries, cane sugar and caramel.",
     "type": "coffee",
     "sortOrder": "0",
-    "episodes": ["24"],
+    "episodes": ["24", "57"],
     "url": "https://www.backporchcoffeeroasters.com/buyonline/backporch-blend-12-oz",
     "rating": [
       {
@@ -1591,7 +1609,7 @@
     "description": "Bold, decaffeinated dark roast coffee that is smooth with notes of dark chocolate, cocoa and spice. 100% Arabica coffee, sourced and roasted with care to deliver a delightful coffee experience in every cup. Perfect for espresso shot and espresso based drinks.Our Food You Feel Good About yellow banner is your shortcut to great-tasting products with no artificial colors, flavors or preservatives.",
     "type": "coffee",
     "sortOrder": "0",
-    "episodes": ["15", "18"],
+    "episodes": ["15", "18", "57"],
     "url": "https://shop.wegmans.com/product/109476/wegmans-decaf-espresso-whole-bean-coffee",
     "rating": [
       {
