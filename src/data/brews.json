@@ -1,5 +1,41 @@
 [
   {
+    "id": "Ev6yePrAauePS62k_UUFW",
+    "name": "Sidamo",
+    "brewery": "Local Roasting Co.",
+    "image": "LocalRoastingCoSidamo-61F65526-6121-45CB-B7CF-08261B5B287A",
+    "description": "Sooooo good! Bright with hints of strawberry and graham cracker. Excellent as espresso, French press or drip.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["58"],
+    "url": "https://localroastingco.bigcartel.com/product/naturally-processed-sidamo",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "It's not a world-beater, but it's a decent cup of coffee."
+      }
+    ]
+  },
+  {
+    "id": "W7Bc22ANWfuryxZ75LxCs",
+    "name": "Christmas Ale",
+    "brewery": "Breckenridge Brewery",
+    "image": "BreckenridgeBreweryChristmasAle-C230E67A-66A5-4E91-8A4A-A50DCCF053A5",
+    "description": "The chill of winter calls for a beer with extra flavor and strength! An abundance of carefully roasted malts create notes of caramel and chocolate, while Chinook and Mt. Hood hops contribute a spicy quality for balance and a clean finish.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["58"],
+    "url": "https://www.breckbrew.com/brews/christmas-ale/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "It's a Christmas Ale. I like it, and I'll happily drink it, but I don't miss it the entire rest of the year."
+      }
+    ]
+  },
+  {
     "id": "X5DqquhqFDLlVgnu34bnz",
     "name": "Folkvangr",
     "brewery": "Little Beast Brewing",
@@ -1609,7 +1645,7 @@
     "description": "Bold, decaffeinated dark roast coffee that is smooth with notes of dark chocolate, cocoa and spice. 100% Arabica coffee, sourced and roasted with care to deliver a delightful coffee experience in every cup. Perfect for espresso shot and espresso based drinks.Our Food You Feel Good About yellow banner is your shortcut to great-tasting products with no artificial colors, flavors or preservatives.",
     "type": "coffee",
     "sortOrder": "0",
-    "episodes": ["15", "18", "57"],
+    "episodes": ["15", "18", "57", "58"],
     "url": "https://shop.wegmans.com/product/109476/wegmans-decaf-espresso-whole-bean-coffee",
     "rating": [
       {
