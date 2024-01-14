@@ -1,5 +1,23 @@
 [
   {
+    "id": "h28v99efp42ox9risrDoW",
+    "name": "Thal",
+    "brewery": "Steady State Roasting",
+    "image": "SteadyStateRoastingThal-48CD8DC8-0190-4009-869E-7599870C0704",
+    "description": "A unique, floral note of cardamom makes this fruity, balanced coffee really stand out.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["59"],
+    "url": "https://localroastingco.bigcartel.com/product/naturally-processed-sidamo",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "I didn't necessarily taste all the notes like I thought I should, but it's a nice, neutral, pleasant cup of coffee."
+      }
+    ]
+  },
+  {
     "id": "Ev6yePrAauePS62k_UUFW",
     "name": "Sidamo",
     "brewery": "Local Roasting Co.",
@@ -115,7 +133,7 @@
     "description": "As it was forbidden to brew in summer, a stronger beer -- the Märzen -- was brewed earlier in March. It would finally be served at the Oktoberfest, under the \"Heaven of Bavaria.\" We have returned once again to the age-old recipe and recreated that gloriously smooth, honey-coloured piece of history from times gone by. Perfect with: Bavarian sausage salad and all the titbits a true Bavarian would also enjoy: roast chicken, sausages or suckling pig cooked in Wiesn beer.",
     "type": "beer",
     "sortOrder": "0",
-    "episodes": ["54"],
+    "episodes": ["54","59"],
     "url": "https://www.hacker-pschorr.com/our-beers/usa/oktoberfest-maerzen",
     "rating": [
       {
@@ -1285,7 +1303,7 @@
     "description": "Smooth and soft, with subtle notes of coffee and chocolate, this oatmeal stout is a fine choice for any time of day, whether you're an early bird or a night owl. 6.0% ABV",
     "type": "beer",
     "sortOrder": "0",
-    "episodes": ["23"],
+    "episodes": ["23","59"],
     "url": "http://www.littlebeastbrewing.com/beers",
     "rating": [
       {
