@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import { Icon } from "astro-icon";
+import { Icon } from "astro-icon/components";
 import Base from "../layouts/Base.astro";
 
 const title = "The Friends";
@@ -137,11 +137,11 @@ import peter from "../assets/images/hosts/peter.jpg";
     margin: 4rem auto 2rem;
     justify-content: center;
   }
-  div.links [astro-icon] {
-    height: 2rem;
+  div.links [data-icon] {
+    font-size: 2rem;
   }
-  [astro-icon] {
-    height: 1.5rem;
+  [data-icon] {
+    font-size: 1.5rem;
     margin: 0 0 -0.4rem;
   }
   @media screen and (max-width: 650px) {

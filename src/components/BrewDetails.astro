@@ -1,5 +1,5 @@
 ---
-import { Icon } from "astro-icon";
+import { Icon } from "astro-icon/components";
 import { Picture } from "astro:assets";
 import { capitalize, brewIcon } from "./utilities/stringformatter.mjs";
 
@@ -120,8 +120,8 @@ const { brew, episode } = Astro.props;
     justify-content: center;
     font-weight: bolder;
   }
-  div.rating [astro-icon] {
-    width: 0.7rem;
+  div.rating [data-icon] {
+    font-size: 0.7rem;
     margin-top: 0.2rem;
   }
   div.brew-type {
@@ -133,8 +133,8 @@ const { brew, episode } = Astro.props;
   div.brew-type a {
     font-size: 0.6rem;
   }
-  div.brew-type [astro-icon] {
-    width: 0.8rem;
+  div.brew-type [data-icon] {
+    font-size: 0.8rem;
     margin: 0 0 -0.2em;
   }
   @media screen and (max-width: 900px) {

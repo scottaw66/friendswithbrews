@@ -1,5 +1,5 @@
 ---
-import { Icon } from "astro-icon";
+import { Icon } from "astro-icon/components";
 import { Image } from "astro:assets";
 import logo from "../assets/images/FwBrews-site-header.svg";
 import site from "../data/site.json";
@@ -37,8 +37,8 @@ import site from "../data/site.json";
     top: 10px;
     right: 10px;
   }
-  header [astro-icon] {
-    width: 3rem;
+  header [data-icon] {
+    font-size: 3rem;
     color: var(--link-text);
   }
   div.banner {
@@ -112,8 +112,8 @@ import site from "../data/site.json";
     }
   }
   @media screen and (max-width: 680px) {
-    header [astro-icon] {
-      width: 1.75rem;
+    header [data-icon] {
+      font-size: 1.75rem;
     }
     div.site-title {
       margin: 1rem 0;

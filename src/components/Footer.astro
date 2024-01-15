@@ -1,5 +1,5 @@
 ---
-import { Icon } from "astro-icon";
+import { Icon } from "astro-icon/components";
 import { year } from "./utilities/DateFormat.mjs";
 import site from "../data/site.json";
 ---
@@ -40,15 +40,15 @@ import site from "../data/site.json";
   .footer-links a {
     color: var(--menu-text);
   }
-  [astro-icon] {
-    height: 1rem;
+  [data-icon] {
+    font-size: 1rem;
     margin: 0.4rem 0 0;
   }
   @media screen and (max-width: 450px) {
     .footer-links {
       font-size: 0.8rem;
     }
-    [astro-icon] {
+    [data-icon] {
       margin: 0.2rem 0 0;
     }
   }

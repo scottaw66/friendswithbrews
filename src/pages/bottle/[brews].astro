@@ -1,5 +1,5 @@
 ---
-import { Icon } from "astro-icon";
+import { Icon } from "astro-icon/components";
 import { Picture } from "astro:assets";
 import { hostname, origin } from "../../components/utilities/urlparser.mjs";
 import {
@@ -166,23 +166,25 @@ const { bottle } = Astro.props;
   div.review p::after {
     content: '"';
   }
-  [astro-icon] {
-    width: 2rem;
-    margin: 0 0 -0.3rem;
+  [data-icon] {
+    font-size: 2rem;
+    margin: 0 0 -0.1rem;
   }
-  [astro-icon="bi:hand-thumbs-up-fill"] {
+  [data-icon="bi:hand-thumbs-up-fill"] {
     color: green;
+    margin-bottom: 0.1rem;
   }
-  [astro-icon="bi:hand-thumbs-down-fill"] {
+  [data-icon="bi:hand-thumbs-down-fill"] {
     color: red;
+    margin-bottom: -0.75rem;
   }
   div.type-links-container {
     display: flex;
     flex-direction: column;
     row-gap: 0.5rem;
   }
-  div.brew-type [astro-icon] {
-    width: 1.2rem;
+  div.brew-type [data-icon] {
+    font-size: 1.2rem;
     margin: 0 0.2rem -0.2em 0;
   }
   div.links {
@@ -205,8 +207,8 @@ const { bottle } = Astro.props;
     div.host {
       column-gap: 1rem;
     }
-    [astro-icon] {
-      width: 1.1rem;
+    [data-icon] {
+      font-size: 1.1rem;
       margin: 0 0 -0.1rem;
     }
   }
@@ -218,8 +220,8 @@ const { bottle } = Astro.props;
       column-gap: 0.4rem;
       font-size: 0.75em;
     }
-    [astro-icon] {
-      width: 1.1rem;
+    [data-icon] {
+      font-size: 1.1rem;
       margin: 0 0 -0.1rem;
     }
   }

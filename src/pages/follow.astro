@@ -1,5 +1,5 @@
 ---
-import { Icon } from "astro-icon";
+import { Icon } from "astro-icon/components";
 import Base from "../layouts/Base.astro";
 import site from "../data/site.json";
 
@@ -91,8 +91,8 @@ const title = "Subscribe to " + site.title;
     color: var(--text);
     text-decoration: underline;
   }
-  [astro-icon] {
-    height: 3rem;
+  [data-icon] {
+    font-size: 3rem;
     margin: 0.6rem 1rem 0 0;
   }
   @media screen and (max-width: 500px) {
@@ -102,8 +102,8 @@ const title = "Subscribe to " + site.title;
     div.download-link {
       font-size: 1.2rem;
     }
-    [astro-icon] {
-      height: 2rem;
+    [data-icon] {
+      font-size: 2rem;
       margin: 0.5rem 1rem 0;
     }
   }
@@ -111,8 +111,8 @@ const title = "Subscribe to " + site.title;
     div.download-link {
       font-size: 1rem;
     }
-    [astro-icon] {
-      height: 1.5rem;
+    [data-icon] {
+      font-size: 1.5rem;
     }
   }
 </style>

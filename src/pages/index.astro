@@ -1,6 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import { Icon } from "astro-icon";
+import { Icon } from "astro-icon/components";
 import site from "../data/site.json";
 import Base from "../layouts/Base.astro";
 import EpisodeDetails from "../components/EpisodeDetails.astro";
@@ -45,20 +45,20 @@ const latestEpisodes = allEpisodes.slice(0, 1);
 </Base>
 
 <style>
-  [astro-icon="fa:certificate"] {
-    height: 0.9em;
+  [data-icon="fa:certificate"] {
+    font-size: 0.9em;
     margin: 0 0.5em -0.1rem 0;
     color: var(--text);
   }
 
-  [astro-icon="bi:arrow-down-circle-fill"] {
-    height: 0.9em;
+  [data-icon="bi:arrow-down-circle-fill"] {
+    font-size: 0.9em;
     margin: 0 0.5em -0.1rem 0.5em;
     color: var(--text);
   }
 
-  [astro-icon="dashicons:awards"] {
-    height: 1em;
+  [data-icon="dashicons:awards"] {
+    font-size: 1em;
     margin: 0 0.2em -0.1em -0.1em;
     padding: 0;
     color: var(--text);

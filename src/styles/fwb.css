@@ -220,3 +220,11 @@ div.episode p img {
 #search .pagefind-ui__filter-name {
   color: var(--text);
 }
+
+[data-icon="bi:hand-thumbs-up-fill"] {
+  margin-bottom: 0.1rem;
+}
+
+[data-icon="bi:hand-thumbs-down-fill"] {
+  margin-bottom: -0.1rem;
+}

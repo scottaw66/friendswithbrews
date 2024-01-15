@@ -1,6 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
-import { Icon } from "astro-icon";
+import { Icon } from "astro-icon/components";
 import { postdate } from "./utilities/DateFormat.mjs";
 import site from "../data/site.json";
 
@@ -64,14 +64,14 @@ const { Content } = await transcript.render();
     font-size: 0.9rem;
     margin: 0 2rem;
   }
-  [astro-icon] {
-    width: 1.3rem;
+  [data-icon] {
+    font-size: 1.3rem;
     margin: 0 0.5rem -0.2rem 0;
   }
-  [astro-icon="ic:baseline-document-scanner"] {
-    width: 1em;
+  [data-icon="ic:baseline-document-scanner"] {
+    font-size: 1em;
   }
-  .transcript-links [astro-icon] {
-    width: 1em;
+  .transcript-links [data-icon] {
+    font-size: 1em;
   }
 </style>
