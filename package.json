@@ -30,8 +30,8 @@
   ],
   "author": "Scott Willsey",
   "dependencies": {
-    "@astrojs/rss": "^4.0.2",
-    "@astrojs/sitemap": "^3.0.4",
+    "@astrojs/rss": "^4.0.4",
+    "@astrojs/sitemap": "^3.0.5",
     "@fontsource/be-vietnam-pro": "^5.0.18",
     "@fontsource/ia-writer-mono": "^5.0.7",
     "@fontsource/roboto-mono": "^5.0.16",
@@ -39,19 +39,19 @@
     "@iconify-json/dashicons": "^1.1.8",
     "@iconify-json/fa": "^1.1.8",
     "@iconify-json/fa-solid": "^1.1.8",
-    "@iconify-json/fluent": "^1.1.45",
+    "@iconify-json/fluent": "^1.1.47",
     "@iconify-json/fontisto": "^1.1.8",
     "@iconify-json/ic": "^1.1.17",
     "@iconify-json/ion": "^1.1.15",
     "@iconify-json/mdi": "^1.1.64",
     "@iconify-json/ps": "^1.1.9",
-    "@iconify-json/simple-icons": "^1.1.87",
-    "astro": "^4.1.2",
+    "@iconify-json/simple-icons": "^1.1.90",
+    "astro": "^4.2.7",
     "astro-embed": "^0.6.1",
-    "astro-icon": "^1.0.2",
+    "astro-icon": "^1.0.4",
     "astro-pagefind": "^1.4.0",
     "astro-seo": "^0.8.0",
-    "date-fns": "^3.2.0",
+    "date-fns": "^3.3.1",
     "date-fns-tz": "^2.0.0",
     "nanoid": "^5.0.4",
     "normalize.css": "^8.0.1",
@@ -59,10 +59,10 @@
     "sharp": "^0.33.2"
   },
   "devDependencies": {
-    "astro-eslint-parser": "^0.16.1",
+    "@typescript-eslint/parser": "^6.20.0",
     "eslint": "^8.56.0",
-    "eslint-plugin-astro": "^0.31.0",
-    "prettier": "^3.2.2",
-    "prettier-plugin-astro": "^0.12.3"
+    "eslint-plugin-astro": "^0.31.3",
+    "prettier": "^3.2.4",
+    "prettier-plugin-astro": "^0.13.0"
   }
 }
