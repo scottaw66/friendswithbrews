@@ -1,5 +1,41 @@
 [
   {
+    "id": "TTnjrtx9g7Bp5NuNKeZ7J",
+    "name": "Decaf Colombian Whole Bean Coffee",
+    "brewery": "Wegmans",
+    "image": "WegmansColombianWholeBeanDecaf-00EA633F-D19E-4C00-B46E-69AFC81A61BA",
+    "description": "Decaffeinated light-medium roast coffee with fruity notes, prominent acidity, mild sweetness and floral aroma. 100% Arabica coffee, sourced and roasted with care to deliver a delightful coffee experience in every cup.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["60"],
+    "url": "https://shop.wegmans.com/product/228660/wegmans-decaf-colombian-whole-bean-coffee",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-down",
+        "description": "I don't like it as well as the regular Columbian. I wouldn't drink it without the sugar."
+      }
+    ]
+  },
+  {
+    "id": "gco5gYn3mbOikNuxfxgvx",
+    "name": "Beestly Organic Honey Porter",
+    "brewery": "Hopworks Brewery",
+    "image": "HopworksBreweryBeestlyOrganicHoneyPorter-F90FEC31-57DD-44AB-8758-2E404178E268",
+    "description": "An award-winning, organic, robust American Porter that exudes clover and honey aromas with delicate notes of caramel with a light, roasty finish.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["60"],
+    "url": "https://www.hopworksbeer.com/beer",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "I like this better than other Hopworks beer I've tried. I taste the honey. It's a good porter. I won't say \"OMG\" and rush out to buy it again, but I like it."
+      }
+    ]
+  },
+  {
     "id": "h28v99efp42ox9risrDoW",
     "name": "Thal",
     "brewery": "Steady State Roasting",
