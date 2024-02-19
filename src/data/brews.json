@@ -1,5 +1,23 @@
 [
   {
+    "id": "MaN6pLMBloGwddhhiyOY-",
+    "name": "Sweater Weather",
+    "brewery": "Trailhead Coffee Roasters",
+    "image": "TrailheadCoffeeRoastersSweaterWeather-7A46D1AD-5874-4F9F-9A1D-9F1C967CA2BB",
+    "description": "We wanted a super cozy coffee awesome enough to cut through the snow and freezing rain of the Pacific Northwest. This Fair Trade Organic sweet pastry of a coffee comes from Chiapas, Mexico. It has been awhile since we’ve had a Mexican coffee and we’re stoked for its return. It brews nicely as a precise pour over. Our recipe calls for 21g semi fine ground coffee, 300g 95C water. We use the ceramic Origami pour over and have achieved great results using the Matt Winton 5 pour recipe but deviating by using a the Origami setup.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["61"],
+    "url": "https://www.trailheadcoffeeroasters.com/coffee/p/seasonalsweaterweather",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "This is one of my favorite Trailhead coffees currently. I don't taste all the notes they proclaim I will, but I also don't taste sweater, and that's a bonus. It actually is a very nice morning cup of coffee."
+      }
+    ]
+  },
+  {
     "id": "TTnjrtx9g7Bp5NuNKeZ7J",
     "name": "Decaf Colombian Whole Bean Coffee",
     "brewery": "Wegmans",
@@ -727,7 +745,7 @@
     "description": "A Robust Blend of Black Teas. Steep and enjoy! Allow us to share with you the most natural and authentic tea experience in your cup.",
     "type": "tea",
     "sortOrder": "0",
-    "episodes": ["38","55"],
+    "episodes": ["38","55","61"],
     "url": "https://shop.wegmans.com/product/46639/wegmans-just-tea-english-breakfast-black-tea-bags",
     "rating": [
       {
