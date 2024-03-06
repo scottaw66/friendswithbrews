@@ -1,5 +1,23 @@
 [
   {
+    "id": "SGFUrM0NoC6MqgfyQM_SM",
+    "name": "Organic Theo Blend",
+    "brewery": "Caffe Vita Coffee Roasting Co",
+    "image": "CaffeVitaCoffeeRoastingCoOrganicTheo-0C002D7D-C26E-49B5-8AB0-C0C556AFDFA6",
+    "description": "This blend of exceptional coffees from Peru and Honduras features enticing aromas of vanilla bean, black pepper and chocolate. Medium-bodied with herbaceous, dark fruit flavors and a finish of nutmeg and brown sugar. Tastes like dark chocolate, baking spice, dark berries.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["62"],
+    "url": "https://www.caffevita.com/products/theo-blend",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "I don't know if I taste all those flavors mentioned in their description of Theo Blend, but for the kinds of coffees Whole Foods wants to stock these days, I'd say go for this one. There are some other Washington coffees there I would NOT recommend, but I'm a repeat buyer of this one."
+      }
+    ]
+  },
+  {
     "id": "MaN6pLMBloGwddhhiyOY-",
     "name": "Sweater Weather",
     "brewery": "Trailhead Coffee Roasters",
@@ -1717,7 +1735,7 @@
     "description": "Bold, decaffeinated dark roast coffee that is smooth with notes of dark chocolate, cocoa and spice. 100% Arabica coffee, sourced and roasted with care to deliver a delightful coffee experience in every cup. Perfect for espresso shot and espresso based drinks.Our Food You Feel Good About yellow banner is your shortcut to great-tasting products with no artificial colors, flavors or preservatives.",
     "type": "coffee",
     "sortOrder": "0",
-    "episodes": ["15", "18", "57", "58"],
+    "episodes": ["15", "18", "57", "58","62"],
     "url": "https://shop.wegmans.com/product/109476/wegmans-decaf-espresso-whole-bean-coffee",
     "rating": [
       {
