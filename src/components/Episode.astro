@@ -4,7 +4,6 @@ import { getCollection } from "astro:content";
 import { Icon } from "astro-icon/components";
 import { brewList } from "../components/utilities/brewlist.mjs";
 import BrewDetails from "./BrewDetails.astro";
-import Player from "./Player.astro";
 import PodcastLinks from "./PodcastLinks.astro";
 import { postdate } from "./utilities/DateFormat.mjs";
 import { episodeLength } from "./utilities/episodelength.mjs";
@@ -35,7 +34,9 @@ const transcript = await getCollection("transcripts", ({ id }) => {
       >{episode.data.episode}</span
     > •
     <span class="episode-number">
-      <a href={`${site.episodes.path}${episode.data.episode}`}>{episode.data.title}</a>
+      <a href={`${site.episodes.path}${episode.data.episode}`}
+        >{episode.data.title}</a
+      >
     </span>
   </h2>
   <div class="episode-date">
@@ -58,20 +59,6 @@ const transcript = await getCollection("transcripts", ({ id }) => {
     }
   </div>
   <p>{episode.data.description}</p>
-
-  {
-    () => {
-      if ((index === 0 && pageNum === 1) || audio === "true") {
-        return (
-          <Player
-            file={`${site.episodes.audioPrefix}${episode.data.audioFile}`}
-            episode={episode.data.episode}
-            title={episode.data.title}
-          />
-        );
-      }
-    }
-  }
 
   <PodcastLinks
     episode={episode}

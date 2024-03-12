@@ -4,7 +4,7 @@ import { getCollection } from "astro:content";
 import { Icon } from "astro-icon/components";
 import { brewList } from "../components/utilities/brewlist.mjs";
 import BrewDetails from "./BrewDetails.astro";
-import Player from "./Player.astro";
+import PodcastLinks from "./PodcastLinks.astro";
 import { postdate } from "./utilities/DateFormat.mjs";
 import { episodeLength } from "./utilities/episodelength.mjs";
 import site from "../data/site.json";
@@ -24,7 +24,9 @@ const transcript = await getCollection("transcripts", ({ id }) => {
   <h2>
     <Icon name="fontisto:podcast" />Episode {episode.data.episode} •
     <span class="episode-number">
-      <a href={`${site.episodes.path}${episode.data.episode}`}>{episode.data.title}</a>
+      <a href={`${site.episodes.path}${episode.data.episode}`}
+        >{episode.data.title}</a
+      >
     </span>
   </h2>
   <div class="episode-date">
@@ -47,11 +49,12 @@ const transcript = await getCollection("transcripts", ({ id }) => {
     }
   </div>
   <p>{episode.data.description}</p>
-  <Player
-    file={`${site.episodes.audioPrefix}${episode.data.audioFile}`}
-    episode={episode.data.episode}
-    title={episode.data.title}
+
+  <PodcastLinks
+    episode={episode}
+    transcript={transcript.map((transcript) => transcript.slug.toString())}
   />
+
   <div class="brew-container">
     {brews.map((brew) => <BrewDetails brew={brew} episode={episode.slug} />)}
   </div>
