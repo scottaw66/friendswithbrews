@@ -1,5 +1,23 @@
 [
   {
+    "id": "ocEu3PWnNHm9lfdFjwx2m",
+    "name": "Palmera",
+    "brewery": "Good Citizen Coffee Co",
+    "image": "GoodCitizenCoffeeCoPalmera-B2EB6C19-9EC3-4C95-A919-017ADDDFC78D",
+    "description": "This Colombian offering consists of coffees from several smallholder farmers in the Huila department of southern Colombia. We love how this coffee features so many of the quintessential qualities we enjoy in great Colombian coffees, like a berry acidity, creamy body, and caramel sweetness. Notes: Strawberry, Caramel, Smooth.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["64"],
+    "url": "https://goodcitizencoffee.com/products/la-palmera",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "I give it a thumbs up. It's one of many coffees I've gotten through Trade that are very subtle, very non-offensive, and are good, but not stunningly memorable."
+      }
+    ]
+  },
+  {
     "id": "TwVH1NMPcPwBURarNI3mz",
     "name": "Colombia Del Campo",
     "brewery": "Broadcast Coffee",
@@ -223,7 +241,7 @@
     "description": "As it was forbidden to brew in summer, a stronger beer -- the Märzen -- was brewed earlier in March. It would finally be served at the Oktoberfest, under the \"Heaven of Bavaria.\" We have returned once again to the age-old recipe and recreated that gloriously smooth, honey-coloured piece of history from times gone by. Perfect with: Bavarian sausage salad and all the titbits a true Bavarian would also enjoy: roast chicken, sausages or suckling pig cooked in Wiesn beer.",
     "type": "beer",
     "sortOrder": "0",
-    "episodes": ["54","59"],
+    "episodes": ["54", "59"],
     "url": "https://www.hacker-pschorr.com/our-beers/usa/oktoberfest-maerzen",
     "rating": [
       {
@@ -673,7 +691,7 @@
     "description": "Nutty with a Sweet Finish.",
     "type": "coffee",
     "sortOrder": "0",
-    "episodes": ["40","53"],
+    "episodes": ["40", "53"],
     "url": "https://shop.wegmans.com/product/218876/wegmans-organic-coffee-specialty-whole-bean-peruvian-decaf",
     "rating": [
       {
@@ -781,7 +799,7 @@
     "description": "A Robust Blend of Black Teas. Steep and enjoy! Allow us to share with you the most natural and authentic tea experience in your cup.",
     "type": "tea",
     "sortOrder": "0",
-    "episodes": ["38","55","61","63"],
+    "episodes": ["38", "55", "61", "63"],
     "url": "https://shop.wegmans.com/product/46639/wegmans-just-tea-english-breakfast-black-tea-bags",
     "rating": [
       {
@@ -1393,7 +1411,7 @@
     "description": "Smooth and soft, with subtle notes of coffee and chocolate, this oatmeal stout is a fine choice for any time of day, whether you're an early bird or a night owl. 6.0% ABV",
     "type": "beer",
     "sortOrder": "0",
-    "episodes": ["23","59"],
+    "episodes": ["23", "59"],
     "url": "http://www.littlebeastbrewing.com/beers",
     "rating": [
       {
@@ -1753,7 +1771,7 @@
     "description": "Bold, decaffeinated dark roast coffee that is smooth with notes of dark chocolate, cocoa and spice. 100% Arabica coffee, sourced and roasted with care to deliver a delightful coffee experience in every cup. Perfect for espresso shot and espresso based drinks.Our Food You Feel Good About yellow banner is your shortcut to great-tasting products with no artificial colors, flavors or preservatives.",
     "type": "coffee",
     "sortOrder": "0",
-    "episodes": ["15", "18", "57", "58","62"],
+    "episodes": ["15", "18", "57", "58", "62", "64"],
     "url": "https://shop.wegmans.com/product/109476/wegmans-decaf-espresso-whole-bean-coffee",
     "rating": [
       {
@@ -2452,7 +2470,7 @@
     "description": "A robust Porter that features two pounds per barrel of the finest Belgian dark chocolate, creating a slightly roasty pint with underlying chocolate sweetness.",
     "type": "beer",
     "sortOrder": "0",
-    "episodes": ["1","54"],
+    "episodes": ["1", "54"],
     "url": "https://www.threecreeksbrewing.com/beer/",
     "rating": [
       {
