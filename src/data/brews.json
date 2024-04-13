@@ -170,7 +170,7 @@
     "type": "beer",
     "sortOrder": "0",
     "episodes": ["57"],
-    "url": "http://www.littlebeastbrewing.com/beers",
+    "url": "https://www.littlebeastbrewing.com/folkvangr",
     "rating": [
       {
         "host": "Scott",
@@ -476,7 +476,7 @@
     "type": "beer",
     "sortOrder": "0",
     "episodes": ["47"],
-    "url": "http://www.littlebeastbrewing.com/beers",
+    "url": "https://www.littlebeastbrewing.com/beer",
     "rating": [
       {
         "host": "Scott",
@@ -1412,7 +1412,7 @@
     "type": "beer",
     "sortOrder": "0",
     "episodes": ["23", "59"],
-    "url": "http://www.littlebeastbrewing.com/beers",
+    "url": "https://www.littlebeastbrewing.com/third-bird",
     "rating": [
       {
         "host": "Scott",
