@@ -11,7 +11,7 @@ export function GET(context) {
   episodes = episodes.sort(
     (a, b) =>
       new Date(b.frontmatter.date).valueOf() -
-      new Date(a.frontmatter.date).valueOf()
+      new Date(a.frontmatter.date).valueOf(),
   );
   return rss({
     title: site.title,
@@ -51,18 +51,15 @@ export function GET(context) {
       pubDate: rfc2822(episode.frontmatter.date),
       description: episode.frontmatter.description,
       content: sanitizeHtml(episode.compiledContent()),
-      customData: `<enclosure url="${site.episodes.audioPrefix}${
-        episode.frontmatter.audioFile
-      }" length="${episode.frontmatter.bytes}" type="audio/mpeg" />
+      customData: `<enclosure url="${site.episodes.audioPrefix}${episode.frontmatter.audioFile}" length="${episode.frontmatter.bytes}" type="audio/mpeg" />
       <itunes:title>${episode.frontmatter.title}</itunes:title>
       <itunes:episode>${episode.frontmatter.episode}</itunes:episode>
       <itunes:duration>${episode.frontmatter.length}</itunes:duration>
       <itunes:image href="${site.url}images/${site.rss.image}"/>
       <itunes:explicit>No</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary><![CDATA[${
-        episode.frontmatter.description
-      }]]></itunes:summary>`,
+      <itunes:summary><![CDATA[${episode.frontmatter.description}]]></itunes:summary>
+      <summary><![CDATA[${episode.frontmatter.description}]]></summary>`,
       ...episode.frontmatter,
     })),
   });
