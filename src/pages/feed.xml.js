@@ -1,5 +1,6 @@
 import rss from "@astrojs/rss";
 import sanitizeHtml from "sanitize-html";
+import { globalImageUrls } from "../components/utilities/stringformatter.mjs";
 import { rfc2822, year } from "../components/utilities/DateFormat.mjs";
 import site from "../data/site.json";
 
@@ -50,7 +51,12 @@ export function GET(context) {
       link: `${site.url}${episode.frontmatter.slug}`,
       pubDate: rfc2822(episode.frontmatter.date),
       description: episode.frontmatter.description,
-      content: sanitizeHtml(episode.compiledContent()),
+      content: globalImageUrls(
+        site.url,
+        sanitizeHtml(episode.compiledContent(), {
+          allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
+        }),
+      ),
       customData: `<enclosure url="${site.episodes.audioPrefix}${episode.frontmatter.audioFile}" length="${episode.frontmatter.bytes}" type="audio/mpeg" />
       <itunes:title>${episode.frontmatter.title}</itunes:title>
       <itunes:episode>${episode.frontmatter.episode}</itunes:episode>
