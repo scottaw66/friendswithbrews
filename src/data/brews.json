@@ -1,5 +1,41 @@
 [
   {
+    "id": "uPDnGxlpW6NvUVpb6bivQ",
+    "name": "Coffee House",
+    "brewery": "Jack's Abby",
+    "image": "JacksAbbyCoffeeHouse-0BD1C1FA-6522-4783-BFC3-7A1D3B0E56B1",
+    "description": "We infused our House Lager with Wegmans Donut Shop Blend Coffee to give your favorite lager a buzz. Drink Coffee House from morning to night!",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["65"],
+    "url": "https://jacksabby.com/beers/coffee-house/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "Very smooth, bordering on sweet, with a lingering coffee taste. This is nice."
+      }
+    ]
+  },
+  {
+    "id": "4A-BcCzCmq0Eq_P1yiqUM",
+    "name": "Bochi Bochi",
+    "brewery": "Crux Fermentation Project",
+    "image": "CruxFermentationProjectBochiBochi-0BD1C1FA-6522-4783-BFC3-7A1D3B0E56B1",
+    "description": "Brewed in the crisp Japanese style with whole Calrose Rice. Very easy-drinking and pleasant on the palate with a mild floral balance from Oregon-grown Tettnang whole-leaf hops. Kanpai!",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["65"],
+    "url": "https://www.cruxfermentation.com/beer/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "I'm a fan. Rice lagers are underrated, especially brewed Japanese style. This is a good one for those days you really don't want to feel the effects of alcohol at all, but want a nice cold beer that doesn't offend with its weakness and is craft brew quality."
+      }
+    ]
+  },
+  {
     "id": "ocEu3PWnNHm9lfdFjwx2m",
     "name": "Palmera",
     "brewery": "Good Citizen Coffee Co",
