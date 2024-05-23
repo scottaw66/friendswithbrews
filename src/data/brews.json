@@ -1,5 +1,41 @@
 [
   {
+    "id": "HzJJVMbrbAAIO8YBrDHOv",
+    "name": "Slumber Decaf",
+    "brewery": "Alma Coffee",
+    "image": "AlmaCoffeeSlumberDecaf-0AB454F2-E8DF-4B53-BB23-3A38DFC34845",
+    "description": "Slumber is our second decaf offering here at Alma. We wanted to round out our options for decaf lovers and include something a little lighter than our original decaf roast, Dreamer. For Slumber, we absolutely love the surprising complexity that you’ll get out of this roast and truly think you’ll be surprised to learn decaf offerings could be so delicious. Notes: Almond, Chocolate, Sweet Pastry.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["67"],
+    "url": "https://myalmacoffee.com/products/slumber",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "I would not call it sweet. I do taste the chocolate and maybe the almond. It's good. I will drink this decaf again. I like it, I recommend it, I will thumbs it up the ying yang."
+      }
+    ]
+  },
+  {
+    "id": "BVTAsYDPwLRSGk77cAiki",
+    "name": "Organic Funky Chicken Medium Dark Roast Signature Blend Coffee",
+    "brewery": "Red Rooster Coffee",
+    "image": "RedRoosterCoffeeFunkyChicken-0AB454F2-E8DF-4B53-BB23-3A38DFC34845",
+    "description": "Our Go-To Crowd-Pleaser Coffee. When we first began roasting coffee we wanted to create a blend that would appeal to all audiences. With a lot of practice and a little luck, we created a winner. This blend features three coffees from three origins, roasted to three different profiles to create one of the most complex yet approachable medium to dark roast blends you can find. Tasting notes: Dark Chocolate Torte, Praline, Citrus, Nutty.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["67"],
+    "url": "https://www.redroostercoffee.com/products/organic-funky-chicken",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "It's ok. I would thumbs up it. At first I thought it was too floral and citrus-y, but I'll put a splash of cream or cut it with Wegmans Decaf and it's very drinkable that way."
+      }
+    ]
+  },
+  {
     "id": "dV1gm7uMRsqjpSUEbMbsD",
     "name": "Hibiscus Tea",
     "brewery": "Traditional Medicinals",
