@@ -919,6 +919,41 @@ declare module 'astro:content' {
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">
 } & { render(): Render[".md"] };
+"63.md": {
+	id: "63.md";
+  slug: "63";
+  body: string;
+  collection: "transcripts";
+  data: InferEntrySchema<"transcripts">
+} & { render(): Render[".md"] };
+"64.md": {
+	id: "64.md";
+  slug: "64";
+  body: string;
+  collection: "transcripts";
+  data: InferEntrySchema<"transcripts">
+} & { render(): Render[".md"] };
+"65.md": {
+	id: "65.md";
+  slug: "65";
+  body: string;
+  collection: "transcripts";
+  data: InferEntrySchema<"transcripts">
+} & { render(): Render[".md"] };
+"66.md": {
+	id: "66.md";
+  slug: "66";
+  body: string;
+  collection: "transcripts";
+  data: InferEntrySchema<"transcripts">
+} & { render(): Render[".md"] };
+"67.md": {
+	id: "67.md";
+  slug: "67";
+  body: string;
+  collection: "transcripts";
+  data: InferEntrySchema<"transcripts">
+} & { render(): Render[".md"] };
 };
 
 	};
