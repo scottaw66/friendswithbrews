@@ -25,9 +25,9 @@ html {
   --pager: #fff;
   --pager-bg: #0d0a01;
   --pager-link-text: #f5e4bb;
-  --progress-value: #b49664;
-  --player-surface: var(--pager-bg);
-  --player-text: var(--surface);
+  --progress-value: #0d0a01;
+  --player-surface: #c9ab67;
+  --player-text: var(#0d0a01);
 
   --pagefind-ui-scale: 0.8;
   --pagefind-ui-primary: var(--menu-border);

@@ -145,7 +145,7 @@ const epName = episode && title ? `${episode} • ${title}` : null;
         pause.style.display = "inline-block";
         audio.play();
       },
-      false
+      false,
     );
 
     pause.addEventListener(
@@ -155,7 +155,7 @@ const epName = episode && title ? `${episode} • ${title}` : null;
         play.style.display = "inline-block";
         audio.pause();
       },
-      false
+      false,
     );
 
     rewind.addEventListener(
@@ -163,7 +163,7 @@ const epName = episode && title ? `${episode} • ${title}` : null;
       function () {
         audio.currentTime -= 30;
       },
-      false
+      false,
     );
 
     forward.addEventListener(
@@ -171,7 +171,7 @@ const epName = episode && title ? `${episode} • ${title}` : null;
       function () {
         audio.currentTime += 30;
       },
-      false
+      false,
     );
 
     progress.addEventListener(
@@ -180,7 +180,7 @@ const epName = episode && title ? `${episode} • ${title}` : null;
         audio.currentTime =
           Math.floor(audio.duration) * (e.offsetX / e.target.offsetWidth);
       },
-      false
+      false,
     );
 
     mute.addEventListener(
@@ -191,7 +191,7 @@ const epName = episode && title ? `${episode} • ${title}` : null;
         loud.focus();
         audio.muted = !audio.muted;
       },
-      false
+      false,
     );
 
     loud.addEventListener(
@@ -202,7 +202,7 @@ const epName = episode && title ? `${episode} • ${title}` : null;
         mute.focus();
         audio.muted = !audio.muted;
       },
-      false
+      false,
     );
     //}
   })(this);
@@ -213,6 +213,7 @@ const epName = episode && title ? `${episode} • ${title}` : null;
     width: 500px;
     margin: 2rem auto;
     border-radius: 10px;
+    border: solid 2px var(--menu-border);
     padding: 0.5rem;
     background-color: var(--player-surface);
     color: var(--player-text);
