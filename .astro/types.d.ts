@@ -581,6 +581,13 @@ declare module 'astro:content' {
   collection: "episodes";
   data: any
 } & { render(): Render[".md"] };
+"69.md": {
+	id: "69.md";
+  slug: "69";
+  body: string;
+  collection: "episodes";
+  data: any
+} & { render(): Render[".md"] };
 "7.md": {
 	id: "7.md";
   slug: "7";
@@ -1071,7 +1078,11 @@ declare module 'astro:content' {
 	};
 
 	type DataEntryMap = {
-		"srt": {
+		"srt": Record<string, {
+  id: string;
+  collection: "srt";
+  data: any;
+}>;
 
 	};
 

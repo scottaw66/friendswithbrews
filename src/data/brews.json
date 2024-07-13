@@ -1,5 +1,41 @@
 [
   {
+    "id": "eibR8hIAyDqygFhgj4uUJ",
+    "name": "Màkku Blueberry",
+    "brewery": "Sool",
+    "image": "SoolMakkuBlueberry-B97C2279-2EEC-44A0-9AA5-3E3A035C5F7B",
+    "description": "If you love the idea of a boozy, bubbly, blueberry frozen yogurt, this one’s for you! A hint sweet. Aspartame-Free.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["69"],
+    "url": "https://www.drinksool.com/products/makku-blueberry?variant=42508266930365",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-down",
+        "description": "It's like an alcoholic yogurt, and I don't think that's a good thing. If someone was going to shoot my family if I didn't drink this, I'd drink it. If they were going to shoot me if I didn't drink this, I'd say please shoot me."
+      }
+    ]
+  },
+  {
+    "id": "T2wuPTuwqE5EwyKbu9F2T",
+    "name": "Decaf Colombia Palo Rosa",
+    "brewery": "Broadcast Coffee",
+    "image": "BroadcastCoffee-DecafColombiaPaloRosa-02032A72-DEC3-4052-A20A-D7176662CC9F",
+    "description": "We have never been happier with the flavor profile of any other decaffeination process that we have tried. We roast this coffee to a medium roast in order to create an accessible every day coffee that tastes delicious with or without cream or sugar.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["69"],
+    "url": "https://broadcastcoffeeroasters.com/products/decaf-colombia-palo-rosa?_pos=3&_sid=e91571861&_ss=r",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "I gotta say, I'm liking this. I think I would prefer a darker roast, but this is very drinkable. This might be an enthusiastic thumbs-up. Like, I would not have to be desperate to drink this."
+      }
+    ]
+  },
+  {
     "id": "-smsNbBdu49k-y3YCqO48",
     "name": "Alma Coffee Honey Process",
     "brewery": "Alma Coffee Honey Process",
