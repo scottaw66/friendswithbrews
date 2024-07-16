@@ -39,7 +39,7 @@
     "@iconify-json/dashicons": "^1.1.9",
     "@iconify-json/fa": "^1.1.8",
     "@iconify-json/fa-solid": "^1.1.8",
-    "@iconify-json/fluent": "^1.1.58",
+    "@iconify-json/fluent": "^1.1.59",
     "@iconify-json/fontisto": "^1.1.8",
     "@iconify-json/ic": "^1.1.17",
     "@iconify-json/ion": "^1.1.18",
@@ -61,6 +61,6 @@
     "eslint": "^9.7.0",
     "eslint-plugin-astro": "^1.2.3",
     "prettier": "^3.3.3",
-    "prettier-plugin-astro": "^0.14.0"
+    "prettier-plugin-astro": "^0.14.1"
   }
 }
