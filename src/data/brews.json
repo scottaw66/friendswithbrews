@@ -1,5 +1,59 @@
 [
   {
+    "id": "Hs0ymJhKmYr7OiQZfeFp5",
+    "name": "Decaf Colombia Amigos Del Huila",
+    "brewery": "Dapper & Wise Roasters",
+    "image": "Dapperand-Wise-Roasters-Decaf-Colombia-Amigos-Del-Huila-02032A72-DEC3-4052-A20A-D7176662CC9F",
+    "description": "This sugarcane process decaffeinated community lot reminds of of honey, brown sugar and cherry.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["70"],
+    "url": "https://dapperandwise.com/collections/coffee/products/decaf-rwanda-baho?variant=44503883252021",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "It's says it's comforting, and dammit, I feel comforted right now!"
+      }
+    ]
+  },
+  {
+    "id": "k4H7FOAFVieaz5Qtg_5z9",
+    "name": "SELECT Coffee Whole Bean Dark Roast Italian Roast",
+    "brewery": "Safeway Signature",
+    "image": "Safeway-Signature-SELECT-Coffee-Whole-Bean-Dark-Roast-Italian-Roast-02032A72-DEC3-4052-A20A-D7176662CC9F",
+    "description": "Tasting Notes: Hearty, smoky, chocolate. Our Signature Select Italian roast begins with a blend of Latin American beans that are sturdy enough to handle the extreme dark roasting style that originated in southern Italy. This longer and deeper roasting style mellows acidity, deepens body and sweetness, and adds smokiness and flavors of dark chocolate to the coffee. Enjoy this boldly roasted coffee, with its creamy body and hearty finish.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["70"],
+    "url": "https://www.safeway.com/shop/product-details.960295655.html",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "Part of my special Peter's blend mix of coffees!"
+      }
+    ]
+  },
+  {
+    "id": "HvuNSKm5pvmXueauWHpdQ",
+    "name": "Odin",
+    "brewery": "Tamper Coffee",
+    "image": "TamperCoffeeOdin-6D49A626-B5BC-45D8-8378-5711D6212D30",
+    "description": "Tamper provides ZERO description of this coffee, or anything else.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["70"],
+    "url": "https://www.tampercafe.com",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "Part of my special Peter's blend mix of coffees!"
+      }
+    ]
+  },
+  {
     "id": "eibR8hIAyDqygFhgj4uUJ",
     "name": "Màkku Blueberry",
     "brewery": "Sool",
@@ -25,7 +79,7 @@
     "description": "We have never been happier with the flavor profile of any other decaffeination process that we have tried. We roast this coffee to a medium roast in order to create an accessible every day coffee that tastes delicious with or without cream or sugar.",
     "type": "coffee",
     "sortOrder": "0",
-    "episodes": ["69"],
+    "episodes": ["69", "70"],
     "url": "https://broadcastcoffeeroasters.com/products/decaf-colombia-palo-rosa?_pos=3&_sid=e91571861&_ss=r",
     "rating": [
       {
@@ -1933,7 +1987,7 @@
     "description": "Bold, decaffeinated dark roast coffee that is smooth with notes of dark chocolate, cocoa and spice. 100% Arabica coffee, sourced and roasted with care to deliver a delightful coffee experience in every cup. Perfect for espresso shot and espresso based drinks.Our Food You Feel Good About yellow banner is your shortcut to great-tasting products with no artificial colors, flavors or preservatives.",
     "type": "coffee",
     "sortOrder": "0",
-    "episodes": ["15", "18", "57", "58", "62", "64"],
+    "episodes": ["15", "18", "57", "58", "62", "64", "70"],
     "url": "https://shop.wegmans.com/product/109476/wegmans-decaf-espresso-whole-bean-coffee",
     "rating": [
       {
