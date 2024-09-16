@@ -1,5 +1,41 @@
 [
   {
+    "id": "-QLsn-M5QQP6_O7Pn_w4l",
+    "name": "Decaf Fool's Gold",
+    "brewery": "Anodyne Coffee Roasting Co.",
+    "image": "AnodyneCoffeeRoastingCoDecafFoolsGold-BBCC38C6-EDC4-4DB2-BD31-6E23928B8C1A",
+    "description": "Decaf Fool’s Gold is for those that love coffee, but prefer to avoid the caffeine. Featuring two coffees selected for their smooth and nutty taste, we assure you will not find a better decaf anywhere else.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["72"],
+    "url": "https://anodynecoffee.com/products/decaf-fools-gold",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "Little lighter than I would normally take it. Not something I would drink straight, but I added a little bit of cream and now it’s quite pleasant. Would I recommend it? Yes, I like it."
+      }
+    ]
+  },
+  {
+    "id": "niaP3tQf8U_4pfAXPZPBB",
+    "name": "Guatemala",
+    "brewery": "Trailhead Coffee Roasters",
+    "image": "TrailheadCoffeeRoastersGuatemala-BBCC38C6-EDC4-4DB2-BD31-6E23928B8C1A",
+    "description": "We’ve had this Guatemala since we started way back in 2009. It’s a flagship amazing coffee and essentially defines Trailhead. With notes of Cacao, Almond and Pecan this coffee is your reliable, comfortable friend. It’s an honor for us to carry you from sleepy to full consciousness so you can crush your day. Getting this right with a lovely experience as you are sipping and also how it impacts your body and mind. I very much need my coffee to be amazing to gather enough stoke to make the day count. I always reach for Trailhead and often the choice is Guatemala to make this happen.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["72"],
+    "url": "https://www.trailheadcoffeeroasters.com/coffee/p/guatemala",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "What do I taste? I probably taste the almond and the pecan more than the Cacau. If I do taste chocolate, it’s definitely bitter chocolate, which is fine. I have no problem with that. Bitter chocolate is good for a lot of things. I do recommend."
+      }
+    ]
+  },
+  {
     "id": "75Y4sV6jIqePLDxFKfHxB",
     "name": "Nightcap Noir Decaf",
     "brewery": "Joe Coffee Company",
