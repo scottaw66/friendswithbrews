@@ -31,7 +31,7 @@
   "author": "Scott Willsey",
   "dependencies": {
     "@astrojs/rss": "^4.0.7",
-    "@astrojs/sitemap": "^3.1.6",
+    "@astrojs/sitemap": "^3.2.0",
     "@fontsource/be-vietnam-pro": "^5.1.0",
     "@fontsource/ia-writer-mono": "^5.1.0",
     "@fontsource/roboto-mono": "^5.1.0",
@@ -45,8 +45,8 @@
     "@iconify-json/ion": "^1.2.0",
     "@iconify-json/mdi": "^1.2.0",
     "@iconify-json/ps": "^1.2.0",
-    "@iconify-json/simple-icons": "^1.2.4",
-    "astro": "^4.15.9",
+    "@iconify-json/simple-icons": "^1.2.5",
+    "astro": "^4.15.11",
     "astro-embed": "^0.7.2",
     "astro-icon": "^1.1.1",
     "astro-pagefind": "^1.6.0",
@@ -54,11 +54,11 @@
     "date-fns": "^4.1.0",
     "nanoid": "^5.0.7",
     "normalize.css": "^8.0.1",
-    "sanitize-html": "^2.13.0",
+    "sanitize-html": "^2.13.1",
     "sharp": "^0.33.5"
   },
   "devDependencies": {
-    "eslint": "^9.11.1",
+    "eslint": "^9.12.0",
     "eslint-plugin-astro": "^1.2.4",
     "prettier": "^3.3.3",
     "prettier-plugin-astro": "^0.14.1"
