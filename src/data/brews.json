@@ -1,5 +1,23 @@
 [
   {
+    "id": "m7nb1Agj06xnAeVfhuf8j",
+    "name": "Eleven of Spades",
+    "brewery": "Extracto Coffee Roasters",
+    "image": "ExtractoCoffeeRoastersElevenofSpades-857C965F-C378-496C-9E9A-833DBC34C224",
+    "description": "Our house blend, silky smooth chocolate throughout, sweet dark fruit tones and a lingering German chocolate finish. Eleven of Spades cuts through milk like a knife and stands on its own deliciously.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["74"],
+    "url": "https://extractocoffee.com/products/eleven-of-spades",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "Not bad, a little bitter for my taste. I definitely taste some of the chocolate notes they’re talking about, but it’s slightly bitterer than most of the coffees I drink."
+      }
+    ]
+  },
+  {
     "id": "3aVTsfp5zr7mLGd5S7x1J",
     "name": "Let the Games Begin",
     "brewery": "DRINK COFFEE DO STUFF",
@@ -2095,7 +2113,7 @@
     "description": "Bold, decaffeinated dark roast coffee that is smooth with notes of dark chocolate, cocoa and spice. 100% Arabica coffee, sourced and roasted with care to deliver a delightful coffee experience in every cup. Perfect for espresso shot and espresso based drinks.Our Food You Feel Good About yellow banner is your shortcut to great-tasting products with no artificial colors, flavors or preservatives.",
     "type": "coffee",
     "sortOrder": "0",
-    "episodes": ["15", "18", "57", "58", "62", "64", "70"],
+    "episodes": ["15", "18", "57", "58", "62", "64", "70", "74"],
     "url": "https://shop.wegmans.com/product/109476/wegmans-decaf-espresso-whole-bean-coffee",
     "rating": [
       {
