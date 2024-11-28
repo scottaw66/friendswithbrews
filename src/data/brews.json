@@ -1,5 +1,41 @@
 [
   {
+    "id": "8yCldRPMkQqPeE5i2G40Z",
+    "name": "Oktommegang",
+    "brewery": "Brewery Ommegang",
+    "image": "BreweryOmmegangOktommegang-3D93861E-255A-4AE8-B79F-4842B49F40BC",
+    "description": "Join us in celebrating the world's favorite beer festival with Oktommegang, our take on the classic Marzen-style Lager! Pouring with a rich amber hue and topped with a foamy white cap, it's the perfect brew to fill your stein and set the table for an authentic European experience. Brewed with pristine water from Ommegang's aquifer, Oktommegang boasts notes of bready caramel malts balanced by a hint of noble hops. Simple, clean, and easy to enjoy, we invite you to savor this generous yet drinkable fall favorite. Prost!",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["75"],
+    "url": "https://www.ommegang.com/beerinfo/oktommegang/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "It's also part of the OMG series. And it is generous yet drinkable!"
+      }
+    ]
+  },
+  {
+    "id": "y_5h-t-nLpsni8K0XwG4b",
+    "name": "High Desert Sunrise",
+    "brewery": "Sisters Coffee Company",
+    "image": "SistersCoffeeCompanyHighDesertSunrise-3D93861E-255A-4AE8-B79F-4842B49F40BC",
+    "description": "Characterized by sparkling citrus, honey and candied hazelnut, this blend consists of Latin American coffees. The roast level is on the lighter side, highlighting the bright acidity and sweetness of these coffees. The perfect coffee for crisp summer mornings in the Central Oregon High Desert.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["75"],
+    "url": "https://sisterscoffee.com/collections/shop-coffee-blends/products/high-desert-sunrise",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "I like this. I'll go with their claims bright acidity. It's very easy to make without any bitterness."
+      }
+    ]
+  },
+  {
     "id": "m7nb1Agj06xnAeVfhuf8j",
     "name": "Eleven of Spades",
     "brewery": "Extracto Coffee Roasters",
@@ -668,7 +704,7 @@
   {
     "id": "7TlowCYjWP3OiiAN0mcAb",
     "name": "Three Philosophers",
-    "brewery": "Ommegang Brewery",
+    "brewery": "Brewery Ommegang",
     "image": "OmmegangBreweryThreePhilosophers-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E",
     "description": "Rich and complex, this tour de force is a glorious blend of elegant Belgian-style quadruple ale and authentic Belgian kriek, its malty depth and gentle sweetness enhanced by sparkling carbonation and a serendipitous touch of cherry. Pouring a mysterious chestnut brown, Three Philosophers is the perfect beer for leisurely sipping and quiet contemplation. The meaning of life? Even if you don't quite get there, this beer is sure to sweeten the journey.",
     "type": "beer",
@@ -1532,7 +1568,7 @@
   {
     "id": "B6D8ylFWlLWDcRcJ_ER-s",
     "name": "Triple Fruited Tripel",
-    "brewery": "OMMEGANG Brewery",
+    "brewery": "Brewery Ommegang",
     "image": "OmmegangTripleFruitedTripel-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E",
     "description": "A fruited feast for the senses. Delightful aromas of ripe peach, creamy mango and juicy orange, with a hint of carbonation to tickle the nose. Three fruits, three times added to a balance blend of citrusy hops makes each sip more refreshing than the last. Well-complimented by a vibrant ginger hue and sitting nicely at 9% ABV, Triple Fruited Tripel makes for an easy drinking ale that's juicy and smooth.",
     "type": "beer",
@@ -2555,7 +2591,7 @@
   {
     "id": "APPCGOMJ4SLQIDKCJYOGY",
     "name": "Everything Nice",
-    "brewery": "OMMEGANG Brewery",
+    "brewery": "Brewery Ommegang",
     "image": "OMMEGANGBreweryEverythingNice-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E",
     "description": "Lightly dusted with spices of the season, Everything Nice is a warming, wintry Belgian-style blonde ale. This supremely cozy confection pairs perfectly with any traditional holiday treat. Note the flavors of cinnamon, ginger, nutmeg, cloves, and white pepper as you sip next to the fireplace. We hope this fresh-baked offering brings warmth and light to you and yours.",
     "type": "beer",
@@ -2789,7 +2825,7 @@
   {
     "id": "X8Z2RFIG2PDPK8SOU59JT",
     "name": "Three Philosophers Double Chocolate",
-    "brewery": "Ommegang Brewery",
+    "brewery": "Brewery Ommegang",
     "image": "ThreePhilosophersDoubleChocolate-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E",
     "description": "It’s been said that chocolate is happiness you can eat. Likewise, we contend that Three Philosophers, our Belgian-style quadruple, is wisdom you can drink. Married together, we present a beer for mind and soul; a deeply-considered chocolate philosophy. For this project, we partnered with the artisans at Taza Chocolate, who shared their cocoa and their expertise in pursuit of sweet perfection. Swirl, sip, and melt away… This heavenly confection pours a deep caramel in color with mahogany flecks, topped by a foamy tan head. Semi-sweet cocoa and subtle vanilla prevail in the aroma. The mouthfeel is textured and full-bodied, with caramel, toffee and dark fruit wrapped in the embrace of rich, decadent Taza chocolate, culminating in a refreshingly smooth, lingering finish.",
     "type": "beer",
