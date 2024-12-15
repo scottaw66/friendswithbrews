@@ -1,5 +1,59 @@
 [
   {
+    "id": "n6giPq17fgOLE4x9cLpZK",
+    "name": "Daybreak Organic Coffee",
+    "brewery": "Wegmans",
+    "image": "WegmansDaybreakOrganicCoffee-D8D18B51-0DEB-4303-8BC8-50ECDAB79804",
+    "description": "Complex with a Smooth Finish.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["76"],
+    "url": "https://shop.wegmans.com/product/219259/wegmans-organic-coffee-specialty-whole-bean-daybreak",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "Really good, I enjoy it a lot. Dark roast, whole bean, not that different than their regular dark roast. It is complex and very smooth."
+      }
+    ]
+  },
+  {
+    "id": "b6KLznv7R9ASDkq4dADUG",
+    "name": "Hair of the Goat",
+    "brewery": "Wandering Goat Coffee",
+    "image": "WanderingGoatHairOfTheGoat-D8D18B51-0DEB-4303-8BC8-50ECDAB79804",
+    "description": "On paper, Hair of the Goat should taste enormously complex with a host of competing flavors; in reality, the blend of two distinct Latin single-origins and one Indonesian ends up as the best introduction to our coffees and one of our most drinkable brews. From a palette standpoint, it offers a little bit of everything, and when customers ask for either a house- or breakfast-blend, we suggest Hair of the Goat.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["76"],
+    "url": "https://wanderinggoat.com/products/hair-of-the-goat",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "It has a tiny bit of bitterness, in a good way. Smooth, drink it black."
+      }
+    ]
+  },
+  {
+    "id": "uls66M32OVfcYBZ-UzVpM",
+    "name": "Santa's Private Reserve 2024",
+    "brewery": "Rogue",
+    "image": "Rogue2024SantasPrivateReserve-D8D18B51-0DEB-4303-8BC8-50ECDAB79804",
+    "description": "A collaboration with Portland Coffee Roasters. This festive brew captures the festive spirit in every sip.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["76"],
+    "url": "https://www.rogue.com/shop/beer/seasonal/2024-santas-private-reserve/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "A really nice coffee stout. Slightly bitter, I definitely get the stout taste, and I definitely get the coffee taste. I will have this again."
+      }
+    ]
+  },
+  {
     "id": "8yCldRPMkQqPeE5i2G40Z",
     "name": "Oktommegang",
     "brewery": "Brewery Ommegang",

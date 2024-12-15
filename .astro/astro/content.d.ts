@@ -652,6 +652,13 @@ declare module 'astro:content' {
   collection: "episodes";
   data: any
 } & { render(): Render[".md"] };
+"76.md": {
+	id: "76.md";
+  slug: "76";
+  body: string;
+  collection: "episodes";
+  data: any
+} & { render(): Render[".md"] };
 "8.md": {
 	id: "8.md";
   slug: "8";
