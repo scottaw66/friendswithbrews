@@ -48,7 +48,7 @@ export function GET(context) {
     <copyright>©${year()} ${site.name}</copyright>`,
     items: Array.from(episodes).map((episode) => ({
       title: episode.frontmatter.title,
-      link: `${site.url}${episode.frontmatter.slug}`,
+      link: `${site.url}${episode.frontmatter.id}`,
       pubDate: rfc2822(episode.frontmatter.date),
       description: episode.frontmatter.description,
       content: globalImageUrls(
