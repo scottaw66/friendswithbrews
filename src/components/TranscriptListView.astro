@@ -9,7 +9,6 @@ interface Props {
   transcript: CollectionEntry<"transcripts">;
 }
 const { transcript } = Astro.props;
-const { Content } = await render(transcript);
 ---
 
 <div class="transcript" data-pagefind-ignore>

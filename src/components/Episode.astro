@@ -51,11 +51,8 @@ const transcript = await getCollection("transcripts", ({ id }) => {
     {
       transcript.map((transcript) => (
         <span>
-          •{" "}
-          <>
-            <Icon name="ic:baseline-document-scanner" />
-            <a href={`/transcripts/${transcript.slug}`}>Transcript</a>
-          </>
+          • <Icon name="ic:baseline-document-scanner" />
+          <a href={`/transcripts/${transcript.id}`}>Transcript</a>
         </span>
       ))
     }
@@ -78,7 +75,7 @@ const transcript = await getCollection("transcripts", ({ id }) => {
 
   <PodcastLinks
     episode={episode}
-    transcript={transcript.map((transcript) => transcript.slug.toString())}
+    transcript={transcript.map((transcript) => transcript.id.toString())}
   />
 
   <h2>The brew</h2>
