@@ -9,6 +9,7 @@ import PodcastLinks from "./PodcastLinks.astro";
 import { postdate } from "./utilities/DateFormat.mjs";
 import { episodeLength } from "./utilities/episodelength.mjs";
 import site from "../data/site.json";
+import { render } from "astro:content";
 
 interface Props {
   episode: CollectionEntry<"episodes">;
@@ -17,7 +18,7 @@ interface Props {
   pageNum;
 }
 const { episode, audio, index, pageNum } = Astro.props;
-const { Content } = await episode.render();
+const { Content } = await render(episode);
 const brews = brewList(episode.data.episode);
 const transcript = await getCollection("transcripts", ({ id }) => {
   return id === `${episode.data.episode}.md`;
@@ -74,7 +75,6 @@ const transcript = await getCollection("transcripts", ({ id }) => {
       }
     }
   }
-
 
   <PodcastLinks
     episode={episode}

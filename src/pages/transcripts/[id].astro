@@ -6,7 +6,7 @@ import Transcript from "../../components/Transcript.astro";
 export async function getStaticPaths() {
   const transcripts = await getCollection("transcripts");
   return transcripts.map((transcript) => ({
-    params: { slug: transcript.slug },
+    params: { id: transcript.id },
     props: { transcript },
   }));
 }

@@ -3,18 +3,19 @@ import type { CollectionEntry } from "astro:content";
 import { Icon } from "astro-icon/components";
 import { postdate } from "./utilities/DateFormat.mjs";
 import site from "../data/site.json";
+import { render } from "astro:content";
 
 interface Props {
   transcript: CollectionEntry<"transcripts">;
 }
 const { transcript } = Astro.props;
-const { Content } = await transcript.render();
+const { Content } = await render(transcript);
 ---
 
 <div class="transcript" data-pagefind-ignore>
   <h3>
     <Icon name="ic:baseline-document-scanner" />
-    <a href={`/transcripts/${transcript.slug}`}
+    <a href={`/transcripts/${transcript.id}`}
       >Episode {transcript.data.episode} – {transcript.data.title}</a
     >
   </h3>

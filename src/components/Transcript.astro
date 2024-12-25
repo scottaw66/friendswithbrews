@@ -3,12 +3,13 @@ import type { CollectionEntry } from "astro:content";
 import { Icon } from "astro-icon/components";
 import { postdate } from "./utilities/DateFormat.mjs";
 import site from "../data/site.json";
+import { render } from "astro:content";
 
 interface Props {
   transcript: CollectionEntry<"transcripts">;
 }
 const { transcript } = Astro.props;
-const { Content } = await transcript.render();
+const { Content } = await render(transcript);
 ---
 
 <div

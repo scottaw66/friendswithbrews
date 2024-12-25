@@ -148,27 +148,15 @@ declare module 'astro:content' {
 	type DataEntryMap = {
 		"episodes": Record<string, {
   id: string;
-  render(): Render[".md"];
-  slug: string;
-  body: string;
+  body?: string;
   collection: "episodes";
   data: InferEntrySchema<"episodes">;
   rendered?: RenderedContent;
   filePath?: string;
 }>;
-"srt": Record<string, {
-  id: string;
-  body?: string;
-  collection: "srt";
-  data: any;
-  rendered?: RenderedContent;
-  filePath?: string;
-}>;
 "transcripts": Record<string, {
   id: string;
-  render(): Render[".md"];
-  slug: string;
-  body: string;
+  body?: string;
   collection: "transcripts";
   data: InferEntrySchema<"transcripts">;
   rendered?: RenderedContent;
@@ -179,5 +167,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("../src/content/config.js");
+	export type ContentConfig = typeof import("../src/content.config.js");
 }
