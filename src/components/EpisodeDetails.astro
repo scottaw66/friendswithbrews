@@ -17,7 +17,7 @@ interface Props {
 const { episode } = Astro.props;
 const brews = brewList(episode.data.episode);
 const transcript = await getCollection("transcripts", ({ id }) => {
-  return id === `${episode.data.episode}.md`;
+  return id === `${episode.data.episode}`;
 });
 ---
 
