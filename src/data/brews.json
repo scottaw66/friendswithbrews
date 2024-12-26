@@ -1,5 +1,41 @@
 [
   {
+    "id": "vOxAomzKWNsBWqe3k7b0M",
+    "name": "Black Tea",
+    "brewery": "Wegmans",
+    "image": "WegmansBlackTea-A5EA235A-1AA2-4969-8599-0572704E959C",
+    "description": "Contains naturally protective antioxidants*. Our Food You Feel Good About yellow banner is your shortcut to great-tasting, natural foods with no artificial colors, flavors, or preservatives.",
+    "type": "tea",
+    "sortOrder": "0",
+    "episodes": ["77"],
+    "url": "https://shop.wegmans.com/product/38337/wegmans-black-tea-bags",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "It's black tea, and I like it!"
+      }
+    ]
+  },
+  {
+    "id": "fvV8ikv5plw6RluxAqoWb",
+    "name": "Early Bird - Costa Rica",
+    "brewery": "Backporch Coffee Roasters",
+    "image": "BackPorchCoffeeRoastersEarlyBird-A5EA235A-1AA2-4969-8599-0572704E959C",
+    "description": "This coffee staple at Backporch is sweet, winey, chocolatey, and citrusy. It is processed at the Rio Tarrazu mill, which is a mill where all of our Costa Rican coffees are processed and probably one of the most technologically advanced and environmentally responsible mills we’ve seen.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["77"],
+    "url": "https://www.backporchcoffeeroasters.com/buyonline/p/backporch-blend-12-oz-83scc",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "They call it winey but that seems unfair. I've never heard it complain once. And I won't complain about drinking it either!"
+      }
+    ]
+  },
+  {
     "id": "n6giPq17fgOLE4x9cLpZK",
     "name": "Daybreak Organic Coffee",
     "brewery": "Wegmans",
