@@ -1,5 +1,59 @@
 [
   {
+    "id": "4XiLLiIN49WCS0fdBufJb",
+    "name": "Amsterdam",
+    "brewery": "Joe Coffee Company",
+    "image": "JoeCoffeeAmsterdam-C36F5209-8E4C-4C9E-B7EC-11873FB6380C",
+    "description": "Rich, sweet, and comforting, Amsterdam is the perfect drip coffee option for those who seek a deeper roast profile. We select the components for this coffee for their ability to stand up to a more developed roast, without ever tasting over-roasted or smoky. Instead, we pull out classic notes of chocolate, nut, and toffee. As part of our One City Collection, Amsterdam is built from Rainforest Alliance Certified coffees from Veloso Coffee, a family-run operation that has been producing specialty coffees in the Cerrado region of Minas Gerais, Brazil for decades.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["78"],
+    "url": "https://joecoffeecompany.com/shop/amsterdam/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "A little bitterer than i would like. I wouldn’t go out of my way to buy it again, but a good coffee."
+      }
+    ]
+  },
+  {
+    "id": "zGFWiOveVnNK0_xIwieGI",
+    "name": "Colombia - SWP Decaf",
+    "brewery": "Oren's Coffee NYC",
+    "image": "OrensCoffeeColumbiaSwissWaterDecaf-C36F5209-8E4C-4C9E-B7EC-11873FB6380C",
+    "description": "Our Colombian is five grades higher than a standard 100% Colombian coffee, providing exceptional quality and flavor. This is a fine, delicate and incredibly popular standard decaf. We use the Swiss Water Process (SWP) to decaffeinate our coffees. This process is free of the chemicals that many commercial coffee producers use. All it requires is water, a carbon filter, temperature and time to make our signature coffees 99% caffeine free. In addition to being eco-friendly, it also maintains the original flavors of the coffee bean. We wouldn’t have it any other way.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["78"],
+    "url": "https://orenscoffee.com/offerings/colombia-decaf/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "When I smell this, I think I smell pencil lead. This is drinkable. I think this will be better with a little bit of cream."
+      }
+    ]
+  },
+  {
+    "id": "NnfEljer5hPgo7_DiBiLh",
+    "name": "Ill Tempered Gnome",
+    "brewery": "Oakshire Brewing",
+    "image": "OakshireBrewingIllTemperedGnome-C36F5209-8E4C-4C9E-B7EC-11873FB6380C",
+    "description": "This American Brown Ale is an Oakshire original. Dark malts combine with resinous hops in the Winter Ale to soothe your ill tempered gnome.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["78"],
+    "url": "https://oakbrew.com/beers/ill-tempered-gnome/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "This is a good one. Slightly bitter, but I think all winter ales are slightly bitter."
+      }
+    ]
+  },
+  {
     "id": "vOxAomzKWNsBWqe3k7b0M",
     "name": "Black Tea",
     "brewery": "Wegmans",
