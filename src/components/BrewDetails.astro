@@ -34,7 +34,9 @@ const { brew, episode } = Astro.props;
                 {rate.vote === "thumbs-up" ? (
                   <Icon name="bi:hand-thumbs-up-fill" />
                 ) : (
-                  <Icon name="bi:hand-thumbs-down-fill" />
+                  <span class={rate.vote === "side-thumb" ? "side-thumb" : ""}>
+                    <Icon name="bi:hand-thumbs-down-fill" />
+                  </span>
                 )}
               </div>
             </>

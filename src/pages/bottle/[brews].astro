@@ -30,11 +30,13 @@ const { bottle } = Astro.props;
     <h2>{bottle.name}</h2>
     <div class="bottle">
       <a href={`/images/brews/${bottle.image}.png`}>
-        <Picture src={import(`../../assets/images/brews/${bottle.image}.png`)} 
-          formats={['avif', 'webp', 'jpg']} 
+        <Picture
+          src={import(`../../assets/images/brews/${bottle.image}.png`)}
+          formats={["avif", "webp", "jpg"]}
           width="1000"
           widths={[1500, 2000]}
-          alt={`${bottle.brewery} ${bottle.name}`} />
+          alt={`${bottle.brewery} ${bottle.name}`}
+        />
       </a>
     </div>
     <div class="description">
@@ -47,15 +49,14 @@ const { bottle } = Astro.props;
           <>
             <div class="host">
               <div>{rate.host} says:</div>
-              <div>
-                THUMBS
-                {rate.vote === "thumbs-up" ? "UP" : "DOWN"}!
-              </div>
+              <div>{rate.vote.replace(/-/g, " ").toUpperCase()}!</div>
               <div>
                 {rate.vote === "thumbs-up" ? (
                   <Icon name="bi:hand-thumbs-up-fill" />
                 ) : (
-                  <Icon name="bi:hand-thumbs-down-fill" />
+                  <span class={rate.vote === "side-thumb" ? "side-thumb" : ""}>
+                    <Icon name="bi:hand-thumbs-down-fill" />
+                  </span>
                 )}
               </div>
             </div>
@@ -78,11 +79,14 @@ const { bottle } = Astro.props;
       </div>
       <div class="links">
         <h4>Episode{bottle.episodes.length > 1 ? "s " : " "}</h4>
-        { bottle.episodes.map((ep, index, arr) => (
+        {
+          bottle.episodes.map((ep, index, arr) => (
             <span key={ep}>
-              <a href={`/${ep}/`}>{ep}</a>{index !== arr.length - 1 ? ", " : ""}
+              <a href={`/${ep}/`}>{ep}</a>
+              {index !== arr.length - 1 ? ", " : ""}
             </span>
-        ))}
+          ))
+        }
       </div>
       <div class="links">
         <h4>Link</h4>
@@ -177,6 +181,10 @@ const { bottle } = Astro.props;
   [data-icon="bi:hand-thumbs-down-fill"] {
     color: red;
     margin-bottom: -0.75rem;
+  }
+  .side-thumb [data-icon="bi:hand-thumbs-down-fill"] {
+    color: rgb(100, 100, 100);
+    margin-bottom: -0.5rem;
   }
   div.type-links-container {
     display: flex;

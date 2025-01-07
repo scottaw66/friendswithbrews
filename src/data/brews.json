@@ -12,7 +12,7 @@
     "rating": [
       {
         "host": "Scott",
-        "vote": "thumbs-up",
+        "vote": "side-thumb",
         "description": "A little bitterer than i would like. I wouldn’t go out of my way to buy it again, but a good coffee."
       }
     ]
@@ -30,7 +30,7 @@
     "rating": [
       {
         "host": "Peter",
-        "vote": "thumbs-up",
+        "vote": "side-thumb",
         "description": "When I smell this, I think I smell pencil lead. This is drinkable. I think this will be better with a little bit of cream."
       }
     ]

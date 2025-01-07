@@ -228,3 +228,8 @@ div.episode p img {
 [data-icon="bi:hand-thumbs-down-fill"] {
   margin-bottom: -0.1rem;
 }
+
+.side-thumb [data-icon="bi:hand-thumbs-down-fill"] {
+  transform: rotate(-90deg);
+  margin-bottom: 0.05rem;
+}
