@@ -1,5 +1,41 @@
 [
   {
+    "id": "BDNCT9wn0zf9iFyDcAIZW",
+    "name": "Uraga",
+    "brewery": "Bird Rock Coffee Roasters Uraga",
+    "image": "BirdRockCoffeeRoastersUraga-59CDFDAB-63C5-41A8-9DE7-A11C1A4AFF69",
+    "description": "Big flower aromas and a complex, fruity flavor that reminds us of raspberries make Uraga perfect for lovers of delicious Ethiopian coffee.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["79"],
+    "url": "https://www.drinktrade.com/products/uraga",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "side-thumb",
+        "description": "I did reheat this in the microwave so that it probably doesn’t taste like it used to. I think if I made this with pourover instead of Aeropress, it would be quite bitter. I will definitely side-thumb this."
+      }
+    ]
+  },
+  {
+    "id": "JQGQDm1ngbpkskZMwrm3y",
+    "name": "Bold Habitat Whole Bean Coffee",
+    "brewery": "Wegmans",
+    "image": "WegmansBoldHabitatWholeBean-59CDFDAB-63C5-41A8-9DE7-A11C1A4AFF69",
+    "description": "Smooth with notes of rich cocoa. Blend of beans from Honduras, Mexico, Colombia and Brazil. From Crop to Cup: Sourced and Roasted with Care. Our supplier partner has direct relationships with global coffee farmers to bring you the best and responsibly sourced coffee from around the world. Dark Roast. Our Food You Feel Good About yellow banner is your shortcut to great-tasting products with no artificial colors, flavors or preservatives.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["79"],
+    "url": "https://order.wegmans.com/store/wegmans/products/21029220-wegmans-whole-bean-coffee-bold-habitat-12-oz",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "I like this coffee. This is definitely a thumbs-up, no question. I like Wegmans Bold Habitat, dammit!"
+      }
+    ]
+  },
+  {
     "id": "4XiLLiIN49WCS0fdBufJb",
     "name": "Amsterdam",
     "brewery": "Joe Coffee Company",
@@ -354,8 +390,8 @@
     "rating": [
       {
         "host": "Peter",
-        "vote": "thumbs-up",
-        "description": "Part of my special Peter's blend mix of coffees!"
+        "vote": "side-thumb",
+        "description": "It's a coffee."
       }
     ]
   },
@@ -858,8 +894,8 @@
     "rating": [
       {
         "host": "Peter",
-        "vote": "thumbs-down",
-        "description": "I think my tastes have changed because I'm not enjoying this as much as I used to. It tastes too strong. "
+        "vote": "side-thumb",
+        "description": "This used to be my favorite beer, but the problem is I need an entire afternoon to drink this because it’s too bloody strong. When I take it in small quantities, it is actually pleasurable. I can’t drink it like I used to. But if you like Belgian quads, this is the beer for you."
       }
     ]
   },
@@ -2475,7 +2511,7 @@
       },
       {
         "host": "Scott",
-        "vote": "thumbs-down",
+        "vote": "side-thumb",
         "description": "Have you ever had a pilsner that was better than just ok? I think that Pilsners are a nice beer for a pizza, but not a beer you would just grab."
       }
     ]
@@ -2871,7 +2907,7 @@
     "rating": [
       {
         "host": "Scott",
-        "vote": "thumbs-down",
+        "vote": "side-thumb",
         "description": "More tropical, more citrusy. I can taste a little bit of the hops. Not my favorite Rogue beer."
       }
     ]
