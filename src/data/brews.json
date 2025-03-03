@@ -1,5 +1,23 @@
 [
   {
+    "id": "zj8FFl1SOrHZKp9V3HSG0",
+    "name": "Just Tea Earl Grey Black Tea",
+    "brewery": "Wegmans",
+    "image": "WegmansEarlGreyBlackTea20250303",
+    "description": "A Blend of Black Teas with a Hint of Citrus. Steep and enjoy!",
+    "type": "tea",
+    "sortOrder": "0",
+    "episodes": ["81"],
+    "url": "https://shop.wegmans.com/product/45802/wegmans-just-tea-earl-grey-black-tea-bags",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "wow"
+      }
+    ]
+  },
+  {
     "id": "8SDzsKrYZBVYYJpuub1MS",
     "name": "Kenya Kiamugumo AB",
     "brewery": "Sterling Coffee Roasters",
@@ -7,7 +25,7 @@
     "description": "Tastes like raspberries and demerara sugar. Light roasted for drip and press.",
     "type": "coffee",
     "sortOrder": "0",
-    "episodes": ["80"],
+    "episodes": ["80", "81"],
     "url": "https://www.sterling.coffee/",
     "rating": [
       {
@@ -406,7 +424,11 @@
     "episodes": ["70"],
     "url": "https://www.tampercafe.com",
     "rating": [
-      { "host": "Peter", "vote": "side-thumb", "description": "It's a coffee." }
+      {
+        "host": "Peter",
+        "vote": "side-thumb",
+        "description": "It's a coffee."
+      }
     ]
   },
   {
@@ -2721,7 +2743,11 @@
     "episodes": ["7"],
     "url": "https://eastnashbeerworks.com/",
     "rating": [
-      { "host": "Adam", "vote": "thumbs-up", "description": "A lighter ale." }
+      {
+        "host": "Adam",
+        "vote": "thumbs-up",
+        "description": "A lighter ale."
+      }
     ]
   },
   {
