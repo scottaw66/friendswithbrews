@@ -1,5 +1,23 @@
 [
   {
+    "id": "6u8cWD6cbQ7yei0287qi0",
+    "name": "Wandering Goat Coffee - Decaf Peru Norte",
+    "brewery": "Wandering Goat Coffee",
+    "image": "WanderingGoatCoffeeDecafPeruNorte20250323",
+    "description": "Grown by producers from San Ignacio in Cajamarca, Peru. During the water process, the green coffee is pre-soaked in water to expand the beans for caffeine extraction. The hydrated green coffee is then introduced to a unique solution of concentrated coffee solubles that draw out the caffeine while minimizing the loss of flavor compounds. Once the caffeine has been removed the green coffee is re-dried and re-bagged for transport, and the extract solution is filtered of its caffeine and recycled to be used again.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["82"],
+    "url": "https://wanderinggoat.com/products/decaf-peru",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "Slightly bitter but I like it that way just fine. It is a decaf so typically I’d drink it in the afternoon with a little bit of oat milk in it. But a very nice decaf."
+      }
+    ]
+  },
+  {
     "id": "zj8FFl1SOrHZKp9V3HSG0",
     "name": "Just Tea Earl Grey Black Tea",
     "brewery": "Wegmans",
@@ -2365,7 +2383,7 @@
     "description": "Bold, decaffeinated dark roast coffee that is smooth with notes of dark chocolate, cocoa and spice. 100% Arabica coffee, sourced and roasted with care to deliver a delightful coffee experience in every cup. Perfect for espresso shot and espresso based drinks.Our Food You Feel Good About yellow banner is your shortcut to great-tasting products with no artificial colors, flavors or preservatives.",
     "type": "coffee",
     "sortOrder": "0",
-    "episodes": ["15", "18", "57", "58", "62", "64", "70", "74", "80"],
+    "episodes": ["15", "18", "57", "58", "62", "64", "70", "74", "80", "82"],
     "url": "https://shop.wegmans.com/product/109476/wegmans-decaf-espresso-whole-bean-coffee",
     "rating": [
       {
