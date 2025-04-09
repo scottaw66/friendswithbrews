@@ -1,5 +1,59 @@
 [
   {
+    "id": "1bN3l2gHKEEl9LeGYIS5s",
+    "name": "Campos Coffee Superior Blend",
+    "brewery": "Campos Coffee Superior Blend",
+    "image": "CamposSuperiorCafeBlend20250409",
+    "description": "Campos Superior is our signature, quintessential coffee blend. It's what we've proudly served in our cafes since day one. Combining fresh high-quality specialty coffees from our coffee producing partners in Colombia, East Africa & Brazil, this full-bodied coffee is carefully roasted to deliver sweet caramel, red currant, and milk chocolate flavours to your cup. We pride ourselves in our Superior Blend tasting consistent and even as we continue to grow, we still spend hours everyday cupping and analysing it to ensure it tastes just right, every single time. The farms we select for the Superior Blend are leaders in the Specialty Coffee world for their regions. We've worked very closely with these partnerships over many years and most are exclusive to Campos Coffee in Australia. It's a line-up of coffees and relationships to be we are incredibly proud of.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["83"],
+    "url": "https://www.camposcoffee.com/product/campos-superior-blend-1kg",
+    "rating": [
+      {
+        "host": "John",
+        "vote": "thumbs-up",
+        "description": "A licensed brand, I can get a kilo bag for around $48 Australian, which is pretty decent. It's beautiful as espresso."
+      }
+    ]
+  },
+  {
+    "id": "82GqG-HYVjKQPydcn3qad",
+    "name": "Trader Joe's Fair Trade Organic Bolivian Blend",
+    "brewery": "Trader Joe's Fair Trade Organic Bolivian Blend",
+    "image": "TraderJoeFairTradeOrganicBolivianBlend20250409",
+    "description": "Trader Joe’s Fair Trade Organic Bolivian Blend Coffee has been a customer favorite since it first appeared on our shelves in 2008. The 100% Arabica beans are cultivated by small family farms between the Andes mountains and the Amazon river basin. The medium-dark roast presents a smooth-textured body, delicate acidity, and sweet notes that are characteristic of caramel. Yum!",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["83"],
+    "url": "https://www.traderjoes.com/home/products/pdp/fair-trade-organic-bolivian-blend-074367",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "side-thumb",
+        "description": "A bit too dark and oily on the bean roast, which is something Peter likes more than I do."
+      }
+    ]
+  },
+  {
+    "id": "vQmbXd33nGUU53YsEw37v",
+    "name": "La Magie French Pilsner",
+    "brewery": "Wayfinder Beer",
+    "image": "WayfinderBeerLaMagieFrenchPilsner20250409",
+    "description": "Wayfinder does NOT describe this beer on their website, because it's not even ON their @#%@# website.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["83"],
+    "url": "https://www.wayfinder.beer/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "A good pilsner, not too budweisery, it has flavor and some depth. I like it!!"
+      }
+    ]
+  },
+  {
     "id": "6u8cWD6cbQ7yei0287qi0",
     "name": "Decaf Peru Norte",
     "brewery": "Wandering Goat Coffee",
@@ -13,7 +67,7 @@
       {
         "host": "Scott",
         "vote": "thumbs-up",
-        "description": "Slightly bitter but I like it that way just fine. It is a decaf so typically I’d drink it in the afternoon with a little bit of oat milk in it. But a very nice decaf."
+        "description": "Slightly bitter but I like it that way just fine. It is a decaf so typically I\u2019d drink it in the afternoon with a little bit of oat milk in it. But a very nice decaf."
       }
     ]
   },
