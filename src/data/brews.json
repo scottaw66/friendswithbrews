@@ -1,5 +1,59 @@
 [
   {
+    "id": "Esns_3s_Tth-vdgxgpKuK",
+    "name": "Taylors of Harrogate Yorkshire Tea",
+    "brewery": "Taylors of Harrogate Yorkshire Tea",
+    "image": "TaylorsYorkshireTea20250521",
+    "description": "This is the UK's No.1 black tea. And however you like your everyday brew - from proper strong to seriously tasty decaf - we've got you covered.",
+    "type": "tea",
+    "sortOrder": "0",
+    "episodes": ["84"],
+    "url": "https://www.taylorsofharrogate.com/yorkshire-tea/yorkshire-tea",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "I'm having it and I'm having it proper like an Englishman would."
+      }
+    ]
+  },
+  {
+    "id": "txVx36K8A7Ps2VfKIM5LH",
+    "name": "Stella Artois",
+    "brewery": "Stella Artois",
+    "image": "StellaArtois20250521",
+    "description": "The Iconic lager brewed for savoring together.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["84"],
+    "url": "https://www.stellaartois.com/",
+    "rating": [
+      {
+        "host": "Adam",
+        "vote": "thumbs-up",
+        "description": "I like Stella Artois. It's got a fancy top and everything, so there are no rat droppings on my top!"
+      }
+    ]
+  },
+  {
+    "id": "oBM2hgOf5nzP-x8fmZdJt",
+    "name": "Forecast Coffee Company Yonder",
+    "brewery": "Forecast Coffee Company Yonder",
+    "image": "ForecastCoffeeCompanyYonder20250521",
+    "description": "Yonder is a rich and hearty blend that you can count on day in and day out. For Yonder, we source coffees from Honduras and Guatemala. It is carefully sourced and roasted to give you that perfect cup each morning.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["84"],
+    "url": "https://forecastcoffeecompany.com/product/yonder/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "I don't want to go down the roasted nuts rabbit hole, but I taste the roasted nuts and the dark chocolate! It's good, I like it, it comes in a yellow bag, and you can get it at Fred Meyer, which you'd know about if you lived in a better part of the US."
+      }
+    ]
+  },
+  {
     "id": "1bN3l2gHKEEl9LeGYIS5s",
     "name": "Campos Coffee Superior Blend",
     "brewery": "Campos Coffee Superior Blend",
@@ -22,7 +76,7 @@
     "name": "Trader Joe's Fair Trade Organic Bolivian Blend",
     "brewery": "Trader Joe's Fair Trade Organic Bolivian Blend",
     "image": "TraderJoeFairTradeOrganicBolivianBlend20250409",
-    "description": "Trader Joe’s Fair Trade Organic Bolivian Blend Coffee has been a customer favorite since it first appeared on our shelves in 2008. The 100% Arabica beans are cultivated by small family farms between the Andes mountains and the Amazon river basin. The medium-dark roast presents a smooth-textured body, delicate acidity, and sweet notes that are characteristic of caramel. Yum!",
+    "description": "Trader Joe\u2019s Fair Trade Organic Bolivian Blend Coffee has been a customer favorite since it first appeared on our shelves in 2008. The 100% Arabica beans are cultivated by small family farms between the Andes mountains and the Amazon river basin. The medium-dark roast presents a smooth-textured body, delicate acidity, and sweet notes that are characteristic of caramel. Yum!",
     "type": "beer",
     "sortOrder": "0",
     "episodes": ["83"],
