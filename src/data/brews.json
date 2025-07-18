@@ -1,5 +1,41 @@
 [
   {
+    "id": "FoNjhbPIDZk5JoHgPYGns",
+    "name": "Kirin Ichiban",
+    "brewery": "Kirin",
+    "image": "KirinIchiban20250717",
+    "description": "A premium, 100% malt beer brewed with the first-press method, offering smooth and rich flavor.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["85"],
+    "url": "http://www.kirinichiban.com/product/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "I would call this a Japanese domestic, but it's so much better than what Americans call domestics. It is a good, fresh lager."
+      }
+    ]
+  },
+  {
+    "id": "aZmWT7q-daDY26b5Tshlm",
+    "name": "Upside Dawn Golden",
+    "brewery": "Athletic Brewing",
+    "image": "AthleticBrewingUpsideDawnGolden20250717",
+    "description": "Classic craft Golden style. Refreshing, clean, balanced, and light-bodied. Subtle earthy and spicy notes are balanced with citrusy aromas. Brewed with premium malts and American hops. Crafted to remove gluten.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["85"],
+    "url": "https://athleticbrewing.com/products/upside-dawn",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "This is a beer. This is not desperate regret. It tastes like a beer, unlike their Run Wild IPA."
+      }
+    ]
+  },
+  {
     "id": "Esns_3s_Tth-vdgxgpKuK",
     "name": "Taylors of Harrogate Yorkshire Tea",
     "brewery": "Taylors of Harrogate Yorkshire Tea",
