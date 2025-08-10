@@ -1,5 +1,23 @@
 [
   {
+    "id": "O3ZEx8NDb8RR4EZ7MrJMq",
+    "name": "Yorkshire Gold Yorkshire Tea",
+    "brewery": "Taylors of Harrogate",
+    "image": "YorkshireTeaYorkshireGold20250809",
+    "description": "This is our finest blend. We choose teas from our three favourite origins – Assam, Kenya and Rwanda – and buy them from the top ten tea gardens in the world to make a rich, smooth and incredibly satisfying brew.",
+    "type": "tea",
+    "sortOrder": "0",
+    "episodes": ["87"],
+    "url": "https://www.taylorsofharrogate.com/yorkshire-tea/yorkshire-gold/yorkshire-gold",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "I'm having a hard time distinguising between the Yorkshire tea black tea and the Yorkshire Gold black tea, but it is a very smooth black tea. It's very smooth, it's very strong. This is not bitter. I do not like bitter tea."
+      }
+    ]
+  },
+  {
     "id": "q1Wf4jWOy2mxEmdMIQsOC",
     "name": "French Roast Whole Bean Coffee",
     "brewery": "Market Basket",
@@ -55,8 +73,8 @@
   },
   {
     "id": "Esns_3s_Tth-vdgxgpKuK",
-    "name": "Taylors of Harrogate Yorkshire Tea",
-    "brewery": "Taylors of Harrogate Yorkshire Tea",
+    "name": "Yorkshire Tea",
+    "brewery": "Taylors of Harrogate",
     "image": "TaylorsYorkshireTea20250521",
     "description": "This is the UK's No.1 black tea. And however you like your everyday brew - from proper strong to seriously tasty decaf - we've got you covered.",
     "type": "tea",
@@ -2041,7 +2059,7 @@
     "description": "Top quality specialty coffees from East Africa, Central, & South America offer caramel sweetness, chocolate layered with complex fruit notes, and crisp acidity. This tried and true coffee is the kind of cup you want to drink every day. Rich. Chocolatey.",
     "type": "coffee",
     "sortOrder": "0",
-    "episodes": ["26", "38", "53"],
+    "episodes": ["26", "38", "53", "87"],
     "url": "https://shop.coavacoffee.com/collections/coffee/products/s-o-blend-1",
     "rating": [
       {

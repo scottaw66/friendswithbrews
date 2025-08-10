@@ -45,7 +45,7 @@
     "@iconify-json/ion": "^1.2.4",
     "@iconify-json/mdi": "^1.2.3",
     "@iconify-json/ps": "^1.2.0",
-    "@iconify-json/simple-icons": "^1.2.46",
+    "@iconify-json/simple-icons": "^1.2.47",
     "astro": "^5.12.9",
     "astro-embed": "^0.9.0",
     "astro-icon": "^1.1.5",
