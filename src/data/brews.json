@@ -1,10 +1,46 @@
 [
   {
+    "id": "Xs9F4Tzfb4ha7aakJOqUo",
+    "name": "Athletic Lite",
+    "brewery": "Athletic Brewing Co.",
+    "image": "AthleticBrewingCoAthleticLite20250815",
+    "description": "Athletic Lite is a light brew, reimagined. Classically light and expertly crafted, this brew doesn’t sacrifice on flavor. With only 25 calories, 5g carbs, and premium grains, Athletic Lite is crushable on any occasion — or none at all.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["88"],
+    "url": "https://athleticbrewing.com/products/athletic-lite",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "It tastes a lot like other Athletic beers, and it tastes a lot like other American light beers. Zero taste. That's my review. That said, it's actually not that bad! I think my tastes have started to adjust to the non-alcoholic beer."
+      }
+    ]
+  },
+  {
+    "id": "Wx8T87HNQMxO8u4CLyGCZ",
+    "name": "Portland Coffee Roasters Goose Hollow",
+    "brewery": "Portland Coffee Roasters Goose Hollow",
+    "image": "PortlandCoffeRoastersGooseHollow20250815",
+    "description": "Goose Hollow, like the Portland neighborhood it’s named after, is a warm and inviting coffee. It’s roasted medium-dark, with an entrancing chocolate flavor that wins over everyone that tastes it. A full, creamy body rounds out the experience in one of our most popular blends.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["88"],
+    "url": "https://www.portlandcoffeeroasters.com/consumer/goose-hollow-whole-bean-12oz",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "side-thumb",
+        "description": "It's acceptable coffee. Not my first choice by any means, but it's a good coffee that's not bitter and makes a nice aeropress brew."
+      }
+    ]
+  },
+  {
     "id": "O3ZEx8NDb8RR4EZ7MrJMq",
     "name": "Yorkshire Gold Yorkshire Tea",
     "brewery": "Taylors of Harrogate",
     "image": "YorkshireTeaYorkshireGold20250809",
-    "description": "This is our finest blend. We choose teas from our three favourite origins – Assam, Kenya and Rwanda – and buy them from the top ten tea gardens in the world to make a rich, smooth and incredibly satisfying brew.",
+    "description": "This is our finest blend. We choose teas from our three favourite origins \u2013 Assam, Kenya and Rwanda \u2013 and buy them from the top ten tea gardens in the world to make a rich, smooth and incredibly satisfying brew.",
     "type": "tea",
     "sortOrder": "0",
     "episodes": ["87"],
@@ -56,7 +92,7 @@
   {
     "id": "aZmWT7q-daDY26b5Tshlm",
     "name": "Upside Dawn Golden",
-    "brewery": "Athletic Brewing",
+    "brewery": "Athletic Brewing Co.",
     "image": "AthleticBrewingUpsideDawnGolden20250717",
     "description": "Classic craft Golden style. Refreshing, clean, balanced, and light-bodied. Subtle earthy and spicy notes are balanced with citrusy aromas. Brewed with premium malts and American hops. Crafted to remove gluten.",
     "type": "beer",
@@ -1172,7 +1208,7 @@
   {
     "id": "Zfeq_E33cwwwaqMzBq_sC",
     "name": "Oktoberfest Fest Brew",
-    "brewery": "Athletic Brewing Company",
+    "brewery": "Athletic Brewing Co.",
     "image": "AthleticBrewingCompanyOktoberfest-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E",
     "description": "Oktoberfest is a brew inspired by traditional Bavarian Festbiers and crafted for celebration every fall. It pours a sunny golden hue with a fluffy foam cap and boasts a clean malt backbone from Vienna and Munich malts. Hallertau Mittelfruh hops add light bitterness to complement the bready aromatics and slightly sweet body. Spirited, yet delicate, and supremely refreshing.",
     "type": "beer",
@@ -2753,7 +2789,7 @@
   {
     "id": "5XYeiC1QM8BQt2_L9Tzln",
     "name": "Run Wild IPA",
-    "brewery": "Athletic Brewing Company",
+    "brewery": "Athletic Brewing Co.",
     "image": "AthleticBrewingCompanyRunWild-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E",
     "description": "Run Wild is the ultimate sessionable IPA for craft beer lovers. Brewed with a blend of five Northwest hops, it has an approachable bitterness to balance the specialty malt body. Always refreshing and only 65 calories.",
     "type": "beer",
