@@ -1,10 +1,28 @@
 [
   {
+    "id": "rSxF4AHZz44qh0975pzlT",
+    "name": "Swiss Water Process Cascade Blend Decaf",
+    "brewery": "Silver Falls Coffee Co.",
+    "image": "SilverFallsCoffeeCoCascadeBlendDecaf20250831",
+    "description": "Enjoy the bold, rich flavors of our Swiss Water Process Cascade Blend Decaf without the caffeine. This dark roast decaf is created using the Swiss Water Process, a chemical-free method that uses only water and carbon filters to remove nearly all of the caffeine, preserving the natural flavors of the coffee. Our Cascade Blend has been fine-tuned to deliver a deep, dark, and delicious taste profile, making it the perfect choice for those who want the full-bodied richness of dark roast coffee with virtually no caffeine.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["89"],
+    "url": "https://silverfallscoffee.com/collections/frontpage/products/swiss-water-process-fair-trade-organic-decaf",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "side-thumb",
+        "description": "It's not bad. It's a little darker than I like, but it's fine and you get more beans for your buck than the average bag."
+      }
+    ]
+  },
+  {
     "id": "Xs9F4Tzfb4ha7aakJOqUo",
     "name": "Athletic Lite",
     "brewery": "Athletic Brewing Co.",
     "image": "AthleticBrewingCoAthleticLite20250815",
-    "description": "Athletic Lite is a light brew, reimagined. Classically light and expertly crafted, this brew doesn’t sacrifice on flavor. With only 25 calories, 5g carbs, and premium grains, Athletic Lite is crushable on any occasion — or none at all.",
+    "description": "Athletic Lite is a light brew, reimagined. Classically light and expertly crafted, this brew doesn\u2019t sacrifice on flavor. With only 25 calories, 5g carbs, and premium grains, Athletic Lite is crushable on any occasion \u2014 or none at all.",
     "type": "beer",
     "sortOrder": "0",
     "episodes": ["88"],
@@ -22,7 +40,7 @@
     "name": "Portland Coffee Roasters Goose Hollow",
     "brewery": "Portland Coffee Roasters Goose Hollow",
     "image": "PortlandCoffeRoastersGooseHollow20250815",
-    "description": "Goose Hollow, like the Portland neighborhood it’s named after, is a warm and inviting coffee. It’s roasted medium-dark, with an entrancing chocolate flavor that wins over everyone that tastes it. A full, creamy body rounds out the experience in one of our most popular blends.",
+    "description": "Goose Hollow, like the Portland neighborhood it\u2019s named after, is a warm and inviting coffee. It\u2019s roasted medium-dark, with an entrancing chocolate flavor that wins over everyone that tastes it. A full, creamy body rounds out the experience in one of our most popular blends.",
     "type": "coffee",
     "sortOrder": "0",
     "episodes": ["88"],
@@ -2599,7 +2617,19 @@
     "description": "Bold, decaffeinated dark roast coffee that is smooth with notes of dark chocolate, cocoa and spice. 100% Arabica coffee, sourced and roasted with care to deliver a delightful coffee experience in every cup. Perfect for espresso shot and espresso based drinks.Our Food You Feel Good About yellow banner is your shortcut to great-tasting products with no artificial colors, flavors or preservatives.",
     "type": "coffee",
     "sortOrder": "0",
-    "episodes": ["15", "18", "57", "58", "62", "64", "70", "74", "80", "82"],
+    "episodes": [
+      "15",
+      "18",
+      "57",
+      "58",
+      "62",
+      "64",
+      "70",
+      "74",
+      "80",
+      "82",
+      "89"
+    ],
     "url": "https://shop.wegmans.com/product/109476/wegmans-decaf-espresso-whole-bean-coffee",
     "rating": [
       {
