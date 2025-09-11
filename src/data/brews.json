@@ -1,5 +1,41 @@
 [
   {
+    "id": "RVPvHLaWVuG66p9HHOSLw",
+    "name": "Just The Haze IPA Non-Alcoholic Beer",
+    "brewery": "Samuel Adams",
+    "image": "SamuelAdamsJusttheHaze20250911",
+    "description": "All flavor. No compromise. Samuel Adams Just the Haze is a non-alcoholic IPA that delivers bold, juicy hop character with notes of citrus, mango, and stone fruit. Crafted with the same care as every Sam Adams brew, it’s full-bodied, smooth, and only 98 calories. With a golden haze and clean finish, it’s everything you love about IPAs minus the alcohol. Perfect for beer lovers who want the taste without the buzz. Malt Beverage with natural flavors, contains less than 0.5% ABV.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["90"],
+    "url": "https://www.samueladams.com/our-beers/non-alcoholic/just-the-haze",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "I did indeed give it a thumbs-up!"
+      }
+    ]
+  },
+  {
+    "id": "RbcDzqwQGUAY1YNe7IGjT",
+    "name": "Arandas",
+    "brewery": "Tostado Coffee Roasters",
+    "image": "TostadoArandas20250911",
+    "description": "A medium dark roast from Oaxaca, Mexico. With smooth caramel and a subtle almond finish, it’s as cozy as it sounds. This one’s a dream for espresso lovers—bold, balanced, and super consistent. Pair it with milk, and you’ve got a velvety latte that hits every time. Roasting notes: Caramel and Almond.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["90"],
+    "url": "https://www.tostadocoffeeroasters.com/arandas",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "This may be, and I stress MAY, but I also stress BE, one of the best coffees I've ever had. The smell of these beans is incredible!"
+      }
+    ]
+  },
+  {
     "id": "rSxF4AHZz44qh0975pzlT",
     "name": "Swiss Water Process Cascade Blend Decaf",
     "brewery": "Silver Falls Coffee Co.",
