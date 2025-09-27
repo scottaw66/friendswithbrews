@@ -1,10 +1,28 @@
 [
   {
+    "id": "xpXJEF6JiZI85IFiup5MO",
+    "name": "Weisse Himbeere",
+    "brewery": "Berliner Kindl",
+    "image": "UnsereWeisseBerlinerKindl20250927",
+    "description": "Unsere Berliner Kindl Weisse Himbeere taucht überall dort auf, wo die Sonne lacht. Herrlich frisch, fruchtig prickelnd und mit Schuss: Schon immer wurde die Original Berliner Kindl Weisse gern gemixt. Für den Genuss-To-Go gibt es den Berliner Bierbotschafter fix und fertig gemischt mit einem fruchtig-süßen Schuss Himbeere. Ein Genuss - nicht nur im Sommer.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["91"],
+    "url": "https://www.berliner-kindl.de/unsere-weisse/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "It is super delicious. There's a hint of sourness, but there's more sweetness to it. Absolutely delicious, two thumbs up. Low alcohol so I don't get buzzed. If they made such a thing as a session Weisse beere, this would be it, and I would love to have an extended session."
+      }
+    ]
+  },
+  {
     "id": "RVPvHLaWVuG66p9HHOSLw",
     "name": "Just The Haze IPA Non-Alcoholic Beer",
     "brewery": "Samuel Adams",
     "image": "SamuelAdamsJusttheHaze20250911",
-    "description": "All flavor. No compromise. Samuel Adams Just the Haze is a non-alcoholic IPA that delivers bold, juicy hop character with notes of citrus, mango, and stone fruit. Crafted with the same care as every Sam Adams brew, it’s full-bodied, smooth, and only 98 calories. With a golden haze and clean finish, it’s everything you love about IPAs minus the alcohol. Perfect for beer lovers who want the taste without the buzz. Malt Beverage with natural flavors, contains less than 0.5% ABV.",
+    "description": "All flavor. No compromise. Samuel Adams Just the Haze is a non-alcoholic IPA that delivers bold, juicy hop character with notes of citrus, mango, and stone fruit. Crafted with the same care as every Sam Adams brew, it\u2019s full-bodied, smooth, and only 98 calories. With a golden haze and clean finish, it\u2019s everything you love about IPAs minus the alcohol. Perfect for beer lovers who want the taste without the buzz. Malt Beverage with natural flavors, contains less than 0.5% ABV.",
     "type": "beer",
     "sortOrder": "0",
     "episodes": ["90"],
@@ -22,7 +40,7 @@
     "name": "Arandas",
     "brewery": "Tostado Coffee Roasters",
     "image": "TostadoArandas20250911",
-    "description": "A medium dark roast from Oaxaca, Mexico. With smooth caramel and a subtle almond finish, it’s as cozy as it sounds. This one’s a dream for espresso lovers—bold, balanced, and super consistent. Pair it with milk, and you’ve got a velvety latte that hits every time. Roasting notes: Caramel and Almond.",
+    "description": "A medium dark roast from Oaxaca, Mexico. With smooth caramel and a subtle almond finish, it\u2019s as cozy as it sounds. This one\u2019s a dream for espresso lovers\u2014bold, balanced, and super consistent. Pair it with milk, and you\u2019ve got a velvety latte that hits every time. Roasting notes: Caramel and Almond.",
     "type": "coffee",
     "sortOrder": "0",
     "episodes": ["90"],
@@ -439,7 +457,7 @@
     "description": "This coffee staple at Backporch is sweet, winey, chocolatey, and citrusy. It is processed at the Rio Tarrazu mill, which is a mill where all of our Costa Rican coffees are processed and probably one of the most technologically advanced and environmentally responsible mills we\u2019ve seen.",
     "type": "coffee",
     "sortOrder": "0",
-    "episodes": ["77"],
+    "episodes": ["77", "91"],
     "url": "https://www.backporchcoffeeroasters.com/buyonline/p/backporch-blend-12-oz-83scc",
     "rating": [
       {
