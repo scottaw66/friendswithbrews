@@ -1,10 +1,46 @@
 [
   {
+    "id": "PvNC872P0zuE-Zn626M_E",
+    "name": "Mexico Chiapas",
+    "brewery": "Tony's Coffee",
+    "image": "TonysCoffeeMexicoChiapas20251027",
+    "description": "Year after year this coffee is an absolute crowd pleaser. FEDESI (Federacion de Sociedades Cooperativas Cafetaleras de la Sierra Madre) produces Fair Trade, Organic coffee in the region of Chiapas. FEDESI was founded by 6 groups located in the municipalities of Motozintla and Siltepec with the objective of providing support to small producers in finding new markets, financing and government support. Most of the partners of Cooperative FEDESI are small producers with 3 acres each. Each have their own wet mill and drying patio. Being part of the Cooperative has allowed members of FEDESI to become stronger, reach their goals, and gain access to higher market prices.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["92"],
+    "url": "https://www.tonyscoffee.com/product/mexico-chiapas/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "I'm not the HUGEST fan of Tony's Coffee (sorry, Tony) but this is a good coffee prepared with the pourover method and I give it a thumbs-up. Just STOP with the federation talk if you can't also include a description of the coffee itself!!"
+      }
+    ]
+  },
+  {
+    "id": "QcS-biPJ5Rz1aS6jZGqoW",
+    "name": "Deep Sea Dark Roast",
+    "brewery": "Downeast Coffee Roasters",
+    "image": "DowneastCoffeeReserveDeepSeaDark20251027",
+    "description": "Jumpstart your day with a bold blend of coffees harvested from Colombia and Sumatra. Roast forward. Deep sea dark. Dazzles with raw sugar sweetness. Medium dark blend, smoky, roasted cashew, toffee.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["92"],
+    "url": "https://www.downeastcoffee.com/collections/shop-reserve/products/deep-sea-dark",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "It's very smooth. Just the slightest hint of bitterness, not at all sour. It does have a very deep, smoky, dark flavor and it is really good. I think the strength is just pretty good, just the way it is, but I will treat myself to one teaspoon of hand, a half and half. I think I've heard that. Even though I like the way the coffee tastes, I do think in general that cream and sugar generally makes it taste better."
+      }
+    ]
+  },
+  {
     "id": "xpXJEF6JiZI85IFiup5MO",
     "name": "Weisse Himbeere",
     "brewery": "Berliner Kindl",
     "image": "UnsereWeisseBerlinerKindl20250927",
-    "description": "Unsere Berliner Kindl Weisse Himbeere taucht überall dort auf, wo die Sonne lacht. Herrlich frisch, fruchtig prickelnd und mit Schuss: Schon immer wurde die Original Berliner Kindl Weisse gern gemixt. Für den Genuss-To-Go gibt es den Berliner Bierbotschafter fix und fertig gemischt mit einem fruchtig-süßen Schuss Himbeere. Ein Genuss - nicht nur im Sommer.",
+    "description": "Unsere Berliner Kindl Weisse Himbeere taucht \u00fcberall dort auf, wo die Sonne lacht. Herrlich frisch, fruchtig prickelnd und mit Schuss: Schon immer wurde die Original Berliner Kindl Weisse gern gemixt. F\u00fcr den Genuss-To-Go gibt es den Berliner Bierbotschafter fix und fertig gemischt mit einem fruchtig-s\u00fc\u00dfen Schuss Himbeere. Ein Genuss - nicht nur im Sommer.",
     "type": "beer",
     "sortOrder": "0",
     "episodes": ["91"],
