@@ -45,9 +45,9 @@
     "@iconify-json/ion": "^1.2.6",
     "@iconify-json/mdi": "^1.2.3",
     "@iconify-json/ps": "^1.2.0",
-    "@iconify-json/simple-icons": "^1.2.55",
-    "astro": "^5.15.1",
-    "astro-embed": "^0.9.1",
+    "@iconify-json/simple-icons": "^1.2.59",
+    "astro": "^5.15.9",
+    "astro-embed": "^0.9.2",
     "astro-icon": "^1.1.5",
     "astro-pagefind": "^1.8.5",
     "astro-seo": "^0.8.4",
@@ -55,11 +55,11 @@
     "nanoid": "^5.1.6",
     "normalize.css": "^8.0.1",
     "sanitize-html": "^2.17.0",
-    "sharp": "^0.34.4"
+    "sharp": "^0.34.5"
   },
   "devDependencies": {
-    "eslint": "^9.38.0",
-    "eslint-plugin-astro": "^1.4.0",
+    "eslint": "^9.39.1",
+    "eslint-plugin-astro": "^1.5.0",
     "prettier": "^3.6.2",
     "prettier-plugin-astro": "^0.14.1"
   }
