@@ -1,5 +1,41 @@
 [
   {
+    "id": "fs5i2vKg8WIg3exVx1Zhx",
+    "name": "FOGBUSTER Coffee The Original Fogbuster",
+    "brewery": "FOGBUSTER Coffee The Original Fogbuster",
+    "image": "TheOriginalFogbuster20251124",
+    "description": "The darkest coffee you will ever find! The Original Fogbuster is a rich blend of five beans and three distinct roasts. Dark as night, smokey, and spicy. This full-bodied brew has just enough flavor and acidity for a rich cup. Cupping Notes: A distinct, stout roast with hints of smokiness.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["93"],
+    "url": "https://fogbustercoffee.com/collections/coffee/products/the-original-fogbuster?variant=41004809158806",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "Totally agree with the cupping notes. This is GOOD. It's roasted in Massachusetts."
+      }
+    ]
+  },
+  {
+    "id": "ClWDStn57QhPBvL-vUo1R",
+    "name": "Portland Coffee Roasters Endless Summer",
+    "brewery": "Portland Coffee Roasters Endless Summer",
+    "image": "PortlandCoffeeRoastersEndlessSummer20251124",
+    "description": "Honey and Berry! Chase the Endless Summer with this sunny single-origin! We specially sourced this coffee from the Yirgacheffe District in Ethiopia and meticulously roasted it to coax out sweet notes of honey and a burst of juicy berries. This smooth, balanced roast is delicious brewed hot or cold. It's perfect for chasing away the morning chill or keeping cool on a hot afternoon!⁠",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["93"],
+    "url": "https://www.portlandcoffeeroasters.com/",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "I bought it because it was $12.99 a bag. I knew it was a decent brand, not stellar. This is honey and berry. Could be any kind of honey and any kind of berry. It's not a hot afternoon here, but it's still a nice, drinkable cup."
+      }
+    ]
+  },
+  {
     "id": "PvNC872P0zuE-Zn626M_E",
     "name": "Mexico Chiapas",
     "brewery": "Tony's Coffee",
