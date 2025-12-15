@@ -1,5 +1,41 @@
 [
   {
+    "id": "30FBvB_AaDLuBBElWdZnt",
+    "name": "Turks Island Coffee Roasters",
+    "brewery": "Turks Island Coffee Roasters",
+    "image": "TurkIslandRoastersFrenchCay20251215",
+    "description": "Turks Island Coffee Roasters says NOTHING about this coffee, because they don't have a website that ACTUALLY LOADS...",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["94"],
+    "url": "https://www.instagram.com/turksislandroasters/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "The reason my coffee is so special today is because it is so bleeping expensive! But it's delicious! Pure, unadulterated, and good in an Americano style."
+      }
+    ]
+  },
+  {
+    "id": "qbi1rvLWtdkXUka00Wq5T",
+    "name": "Upper Left Roasters Chapina, Guatemala",
+    "brewery": "Upper Left Roasters Chapina, Guatemala",
+    "image": "UpperLeftRoastersChapina20251215",
+    "description": "Clean, medium body with rich chocolate and lingering fruit sweetness.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["94"],
+    "url": "https://upperleftroasters.com/collections/coffee/products/chapina?variant=32060451913812",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "I do taste the vanilla, and it's quite good, so their tasting notes are accurate! And it's good! So upper left thumbs up!"
+      }
+    ]
+  },
+  {
     "id": "fs5i2vKg8WIg3exVx1Zhx",
     "name": "FOGBUSTER Coffee The Original Fogbuster",
     "brewery": "FOGBUSTER Coffee The Original Fogbuster",
@@ -22,7 +58,7 @@
     "name": "Portland Coffee Roasters Endless Summer",
     "brewery": "Portland Coffee Roasters Endless Summer",
     "image": "PortlandCoffeeRoastersEndlessSummer20251124",
-    "description": "Honey and Berry! Chase the Endless Summer with this sunny single-origin! We specially sourced this coffee from the Yirgacheffe District in Ethiopia and meticulously roasted it to coax out sweet notes of honey and a burst of juicy berries. This smooth, balanced roast is delicious brewed hot or cold. It's perfect for chasing away the morning chill or keeping cool on a hot afternoon!⁠",
+    "description": "Honey and Berry! Chase the Endless Summer with this sunny single-origin! We specially sourced this coffee from the Yirgacheffe District in Ethiopia and meticulously roasted it to coax out sweet notes of honey and a burst of juicy berries. This smooth, balanced roast is delicious brewed hot or cold. It's perfect for chasing away the morning chill or keeping cool on a hot afternoon!\u2060",
     "type": "coffee",
     "sortOrder": "0",
     "episodes": ["93"],
