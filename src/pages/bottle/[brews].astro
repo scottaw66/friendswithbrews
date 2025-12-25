@@ -1,6 +1,7 @@
 ---
 import { Icon } from "astro-icon/components";
 import { Picture } from "astro:assets";
+import { getCollection } from "astro:content";
 import { hostname, origin } from "../../components/utilities/urlparser.mjs";
 import {
   capitalize,
@@ -8,6 +9,9 @@ import {
 } from "../../components/utilities/stringformatter.mjs";
 import Base from "../../layouts/Base.astro";
 import brews from "../../data/brews.json";
+
+const episodes = await getCollection("episodes");
+const episodeMap = new Map(episodes.map((ep) => [ep.data.episode.toString(), ep.data.title]));
 
 export async function getStaticPaths() {
   return brews.map((bottle) => ({
@@ -80,11 +84,10 @@ const { bottle } = Astro.props;
       <div class="links">
         <h4>Episode{bottle.episodes.length > 1 ? "s " : " "}</h4>
         {
-          bottle.episodes.map((ep, index, arr) => (
-            <span key={ep}>
-              <a href={`/${ep}/`}>{ep}</a>
-              {index !== arr.length - 1 ? ", " : ""}
-            </span>
+          bottle.episodes.map((ep) => (
+            <div>
+              <a href={`/${ep}/`}>{ep}: {episodeMap.get(ep.toString()) || ep}</a>
+            </div>
           ))
         }
       </div>

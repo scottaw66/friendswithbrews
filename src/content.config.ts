@@ -7,6 +7,7 @@ export const collections = {
     schema: z.object({
       title: z.string(),
       description: z.string(),
+      descriptionRSS: z.string().optional(),
       episode: z.number().int(),
       date: z.string().transform((str) => new Date(str)),
       audioFile: z.string(),

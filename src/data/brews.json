@@ -1,5 +1,41 @@
 [
   {
+    "id": "okpiDc2jEZ_jS0uEHJ6HD",
+    "name": "Whole Foods Whole Bean Italian Roast",
+    "brewery": "Whole Foods Whole Bean Italian Roast",
+    "image": "WholeFoodsWholeBeanItalianRoast20251225",
+    "description": "Early birds, night owls, and all coffee sippers in between-this bag's for you. Since 1980, we've been sourcing exquisite sperially coffer from more than 20 countries around the world. We seek out beans grown by farmers caring for land in ideal coffer crop conditions and microclimates that yield DISTINCT FLAVOR profiles, like the one You're about to enjoy. The result is a BOLD TASTE you can get behind every time. Now, go brew something yummy.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["95"],
+    "url": "https://www.wholefoodsmarket.com/product/whole-foods-market-whole-foods-market-organic-italian-roast-coffee-dark-whole-bean-12-ounce-b0bwqb7sld",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "It's dark, it's smoky, it's strong, and it's good! After drinking this, I have moved away from Wegman's Dark Roast as my default. Now I don't think that's good enough anymore."
+      }
+    ]
+  },
+  {
+    "id": "jQAW_fxRJTk99VUJ1004V",
+    "name": "New Seasons Market Cottonwood Whole Bean Coffee",
+    "brewery": "New Seasons Market Cottonwood Whole Bean Coffee",
+    "image": "NewSeasonsMarketCottonwoodWholeBeanCoffee20251225",
+    "description": "Chocolatey finish with a balanced, sweet finish.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["95"],
+    "url": "https://shop.newseasonsmarket.com/store/new-seasons-market/products/18319642",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "It's a hell of a bitter coffee. It's not good. My review is: Let's not do that again!"
+      }
+    ]
+  },
+  {
     "id": "30FBvB_AaDLuBBElWdZnt",
     "name": "Turks Island Coffee Roasters",
     "brewery": "Turks Island Coffee Roasters",
