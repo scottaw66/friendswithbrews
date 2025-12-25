@@ -58,18 +58,19 @@ export async function GET(context) {
     <copyright>©${year()} ${site.name}</copyright>`,
     items: Array.from(episodes).map((episode, index) => {
       const { description, descriptionRSS, ...rest } = episode.frontmatter;
+      const contentEncoded = globalImageUrls(
+        site.url,
+        sanitizeHtml(episode.compiledContent(), {
+          allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
+        }),
+      );
       return {
         title: episode.frontmatter.title,
         link: `${site.url}${episode.frontmatter.id}`,
         pubDate: rfc2822(episode.frontmatter.date),
         description: `__CDATA_DESC_${index}__`,
-        content: globalImageUrls(
-          site.url,
-          sanitizeHtml(episode.compiledContent(), {
-            allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
-          }),
-        ),
         customData: `<enclosure url="${site.episodes.audioPrefix}${episode.frontmatter.audioFile}" length="${episode.frontmatter.bytes}" type="audio/mpeg" />
+        <content:encoded><![CDATA[${contentEncoded}]]></content:encoded>
         <itunes:title>${episode.frontmatter.title}</itunes:title>
         <itunes:episode>${episode.frontmatter.episode}</itunes:episode>
         <itunes:duration>${episode.frontmatter.length}</itunes:duration>
