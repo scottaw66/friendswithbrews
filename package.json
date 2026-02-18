@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "export NODE_ENV=development && astro dev",
     "start": "npm run dev",
-    "build": "export NODE_ENV=production && astro build && /Users/scott/Scripts/fwb/deploy.sh",
+    "build": "export NODE_ENV=production && astro build && /Users/scott/Scripts/Sites/fwb/deploy.sh",
     "buildonly": "export NODE_ENV=production && astro build",
     "buildo": "export NODE_ENV=production && astro build",
     "build:p": "npm run buildo && npm run preview",
