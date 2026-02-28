@@ -20,6 +20,21 @@ const title = "Search " + site.title;
     </article>
   </span>
 </Base>
+<script>
+  const input = document.querySelector("#search input");
+  if (input instanceof HTMLInputElement) {
+    input.focus();
+  } else {
+    const observer = new MutationObserver(() => {
+      const input = document.querySelector("#search input");
+      if (input instanceof HTMLInputElement) {
+        input.focus();
+        observer.disconnect();
+      }
+    });
+    observer.observe(document.getElementById("search")!, { childList: true, subtree: true });
+  }
+</script>
 <style>
   p {
     text-align: center;
