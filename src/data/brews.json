@@ -1,10 +1,46 @@
 [
   {
+    "id": "3ARnlZbOcEHj9Gpxso61b",
+    "name": "Mexico Oaxaca Cerro la Bruja",
+    "brewery": "Snowy Owl Coffee Roasters",
+    "image": "SnowyOwlCoffeeRoastersMexicoOaxacaCerrolaBruja20260301",
+    "description": "You would like to think that I could have found a description for this coffee on the vendor's website, but no, because they keep changing what kind of blend they have from Ohaka. They don't keep notes on the previous coffees around, pretty much like every other stupid coffee vendor in the universe. ",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["97"],
+    "url": "https://socoffee.co/",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "It is indeed a lighter roast than I am used to. It does not have a sour taste. definitely notes of caramel. I'm not normally a light roast guy, but this is pretty good."
+      }
+    ]
+  },
+  {
+    "id": "ETDszlrgUeNpZTXeP0qaz",
+    "name": "Rogue Valley Dark Roast",
+    "brewery": "Water Avenue Coffee",
+    "image": "WaterAvenueCoffeeCompanyRogueValleyDarkRoast.png20260301",
+    "description": "Bittersweet chocolate, toasted almonds, toffee.\n\nLooking for a dark roast with nuanced flavor? This washed coffee from Chiapas, Mexico is roasted with a calibrated focus on time and temp to bring out our darkest profile yet. It's bold and toasty (but never burnt), and meant to be sipped from a diner mug in a vinyl booth or a stainless mug on your morning walk. Dark roast lovers, this one's for you. ",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["97"],
+    "url": "https://wateravenuecoffee.com/collections/current-coffees/products/rogue-valley-dark-roast",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "Dark, but not oily! I don't have a vinyl diner booth or a stainless mug, but this is one of my favorite Water Avenue Coffee roasts. I really enjoy this, and it is a repeat purchase."
+      }
+    ]
+  },
+  {
     "id": "KG_RrRtMBEY1jrc9xQR3O",
     "name": "Decaf Monte Carlo Dark Roast Coffee",
     "brewery": "La Colombe Coffee Roasters",
     "image": "LaColombeCoffeeRoastersDecafMonteCarloDarkRoastCoffee20260217",
-    "description": "Tasting Notes: Hazelnut and Sweet Grain\n\nMonte Carlo’s famous for its casino, but we think that decaffeinated coffee should never be a gamble. We made this one as bold, balanced, and deep-bodied as any of our regular dark roasts. Its rich, roast-hazelnut notes would be right at home on the French Riviera.",
+    "description": "Tasting Notes: Hazelnut and Sweet Grain\n\nMonte Carlo\u2019s famous for its casino, but we think that decaffeinated coffee should never be a gamble. We made this one as bold, balanced, and deep-bodied as any of our regular dark roasts. Its rich, roast-hazelnut notes would be right at home on the French Riviera.",
     "type": "coffee",
     "sortOrder": "0",
     "episodes": ["96"],
