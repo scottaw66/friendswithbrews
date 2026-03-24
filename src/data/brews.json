@@ -1,5 +1,41 @@
 [
   {
+    "id": "PQKqzwtWoWwk77XfjpIwk",
+    "name": "Dark Enough",
+    "brewery": "GREGORYS COFFEE",
+    "image": "GREGORYSCOFFEEDarkEnough20260324",
+    "description": "More development means more sweetness, more body and a touch of bitters and brightness to balance your cup. Don't be afraid to darken up your morning.",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["98"],
+    "url": "https://gregoryscoffee.com/collections/coffee/products/dark-enough?variant=31439572893750",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "This is definitely a drink it again cup. I agree with the stated description, and it's good."
+      }
+    ]
+  },
+  {
+    "id": "pSh3BNZFrQAl_AIj91RdG",
+    "name": "Guatemala San Antonio La Paz",
+    "brewery": "Water Avenue Coffee",
+    "image": "WaterAvenueGuatemalaSanAntonioLaPaz20260324",
+    "description": "Grown in the Sierra de Las Minas mountain range, known as the \"mountain of the mines,\" the San Antonio La Paz coffee from the Department of El Progreso thrives in this biodiverse region. Two distinct microclimates; a humid cloud forest on the eastern side and a dry, desert-like climate on the western side create a unique growing environment that also includes Guatemala's largest cloud forest. Tasting Notes: Orange, Caramel, Black Walnut Syrup",
+    "type": "coffee",
+    "sortOrder": "0",
+    "episodes": ["98"],
+    "url": "https://wateravenuecoffee.com/collections/current-coffees/products/guatemala-san-antonio-la-paz",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "This coffee claims to be from Guatemala and it claims to have orange, caramel, and black walnut syrup. I can't say for sure that I taste those things, but I can't say that I don't. I give it a thumbs up. I'll buy this again."
+      }
+    ]
+  },
+  {
     "id": "3ARnlZbOcEHj9Gpxso61b",
     "name": "Mexico Oaxaca Cerro la Bruja",
     "brewery": "Snowy Owl Coffee Roasters",
