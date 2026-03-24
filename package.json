@@ -55,6 +55,11 @@
     "sanitize-html": "^2.17.2",
     "sharp": "^0.34.5"
   },
+  "overrides": {
+    "sanitize-html": {
+      "htmlparser2": "^8.0.0"
+    }
+  },
   "devDependencies": {
     "prettier": "^3.8.1",
     "prettier-plugin-astro": "^0.14.1"
