@@ -9,7 +9,8 @@
     "buildonly": "export NODE_ENV=production && astro build",
     "buildo": "export NODE_ENV=production && astro build",
     "build:p": "npm run buildo && npm run preview",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "check:overrides": "node scripts/check-overrides.mjs"
   },
   "repository": {
     "type": "git",

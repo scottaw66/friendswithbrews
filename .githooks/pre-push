@@ -1,0 +1,5 @@
+#!/bin/sh
+# Tells you when an npm "overrides" pin has become redundant and can be deleted.
+# Non-blocking: this never prevents a push.
+node scripts/check-overrides.mjs 2>&1 || true
+exit 0
