@@ -4,7 +4,7 @@ import { getCollection } from "astro:content";
 import { Icon } from "astro-icon/components";
 import { brewList } from "../components/utilities/brewlist.mjs";
 import BrewDetails from "./BrewDetails.astro";
-import Player from "./Player.astro";
+import VideoEmbed from "./VideoEmbed.astro";
 import PodcastLinks from "./PodcastLinks.astro";
 import { postdate } from "./utilities/DateFormat.mjs";
 import { episodeLength } from "./utilities/episodelength.mjs";
@@ -60,17 +60,28 @@ const transcript = await getCollection("transcripts", ({ id }) => {
   <p>{episode.data.description}</p>
 
   {
-    () => {
-      if ((index === 0 && pageNum === 1) || audio === "true") {
-        return (
-          <Player
-            file={`${site.episodes.audioPrefix}${episode.data.audioFile}`}
-            episode={episode.data.episode}
+    audio === "true"
+      ? episode.data.youtube && (
+          <VideoEmbed
+            id={episode.data.youtube}
             title={episode.data.title}
           />
-        );
-      }
-    }
+        )
+      : episode.data.youtube && (
+          <a
+            class="episode-thumb"
+            href={`${site.episodes.path}${episode.data.episode}`}
+          >
+            <img
+              src={`https://i.ytimg.com/vi/${episode.data.youtube}/maxresdefault.jpg`}
+              alt={`Watch episode ${episode.data.episode}: ${episode.data.title}`}
+              loading="lazy"
+              width="1280"
+              height="720"
+              onerror={`this.onerror=null;this.src='https://i.ytimg.com/vi/${episode.data.youtube}/hqdefault.jpg'`}
+            />
+          </a>
+        )
   }
 
   <PodcastLinks
@@ -122,5 +133,16 @@ const transcript = await getCollection("transcripts", ({ id }) => {
     border-radius: 10px;
     border: 1px solid var(--menu-border);
     padding: 0.5rem 1rem;
+  }
+  a.episode-thumb {
+    display: block;
+    max-width: 560px;
+    margin: 1.5rem auto;
+  }
+  a.episode-thumb img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
   }
 </style>

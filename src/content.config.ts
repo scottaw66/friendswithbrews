@@ -13,6 +13,7 @@ export const collections = {
       audioFile: z.string(),
       length: z.string().regex(/(\d{2}:){2}\d{2}/),
       bytes: z.string(),
+      youtube: z.string().optional(),
     }),
   }),
   transcripts: defineCollection({

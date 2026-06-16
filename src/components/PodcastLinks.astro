@@ -38,6 +38,22 @@ const { episode, transcript } = Astro.props;
       </div>
     )
   }
+  {
+    episode.data.youtube && (
+      <div class="download-link">
+        <div>
+          <a href={`https://www.youtube.com/watch?v=${episode.data.youtube}`}>
+            <Icon name="simple-icons:youtube" />
+          </a>
+        </div>
+        <div>
+          <a href={`https://www.youtube.com/watch?v=${episode.data.youtube}`}>
+            Watch on YouTube
+          </a>
+        </div>
+      </div>
+    )
+  }
   <div class="download-link">
     <div>
       <a href={site.social.overcast}>
@@ -84,6 +100,7 @@ const { episode, transcript } = Astro.props;
   }
   [data-icon="mdi:cloud-download"],
   [data-icon="ic:baseline-document-scanner"],
+  [data-icon="simple-icons:youtube"],
   [data-icon="simple-icons:overcast"],
   [data-icon="simple-icons:applepodcasts"] {
     font-size: 1.5rem;
