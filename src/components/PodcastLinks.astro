@@ -12,64 +12,74 @@ const { episode, transcript } = Astro.props;
 ---
 
 <div class="episode-links">
-  <div class="download-link">
-    <div>
-      <a href={`${site.episodes.audioPrefix}${episode.data.audioFile}`}>
-        <Icon name="mdi:cloud-download" />
-      </a>
-    </div>
-    <div>
-      <a href={`${site.episodes.audioPrefix}${episode.data.audioFile}`}
-        >Download</a
-      >
-    </div>
-  </div>
-  {
-    transcript?.length > 0 && (
-      <div class="download-link">
-        <div>
-          <a href={`/transcripts/${transcript}`}>
-            <Icon name="ic:baseline-document-scanner" />
-          </a>
-        </div>
-        <div>
-          <a href={`/transcripts/${transcript}`}>Transcript</a>
-        </div>
-      </div>
-    )
-  }
   {
     episode.data.youtube && (
-      <div class="download-link">
-        <div>
-          <a href={`https://www.youtube.com/watch?v=${episode.data.youtube}`}>
-            <Icon name="simple-icons:youtube" />
-          </a>
-        </div>
-        <div>
-          <a href={`https://www.youtube.com/watch?v=${episode.data.youtube}`}>
-            Watch on YouTube
-          </a>
+      <div class="link-group">
+        <div class="link-label">Watch the video</div>
+        <div class="link-row">
+          <div class="download-link">
+            <div>
+              <a href={`https://www.youtube.com/watch?v=${episode.data.youtube}`}>
+                <Icon name="simple-icons:youtube" />
+              </a>
+            </div>
+            <div>
+              <a href={`https://www.youtube.com/watch?v=${episode.data.youtube}`}>
+                Watch on YouTube
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     )
   }
-  <div class="download-link">
-    <div>
-      <a href={site.social.overcast}>
-        <Icon name="simple-icons:overcast" />
-      </a>
-    </div>
-    <div><a href={site.social.overcast}>Overcast</a></div>
-  </div>
-  <div class="download-link">
-    <div>
-      <a href={site.social.applePodcasts}>
-        <Icon name="simple-icons:applepodcasts" />
-      </a>
-    </div>
-    <div>
-      <a href={site.social.applePodcasts}>Apple Podcasts</a>
+  <div class="link-group">
+    <div class="link-label">Listen to the audio podcast</div>
+    <div class="link-row">
+      <div class="download-link">
+        <div>
+          <a href={`${site.episodes.audioPrefix}${episode.data.audioFile}`}>
+            <Icon name="mdi:cloud-download" />
+          </a>
+        </div>
+        <div>
+          <a href={`${site.episodes.audioPrefix}${episode.data.audioFile}`}
+            >Download</a
+          >
+        </div>
+      </div>
+      <div class="download-link">
+        <div>
+          <a href={site.social.overcast}>
+            <Icon name="simple-icons:overcast" />
+          </a>
+        </div>
+        <div><a href={site.social.overcast}>Overcast</a></div>
+      </div>
+      <div class="download-link">
+        <div>
+          <a href={site.social.applePodcasts}>
+            <Icon name="simple-icons:applepodcasts" />
+          </a>
+        </div>
+        <div>
+          <a href={site.social.applePodcasts}>Apple Podcasts</a>
+        </div>
+      </div>
+      {
+        transcript?.length > 0 && (
+          <div class="download-link">
+            <div>
+              <a href={`/transcripts/${transcript}`}>
+                <Icon name="ic:baseline-document-scanner" />
+              </a>
+            </div>
+            <div>
+              <a href={`/transcripts/${transcript}`}>Transcript</a>
+            </div>
+          </div>
+        )
+      }
     </div>
   </div>
 </div>
@@ -77,12 +87,33 @@ const { episode, transcript } = Astro.props;
 <style>
   div.episode-links {
     display: flex;
-    margin: 0 auto;
+    flex-direction: row;
     justify-content: center;
+    align-items: flex-start;
+    column-gap: 5rem;
+    row-gap: 2rem;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  div.link-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 0.6rem;
+  }
+  div.link-label {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  div.link-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 0.5rem;
   }
   div.download-link {
     display: flex;
-    padding: 0 1rem;
+    padding: 0;
     font-size: 0.6em;
     text-transform: uppercase;
     font-weight: bold;
@@ -94,8 +125,7 @@ const { episode, transcript } = Astro.props;
   }
   @media screen and (max-width: 500px) {
     div.episode-links {
-      flex-direction: column;
-      row-gap: 0.3rem;
+      column-gap: 3rem;
     }
   }
   [data-icon="mdi:cloud-download"],
