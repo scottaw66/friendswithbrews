@@ -1,18 +1,133 @@
 [
     {
-        "id": "Sxsh5fVXrnikIPVR486O4",
-        "name": "TODO \u2014 add brews",
-        "brewery": "TODO",
-        "image": "placeholder",
-        "description": "Placeholder \u2014 replace with the real brews for this episode before deploy.",
-        "type": "coffee",
+        "id": "yJWnwxqYDBX6FQf1_dm9v",
+        "name": "Boston Irish Stout",
+        "brewery": "Harpoon Brewery",
+        "image": "HARPOONBREWERYBostonIrishStout20260617",
+        "description": "",
+        "type": "beer",
         "sortOrder": "0",
         "episodes": [
             "99"
         ],
-        "url": "https://friendswithbrews.com",
-        "rating": [],
-        "placeholder": true
+        "url": "https://harpoonbrewery.com/beer/boston-irish-stout/",
+        "rating": [
+            {
+                "host": "Peter",
+                "vote": "",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "id": "VBwZeYHXXJ2qN0n4tZt6S",
+        "name": "Harpoon Dark",
+        "brewery": "Harpoon Brewery",
+        "image": "HARPOONBREWERYHarpoonDark20260617",
+        "description": "A blend of specialty malts gives this beer a velvety mouthfeel with roasted notes and a hint of chocolate, balanced by a subtle hop aroma.",
+        "type": "beer",
+        "sortOrder": "0",
+        "episodes": [
+            "99"
+        ],
+        "url": "https://harpoonbrewery.com/beer/dark/",
+        "rating": [
+            {
+                "host": "Peter",
+                "vote": "",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "id": "qLjUbJrYpfm8duJkoSkTv",
+        "name": "Seaport After Midnight",
+        "brewery": "Harpoon Brewery",
+        "image": "HARPOONBREWERYSeaportAfterMidnight20260617",
+        "description": "My BeerBuzz - Harpoon Reveals Seaport After Midnight Stout Collaboration - Boston, Massachusetts - 6.5%-AbV, 16-oz Cans",
+        "type": "beer",
+        "sortOrder": "0",
+        "episodes": [
+            "99"
+        ],
+        "url": "https://mybeerbuzz.com/harpoon-reveals-seaport-after-midnight-stout-collaboration",
+        "rating": [
+            {
+                "host": "Scott",
+                "vote": "",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "id": "LDSvDJJluotTkFPh-UE-Q",
+        "name": "Big Toasty",
+        "brewery": "Harpoon Brewery",
+        "image": "HARPOONBREWERYBigToasty20260617",
+        "description": "Brewers of New England's Original IPA: Harpoon IPA. Employee Owned.",
+        "type": "beer",
+        "sortOrder": "0",
+        "episodes": [
+            "99"
+        ],
+        "url": "https://www.harpoonbrewery.com/",
+        "rating": [
+            {
+                "host": "Peter",
+                "vote": "",
+                "description": ""
+            },
+            {
+                "host": "Scott",
+                "vote": "",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "id": "7P0rt4Arifwv8oYcbXMrd",
+        "name": "UFO White",
+        "brewery": "Harpoon Brewery",
+        "image": "HARPOONBREWERYUFOWhite20260617",
+        "description": "Brewers of New England's Original IPA: Harpoon IPA. Employee Owned.",
+        "type": "beer",
+        "sortOrder": "0",
+        "episodes": [
+            "99"
+        ],
+        "url": "https://www.harpoonbrewery.com/",
+        "rating": [
+            {
+                "host": "Scott",
+                "vote": "",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "id": "B3X3cJKTqvX8wCp-5bYjK",
+        "name": "Mud Season",
+        "brewery": "Long Trail Brewing",
+        "image": "LONGTRAILBREWINGMudSeason20260617",
+        "description": "",
+        "type": "beer",
+        "sortOrder": "0",
+        "episodes": [
+            "99"
+        ],
+        "url": "https://longtrail.com/beers/",
+        "rating": [
+            {
+                "host": "Peter",
+                "vote": "",
+                "description": ""
+            },
+            {
+                "host": "Scott",
+                "vote": "",
+                "description": ""
+            }
+        ]
     },
     {
         "id": "PQKqzwtWoWwk77XfjpIwk",
