@@ -1,1 +1,23 @@
 ErrorDocument 404 /404.html
+
+# --- Caching policy -----------------------------------------------------------
+# Astro + Pagefind emit content-hashed filenames for assets that can change
+# (the hash is in the filename), so those are safe to cache forever. Everything
+# else (HTML, pagefind-entry.json, the pagefind loaders, feeds, images, audio)
+# is served from a stable URL whose bytes change between builds, so it must
+# revalidate on every load. ETags are already sent, so revalidation is a cheap
+# 304 Not Modified — this is what stops Safari from serving stale pages/indexes.
+<IfModule mod_headers.c>
+  # Default for everything: always revalidate against the server.
+  Header set Cache-Control "no-cache, must-revalidate"
+
+  # Content-hashed Astro assets — immutable, cache for a year.
+  <If "%{REQUEST_URI} =~ m#^/_astro/#">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </If>
+
+  # Content-hashed Pagefind index/filter/fragment/meta shards — immutable.
+  <FilesMatch "\.(pf_index|pf_filter|pf_fragment|pf_meta)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+</IfModule>

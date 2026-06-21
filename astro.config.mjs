@@ -5,6 +5,6 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://friendswithbeer.com/",
+  site: "https://friendswithbrews.com/",
   integrations: [ icon(), pagefind(), sitemap(),],
 });
