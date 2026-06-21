@@ -1,20 +1,22 @@
 ---
-import Search from "astro-pagefind/components/Search";
+import PagefindConfig from "astro-pagefind/components/PagefindConfig.astro";
+
+const instance = "fwb";
 ---
 
-<div class="search-component">
-  <Search id="search" />
-</div>
+<PagefindConfig instance={instance} />
 
-<style>
-  div.search-component {
-    max-width: 55ch;
-    margin: 0 auto;
-  }
-  @media screen and (max-width: 780px) {
-    div.search-component {
-      max-width: 90vw;
-      margin: 0 auto;
-    }
-  }
-</style>
+<div class="search-component pagefind-ui">
+  <pagefind-input
+    instance={instance}
+    placeholder="Search for anything…"></pagefind-input>
+
+  <div class="search-layout">
+    <pagefind-filter-pane instance={instance} expanded show-empty
+    ></pagefind-filter-pane>
+    <div class="search-results-col">
+      <pagefind-summary instance={instance}></pagefind-summary>
+      <pagefind-results instance={instance} show-sub-results></pagefind-results>
+    </div>
+  </div>
+</div>

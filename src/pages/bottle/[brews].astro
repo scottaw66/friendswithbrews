@@ -76,9 +76,15 @@ const { bottle } = Astro.props;
         <h4>Brew Type</h4>
         <div class="brew-type">
           <Icon name={brewIcon(bottle.type)} />
-          <span data-pagefind-filter="filter by[content]" content={bottle.type}
-            >{capitalize(bottle.type)}</span
-          >
+          {
+            bottle.type === "water" ? (
+              <span>{capitalize(bottle.type)}</span>
+            ) : (
+              <span data-pagefind-filter="filter by[content]" content={bottle.type}>
+                {capitalize(bottle.type)}
+              </span>
+            )
+          }
         </div>
       </div>
       <div class="links">

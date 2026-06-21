@@ -18,12 +18,21 @@ const latestEpisodes = allEpisodes.slice(0, 1);
 
 <Base title={title}>
   <article>
+    <div class="download-link">
+      <div>
+        <a href={site.social.youtube}>
+          <Icon name="simple-icons:youtube" />
+        </a>
+      </div>
+      <div>
+        <a href={site.social.youtube}> Watch on YouTube </a>
+      </div>
+    </div>
     <p>
-      <b>Friends with Brews Podcast</b> is about friends Peter and Scott, beer,
-      coffee, tea, and podcasting! It's also about Apple, fitness, food, random
-      news, and sometimes our friend Adam!
+      <b>Friends with Brews Podcast</b> is about friends Peter and Scott, beer, coffee,
+      tea, and podcasting! It's also about Apple, fitness, food, random news, and
+      sometimes our friend Adam!
     </p>
-
     <span data-pagefind-ignore>
       <h2 class="latest"><Icon name="fa:certificate" />Latest Episode !!</h2>
 
@@ -45,6 +54,23 @@ const latestEpisodes = allEpisodes.slice(0, 1);
 </Base>
 
 <style>
+  div.download-link {
+    display: flex;
+    padding: 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-items: center;
+  }
+  div.download-link a {
+    color: var(--text);
+    text-decoration: underline;
+  }
+  [data-icon] {
+    font-size: 3rem;
+    margin: 0.6rem 1rem 0 -0.1rem;
+  }
+
   [data-icon="fa:certificate"] {
     font-size: 0.9em;
     margin: 0 0.5em -0.1rem 0;

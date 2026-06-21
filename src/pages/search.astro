@@ -21,18 +21,20 @@ const title = "Search " + site.title;
   </span>
 </Base>
 <script>
-  const input = document.querySelector("#search input");
-  if (input instanceof HTMLInputElement) {
-    input.focus();
-  } else {
+  const selector = "pagefind-input input";
+  const focusInput = () => {
+    const input = document.querySelector(selector);
+    if (input instanceof HTMLInputElement) {
+      input.focus();
+      return true;
+    }
+    return false;
+  };
+  if (!focusInput()) {
     const observer = new MutationObserver(() => {
-      const input = document.querySelector("#search input");
-      if (input instanceof HTMLInputElement) {
-        input.focus();
-        observer.disconnect();
-      }
+      if (focusInput()) observer.disconnect();
     });
-    observer.observe(document.getElementById("search")!, { childList: true, subtree: true });
+    observer.observe(document.body, { childList: true, subtree: true });
   }
 </script>
 <style>

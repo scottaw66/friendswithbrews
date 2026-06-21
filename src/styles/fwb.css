@@ -29,24 +29,8 @@ html {
   --player-surface: #c9ab67;
   --player-text: var(#0d0a01);
 
-  --pagefind-ui-scale: 0.8;
-  --pagefind-ui-primary: var(--menu-border);
-  --pagefind-ui-text: #fff;
-  --pagefind-ui-input-text: #fff;
-  --pagefind-ui-message-text: #000;
-  --pagefind-ui-result-title-text: var(--link-text);
-  --pagefind-ui-result-text: var(--text);
-  --pagefind-ui-background: var(--menu-border);
-  --pagefind-input-background: var(--menu-border);
-  --pagefind-ui-border: var(--menu-surface);
-  --pagefind-ui-tag-text: #fff;
-  --pagefind-ui-border-width: 2px;
-  --pagefind-ui-border-radius: 8px;
-  --pagefind-ui-image-border-radius: 8px;
-  --pagefind-ui-image-box-ratio: 3 / 2;
-  --pagefind-ui-font: sans-serif;
-  --pagefind-button-background: var(--pagefind-input-background);
-  --pagefind-button-color: var(--pagefind-ui-tag-text);
+  /* Pagefind v2 search is themed via --pf-* props scoped to the
+     .search-component.pagefind-ui wrapper below (not :root). */
 }
 
 @font-face {
@@ -180,45 +164,69 @@ div.episode p img {
   margin-left: 2rem;
 }
 
-#search .pagefind-ui__search-input,
-#search .pagefind-ui__search-clear {
-  background-color: var(--pagefind-input-background);
-  color: var(--pagefind-ui-input-text);
+/* Pagefind v2 inline search (composable input + filter-pane + summary +
+   results), mapped to FWB tokens. Light results/filter area with a dark
+   input, matching the prior default-UI look. Layout lives here (not in the
+   component's scoped <style>) so it reliably reaches the custom elements. */
+.search-component {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
 }
-#search .pagefind-ui__result-title,
-#search .pagefind-ui__result-link {
-  display: inline-block;
-  font-weight: 700;
-  font-size: calc(35px * var(--pagefind-ui-scale));
-  color: var(--pagefind-ui-result-title-text);
+.search-component .search-layout {
+  display: grid;
+  grid-template-columns: 11rem 1fr;
+  gap: 2rem;
+  margin-top: 1.75rem;
+  align-items: start;
 }
-#search .pagefind-ui__result-excerpt {
-  color: var(--pagefind-ui-result-text);
-  font-weight: 400;
-  font-size: calc(1.1rem * var(--pagefind-ui-scale));
+/* Let the results column shrink instead of expanding to its content width
+   (grid items default to min-width:auto, which caused horizontal overflow). */
+.search-component .search-results-col {
+  min-width: 0;
 }
-#search .pagefind-ui__message {
-  color: var(--pagefind-ui-result-title-text);
-  margin: calc(0.5rem * var(--pagefind-ui-scale)) 0
-    calc(1.2rem * var(--pagefind-ui-scale))
-    calc(0.5rem * var(--pagefind-ui-scale));
-}
-#search .pagefind-ui__button {
-  color: var(--pagefind-button-color);
-  background: var(--pagefind-button-background);
-}
-#search .pagefind-ui__result-thumb {
-  display: none;
+@media screen and (max-width: 780px) {
+  .search-component .search-layout {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }
 
-#search .pagefind-ui__result-tag {
-  background-color: var(--menu-border);
-  color: var(--pagefind-ui-tag-text);
+/* Theme tokens inherited by every composable component */
+.search-component.pagefind-ui {
+  --pf-background: var(--surface); /* light results + filter area */
+  --pf-text: var(--text); /* dark body text */
+  --pf-text-secondary: var(--link-text);
+  --pf-text-muted: var(--link-text);
+  --pf-border: var(--menu-surface); /* gold borders */
+  --pf-border-focus: var(--menu-surface);
+  --pf-border-radius: 8px;
+  --pf-input-height: 3.25rem;
+  --pf-input-font-size: 1.5rem;
+  --pf-hover: rgba(13, 10, 1, 0.06); /* subtle dark tint on hover */
+  --pf-result-title-font-size: 1.6rem;
+  --pf-result-excerpt-font-size: 1.05rem;
+  --pf-outline-focus: var(--menu-surface); /* gold focus ring, not blue */
+  --pf-mark: var(--text); /* highlighted match text */
 }
-
-#search .pagefind-ui__filter-group,
-#search .pagefind-ui__filter-name {
-  color: var(--text);
+/* Dark input bar: scope the relevant --pf-* tokens to just the input subtree
+   so the component's own rules render it dark — cleaner than fighting the
+   component CSS's baked-in (3,1,0) defensive specificity. --pf-text-muted is
+   the search-icon + placeholder color. */
+.search-component.pagefind-ui pagefind-input {
+  --pf-background: var(--menu-border);
+  --pf-text: #fff;
+  --pf-text-muted: rgba(255, 255, 255, 0.75);
+}
+/* Multi-line wrapping excerpts (component default is single-line ellipsis).
+   !important is required to beat the component's (3,1,0) defensive rules. */
+.search-component.pagefind-ui .pf-result-excerpt {
+  white-space: normal !important;
+}
+/* Restore a gold highlight on matched terms */
+.search-component.pagefind-ui mark {
+  background-color: var(--header-surface) !important;
+  color: var(--text) !important;
 }
 
 [data-icon="bi:hand-thumbs-up-fill"] {

@@ -3,6 +3,7 @@
   "description": "Two friends, two brews, many topics",
   "url": "https://friendswithbrews.com/",
   "social": {
+    "youtube": "https://www.youtube.com/@FriendswithBrewsPodcast",
     "mastodon": "https://appdot.net/@friendswbrews",
     "mastodonName": "FriendswBrews",
     "mastodonIcon": "simple-icons:mastodon",
