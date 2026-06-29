@@ -26,8 +26,6 @@ html {
   --pager-bg: #0d0a01;
   --pager-link-text: #f5e4bb;
   --progress-value: #0d0a01;
-  --player-surface: #c9ab67;
-  --player-text: var(#0d0a01);
 
   /* Pagefind v2 search is themed via --pf-* props scoped to the
      .search-component.pagefind-ui wrapper below (not :root). */
