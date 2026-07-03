@@ -29,7 +29,7 @@
   ],
   "author": "Scott Willsey",
   "dependencies": {
-    "@astrojs/rss": "^4.0.18",
+    "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.3",
     "@fontsource/be-vietnam-pro": "^5.2.8",
     "@fontsource/ia-writer-mono": "^5.2.5",
@@ -45,26 +45,23 @@
     "@iconify-json/mdi": "^1.2.3",
     "@iconify-json/ps": "^1.2.0",
     "@iconify-json/simple-icons": "^1.2.88",
-    "astro": "^7.0.3",
-    "astro-embed": "^0.13.0",
+    "astro": "^7.0.6",
+    "astro-embed": "^0.13.1",
     "astro-icon": "^1.1.5",
     "astro-pagefind": "^2.0.0",
     "astro-seo": "^1.1.0",
     "date-fns": "^4.4.0",
     "nanoid": "^5.1.16",
     "normalize.css": "^8.0.1",
-    "sharp": "^0.35.2",
+    "sharp": "^0.35.3",
     "ultrahtml": "^1.6.0"
   },
   "devDependencies": {
-    "prettier": "^3.9.3",
+    "prettier": "^3.9.4",
     "prettier-plugin-astro": "^0.14.1"
   },
   "overrides": {
     "yaml": "^2.9.0",
-    "astro-embed": {
-      "astro": "$astro"
-    },
     "astro-pagefind": {
       "astro": "$astro"
     }
