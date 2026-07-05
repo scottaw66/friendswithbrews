@@ -44,11 +44,11 @@
     "@iconify-json/ion": "^1.2.7",
     "@iconify-json/mdi": "^1.2.3",
     "@iconify-json/ps": "^1.2.0",
-    "@iconify-json/simple-icons": "^1.2.88",
+    "@iconify-json/simple-icons": "^1.2.89",
     "astro": "^7.0.6",
     "astro-embed": "^0.13.1",
     "astro-icon": "^1.1.5",
-    "astro-pagefind": "^2.0.0",
+    "astro-pagefind": "^2.0.1",
     "astro-seo": "^1.1.0",
     "date-fns": "^4.4.0",
     "nanoid": "^5.1.16",
@@ -61,9 +61,6 @@
     "prettier-plugin-astro": "^0.14.1"
   },
   "overrides": {
-    "yaml": "^2.9.0",
-    "astro-pagefind": {
-      "astro": "$astro"
-    }
+    "yaml": "^2.9.0"
   }
 }
