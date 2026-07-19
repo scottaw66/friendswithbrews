@@ -38,29 +38,33 @@
     "@iconify-json/dashicons": "^1.2.1",
     "@iconify-json/fa": "^1.2.2",
     "@iconify-json/fa-solid": "^1.2.2",
-    "@iconify-json/fluent": "^1.2.52",
+    "@iconify-json/fluent": "^1.2.53",
     "@iconify-json/fontisto": "^1.2.1",
     "@iconify-json/ic": "^1.2.4",
     "@iconify-json/ion": "^1.2.7",
     "@iconify-json/mdi": "^1.2.3",
     "@iconify-json/ps": "^1.2.0",
-    "@iconify-json/simple-icons": "^1.2.89",
-    "astro": "^7.0.6",
+    "@iconify-json/simple-icons": "^1.2.90",
+    "astro": "^7.1.1",
     "astro-embed": "^0.13.1",
     "astro-icon": "^1.1.5",
     "astro-pagefind": "^2.0.1",
     "astro-seo": "^1.1.0",
     "date-fns": "^4.4.0",
-    "nanoid": "^5.1.16",
+    "nanoid": "^6.0.0",
     "normalize.css": "^8.0.1",
     "sharp": "^0.35.3",
-    "ultrahtml": "^1.6.0"
+    "ultrahtml": "^1.7.0"
   },
   "devDependencies": {
-    "prettier": "^3.9.4",
+    "prettier": "^3.9.5",
     "prettier-plugin-astro": "^0.14.1"
   },
   "overrides": {
     "yaml": "^2.9.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true,
+    "fsevents@2.3.3": true
   }
 }

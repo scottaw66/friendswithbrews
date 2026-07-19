@@ -1,10 +1,46 @@
 [
   {
+    "id": "UmuDgX0gUz_sgiadywJeg",
+    "name": "Atl\u00e9tica",
+    "brewery": "Athletic Brewing Company",
+    "image": "ATHLETICBREWINGCOMPANYAtletica20260718",
+    "description": "Atl\u00e9tica is a refreshingly bright take on a Mexican-style copper. Using the finest Munich malts, it boasts a lightly toasted malt character with a whisper of spicy florals before rolling into smooth and lightly sweet waves of bread crust and wheat. A medium-body brew that is big in flavor, it\u2019s the epitome of easy drinking. A smooth and satisfying cooler must-have.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["101"],
+    "url": "https://athleticbrewing.com/products/atletica",
+    "rating": [
+      {
+        "host": "Peter",
+        "vote": "thumbs-up",
+        "description": "As with most things Athletic Brewing Company, it tastes kind of like a beer. It's a little watery. But if you're going for something that tastes like a beer, this tastes like a beer. Yes, I would drink this again."
+      }
+    ]
+  },
+  {
+    "id": "basuNvvwAMhdZS1EZnoYU",
+    "name": "Sapporo Premium Beer",
+    "brewery": "Sapporo Breweries",
+    "image": "SAPPOROBREWERIESSapporoPremiumBeer20260718",
+    "description": "Sapporo Premium Beer is a refreshing lager with a crisp, refined flavor and a clean finish. The perfect beer to pair with any meal and any occasion.",
+    "type": "beer",
+    "sortOrder": "0",
+    "episodes": ["101"],
+    "url": "https://www.sapporobeer.com/our-beers/sapporo-premium-beer",
+    "rating": [
+      {
+        "host": "Scott",
+        "vote": "thumbs-up",
+        "description": "I've decided I prefer Sapporo of the Japanese beer I've tried. You won't regret having a Sapporo. I give it two thumbs up. I have had it before, I am having it now, and I will have it again."
+      }
+    ]
+  },
+  {
     "id": "7OkraCs9C3M2g2do3APxY",
     "name": "West Coast IPA (India Pale Ale)",
     "brewery": "Medford Brewing Company",
     "image": "MEDFORDBREWINGCOMPANYWestCoastIPAIndiaPaleAle20260629",
-    "description": "We made our IPA in the classic tradition of using British malts and American hops. It overflows with hoppiness, but avoids aggressive bitterness. For hops, we start by giving the beer enough bitterness to balance the malt and let the tongue know it’s an IPA, but we focus on late addition hops to maximize the flavors . Then, to make sure the nose is grand, we dry hop the beer, suffusing each sip with the sticky citrus hops you want in an American style IPA.",
+    "description": "We made our IPA in the classic tradition of using British malts and American hops. It overflows with hoppiness, but avoids aggressive bitterness. For hops, we start by giving the beer enough bitterness to balance the malt and let the tongue know it\u2019s an IPA, but we focus on late addition hops to maximize the flavors . Then, to make sure the nose is grand, we dry hop the beer, suffusing each sip with the sticky citrus hops you want in an American style IPA.",
     "type": "beer",
     "sortOrder": "0",
     "episodes": ["100"],
