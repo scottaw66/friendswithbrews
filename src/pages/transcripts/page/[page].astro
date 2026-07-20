@@ -1,9 +1,9 @@
 ---
 import { getCollection } from "astro:content";
-import Base from "../../layouts/Base.astro";
-import TranscriptListView from "../../components/TranscriptListView.astro";
-import Pager from "../../components/Pager.astro";
-import site from "../../data/site.json";
+import Base from "../../../layouts/Base.astro";
+import TranscriptListView from "../../../components/TranscriptListView.astro";
+import Pager from "../../../components/Pager.astro";
+import site from "../../../data/site.json";
 
 export async function getStaticPaths({ paginate }) {
   let transcripts = await getCollection("transcripts");

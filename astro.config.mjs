@@ -6,7 +6,18 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: "https://friendswithbrews.com/",
-  integrations: [ icon(), pagefind(), sitemap(),],
+  redirects: {
+    // The transcript list lives under /transcripts/page/N so it can never
+    // collide with the per-episode pages at /transcripts/N again.
+    "/transcripts": "/transcripts/page/1",
+  },
+  integrations: [
+    icon(),
+    pagefind(),
+    // /explore is soft-launched: reachable by URL, but not linked, listed,
+    // or indexed until it gets a nav home.
+    sitemap({ filter: (page) => !page.includes("/explore") }),
+  ],
   vite: {
     server: {
       // Dev-only: lets /explore hit the live search API without CORS.
