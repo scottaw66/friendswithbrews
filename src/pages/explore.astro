@@ -76,30 +76,16 @@ const description =
     short: "Short",
   };
 
-  // kNN always returns the k nearest chunks, however far away they are — so
-  // the tail of any result set is "closest leftovers", not necessarily
-  // relevant. Split the list where distance falls off: anything more than 10%
-  // farther than the best hit (or beyond an absolute floor) goes below a
-  // "further afield" divider. score = 1/(1+distance), so distance = 1/score-1.
+  // Over-deliver: we ask for a deep result list and show ALL of it, but kNN
+  // ranks by distance with no floor — the tail is "closest leftovers". So
+  // results more than 10% farther than the best hit start tucked away behind
+  // a "less relevant results" toggle instead of being cut off.
+  // (Relative cutoff only — short queries compress all scores, so an absolute
+  // floor would tuck entire filtered lists.)
+  // score = 1/(1+distance), so distance = 1/score-1.
   const RELATIVE_CUTOFF = 1.1;
-  const ABSOLUTE_CUTOFF = 1.15;
 
-  function render(results: any[]) {
-    list.replaceChildren();
-    const topDist = results.length ? 1 / results[0].score - 1 : 0;
-    let divided = false;
-    for (const r of results) {
-      const dist = 1 / r.score - 1;
-      if (
-        !divided &&
-        (dist > topDist * RELATIVE_CUTOFF || dist > ABSOLUTE_CUTOFF)
-      ) {
-        const rule = document.createElement("li");
-        rule.className = "result-divider";
-        rule.textContent = "further afield";
-        list.append(rule);
-        divided = true;
-      }
+  function buildResult(r: any) {
       const li = document.createElement("li");
       li.className = "result";
       li.title = `match score ${r.score}`;
@@ -133,6 +119,7 @@ const description =
       }
       if (r.episode != null) bits.push(`Episode ${r.episode}`);
       if (r.timestamp) bits.push(`at ${r.timestamp}`);
+      if (r.matches) bits.push(`${r.matches} matching passages`);
       if (r.type === "short") bits.push("watch on YouTube");
       meta.textContent = bits.join(" · ");
 
@@ -141,7 +128,36 @@ const description =
       snippet.textContent = r.snippet;
 
       li.append(title, meta, snippet);
+      return li;
+  }
+
+  function render(results: any[]) {
+    list.replaceChildren();
+    list.classList.remove("show-tucked");
+    const topDist = results.length ? 1 / results[0].score - 1 : 0;
+    // Results arrive distance-sorted, so the tuck point is a single index.
+    const tuckAt = results.findIndex(
+      (r) => 1 / r.score - 1 > topDist * RELATIVE_CUTOFF,
+    );
+    results.forEach((r, i) => {
+      const li = buildResult(r);
+      if (tuckAt !== -1 && i >= tuckAt) li.classList.add("tucked");
       list.append(li);
+    });
+    if (tuckAt !== -1) {
+      const n = results.length - tuckAt;
+      const toggle = document.createElement("li");
+      toggle.className = "result-toggle";
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.setAttribute("aria-expanded", "false");
+      btn.textContent = `${n} less relevant result${n === 1 ? "" : "s"}`;
+      btn.addEventListener("click", () => {
+        const open = list.classList.toggle("show-tucked");
+        btn.setAttribute("aria-expanded", String(open));
+      });
+      toggle.append(btn);
+      list.insertBefore(toggle, list.children[tuckAt]);
     }
   }
 
@@ -154,7 +170,7 @@ const description =
       const res = await fetch("/api/search", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ query, k: 12, ...(type ? { type } : {}) }),
+        body: JSON.stringify({ query, k: 50, ...(type ? { type } : {}) }),
       });
       if (res.status === 429) {
         status.textContent = "Whoa, easy there — give it a second and try again.";
@@ -322,20 +338,41 @@ const description =
     margin: 0;
     color: var(--episode-text);
   }
-  #explore-results .result-divider {
+  #explore-results .result.tucked {
+    display: none;
+  }
+  #explore-results.show-tucked .result.tucked {
+    display: block;
+  }
+  #explore-results .result-toggle {
     display: flex;
     align-items: center;
     gap: 0.75rem;
     margin: 1.5rem 0 1rem;
+  }
+  #explore-results .result-toggle::before,
+  #explore-results .result-toggle::after {
+    content: "";
+    flex: 1;
+    border-top: 2px solid var(--menu-surface);
+  }
+  #explore-results .result-toggle button {
     font-family: "CaptainEdward";
     font-size: 1.1rem;
     letter-spacing: 0.05em;
     color: var(--link-text);
+    background: none;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
   }
-  #explore-results .result-divider::before,
-  #explore-results .result-divider::after {
-    content: "";
-    flex: 1;
-    border-top: 2px solid var(--menu-surface);
+  #explore-results .result-toggle button::before {
+    content: "▸ ";
+  }
+  #explore-results .result-toggle button[aria-expanded="true"]::before {
+    content: "▾ ";
+  }
+  #explore-results .result-toggle button:hover {
+    color: var(--episode-title);
   }
 </style>
