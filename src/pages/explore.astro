@@ -106,7 +106,9 @@ const description =
 
       const title = document.createElement("a");
       title.className = "result-title";
-      title.href = r.url;
+      // The API returns absolute site URLs (external consumers need them);
+      // make them origin-relative so localhost testing stays on localhost.
+      title.href = r.url.replace(/^https?:\/\/(www\.)?friendswithbrews\.com/, "") || "/";
       if (r.type === "short") {
         // Shorts have no page on the site — badge them and open YouTube.
         title.target = "_blank";
