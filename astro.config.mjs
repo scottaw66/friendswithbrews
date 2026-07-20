@@ -7,4 +7,16 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   site: "https://friendswithbrews.com/",
   integrations: [ icon(), pagefind(), sitemap(),],
+  vite: {
+    server: {
+      // Dev-only: lets /explore hit the live search API without CORS.
+      // Production is same-origin via the Apache /api/ proxy.
+      proxy: {
+        "/api": {
+          target: "https://friendswithbrews.com",
+          changeOrigin: true,
+        },
+      },
+    },
+  },
 });

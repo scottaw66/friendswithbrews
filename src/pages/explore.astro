@@ -1,0 +1,293 @@
+---
+import Base from "../layouts/Base.astro";
+import site from "../data/site.json";
+
+const title = "Explore " + site.title;
+const description =
+  "Semantic search for Friends with Brews — find episodes, transcripts, brews, and shorts by meaning, not just keywords.";
+---
+
+<Base title={title} description={description}>
+  <span data-pagefind-ignore>
+    <article>
+      <h1>{title}</h1>
+
+      <form id="explore-form" role="search">
+        <input
+          id="explore-input"
+          type="search"
+          name="q"
+          placeholder="What are you looking for?"
+          autocomplete="off"
+          maxlength="500"
+          required
+        />
+        <button type="submit">Explore</button>
+      </form>
+
+      <div id="explore-filters" role="group" aria-label="Filter by type">
+        <button type="button" class="chip" data-type="" aria-pressed="true"
+          >All</button
+        >
+        <button type="button" class="chip" data-type="episode" aria-pressed="false"
+          >Episodes</button
+        >
+        <button
+          type="button"
+          class="chip"
+          data-type="transcript"
+          aria-pressed="false">Transcripts</button
+        >
+        <button type="button" class="chip" data-type="brew" aria-pressed="false"
+          >Brews</button
+        >
+        <button type="button" class="chip" data-type="short" aria-pressed="false"
+          >Shorts</button
+        >
+      </div>
+
+      <p id="explore-status" class="intro">
+        Search by meaning — ask about a topic, a taste, a moment. Results come
+        from every episode, transcript, brew, and YouTube short.
+      </p>
+
+      <ol id="explore-results"></ol>
+    </article>
+  </span>
+</Base>
+
+<script>
+  const form = document.getElementById("explore-form") as HTMLFormElement;
+  const input = document.getElementById("explore-input") as HTMLInputElement;
+  const status = document.getElementById("explore-status") as HTMLElement;
+  const list = document.getElementById("explore-results") as HTMLOListElement;
+  const chips = [
+    ...document.querySelectorAll<HTMLButtonElement>("#explore-filters .chip"),
+  ];
+
+  let type = "";
+  let searching = false;
+
+  const TYPE_LABELS: Record<string, string> = {
+    transcript: "Transcript",
+    episode: "Episode",
+    brew: "Brew",
+    short: "Short",
+  };
+
+  function render(results: any[]) {
+    list.replaceChildren();
+    for (const r of results) {
+      const li = document.createElement("li");
+      li.className = "result";
+
+      const title = document.createElement("a");
+      title.className = "result-title";
+      title.href = r.url;
+      if (r.type === "short") {
+        // Shorts have no page on the site — badge them and open YouTube.
+        title.target = "_blank";
+        title.rel = "noopener";
+        const badge = document.createElement("span");
+        badge.className = "badge";
+        badge.textContent = "▶ Short";
+        title.append(badge, " ");
+      }
+      title.append(r.title);
+
+      const meta = document.createElement("div");
+      meta.className = "result-meta";
+      const bits = [];
+      if (r.type !== "short") bits.push(TYPE_LABELS[r.type] ?? r.type);
+      if (r.episode != null) bits.push(`Episode ${r.episode}`);
+      if (r.timestamp) bits.push(`at ${r.timestamp}`);
+      if (r.type === "short") bits.push("watch on YouTube");
+      meta.textContent = bits.join(" · ");
+
+      const snippet = document.createElement("p");
+      snippet.className = "result-snippet";
+      snippet.textContent = r.snippet;
+
+      li.append(title, meta, snippet);
+      list.append(li);
+    }
+  }
+
+  async function search(query: string) {
+    if (searching) return;
+    searching = true;
+    status.textContent = "Searching…";
+    status.className = "";
+    try {
+      const res = await fetch("/api/search", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ query, k: 12, ...(type ? { type } : {}) }),
+      });
+      if (res.status === 429) {
+        status.textContent = "Whoa, easy there — give it a second and try again.";
+        return;
+      }
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const { results } = await res.json();
+      render(results);
+      status.textContent = results.length
+        ? ""
+        : "Nothing brewed up for that one. Try different words?";
+      const params = new URLSearchParams({ q: query });
+      if (type) params.set("type", type);
+      history.replaceState(null, "", `?${params}`);
+    } catch {
+      status.textContent =
+        "Search is having a moment. Try again in a bit.";
+    } finally {
+      searching = false;
+    }
+  }
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const q = input.value.trim();
+    if (q) search(q);
+  });
+
+  for (const chip of chips) {
+    chip.addEventListener("click", () => {
+      type = chip.dataset.type ?? "";
+      for (const c of chips)
+        c.setAttribute("aria-pressed", String(c === chip));
+      const q = input.value.trim();
+      if (q) search(q);
+    });
+  }
+
+  // Shareable links: /explore?q=…&type=…
+  const params = new URLSearchParams(location.search);
+  const q = params.get("q")?.trim();
+  const t = params.get("type") ?? "";
+  const preset = chips.find((c) => c.dataset.type === t);
+  if (preset && t) preset.click();
+  if (q) {
+    input.value = q;
+    if (!(preset && t)) search(q); // preset.click() already searched
+  }
+  input.focus();
+</script>
+
+<style>
+  h1 {
+    text-align: center;
+  }
+  #explore-form {
+    display: flex;
+    gap: 0.75rem;
+    max-width: 44rem;
+    margin: 1rem auto 0;
+  }
+  #explore-input {
+    flex: 1;
+    height: 3.25rem;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    color: var(--text);
+    background-color: var(--surface);
+    border: 2px solid var(--menu-surface);
+    border-radius: 8px;
+  }
+  #explore-input:focus {
+    outline: 2px solid var(--menu-surface);
+    outline-offset: 1px;
+  }
+  #explore-form button {
+    height: 3.25rem;
+    padding: 0 1.5rem;
+    font-family: "CaptainEdward";
+    font-size: 1.4rem;
+    color: var(--pager-link-text);
+    background-color: var(--pager-bg);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  #explore-form button:hover {
+    color: var(--header-surface);
+  }
+  #explore-filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem auto;
+  }
+  .chip {
+    font-size: 1rem;
+    padding: 0.35rem 0.9rem;
+    color: var(--text);
+    background-color: var(--surface);
+    border: 2px solid var(--menu-surface);
+    border-radius: 999px;
+    cursor: pointer;
+  }
+  .chip[aria-pressed="true"] {
+    background-color: var(--pager-bg);
+    color: var(--pager-link-text);
+    border-color: var(--pager-bg);
+  }
+  #explore-status {
+    text-align: center;
+    max-width: 50ch;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+  }
+  #explore-results {
+    list-style: none;
+    max-width: 44rem;
+    margin: 0 auto 3rem;
+    padding: 0;
+  }
+  @media only screen and (max-width: 899px) {
+    #explore-form {
+      flex-direction: column;
+    }
+  }
+</style>
+
+<!-- Result cards are created by the client script, so Astro's scoped styles
+     never match them — these rules must be global (namespaced by the id). -->
+<style is:global>
+  #explore-results .result {
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+    background-color: var(--surface);
+    border: 2px solid var(--menu-surface);
+    border-radius: 8px;
+  }
+  #explore-results .result-title {
+    font-size: 1.4rem;
+    color: var(--episode-title);
+    text-decoration: none;
+  }
+  #explore-results .result-title:hover {
+    text-decoration: underline;
+  }
+  #explore-results .badge {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: bold;
+    vertical-align: middle;
+    padding: 0.1rem 0.6rem;
+    margin-right: 0.25rem;
+    color: var(--pager-link-text);
+    background-color: var(--pager-bg);
+    border-radius: 999px;
+  }
+  #explore-results .result-meta {
+    font-size: 0.95rem;
+    color: var(--link-text);
+    margin: 0.25rem 0 0.5rem;
+  }
+  #explore-results .result-snippet {
+    margin: 0;
+    color: var(--episode-text);
+  }
+</style>
