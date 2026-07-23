@@ -53,6 +53,12 @@ const description =
       </p>
 
       <ol id="explore-results"></ol>
+
+      {/* Host-only corner: the search service gates these to Scott's and
+          Peter's home IPs (or key); everyone else gets a friendly 403. */}
+      <p id="explore-hosts">
+        <a href="/api/guide">Hosts: agent access guides</a>
+      </p>
     </article>
   </span>
 </Base>
@@ -346,6 +352,14 @@ const description =
     max-width: 44rem;
     margin: 0 auto 3rem;
     padding: 0;
+  }
+  #explore-hosts {
+    text-align: center;
+    font-size: 0.85rem;
+    margin: 0 auto 2rem;
+  }
+  #explore-hosts a {
+    color: var(--link-text);
   }
   @media only screen and (max-width: 899px) {
     #explore-form {
