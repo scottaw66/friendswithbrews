@@ -111,6 +111,21 @@ const description =
     return `${baseHref}#:~:text=${encodeURIComponent(words)}`;
   }
 
+  // Shorts carry their YouTube publish date as "YYYY-MM-DD"; render it in the
+  // site's episode-date style ("12 Jul 2026"). UTC keeps the calendar date
+  // from shifting in western timezones.
+  function fmtDate(iso: string) {
+    const d = new Date(`${iso}T00:00:00Z`);
+    return Number.isNaN(d.valueOf())
+      ? iso
+      : d.toLocaleDateString("en-GB", {
+          day: "2-digit",
+          month: "short",
+          year: "numeric",
+          timeZone: "UTC",
+        });
+  }
+
   function buildResult(r: any) {
       const li = document.createElement("li");
       li.className = "result";
@@ -144,6 +159,7 @@ const description =
         bits.push(TYPE_LABELS[r.type] ?? r.type);
       }
       if (r.episode != null) bits.push(`Episode ${r.episode}`);
+      if (r.published) bits.push(fmtDate(r.published));
       if (r.matches) bits.push(`${r.matches} matching passages`);
       if (r.type === "short") bits.push("watch on YouTube");
       meta.textContent = bits.join(" · ");
