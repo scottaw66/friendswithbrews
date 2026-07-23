@@ -21,10 +21,11 @@ export default defineConfig({
   vite: {
     server: {
       // Dev-only: lets /explore hit the live search API without CORS.
-      // Production is same-origin via the Apache /api/ proxy.
+      // Production is same-origin via the Apache /api/ proxy. Set
+      // FWB_API_TARGET to test against a locally-run search-server instead.
       proxy: {
         "/api": {
-          target: "https://friendswithbrews.com",
+          target: process.env.FWB_API_TARGET || "https://friendswithbrews.com",
           changeOrigin: true,
         },
       },

@@ -85,6 +85,26 @@ const description =
   // score = 1/(1+distance), so distance = 1/score-1.
   const RELATIVE_CUTOFF = 1.1;
 
+  // Passages shown per result before the "N more matching passages" expander.
+  const VISIBLE_PASSAGES = 3;
+
+  // Deep-link a passage with a URL text fragment (#:~:text=…): Safari and
+  // Chrome scroll to AND highlight the quoted text — no site-side anchors
+  // needed. Match on a short prefix (fragments can't cross block boundaries,
+  // and long quotes with punctuation mismatch too easily); strip the leading
+  // "Speaker:" label since it may sit in its own element on old-era pages.
+  function passageHref(baseHref: string, r: any, snippet: string) {
+    if (r.type === "short") return null; // YouTube pages: no text fragments
+    const words = snippet
+      .replace(/^[A-Za-z]+:\s*/, "")
+      .replace(/…$/, "")
+      .split(/\s+/)
+      .slice(0, 8)
+      .join(" ");
+    if (!words) return null;
+    return `${baseHref}#:~:text=${encodeURIComponent(words)}`;
+  }
+
   function buildResult(r: any) {
       const li = document.createElement("li");
       li.className = "result";
@@ -118,16 +138,50 @@ const description =
         bits.push(TYPE_LABELS[r.type] ?? r.type);
       }
       if (r.episode != null) bits.push(`Episode ${r.episode}`);
-      if (r.timestamp) bits.push(`at ${r.timestamp}`);
       if (r.matches) bits.push(`${r.matches} matching passages`);
       if (r.type === "short") bits.push("watch on YouTube");
       meta.textContent = bits.join(" · ");
 
-      const snippet = document.createElement("p");
-      snippet.className = "result-snippet";
-      snippet.textContent = r.snippet;
-
-      li.append(title, meta, snippet);
+      // Surface the matching passages themselves (not just "29 matching
+      // passages"): each one links straight to the highlighted spot in the
+      // source. The API returns EVERY matching passage; show the top few and
+      // tuck the rest behind a per-result expander so a 29-match transcript
+      // stays skimmable but nothing is out of reach. Fall back to the lone
+      // snippet if the API predates `passages`.
+      const passages = r.passages ?? [
+        { snippet: r.snippet, ...(r.timestamp ? { timestamp: r.timestamp } : {}) },
+      ];
+      li.append(title, meta);
+      passages.forEach((p, i) => {
+        const href = passageHref(title.getAttribute("href") ?? "", r, p.snippet);
+        const el = document.createElement(href ? "a" : "p");
+        el.className = "result-snippet";
+        if (i >= VISIBLE_PASSAGES) el.classList.add("passage-tucked");
+        if (href) (el as HTMLAnchorElement).href = href;
+        if (p.timestamp) {
+          const time = document.createElement("span");
+          time.className = "passage-time";
+          time.textContent = p.timestamp;
+          el.append(time, " ");
+        }
+        el.append(p.snippet);
+        li.append(el);
+      });
+      const hidden = passages.length - VISIBLE_PASSAGES;
+      if (hidden > 0) {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "result-more";
+        btn.setAttribute("aria-expanded", "false");
+        const label = `${hidden} more matching passage${hidden === 1 ? "" : "s"}`;
+        btn.textContent = label;
+        btn.addEventListener("click", () => {
+          const open = li.classList.toggle("show-passages");
+          btn.setAttribute("aria-expanded", String(open));
+          btn.textContent = open ? "show fewer passages" : label;
+        });
+        li.append(btn);
+      }
       return li;
   }
 
@@ -335,8 +389,55 @@ const description =
     margin: 0.25rem 0 0.5rem;
   }
   #explore-results .result-snippet {
-    margin: 0;
+    display: block;
+    margin: 0 0 0.6rem;
+    padding: 0.4rem 0.75rem;
     color: var(--episode-text);
+    text-decoration: none;
+    border-left: 3px solid var(--menu-surface);
+  }
+  #explore-results .result-snippet:last-child {
+    margin-bottom: 0;
+  }
+  #explore-results a.result-snippet:hover {
+    border-left-color: var(--pager-bg);
+    background-color: color-mix(in srgb, var(--pager-bg) 8%, transparent);
+  }
+  #explore-results .passage-time {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: bold;
+    padding: 0 0.5rem;
+    color: var(--pager-link-text);
+    background-color: var(--pager-bg);
+    border-radius: 999px;
+  }
+  #explore-results .result .passage-tucked {
+    display: none;
+  }
+  #explore-results .result.show-passages .passage-tucked {
+    display: block;
+  }
+  #explore-results .result-more {
+    display: block;
+    margin: 0;
+    padding: 0.25rem 0.75rem;
+    font-family: "CaptainEdward";
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    color: var(--link-text);
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  #explore-results .result-more::before {
+    content: "▸ ";
+  }
+  #explore-results .result-more[aria-expanded="true"]::before {
+    content: "▾ ";
+  }
+  #explore-results .result-more:hover {
+    color: var(--episode-title);
   }
   #explore-results .result.tucked {
     display: none;
