@@ -10,7 +10,8 @@
     "buildo": "export NODE_ENV=production && astro build",
     "build:p": "npm run buildo && npm run preview",
     "preview": "astro preview",
-    "check:overrides": "node scripts/check-overrides.mjs"
+    "check:overrides": "node scripts/check-overrides.mjs",
+    "ncu": "npx npm-check-updates"
   },
   "repository": {
     "type": "git",

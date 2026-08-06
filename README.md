@@ -15,4 +15,4 @@ Pour a cold one (or two) or a hot one (or two) and enjoy!!!
 This site uses **npm**.
 
 - Install: `npm install`
-- Check for dependency updates: `npx npm-check-updates` (add `-u` to write the new versions to package.json, then `npm install`)
+- Check for dependency updates: `npm run ncu` (to apply them: `npm run ncu -- -u` — note the `--` — then `npm install`)
