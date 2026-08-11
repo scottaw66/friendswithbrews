@@ -373,35 +373,47 @@ Each phase ends with a parity check against `dist-baseline/`.
       copied, and Zola emits `robots.txt` + `sitemap.xml` + a default
       `404.html` for free.
 
-### Phase 1 — Content converter (`migrate/convert.py`)
-- [ ] Frontmatter parser: extend the scottwillsey hand-rolled YAML-subset
-      parser to handle `descriptionRSS` multi-line quoted strings (indented
-      continuation form — all files are valid YAML as of the 2026-08-10
-      pre-migration fix, so PyYAML in the `.venv` is a legitimate fallback);
-      validate round-trip against **all 198 files**. YAML 1.1 gotcha if
-      PyYAML is used: unquoted `length: 00:52:30` parses as a sexagesimal
-      integer — treat `length` as a string explicitly.
-- [ ] Validation lint replacing Zod: known/required keys, date parse,
-      `HH:MM:SS` length format, `bytes` numeric, warn on unknown keys.
-      Non-zero exit on failure (fails build).
-- [ ] Emit episodes → `content/<n>.md` (TOML frontmatter: `title`,
-      `description`, `date`, `slug`, `[extra]` audio_file, bytes, length,
-      duration, youtube?, episode number, description_rss, display_date,
-      rfc2822_date). Precompute all display/RFC dates (port `DateFormat.mjs`
-      byte-for-byte, incl. `episodeLength()` → "1 hour 02 minutes").
-- [ ] Emit transcripts → `content/transcripts/<n>.md`.
-- [ ] `{% raw %}`-wrap any literal `{{`/`{%` in bodies (transcripts are
-      free-form speech — scan all 5.6 MB).
-- [ ] Convert inline `/images/episodes/…` markdown images (leave as-is —
-      they're static passthrough — but verify).
-- [ ] Emit `data/brews.json` (normalized: keep field names; note `sortOrder`
-      is dead), `data/reviews.json`.
-- [ ] Emit stubs: listpages (episodes/brews/transcripts pages), bottle pages
-      with embedded brew + episode-title data, single pages.
-- [ ] `write_if_changed` + `prune_stale` from day one (learned the hard way
-      on scottwillsey).
-- [ ] Parity: converted page count == source count; URL set from a trial
-      `zola build` ⊇ nothing missing vs `baseline-urls.txt`.
+### Phase 1 — Content converter (`migrate/convert.py`) ✅ 2026-08-10
+- [x] Frontmatter parser (stdlib-only YAML subset: top-level scalars,
+      JSON-escape-decoded quoted values, indented multi-line folding).
+      **Cross-checked against PyYAML on all 198 files: 1,432 values, 0
+      mismatches.** Real-data quirks handled: episode 44 uses YAML's
+      backslash-space escape (folded to a space, matching the baseline feed
+      bytes); transcript 60 has trailing whitespace on frontmatter lines
+      (tolerated — frontmatter rstripped, body untouched); transcripts 1–47
+      use historical `id: "T<n>"` (allowed).
+- [x] Validation lint replacing Zod; non-zero exit fails the build. Found a
+      genuine typo Zod's unanchored regex had let through: transcript 44
+      `length: 00:41:10g` — **fixed in src** (episode 44 confirms 00:41:10).
+      Mud Season's empty brew description is warn-only (old site rendered
+      an empty quote).
+- [x] Episodes → `content/<n>.md` with precomputed `duration`,
+      `display_date` (America/Los_Angeles, hardcoded English names — no
+      locale dependence), `rfc2822_date` (UTC "GMT" — byte-matches
+      @astrojs/rss's toUTCString output in the baseline feed), and
+      `has_transcript`.
+- [x] Transcripts → `content/transcripts/<n>.md`.
+- [x] `{% raw %}` protection implemented (fence-independent, line-wise);
+      current content has zero literal Tera braces — guard is for future
+      episodes.
+- [x] Inline `/images/episodes/…` images verified passthrough-safe.
+- [x] `data/brews.json` + `data/reviews.json` copied for `load_data()`
+      (`sortOrder` carried).
+- [x] Stubs: 21 episode-list + 18 brew-list + 5 transcript-list pages
+      (page 1 carries `aliases = ["/transcripts"]`, replacing the Astro
+      config redirect — Zola emits a JS + meta-refresh + noscript page);
+      215 bottle stubs with the full brew object and episode-title map in
+      `[extra]` (nanoid ids survive verbatim in `path` — case preserved,
+      leading `_`/`-` filenames fine; no case collisions on APFS, checked).
+      Hand-maintained: all `_index.md` files + `content/pages/{friends,
+      follow,search,explore}.md`.
+- [x] `write_if_changed` + `prune_stale` from day one.
+- [x] Parity: `zola build` renders **461 pages in ~250 ms**; URL-set diff
+      vs `baseline-urls.txt` shows exactly the three expected deltas —
+      `/feed.xml` missing (Phase 4), `sitemap-index.xml`/`sitemap-0.xml` →
+      `sitemap.xml` (open question #2), `robots.txt` added. Placeholder
+      templates created for episode/transcript/lists/bottle/single pages
+      (replaced in Phases 2–3).
 
 ### Phase 2 — Core templates
 - [ ] `base.html` (head parity: title, meta, view-transition meta, favicon
