@@ -1,0 +1,12 @@
+{# Port of Footer.astro. The Astro version rendered `{year}` (the imported
+   function) — Astro calls function children, so the output was the current
+   build year. now() here reproduces that. #}
+<div class="footer" data-pagefind-ignore>
+  <div class="footer-links">
+    <div>&copy;{{ now() | date(format="%Y") }}</div>
+    <div>{{<icon_bi_cpu_fill />}}</div>
+    <div>
+      {{ config.extra.author }}
+    </div>
+  </div>
+</div>

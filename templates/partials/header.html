@@ -1,0 +1,18 @@
+{# Port of Header.astro. Its astro:assets logo import was dead code — the
+   rendered markup used the plain static SVG, kept here. #}
+<header>
+  <div id="menu-link-div" class="menu-link">
+    <a href="#main-nav">{{<icon_fluent_list_28_filled id="menu-icon" />}}</a>
+  </div>
+  <div class="banner" role="banner">
+    <div class="site-title">
+      <div class="title1"><a href="/">Friends</a></div><div class="title2">
+        <a href="/">With Brews</a>
+      </div>
+    </div>
+    <div class="site-image">
+      <a href="/"><img class="header-image" src="/images/FwBrews-site-header.svg" alt="Friends with Brews" /></a>
+    </div>
+    <div class="site-tagline">{{ config.extra.tagline }}</div>
+  </div>
+</header>

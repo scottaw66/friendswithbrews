@@ -1,8 +1,70 @@
-<!doctype html>
-<html lang="en">
-  <head><meta charset="utf-8" /><title>{{ page.title }}</title></head>
-  <body>
-    <!-- Phase 1 placeholder — real template arrives in Phase 2/3. -->
-    <h1>{{ page.title }}</h1>
-  </body>
-</html>
+{# /follow/ (port of astro/src/pages/follow.astro). #}
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{% endblock title %}
+{% block metatitle %}{{ page.title }}{% endblock metatitle %}
+{% block main %}
+  <h1>Follow!</h1>
+  <p>
+    Please freely subscribe to our podcast so you never miss an episode! And by
+    freely, I mean free, because it may cost you some time, but it won't cost
+    you a dime!
+  </p>
+  <p>
+    And <a rel="me" href="{{ config.extra.social.mastodon }}">follow us on Mastodon</a>,
+    because why not hang out online with strangers instead of talking to your
+    family?
+  </p>
+  <p>
+    <span class="podcast-name">{{ config.title }}</span> is available directly using
+    our RSS feed, or on the following platforms.
+  </p>
+
+  <div class="episode-links">
+    <div class="download-link">
+      <div>
+        <a href="{{ config.extra.social.youtube }}">
+          {{<icon_simple_icons_youtube />}}
+        </a>
+      </div>
+      <div><a href="{{ config.extra.social.youtube }}">YouTube</a></div>
+    </div>
+    <div class="download-link">
+      <div>
+        <a href="{{ config.extra.social.overcast }}">
+          {{<icon_simple_icons_overcast />}}
+        </a>
+      </div>
+      <div><a href="{{ config.extra.social.overcast }}">Overcast</a></div>
+    </div>
+    <div class="download-link">
+      <div>
+        <a href="{{ config.extra.social.apple_podcasts }}">
+          {{<icon_simple_icons_applepodcasts />}}
+        </a>
+      </div>
+      <div>
+        <a href="{{ config.extra.social.apple_podcasts }}">Apple Podcasts</a>
+      </div>
+    </div>
+    <div class="download-link">
+      <div>
+        <a href="/feed.xml">
+          {{<icon_ps_rss />}}
+        </a>
+      </div>
+      <div>
+        <a href="/feed.xml">RSS</a>
+      </div>
+    </div>
+    <div class="download-link">
+      <div>
+        <a rel="me" href="{{ config.extra.social.mastodon }}">
+          {{<icon_simple_icons_mastodon />}}
+        </a>
+      </div>
+      <div>
+        <a rel="me" href="{{ config.extra.social.mastodon }}">{{ config.extra.social.mastodon_name }}</a>
+      </div>
+    </div>
+  </div>
+{% endblock main %}

@@ -1,12 +1,35 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>{{ config.title }}</title>
-  </head>
-  <body>
-    <!-- Phase 0 placeholder homepage. Real templates arrive in Phase 2. -->
-    <h1>{{ config.title }}</h1>
-    <p>{{ config.extra.tagline }}</p>
-  </body>
-</html>
+{# Homepage (port of astro/src/pages/index.astro): intro, latest episode
+   card, three random reviews. #}
+{% extends "base.html" %}
+{# Top-level sets aren't visible inside blocks under extends — each block
+   computes `latest` itself. sort_by="date" puts newest first. #}
+{% block head_extra %}{% set sec = get_section(path="_index.md") %}{% set latest = sec.pages | first %}{% if latest.extra.youtube %}<script type="module" src="/scripts/lite-youtube.js"></script>{% endif %}{% endblock head_extra %}
+{% block main %}
+  {% set sec = get_section(path="_index.md") %}{% set latest = sec.pages | first %}
+  <article>
+    <div class="download-link">
+      <div>
+        <a href="{{ config.extra.social.youtube }}">
+          {{<icon_simple_icons_youtube />}}
+        </a>
+      </div>
+      <div>
+        <a href="{{ config.extra.social.youtube }}"> Watch on YouTube </a>
+      </div>
+    </div>
+    <p>
+      <b>Friends with Brews Podcast</b> is about friends Peter and Scott, beer, coffee,
+      tea, and podcasting! It's also about Apple, fitness, food, random news, and
+      sometimes our friend Adam!
+    </p>
+    <span data-pagefind-ignore>
+      <h2 class="latest">{{<icon_fa_certificate />}}Latest Episode !!</h2>
+      {{<episode_card e={latest} />}}
+    </span>
+    <h2 class="edward">{{<icon_dashicons_awards />}}Reviews</h2>
+    <p>
+      We've gotten some amazing reviews. Check these out!{{<icon_bi_arrow_down_circle_fill />}}
+    </p>
+    {{<reviews />}}
+  </article>
+{% endblock main %}

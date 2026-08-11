@@ -1,0 +1,272 @@
+{# Site-level Tera v2 components ported from astro/src/components/*.astro.
+   Loading this file registers them globally (never rendered directly).
+
+   Conventions carried from the Astro originals:
+   - Episode URLs are emitted WITHOUT a trailing slash ("/101"), matching
+     the old markup byte-for-byte (the server redirects/serves either way).
+   - e.slug is the episode number as a string; brew.episodes holds strings.
+   - display_date / duration / rfc2822_date are precomputed by
+     migrate/convert.py (Tera v2 can't parse ISO dates, and the formats are
+     byte-parity ports of DateFormat.mjs / episodelength.mjs). #}
+
+{# Episode.astro — the full episode view used by /N/ pages (audio=true) and
+   the /episodes/N list pages (audio=false → thumbnail links instead of
+   embeds; the list passes each page's content too). #}
+{% component episode_article(e, audio = true) %}
+<div
+  class="episode"
+  data-pagefind-filter="filter by[content]"
+  content="episode"
+  data-pagefind-meta="result type:episode"
+>
+  <h2 class="episode-title">
+    {{<icon_fontisto_podcast />}}Episode <span data-pagefind-meta="episode">{{ e.extra.episode }}</span> •
+    <span class="episode-number">
+      <a href="/{{ e.slug }}">{{ e.title }}</a>
+    </span>
+  </h2>
+  <div class="episode-date">
+    <span data-pagefind-meta="date">{{<icon_fluent_calendar_rtl_48_filled />}}{{ e.extra.display_date }}</span> •
+    <span>{{ e.extra.duration }}</span>
+    {% if e.extra.has_transcript %}
+      <span>
+        • {{<icon_ic_baseline_document_scanner />}}
+        <a href="/transcripts/{{ e.slug }}">Transcript</a>
+      </span>
+    {% endif %}
+  </div>
+  <p>{{ e.description }}</p>
+
+  {% if e.extra.youtube %}
+    {% if audio %}
+      {{<video_embed id={e.extra.youtube} title={e.title} />}}
+    {% else %}
+      <a class="episode-thumb" href="/{{ e.slug }}">
+        <img
+          src="https://i.ytimg.com/vi/{{ e.extra.youtube }}/maxresdefault.jpg"
+          alt="Watch episode {{ e.extra.episode }}: {{ e.title }}"
+          loading="lazy"
+          width="1280"
+          height="720"
+          onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/{{ e.extra.youtube }}/hqdefault.jpg'"
+        />
+      </a>
+    {% endif %}
+  {% endif %}
+
+  {{<podcast_links e={e} />}}
+
+  <h2>The brew</h2>
+  <div class="brew-container">
+    {% set brews = load_data(path="data/brews.json") %}
+    {% for brew in brews %}
+      {% if e.slug in brew.episodes %}
+        {{<brew_details brew={brew} in_episode={true} />}}
+      {% endif %}
+    {% endfor %}
+  </div>
+  {{ e.content | safe }}
+</div>
+{% endcomponent episode_article %}
+
+{# EpisodeDetails.astro — the homepage "Latest Episode" card: description
+   only (no show notes), embed always shown when the episode has video. #}
+{% component episode_card(e) %}
+<div class="elv">
+  <h2>
+    {{<icon_fontisto_podcast />}}Episode {{ e.extra.episode }} •
+    <span class="episode-number">
+      <a href="/{{ e.slug }}">{{ e.title }}</a>
+    </span>
+  </h2>
+  <div class="episode-date">
+    <span>{{<icon_fluent_calendar_rtl_48_filled />}}{{ e.extra.display_date }}</span> •
+    <span>{{ e.extra.duration }}</span>
+    {% if e.extra.has_transcript %}
+      <span>
+        • {{<icon_ic_baseline_document_scanner />}}
+        <a href="/transcripts/{{ e.slug }}">Transcript</a>
+      </span>
+    {% endif %}
+  </div>
+  <p>{{ e.description }}</p>
+  {% if e.extra.youtube %}
+    {{<video_embed id={e.extra.youtube} title={e.title} />}}
+  {% endif %}
+  {{<podcast_links e={e} />}}
+
+  <div class="brew-container">
+    {% set brews = load_data(path="data/brews.json") %}
+    {% for brew in brews %}
+      {% if e.slug in brew.episodes %}
+        {{<brew_details brew={brew} in_episode={true} />}}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% endcomponent episode_card %}
+
+{# PodcastLinks.astro. Components can't see `config`, so site values come
+   from data/site.json (converter-copied) via load_data. #}
+{% component podcast_links(e) %}
+{% set site = load_data(path="data/site.json") %}
+<div class="episode-links">
+  {% if e.extra.youtube %}
+    <div class="link-group">
+      <div class="link-label">Watch the video</div>
+      <div class="link-row">
+        <div class="download-link">
+          <div>
+            <a href="https://www.youtube.com/watch?v={{ e.extra.youtube }}">
+              {{<icon_simple_icons_youtube />}}
+            </a>
+          </div>
+          <div>
+            <a href="https://www.youtube.com/watch?v={{ e.extra.youtube }}">
+              Watch on YouTube
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+  <div class="link-group">
+    <div class="link-label">Listen to the audio podcast</div>
+    <div class="link-row">
+      <div class="download-link">
+        <div>
+          <a href="{{ site.episodes.audioPrefix }}{{ e.extra.audio_file }}">
+            {{<icon_mdi_cloud_download />}}
+          </a>
+        </div>
+        <div>
+          <a href="{{ site.episodes.audioPrefix }}{{ e.extra.audio_file }}">Download</a>
+        </div>
+      </div>
+      <div class="download-link">
+        <div>
+          <a href="{{ site.social.overcast }}">
+            {{<icon_simple_icons_overcast />}}
+          </a>
+        </div>
+        <div><a href="{{ site.social.overcast }}">Overcast</a></div>
+      </div>
+      <div class="download-link">
+        <div>
+          <a href="{{ site.social.applePodcasts }}">
+            {{<icon_simple_icons_applepodcasts />}}
+          </a>
+        </div>
+        <div>
+          <a href="{{ site.social.applePodcasts }}">Apple Podcasts</a>
+        </div>
+      </div>
+      {% if e.extra.has_transcript %}
+        <div class="download-link">
+          <div>
+            <a href="/transcripts/{{ e.slug }}">
+              {{<icon_ic_baseline_document_scanner />}}
+            </a>
+          </div>
+          <div>
+            <a href="/transcripts/{{ e.slug }}">Transcript</a>
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endcomponent podcast_links %}
+
+{# VideoEmbed.astro / astro-embed <YouTube>: lite-youtube custom element,
+   markup copied from the baseline build. The element definition script is
+   static/scripts/lite-youtube.js (extracted from the same build); page
+   templates include it conditionally. #}
+{% component video_embed(id, title = "") %}
+<div class="video-embed">
+  <lite-youtube videoid="{{ id }}" title="{{ title }}" data-title="{{ title }}" style="background-image: url('https://i.ytimg.com/vi/{{ id }}/hqdefault.jpg')">
+    <a href="https://youtube.com/watch?v={{ id }}" class="lyt-playbtn">
+      <span class="lyt-visually-hidden">Play</span>
+    </a>
+  </lite-youtube>
+</div>
+{% endcomponent video_embed %}
+
+{# BrewDetails.astro — brew card used on episode views and the /brews/N
+   list pages. in_episode suppresses the "Episode(s) …" line (the Astro
+   version keyed this off a truthy `episode` prop).
+   TODO(Phase 5): replace the plain full-size <img> with the resize_image
+   <picture> (avif dropped; webp+jpg at 400/800w) matching astro:assets. #}
+{% component brew_details(brew, in_episode = false) %}
+<div class="brew">
+  <div class="brew-image">
+    <a href="/bottle/{{ brew.id }}/">
+      <img src="/images/brews/{{ brew.image }}.png" alt="{{ brew.brewery }} {{ brew.name }}" loading="lazy" decoding="async" width="400" />
+    </a>
+  </div>
+  <div class="brew-text">
+    <div class="brewery">{{ brew.brewery }}</div>
+    <div class="brew-name">
+      <a href="/bottle/{{ brew.id }}/">{{ brew.name }}</a>
+    </div>
+    <div class="brew-details">
+      <div class="rating">
+        {% for rate in brew.rating %}
+          <div>{{ rate.host }}</div>
+          <div>
+            {% if rate.vote == "thumbs-up" %}
+              {{<icon_bi_hand_thumbs_up_fill />}}
+            {% else %}
+              <span class="{% if rate.vote == 'side-thumb' %}side-thumb{% endif %}">
+                {{<icon_bi_hand_thumbs_down_fill />}}
+              </span>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="brew-type">
+      <div>
+        {{<brew_type_icon type={brew.type} />}}
+      </div>
+      <div>{{ brew.type | capitalize }}</div>
+      <div>
+        {{<icon_fluent_info_24_filled />}}
+      </div>
+      <div>
+        <a href="/bottle/{{ brew.id }}/">View Details</a>
+      </div>
+    </div>
+    {% if not in_episode %}
+      <div class="brew-episodes">
+        Episode{% if brew.episodes | length > 1 %}s{% endif %}
+        {% for ep in brew.episodes %}<span><a href="/{{ ep }}/">{{ ep }}</a>{% if not loop.last %}, {% endif %}</span>{% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</div>
+{% endcomponent brew_details %}
+
+{# Reviews.astro — 3 random, non-repeating reviews, chosen at build time
+   (same semantics as randomReviews(3); the homepage varies per build).
+   Distinct-index math: b avoids a by modular offset; c is the k-th index
+   of the remaining set, materialized by skipping past lo and hi. #}
+{% component reviews() %}
+<div class="reviews" data-pagefind-ignore>
+  {% set items = load_data(path="data/reviews.json") %}
+  {% set n = items | length %}
+  {% set a = get_random(start=0, end=n) %}
+  {% set b = (a + 1 + get_random(start=0, end=n - 1)) % n %}
+  {% set pair = [a, b] | sort %}
+  {% set c = get_random(start=0, end=n - 2) %}
+  {% if c >= pair[0] %}{% set c = c + 1 %}{% endif %}
+  {% if c >= pair[1] %}{% set c = c + 1 %}{% endif %}
+  {% for i in [a, b, c] %}
+    {% set review = items[i] %}
+    <blockquote>
+      <q class="review">{{ review.review }}</q> -
+      <span class="reviewer">{{ review.reviewer }}</span>
+    </blockquote>
+  {% endfor %}
+</div>
+{% endcomponent reviews %}

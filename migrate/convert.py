@@ -17,6 +17,8 @@ what it generates:
     content/bottle/<id>.md      brew detail stubs     (URL /bottle/<id>/)
     data/brews.json             copied from src/data/ for load_data()
     data/reviews.json           copied from src/data/ for load_data()
+    data/site.json              copied from src/data/ for load_data()
+                                (Tera components can't see `config`)
 
 It never touches any _index.md or anything under content/pages/ — those are
 hand-maintained.
@@ -259,6 +261,25 @@ def episode_length(length: str) -> str:
 
 RAW_TOKENS = ("{{", "{%", "{#")
 
+# GFM autolinked bare URLs (remark); CommonMark/pulldown-cmark doesn't.
+# Wrap them in <…> autolinks, which render identically. The lookbehind
+# excludes URLs that are already markdown link targets `](…`, link text
+# `[…`, autolinks `<…`, or inside quoted HTML attributes. (Only episode
+# 100 has genuinely bare URLs today; the guard is for future show notes.)
+BARE_URL_RE = re.compile(r"(?<![(\[<\"'])(https?://[^\s)\]<>\"']+)")
+
+
+def autolink_bare_urls(body: str) -> str:
+    out = []
+    in_fence = False
+    for line in body.split("\n"):
+        if line.strip().startswith("```"):
+            in_fence = not in_fence
+            out.append(line)
+            continue
+        out.append(line if in_fence else BARE_URL_RE.sub(r"<\1>", line))
+    return "\n".join(out)
+
 
 def protect_tera(body: str, name: str) -> str:
     """Zola 0.23 treats content files as Tera templates: literal {{ / {% / {#
@@ -348,7 +369,7 @@ def convert_episodes(transcript_stems: set[str]) -> dict[str, str]:
             fm.append(f"description_rss = {tstr(data['descriptionRSS'])}")
         fm.append("+++")
 
-        out = "\n".join(fm) + "\n" + protect_tera(body, name)
+        out = "\n".join(fm) + "\n" + protect_tera(autolink_bare_urls(body), name)
         write_if_changed(OUT_CONTENT / path.name, out)
         generated.add(path.name)
     prune_stale(OUT_CONTENT, "[0-9]*.md", generated)
@@ -388,7 +409,7 @@ def convert_transcripts() -> set[str]:
             fm.append(f"youtube = {tstr(data['youtube'])}")
         fm.append("+++")
 
-        out = "\n".join(fm) + "\n" + protect_tera(body, name)
+        out = "\n".join(fm) + "\n" + protect_tera(autolink_bare_urls(body), name)
         write_if_changed(OUT_TRANSCRIPTS / path.name, out)
         generated.add(path.name)
     prune_stale(OUT_TRANSCRIPTS, "*.md", generated)
@@ -512,8 +533,10 @@ def convert_brews(episode_titles: dict[str, str]) -> int:
 
 
 def copy_data() -> None:
+    # site.json is included because Tera v2 components can't see `config` —
+    # podcast_links reads audio_prefix/social URLs via load_data instead.
     keep = set()
-    for filename in ("brews.json", "reviews.json"):
+    for filename in ("brews.json", "reviews.json", "site.json"):
         content = (SRC_DATA / filename).read_text(encoding="utf-8")
         write_if_changed(OUT_DATA / filename, content)
         keep.add(filename)

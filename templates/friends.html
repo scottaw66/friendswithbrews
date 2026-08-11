@@ -1,8 +1,91 @@
-<!doctype html>
-<html lang="en">
-  <head><meta charset="utf-8" /><title>{{ page.title }}</title></head>
-  <body>
-    <!-- Phase 1 placeholder — real template arrives in Phase 2/3. -->
-    <h1>{{ page.title }}</h1>
-  </body>
-</html>
+{# /friends/ (port of astro/src/pages/friends.astro). Host portraits use
+   resize_image like astro:assets did: 200×200 cover-crop, webp. #}
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{% endblock title %}
+{% block metatitle %}{{ page.title }}{% endblock metatitle %}
+{% block main %}
+  <h1>The Friends!</h1>
+  <div class="hosts">
+    {% set peter = resize_image(path="src/assets/images/hosts/peter.jpg", width=200, height=200, op="fill", format="webp") %}
+    {% set scott = resize_image(path="src/assets/images/hosts/sawb.jpg", width=200, height=200, op="fill", format="webp") %}
+    <div class="host">
+      <div class="host-image">
+        <img src="/{{ peter.static_path | split(pat="static/") | last }}" alt="Peter Nikolaidis" loading="lazy" decoding="async" width="200" height="200" />
+      </div>
+      <div class="host-details">
+        <h2>Peter Nikolaidis</h2>
+        <p>
+          Peter Nikolaidis discovered his passion for computers and information
+          technology at a young age. An IT and security professional, Peter
+          practices yoga, martial arts, running, biking, as well as
+          self-improvement and mindfulness.
+        </p>
+        <div class="host-socials">
+          <div class="social">
+            <div>
+              {{<icon_simple_icons_bluesky />}}
+            </div>
+            <div>
+              <a href="https://bsky.app/profile/peternikolaidis.com">@peternikolaidis.com</a>
+            </div>
+          </div>
+          <div class="social">
+            <div>
+              {{<icon_simple_icons_mastodon />}}
+            </div>
+            <div>
+              <a rel="me" href="https://infosec.exchange/@nikolaidis">@nikolaidis@infosec.exchange</a>
+            </div>
+          </div>
+          <div class="social">
+            <div>
+              {{<icon_fontisto_safari />}}
+            </div>
+            <div>
+              <a rel="me" href="https://pn72.com/">pn72.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="host">
+      <div class="host-image">
+        <img src="/{{ scott.static_path | split(pat="static/") | last }}" alt="Scott Willsey" loading="lazy" decoding="async" width="200" height="200" />
+      </div>
+      <div class="host-details">
+        <h2>Scott Willsey</h2>
+        <p>
+          Scott is an old school semiconductor guy, painfully infrequent writer,
+          and off and on podcaster. Scott loves playing with computers, biking,
+          running, yoga, and cats. Most of all, Scott loves his amazing family.
+        </p>
+        <div class="host-socials">
+          <div class="social">
+            <div>
+              {{<icon_simple_icons_bluesky />}}
+            </div>
+            <div>
+              <a href="https://bsky.app/profile/scottwillsey.com">@scottwillsey.com</a>
+            </div>
+          </div>
+          <div class="social">
+            <div>
+              {{<icon_simple_icons_mastodon />}}
+            </div>
+            <div>
+              <a href="https://social.lol/@scottwillsey">@scottwillsey@social.lol</a>
+            </div>
+          </div>
+          <div class="social">
+            <div>
+              {{<icon_fontisto_safari />}}
+            </div>
+            <div>
+              <a href="https://scottwillsey.com">scottwillsey.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock main %}

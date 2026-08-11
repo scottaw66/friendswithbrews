@@ -1,0 +1,37 @@
+{# Port of astro/src/layouts/Base.astro. Head parity notes:
+   - <html> deliberately has no lang attribute (Astro didn't emit one).
+   - Most pages ship an EMPTY meta description — Astro's Base destructured
+     `description` but nearly every page passed only `title`. Preserved for
+     parity; revisit post-migration.
+   - The bare view-transition meta tag is NOT Astro's ViewTransitions —
+     it's a plain meta the old site carried. Kept as-is. #}
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-pagefind-meta="title">{% block title %}{{ config.title }}{% endblock title %}</title>
+    <meta name="title" content="{% block metatitle %}{{ config.title }}{% endblock metatitle %}" />
+    <meta name="description" content="{% block description %}{% endblock description %}" />
+    {% block robots %}{% endblock robots %}
+    <meta name="view-transition" content="same-origin" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="preload" href="/fonts/CaptainEdward-Bold.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="alternate" type="application/rss+xml" title="Friends with Brews" href="https://friendswithbrews.com/feed.xml" />
+    <link rel="stylesheet" href="/css/fwb.css" />
+    <!-- Fathom - beautiful, simple website analytics -->
+    <script src="https://cdn.usefathom.com/script.js" data-site="ZKFKMTWA" defer></script>
+    <!-- / Fathom -->
+    {% block head_extra %}{% endblock head_extra %}
+  </head>
+  <body>
+    <div id="wrapper-grid">
+      {% include "partials/header.html" %}
+      <aside>{% include "partials/menu.html" %}</aside>
+      <main>
+        {% block main %}{% endblock main %}
+      </main>
+      {% include "partials/footer.html" %}
+    </div>
+  </body>
+</html>
