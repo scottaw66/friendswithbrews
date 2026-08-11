@@ -1,5 +1,37 @@
 # Friends with Brews → Zola Migration Plan
 
+## ⏱ STATUS (updated 2026-08-10)
+
+**Phases 0–2 done. Next session starts at Phase 3 — lists + pagination.**
+
+- Branch: `zola-migration` (pushed). Companion pipeline changes are on
+  `website-scripts` main (also pushed).
+- Working loop: `python3 migrate/convert.py && zola build`, then
+  `python3 migrate/parity.py page /<url>/` (or `urls`) against the frozen
+  `dist-baseline/` (gitignored — do NOT delete it; it's the parity truth
+  and can't be regenerated without restoring the Astro toolchain).
+- ⛔ Never run `npm run build` (it deploys). Astro is frozen under
+  `astro/` and no longer builds anyway (`src`/`static` moved).
+- Site state: all URLs exist; episode/home/friends/follow pages are real
+  and parity-verified; list/bottle/transcript/search/explore pages are
+  placeholder templates. Site is UNSTYLED until Phase 6 (`/css/fwb.css`
+  is linked but doesn't exist yet). `/feed.xml` doesn't exist until
+  Phase 4.
+- Phase 3 to-do: `pager` component (port `astro/src/components/Pager.astro`
+  markup exactly), real `episodelist.html` / `brewlist.html` /
+  `transcriptlist.html` (slice section pages / `data/brews.json` by
+  `page.extra.page_num` × the sizes in `zola.toml [extra]`),
+  `bottle.html` (data is embedded in each stub's `[extra]`),
+  `transcript.html` + list view (port `Transcript.astro` /
+  `TranscriptListView.astro` from `astro/src/components/`). Parity: URL
+  diff + page-mode checks on list edges (`/episodes/21/`, `/brews/18/`,
+  `/transcripts/page/5/`) and a bottle page.
+- Then: Phase 4 (podcast feed — highest stakes), 5 (brew images),
+  6 (CSS), 7 (search + explore), 8 (cutover). Post-migration tasks
+  section below (transcript backfill for eps 53/97/98/99).
+
+---
+
 Written 2026-08-10, before any migration work. Modeled directly on the
 scottwillsey.com migration (see `~/Sites/scottwillsey/ZOLA-MIGRATION.md`,
 completed 2026-08-07/08), reusing its architecture, tooling, and parity
