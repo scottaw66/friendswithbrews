@@ -1,0 +1,51 @@
+# Zola configuration for friendswithbrews.com (Zola 0.23.x).
+# Migrated from Astro 7 — see ZOLA-MIGRATION.md for the plan and decisions.
+
+base_url = "https://friendswithbrews.com"
+title = "Friends with Brews"
+description = "Two friends, two brews, many topics"
+
+# Matches Astro's output dir so ~/Scripts/Sites/fwb/deploy.sh needs zero changes.
+output_dir = "dist"
+
+# static/ holds ~530 MB of brew/episode images; hard-link instead of copying
+# them into dist/ on every build.
+hard_link_static = true
+
+# Keep Finder droppings out of dist/ (deploy.sh's rsync has no exclude).
+ignored_static = ["*.DS_Store"]
+
+# The podcast feed is a custom template at /feed.xml (Phase 4), not Zola's
+# built-in feed machinery.
+generate_feeds = false
+
+# Search is Pagefind (post-build), not Zola's elasticlunr.
+build_search_index = false
+
+compile_sass = false
+
+[markdown]
+# Parity with Astro's remark defaults: smart quotes on, no rel="external"
+# injected on outbound links. (Verify against dist-baseline in Phase 2 —
+# same two settings were confirmed by feed-diffing on scottwillsey.com.)
+smart_punctuation = true
+external_links_external = false
+
+[extra]
+# Flattened from src/data/site.json (which remains the authoring source for
+# the external pipeline; these values change rarely — keep in sync by hand).
+author = "Beeping Machine"
+email = "scott@beepingmachine.com"
+tagline = "Two friends, two brews, many topics"
+audio_prefix = "https://pints.friendswithbrews.com/"
+rss_image = "FwBrews3000.png"
+episodes_paginate_by = 5
+transcripts_paginate_by = 20
+brews_paginate_by = 12
+
+[extra.social]
+youtube = "https://www.youtube.com/@FriendswithBrewsPodcast"
+mastodon = "https://appdot.net/@friendswbrews"
+mastodon_name = "FriendswBrews"
+overcast = "https://overcast.fm/itunes1573648053/friends-with-brews-podcast"
+apple_podcasts = "https://podcasts.apple.com/us/podcast/friends-with-brews-podcast/id1573648053"

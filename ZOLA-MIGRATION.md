@@ -344,25 +344,34 @@ URL-shape notes:
 Ordered so the riskiest unknowns (converter + feed) surface earliest.
 Each phase ends with a parity check against `dist-baseline/`.
 
-### Phase 0 — Baseline + restructure + scaffold
-- [ ] `npm run buildonly`, verify `dist/` is current, then snapshot
-      `mv dist dist-baseline` (gitignore it). **Before Zola ever runs.**
-- [ ] Record baseline URL inventory: `find dist-baseline -name index.html`
-      + top-level files → `migrate/baseline-urls.txt`.
-- [ ] Extract `PagefindConfig.*.js` and note lite-youtube script from
-      `dist-baseline/_astro/` while node_modules still exists.
-- [ ] Extract the ~20 Iconify SVGs from `node_modules/@iconify-json/*` into
-      `templates/icons.html` raw material; vendor fonts + normalize.css into
-      `static/` staging.
-- [ ] `git mv` Astro files (`src` stays! only `astro.config.mjs`,
-      `package.json`, lockfile, `tsconfig.json`, `scripts/`, `.githooks/`
-      etc. → `astro/`), `git mv public static`.
-- [ ] **Same sitting as the `git mv`**: update the hardcoded
-      `public/images/brews` paths in `FwBImagesWithRename.retrobatch` and
-      the image-dir checks in `~/Scripts/Sites/fwb/fwb-new-episode/main.py`
-      to `static/images/brews` (see pipeline contract).
-- [ ] `zola init`-style scaffold: `zola.toml`, minimal `templates/index.html`,
-      `content/_index.md`; `zola build` runs clean.
+### Phase 0 — Baseline + restructure + scaffold ✅ 2026-08-10
+- [x] Snapshot `mv dist dist-baseline` (gitignored). Used the verified
+      post-descriptionRSS-rewrite build (byte-parity proven vs its own
+      2-build nondeterminism floor), so no fresh `buildonly` was needed.
+- [x] Baseline URL inventory → `migrate/baseline-urls.txt` (**475 URLs**:
+      pages + root-level files; hashed `_astro/`/`pagefind/` assets
+      deliberately excluded).
+- [x] Extracted while node_modules exists → `migrate/reference/`:
+      `pagefind-config-bootstrap.js`, `lite-youtube-inline.js` (the inline
+      module astro-embed emits, 3.5 KB), `normalize.css`, fontsource CSS
+      (for `@font-face`/unicode-range porting in Phase 6), and **24** icon
+      SVGs in `icons/` (20 literal `<Icon>` uses + 4 from `brewIcon()`).
+- [x] Vendored fonts → `static/fonts/vendor/` (26 files: be-vietnam-pro
+      200/400/500/900 × latin/latin-ext/vietnamese woff2+woff,
+      ia-writer-mono latin-400). roboto-mono dropped (imported, unused).
+- [x] `git mv`: `astro.config.mjs`, `package.json`, lockfile,
+      `tsconfig.json`, `scripts/`, `.githooks` → `astro/`;
+      `git mv public static`. `src/` untouched at root.
+- [x] Pipeline path edits same sitting: `FwBImagesWithRename.retrobatch`
+      line 138 and `main.py` `SITE_BREW_PUBLIC` now point at
+      `static/images/brews`; `FWB_WORKFLOW.md` updated.
+- [x] Scaffold: `zola.toml` (site.json flattened into `[extra]`),
+      `content/_index.md`, placeholder `templates/index.html`.
+      `zola build` clean in ~120 ms. Findings: `hard_link_static = true`
+      (static/ is ~530 MB — hard links, not copies), `ignored_static =
+      ["*.DS_Store"]` (deploy rsync has no exclude), `.htaccess` confirmed
+      copied, and Zola emits `robots.txt` + `sitemap.xml` + a default
+      `404.html` for free.
 
 ### Phase 1 — Content converter (`migrate/convert.py`)
 - [ ] Frontmatter parser: extend the scottwillsey hand-rolled YAML-subset
