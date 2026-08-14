@@ -3,6 +3,7 @@
    date-sorted pages; the h1 sits outside the pagefind-ignore div, matching
    the old markup. #}
 {% extends "base.html" %}
+{% block main_attrs %} class="transcriptlist-page"{% endblock main_attrs %}
 {% block title %}{{ config.title }} Transcripts{% endblock title %}
 {% block metatitle %}{{ config.title }} Transcripts{% endblock metatitle %}
 {% block main %}

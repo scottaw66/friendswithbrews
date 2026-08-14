@@ -1,6 +1,7 @@
 {# /transcripts/N/ — single transcript page (port of astro/src/pages/
    transcripts/[slug].astro, which passed title.toUpperCase() to Base). #}
 {% extends "base.html" %}
+{% block main_attrs %} class="transcript-page"{% endblock main_attrs %}
 {% block title %}{{ page.title | upper }}{% endblock title %}
 {% block metatitle %}{{ page.title | upper }}{% endblock metatitle %}
 {% block main %}

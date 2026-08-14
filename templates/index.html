@@ -3,6 +3,7 @@
 {% extends "base.html" %}
 {# Top-level sets aren't visible inside blocks under extends — each block
    computes `latest` itself. sort_by="date" puts newest first. #}
+{% block main_attrs %} class="home-page"{% endblock main_attrs %}
 {% block head_extra %}{% set sec = get_section(path="_index.md") %}{% set latest = sec.pages | first %}{% if latest.extra.youtube %}<script type="module" src="/scripts/lite-youtube.js"></script>{% endif %}{% endblock head_extra %}
 {% block main %}
   {% set sec = get_section(path="_index.md") %}{% set latest = sec.pages | first %}

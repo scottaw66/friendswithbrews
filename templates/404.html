@@ -6,6 +6,7 @@
    TODO(Phase 7): insert the Search component (pagefind-config bootstrap
    + pagefind UI markup) between the h1 and the first paragraph. #}
 {% extends "base.html" %}
+{% block main_attrs %} class="notfound-page"{% endblock main_attrs %}
 {% block title %}404 not found - {{ config.title }}{% endblock title %}
 {% block metatitle %}404 not found - {{ config.title }}{% endblock metatitle %}
 {% block main %}

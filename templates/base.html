@@ -28,7 +28,11 @@
     <div id="wrapper-grid">
       {% include "partials/header.html" %}
       <aside>{% include "partials/menu.html" %}</aside>
-      <main>
+      {# main_attrs lets a page template put a scoping class on <main>
+         (e.g. class="bottle-page") — the flattened per-page styles in
+         static/css/fwb.css hang off these. Astro did the same job with
+         data-astro-cid-* attrs. #}
+      <main{% block main_attrs %}{% endblock main_attrs %}>
         {% block main %}{% endblock main %}
       </main>
       {% include "partials/footer.html" %}

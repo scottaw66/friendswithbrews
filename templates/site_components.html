@@ -19,11 +19,12 @@
   content="episode"
   data-pagefind-meta="result type:episode"
 >
+  {# "•<span" is glued with no whitespace, exactly like the old markup:
+     the bullet and the title form one unbreakable token, so long titles
+     overflow instead of wrapping at narrow widths — old-site behavior,
+     kept for visual parity. Same in episode_card below. #}
   <h2 class="episode-title">
-    {{<icon_fontisto_podcast />}}Episode <span data-pagefind-meta="episode">{{ e.extra.episode }}</span> •
-    <span class="episode-number">
-      <a href="/{{ e.slug }}">{{ e.title }}</a>
-    </span>
+    {{<icon_fontisto_podcast />}}Episode <span data-pagefind-meta="episode">{{ e.extra.episode }}</span> •<span class="episode-number"><a href="/{{ e.slug }}">{{ e.title }}</a></span>
   </h2>
   <div class="episode-date">
     <span data-pagefind-meta="date">{{<icon_fluent_calendar_rtl_48_filled />}}{{ e.extra.display_date }}</span> •
@@ -74,10 +75,7 @@
 {% component episode_card(e) %}
 <div class="elv">
   <h2>
-    {{<icon_fontisto_podcast />}}Episode {{ e.extra.episode }} •
-    <span class="episode-number">
-      <a href="/{{ e.slug }}">{{ e.title }}</a>
-    </span>
+    {{<icon_fontisto_podcast />}}Episode {{ e.extra.episode }} •<span class="episode-number"><a href="/{{ e.slug }}">{{ e.title }}</a></span>
   </h2>
   <div class="episode-date">
     <span>{{<icon_fluent_calendar_rtl_48_filled />}}{{ e.extra.display_date }}</span> •
@@ -335,9 +333,10 @@
   content="transcript"
   data-pagefind-meta="result type:transcript"
 >
+  {# icon and link glued (no whitespace) like the old markup — a newline
+     here adds a space and shifts the whole heading. #}
   <h2>
-    {{<icon_ic_baseline_document_scanner />}}
-    <a href="/{{ t.extra.episode }}">Episode {{ t.extra.episode }} – {{ t.title }}</a>
+    {{<icon_ic_baseline_document_scanner />}}<a href="/{{ t.extra.episode }}">Episode {{ t.extra.episode }} – {{ t.title }}</a>
   </h2>
   <div class="transcript-links">
     <span data-pagefind-meta="date">{{<icon_fluent_calendar_rtl_48_filled />}}{{ t.extra.display_date }}</span> •
@@ -364,9 +363,9 @@
 {# TranscriptListView.astro — one entry on the /transcripts/page/N lists. #}
 {% component transcript_list_item(t) %}
 <div class="transcript" data-pagefind-ignore>
+  {# icon/link glue: see transcript_article #}
   <h3>
-    {{<icon_ic_baseline_document_scanner />}}
-    <a href="/transcripts/{{ t.slug }}">Episode {{ t.extra.episode }} – {{ t.title }}</a>
+    {{<icon_ic_baseline_document_scanner />}}<a href="/transcripts/{{ t.slug }}">Episode {{ t.extra.episode }} – {{ t.title }}</a>
   </h3>
   <div class="description">
     {{ t.description }}

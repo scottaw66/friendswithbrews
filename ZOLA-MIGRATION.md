@@ -2,9 +2,10 @@
 
 ## ⏱ STATUS (updated 2026-08-13)
 
-**Phases 0–5 done. Next session starts at Phase 6 — CSS (`static/css/
-fwb.css`: fwb.css minus npm imports + vendored normalize + @font-face +
-the 18 flattened scoped-style blocks).**
+**Phases 0–6 done. Next session starts at Phase 7 — search + explore
+(Pagefind via .venv post-build, PagefindConfig bootstrap, explore
+template + its is:global CSS; the /404 search box and the search page's
+tiny scoped block are also Phase 7).**
 
 - Branch: `zola-migration` (pushed). Companion pipeline changes are on
   `website-scripts` main (also pushed).
@@ -27,9 +28,11 @@ the 18 flattened scoped-style blocks).**
   **zero text/link/image diffs everywhere** except the known set —
   homepage (random reviews), `/search/` + `/explore/` (Phase 7
   placeholders), `/transcripts/` (Zola's alias-redirect markup,
-  equivalent), and `/transcripts/45/` (accepted, see below). Site is
-  UNSTYLED until Phase 6 (`/css/fwb.css` is linked but doesn't exist
-  yet).
+  equivalent), and `/transcripts/45/` (accepted, see below). The site is
+  fully styled (Phase 6): `static/css/fwb.css` is the whole stylesheet,
+  and the headless-Chrome visual pass has every page type ≤0.3% pixel
+  diff vs baseline at 1280/800/390px except /404 (missing Phase 7
+  search UI) and the homepage (random reviews).
 - Accepted divergence: transcript 45's censored `f**_ing s_**` — remark
   parsed the markers as strong/em, pulldown-cmark leaves them as literal
   text (closer to the source). One page, cosmetic; revisit only if it
@@ -616,14 +619,51 @@ Each phase ends with a parity check against `dist-baseline/`.
   `static/processed_images/` (cached, gitignored); incremental builds
   ~2.4s.
 
-### Phase 6 — Styling
-- [ ] `static/css/fwb.css`: fwb.css minus npm imports, plus vendored
-      normalize + @font-face rules, plus all 18 flattened scoped-style
-      blocks (class-scoped by hand; grep baseline HTML for the actual
-      class names in use).
-- [ ] Drop roboto-mono (unused) — note in commit message.
-- [ ] Parity: headless-Chrome visual pass over every template type at
-      desktop + <900px (menu reflow breakpoint).
+### Phase 6 — Styling ✅ 2026-08-14
+- [x] `static/css/fwb.css` (42KB, no build step): vendored @font-face
+      (Be Vietnam Pro 200/400/500/900 ×3 subsets + iA Writer Mono, from
+      `migrate/reference/fontsource-css/` with URLs pointed at
+      /fonts/vendor/) + normalize.css v8 verbatim + `src/styles/fwb.css`
+      minus its npm @imports + the flattened scoped blocks + lite-youtube
+      CSS vendored from astro-embed's bundle. The baseline shipped its
+      CSS as Base.css + episodelength.css + 11 distinct inline <style>
+      blocks — all merged into the one file.
+- [x] Scoped-block flattening: component blocks scope under their root
+      class (.brew, .episode, .elv, .episode-links, .nav-container,
+      .footer, .pager, .reviews); page blocks scope under a per-page
+      class that a new `main_attrs` block in base.html puts on `<main>`
+      (.home-page/.follow-page/.bottle-page/.friends-page/
+      .transcript-page/.transcriptlist-page/.notfound-page — attrs are
+      invisible to text/link parity). 12 colliding class names
+      (.brew-details, .download-link, .episode-links, .host, .links, …)
+      plus bare a/h2/h3/nav/[data-icon] selectors kept apart this way;
+      the fwb.css header comment documents the trap.
+- [x] Dropped as dead weight (verified 0 referencing pages): roboto-mono
+      fonts (imported, never used), astro-embed's twitter/vimeo/
+      mastodon/bluesky CSS, `baseline-status` widget CSS, and
+      GlobalStyles.qGGGZqmz.css (unreferenced by any baseline page).
+      search page's tiny scoped block + Search component CSS → Phase 7.
+- [x] Mechanical coverage check (scripted): every declaration in the
+      baseline CSS (both bundles + all inline blocks, modulo the dead
+      set) exists in the new fwb.css under an equivalent selector and
+      media query — **0 missing rule-parts** (media queries normalized:
+      the bundler rewrote max-width to range syntax).
+- [x] Visual pass, headless Chrome, 11 page types × 1280/800/390px, new
+      vs baseline screenshots pixel-diffed: **every page ≤0.3% differing
+      pixels** (antialiasing/codec noise; /follow and /transcripts/page/1
+      are 0.00%) except /404 (3–7.6%: the Phase 7 search UI isn't there
+      yet) and the homepage (0.9–2.1%: random build-time reviews).
+- [x] Markup bugs the visual diff caught (all fixed): (1) icon widths —
+      astro-icon emits width from the viewBox aspect ratio ceiled to 2dp
+      (fontisto:podcast 0.84em, ps:rss 0.96em, fa-solid:coffee 1.25em),
+      gen-icons.py now replicates that; (2) whitespace glue — the old
+      JSX emitted `•<span>` (episode titles) and `<svg><a` (transcript
+      headings) with no whitespace, so titles form one unbreakable token
+      (overflow at narrow widths = old-site behavior, preserved) and
+      headings sit 4px tighter — our templates now glue them the same
+      way; (3) h2.latest sits inside a span, so the flattened homepage
+      h2 margin rule needed explicit .latest/.edward selectors, not a
+      child combinator.
 
 ### Phase 7 — Search + Explore
 - [ ] Pagefind via `.venv` post-build; replicate PagefindConfig bootstrap as

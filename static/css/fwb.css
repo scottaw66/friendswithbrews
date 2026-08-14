@@ -1,0 +1,1723 @@
+/* fwb.css — the entire site's stylesheet (Zola serves this file as-is;
+   there is no CSS build step).
+
+   Assembled 2026-08-14 during the Zola migration (Phase 6) from:
+   1. @font-face rules vendored from the @fontsource npm packages the old
+      Astro build imported (files live in /fonts/vendor/). roboto-mono was
+      imported but never used — dropped.
+   2. normalize.css v8.0.1, vendored verbatim (was `@import "normalize.css"`).
+   3. src/styles/fwb.css — the old global stylesheet, verbatim minus the
+      npm @imports it opened with.
+   4. The scoped <style> blocks from the old .astro components and pages,
+      flattened by hand. Astro scoped these with data-astro-cid-* attrs;
+      here each block's selectors are scoped by the component's root class
+      (.brew, .episode, .elv, …) or by a per-page class that base.html's
+      main_attrs block puts on <main> (.home-page, .follow-page,
+      .bottle-page, .friends-page, .transcript-page, .transcriptlist-page,
+      .notfound-page). Where two blocks styled the same class differently
+      (.brew-details, .download-link, .episode-links, [data-icon], bare
+      a/h2/nav …) the scoping keeps them apart — don't "simplify" a
+      selector without checking whose rule it was.
+   5. lite-youtube styles vendored from astro-embed's bundle (the only
+      embed type the site uses — its twitter/vimeo/mastodon/bluesky CSS
+      was dead weight and is not carried over).
+   Search + explore styles arrive in Phase 7. */
+
+/* ====================================================================
+   1. Fonts (vendored @fontsource; CaptainEdward's face is declared in
+      the global styles section below, same as the old fwb.css)
+   ==================================================================== */
+/* be-vietnam-pro-vietnamese-400-normal */
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/be-vietnam-pro-vietnamese-400-normal.woff2) format('woff2'), url(/fonts/vendor/be-vietnam-pro-vietnamese-400-normal.woff) format('woff');
+  unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;
+}
+
+/* be-vietnam-pro-latin-ext-400-normal */
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/be-vietnam-pro-latin-ext-400-normal.woff2) format('woff2'), url(/fonts/vendor/be-vietnam-pro-latin-ext-400-normal.woff) format('woff');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* be-vietnam-pro-latin-400-normal */
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/be-vietnam-pro-latin-400-normal.woff2) format('woff2'), url(/fonts/vendor/be-vietnam-pro-latin-400-normal.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+/* be-vietnam-pro-vietnamese-900-normal */
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: url(/fonts/vendor/be-vietnam-pro-vietnamese-900-normal.woff2) format('woff2'), url(/fonts/vendor/be-vietnam-pro-vietnamese-900-normal.woff) format('woff');
+  unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;
+}
+
+/* be-vietnam-pro-latin-ext-900-normal */
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: url(/fonts/vendor/be-vietnam-pro-latin-ext-900-normal.woff2) format('woff2'), url(/fonts/vendor/be-vietnam-pro-latin-ext-900-normal.woff) format('woff');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* be-vietnam-pro-latin-900-normal */
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: url(/fonts/vendor/be-vietnam-pro-latin-900-normal.woff2) format('woff2'), url(/fonts/vendor/be-vietnam-pro-latin-900-normal.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+/* be-vietnam-pro-vietnamese-500-normal */
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/be-vietnam-pro-vietnamese-500-normal.woff2) format('woff2'), url(/fonts/vendor/be-vietnam-pro-vietnamese-500-normal.woff) format('woff');
+  unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;
+}
+
+/* be-vietnam-pro-latin-ext-500-normal */
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/be-vietnam-pro-latin-ext-500-normal.woff2) format('woff2'), url(/fonts/vendor/be-vietnam-pro-latin-ext-500-normal.woff) format('woff');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* be-vietnam-pro-latin-500-normal */
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/be-vietnam-pro-latin-500-normal.woff2) format('woff2'), url(/fonts/vendor/be-vietnam-pro-latin-500-normal.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+/* be-vietnam-pro-vietnamese-200-normal */
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200;
+  src: url(/fonts/vendor/be-vietnam-pro-vietnamese-200-normal.woff2) format('woff2'), url(/fonts/vendor/be-vietnam-pro-vietnamese-200-normal.woff) format('woff');
+  unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;
+}
+
+/* be-vietnam-pro-latin-ext-200-normal */
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200;
+  src: url(/fonts/vendor/be-vietnam-pro-latin-ext-200-normal.woff2) format('woff2'), url(/fonts/vendor/be-vietnam-pro-latin-ext-200-normal.woff) format('woff');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* be-vietnam-pro-latin-200-normal */
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200;
+  src: url(/fonts/vendor/be-vietnam-pro-latin-200-normal.woff2) format('woff2'), url(/fonts/vendor/be-vietnam-pro-latin-200-normal.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+/* ia-writer-mono-latin-400-normal */
+@font-face {
+  font-family: 'iA Writer Mono';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/ia-writer-mono-latin-400-normal.woff2) format('woff2'), url(/fonts/vendor/ia-writer-mono-latin-400-normal.woff) format('woff');
+}
+
+/* ====================================================================
+   2. normalize.css v8.0.1
+   ==================================================================== */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+/* ====================================================================
+   3. Global styles (src/styles/fwb.css minus the npm @imports)
+   ==================================================================== */
+html {
+}
+
+:root {
+  --surface: #f5e4bb;
+  --text: black;
+  --header-surface: #ecc979;
+  --header-text: black;
+  --menu-surface: #c9ab67;
+  --menu-border: #0d0a01;
+  --menu-text: black;
+  --link-text: #5b3e34;
+  --episode-title: #5b3e34;
+  --episode-text: black;
+  --episode-latest-bg: var(--menu-surface);
+  --brew-bg: #b49664;
+  --pager: #fff;
+  --pager-bg: #0d0a01;
+  --pager-link-text: #f5e4bb;
+  --progress-value: #0d0a01;
+
+  /* Pagefind v2 search is themed via --pf-* props scoped to the
+     .search-component.pagefind-ui wrapper below (not :root). */
+}
+
+@font-face {
+  font-family: "CaptainEdward";
+  src: url("/fonts/CaptainEdward-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+*:last-child {
+  margin-bottom: 0;
+}
+
+html {
+  color: var(--menu-surface);
+}
+
+body {
+  font-family: "Be Vietnam Pro";
+  font-size: 1.3rem;
+  font-weight: 200;
+  line-height: 1.5;
+  background-color: var(--surface);
+  color: var(--text);
+}
+
+div#wrapper-grid {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-areas:
+    "header"
+    "menu"
+    "main"
+    "footer";
+  justify-items: center;
+}
+
+/* Screens under 900px have the menu under the main content with a link to the menu up near the title */
+@media only screen and (max-width: 899px) {
+  div#wrapper-grid {
+    display: grid;
+    grid-template-rows: min-content min-content min-content min-content;
+    grid-template-areas: "header" "main" "footer" "menu";
+  }
+}
+
+aside {
+  width: 100%;
+  grid-area: menu;
+}
+
+main {
+  max-width: 80ch;
+  min-height: calc(100vh - 330px); /*100 vh - header & footer h */
+  margin: 0 auto;
+  padding: 1rem 2rem 3rem;
+  grid-area: main;
+}
+
+aside,
+main {
+  min-width: 0;
+}
+
+h1 {
+  font-family: "CaptainEdward";
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-family: "CaptainEdward";
+  font-weight: 900;
+  font-size: 2.3rem;
+}
+h3 {
+  font-family: "CaptainEdward";
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 1.1rem;
+  }
+  main {
+    max-width: 90%;
+    padding: 0.5rem 1rem 3rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+ul li a {
+  text-decoration: none;
+  color: var(--link-text);
+}
+ul li a:hover {
+  text-decoration: underline;
+}
+
+div.brew-container {
+  width: 97%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: start;
+  margin: 2rem auto 2rem;
+}
+@media screen and (max-width: 819px) {
+  div.brew-container {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 439.98px) {
+  div.brew-container {
+    width: 90%;
+  }
+}
+div.episode p img {
+  width: 300px;
+  height: auto;
+  margin-left: 2rem;
+}
+
+/* Pagefind v2 inline search (composable input + filter-pane + summary +
+   results), mapped to FWB tokens. Light results/filter area with a dark
+   input, matching the prior default-UI look. Layout lives here (not in the
+   component's scoped <style>) so it reliably reaches the custom elements. */
+.search-component {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.search-component .search-layout {
+  display: grid;
+  grid-template-columns: 11rem 1fr;
+  gap: 2rem;
+  margin-top: 1.75rem;
+  align-items: start;
+}
+/* Let the results column shrink instead of expanding to its content width
+   (grid items default to min-width:auto, which caused horizontal overflow). */
+.search-component .search-results-col {
+  min-width: 0;
+}
+@media screen and (max-width: 780px) {
+  .search-component .search-layout {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+/* Theme tokens inherited by every composable component */
+.search-component.pagefind-ui {
+  --pf-background: var(--surface); /* light results + filter area */
+  --pf-text: var(--text); /* dark body text */
+  --pf-text-secondary: var(--link-text);
+  --pf-text-muted: var(--link-text);
+  --pf-border: var(--menu-surface); /* gold borders */
+  --pf-border-focus: var(--menu-surface);
+  --pf-border-radius: 8px;
+  --pf-input-height: 3.25rem;
+  --pf-input-font-size: 1.5rem;
+  --pf-hover: rgba(13, 10, 1, 0.06); /* subtle dark tint on hover */
+  --pf-result-title-font-size: 1.6rem;
+  --pf-result-excerpt-font-size: 1.05rem;
+  --pf-outline-focus: var(--menu-surface); /* gold focus ring, not blue */
+  --pf-mark: var(--text); /* highlighted match text */
+}
+/* Dark input bar: scope the relevant --pf-* tokens to just the input subtree
+   so the component's own rules render it dark — cleaner than fighting the
+   component CSS's baked-in (3,1,0) defensive specificity. --pf-text-muted is
+   the search-icon + placeholder color. */
+.search-component.pagefind-ui pagefind-input {
+  --pf-background: var(--menu-border);
+  --pf-text: #fff;
+  --pf-text-muted: rgba(255, 255, 255, 0.75);
+}
+/* Multi-line wrapping excerpts (component default is single-line ellipsis).
+   !important is required to beat the component's (3,1,0) defensive rules. */
+.search-component.pagefind-ui .pf-result-excerpt {
+  white-space: normal !important;
+}
+/* Restore a gold highlight on matched terms */
+.search-component.pagefind-ui mark {
+  background-color: var(--header-surface) !important;
+  color: var(--text) !important;
+}
+
+[data-icon="bi:hand-thumbs-up-fill"] {
+  margin-bottom: 0.1rem;
+}
+
+[data-icon="bi:hand-thumbs-down-fill"] {
+  margin-bottom: -0.1rem;
+}
+
+.side-thumb [data-icon="bi:hand-thumbs-down-fill"] {
+  transform: rotate(-90deg);
+  margin-bottom: 0.05rem;
+}
+
+
+/* ====================================================================
+   4. Flattened component styles
+   ==================================================================== */
+
+/* ---- Header.astro ---- */
+header {
+  width: 100%;
+  background-color: var(--header-surface);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-area: header;
+}
+div#menu-link-div {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+header [data-icon] {
+  font-size: 3rem;
+  color: var(--link-text);
+}
+div.banner {
+  width: 100%;
+  margin: 0 auto 1rem;
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  color: var(--header-text);
+}
+div.site-title {
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2rem 0 1rem 2rem;
+  font-family: "CaptainEdward";
+  font-weight: 900;
+  line-height: clamp(1rem, 1vw + 2.2rem, 6rem);
+}
+div.title1 {
+  font-size: clamp(1.5rem, calc(2vw + 2.5rem), 4.5rem);
+}
+div.title2 {
+  font-size: clamp(1rem, calc(2vw + 1rem), 2.7rem);
+}
+div.site-title a {
+  text-decoration: none;
+  color: var(--header-text);
+}
+.header-image {
+  height: 10rem;
+  margin: 1rem 0 -0.25rem;
+}
+div.site-tagline {
+  max-width: 350px;
+  text-transform: uppercase;
+}
+/* don't display the menu icon if the screen is wide enough */
+@media screen and (min-width: 899px) {
+  #menu-link-div,
+  #menu-icon {
+    display: none;
+  }
+}
+@media only screen and (max-width: 899px) {
+  header {
+    border-bottom: solid 5px var(--menu-border);
+  }
+}
+@media screen and (max-width: 850px) {
+  div.banner {
+    gap: 1.5rem;
+  }
+  div.site-tagline {
+    font-size: 0.75rem;
+  }
+}
+@media screen and (max-width: 795px) {
+  div.banner {
+    gap: 1rem;
+  }
+  .header-image {
+    height: 6rem;
+    margin: 0.75rem 0;
+  }
+}
+@media screen and (max-width: 680px) {
+  header [data-icon] {
+    font-size: 1.75rem;
+  }
+  div.site-title {
+    margin: 1rem 0;
+  }
+  div.site-tagline {
+    max-width: 300px;
+    margin-right: 1rem;
+  }
+  .header-image {
+    margin: -0.2rem 0 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  div.banner {
+    margin: 0;
+  }
+  div.site-tagline {
+    display: none;
+  }
+  .header-image {
+    height: 4.5rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .header-image {
+    padding-top: 0.5rem;
+  }
+  div.site-title {
+    line-height: normal;
+  }
+  div.title1 {
+    font-size: 1.5rem;
+  }
+  div.title2 {
+    font-size: 1rem;
+  }
+}
+
+/* ---- Menu.astro (nav rules scoped under .nav-container so they can't
+   leak into nav#pager, which the scoped original never reached) ---- */
+div.nav-container {
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--menu-surface);
+  border-bottom: solid 5px var(--menu-border);
+  grid-area: menu;
+}
+.nav-container nav {
+  margin: 0 auto;
+  font-family: "CaptainEdward";
+  font-size: 1.5rem;
+}
+.nav-container nav ul {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+}
+.nav-container nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 1rem;
+}
+.nav-container nav ul li a:hover {
+  text-decoration: none;
+  background-color: var(--menu-border);
+  color: var(--header-surface);
+}
+.nav-container nav ul li:first-child {
+  padding-left: 2rem;
+}
+.nav-container nav ul li:last-child {
+  padding-right: 2rem;
+}
+@media only screen and (max-width: 899px) {
+  div.nav-container {
+    border-bottom: none;
+  }
+  .nav-container nav ul {
+    width: fit-content;
+    grid-template-columns: none;
+    grid-template-rows: repeat(7, 1fr);
+    justify-items: start;
+    padding: 0 2rem 3rem;
+    gap: 0.5rem;
+    margin: 0 6rem;
+  }
+  .nav-container nav ul li:first-child {
+    padding-left: 0;
+  }
+  .nav-container nav ul li a {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 599px) {
+  .nav-container nav ul {
+    margin: 0;
+  }
+}
+.nav-container [data-icon] {
+  font-size: 1.5em;
+  margin-bottom: -0.2rem;
+}
+
+/* ---- Footer.astro ---- */
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.5rem 0;
+  border-top: 3px solid var(--menu-border);
+  font-size: 1rem;
+  background-color: var(--menu-surface);
+  color: var(--menu-text);
+  grid-area: footer;
+}
+.footer-links {
+  width: 100%;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 auto;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  color: var(--menu-text);
+}
+.footer-links a {
+  color: var(--menu-text);
+}
+.footer [data-icon] {
+  font-size: 1rem;
+  margin: 0.4rem 0 0;
+}
+@media screen and (max-width: 450px) {
+  .footer-links {
+    font-size: 0.8rem;
+  }
+  .footer [data-icon] {
+    margin: 0.2rem 0 0;
+  }
+}
+
+/* ---- Episode.astro (full episode view: /N/ pages, /episodes/N lists) ---- */
+div.episode {
+  margin-bottom: 5rem;
+}
+div.episode [data-icon="fontisto:podcast"] {
+  font-size: 2.5rem;
+  margin: 0 0.5rem -0.1em 0;
+}
+div.episode span.episode-number {
+  color: var(--menu-surface);
+}
+h2.episode-title {
+  font-size: 2.7rem;
+}
+div.episode .episode-date {
+  display: flex;
+  align-items: center;
+  font-size: 0.6em;
+  column-gap: 0.5rem;
+}
+div.episode .episode-date [data-icon="fluent:calendar-rtl-48-filled"],
+div.episode .episode-date [data-icon="ic:baseline-document-scanner"] {
+  font-size: 1rem;
+  margin: 0 0.25rem -0.2em 0;
+}
+/* the scoped original's bare `a` only ever reached Episode.astro's own
+   anchors — title, date row, thumbnail — not the brew cards' */
+div.episode .episode-title a,
+div.episode .episode-date a,
+a.episode-thumb {
+  color: var(--link-text);
+  text-decoration: none;
+}
+div.episode div.brew-container {
+  border-radius: 10px;
+  border: 1px solid var(--menu-border);
+  padding: 0.5rem 1rem;
+}
+a.episode-thumb {
+  display: block;
+  max-width: 560px;
+  margin: 1.5rem auto;
+}
+a.episode-thumb img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+/* ---- EpisodeDetails.astro (.elv — homepage "Latest Episode" card) ---- */
+div.elv {
+  margin: 2rem auto;
+  padding: 0.2rem 2rem;
+  border-radius: 10px;
+  border: 1px solid var(--menu-border);
+  max-width: 90%;
+}
+div.elv h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+div.elv [data-icon="fontisto:podcast"] {
+  font-size: 2rem;
+  margin: 0 0.5rem 0 0;
+}
+div.elv span.episode-number {
+  color: var(--menu-surface);
+}
+div.elv .episode-date {
+  display: flex;
+  align-items: center;
+  font-size: 0.6em;
+  column-gap: 0.5rem;
+}
+div.elv .episode-date [data-icon="fluent:calendar-rtl-48-filled"],
+div.elv .episode-date [data-icon="ic:baseline-document-scanner"] {
+  font-size: 1rem;
+  margin: 0 0.25rem -0.2em 0.25rem;
+}
+div.elv h2 a,
+div.elv .episode-date a {
+  color: var(--link-text);
+  text-decoration: none;
+}
+
+/* ---- VideoEmbed.astro ---- */
+div.video-embed {
+  margin: 2rem auto;
+  max-width: 560px;
+}
+
+/* ---- PodcastLinks.astro (rendered inside .episode and .elv; the
+   .follow-page rules further down override these on /follow) ---- */
+div.episode-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  column-gap: 5rem;
+  row-gap: 2rem;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+div.link-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 0.6rem;
+}
+div.link-label {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+div.link-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 0.5rem;
+}
+div.episode-links div.download-link {
+  display: flex;
+  padding: 0;
+  font-size: 0.6em;
+  text-transform: uppercase;
+  font-weight: bold;
+  align-items: center;
+}
+div.episode-links div.download-link a {
+  color: var(--text);
+  text-decoration: underline;
+}
+@media screen and (max-width: 500px) {
+  div.episode-links {
+    column-gap: 3rem;
+  }
+}
+div.episode-links [data-icon="mdi:cloud-download"],
+div.episode-links [data-icon="ic:baseline-document-scanner"],
+div.episode-links [data-icon="simple-icons:youtube"],
+div.episode-links [data-icon="simple-icons:overcast"],
+div.episode-links [data-icon="simple-icons:applepodcasts"] {
+  font-size: 1.5rem;
+  margin: 0.1rem 0.5rem 0 0;
+}
+
+/* ---- BrewDetails.astro (.brew — the card; keep after the episode
+   blocks so its ties win inside episode views) ---- */
+div.brew {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 1.5rem;
+  margin: 1rem;
+}
+div.brew div.brew-image img {
+  height: 8rem;
+  width: 8rem;
+  border: 3px solid var(--menu-border);
+  border-radius: 5%;
+  aspect-ratio: 1;
+  margin-bottom: -0.6rem;
+}
+div.brew div.brew-text a {
+  font-size: 1rem;
+  color: var(--text);
+}
+div.brew div.brewery {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+div.brew div.brew-name {
+  margin-bottom: 0.3rem;
+}
+div.brew div.brew-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.6rem;
+  margin: 0.2rem 0;
+}
+div.brew div.brew-details a {
+  text-decoration: none;
+  font-size: 0.6rem;
+}
+div.brew div.brew-details a:hover {
+  text-decoration: underline;
+}
+div.brew div.brew-episodes,
+div.brew div.brew-episodes a {
+  margin: 0.25rem 0 0;
+  font-size: 0.8rem;
+}
+div.brew div.rating {
+  display: flex;
+  column-gap: 0.3rem;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+}
+div.brew div.rating [data-icon] {
+  font-size: 0.7rem;
+  margin-top: 0.2rem;
+}
+div.brew div.brew-type {
+  display: flex;
+  gap: 0.3rem;
+  font-size: 0.6rem;
+  margin: 0.2rem 0;
+}
+div.brew div.brew-type a {
+  font-size: 0.6rem;
+}
+div.brew div.brew-type [data-icon] {
+  font-size: 0.8rem;
+  margin: 0 0 -0.2em;
+}
+@media screen and (max-width: 900px) {
+  div.brew div.brewery {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (min-width: 440px) and (max-width: 800px) {
+  div.brew {
+    width: 98%;
+  }
+  div.brew div.brew-details {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 439.98px) {
+  div.brew {
+    width: 98%;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 0.5rem;
+  }
+  div.brew div.brew-image img {
+    margin-bottom: 0.5rem;
+  }
+  div.brew div.brewery {
+    font-size: 1rem;
+  }
+  div.brew div.brew-details {
+    font-size: 0.9rem;
+  }
+}
+
+/* ---- Pager.astro ---- */
+div.pager {
+  display: flex;
+  margin: 0 auto;
+  width: fit-content;
+  font-size: 0.8em;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--pager-bg);
+  color: var(--pager);
+  border-radius: 10px;
+}
+nav#pager {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 1rem;
+  justify-items: center;
+}
+div.pager a {
+  color: var(--pager-link-text);
+  text-decoration: none;
+}
+
+/* ---- Reviews.astro ---- */
+div.reviews {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+}
+div.reviews blockquote {
+  font-style: italic;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: 1px solid var(--menu-border);
+}
+div.reviews span.reviewer {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 0.8em;
+}
+@media screen and (max-width: 580px) {
+  div.reviews blockquote {
+    width: 80%;
+    margin: 1rem 0;
+  }
+}
+
+/* ====================================================================
+   5. Flattened page styles (scoped by the main_attrs class)
+   ==================================================================== */
+
+/* ---- index.astro (.home-page) — its h2/download-link/icon rules only
+   ever reached the page's own top-level elements, not the .elv card's ---- */
+.home-page article > .download-link {
+  display: flex;
+  padding: 0;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  align-items: center;
+}
+.home-page article > .download-link a {
+  color: var(--text);
+  text-decoration: underline;
+}
+.home-page article > .download-link [data-icon] {
+  font-size: 3rem;
+  margin: 0.6rem 1rem 0 -0.1rem;
+}
+.home-page [data-icon="fa:certificate"] {
+  font-size: 0.9em;
+  margin: 0 0.5em -0.1rem 0;
+  color: var(--text);
+}
+.home-page [data-icon="bi:arrow-down-circle-fill"] {
+  font-size: 0.9em;
+  margin: 0 0.5em -0.1rem 0.5em;
+  color: var(--text);
+}
+.home-page [data-icon="dashicons:awards"] {
+  font-size: 1em;
+  margin: 0 0.2em -0.1em -0.1em;
+  padding: 0;
+  color: var(--text);
+}
+.home-page h2.latest {
+  font-family: "Be Vietnam Pro";
+  font-size: 1.2em;
+  font-style: italic;
+  color: var(--text);
+}
+/* the old scoped block's bare `h2` reached both index-owned h2s —
+   h2.latest sits inside a <span data-pagefind-ignore>, so a child
+   selector on article would miss it */
+.home-page h2.latest,
+.home-page h2.edward {
+  margin-top: 3rem;
+}
+
+/* ---- follow.astro (.follow-page) — overrides the PodcastLinks rules
+   above, so these selectors deliberately out-specify them ---- */
+.follow-page a {
+  text-decoration: none;
+  color: var(--link-text);
+}
+.follow-page span.podcast-name {
+  font-weight: bold;
+}
+.follow-page div.episode-links {
+  display: grid;
+  gap: 1rem;
+  margin: 3rem auto;
+  justify-content: center;
+}
+.follow-page div.episode-links div.download-link {
+  display: flex;
+  padding: 0 2rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  align-items: center;
+}
+.follow-page div.episode-links div.download-link a {
+  color: var(--text);
+  text-decoration: underline;
+}
+.follow-page div.download-link [data-icon] {
+  font-size: 3rem;
+  margin: 0.6rem 1rem 0 0;
+}
+@media screen and (max-width: 500px) {
+  .follow-page div.episode-links {
+    margin: 2rem auto;
+  }
+  .follow-page div.episode-links div.download-link {
+    font-size: 1.2rem;
+  }
+  .follow-page div.download-link [data-icon] {
+    font-size: 2rem;
+    margin: 0.5rem 1rem 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .follow-page div.episode-links div.download-link {
+    font-size: 1rem;
+  }
+  .follow-page div.download-link [data-icon] {
+    font-size: 1.5rem;
+  }
+}
+
+/* ---- friends.astro (.friends-page) ---- */
+.friends-page div.hosts {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  row-gap: 5rem;
+  justify-items: stretch;
+  margin: 3rem auto;
+  padding: 1rem;
+}
+.friends-page div.host {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  column-gap: 3rem;
+  align-items: center;
+}
+.friends-page div.host h2 {
+  margin-bottom: 1rem;
+}
+.friends-page div.host-image img {
+  border-radius: 50%;
+  border: solid 3px var(--menu-border);
+}
+@media screen and (max-width: 650px) {
+  .friends-page div.host-image img {
+    width: 150px;
+    height: auto;
+  }
+}
+.friends-page div.host-socials {
+  display: flex;
+  column-gap: 2rem;
+  row-gap: 1rem;
+  flex-wrap: wrap;
+}
+.friends-page div.host-socials a,
+.friends-page div.links a {
+  color: var(--link-text);
+  font-weight: bolder;
+}
+.friends-page div.social,
+.friends-page div.links {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  max-width: fit-content;
+}
+.friends-page div.links {
+  margin: 4rem auto 2rem;
+  justify-content: center;
+}
+.friends-page div.links [data-icon] {
+  font-size: 2rem;
+}
+.friends-page [data-icon] {
+  font-size: 1.5rem;
+  margin: 0 0 -0.4rem;
+}
+@media screen and (max-width: 650px) {
+  .friends-page div.host {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+  .friends-page div.host-image {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  .friends-page div.social {
+    flex-wrap: wrap;
+    font-size: 0.9em;
+  }
+}
+
+/* ---- bottle/[brews].astro (.bottle-page) — its .brew-details is the
+   page's root column layout, nothing to do with the .brew card's inner
+   .brew-details row ---- */
+.bottle-page h2,
+.bottle-page h3 {
+  margin: 0;
+}
+.bottle-page h2 {
+  color: var(--link-text);
+}
+.bottle-page div.brew-details {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 600px;
+  margin: 1.5rem auto 0;
+}
+.bottle-page div.bottle {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.bottle-page div.bottle img {
+  border-radius: 10px;
+  border: 5px solid var(--link-text);
+  margin: 3rem auto 2rem;
+  height: 22em;
+  width: 22em;
+}
+.bottle-page div.description {
+  font-size: 0.8em;
+  margin-bottom: 2rem;
+}
+.bottle-page div.description p {
+  margin: 0.75rem 0;
+}
+.bottle-page div.description p:nth-child(1) {
+  font-weight: bold;
+}
+.bottle-page div.description p:nth-child(2) {
+  font-style: italic;
+}
+.bottle-page div.description p:nth-child(2)::before,
+.bottle-page div.description p:nth-child(2)::after {
+  content: '"';
+}
+.bottle-page div.ratings {
+  margin: 0 auto 1rem;
+  padding: 1rem 1rem 0.5rem;
+  width: 450px;
+  border: 1px solid var(--link-text);
+  border-radius: 10px;
+}
+.bottle-page div.host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.bottle-page span.thumbs {
+  margin: 0 2rem;
+}
+.bottle-page div.review {
+  font-size: 0.9em;
+  font-style: italic;
+}
+.bottle-page div.review p::before,
+.bottle-page div.review p::after {
+  content: '"';
+}
+.bottle-page [data-icon] {
+  font-size: 2rem;
+  margin: 0 0 -0.1rem;
+}
+.bottle-page [data-icon="bi:hand-thumbs-up-fill"] {
+  color: green;
+  margin-bottom: 0.1rem;
+}
+.bottle-page [data-icon="bi:hand-thumbs-down-fill"] {
+  color: red;
+  margin-bottom: -0.75rem;
+}
+.bottle-page .side-thumb [data-icon="bi:hand-thumbs-down-fill"] {
+  color: rgb(100, 100, 100);
+  margin-bottom: -0.5rem;
+}
+.bottle-page div.type-links-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+.bottle-page div.brew-type [data-icon] {
+  font-size: 1.2rem;
+  margin: 0 0.2rem -0.2em 0;
+}
+.bottle-page div.links {
+  font-size: 1rem;
+}
+.bottle-page div.links h4 {
+  margin-bottom: 0.75rem;
+}
+.bottle-page div.links a {
+  color: var(--link-text);
+}
+@media screen and (max-width: 580px) {
+  .bottle-page div.bottle img {
+    height: 18em;
+    width: 18em;
+  }
+  .bottle-page div.ratings {
+    max-width: 350px;
+  }
+  .bottle-page div.host {
+    column-gap: 1rem;
+  }
+  .bottle-page [data-icon] {
+    font-size: 1.1rem;
+    margin: 0 0 -0.1rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bottle-page div.ratings {
+    max-width: 250px;
+  }
+  .bottle-page div.host {
+    column-gap: 0.4rem;
+    font-size: 0.75em;
+  }
+  .bottle-page [data-icon] {
+    font-size: 1.1rem;
+    margin: 0 0 -0.1rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .bottle-page div.bottle img {
+    height: 15em;
+    width: 15em;
+  }
+}
+
+/* ---- Transcript.astro (.transcript-page — /transcripts/N/) ---- */
+.transcript-page .transcript {
+  font-family: "iA Writer Mono", monospace;
+  font-size: 1.1rem;
+  margin: 2rem 0;
+}
+.transcript-page .transcript-links {
+  font-size: 0.8rem;
+}
+.transcript-page .transcript a {
+  color: var(--link-text);
+}
+.transcript-page .transcript h2 a {
+  text-decoration: none;
+}
+.transcript-page .transcript h2 a:hover {
+  text-decoration: underline;
+}
+.transcript-page .subtitle {
+  font-family: "Be Vietnam Pro";
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin: 2rem 0;
+}
+.transcript-page .description {
+  font-family: "Be Vietnam Pro";
+  font-size: 1.3rem;
+}
+.transcript-page [data-icon] {
+  font-size: 1.3rem;
+  margin: 0 0.5rem -0.2rem 0;
+}
+.transcript-page [data-icon="ic:baseline-document-scanner"] {
+  font-size: 1em;
+}
+.transcript-page .transcript-links [data-icon] {
+  font-size: 1em;
+}
+
+/* ---- TranscriptListView.astro (.transcriptlist-page —
+   /transcripts/page/N) ---- */
+.transcriptlist-page .transcript {
+  font-family: "iA Writer Mono", monospace;
+  font-size: 1.1rem;
+  margin: 2rem 0;
+}
+.transcriptlist-page .transcript-links {
+  font-size: 0.8rem;
+  margin: 1.2rem 0 4rem;
+}
+.transcriptlist-page .transcript a {
+  color: var(--link-text);
+}
+.transcriptlist-page .transcript h2 a {
+  text-decoration: none;
+}
+.transcriptlist-page .transcript h2 a:hover {
+  text-decoration: underline;
+}
+.transcriptlist-page .subtitle {
+  font-family: "Be Vietnam Pro";
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin: 2rem 0;
+}
+.transcriptlist-page .description {
+  font-family: "Be Vietnam Pro";
+  font-size: 0.9rem;
+  margin: 0 2rem;
+}
+.transcriptlist-page [data-icon] {
+  font-size: 1.3rem;
+  margin: 0 0.5rem -0.2rem 0;
+}
+.transcriptlist-page [data-icon="ic:baseline-document-scanner"] {
+  font-size: 1em;
+}
+.transcriptlist-page .transcript-links [data-icon] {
+  font-size: 1em;
+}
+
+/* ---- 404.astro (.notfound-page) ---- */
+.notfound-page a {
+  color: var(--menu-surface);
+  font-weight: bolder;
+}
+.notfound-page div.missing-image {
+  display: flex;
+  margin: 3rem auto;
+  justify-content: center;
+}
+.notfound-page div.missing-image img {
+  border-radius: 50%;
+  border: solid 3px var(--menu-surface);
+}
+
+/* ====================================================================
+   6. lite-youtube (vendored from astro-embed's compiled bundle)
+   ==================================================================== */
+lite-youtube{contain:content;cursor:pointer;background-color:#000;background-position:50%;background-size:cover;max-width:720px;display:block;position:relative}
+lite-youtube:before{content:attr(data-title);color:#eee;text-shadow:0 0 2px #00000080;white-space:nowrap;text-overflow:ellipsis;box-sizing:border-box;background-image:linear-gradient(#000000ab 0%,#0000008a 14%,#00000026 54%,#0000000d 72%,#0000 94%);width:100%;height:99px;padding:25px 20px;font-family:YouTube Noto,Roboto,Arial,Helvetica,sans-serif;font-size:18px;display:block;position:absolute;top:0;overflow:hidden}
+lite-youtube:hover:before{color:#fff}
+lite-youtube:after{content:"";padding-bottom:56.25%;display:block}
+lite-youtube>iframe{border:0;width:100%;height:100%;position:absolute;top:0;left:0}
+lite-youtube>.lyt-playbtn{cursor:pointer;z-index:1;filter:grayscale();background:url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 68 48\"><path d=\"M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z\" fill=\"red\"/><path d=\"M45 24 27 14v20\" fill=\"white\"/></svg>") 50%/68px 48px no-repeat;border:0;width:100%;height:100%;transition:filter .1s cubic-bezier(0,0,.2,1);display:block;position:absolute}
+lite-youtube:hover>.lyt-playbtn,lite-youtube .lyt-playbtn:focus{filter:none}
+lite-youtube.lyt-activated{cursor:unset}
+lite-youtube.lyt-activated:before,lite-youtube.lyt-activated>.lyt-playbtn{opacity:0;pointer-events:none}
+.lyt-visually-hidden{clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;width:1px;height:1px;position:absolute;overflow:hidden}
+lite-youtube>iframe{all:unset!important;border:0!important;width:100%!important;height:100%!important;position:absolute!important;inset:0!important}
