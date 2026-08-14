@@ -2,16 +2,21 @@
 
 ## ⏱ STATUS (updated 2026-08-13)
 
-**Phases 0–3 done. Next session starts at Phase 4 — the podcast RSS feed
-(⚠️ highest stakes, live subscribers; see the Phase 4 checklist).**
+**Phases 0–4 done. Next session starts at Phase 5 — images (16-bit PNG
+sweep first, then the resize_image `<picture>` components).**
 
 - Branch: `zola-migration` (pushed). Companion pipeline changes are on
   `website-scripts` main (also pushed).
-- Working loop: `python3 migrate/convert.py && zola build`, then
-  `python3 migrate/parity.py page /<url>/` (or `urls` / `pages`) against
-  the frozen `dist-baseline/` (gitignored — do NOT delete it; it's the
-  parity truth and can't be regenerated without restoring the Astro
-  toolchain).
+- Working loop: `python3 migrate/convert.py && zola build &&
+  python3 migrate/postbuild.py`, then `python3 migrate/parity.py page
+  /<url>/` (or `urls` / `pages` / `feed`) against the frozen
+  `dist-baseline/` (gitignored — do NOT delete it; it's the parity truth
+  and can't be regenerated without restoring the Astro toolchain).
+- **/feed.xml is live and parity-proven**: 0 field mismatches across all
+  101 items vs baseline (`parity.py feed`), byte-deterministic across
+  rebuilds, and the W3C feed validator returns *identical* results for
+  our feed and the live one (5 pre-existing quirks, see Phase 4 notes —
+  post-cutover candidates, not regressions).
 - ⛔ Never run `npm run build` (it deploys). Astro is frozen under
   `astro/` and no longer builds anyway (`src`/`static` moved).
 - Site state: every page except search/explore is real. Full-site parity
@@ -511,20 +516,47 @@ Each phase ends with a parity check against `dist-baseline/`.
       45's `f**_ing s_**` accepted divergence). Remaining diffs are
       image-only (Phase 5).
 
-### Phase 4 — Podcast RSS feed ⚠️ highest stakes
-- [ ] Feed stub page (`path = "/feed.xml"`, `template = "rss.xml"`) or
-      section-feed approach — whichever yields the exact `/feed.xml` URL.
-- [ ] `templates/rss.xml`: full channel + item structure per the scope
-      analysis; CDATA blocks; `page.content` as content:encoded.
-- [ ] `migrate/postbuild.py`: absolutize relative URLs inside CDATA,
-      strip script/style (lite-youtube!), enforce the 30-tag allowlist
-      behavior where it actually matters (inspect what sanitize changes in
-      baseline first — it may be a no-op on real content).
-- [ ] `migrate/parity.py` feed mode: parse both feeds, diff every field of
-      every item + channel. **Bar: 0 metadata mismatches, content bodies
-      equivalent (whitespace-insensitive), across all 101 items.**
-- [ ] Validate with a podcast feed validator (castfeedvalidator or
-      podba.se) before calling it done.
+### Phase 4 — Podcast RSS feed ✅ 2026-08-13
+- [x] Section-feed approach (the scottwillsey pattern): config
+      `feed_filenames = ["feed.xml"]` + `generate_feeds = true` on the
+      root `_index.md` → `templates/feed.xml` renders at exactly
+      `/feed.xml`, episodes only (transcripts/stubs can't leak in).
+- [x] `templates/feed.xml`: channel + item structure matches the
+      @astrojs/rss output element-for-element. `<description>` is
+      descriptionRSS in real CDATA (verbatim, entities untouched);
+      content:encoded / itunes:summary / summary are Tera-escaped text —
+      exactly how the Astro serializer emitted them (it escaped the
+      customData CDATA away). rfc2822_date/length/bytes come from the
+      converter-precomputed `[extra]`.
+- [x] `migrate/postbuild.py` (ported from scottwillsey): absolutizes
+      href/src inside escaped content:encoded, strips script/style
+      (verified a no-op on current content — sanitize never fired in the
+      baseline either; zero relative URLs and zero script/style there).
+      `<description>` CDATA deliberately untouched: the old feed carried
+      descriptionRSS verbatim, including 9 episodes' relative
+      `../../assets/images/` srcs (pre-existing live-feed quirk, kept for
+      parity — post-cutover fix candidate).
+- [x] **Converter fix surfaced by feed diffing**: episodes 8, 30, 40, 42,
+      43, 54, 60, 63, 64 inline images via `../../assets/images/…`
+      (astro:assets used to optimize them; Zola passed them through
+      broken). `rewrite_asset_images()` now points bodies at the
+      full-size `/images/…` copies (all 25 referenced files exist in
+      static/) — fixes the feed AND those 9 episode pages.
+- [x] `migrate/parity.py feed` mode: parses both feeds, diffs channel +
+      every field of every item; metadata exact, description
+      whitespace-insensitive, content:encoded as extracted
+      text/links/imgs (img srcs stem-normalized: `/_astro/<stem>.<hash>`
+      ↔ `/images/…/<stem>`). **Result: 0 field mismatches across all 101
+      items**; feed byte-identical across rebuilds.
+- [x] Validated with the W3C feed validator (direct input): our feed and
+      the LIVE feed return identical results — "does not validate" on 5
+      pre-existing quirks the validator dislikes but Apple accepts, all
+      present in the live feed for years: channel `itunes:title`,
+      "Society & Culture" nested under Technology, `itunes:explicit>No`
+      (validator wants true/false), custom `<summary>` item element, and
+      the atom namespace URI's trailing slash (prefix is unused anyway).
+      Post-cutover cleanup candidates; changing them now would break
+      parity.
 
 ### Phase 5 — Images
 - [ ] 16-bit PNG sweep across `src/assets/images/**` + normalize; document
@@ -606,6 +638,12 @@ end-to-end through the pipeline on a branch before the next real episode.**
 
 ## Post-migration tasks (after cutover, not part of the migration)
 
+0. **Feed cleanups** (each breaks strict parity, so after cutover only,
+   ideally spaced out): fix the 5 W3C-validator quirks (see Phase 4) and
+   the relative `../../assets/images/` srcs inside 9 episodes'
+   `descriptionRSS` (feed readers can't resolve them — they've been
+   broken on the live feed all along). descriptionRSS lives in `src/`,
+   so that one is a careful pipeline-format-preserving edit.
 1. **Backfill the 4 missing transcripts** (episodes **53, 97, 98, 99** — the
    only gaps in 1–101). Send the episode audio (from
    `pints.friendswithbrews.com` / the iCloud back catalog) to ElevenLabs,

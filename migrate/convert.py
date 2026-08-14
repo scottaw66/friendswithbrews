@@ -286,6 +286,17 @@ def _www_link(m: re.Match) -> str:
     return f"[{url}](http://{url}){tail}"
 
 
+# Nine episodes (8, 30, 40, 42, 43, 54, 60, 63, 64) inline images via
+# relative ../../assets/images/… paths that astro:assets used to resolve
+# into optimized /_astro/ URLs. Zola passes them through verbatim (broken
+# on the page AND in the feed), so point them at the full-size copies in
+# static/images/ — every referenced file exists there (checked 2026-08-13).
+# descriptionRSS is NOT rewritten: the old feed carried its relative srcs
+# verbatim, and it's kept byte-identical (see ZOLA-MIGRATION.md).
+def rewrite_asset_images(body: str) -> str:
+    return body.replace("../../assets/images/", "/images/")
+
+
 def autolink_bare_urls(body: str) -> str:
     out = []
     in_fence = False
@@ -389,7 +400,8 @@ def convert_episodes(transcript_stems: set[str]) -> dict[str, str]:
             fm.append(f"description_rss = {tstr(data['descriptionRSS'])}")
         fm.append("+++")
 
-        out = "\n".join(fm) + "\n" + protect_tera(autolink_bare_urls(body), name)
+        out = "\n".join(fm) + "\n" + protect_tera(
+            autolink_bare_urls(rewrite_asset_images(body)), name)
         write_if_changed(OUT_CONTENT / path.name, out)
         generated.add(path.name)
     prune_stale(OUT_CONTENT, "[0-9]*.md", generated)
@@ -429,7 +441,8 @@ def convert_transcripts() -> set[str]:
             fm.append(f"youtube = {tstr(data['youtube'])}")
         fm.append("+++")
 
-        out = "\n".join(fm) + "\n" + protect_tera(autolink_bare_urls(body), name)
+        out = "\n".join(fm) + "\n" + protect_tera(
+            autolink_bare_urls(rewrite_asset_images(body)), name)
         write_if_changed(OUT_TRANSCRIPTS / path.name, out)
         generated.add(path.name)
     prune_stale(OUT_TRANSCRIPTS, "*.md", generated)

@@ -15,9 +15,12 @@ hard_link_static = true
 # Keep Finder droppings out of dist/ (deploy.sh's rsync has no exclude).
 ignored_static = ["*.DS_Store"]
 
-# The podcast feed is a custom template at /feed.xml (Phase 4), not Zola's
-# built-in feed machinery.
+# Site-wide feed generation stays OFF (a site feed would mix transcripts
+# and stubs into the podcast feed). The root section opts in via its
+# _index.md, yielding /feed.xml (episodes only) from templates/feed.xml;
+# migrate/postbuild.py then applies the ultrahtml-equivalent transforms.
 generate_feeds = false
+feed_filenames = ["feed.xml"]
 
 # Search is Pagefind (post-build), not Zola's elasticlunr.
 build_search_index = false

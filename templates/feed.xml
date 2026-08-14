@@ -1,0 +1,17 @@
+{#- The podcast feed (/feed.xml, root-section feed) — structure matches the
+    old @astrojs/rss output from astro/src/pages/feed.xml.js, verified
+    against dist-baseline/feed.xml: channel/item element order, guid =
+    permalink without trailing slash, <description> is descriptionRSS in
+    real CDATA (raw HTML, entities passed through verbatim), while
+    content:encoded / itunes:summary / summary are XML-escaped text (the
+    Astro serializer escaped the customData CDATA away — equivalent when
+    parsed, and matching it keeps the diff readable).
+    migrate/postbuild.py then absolutizes relative href/src inside
+    content:encoded and strips script/style, replicating the ultrahtml
+    transform step. rfc2822_date is precomputed by migrate/convert.py
+    (byte-parity port of date-fns' output). -#}
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"><channel><title>{{ config.title }}</title><description>{{ config.description }}</description><link>{{ config.base_url }}/</link><language>en-us</language><itunes:title>{{ config.title }}</itunes:title><itunes:author>{{ config.extra.author }}</itunes:author><itunes:owner><itunes:name>{{ config.extra.author }}</itunes:name><itunes:email>{{ config.extra.email }}</itunes:email></itunes:owner><itunes:type>episodic</itunes:type><itunes:category text="Technology"><itunes:category text="Society &amp; Culture"/></itunes:category><itunes:keywords>Technology, Fitness, Beer</itunes:keywords><itunes:image href="{{ config.base_url }}/images/{{ config.extra.rss_image }}"/><itunes:explicit>No</itunes:explicit><itunes:new-feed-url>{{ config.base_url }}/feed.xml</itunes:new-feed-url><image><url>{{ config.base_url }}/images/{{ config.extra.rss_image }}</url><title>{{ config.title }}</title><link>{{ config.base_url }}/</link></image><copyright>©{{ now() | date(format="%Y") }} {{ config.extra.author }}</copyright>
+{%- for p in pages -%}
+<item><title>{{ p.title }}</title><link>{{ p.permalink[:-1] }}</link><guid isPermaLink="true">{{ p.permalink[:-1] }}</guid><description><![CDATA[{% if p.extra.description_rss %}{{ p.extra.description_rss | safe }}{% else %}{{ p.description | safe }}{% endif %}]]></description><pubDate>{{ p.extra.rfc2822_date }}</pubDate><enclosure url="{{ config.extra.audio_prefix }}{{ p.extra.audio_file }}" length="{{ p.extra.bytes }}" type="audio/mpeg"/><content:encoded>{{ p.content }}</content:encoded><itunes:title>{{ p.title }}</itunes:title><itunes:episode>{{ p.extra.episode }}</itunes:episode><itunes:duration>{{ p.extra.length }}</itunes:duration><itunes:image href="{{ config.base_url }}/images/{{ config.extra.rss_image }}"/><itunes:explicit>No</itunes:explicit><itunes:episodeType>full</itunes:episodeType><itunes:summary>{{ p.description }}</itunes:summary><summary>{{ p.description }}</summary></item>
+{%- endfor -%}
+</channel></rss>

@@ -4,4 +4,8 @@
 # hand-maintained — the converter never touches any _index.md.
 sort_by = "date"
 page_template = "episode.html"
+# Podcast feed at /feed.xml (episodes only — site-wide generate_feeds stays
+# off so transcripts/stubs don't leak in). templates/feed.xml matches the
+# old @astrojs/rss output; migrate/postbuild.py absolutizes item content.
+generate_feeds = true
 +++
