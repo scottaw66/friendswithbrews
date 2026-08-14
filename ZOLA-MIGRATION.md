@@ -2,8 +2,9 @@
 
 ## ⏱ STATUS (updated 2026-08-13)
 
-**Phases 0–4 done. Next session starts at Phase 5 — images (16-bit PNG
-sweep first, then the resize_image `<picture>` components).**
+**Phases 0–5 done. Next session starts at Phase 6 — CSS (`static/css/
+fwb.css`: fwb.css minus npm imports + vendored normalize + @font-face +
+the 18 flattened scoped-style blocks).**
 
 - Branch: `zola-migration` (pushed). Companion pipeline changes are on
   `website-scripts` main (also pushed).
@@ -19,21 +20,23 @@ sweep first, then the resize_image `<picture>` components).**
   post-cutover candidates, not regressions).
 - ⛔ Never run `npm run build` (it deploys). Astro is frozen under
   `astro/` and no longer builds anyway (`src`/`static` moved).
-- Site state: every page except search/explore is real. Full-site parity
-  sweep (`parity.py pages`): **zero text/link diffs everywhere** except
-  the known set — homepage (random reviews), `/search/` + `/explore/`
-  (Phase 7 placeholders), `/transcripts/` (Zola's alias-redirect markup,
-  equivalent), and `/transcripts/45/` (accepted, see below). All
-  remaining page diffs are image-only (brew `<picture>` variants —
-  Phase 5). Site is UNSTYLED until Phase 6 (`/css/fwb.css` is linked but
-  doesn't exist yet). `/feed.xml` doesn't exist until Phase 4.
+- Site state: every page except search/explore is real, images included
+  (`<picture>` webp+jpg variants, in-content episode images, /404 —
+  Phase 5, all parity-proven; structural sweep of every picture across
+  464 pages: 0 diffs). Full-site parity sweep (`parity.py pages`):
+  **zero text/link/image diffs everywhere** except the known set —
+  homepage (random reviews), `/search/` + `/explore/` (Phase 7
+  placeholders), `/transcripts/` (Zola's alias-redirect markup,
+  equivalent), and `/transcripts/45/` (accepted, see below). Site is
+  UNSTYLED until Phase 6 (`/css/fwb.css` is linked but doesn't exist
+  yet).
 - Accepted divergence: transcript 45's censored `f**_ing s_**` — remark
   parsed the markers as strong/em, pulldown-cmark leaves them as literal
   text (closer to the source). One page, cosmetic; revisit only if it
   bothers anyone.
-- Then: Phase 5 (brew images), 6 (CSS), 7 (search + explore),
-  8 (cutover). Post-migration tasks section below (transcript backfill
-  for eps 53/97/98/99).
+- Then: Phase 6 (CSS), 7 (search + explore), 8 (cutover).
+  Post-migration tasks section below (transcript backfill for eps
+  53/97/98/99).
 
 ---
 
@@ -539,9 +542,10 @@ Each phase ends with a parity check against `dist-baseline/`.
 - [x] **Converter fix surfaced by feed diffing**: episodes 8, 30, 40, 42,
       43, 54, 60, 63, 64 inline images via `../../assets/images/…`
       (astro:assets used to optimize them; Zola passed them through
-      broken). `rewrite_asset_images()` now points bodies at the
-      full-size `/images/…` copies (all 25 referenced files exist in
-      static/) — fixes the feed AND those 9 episode pages.
+      broken). `rewrite_asset_images()` initially pointed bodies at the
+      full-size `/images/…` copies; superseded in Phase 5, which rewrites
+      them to `content_image` component calls matching the baseline's
+      optimized webp output.
 - [x] `migrate/parity.py feed` mode: parses both feeds, diffs channel +
       every field of every item; metadata exact, description
       whitespace-insensitive, content:encoded as extracted
@@ -558,20 +562,59 @@ Each phase ends with a parity check against `dist-baseline/`.
       Post-cutover cleanup candidates; changing them now would break
       parity.
 
-### Phase 5 — Images
-- [ ] 16-bit PNG sweep across `src/assets/images/**` + normalize; document
-      the constraint in README for future brew photos.
-- [ ] `picture` component: `get_image_metadata()` + `resize_image()` webp+jpg
-      at 400/800 (brew cards) and 1500/2000 (bottle pages); `<picture>`
-      markup with srcset matching Astro's structure minus avif.
-- [ ] Host portraits + 404 image via simple `img` component.
-- [ ] Full-size originals in `static/images/brews/` remain click-through
-      targets, root-relative URLs.
-- [ ] Parity: visual diff of a brew card, a bottle page, /friends, /404;
-      confirm CLS-preventing width/height attrs present.
-- [ ] Decide: prune `public→static/images/brews` vs `src/assets` duplication?
-      (Recommend: keep both for now — originals are load-bearing link
-      targets; revisit after cutover.)
+### Phase 5 — Images ✅ 2026-08-14
+- [x] 16-bit PNG sweep across `src/assets/images/**`: 4 offenders (all
+      brews). Normalized with ffmpeg — `-pix_fmt rgb24` for the 2 RGB
+      files, **`-pix_fmt rgba` for the 2 with alpha** (the plan's rgb24
+      recipe would have stripped transparency). Constraint + both recipes
+      documented in README.
+- [x] `brew_picture` component (site_components.html): webp `<source>` +
+      jpg fallback `<img>` via `get_image_metadata()` + `resize_image()`.
+      Matches Astro's OBSERVED baseline behavior: requested widths
+      (cards 400/[400,800], bottles 1000/[1500,2000] — from the frozen
+      .astro sources) are clamped to the source's intrinsic width and
+      deduped (never upscale; e.g. a 700px source gets a single 700w
+      variant), while the `<img>` keeps the requested width attr with
+      height derived from the aspect ratio (baseline bottle imgs are all
+      1000×1000). Tera v2 has no `concat` filter — srcsets are built by
+      string concatenation. Dropping the jpeg `<source>` is safe: browsers
+      never used the baseline's png fallback (the jpeg source preceded
+      it), so non-webp browsers get jpg either way.
+- [x] **In-content episode images (found by the pages sweep, not in the
+      plan)**: the 9 episodes' `../../assets/images/…` markdown images —
+      Phase 4 had pointed them at full-size PNGs, but the baseline pages
+      serve optimized webp at intrinsic size. New `content_image`
+      component (webp transcode, width/height attrs, empty srcset like
+      astro:assets emitted); `convert.py rewrite_asset_images()` now
+      rewrites those markdown images to component calls. ⚠️ Ordering
+      gotcha: the rewrite must run AFTER `protect_tera()`, or the
+      injected calls get `{% raw %}`-wrapped and render as literal text
+      (with smart-quoted attrs, breaking page AND feed).
+- [x] Host portraits (done in Phase 2) + 404 image via plain
+      `resize_image` `<img>`; **templates/404.html created** (was still
+      Zola's built-in default): full Astro markup minus the Pagefind
+      search block (Phase 7 TODO), links kept byte-identical including
+      the pre-existing relative `brews/1` quirk.
+- [x] Full-size originals in `static/images/brews/` remain click-through
+      targets — all 215 bottle-page `<a href="/images/brews/…">` targets
+      verified present in dist/.
+- [x] Parity: structural sweep of every `<picture>` site-wide (webp/jpg
+      srcset widths, alt, width/height attrs) vs baseline: **464 pages,
+      0 diffs**. `parity.py pages` back to the known accepted set only;
+      `parity.py feed` **0 field mismatches**, feed still byte-identical
+      across rebuilds. parity.py updated for Phase 5 reality: srcset
+      entries split per-URL with width descriptors, avif entries excluded
+      (intentionally dropped), optimized png/jpeg→jpg normalization,
+      image compare is now set-based (the dropped jpeg source changes
+      multiplicity, not coverage), and `_feed_img_stem` accepts
+      `/processed_images/`. Also fixed a latent ext-parse bug (regex
+      backtracking read `.avif` as ext `f`, so avif was never being
+      matched).
+- [x] Decided: keep the `static/images/brews` / `src/assets` duplication —
+      originals are load-bearing link targets; revisit after cutover.
+- Build cost: first image build ~110s CPU / 12s wall, 1542 variants in
+  `static/processed_images/` (cached, gitignored); incremental builds
+  ~2.4s.
 
 ### Phase 6 — Styling
 - [ ] `static/css/fwb.css`: fwb.css minus npm imports, plus vendored

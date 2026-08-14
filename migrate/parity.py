@@ -45,8 +45,15 @@ class Extract(HTMLParser):
         d = dict(attrs)
         if tag == "a" and d.get("href"):
             self.links.append(d["href"])
-        if tag in ("img", "source") and (d.get("src") or d.get("srcset")):
-            self.imgs.append(d.get("src") or d.get("srcset"))
+        if tag in ("img", "source"):
+            # One entry per URL: src alone, and each srcset candidate as
+            # "url <width-descriptor>" so widths are part of the parity.
+            if d.get("src"):
+                self.imgs.append(d["src"])
+            for part in (d.get("srcset") or "").split(","):
+                bits = part.split()
+                if bits:
+                    self.imgs.append(" ".join(bits[:2]))
 
     def handle_endtag(self, tag):
         if tag in SKIP_TAGS and self._skip:
@@ -61,13 +68,28 @@ def normalize_link(href: str) -> str:
     return href
 
 
-def normalize_img(src: str) -> str:
+def normalize_img(src: str) -> str | None:
     # Hashed pipeline outputs: Astro /_astro/name.HASH_HASH.webp vs Zola
-    # /processed_images/name.HASH.webp — compare by basename + extension.
-    m = re.match(r"/(?:_astro|processed_images)/([a-zA-Z0-9_-]+)\.[\w.]*\.?(\w+)$", src)
-    if m:
-        return f"optimized:{m.group(1).lower()}.{m.group(2)}"
-    return src
+    # /processed_images/name.HASH.webp — compare by basename + extension
+    # (+ srcset width descriptor when present). Phase 5 accepted
+    # divergences, folded in here:
+    #   - avif variants are intentionally dropped (Zola can't encode
+    #     avif) -> baseline avif entries are excluded (return None);
+    #   - the <img> fallback changed format png->jpg (Astro emitted a
+    #     jpeg <source> ahead of the png fallback, so browsers got jpg
+    #     either way) -> png/jpeg normalize to jpg for optimized assets.
+    url, _, desc = src.partition(" ")
+    m = re.match(r"/(?:_astro|processed_images)/([^/]+)$", url)
+    if not m:
+        return src
+    # name.HASH(.HASH).ext — basename is the first dot-token, ext the last.
+    toks = m.group(1).split(".")
+    ext = toks[-1].lower()
+    if ext == "avif":
+        return None
+    if ext in ("png", "jpeg"):
+        ext = "jpg"
+    return f"optimized:{toks[0].lower()}.{ext} {desc}".strip()
 
 
 def extract(path: Path) -> Extract:
@@ -102,8 +124,13 @@ def check_page(rel: str, quiet: bool = False) -> int:
     bad += diff_lists("text", eb.text, ez.text, f"/{rel}/")
     bad += diff_lists("links", [normalize_link(x) for x in eb.links],
                       [normalize_link(x) for x in ez.links], f"/{rel}/")
-    bad += diff_lists("images", [normalize_img(x) for x in eb.imgs],
-                      [normalize_img(x) for x in ez.imgs], f"/{rel}/")
+    # Set compare, not list: dropping the jpeg <source> (its URLs now
+    # live only in the <img> srcset, where the baseline duplicated them)
+    # legitimately changes per-URL multiplicity but not coverage.
+    bad += diff_lists("images",
+                      sorted({n for n in map(normalize_img, eb.imgs) if n}),
+                      sorted({n for n in map(normalize_img, ez.imgs) if n}),
+                      f"/{rel}/")
     if not bad and not quiet:
         print(f"OK /{rel}/")
     return bad
@@ -112,8 +139,8 @@ def check_page(rel: str, quiet: bool = False) -> int:
 # description: whitespace-insensitive string compare (descriptionRSS is
 # carried verbatim, so it should match modulo whitespace). content:encoded:
 # rendered-markdown HTML whose markup legitimately differs (br/self-closing
-# forms, astro:assets' loading/width attrs and /_astro/ webp URLs vs the
-# full-size /images/ PNGs) — compared as extracted text tokens + link
+# forms, astro:assets' loading/width attrs and /_astro/ webp URLs vs our
+# /processed_images/ webp URLs) — compared as extracted text tokens + link
 # targets + stem-normalized img sources, same philosophy as page mode.
 LOOSE_TEXT_TAGS = {"description"}
 HTML_TEXT_TAGS = {"{http://purl.org/rss/1.0/modules/content/}encoded"}
@@ -122,7 +149,7 @@ HTML_TEXT_TAGS = {"{http://purl.org/rss/1.0/modules/content/}encoded"}
 def _feed_img_stem(src: str) -> str:
     src = (src or "").split()[0]
     src = re.sub(r"^https?://friendswithbrews\.com", "", src)
-    m = re.match(r"^/_astro/(.+?)\.[^.]+\.\w+$", src)
+    m = re.match(r"^/(?:_astro|processed_images)/(.+?)\.[^.]+\.\w+$", src)
     if m:
         return m.group(1).lower()
     m = re.match(r"^/images/(?:[\w-]+/)*(.+?)\.\w+$", src)

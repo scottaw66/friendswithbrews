@@ -288,12 +288,25 @@ def _www_link(m: re.Match) -> str:
 
 # Nine episodes (8, 30, 40, 42, 43, 54, 60, 63, 64) inline images via
 # relative ../../assets/images/… paths that astro:assets used to resolve
-# into optimized /_astro/ URLs. Zola passes them through verbatim (broken
-# on the page AND in the feed), so point them at the full-size copies in
-# static/images/ — every referenced file exists there (checked 2026-08-13).
+# into optimized /_astro/ webp URLs. Rewrite each markdown image whose
+# target is such a path into a content_image component call (defined in
+# templates/site_components.html) — content files are Tera templates, so
+# the call renders at build time into the same webp-at-intrinsic-size
+# <img> the baseline carried. The surrounding [ ... ](/images/…) markdown
+# link (present on every occurrence) is left alone. Alts contain
+# apostrophes but no double quotes; err rather than emit a broken Tera
+# string if that ever changes.
 # descriptionRSS is NOT rewritten: the old feed carried its relative srcs
 # verbatim, and it's kept byte-identical (see ZOLA-MIGRATION.md).
 def rewrite_asset_images(body: str) -> str:
+    def repl(m: re.Match) -> str:
+        alt, path = m.group(1), m.group(2)
+        if '"' in alt:
+            err(f'image alt contains a double quote, unrepresentable in the component call: {alt!r}')
+        return f'{{{{<content_image path={{"{path}"}} alt={{"{alt}"}} />}}}}'
+
+    body = re.sub(r"!\[([^\]]*)\]\(\.\./\.\./assets/images/([^)]+)\)", repl, body)
+    # Safety net for any non-image reference (none today).
     return body.replace("../../assets/images/", "/images/")
 
 
@@ -400,8 +413,11 @@ def convert_episodes(transcript_stems: set[str]) -> dict[str, str]:
             fm.append(f"description_rss = {tstr(data['descriptionRSS'])}")
         fm.append("+++")
 
-        out = "\n".join(fm) + "\n" + protect_tera(
-            autolink_bare_urls(rewrite_asset_images(body)), name)
+        # rewrite_asset_images runs AFTER protect_tera: the raw source has
+        # no Tera tokens on image lines, and the component calls it injects
+        # must NOT be raw-wrapped (they are meant to render).
+        out = "\n".join(fm) + "\n" + rewrite_asset_images(
+            protect_tera(autolink_bare_urls(body), name))
         write_if_changed(OUT_CONTENT / path.name, out)
         generated.add(path.name)
     prune_stale(OUT_CONTENT, "[0-9]*.md", generated)
@@ -441,8 +457,11 @@ def convert_transcripts() -> set[str]:
             fm.append(f"youtube = {tstr(data['youtube'])}")
         fm.append("+++")
 
-        out = "\n".join(fm) + "\n" + protect_tera(
-            autolink_bare_urls(rewrite_asset_images(body)), name)
+        # rewrite_asset_images runs AFTER protect_tera: the raw source has
+        # no Tera tokens on image lines, and the component calls it injects
+        # must NOT be raw-wrapped (they are meant to render).
+        out = "\n".join(fm) + "\n" + rewrite_asset_images(
+            protect_tera(autolink_bare_urls(body), name))
         write_if_changed(OUT_TRANSCRIPTS / path.name, out)
         generated.add(path.name)
     prune_stale(OUT_TRANSCRIPTS, "*.md", generated)

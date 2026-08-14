@@ -192,16 +192,69 @@
 </div>
 {% endcomponent video_embed %}
 
+{# astro:assets <Picture> equivalent for brew photos: webp <source> +
+   jpg fallback <img> (avif dropped — Zola can't encode it; see
+   ZOLA-MIGRATION.md "Images"). Matches Astro's observed output in
+   dist-baseline: requested widths are clamped to the source's intrinsic
+   width and deduped (never upscale); the <img> keeps the REQUESTED
+   display width attr even when the source is narrower (baseline bottle
+   imgs are all width=1000 height=1000 regardless), with height derived
+   from the source aspect ratio. Callers pass the same width/widths the
+   Astro components did: brew cards 400 + [400, 800], bottle pages
+   1000 + [1500, 2000]. #}
+{% component brew_picture(image, alt, width, widths) %}
+{%- set src_path = "src/assets/images/brews/" ~ image ~ ".png" -%}
+{%- set meta = get_image_metadata(path=src_path) -%}
+{#- Callers pass widths sorted ascending, so after clamping to the
+    intrinsic width a duplicate can only equal the previous entry —
+    prev_w-tracking is a full dedup. Srcsets are built as strings
+    because Tera v2 has no array-append filter. -#}
+{%- set_global webp_srcs = "" -%}
+{%- set_global jpg_srcs = "" -%}
+{%- set_global prev_w = 0 -%}
+{%- for w in widths -%}
+  {%- if w > meta.width %}{% set w = meta.width %}{% endif -%}
+  {%- if w != prev_w -%}
+    {%- set_global prev_w = w -%}
+    {%- if webp_srcs == "" %}{% set sep = "" %}{% else %}{% set sep = ", " %}{% endif -%}
+    {%- set wp = resize_image(path=src_path, width=w, op="fit_width", format="webp", quality=80) -%}
+    {%- set wurl = wp.static_path | split(pat="static/") | last -%}
+    {%- set_global webp_srcs = webp_srcs ~ sep ~ "/" ~ wurl ~ " " ~ w ~ "w" -%}
+    {%- set jp = resize_image(path=src_path, width=w, op="fit_width", format="jpg", quality=80) -%}
+    {%- set jurl = jp.static_path | split(pat="static/") | last -%}
+    {%- set_global jpg_srcs = jpg_srcs ~ sep ~ "/" ~ jurl ~ " " ~ w ~ "w" -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if width > meta.width %}{% set fallback_w = meta.width %}{% else %}{% set fallback_w = width %}{% endif -%}
+{%- set fb = resize_image(path=src_path, width=fallback_w, op="fit_width", format="jpg", quality=80) -%}
+{%- set fburl = fb.static_path | split(pat="static/") | last -%}
+{%- set raw_h = width * meta.height / meta.width -%}
+{%- set height = raw_h | round | int -%}
+<picture><source srcset="{{ webp_srcs }}" type="image/webp" /><img src="/{{ fburl }}" srcset="{{ jpg_srcs }}" alt="{{ alt }}" loading="lazy" decoding="async" width="{{ width }}" height="{{ height }}" /></picture>
+{%- endcomponent brew_picture %}
+
+{# astro:assets markdown-image handling for in-content episode images
+   (9 episodes inline images via relative ../../assets/images/ paths;
+   migrate/convert.py rewrites them to calls of this component). Matches
+   the baseline: a single webp transcode at the source's intrinsic size,
+   width/height attrs, and a literal empty srcset. `path` is relative to
+   src/assets/images/ and keeps its real extension. #}
+{% component content_image(path, alt) %}
+{%- set src_path = "src/assets/images/" ~ path -%}
+{%- set meta = get_image_metadata(path=src_path) -%}
+{%- set img = resize_image(path=src_path, width=meta.width, op="fit_width", format="webp", quality=80) -%}
+{%- set url = img.static_path | split(pat="static/") | last -%}
+<img alt="{{ alt }}" loading="lazy" decoding="async" width="{{ meta.width }}" height="{{ meta.height }}" src="/{{ url }}" srcset="" />
+{%- endcomponent content_image %}
+
 {# BrewDetails.astro — brew card used on episode views and the /brews/N
    list pages. in_episode suppresses the "Episode(s) …" line (the Astro
-   version keyed this off a truthy `episode` prop).
-   TODO(Phase 5): replace the plain full-size <img> with the resize_image
-   <picture> (avif dropped; webp+jpg at 400/800w) matching astro:assets. #}
+   version keyed this off a truthy `episode` prop). #}
 {% component brew_details(brew, in_episode = false) %}
 <div class="brew">
   <div class="brew-image">
     <a href="/bottle/{{ brew.id }}/">
-      <img src="/images/brews/{{ brew.image }}.png" alt="{{ brew.brewery }} {{ brew.name }}" loading="lazy" decoding="async" width="400" />
+      {{<brew_picture image={brew.image} alt={brew.brewery ~ " " ~ brew.name} width={400} widths={[400, 800]} />}}
     </a>
   </div>
   <div class="brew-text">
