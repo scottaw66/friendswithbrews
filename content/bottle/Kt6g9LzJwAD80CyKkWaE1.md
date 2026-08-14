@@ -9,6 +9,8 @@ image = "NumiOrganicTeaOrganicToastedRiceTea-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429
 brew_description = "A classic blend of genmaicha and matcha teas, Matcha Toasted Rice has a savory, nutty flavor. We blend sencha green tea with toasted rice to make Genmaicha, a traditional Japanese tea. The result is a smooth, rich brew with earthy depth and undertones of brightness."
 brew_type = "tea"
 url = "https://shop.numitea.com/Matcha-Toasted-Rice/p/NUMIS-10300&c=NumiTeaStore@Teabag@Green"
+url_hostname = "shop.numitea.com"
+url_origin = "https://shop.numitea.com"
 episodes = ["31"]
 
 [extra.episode_titles]

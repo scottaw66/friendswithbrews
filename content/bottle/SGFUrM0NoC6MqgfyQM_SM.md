@@ -9,6 +9,8 @@ image = "CaffeVitaCoffeeRoastingCoOrganicTheo-0C002D7D-C26E-49B5-8AB0-C0C556AFDF
 brew_description = "This blend of exceptional coffees from Peru and Honduras features enticing aromas of vanilla bean, black pepper and chocolate. Medium-bodied with herbaceous, dark fruit flavors and a finish of nutmeg and brown sugar. Tastes like dark chocolate, baking spice, dark berries."
 brew_type = "coffee"
 url = "https://www.caffevita.com/products/theo-blend"
+url_hostname = "www.caffevita.com"
+url_origin = "https://www.caffevita.com"
 episodes = ["62"]
 
 [extra.episode_titles]

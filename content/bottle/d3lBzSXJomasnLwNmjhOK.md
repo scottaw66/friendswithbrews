@@ -9,6 +9,8 @@ image = "TennesseeBrewWorksWalkTheLime-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Made with Tennessee wheat. This crisp, tropical and refreshing ale is bursting with fresh lime aromas and flavors of zested citrus and bitter peel, mixing perfectly with a clean wheat-driven finish."
 brew_type = "beer"
 url = "https://www.tnbrew.com/beer/walk-the-lime/"
+url_hostname = "www.tnbrew.com"
+url_origin = "https://www.tnbrew.com"
 episodes = ["13"]
 
 [extra.episode_titles]

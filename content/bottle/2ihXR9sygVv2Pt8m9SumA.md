@@ -9,6 +9,8 @@ image = "TiestaTeaChaiLove-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Spiced Chai black tea, high caffeine."
 brew_type = "tea"
 url = "https://tiestatea.com/products/chai-love"
+url_hostname = "tiestatea.com"
+url_origin = "https://tiestatea.com"
 episodes = ["26"]
 
 [extra.episode_titles]

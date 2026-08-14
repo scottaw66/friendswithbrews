@@ -9,6 +9,8 @@ image = "BrooklynBrewerySpecialEffectsHoppyAmber-95AAC94F-1AE9-44D0-8DA7-3D6BE7B
 brew_description = "Brooklyn Special Effects Hoppy Amber tastes just like a regular beer, but therein lies the special effect: it’s not. We use a special fermentation method that develops the flavors, aromas & character of beer with none of the alcohol, and a generous dry hopping resulting in lively hop notes and a clean finish."
 brew_type = "beer"
 url = "https://brooklynbrewery.com/brooklyn-beers/non-alcoholic/special-effects-hoppy-amber/"
+url_hostname = "brooklynbrewery.com"
+url_origin = "https://brooklynbrewery.com"
 episodes = ["32"]
 
 [extra.episode_titles]

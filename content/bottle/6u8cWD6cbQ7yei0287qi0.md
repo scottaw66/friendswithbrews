@@ -9,6 +9,8 @@ image = "WanderingGoatCoffeeDecafPeruNorte20250323"
 brew_description = "Grown by producers from San Ignacio in Cajamarca, Peru. During the water process, the green coffee is pre-soaked in water to expand the beans for caffeine extraction. The hydrated green coffee is then introduced to a unique solution of concentrated coffee solubles that draw out the caffeine while minimizing the loss of flavor compounds. Once the caffeine has been removed the green coffee is re-dried and re-bagged for transport, and the extract solution is filtered of its caffeine and recycled to be used again."
 brew_type = "coffee"
 url = "https://wanderinggoat.com/products/decaf-peru"
+url_hostname = "wanderinggoat.com"
+url_origin = "https://wanderinggoat.com"
 episodes = ["82"]
 
 [extra.episode_titles]

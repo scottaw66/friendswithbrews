@@ -9,6 +9,8 @@ image = "SonofJuiceIPA-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Bursting with notes of tropical fruit, Son of Juice features loads of Mosaic, Mosaic Cryo, Simcoe, Simcoe Cryo, and Nugget hops. Pilsner malt and oats lend to a soft body and some haze, making for a juicy, low-bitterness IPA."
 brew_type = "beer"
 url = "https://maplewoodbrew.com/beer/year-round/son-of-juice"
+url_hostname = "maplewoodbrew.com"
+url_origin = "https://maplewoodbrew.com"
 episodes = ["8"]
 
 [extra.episode_titles]

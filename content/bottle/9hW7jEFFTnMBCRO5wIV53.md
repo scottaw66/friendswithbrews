@@ -9,6 +9,8 @@ image = "RodenbachClassic-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Rodenbach Classic sets the bar for Flemish red-brown ales. This ale owes its sweet and sour fruitiness and refreshing taste to the fact that it is partially matured in oak casks."
 brew_type = "beer"
 url = "https://int.rodenbach.be/global/en/bieren/rodenbach-classic.html"
+url_hostname = "int.rodenbach.be"
+url_origin = "https://int.rodenbach.be"
 episodes = ["34"]
 
 [extra.episode_titles]

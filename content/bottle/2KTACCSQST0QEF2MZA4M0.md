@@ -9,6 +9,8 @@ image = "ExNovoCactusWinsTheLottery-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "We were about forty miles from Corrales when the Berliner Weisse began to take hold. We can’t stop here, this is Prickly Pear Country."
 brew_type = "beer"
 url = "http://www.exnovobrew.com/cactus-wins-the-lottery"
+url_hostname = "www.exnovobrew.com"
+url_origin = "http://www.exnovobrew.com"
 episodes = ["4"]
 
 [extra.episode_titles]

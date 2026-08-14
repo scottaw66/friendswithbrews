@@ -9,6 +9,8 @@ image = "WegmansDaybreakOrganicCoffee-D8D18B51-0DEB-4303-8BC8-50ECDAB79804"
 brew_description = "Complex with a Smooth Finish."
 brew_type = "coffee"
 url = "https://shop.wegmans.com/product/219259/wegmans-organic-coffee-specialty-whole-bean-daybreak"
+url_hostname = "shop.wegmans.com"
+url_origin = "https://shop.wegmans.com"
 episodes = ["76"]
 
 [extra.episode_titles]

@@ -9,6 +9,8 @@ image = "AndersonValleyBrewingCompanyFallHorninPumpkinAle-95AAC94F-1AE9-44D0-8DA
 brew_description = "With a brilliant, deep copper hue and creamy beige-colored head, our Fall Hornin' Pumpkin Ale has inviting aromas of caramelized malt and baking bread with highlights of cinnamon, nutmeg, pumpkin and seasonal spices. The pleasantly creamy mouthfeel and silky body embrace the sweet caramel flavors and tang of spices (with just hint of hops) that ends in a smooth, round finish."
 brew_type = "beer"
 url = "https://avbc.com/beer/fall-hornin-pumpkin-ale/"
+url_hostname = "avbc.com"
+url_origin = "https://avbc.com"
 episodes = ["51"]
 
 [extra.episode_titles]

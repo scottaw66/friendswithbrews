@@ -9,6 +9,8 @@ image = "MEDFORDBREWINGCOMPANYPoWitWhiteAle20260629"
 brew_description = "Wheat Beer - Witbier / Blanche"
 brew_type = "beer"
 url = "https://untappd.com/b/medford-brewing-company-powit-white-ale/5388423"
+url_hostname = "untappd.com"
+url_origin = "https://untappd.com"
 episodes = ["100"]
 
 [extra.episode_titles]

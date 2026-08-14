@@ -9,6 +9,8 @@ image = "HarpoonDunkin-BlueberryMatchaIPA-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Brand new for 2021, this hazy IPA is inspired by Dunkin’s Blueberry Matcha Latte. Brewed with blueberries, Dunkin’ matcha, and a blend of traditional and modern hops, it’s both tea-like and tropical with bright, juicy notes of mixed berry. Available only in the Dunkin’ Dozen Mix Pack!"
 brew_type = "beer"
 url = "https://www.harpoonbrewery.com/beer/dunkin-blueberry-matcha-ipa/"
+url_hostname = "www.harpoonbrewery.com"
+url_origin = "https://www.harpoonbrewery.com"
 episodes = ["25"]
 
 [extra.episode_titles]

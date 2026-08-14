@@ -9,6 +9,8 @@ image = "OMMEGANGBreweryEverythingNice-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Lightly dusted with spices of the season, Everything Nice is a warming, wintry Belgian-style blonde ale. This supremely cozy confection pairs perfectly with any traditional holiday treat. Note the flavors of cinnamon, ginger, nutmeg, cloves, and white pepper as you sip next to the fireplace. We hope this fresh-baked offering brings warmth and light to you and yours."
 brew_type = "beer"
 url = "https://www.ommegang.com/beerinfo/everything-nice/"
+url_hostname = "www.ommegang.com"
+url_origin = "https://www.ommegang.com"
 episodes = ["6"]
 
 [extra.episode_titles]

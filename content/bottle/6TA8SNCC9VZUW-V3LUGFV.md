@@ -9,6 +9,8 @@ image = "RogueJamSesh-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "You'll just have to guess! Why? Currently not on our website!"
 brew_type = "beer"
 url = "https://www.rogue.com/products/jam-sesh-blonde-ale"
+url_hostname = "www.rogue.com"
+url_origin = "https://www.rogue.com"
 episodes = ["6"]
 
 [extra.episode_titles]

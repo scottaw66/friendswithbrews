@@ -34,6 +34,7 @@ import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlsplit
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -268,6 +269,22 @@ RAW_TOKENS = ("{{", "{%", "{#")
 # 100 has genuinely bare URLs today; the guard is for future show notes.)
 BARE_URL_RE = re.compile(r"(?<![(\[<\"'])(https?://[^\s)\]<>\"']+)")
 
+# GFM's extended autolink also linked scheme-less `www.` domains (always
+# with an http:// prefix), matching after any non-alphanumeric — so the
+# literal `<www.…>` spans in transcripts 13/84 got linked with the angle
+# brackets left as text. pulldown-cmark has no www-autolink and `<www.…>`
+# is not a CommonMark autolink (no scheme), so emit an explicit markdown
+# link. The lookbehind keeps `https://www.` (already handled above) and
+# mid-word runs like "Awwww." unmatched.
+WWW_URL_RE = re.compile(r"(?<![\w/@.])(www\.[^\s)\]<>\"']+)")
+
+
+def _www_link(m: re.Match) -> str:
+    # GFM excludes trailing punctuation from the link target.
+    url = m.group(1).rstrip(".,;:!?")
+    tail = m.group(1)[len(url):]
+    return f"[{url}](http://{url}){tail}"
+
 
 def autolink_bare_urls(body: str) -> str:
     out = []
@@ -277,7 +294,10 @@ def autolink_bare_urls(body: str) -> str:
             in_fence = not in_fence
             out.append(line)
             continue
-        out.append(line if in_fence else BARE_URL_RE.sub(r"<\1>", line))
+        if not in_fence:
+            line = BARE_URL_RE.sub(r"<\1>", line)
+            line = WWW_URL_RE.sub(_www_link, line)
+        out.append(line)
     return "\n".join(out)
 
 
@@ -465,6 +485,30 @@ VALID_BREW_TYPES = {"beer", "coffee", "tea", "water"}
 VALID_VOTES = {"thumbs-up", "thumbs-down", "side-thumb"}
 
 
+def _url_hostname(url: str) -> str:
+    """new URL(url).hostname: lowercased host, no port."""
+    try:
+        return (urlsplit(str(url)).hostname or "").lower()
+    except ValueError:
+        return ""
+
+
+def _url_origin(url: str) -> str:
+    """new URL(url).origin: scheme://host, keeping only an explicit port.
+
+    (JS drops the scheme's default port; brews.json URLs never carry one, so
+    an explicit port passing through verbatim is close enough.)"""
+    try:
+        parts = urlsplit(str(url))
+    except ValueError:
+        return ""
+    host = (parts.hostname or "").lower()
+    if not parts.scheme or not host:
+        return ""
+    port = f":{parts.port}" if parts.port else ""
+    return f"{parts.scheme}://{host}{port}"
+
+
 def convert_brews(episode_titles: dict[str, str]) -> int:
     src = SRC_DATA / "brews.json"
     brews = json.loads(src.read_text(encoding="utf-8"))
@@ -504,6 +548,10 @@ def convert_brews(episode_titles: dict[str, str]) -> int:
             f"brew_description = {tstr(brew.get('description', ''))}",
             f"brew_type = {tstr(brew.get('type', ''))}",
             f"url = {tstr(brew.get('url', ''))}",
+            # bottle.html's "<name> on <hostname>" line — Tera can't parse
+            # URLs, so mirror JS's new URL(url).hostname/.origin here.
+            f"url_hostname = {tstr(_url_hostname(brew.get('url', '')))}",
+            f"url_origin = {tstr(_url_origin(brew.get('url', '')))}",
             f"episodes = {json.dumps([str(e) for e in brew.get('episodes', [])])}",
             "",
             "[extra.episode_titles]",

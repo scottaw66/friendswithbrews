@@ -9,6 +9,8 @@ image = "DowneastCoffeeReserveDeepSeaDark20251027"
 brew_description = "Jumpstart your day with a bold blend of coffees harvested from Colombia and Sumatra. Roast forward. Deep sea dark. Dazzles with raw sugar sweetness. Medium dark blend, smoky, roasted cashew, toffee."
 brew_type = "coffee"
 url = "https://www.downeastcoffee.com/collections/shop-reserve/products/deep-sea-dark"
+url_hostname = "www.downeastcoffee.com"
+url_origin = "https://www.downeastcoffee.com"
 episodes = ["92"]
 
 [extra.episode_titles]

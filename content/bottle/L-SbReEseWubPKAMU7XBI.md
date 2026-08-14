@@ -9,6 +9,8 @@ image = "JBasketBancha-7D2F2321-A9E4-4E49-A068-9F11C73E73D0"
 brew_description = "Dry green tea leaves. Kawayanagi Tea."
 brew_type = "tea"
 url = "https://www.jfc.com/product/item/28211"
+url_hostname = "www.jfc.com"
+url_origin = "https://www.jfc.com"
 episodes = ["66"]
 
 [extra.episode_titles]

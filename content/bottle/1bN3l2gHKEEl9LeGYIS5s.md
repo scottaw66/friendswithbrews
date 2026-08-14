@@ -9,6 +9,8 @@ image = "CamposSuperiorCafeBlend20250409"
 brew_description = "Campos Superior is our signature, quintessential coffee blend. It's what we've proudly served in our cafes since day one. Combining fresh high-quality specialty coffees from our coffee producing partners in Colombia, East Africa & Brazil, this full-bodied coffee is carefully roasted to deliver sweet caramel, red currant, and milk chocolate flavours to your cup. We pride ourselves in our Superior Blend tasting consistent and even as we continue to grow, we still spend hours everyday cupping and analysing it to ensure it tastes just right, every single time. The farms we select for the Superior Blend are leaders in the Specialty Coffee world for their regions. We've worked very closely with these partnerships over many years and most are exclusive to Campos Coffee in Australia. It's a line-up of coffees and relationships to be we are incredibly proud of."
 brew_type = "beer"
 url = "https://www.camposcoffee.com/product/campos-superior-blend-1kg"
+url_hostname = "www.camposcoffee.com"
+url_origin = "https://www.camposcoffee.com"
 episodes = ["83"]
 
 [extra.episode_titles]

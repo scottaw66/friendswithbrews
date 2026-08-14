@@ -9,6 +9,8 @@ image = "BirdRockCoffeeRoastersUraga-59CDFDAB-63C5-41A8-9DE7-A11C1A4AFF69"
 brew_description = "Big flower aromas and a complex, fruity flavor that reminds us of raspberries make Uraga perfect for lovers of delicious Ethiopian coffee."
 brew_type = "coffee"
 url = "https://www.drinktrade.com/products/uraga"
+url_hostname = "www.drinktrade.com"
+url_origin = "https://www.drinktrade.com"
 episodes = ["79"]
 
 [extra.episode_titles]

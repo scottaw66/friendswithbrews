@@ -9,6 +9,8 @@ image = "SistersCoffeeCompanyHighDesertSunrise-3D93861E-255A-4AE8-B79F-4842B49F4
 brew_description = "Characterized by sparkling citrus, honey and candied hazelnut, this blend consists of Latin American coffees. The roast level is on the lighter side, highlighting the bright acidity and sweetness of these coffees. The perfect coffee for crisp summer mornings in the Central Oregon High Desert."
 brew_type = "coffee"
 url = "https://sisterscoffee.com/collections/shop-coffee-blends/products/high-desert-sunrise"
+url_hostname = "sisterscoffee.com"
+url_origin = "https://sisterscoffee.com"
 episodes = ["75"]
 
 [extra.episode_titles]

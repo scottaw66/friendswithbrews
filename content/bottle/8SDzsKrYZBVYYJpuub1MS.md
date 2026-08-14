@@ -9,6 +9,8 @@ image = "SterlingCoffeeRoastersKenyaKiamugumo20250216"
 brew_description = "Tastes like raspberries and demerara sugar. Light roasted for drip and press."
 brew_type = "coffee"
 url = "https://www.sterling.coffee/"
+url_hostname = "www.sterling.coffee"
+url_origin = "https://www.sterling.coffee"
 episodes = ["80", "81"]
 
 [extra.episode_titles]

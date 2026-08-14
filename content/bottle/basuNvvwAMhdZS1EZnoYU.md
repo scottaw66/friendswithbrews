@@ -9,6 +9,8 @@ image = "SAPPOROBREWERIESSapporoPremiumBeer20260718"
 brew_description = "Sapporo Premium Beer is a refreshing lager with a crisp, refined flavor and a clean finish. The perfect beer to pair with any meal and any occasion."
 brew_type = "beer"
 url = "https://www.sapporobeer.com/our-beers/sapporo-premium-beer"
+url_hostname = "www.sapporobeer.com"
+url_origin = "https://www.sapporobeer.com"
 episodes = ["101"]
 
 [extra.episode_titles]

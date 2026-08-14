@@ -9,6 +9,8 @@ image = "ThreeCreeksBrewingTresArroyosMexicanLager-95AAC94F-1AE9-44D0-8DA7-3D6BE
 brew_description = "This easy-drinking Mexican Cerveza transports you south of the border. Pilsner malt and Saaz hops create a clean, crisp and refreshing lager, while traditional flaked maize adds just a touch of sweetness. Lagered for for up to two months, Tres Arroyos is sure to please the most discerning palate. Salud!"
 brew_type = "beer"
 url = "https://www.threecreeksbrewing.com/beer/"
+url_hostname = "www.threecreeksbrewing.com"
+url_origin = "https://www.threecreeksbrewing.com"
 episodes = ["46"]
 
 [extra.episode_titles]

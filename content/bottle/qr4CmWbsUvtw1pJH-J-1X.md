@@ -9,6 +9,8 @@ image = "LittleBeastBrewing-ThirdBirdOatmealStout-95AAC94F-1AE9-44D0-8DA7-3D6BE7
 brew_description = "Smooth and soft, with subtle notes of coffee and chocolate, this oatmeal stout is a fine choice for any time of day, whether you're an early bird or a night owl. 6.0% ABV"
 brew_type = "beer"
 url = "https://www.littlebeastbrewing.com/third-bird"
+url_hostname = "www.littlebeastbrewing.com"
+url_origin = "https://www.littlebeastbrewing.com"
 episodes = ["23", "59"]
 
 [extra.episode_titles]

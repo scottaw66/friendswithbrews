@@ -247,6 +247,84 @@
 </div>
 {% endcomponent brew_details %}
 
+{# Pager.astro — first/prev/next/last pagination nav. `base` is the list's
+   URL prefix ("/episodes/", "/brews/", "/transcripts/page/"); links carry
+   no trailing slash, matching the old markup. Astro showed First only from
+   page 3 on (prev && prevPage > 1) and Last only while next isn't the last
+   page (next && nextPage < lastPage) — both ported as-is. #}
+{% component pager(current, total, base) %}
+<div class="pager">
+  <nav id="pager">
+    {% if current > 2 %}
+      <div><a href="{{ base }}1">&lt;&lt; First</a></div>
+    {% endif %}
+    {% if current > 1 %}
+      <div><a href="{{ base }}{{ current - 1 }}">&lt; Prev</a></div>
+    {% endif %}
+    <div>Page {{ current }} of {{ total }}</div>
+    {% if current < total %}
+      <div><a href="{{ base }}{{ current + 1 }}">Next &gt;</a></div>
+    {% endif %}
+    {% if current + 1 < total %}
+      <div><a href="{{ base }}{{ total }}">Last &gt;&gt;</a></div>
+    {% endif %}
+  </nav>
+</div>
+{% endcomponent pager %}
+
+{# Transcript.astro — full transcript view for /transcripts/<n>/. `t` is the
+   transcript page object; episode links are "/<n>" without a trailing slash
+   (site.episodes.path was "/"), same as the episode components above. #}
+{% component transcript_article(t) %}
+<div
+  class="transcript"
+  data-pagefind-filter="filter by[content]"
+  content="transcript"
+  data-pagefind-meta="result type:transcript"
+>
+  <h2>
+    {{<icon_ic_baseline_document_scanner />}}
+    <a href="/{{ t.extra.episode }}">Episode {{ t.extra.episode }} – {{ t.title }}</a>
+  </h2>
+  <div class="transcript-links">
+    <span data-pagefind-meta="date">{{<icon_fluent_calendar_rtl_48_filled />}}{{ t.extra.display_date }}</span> •
+    <span>{{<icon_fontisto_podcast />}}<a href="/{{ t.extra.episode }}">Episode Audio</a></span> •
+    <span>{{<icon_ic_baseline_document_scanner />}}<a href="/transcripts/page/1">Transcripts Index</a></span> •
+    <span>{{<icon_fontisto_podcast />}}<a href="/episodes/1">Episodes Index</a></span>
+  </div>
+  <div class="subtitle">
+    {{<icon_fluent_info_24_filled />}}Description
+  </div>
+  <div class="description">{{ t.description }}</div>
+  <div class="subtitle">
+    {{<icon_ic_baseline_document_scanner />}}Transcript
+  </div>
+  {{ t.content | safe }}<br />
+  <div class="transcript-links">
+    {{<icon_fontisto_podcast />}}<a href="/{{ t.extra.episode }}">Episode Audio</a> •
+    <span>{{<icon_ic_baseline_document_scanner />}}<a href="/transcripts/page/1">Transcripts Index</a></span> •
+    <span>{{<icon_fontisto_podcast />}}<a href="/episodes/1">Episodes Index</a></span>
+  </div>
+</div>
+{% endcomponent transcript_article %}
+
+{# TranscriptListView.astro — one entry on the /transcripts/page/N lists. #}
+{% component transcript_list_item(t) %}
+<div class="transcript" data-pagefind-ignore>
+  <h3>
+    {{<icon_ic_baseline_document_scanner />}}
+    <a href="/transcripts/{{ t.slug }}">Episode {{ t.extra.episode }} – {{ t.title }}</a>
+  </h3>
+  <div class="description">
+    {{ t.description }}
+  </div>
+  <div class="transcript-links">
+    <span data-pagefind-meta="date">{{<icon_fluent_calendar_rtl_48_filled />}}{{ t.extra.display_date }}</span> •
+    <span>{{<icon_fontisto_podcast />}}<a href="/{{ t.extra.episode }}">Episode Audio</a></span>
+  </div>
+</div>
+{% endcomponent transcript_list_item %}
+
 {# Reviews.astro — 3 random, non-repeating reviews, chosen at build time
    (same semantics as randomReviews(3); the homepage varies per build).
    Distinct-index math: b avoids a by modular offset; c is the k-th index

@@ -9,6 +9,8 @@ image = "AthleticBrewingCoAthleticLite20250815"
 brew_description = "Athletic Lite is a light brew, reimagined. Classically light and expertly crafted, this brew doesn’t sacrifice on flavor. With only 25 calories, 5g carbs, and premium grains, Athletic Lite is crushable on any occasion — or none at all."
 brew_type = "beer"
 url = "https://athleticbrewing.com/products/athletic-lite"
+url_hostname = "athleticbrewing.com"
+url_origin = "https://athleticbrewing.com"
 episodes = ["88"]
 
 [extra.episode_titles]

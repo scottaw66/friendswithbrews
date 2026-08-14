@@ -9,6 +9,8 @@ image = "BreckenridgeBreweryChristmasAle-C230E67A-66A5-4E91-8A4A-A50DCCF053A5"
 brew_description = "The chill of winter calls for a beer with extra flavor and strength! An abundance of carefully roasted malts create notes of caramel and chocolate, while Chinook and Mt. Hood hops contribute a spicy quality for balance and a clean finish."
 brew_type = "beer"
 url = "https://www.breckbrew.com/brews/christmas-ale/"
+url_hostname = "www.breckbrew.com"
+url_origin = "https://www.breckbrew.com"
 episodes = ["58"]
 
 [extra.episode_titles]

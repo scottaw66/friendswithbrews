@@ -9,6 +9,8 @@ image = "CapturedByPorchesBrewingOregonSunshineGoldenAle-95AAC94F-1AE9-44D0-8DA7
 brew_description = "There is no description provided by the brewer, but's locally sourced ingredients engineer to be pest resistant."
 brew_type = "beer"
 url = "https://www.capturedbyporches.com/"
+url_hostname = "www.capturedbyporches.com"
+url_origin = "https://www.capturedbyporches.com"
 episodes = ["43"]
 
 [extra.episode_titles]

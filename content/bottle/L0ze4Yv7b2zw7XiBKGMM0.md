@@ -9,6 +9,8 @@ image = "NinkasiSleighr-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "A limited release. Roasty, Toffee, Malty."
 brew_type = "beer"
 url = "https://www.americancraftbeer.com/beer/122312040735ninkasi-sleighr/"
+url_hostname = "www.americancraftbeer.com"
+url_origin = "https://www.americancraftbeer.com"
 episodes = ["19"]
 
 [extra.episode_titles]

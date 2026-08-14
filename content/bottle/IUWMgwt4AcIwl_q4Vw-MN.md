@@ -9,6 +9,8 @@ image = "NumiHojicha20260217"
 brew_description = "This roasted Japanese green tea has a nutty, savory flavor. After organic tea leaves are harvested, they are steamed and rolled in small batches, then roasted at a high temperature which removes bitterness and gives the tea its rich umami flavor."
 brew_type = "tea"
 url = "https://numitea.com/products/hojicha?_pos=1&_psq=hojicha&_ss=e&_v=1.0"
+url_hostname = "numitea.com"
+url_origin = "https://numitea.com"
 episodes = ["96"]
 
 [extra.episode_titles]

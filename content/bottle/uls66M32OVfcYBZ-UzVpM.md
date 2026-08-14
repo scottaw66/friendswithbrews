@@ -9,6 +9,8 @@ image = "Rogue2024SantasPrivateReserve-D8D18B51-0DEB-4303-8BC8-50ECDAB79804"
 brew_description = "A collaboration with Portland Coffee Roasters. This festive brew captures the festive spirit in every sip."
 brew_type = "beer"
 url = "https://www.rogue.com/shop/beer/seasonal/2024-santas-private-reserve/"
+url_hostname = "www.rogue.com"
+url_origin = "https://www.rogue.com"
 episodes = ["76"]
 
 [extra.episode_titles]

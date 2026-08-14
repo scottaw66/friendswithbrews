@@ -9,6 +9,8 @@ image = "TraditionalMedicinalsHibiscus-7D2F2321-A9E4-4E49-A068-9F11C73E73D0"
 brew_description = "This blend supports the cardiovascular system. Tart, tangy and fruity. Fun, gregarious and creative. Caffeine Free."
 brew_type = "tea"
 url = "https://www.traditionalmedicinals.com/collections/all/products/hibiscus-tea"
+url_hostname = "www.traditionalmedicinals.com"
+url_origin = "https://www.traditionalmedicinals.com"
 episodes = ["66"]
 
 [extra.episode_titles]

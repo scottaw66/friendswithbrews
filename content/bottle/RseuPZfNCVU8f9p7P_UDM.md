@@ -9,6 +9,8 @@ image = "BackporchSingleTrack-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Single Track is our single origin rotating espresso at Backporch. For this Single Track we chose a coffee from Antigua Guatemala under the name of Hunapu. Coffees from Antigua have depth and sweetness going for them, as well as some nice fruited notes. We found this coffee to have notes of: dried fig, cacao nibs and molasses. This coffee is suitable for both espresso and filter."
 brew_type = "coffee"
 url = "https://www.backporchcoffeeroasters.com/buyonline/singletrack"
+url_hostname = "www.backporchcoffeeroasters.com"
+url_origin = "https://www.backporchcoffeeroasters.com"
 episodes = ["16", "17", "28"]
 
 [extra.episode_titles]

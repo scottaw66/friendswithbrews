@@ -9,6 +9,8 @@ image = "BroadcastCoffee-DecafColombiaPaloRosa-02032A72-DEC3-4052-A20A-D7176662C
 brew_description = "We have never been happier with the flavor profile of any other decaffeination process that we have tried. We roast this coffee to a medium roast in order to create an accessible every day coffee that tastes delicious with or without cream or sugar."
 brew_type = "coffee"
 url = "https://broadcastcoffeeroasters.com/products/decaf-colombia-palo-rosa?_pos=3&_sid=e91571861&_ss=r"
+url_hostname = "broadcastcoffeeroasters.com"
+url_origin = "https://broadcastcoffeeroasters.com"
 episodes = ["69", "70"]
 
 [extra.episode_titles]

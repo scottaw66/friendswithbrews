@@ -9,6 +9,8 @@ image = "TostadoArandas20250911"
 brew_description = "A medium dark roast from Oaxaca, Mexico. With smooth caramel and a subtle almond finish, it’s as cozy as it sounds. This one’s a dream for espresso lovers—bold, balanced, and super consistent. Pair it with milk, and you’ve got a velvety latte that hits every time. Roasting notes: Caramel and Almond."
 brew_type = "coffee"
 url = "https://www.tostadocoffeeroasters.com/arandas"
+url_hostname = "www.tostadocoffeeroasters.com"
+url_origin = "https://www.tostadocoffeeroasters.com"
 episodes = ["90"]
 
 [extra.episode_titles]

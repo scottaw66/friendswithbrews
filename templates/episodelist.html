@@ -1,8 +1,23 @@
-<!doctype html>
-<html lang="en">
-  <head><meta charset="utf-8" /><title>{{ page.title }}</title></head>
-  <body>
-    <!-- Phase 1 placeholder — real template arrives in Phase 2/3. -->
-    <h1>{{ page.title }}</h1>
-  </body>
-</html>
+{# /episodes/N/ — episode list, 5/page (port of astro/src/pages/episodes/
+   [page].astro). The stub's page_num slices the root section's date-sorted
+   episode pages; episode_article renders the thumbnail variant (the Astro
+   list passed no `audio` prop, so embeds became thumbnail links). #}
+{% extends "base.html" %}
+{% block title %}{{ config.title }} Episodes{% endblock title %}
+{% block metatitle %}{{ config.title }} Episodes{% endblock metatitle %}
+{% block main %}
+  {% set section = get_section(path="_index.md") %}
+  {% set per_page = config.extra.episodes_paginate_by %}
+  {% set num = page.extra.page_num %}
+  {% set count = section.pages | length %}
+  {% set pages_frac = (count + per_page - 1) / per_page %}
+  {% set total = pages_frac | round(method="floor") | int %}
+  {% set start = (num - 1) * per_page %}
+  {% set end = num * per_page %}
+  <div data-pagefind-ignore>
+    {% for e in section.pages[start:end] %}
+      {{<episode_article e={e} audio={false} />}}
+    {% endfor %}
+    {{<pager current={num} total={total} base={"/episodes/"} />}}
+  </div>
+{% endblock main %}

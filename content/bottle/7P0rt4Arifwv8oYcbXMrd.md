@@ -9,6 +9,8 @@ image = "HARPOONBREWERYUFOWhite20260617"
 brew_description = "Our flagship American Style White Ale merges the centuries-old tradition of Belgian wheat beers with modern American craft ingenuity. California orange peel and freshly ground coriander lead a lineup of all-natural ingredients that make UFO White a refreshing accompaniment to any occasion. UFO White has many of the flavor hallmarks of a Belgian Witbier: leading notes of citrus and spice contributed by California orange peel and freshly ground coriander, a smooth mouthfeel due to a large presence of wheat in the malt bill, and a hazy appearance from leaving the beer partially unfiltered."
 brew_type = "beer"
 url = "https://ufobeer.com/beer/ufo-white/"
+url_hostname = "ufobeer.com"
+url_origin = "https://ufobeer.com"
 episodes = ["99"]
 
 [extra.episode_titles]

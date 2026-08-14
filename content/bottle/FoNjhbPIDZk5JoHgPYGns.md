@@ -9,6 +9,8 @@ image = "KirinIchiban20250717"
 brew_description = "A premium, 100% malt beer brewed with the first-press method, offering smooth and rich flavor."
 brew_type = "beer"
 url = "http://www.kirinichiban.com/product/"
+url_hostname = "www.kirinichiban.com"
+url_origin = "http://www.kirinichiban.com"
 episodes = ["85"]
 
 [extra.episode_titles]

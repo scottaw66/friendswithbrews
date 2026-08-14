@@ -1,8 +1,27 @@
-<!doctype html>
-<html lang="en">
-  <head><meta charset="utf-8" /><title>{{ page.title }}</title></head>
-  <body>
-    <!-- Phase 1 placeholder — real template arrives in Phase 2/3. -->
-    <h1>{{ page.title }}</h1>
-  </body>
-</html>
+{# /brews/N/ — brew list, 12/page (port of astro/src/pages/brews/
+   [page].astro). Slices data/brews.json in file order (brewList() never
+   sorted); pager appears above and below the cards, as in the original. #}
+{% extends "base.html" %}
+{% block title %}The Brews{% endblock title %}
+{% block metatitle %}The Brews{% endblock metatitle %}
+{% block main %}
+  {% set brews = load_data(path="data/brews.json") %}
+  {% set per_page = config.extra.brews_paginate_by %}
+  {% set num = page.extra.page_num %}
+  {% set count = brews | length %}
+  {% set pages_frac = (count + per_page - 1) / per_page %}
+  {% set total = pages_frac | round(method="floor") | int %}
+  {% set start = (num - 1) * per_page %}
+  {% set end = num * per_page %}
+  <div data-pagefind-ignore>
+    <h1>The Brews!</h1>
+
+    {{<pager current={num} total={total} base={"/brews/"} />}}
+    <div class="brew-container">
+      {% for brew in brews[start:end] %}
+        {{<brew_details brew={brew} />}}
+      {% endfor %}
+    </div>
+    {{<pager current={num} total={total} base={"/brews/"} />}}
+  </div>
+{% endblock main %}

@@ -9,6 +9,8 @@ image = "AyingerOktoberfestMarzen-9A46F12D-CA41-4FC4-AC12-6CA1541FC373"
 brew_description = "Rich, amber-golden color. Deep, inviting, malty nose and bready, wonderful flavor that’s an ode to barley. Medium to big body, with a touch of warming alcohol on the finish. Soft dryness from long maturation."
 brew_type = "beer"
 url = "https://www.ayinger.de/cms/"
+url_hostname = "www.ayinger.de"
+url_origin = "https://www.ayinger.de"
 episodes = ["73"]
 
 [extra.episode_titles]

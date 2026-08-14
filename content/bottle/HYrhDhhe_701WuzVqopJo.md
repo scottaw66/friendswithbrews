@@ -9,6 +9,8 @@ image = "BierlyBrewingFelixPilsner-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Latin for lucky, this Bohemian style pilsner lager is named in honor of JP and Amelia’s first child, Felix. This pilsner is smooth and clean with a balanced hop flavor. Brewed with sorghum, brown rice, Belgian-style candi sugar, Czech Saaz hops, Oregon Magnum hops, yeast, and water. Made in the classic Pilsner style, this beer is brewed under strict temperature control and lagered (laid up) for two weeks."
 brew_type = "beer"
 url = "https://www.bierlybrewing.com/our-beers/"
+url_hostname = "www.bierlybrewing.com"
+url_origin = "https://www.bierlybrewing.com"
 episodes = ["44"]
 
 [extra.episode_titles]

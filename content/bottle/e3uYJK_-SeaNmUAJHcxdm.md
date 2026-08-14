@@ -9,6 +9,8 @@ image = "TrailheadCoffeeRoasterHingakawa-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "This coffee is amazing. We are beyond excited to have it in our wheelhouse. Drink it. Love it. Juicy with notes of Papaya and Brown Sugar. Superb as a pour over and a punchy little beast as SO espresso. As espresso, you might utter the following, 'Whoa…wtf…Dang…ok…ok, yeah' in a coming to terms with the amazing taste. Kind of punk rock that way but quite delicious in the end. I put a photo of the grounds in an Origami brewer so you can see the color and richness of this dense little bean."
 brew_type = "coffee"
 url = "https://www.trailheadcoffeeroasters.com/coffee/catracha-medium-roast-coffee-rctba-kdlck"
+url_hostname = "www.trailheadcoffeeroasters.com"
+url_origin = "https://www.trailheadcoffeeroasters.com"
 episodes = ["50"]
 
 [extra.episode_titles]

@@ -1,34 +1,34 @@
 # Friends with Brews → Zola Migration Plan
 
-## ⏱ STATUS (updated 2026-08-10)
+## ⏱ STATUS (updated 2026-08-13)
 
-**Phases 0–2 done. Next session starts at Phase 3 — lists + pagination.**
+**Phases 0–3 done. Next session starts at Phase 4 — the podcast RSS feed
+(⚠️ highest stakes, live subscribers; see the Phase 4 checklist).**
 
 - Branch: `zola-migration` (pushed). Companion pipeline changes are on
   `website-scripts` main (also pushed).
 - Working loop: `python3 migrate/convert.py && zola build`, then
-  `python3 migrate/parity.py page /<url>/` (or `urls`) against the frozen
-  `dist-baseline/` (gitignored — do NOT delete it; it's the parity truth
-  and can't be regenerated without restoring the Astro toolchain).
+  `python3 migrate/parity.py page /<url>/` (or `urls` / `pages`) against
+  the frozen `dist-baseline/` (gitignored — do NOT delete it; it's the
+  parity truth and can't be regenerated without restoring the Astro
+  toolchain).
 - ⛔ Never run `npm run build` (it deploys). Astro is frozen under
   `astro/` and no longer builds anyway (`src`/`static` moved).
-- Site state: all URLs exist; episode/home/friends/follow pages are real
-  and parity-verified; list/bottle/transcript/search/explore pages are
-  placeholder templates. Site is UNSTYLED until Phase 6 (`/css/fwb.css`
-  is linked but doesn't exist yet). `/feed.xml` doesn't exist until
-  Phase 4.
-- Phase 3 to-do: `pager` component (port `astro/src/components/Pager.astro`
-  markup exactly), real `episodelist.html` / `brewlist.html` /
-  `transcriptlist.html` (slice section pages / `data/brews.json` by
-  `page.extra.page_num` × the sizes in `zola.toml [extra]`),
-  `bottle.html` (data is embedded in each stub's `[extra]`),
-  `transcript.html` + list view (port `Transcript.astro` /
-  `TranscriptListView.astro` from `astro/src/components/`). Parity: URL
-  diff + page-mode checks on list edges (`/episodes/21/`, `/brews/18/`,
-  `/transcripts/page/5/`) and a bottle page.
-- Then: Phase 4 (podcast feed — highest stakes), 5 (brew images),
-  6 (CSS), 7 (search + explore), 8 (cutover). Post-migration tasks
-  section below (transcript backfill for eps 53/97/98/99).
+- Site state: every page except search/explore is real. Full-site parity
+  sweep (`parity.py pages`): **zero text/link diffs everywhere** except
+  the known set — homepage (random reviews), `/search/` + `/explore/`
+  (Phase 7 placeholders), `/transcripts/` (Zola's alias-redirect markup,
+  equivalent), and `/transcripts/45/` (accepted, see below). All
+  remaining page diffs are image-only (brew `<picture>` variants —
+  Phase 5). Site is UNSTYLED until Phase 6 (`/css/fwb.css` is linked but
+  doesn't exist yet). `/feed.xml` doesn't exist until Phase 4.
+- Accepted divergence: transcript 45's censored `f**_ing s_**` — remark
+  parsed the markers as strong/em, pulldown-cmark leaves them as literal
+  text (closer to the source). One page, cosmetic; revisit only if it
+  bothers anyone.
+- Then: Phase 5 (brew images), 6 (CSS), 7 (search + explore),
+  8 (cutover). Post-migration tasks section below (transcript backfill
+  for eps 53/97/98/99).
 
 ---
 
@@ -482,13 +482,34 @@ Each phase ends with a parity check against `dist-baseline/`.
       images; homepage diffs are exactly the random-review sentences (same
       per-build nondeterminism as Astro) + the Phase 5 brew images.
 
-### Phase 3 — Lists + pagination
-- [ ] `pager` component matching `Pager.astro` markup (first/prev/next/last).
-- [ ] `episodelist.html`, `brewlist.html`, `transcriptlist.html` templates
-      slicing via stubs; `/bottle/<id>/` template.
-- [ ] `/transcripts` alias redirect.
-- [ ] Parity: full URL-set diff dist vs baseline; spot byte-diff
-      `/episodes/2/`, `/brews/18/` (last-page edge), `/transcripts/page/5/`.
+### Phase 3 — Lists + pagination ✅ 2026-08-13
+- [x] `pager` component matching `Pager.astro` markup (first/prev/next/last;
+      First only from page 3, Last hidden on the penultimate/last page —
+      ported conditions verified against baseline edge pages).
+- [x] `episodelist.html`, `brewlist.html`, `transcriptlist.html` slicing
+      via the stubs' `page_num`. Tera v2 gotchas hit: there is **no
+      `slice` filter** — use `array[start:end]` — and `| int` **refuses
+      non-integer floats** (5.8 errors), so ceil-division is
+      `| round(method="floor") | int`.
+- [x] `bottle.html` from stub `[extra]` (interim full-size `<img>` like
+      brew_details — Phase 5 swaps in the `<picture>`). Converter now
+      precomputes `url_hostname`/`url_origin` per brew (Tera can't parse
+      URLs) for the "<name> on <hostname>" line.
+- [x] `transcript.html` + `transcript_article`/`transcript_list_item`
+      components (ports of `Transcript.astro`/`TranscriptListView.astro`).
+- [x] `/transcripts` alias redirect verified (Zola JS+meta-refresh page →
+      /transcripts/page/1/; different markup than Astro's, equivalent).
+- [x] Converter: GFM **www-autolink** ported — transcripts 13/84 carry
+      literal `<www.…>` spans that remark linked (http:// prefix, angle
+      brackets left as text); `autolink_bare_urls()` now emits
+      `[www.x](http://www.x)` for scheme-less www domains.
+- [x] Parity: URL diff clean (same three known deltas); page-mode on
+      `/episodes/{1,2,21}/`, `/brews/{1,18}/`, `/transcripts/page/{1,5}/`,
+      transcripts, bottles — plus a full `pages` sweep: zero text/link
+      diffs site-wide except the known set (homepage reviews, search/
+      explore placeholders, `/transcripts/` redirect markup, transcript
+      45's `f**_ing s_**` accepted divergence). Remaining diffs are
+      image-only (Phase 5).
 
 ### Phase 4 — Podcast RSS feed ⚠️ highest stakes
 - [ ] Feed stub page (`path = "/feed.xml"`, `template = "rss.xml"`) or

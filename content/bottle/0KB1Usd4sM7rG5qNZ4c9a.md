@@ -9,6 +9,8 @@ image = "BierlyBrewingBlackbirdStout-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Our newest year-round release, a long-awaited stout! Blackbird Stout is brewed with malted millet and malted rice for a dark, earthy, roasty flavor. An instant favorite. Brewed with malted millet, malted rice, hops, yeast, and water."
 brew_type = "beer"
 url = "https://www.bierlybrewing.com/our-beers/"
+url_hostname = "www.bierlybrewing.com"
+url_origin = "https://www.bierlybrewing.com"
 episodes = ["28", "48"]
 
 [extra.episode_titles]

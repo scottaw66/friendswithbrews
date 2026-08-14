@@ -1,8 +1,70 @@
-<!doctype html>
-<html lang="en">
-  <head><meta charset="utf-8" /><title>{{ page.title }}</title></head>
-  <body>
-    <!-- Phase 1 placeholder — real template arrives in Phase 2/3. -->
-    <h1>{{ page.title }}</h1>
-  </body>
-</html>
+{# /bottle/<id>/ — brew detail page (port of astro/src/pages/bottle/
+   [brews].astro). All brew data is embedded in the stub's [extra] by
+   migrate/convert.py, including the episode-number→title map and the
+   precomputed url_hostname/url_origin (Tera has no URL parser).
+   TODO(Phase 5): replace the plain full-size <img> with the resize_image
+   <picture> (avif dropped; webp+jpg at 1500/2000w) matching astro:assets. #}
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{% endblock title %}
+{% block metatitle %}{{ page.title }}{% endblock metatitle %}
+{% block main %}
+  {% set x = page.extra %}
+  <div class="brew-details" data-pagefind-meta="result type: {{ x.brew_type }}">
+    <h3>{{ x.brewery }}</h3>
+    <h2>{{ page.title }}</h2>
+    <div class="bottle">
+      <a href="/images/brews/{{ x.image }}.png">
+        <img src="/images/brews/{{ x.image }}.png" alt="{{ x.brewery }} {{ page.title }}" loading="lazy" decoding="async" width="1000" height="1000" />
+      </a>
+    </div>
+    <div class="description">
+      <p>{{ x.brewery }} says:</p>
+      <p>{{ x.brew_description }}</p>
+    </div>
+    <div class="ratings">
+      {% for rate in x.rating | default(value=[]) %}
+        <div class="host">
+          <div>{{ rate.host }} says:</div>
+          <div>{{ rate.vote | replace(from="-", to=" ") | upper }}!</div>
+          <div>
+            {% if rate.vote == "thumbs-up" %}
+              {{<icon_bi_hand_thumbs_up_fill />}}
+            {% else %}
+              <span class="{% if rate.vote == 'side-thumb' %}side-thumb{% endif %}">
+                {{<icon_bi_hand_thumbs_down_fill />}}
+              </span>
+            {% endif %}
+          </div>
+        </div>
+        <div class="review">
+          <p>{{ rate.description }}</p>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="type-links-container">
+      <div class="links">
+        <h4>Brew Type</h4>
+        <div class="brew-type">
+          {{<brew_type_icon type={x.brew_type} />}}
+          {% if x.brew_type == "water" %}
+            <span>{{ x.brew_type | capitalize }}</span>
+          {% else %}
+            <span data-pagefind-filter="filter by[content]" content="{{ x.brew_type }}">{{ x.brew_type | capitalize }}</span>
+          {% endif %}
+        </div>
+      </div>
+      <div class="links">
+        <h4>Episode{% if x.episodes | length > 1 %}s{% endif %} </h4>
+        {% for ep in x.episodes %}
+          <div>
+            <a href="/{{ ep }}/">{{ ep }}: {{ x.episode_titles[ep] }}</a>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="links">
+        <h4>Link</h4>
+        <a href="{{ x.url }}">{{ page.title }}</a> on <a href="{{ x.url_origin }}">{{ x.url_hostname }}</a>
+      </div>
+    </div>
+  </div>
+{% endblock main %}

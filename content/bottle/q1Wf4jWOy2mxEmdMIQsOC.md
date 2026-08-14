@@ -9,6 +9,8 @@ image = "MarketBasketWholeBean20250725"
 brew_description = "No description, no comment, and not even a PAGE ON THEIR WEBSITE for this, because Market Basket sucks."
 brew_type = "coffee"
 url = "https://www.instacart.com/products/3145281-market-basket-french-roast-whole-bean-coffee-20-oz"
+url_hostname = "www.instacart.com"
+url_origin = "https://www.instacart.com"
 episodes = ["86"]
 
 [extra.episode_titles]

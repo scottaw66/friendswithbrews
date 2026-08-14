@@ -9,6 +9,8 @@ image = "HARPOONBREWERYBigToasty20260617"
 brew_description = "An English Strong Ale"
 brew_type = "beer"
 url = "https://www.harpoonbrewery.com/"
+url_hostname = "www.harpoonbrewery.com"
+url_origin = "https://www.harpoonbrewery.com"
 episodes = ["99"]
 
 [extra.episode_titles]

@@ -9,6 +9,8 @@ image = "LaColombeCoffeeRoastersDecafMonteCarloDarkRoastCoffee20260217"
 brew_description = "Tasting Notes: Hazelnut and Sweet Grain\n\nMonte Carlo’s famous for its casino, but we think that decaffeinated coffee should never be a gamble. We made this one as bold, balanced, and deep-bodied as any of our regular dark roasts. Its rich, roast-hazelnut notes would be right at home on the French Riviera."
 brew_type = "coffee"
 url = "https://www.lacolombe.com/products/monte-carlo"
+url_hostname = "www.lacolombe.com"
+url_origin = "https://www.lacolombe.com"
 episodes = ["96"]
 
 [extra.episode_titles]

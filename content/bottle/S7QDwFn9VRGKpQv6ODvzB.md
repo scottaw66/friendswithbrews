@@ -9,6 +9,8 @@ image = "MEDFORDBREWINGCOMPANYRudePanda20260629"
 brew_description = "Porter - Imperial / Double"
 brew_type = "beer"
 url = "https://untappd.com/b/medford-brewing-company-rude-panda/5305104"
+url_hostname = "untappd.com"
+url_origin = "https://untappd.com"
 episodes = ["100"]
 
 [extra.episode_titles]

@@ -9,6 +9,8 @@ image = "GoldenRoadBrewingMelonCart-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Tastes like freshly cut melons and the California sun right in your hand. This light, crisp Wheat Ale is bursting with watermelon, honeydew, and cantalope flavors, finishing bright and refreshing."
 brew_type = "beer"
 url = "https://untappd.com/b/golden-road-brewing-melon-cart/2307694"
+url_hostname = "untappd.com"
+url_origin = "https://untappd.com"
 episodes = ["29"]
 
 [extra.episode_titles]

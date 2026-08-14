@@ -9,6 +9,8 @@ image = "21stAmendmentBreweryHellOrHighWatermelon-95AAC94F-1AE9-44D0-8DA7-3D6BE7
 brew_description = "Hell or High Watermelon Wheat is our summer seasonal beer available from April through September in six pack cans and on draft. We start by brewing a classic American wheat beer, then add fresh melons for a straw-colored, delicious beer with a kiss of watermelon aroma and flavor."
 brew_type = "beer"
 url = "https://www.21st-amendment.com/beers/hell-or-high-watermelon"
+url_hostname = "www.21st-amendment.com"
+url_origin = "https://www.21st-amendment.com"
 episodes = ["3", "14"]
 
 [extra.episode_titles]

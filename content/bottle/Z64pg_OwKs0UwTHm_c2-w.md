@@ -9,6 +9,8 @@ image = "MEDFORDBREWINGCOMPANYMexicanLager20260629"
 brew_description = "Lager - Mexican"
 brew_type = "beer"
 url = "https://untappd.com/b/medford-brewing-company-mexican-lager/6232367"
+url_hostname = "untappd.com"
+url_origin = "https://untappd.com"
 episodes = ["100"]
 
 [extra.episode_titles]

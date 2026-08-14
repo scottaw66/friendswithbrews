@@ -9,6 +9,8 @@ image = "BackPorchCoffeeRoastersBackPorchBlend-95AAC94F-1AE9-44D0-8DA7-3D6BE7B94
 brew_description = "This is a favored staple here at Backporch. Syrupy and sweet, with hints of dark chocolate, cherries, cane sugar and caramel."
 brew_type = "coffee"
 url = "https://www.backporchcoffeeroasters.com/buyonline/backporch-blend-12-oz"
+url_hostname = "www.backporchcoffeeroasters.com"
+url_origin = "https://www.backporchcoffeeroasters.com"
 episodes = ["24", "57", "86"]
 
 [extra.episode_titles]

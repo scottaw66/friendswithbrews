@@ -9,6 +9,8 @@ image = "SchofferhoferPomegranate-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Schöfferhofer Pomegranate is the unique combination of sparkling smooth Schöfferhofer unfiltered hefeweizen beer with natural pomegranate flavored drink. Delicious exotic notes of pomegranate meet the crisp, smooth taste of hefeweizen for a uniquely refreshing beer."
 brew_type = "beer"
 url = "https://www.schofferhofer.us/wheat-beerbeer"
+url_hostname = "www.schofferhofer.us"
+url_origin = "https://www.schofferhofer.us"
 episodes = ["33"]
 
 [extra.episode_titles]

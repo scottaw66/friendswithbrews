@@ -1,8 +1,24 @@
-<!doctype html>
-<html lang="en">
-  <head><meta charset="utf-8" /><title>{{ page.title }}</title></head>
-  <body>
-    <!-- Phase 1 placeholder — real template arrives in Phase 2/3. -->
-    <h1>{{ page.title }}</h1>
-  </body>
-</html>
+{# /transcripts/page/N/ — transcript list, 20/page (port of astro/src/pages/
+   transcripts/page/[page].astro). Slices the transcripts section's
+   date-sorted pages; the h1 sits outside the pagefind-ignore div, matching
+   the old markup. #}
+{% extends "base.html" %}
+{% block title %}{{ config.title }} Transcripts{% endblock title %}
+{% block metatitle %}{{ config.title }} Transcripts{% endblock metatitle %}
+{% block main %}
+  {% set section = get_section(path="transcripts/_index.md") %}
+  {% set per_page = config.extra.transcripts_paginate_by %}
+  {% set num = page.extra.page_num %}
+  {% set count = section.pages | length %}
+  {% set pages_frac = (count + per_page - 1) / per_page %}
+  {% set total = pages_frac | round(method="floor") | int %}
+  {% set start = (num - 1) * per_page %}
+  {% set end = num * per_page %}
+  <h1>Transcripts</h1>
+  <div data-pagefind-ignore>
+    {% for t in section.pages[start:end] %}
+      {{<transcript_list_item t={t} />}}
+    {% endfor %}
+    {{<pager current={num} total={total} base={"/transcripts/page/"} />}}
+  </div>
+{% endblock main %}

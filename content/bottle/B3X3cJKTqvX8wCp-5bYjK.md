@@ -9,6 +9,8 @@ image = "LONGTRAILBREWINGMudSeason20260617"
 brew_description = ""
 brew_type = "beer"
 url = "https://longtrail.com/beers/"
+url_hostname = "longtrail.com"
+url_origin = "https://longtrail.com"
 episodes = ["99"]
 
 [extra.episode_titles]

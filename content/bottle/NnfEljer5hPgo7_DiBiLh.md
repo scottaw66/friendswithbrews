@@ -9,6 +9,8 @@ image = "OakshireBrewingIllTemperedGnome-C36F5209-8E4C-4C9E-B7EC-11873FB6380C"
 brew_description = "This American Brown Ale is an Oakshire original. Dark malts combine with resinous hops in the Winter Ale to soothe your ill tempered gnome."
 brew_type = "beer"
 url = "https://oakbrew.com/beers/ill-tempered-gnome/"
+url_hostname = "oakbrew.com"
+url_origin = "https://oakbrew.com"
 episodes = ["78"]
 
 [extra.episode_titles]

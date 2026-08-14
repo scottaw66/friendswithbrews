@@ -9,6 +9,8 @@ image = "IBelieveBrewingCoIBelieveInBlondeAle-95AAC94F-1AE9-44D0-8DA7-3D6BE7B942
 brew_description = "The I Believe In Nashville Blonde Ale is brewed right here in Nashville. We wouldn’t have it any other way."
 brew_type = "beer"
 url = "https://ibelievebrewing.com/"
+url_hostname = "ibelievebrewing.com"
+url_origin = "https://ibelievebrewing.com"
 episodes = ["39"]
 
 [extra.episode_titles]

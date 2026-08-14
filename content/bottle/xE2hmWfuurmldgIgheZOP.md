@@ -9,6 +9,8 @@ image = "PrairieArtisanAlesBlueberryBoyfriend-95AAC94F-1AE9-44D0-8DA7-3D6BE7B942
 brew_description = "Real boyfriends are idiots. Blueberry Boyfriends are always there for you."
 brew_type = "beer"
 url = "https://prairieales.com/beer/blueberry-boyfriend/"
+url_hostname = "prairieales.com"
+url_origin = "https://prairieales.com"
 episodes = ["34"]
 
 [extra.episode_titles]

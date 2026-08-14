@@ -9,6 +9,8 @@ image = "ImperialSilver-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "La cerveza de los costarricenses desde 1924"
 brew_type = "beer"
 url = "https://imperial.cr/somos-imperial/"
+url_hostname = "imperial.cr"
+url_origin = "https://imperial.cr"
 episodes = ["23"]
 
 [extra.episode_titles]

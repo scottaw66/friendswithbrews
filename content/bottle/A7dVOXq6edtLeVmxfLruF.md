@@ -9,6 +9,8 @@ image = "BaerlicBeerCompanyOatSoda-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Bohemian-Style Pilsner brewed with malted and flaked oats and our favorite German pilsner malt along with Czech Saaz Hops. The oats add body and allow us to bring the abv down to supremely crushable levels while the Czech Saaz hops build in the right amount of bitterness and spice to keep it complex and oh so satisfying! Na zdravi!"
 brew_type = "beer"
 url = "https://baerlic-brewing-company-llc.square.site/product/oat-soda-bohemian-pilsner-16oz-cans-barley-pod/821"
+url_hostname = "baerlic-brewing-company-llc.square.site"
+url_origin = "https://baerlic-brewing-company-llc.square.site"
 episodes = ["12"]
 
 [extra.episode_titles]

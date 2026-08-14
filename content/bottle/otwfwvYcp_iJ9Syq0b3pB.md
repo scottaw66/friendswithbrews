@@ -9,6 +9,8 @@ image = "BurlingtonBeerCompanyBarista-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Barista is a Double Coffee Porter, aged on locally roasted coffee beans by our friends at Abracadabra Coffee Company in Woodstock, VT. We age this Robust Porter on more than Two Pounds of Coffee per Barrel for an intense character of freshly brewed Coffee, complimented by malt flavors and aromas of Dark Chocolate, Raisins, Caramel, and Vanilla."
 brew_type = "beer"
 url = "https://www.burlingtonbeercompany.com/barista"
+url_hostname = "www.burlingtonbeercompany.com"
+url_origin = "https://www.burlingtonbeercompany.com"
 episodes = ["37"]
 
 [extra.episode_titles]

@@ -9,6 +9,8 @@ image = "HARPOONBREWERYSeaportAfterMidnight20260617"
 brew_description = "Imagine one of those epic nights that you tell the tale of years later. One of those nights where the flavor of beer straight from the barrel blends seamlessly with laughter and friends. This beer was made with our friends at Wheel Horse Whiskey as a liquid tribute to those magical moments and we hope you enjoy this while making new stories."
 brew_type = "beer"
 url = "https://mybeerbuzz.com/harpoon-reveals-seaport-after-midnight-stout-collaboration"
+url_hostname = "mybeerbuzz.com"
+url_origin = "https://mybeerbuzz.com"
 episodes = ["99"]
 
 [extra.episode_titles]

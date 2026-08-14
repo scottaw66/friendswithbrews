@@ -9,6 +9,8 @@ image = "WegmansOrganicWholeBeanPeruvianDecaf-95AAC94F-1AE9-44D0-8DA7-3D6BE7B942
 brew_description = "Nutty with a Sweet Finish."
 brew_type = "coffee"
 url = "https://shop.wegmans.com/product/218876/wegmans-organic-coffee-specialty-whole-bean-peruvian-decaf"
+url_hostname = "shop.wegmans.com"
+url_origin = "https://shop.wegmans.com"
 episodes = ["40", "53"]
 
 [extra.episode_titles]

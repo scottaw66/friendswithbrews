@@ -9,6 +9,8 @@ image = "CruxFermentationProjectBochiBochi-0BD1C1FA-6522-4783-BFC3-7A1D3B0E56B1"
 brew_description = "Brewed in the crisp Japanese style with whole Calrose Rice. Very easy-drinking and pleasant on the palate with a mild floral balance from Oregon-grown Tettnang whole-leaf hops. Kanpai!"
 brew_type = "beer"
 url = "https://www.cruxfermentation.com/beer/"
+url_hostname = "www.cruxfermentation.com"
+url_origin = "https://www.cruxfermentation.com"
 episodes = ["65"]
 
 [extra.episode_titles]

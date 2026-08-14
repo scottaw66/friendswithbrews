@@ -9,6 +9,8 @@ image = "AthleticBrewingUpsideDawnGolden20250717"
 brew_description = "Classic craft Golden style. Refreshing, clean, balanced, and light-bodied. Subtle earthy and spicy notes are balanced with citrusy aromas. Brewed with premium malts and American hops. Crafted to remove gluten."
 brew_type = "beer"
 url = "https://athleticbrewing.com/products/upside-dawn"
+url_hostname = "athleticbrewing.com"
+url_origin = "https://athleticbrewing.com"
 episodes = ["85"]
 
 [extra.episode_titles]

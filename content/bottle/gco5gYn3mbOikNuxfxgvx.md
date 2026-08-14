@@ -9,6 +9,8 @@ image = "HopworksBreweryBeestlyOrganicHoneyPorter-F90FEC31-57DD-44AB-8758-2E4041
 brew_description = "An award-winning, organic, robust American Porter that exudes clover and honey aromas with delicate notes of caramel with a light, roasty finish."
 brew_type = "beer"
 url = "https://www.hopworksbeer.com/beer"
+url_hostname = "www.hopworksbeer.com"
+url_origin = "https://www.hopworksbeer.com"
 episodes = ["60"]
 
 [extra.episode_titles]

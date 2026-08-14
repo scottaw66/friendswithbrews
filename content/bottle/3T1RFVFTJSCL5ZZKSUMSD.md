@@ -9,6 +9,8 @@ image = "EastNashvilleBeerWorksTennesseeSipperGoldenLightAle-95AAC94F-1AE9-44D0-
 brew_description = "A back to basics beer; smooth and easy-drinking one. Light-bodied, slightly sweet on the backend, and creamy, this beer is an all day crusher."
 brew_type = "beer"
 url = "https://eastnashbeerworks.com/"
+url_hostname = "eastnashbeerworks.com"
+url_origin = "https://eastnashbeerworks.com"
 episodes = ["7"]
 
 [extra.episode_titles]

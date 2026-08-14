@@ -9,6 +9,8 @@ image = "TaylorsYorkshireTea20250521"
 brew_description = "This is the UK's No.1 black tea. And however you like your everyday brew - from proper strong to seriously tasty decaf - we've got you covered."
 brew_type = "tea"
 url = "https://www.taylorsofharrogate.com/yorkshire-tea/yorkshire-tea"
+url_hostname = "www.taylorsofharrogate.com"
+url_origin = "https://www.taylorsofharrogate.com"
 episodes = ["84"]
 
 [extra.episode_titles]

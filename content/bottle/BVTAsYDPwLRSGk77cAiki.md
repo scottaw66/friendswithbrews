@@ -9,6 +9,8 @@ image = "RedRoosterCoffeeFunkyChicken-0AB454F2-E8DF-4B53-BB23-3A38DFC34845"
 brew_description = "Our Go-To Crowd-Pleaser Coffee. When we first began roasting coffee we wanted to create a blend that would appeal to all audiences. With a lot of practice and a little luck, we created a winner. This blend features three coffees from three origins, roasted to three different profiles to create one of the most complex yet approachable medium to dark roast blends you can find. Tasting notes: Dark Chocolate Torte, Praline, Citrus, Nutty."
 brew_type = "coffee"
 url = "https://www.redroostercoffee.com/products/organic-funky-chicken"
+url_hostname = "www.redroostercoffee.com"
+url_origin = "https://www.redroostercoffee.com"
 episodes = ["67"]
 
 [extra.episode_titles]

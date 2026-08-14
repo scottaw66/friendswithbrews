@@ -9,6 +9,8 @@ image = "BaerlicBeerCoOktoBAERfest-372CC0FA-4CA3-4EDC-AA54-08062E02E851"
 brew_description = "Oktobaerfestbier is a German-style Märzen lager brewed with Czech Saaz and Liberty hops for spicy'n'herbal'n'fruity hop character that lays beautifully over a toasty'n'bready'n'rich malt presence that finishes crispy'n'dry. Drinks best out of your favorite bierstiefel (or boot-shaped glass!). Prost!"
 brew_type = "beer"
 url = "https://baerlic-brewing-company-llc.square.site/product/oktobaerfestbier-marzen-lager-16oz-cans-southeast/901"
+url_hostname = "baerlic-brewing-company-llc.square.site"
+url_origin = "https://baerlic-brewing-company-llc.square.site"
 episodes = ["53"]
 
 [extra.episode_titles]

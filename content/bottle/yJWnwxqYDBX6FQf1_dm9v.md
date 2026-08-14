@@ -9,6 +9,8 @@ image = "HARPOONBREWERYBostonIrishStout20260617"
 brew_description = "This beer is a tribute to our Boston roots and all the Irish pride that surrounds us. Its smooth and delicious session-ability make it a nice beer all year round. Boston Irish Stout is a traditional dry Irish stout. Full-bodied but sessionable with a creamy texture (derived from the nitro pour), it combines the roasted character of six malts with delicate Willamette hops."
 brew_type = "beer"
 url = "https://harpoonbrewery.com/beer/boston-irish-stout/"
+url_hostname = "harpoonbrewery.com"
+url_origin = "https://harpoonbrewery.com"
 episodes = ["99"]
 
 [extra.episode_titles]

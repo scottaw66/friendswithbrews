@@ -9,6 +9,8 @@ image = "FermentBrewingCompanyHousePartyAle-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E
 brew_description = "Fascinatingly fruity but not necessarily hoppy, this unfiltered Pale Ale is bold with notes of passionfruit, rhubarb, and grapefruit."
 brew_type = "beer"
 url = "https://fermentbrewing.com/collections/beer/products/house-party-pale-ale"
+url_hostname = "fermentbrewing.com"
+url_origin = "https://fermentbrewing.com"
 episodes = ["41"]
 
 [extra.episode_titles]

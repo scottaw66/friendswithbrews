@@ -9,6 +9,8 @@ image = "WegmansDecafEspressoWholeBean-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Bold, decaffeinated dark roast coffee that is smooth with notes of dark chocolate, cocoa and spice. 100% Arabica coffee, sourced and roasted with care to deliver a delightful coffee experience in every cup. Perfect for espresso shot and espresso based drinks.Our Food You Feel Good About yellow banner is your shortcut to great-tasting products with no artificial colors, flavors or preservatives."
 brew_type = "coffee"
 url = "https://shop.wegmans.com/product/109476/wegmans-decaf-espresso-whole-bean-coffee"
+url_hostname = "shop.wegmans.com"
+url_origin = "https://shop.wegmans.com"
 episodes = ["15", "18", "57", "58", "62", "64", "70", "74", "80", "82", "89"]
 
 [extra.episode_titles]

@@ -9,6 +9,8 @@ image = "MEDFORDBREWINGCOMPANYDryIrishStout20260629"
 brew_description = "Stout - Irish Dry"
 brew_type = "beer"
 url = "https://untappd.com/b/medford-brewing-company-dry-irish-stout/5745630"
+url_hostname = "untappd.com"
+url_origin = "https://untappd.com"
 episodes = ["100"]
 
 [extra.episode_titles]

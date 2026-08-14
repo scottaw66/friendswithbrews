@@ -9,6 +9,8 @@ image = "WorthyBrewingLightsOutStout-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Our ode to starry, starry nights. Hints of vanilla, coffee & nutty flavors with a creamy finish."
 brew_type = "beer"
 url = "https://worthy.beer/beer/lights-out-stout/"
+url_hostname = "worthy.beer"
+url_origin = "https://worthy.beer"
 episodes = ["12"]
 
 [extra.episode_titles]

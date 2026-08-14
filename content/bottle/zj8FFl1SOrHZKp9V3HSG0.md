@@ -9,6 +9,8 @@ image = "WegmansEarlGreyBlackTea20250303"
 brew_description = "A Blend of Black Teas with a Hint of Citrus. Steep and enjoy!"
 brew_type = "tea"
 url = "https://shop.wegmans.com/product/45802/wegmans-just-tea-earl-grey-black-tea-bags"
+url_hostname = "shop.wegmans.com"
+url_origin = "https://shop.wegmans.com"
 episodes = ["81"]
 
 [extra.episode_titles]

@@ -9,6 +9,8 @@ image = "HarneyandSonsKagoshimaGreenTea-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "One of the best Senchas from the Kagoshima area in southern Japan, this brew is light in the cup with a good balance of sweet and bitter flavors."
 brew_type = "tea"
 url = "https://www.harney.com/products/kagoshima?variant=29491943302"
+url_hostname = "www.harney.com"
+url_origin = "https://www.harney.com"
 episodes = ["30"]
 
 [extra.episode_titles]

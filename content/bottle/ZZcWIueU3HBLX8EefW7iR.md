@@ -9,6 +9,8 @@ image = "CoavaSOBlend-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Top quality specialty coffees from East Africa, Central, & South America offer caramel sweetness, chocolate layered with complex fruit notes, and crisp acidity. This tried and true coffee is the kind of cup you want to drink every day. Rich. Chocolatey."
 brew_type = "coffee"
 url = "https://shop.coavacoffee.com/collections/coffee/products/s-o-blend-1"
+url_hostname = "shop.coavacoffee.com"
+url_origin = "https://shop.coavacoffee.com"
 episodes = ["26", "38", "53", "87"]
 
 [extra.episode_titles]

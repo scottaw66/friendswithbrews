@@ -9,6 +9,8 @@ image = "DeliriumRed-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Deep dark red colour, with a light pink, compact and lacing head. Soft fruity aroma, with hints of almond and mildly sour cherries. Sweet and fruity, with a nice balance between sweet and sour. An excellent dessert beer."
 brew_type = "beer"
 url = "https://www.delirium.be/en/beers/delirium-red"
+url_hostname = "www.delirium.be"
+url_origin = "https://www.delirium.be"
 episodes = ["18"]
 
 [extra.episode_titles]

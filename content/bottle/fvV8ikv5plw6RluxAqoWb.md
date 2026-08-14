@@ -9,6 +9,8 @@ image = "BackPorchCoffeeRoastersEarlyBird-A5EA235A-1AA2-4969-8599-0572704E959C"
 brew_description = "This coffee staple at Backporch is sweet, winey, chocolatey, and citrusy. It is processed at the Rio Tarrazu mill, which is a mill where all of our Costa Rican coffees are processed and probably one of the most technologically advanced and environmentally responsible mills we’ve seen."
 brew_type = "coffee"
 url = "https://www.backporchcoffeeroasters.com/buyonline/p/backporch-blend-12-oz-83scc"
+url_hostname = "www.backporchcoffeeroasters.com"
+url_origin = "https://www.backporchcoffeeroasters.com"
 episodes = ["77", "91"]
 
 [extra.episode_titles]

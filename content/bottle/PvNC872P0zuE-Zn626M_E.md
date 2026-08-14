@@ -9,6 +9,8 @@ image = "TonysCoffeeMexicoChiapas20251027"
 brew_description = "Year after year this coffee is an absolute crowd pleaser. FEDESI (Federacion de Sociedades Cooperativas Cafetaleras de la Sierra Madre) produces Fair Trade, Organic coffee in the region of Chiapas. FEDESI was founded by 6 groups located in the municipalities of Motozintla and Siltepec with the objective of providing support to small producers in finding new markets, financing and government support. Most of the partners of Cooperative FEDESI are small producers with 3 acres each. Each have their own wet mill and drying patio. Being part of the Cooperative has allowed members of FEDESI to become stronger, reach their goals, and gain access to higher market prices."
 brew_type = "coffee"
 url = "https://www.tonyscoffee.com/product/mexico-chiapas/"
+url_hostname = "www.tonyscoffee.com"
+url_origin = "https://www.tonyscoffee.com"
 episodes = ["92"]
 
 [extra.episode_titles]

@@ -9,6 +9,8 @@ image = "CoronaNonAlcoholic-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "The taste of the original in a non-alcoholic brew. Meet Corona Non-alcoholic. It has the same crisp and balanced taste of your favorite Mexican Lager. Add a lime wedge and enjoy anytime."
 brew_type = "beer"
 url = "https://www.coronausa.com/pages/corona-non-alcoholic"
+url_hostname = "www.coronausa.com"
+url_origin = "https://www.coronausa.com"
 episodes = ["45"]
 
 [extra.episode_titles]

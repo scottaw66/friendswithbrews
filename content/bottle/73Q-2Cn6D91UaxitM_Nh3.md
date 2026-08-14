@@ -9,6 +9,8 @@ image = "StarbucksBreakfastBlend-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Notes of sweet orange and brown sugar mingle in our lightest medium roast coffee."
 brew_type = "coffee"
 url = "https://athome.starbucks.com/products/breakfast-blend-whole-bean"
+url_hostname = "athome.starbucks.com"
+url_origin = "https://athome.starbucks.com"
 episodes = ["18"]
 
 [extra.episode_titles]

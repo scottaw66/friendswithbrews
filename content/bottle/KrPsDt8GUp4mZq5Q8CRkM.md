@@ -9,6 +9,8 @@ image = "VonEbertPils-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Tasting Notes: Fresh flowers, white peppercorn and lightly toasted crackers."
 brew_type = "beer"
 url = "https://www.vonebertbrewing.com/core-beer"
+url_hostname = "www.vonebertbrewing.com"
+url_origin = "https://www.vonebertbrewing.com"
 episodes = ["38"]
 
 [extra.episode_titles]

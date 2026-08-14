@@ -9,6 +9,8 @@ image = "ExtractoCoffeeRoastersElevenofSpades-857C965F-C378-496C-9E9A-833DBC34C2
 brew_description = "Our house blend, silky smooth chocolate throughout, sweet dark fruit tones and a lingering German chocolate finish. Eleven of Spades cuts through milk like a knife and stands on its own deliciously."
 brew_type = "coffee"
 url = "https://extractocoffee.com/products/eleven-of-spades"
+url_hostname = "extractocoffee.com"
+url_origin = "https://extractocoffee.com"
 episodes = ["74"]
 
 [extra.episode_titles]

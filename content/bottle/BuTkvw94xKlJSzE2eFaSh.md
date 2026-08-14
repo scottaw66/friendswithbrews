@@ -9,6 +9,8 @@ image = "StarbucksBlondeEspresso-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Experience the lighter side of espresso—a soft, beautifully balanced flavor profile that pairs perfectly with milk (or your favorite nondairy alternative). Made up of select Latin American and East African beans, this blend is carefully roasted to coax out sweet, vibrant notes of candied apple and bittersweet chocolate. The result is smooth, well-rounded and versatile, delicious served hot or over ice."
 brew_type = "coffee"
 url = "https://www.starbucks.com/menu/product/2122186/whole-bean"
+url_hostname = "www.starbucks.com"
+url_origin = "https://www.starbucks.com"
 episodes = ["31"]
 
 [extra.episode_titles]

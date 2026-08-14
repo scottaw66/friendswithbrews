@@ -9,6 +9,8 @@ image = "StellaArtois20250521"
 brew_description = "The Iconic lager brewed for savoring together."
 brew_type = "beer"
 url = "https://www.stellaartois.com/"
+url_hostname = "www.stellaartois.com"
+url_origin = "https://www.stellaartois.com"
 episodes = ["84"]
 
 [extra.episode_titles]

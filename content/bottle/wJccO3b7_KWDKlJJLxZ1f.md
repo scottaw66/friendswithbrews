@@ -9,6 +9,8 @@ image = "MiddleForkRoastersBackPedalBrew-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Roast: Medium, Flavor Profile: Savory Smooth Structured, Origin: Brazil Indonesia."
 brew_type = "coffee"
 url = "https://middleforkroasters.com/products/back-pedal-brew"
+url_hostname = "middleforkroasters.com"
+url_origin = "https://middleforkroasters.com"
 episodes = ["44"]
 
 [extra.episode_titles]

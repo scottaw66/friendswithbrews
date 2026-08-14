@@ -9,6 +9,8 @@ image = "CascadeLakesBrewingCoSaltedCaramelPorter-95AAC94F-1AE9-44D0-8DA7-3D6BE7
 brew_description = "A lightly-roasted, mahogany-colored, medium-bodied malt that is as smooth as a Marvin Gaye love song. With a sweet, salted-caramel flavor, this special porter is a delicious ale you’ll want to enjoy over and over."
 brew_type = "beer"
 url = "https://www.cascadelakes.com/beers"
+url_hostname = "www.cascadelakes.com"
+url_origin = "https://www.cascadelakes.com"
 episodes = ["27", "33"]
 
 [extra.episode_titles]

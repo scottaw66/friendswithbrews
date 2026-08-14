@@ -9,6 +9,8 @@ image = "BelchingBeaverPeanutButterMilkStout-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429
 brew_description = "Troy came up with the idea of combining the flavor of peanut butter with our milk stout and he nailed it. Don’t let the dark color fool you, this beer is delightfully easy to drink with cascading aromas of roasted peanuts, dark chocolate and coffee. Good times to you my friend, and welcome to the beaver family!"
 brew_type = "beer"
 url = "https://belchingbeaver.com/san-diego-belching-beaver-landing-beer"
+url_hostname = "belchingbeaver.com"
+url_origin = "https://belchingbeaver.com"
 episodes = ["22"]
 
 [extra.episode_titles]

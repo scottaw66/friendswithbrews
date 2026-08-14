@@ -9,6 +9,8 @@ image = "DrinkCoffeeDoStuffLetTheGamesBegin-9A46F12D-CA41-4FC4-AC12-6CA1541FC373
 brew_description = "Waking up early to catch all the action from France? Count us in! This Trade-exclusive blend, inspired (and created) by pro athletes, unites coffees from around the world (Colombia and Tanzania) for an energizing blend that makes any early-rising spectator feel like a winner."
 brew_type = "coffee"
 url = "https://drinkcoffeedostuff.com/"
+url_hostname = "drinkcoffeedostuff.com"
+url_origin = "https://drinkcoffeedostuff.com"
 episodes = ["73"]
 
 [extra.episode_titles]

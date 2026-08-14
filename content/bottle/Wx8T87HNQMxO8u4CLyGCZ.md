@@ -9,6 +9,8 @@ image = "PortlandCoffeRoastersGooseHollow20250815"
 brew_description = "Goose Hollow, like the Portland neighborhood it’s named after, is a warm and inviting coffee. It’s roasted medium-dark, with an entrancing chocolate flavor that wins over everyone that tastes it. A full, creamy body rounds out the experience in one of our most popular blends."
 brew_type = "coffee"
 url = "https://www.portlandcoffeeroasters.com/consumer/goose-hollow-whole-bean-12oz"
+url_hostname = "www.portlandcoffeeroasters.com"
+url_origin = "https://www.portlandcoffeeroasters.com"
 episodes = ["88"]
 
 [extra.episode_titles]

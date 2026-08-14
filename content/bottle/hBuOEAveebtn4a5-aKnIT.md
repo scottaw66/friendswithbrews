@@ -9,6 +9,8 @@ image = "HopWtrBloodOrange-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Refreshing and hydrating, HOP WTR Blood Orange is packed with Citra, Amarillo, Mosaic and Azacca hops, delivering a bright, citrusy flavor with a strong hint of hops, all with no calories and no sugar."
 brew_type = "water"
 url = "https://hopwtr.com/products/blood-orange-non-alcoholic-sparkling-hop-water-12-pack"
+url_hostname = "hopwtr.com"
+url_origin = "https://hopwtr.com"
 episodes = ["35"]
 
 [extra.episode_titles]

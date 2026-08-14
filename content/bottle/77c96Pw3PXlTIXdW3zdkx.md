@@ -9,6 +9,8 @@ image = "CountryBoyShotgunWedding-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "BROWN ALE AGED ON VANILLA BEANS"
 brew_type = "beer"
 url = "https://countryboybrewing.com/#BEER"
+url_hostname = "countryboybrewing.com"
+url_origin = "https://countryboybrewing.com"
 episodes = ["48"]
 
 [extra.episode_titles]

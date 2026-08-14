@@ -9,6 +9,8 @@ image = "WaterAvenueWonderland-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "The perfect cozy blend for misty mornings. Medium roast, wonderfully balanced with festive tasting notes of baking spice, brown sugar and toasted nuts."
 brew_type = "coffee"
 url = "https://wateravenuecoffee.com/collections/latest-releases/products/wonderland-holiday-blend"
+url_hostname = "wateravenuecoffee.com"
+url_origin = "https://wateravenuecoffee.com"
 episodes = ["21"]
 
 [extra.episode_titles]

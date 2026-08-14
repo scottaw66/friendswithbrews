@@ -9,6 +9,8 @@ image = "WarsteinerOktoberfest-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Dedicating the world’s biggest public festival to beer might seem silly to some, but we Germans are very serious about that – as serious as we are about our limited Warsteiner Oktoberfest Special Edition. This beer is brewed with hand-selected hops, Munich-type spring barley malt and extra-soft brewing water from the Arnsberg forest nature park. Its well-balanced taste will make you feel like you are part of the Oktoberfest, wherever you are."
 brew_type = "beer"
 url = "https://warsteiner.us/our-beer/oktoberfest"
+url_hostname = "warsteiner.us"
+url_origin = "https://warsteiner.us"
 episodes = ["16"]
 
 [extra.episode_titles]

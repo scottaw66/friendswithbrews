@@ -9,6 +9,8 @@ image = "TrailheadEndlessTrail-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Specifically crafted to get you out on the trail. Robust all business sort of coffee. Notes of mulled wine, cinnamon & toasted rice. Very balanced and syrupy that holds its flavors in a thermos rather well. It'll get you to the summit, view or secret spot with ease. May all of our trails be endless."
 brew_type = "coffee"
 url = "https://www.trailheadcoffeeroasters.com/coffee/sunbreak-medium-blend-coffee-portland-coffee-roasters-7hh59-hjrml"
+url_hostname = "www.trailheadcoffeeroasters.com"
+url_origin = "https://www.trailheadcoffeeroasters.com"
 episodes = ["49"]
 
 [extra.episode_titles]

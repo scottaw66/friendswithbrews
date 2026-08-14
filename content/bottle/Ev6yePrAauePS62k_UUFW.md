@@ -9,6 +9,8 @@ image = "LocalRoastingCoSidamo-61F65526-6121-45CB-B7CF-08261B5B287A"
 brew_description = "Sooooo good! Bright with hints of strawberry and graham cracker. Excellent as espresso, French press or drip."
 brew_type = "coffee"
 url = "https://localroastingco.bigcartel.com/product/naturally-processed-sidamo"
+url_hostname = "localroastingco.bigcartel.com"
+url_origin = "https://localroastingco.bigcartel.com"
 episodes = ["58"]
 
 [extra.episode_titles]

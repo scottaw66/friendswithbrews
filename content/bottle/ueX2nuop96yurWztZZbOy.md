@@ -9,6 +9,8 @@ image = "LittleBeastBrewingWoodChopper-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "This is our take on the classic Belgian-style wit bier. We layered in coriander, Curaçau orange peel, and lime zest to solidify the soft malt base. Easy drinking, spice and citrus. 4.5% ABV"
 brew_type = "beer"
 url = "https://www.littlebeastbrewing.com/beer"
+url_hostname = "www.littlebeastbrewing.com"
+url_origin = "https://www.littlebeastbrewing.com"
 episodes = ["47"]
 
 [extra.episode_titles]

@@ -9,6 +9,8 @@ image = "StarbucksFrenchRoastDark-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Intense and smoky, the pure, explosive flavor of French Roast is as dark as our dark roasts get."
 brew_type = "coffee"
 url = "https://athome.starbucks.com/products/french-roast-whole-bean"
+url_hostname = "athome.starbucks.com"
+url_origin = "https://athome.starbucks.com"
 episodes = ["23"]
 
 [extra.episode_titles]

@@ -9,6 +9,8 @@ image = "AnodyneCoffeeRoastingCoDecafFoolsGold-BBCC38C6-EDC4-4DB2-BD31-6E23928B8
 brew_description = "Decaf Fool’s Gold is for those that love coffee, but prefer to avoid the caffeine. Featuring two coffees selected for their smooth and nutty taste, we assure you will not find a better decaf anywhere else."
 brew_type = "coffee"
 url = "https://anodynecoffee.com/products/decaf-fools-gold"
+url_hostname = "anodynecoffee.com"
+url_origin = "https://anodynecoffee.com"
 episodes = ["72"]
 
 [extra.episode_titles]

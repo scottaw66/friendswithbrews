@@ -9,6 +9,8 @@ image = "UpperLeftRoastersChapina20251215"
 brew_description = "Clean, medium body with rich chocolate and lingering fruit sweetness."
 brew_type = "coffee"
 url = "https://upperleftroasters.com/collections/coffee/products/chapina?variant=32060451913812"
+url_hostname = "upperleftroasters.com"
+url_origin = "https://upperleftroasters.com"
 episodes = ["94"]
 
 [extra.episode_titles]

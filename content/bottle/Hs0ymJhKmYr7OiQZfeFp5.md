@@ -9,6 +9,8 @@ image = "Dapperand-Wise-Roasters-Decaf-Colombia-Amigos-Del-Huila-02032A72-DEC3-4
 brew_description = "This sugarcane process decaffeinated community lot reminds of of honey, brown sugar and cherry."
 brew_type = "coffee"
 url = "https://dapperandwise.com/collections/coffee/products/decaf-rwanda-baho?variant=44503883252021"
+url_hostname = "dapperandwise.com"
+url_origin = "https://dapperandwise.com"
 episodes = ["70"]
 
 [extra.episode_titles]

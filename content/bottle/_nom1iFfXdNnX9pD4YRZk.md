@@ -9,6 +9,8 @@ image = "GoodLifeBeachLife-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Beach Life P.O.G Pale Ale is a tropical twist on a classic Pale Ale. Brewed with Amarillo, Cascade, and Idaho 7 hops, these fruit-forward aroma hops, and a moderate dose of P.O.G. “Passionfruit, Orange, and Guava” lend to this very drinkable fruit-forward P.O.G. Pale Ale! The first sip will have you living your beach life and take you to the islands with your toes in the sand."
 brew_type = "beer"
 url = "https://www.goodlifebrewing.com/beach-life-pog-pale-ale/"
+url_hostname = "www.goodlifebrewing.com"
+url_origin = "https://www.goodlifebrewing.com"
 episodes = ["16"]
 
 [extra.episode_titles]

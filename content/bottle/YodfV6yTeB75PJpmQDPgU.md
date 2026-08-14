@@ -9,6 +9,8 @@ image = "HackerPschorrOktoberfestMarzen-8E6221D0-7EB7-46B3-8AFA-5CA4A1E6AC1B"
 brew_description = "As it was forbidden to brew in summer, a stronger beer -- the Märzen -- was brewed earlier in March. It would finally be served at the Oktoberfest, under the \"Heaven of Bavaria.\" We have returned once again to the age-old recipe and recreated that gloriously smooth, honey-coloured piece of history from times gone by. Perfect with: Bavarian sausage salad and all the titbits a true Bavarian would also enjoy: roast chicken, sausages or suckling pig cooked in Wiesn beer."
 brew_type = "beer"
 url = "https://www.hacker-pschorr.com/our-beers/usa/oktoberfest-maerzen"
+url_hostname = "www.hacker-pschorr.com"
+url_origin = "https://www.hacker-pschorr.com"
 episodes = ["54", "59"]
 
 [extra.episode_titles]

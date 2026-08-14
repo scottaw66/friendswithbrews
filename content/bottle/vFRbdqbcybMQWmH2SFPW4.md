@@ -9,6 +9,8 @@ image = "TonysCoffeeCafeCarmelita-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Hands down our #1 coffee, Cafe Carmelita is smooth and delicious. This timeless blend is roasted to bring out notes of cocoa and caramel. Whether you’re making coffee at home or the office, this is one crowd-pleaser."
 brew_type = "coffee"
 url = "https://www.tonyscoffee.com/product/cafe-carmelita/"
+url_hostname = "www.tonyscoffee.com"
+url_origin = "https://www.tonyscoffee.com"
 episodes = ["34"]
 
 [extra.episode_titles]

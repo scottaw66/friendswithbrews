@@ -9,6 +9,8 @@ image = "WegmansDistantHorizon-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Bold with notes of dark chocolate. Blend of beans from Colombia, Brazil, Ethiopia and Nicaragua. From Crop to Cup: Sourced and Roasted with Care."
 brew_type = "coffee"
 url = "https://wateravenuecoffee.com/collections/latest-releases/products/wonderland-holiday-blend"
+url_hostname = "wateravenuecoffee.com"
+url_origin = "https://wateravenuecoffee.com"
 episodes = ["21"]
 
 [extra.episode_titles]

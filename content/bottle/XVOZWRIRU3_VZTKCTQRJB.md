@@ -9,6 +9,8 @@ image = "MasonsBrewingCompanyHefeweizen-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "We'll never tell you what we say about this beer, because it's not currently on our website!"
 brew_type = "beer"
 url = "https://untappd.com/b/mason-s-brewing-company-hefeweizen/1671292"
+url_hostname = "untappd.com"
+url_origin = "https://untappd.com"
 episodes = ["6"]
 
 [extra.episode_titles]

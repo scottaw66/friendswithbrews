@@ -9,6 +9,8 @@ image = "SteadyStateRoastingThal-48CD8DC8-0190-4009-869E-7599870C0704"
 brew_description = "A unique, floral note of cardamom makes this fruity, balanced coffee really stand out."
 brew_type = "coffee"
 url = "https://localroastingco.bigcartel.com/product/naturally-processed-sidamo"
+url_hostname = "localroastingco.bigcartel.com"
+url_origin = "https://localroastingco.bigcartel.com"
 episodes = ["59"]
 
 [extra.episode_titles]

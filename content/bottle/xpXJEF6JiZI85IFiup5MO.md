@@ -9,6 +9,8 @@ image = "UnsereWeisseBerlinerKindl20250927"
 brew_description = "Unsere Berliner Kindl Weisse Himbeere taucht überall dort auf, wo die Sonne lacht. Herrlich frisch, fruchtig prickelnd und mit Schuss: Schon immer wurde die Original Berliner Kindl Weisse gern gemixt. Für den Genuss-To-Go gibt es den Berliner Bierbotschafter fix und fertig gemischt mit einem fruchtig-süßen Schuss Himbeere. Ein Genuss - nicht nur im Sommer."
 brew_type = "beer"
 url = "https://www.berliner-kindl.de/unsere-weisse/"
+url_hostname = "www.berliner-kindl.de"
+url_origin = "https://www.berliner-kindl.de"
 episodes = ["91"]
 
 [extra.episode_titles]

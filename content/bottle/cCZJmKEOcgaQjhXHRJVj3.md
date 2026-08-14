@@ -9,6 +9,8 @@ image = "BurlingtonBeerCompanyStudyHall-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Study Hall is a classic Amber ale conditioned on Maple Coffee roasted by Speeder & Earls. Flavors and aromas of Maple candy, French Roast Cold Brew, Caramel, Toffee, and Maple frosted Coffee Cake."
 brew_type = "beer"
 url = "https://www.burlingtonbeercompany.com/study-hall"
+url_hostname = "www.burlingtonbeercompany.com"
+url_origin = "https://www.burlingtonbeercompany.com"
 episodes = ["19"]
 
 [extra.episode_titles]

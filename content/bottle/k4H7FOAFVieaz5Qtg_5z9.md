@@ -9,6 +9,8 @@ image = "Safeway-Signature-SELECT-Coffee-Whole-Bean-Dark-Roast-Italian-Roast-020
 brew_description = "Tasting Notes: Hearty, smoky, chocolate. Our Signature Select Italian roast begins with a blend of Latin American beans that are sturdy enough to handle the extreme dark roasting style that originated in southern Italy. This longer and deeper roasting style mellows acidity, deepens body and sweetness, and adds smokiness and flavors of dark chocolate to the coffee. Enjoy this boldly roasted coffee, with its creamy body and hearty finish."
 brew_type = "coffee"
 url = "https://www.safeway.com/shop/product-details.960295655.html"
+url_hostname = "www.safeway.com"
+url_origin = "https://www.safeway.com"
 episodes = ["70"]
 
 [extra.episode_titles]

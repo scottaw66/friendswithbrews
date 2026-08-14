@@ -9,6 +9,8 @@ image = "JacksAbbyPineappleGuavaPassionRadler-95AAC94F-1AE9-44D0-8DA7-3D6BE7B942
 brew_description = "The most refreshing beer style for fun in the sun. The Radler was invented for crowds of German cyclists and we’re sharing our beer and fruit blends for whatever you’re up to this summer."
 brew_type = "beer"
 url = "https://jacksabby.com/beers/pineapple-guava-passion-radler/"
+url_hostname = "jacksabby.com"
+url_origin = "https://jacksabby.com"
 episodes = ["30"]
 
 [extra.episode_titles]

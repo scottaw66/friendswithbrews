@@ -9,6 +9,8 @@ image = "EvasionBrewingTantamountStout-2EEAD8CD-1015-4602-9A2F-95E21F99432F"
 brew_description = "This dark, full-bodied stout has complex flavors of dark chocolate and coffee, as well as a smooth molasses like sweetness. Ingredients: Water, Millet, Rice, Buckwheat, Oats, Hops and Yeast."
 brew_type = "beer"
 url = "https://evasionbrewing.com/home"
+url_hostname = "evasionbrewing.com"
+url_origin = "https://evasionbrewing.com"
 episodes = ["55"]
 
 [extra.episode_titles]

@@ -9,6 +9,8 @@ image = "GoldenRoadMangoCart-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "First in a series inspired by the iconic fruit cart vendors of Los Angeles. A light Wheat Ale bursting with lots of fresh mango flavor and aroma, finishing crisp and refreshing."
 brew_type = "beer"
 url = "https://www.goldenroad.la/mango-cart"
+url_hostname = "www.goldenroad.la"
+url_origin = "https://www.goldenroad.la"
 episodes = ["4", "46"]
 
 [extra.episode_titles]

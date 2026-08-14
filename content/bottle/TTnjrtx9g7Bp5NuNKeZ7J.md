@@ -9,6 +9,8 @@ image = "WegmansColombianWholeBeanDecaf-00EA633F-D19E-4C00-B46E-69AFC81A61BA"
 brew_description = "Decaffeinated light-medium roast coffee with fruity notes, prominent acidity, mild sweetness and floral aroma. 100% Arabica coffee, sourced and roasted with care to deliver a delightful coffee experience in every cup."
 brew_type = "coffee"
 url = "https://shop.wegmans.com/product/228660/wegmans-decaf-colombian-whole-bean-coffee"
+url_hostname = "shop.wegmans.com"
+url_origin = "https://shop.wegmans.com"
 episodes = ["60"]
 
 [extra.episode_titles]

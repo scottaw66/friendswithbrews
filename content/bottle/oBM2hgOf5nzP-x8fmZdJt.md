@@ -9,6 +9,8 @@ image = "ForecastCoffeeCompanyYonder20250521"
 brew_description = "Yonder is a rich and hearty blend that you can count on day in and day out. For Yonder, we source coffees from Honduras and Guatemala. It is carefully sourced and roasted to give you that perfect cup each morning."
 brew_type = "coffee"
 url = "https://forecastcoffeecompany.com/product/yonder/"
+url_hostname = "forecastcoffeecompany.com"
+url_origin = "https://forecastcoffeecompany.com"
 episodes = ["84"]
 
 [extra.episode_titles]

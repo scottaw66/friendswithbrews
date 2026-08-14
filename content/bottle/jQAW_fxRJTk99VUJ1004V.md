@@ -9,6 +9,8 @@ image = "NewSeasonsMarketCottonwoodWholeBeanCoffee20251225"
 brew_description = "Chocolatey finish with a balanced, sweet finish."
 brew_type = "coffee"
 url = "https://shop.newseasonsmarket.com/store/new-seasons-market/products/18319642"
+url_hostname = "shop.newseasonsmarket.com"
+url_origin = "https://shop.newseasonsmarket.com"
 episodes = ["95"]
 
 [extra.episode_titles]

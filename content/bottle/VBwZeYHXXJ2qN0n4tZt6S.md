@@ -9,6 +9,8 @@ image = "HARPOONBREWERYHarpoonDark20260617"
 brew_description = "Harpoon Dark is a Harpooner favorite, and has been since we first started brewing it. A blend of specialty malts gives our Dark a velvety mouthfeel with roasted notes and a hint of chocolate, balanced by a subtle hop aroma. Hard to describe but easy to drink, Harpoon Dark is rich in character and light on the palate. The overall character is hearty malt and chocolate balanced with a crisp hop bitterness. Available in The Holiday Mix!"
 brew_type = "beer"
 url = "https://harpoonbrewery.com/beer/dark/"
+url_hostname = "harpoonbrewery.com"
+url_origin = "https://harpoonbrewery.com"
 episodes = ["99"]
 
 [extra.episode_titles]

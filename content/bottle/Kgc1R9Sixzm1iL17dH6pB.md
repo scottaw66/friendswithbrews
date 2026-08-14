@@ -9,6 +9,8 @@ image = "TrilliumBrewingThreshPaleLager-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "To allow for this special grain to shine, we brewed a Pale Lager with just a touch of modern flair, achieved with a very subtle dry-hop of Motueka. The gentle hop addition offers a fleeting highlight of key lime and zested citrus, with some floral undertones adding complexity."
 brew_type = "beer"
 url = "https://trilliumbrewing.com/products/thresh"
+url_hostname = "trilliumbrewing.com"
+url_origin = "https://trilliumbrewing.com"
 episodes = ["13"]
 
 [extra.episode_titles]

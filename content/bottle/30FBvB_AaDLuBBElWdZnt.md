@@ -9,6 +9,8 @@ image = "TurkIslandRoastersFrenchCay20251215"
 brew_description = "Turks Island Coffee Roasters says NOTHING about this coffee, because they don't have a website that ACTUALLY LOADS..."
 brew_type = "coffee"
 url = "https://www.instagram.com/turksislandroasters/"
+url_hostname = "www.instagram.com"
+url_origin = "https://www.instagram.com"
 episodes = ["94"]
 
 [extra.episode_titles]

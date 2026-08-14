@@ -9,6 +9,8 @@ image = "BroadcastCoffeeColombiaDelCampo-2764FCF1-2B44-4149-824E-87DA18F5372B"
 brew_description = "Colombian beans, a medium-dark roast, and tasting notes of Marzipan, Chocolate Cherry."
 brew_type = "coffee"
 url = "https://broadcastcoffeeroasters.com/products/colombia-planadas"
+url_hostname = "broadcastcoffeeroasters.com"
+url_origin = "https://broadcastcoffeeroasters.com"
 episodes = ["63"]
 
 [extra.episode_titles]

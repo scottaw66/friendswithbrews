@@ -9,6 +9,8 @@ image = "MEDFORDBREWINGCOMPANYExtraSpecialBitter20260629"
 brew_description = "Bitter - Extra Special / Strong (ESB)"
 brew_type = "beer"
 url = "https://untappd.com/b/medford-brewing-company-extra-special-bitter/5629627"
+url_hostname = "untappd.com"
+url_origin = "https://untappd.com"
 episodes = ["100"]
 
 [extra.episode_titles]

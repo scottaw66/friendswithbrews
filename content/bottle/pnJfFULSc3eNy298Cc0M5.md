@@ -9,6 +9,8 @@ image = "SCR-20230926-ubgr-C3FBC55F-987A-49FA-9622-F5334C9972E4"
 brew_description = "This latest update in our Pale Ale project explodes onto the senses with exuberant amounts of modern German hop varieties imparting an herbal earthy lemony spiciness."
 brew_type = "beer"
 url = "https://untappd.com/b/laurelwood-brewing-co-portland-pale-project-piston-pale-ale/266253"
+url_hostname = "untappd.com"
+url_origin = "https://untappd.com"
 episodes = ["52"]
 
 [extra.episode_titles]

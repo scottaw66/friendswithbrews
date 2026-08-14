@@ -9,6 +9,8 @@ image = "WegmansEnglishBreakfastTea-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "A Robust Blend of Black Teas. Steep and enjoy! Allow us to share with you the most natural and authentic tea experience in your cup."
 brew_type = "tea"
 url = "https://shop.wegmans.com/product/46639/wegmans-just-tea-english-breakfast-black-tea-bags"
+url_hostname = "shop.wegmans.com"
+url_origin = "https://shop.wegmans.com"
 episodes = ["38", "55", "61", "63"]
 
 [extra.episode_titles]
