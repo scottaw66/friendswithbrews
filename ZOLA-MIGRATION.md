@@ -665,16 +665,34 @@ Each phase ends with a parity check against `dist-baseline/`.
       h2 margin rule needed explicit .latest/.edward selectors, not a
       child combinator.
 
-### Phase 7 — Search + Explore
-- [ ] Pagefind via `.venv` post-build; replicate PagefindConfig bootstrap as
-      a static script; **explicit `<link>` to `pagefind-component-ui.css`**.
-- [ ] All `data-pagefind-*` attributes carried into templates; verify filter
-      pane values (episode/transcript/beer/coffee/tea/water) match baseline.
-- [ ] Search autofocus script; `/404.html` search box.
-- [ ] `/explore/` template with the client script verbatim; decide the dev
-      proxy approach (Python shim in dev.sh vs prod-only).
-- [ ] Parity: run identical Pagefind against baseline and new dist, compare
-      unique-word counts and filter counts; exercise /explore against prod.
+### Phase 7 — Search + Explore ✅ 2026-08-14
+- [x] Pagefind via repo-local `.venv` (uv, `pagefind[extended]==1.5.2` —
+      pinned to the exact version astro-pagefind used), run against dist/
+      post-build. **The planned bootstrap replication was unnecessary**:
+      the pagefind CLI ships the identical component set (including
+      `<pagefind-config>`) at `/pagefind/pagefind-component-ui.js`, so the
+      search pages just load that + `pagefind-component-ui.css` — always
+      version-matched to the generated index (scottwillsey's route). The
+      156KB vendored bundle in migrate/reference/ stays as reference only.
+- [x] `search_component` Tera component (markup identical to Search.astro's
+      output); real /search/ template with the autofocus inline module
+      verbatim; search box added to /404.html; `.search-page` p rule +
+      explore CSS added to fwb.css.
+- [x] `/explore/`: markup ported from explore.astro, the COMPILED inline
+      module lifted verbatim from the baseline build (source was TS),
+      noindex/nofollow meta preserved. Dev proxy: decided prod-only — no
+      /api shim in dev.sh; /explore fully works only in production/preview.
+- [x] Parity: identical pagefind 1.5.2 run against dist/ and a baseline
+      copy — 463 pages both, words 44216 vs 44252 (0.08% delta = the
+      accepted transcript-45/alias divergences); **filter values and
+      counts IDENTICAL** (beer 127 / coffee 74 / episode 202 / tea 13 /
+      transcript 97 — no "water" value in either, matching the old
+      water-exclusion rule) and 4 test queries return identical result
+      counts. Visual: /explore and /404 pixel-identical (≤0.05%), /search
+      0.00% at desktop; the mobile screenshot showed an empty filter pane
+      on the new tree but that's a headless virtual-time race — a real
+      browser session at mobile width populates all 5 values (verified
+      via devtools).
 
 ### Phase 8 — Cutover
 - [ ] `migrate/postbuild.py`: strip `/explore/` from `sitemap.xml`

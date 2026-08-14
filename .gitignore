@@ -25,3 +25,6 @@ yarn-error.log*
 
 # macOS-specific files
 .DS_Store
+
+# python venv (pagefind post-build)
+.venv/

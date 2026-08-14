@@ -2,17 +2,17 @@
    /404.html automatically (Apache serves it via ErrorDocument).
    The episode/brew hrefs are kept byte-identical to the old site —
    "/episodes/1" (no trailing slash) and "brews/1" (relative, no leading
-   slash) — the latter is a pre-existing quirk, preserved for parity.
-   TODO(Phase 7): insert the Search component (pagefind-config bootstrap
-   + pagefind UI markup) between the h1 and the first paragraph. #}
+   slash) — the latter is a pre-existing quirk, preserved for parity. #}
 {% extends "base.html" %}
 {% block main_attrs %} class="notfound-page"{% endblock main_attrs %}
 {% block title %}404 not found - {{ config.title }}{% endblock title %}
 {% block metatitle %}404 not found - {{ config.title }}{% endblock metatitle %}
+{% block head_extra %}<link rel="stylesheet" href="/pagefind/pagefind-component-ui.css" />{% endblock head_extra %}
 {% block main %}
   <span data-pagefind-ignore>
     <article>
       <h1>404 not found</h1>
+      {{<search_component />}}
       <p>Sorry, the bottle you're looking for is empty or missing!</p>
       <div class="missing-image">
         {% set img = resize_image(path="src/assets/images/404/404-empty-bottle.jpg", width=300, op="fit_width", format="webp", quality=80) %}

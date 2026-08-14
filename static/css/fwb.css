@@ -1692,6 +1692,15 @@ div.reviews span.reviewer {
   font-size: 1em;
 }
 
+/* ---- search.astro (.search-page) — the scoped bare `p` only reached
+   the page's own closing paragraph, a direct child of article ---- */
+.search-page article > p {
+  text-align: center;
+  max-width: 50ch;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
 /* ---- 404.astro (.notfound-page) ---- */
 .notfound-page a {
   color: var(--menu-surface);
@@ -1705,6 +1714,213 @@ div.reviews span.reviewer {
 .notfound-page div.missing-image img {
   border-radius: 50%;
   border: solid 3px var(--menu-surface);
+}
+
+/* ---- explore.astro (.explore-page) — everything id-namespaced except
+   the bare h1/.chip, which scope under the page class ---- */
+.explore-page h1 {
+  text-align: center;
+}
+#explore-form {
+  display: flex;
+  gap: 0.75rem;
+  max-width: 44rem;
+  margin: 1rem auto 0;
+}
+#explore-input {
+  flex: 1;
+  height: 3.25rem;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  color: var(--text);
+  background-color: var(--surface);
+  border: 2px solid var(--menu-surface);
+  border-radius: 8px;
+}
+#explore-input:focus {
+  outline: 2px solid var(--menu-surface);
+  outline-offset: 1px;
+}
+#explore-form button {
+  height: 3.25rem;
+  padding: 0 1.5rem;
+  font-family: "CaptainEdward";
+  font-size: 1.4rem;
+  color: var(--pager-link-text);
+  background-color: var(--pager-bg);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#explore-form button:hover {
+  color: var(--header-surface);
+}
+#explore-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem auto;
+}
+.explore-page .chip {
+  font-size: 1rem;
+  padding: 0.35rem 0.9rem;
+  color: var(--text);
+  background-color: var(--surface);
+  border: 2px solid var(--menu-surface);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.explore-page .chip[aria-pressed="true"] {
+  background-color: var(--pager-bg);
+  color: var(--pager-link-text);
+  border-color: var(--pager-bg);
+}
+#explore-status {
+  text-align: center;
+  max-width: 50ch;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+}
+#explore-results {
+  list-style: none;
+  max-width: 44rem;
+  margin: 0 auto 3rem;
+  padding: 0;
+}
+#explore-hosts {
+  text-align: center;
+  font-size: 0.85rem;
+  margin: 0 auto 2rem;
+}
+#explore-hosts a {
+  color: var(--link-text);
+}
+@media only screen and (max-width: 899px) {
+  #explore-form {
+    flex-direction: column;
+  }
+}
+/* Result cards are created by the client script, so the old Astro build
+   kept these rules in an is:global block — moved over unchanged. */
+#explore-results .result {
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  background-color: var(--surface);
+  border: 2px solid var(--menu-surface);
+  border-radius: 8px;
+}
+#explore-results .result-title {
+  font-size: 1.4rem;
+  color: var(--episode-title);
+  text-decoration: none;
+}
+#explore-results .result-title:hover {
+  text-decoration: underline;
+}
+#explore-results .badge {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: bold;
+  vertical-align: middle;
+  padding: 0.1rem 0.6rem;
+  margin-right: 0.25rem;
+  color: var(--pager-link-text);
+  background-color: var(--pager-bg);
+  border-radius: 999px;
+}
+#explore-results .result-meta {
+  font-size: 0.95rem;
+  color: var(--link-text);
+  margin: 0.25rem 0 0.5rem;
+}
+#explore-results .result-snippet {
+  display: block;
+  margin: 0 0 0.6rem;
+  padding: 0.4rem 0.75rem;
+  color: var(--episode-text);
+  text-decoration: none;
+  border-left: 3px solid var(--menu-surface);
+}
+#explore-results .result-snippet:last-child {
+  margin-bottom: 0;
+}
+#explore-results a.result-snippet:hover {
+  border-left-color: var(--pager-bg);
+  background-color: color-mix(in srgb, var(--pager-bg) 8%, transparent);
+}
+#explore-results .passage-time {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: bold;
+  padding: 0 0.5rem;
+  color: var(--pager-link-text);
+  background-color: var(--pager-bg);
+  border-radius: 999px;
+}
+#explore-results .result .passage-tucked {
+  display: none;
+}
+#explore-results .result.show-passages .passage-tucked {
+  display: block;
+}
+#explore-results .result-more {
+  display: block;
+  margin: 0;
+  padding: 0.25rem 0.75rem;
+  font-family: "CaptainEdward";
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  color: var(--link-text);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+#explore-results .result-more::before {
+  content: "▸ ";
+}
+#explore-results .result-more[aria-expanded="true"]::before {
+  content: "▾ ";
+}
+#explore-results .result-more:hover {
+  color: var(--episode-title);
+}
+#explore-results .result.tucked {
+  display: none;
+}
+#explore-results.show-tucked .result.tucked {
+  display: block;
+}
+#explore-results .result-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1.5rem 0 1rem;
+}
+#explore-results .result-toggle::before,
+#explore-results .result-toggle::after {
+  content: "";
+  flex: 1;
+  border-top: 2px solid var(--menu-surface);
+}
+#explore-results .result-toggle button {
+  font-family: "CaptainEdward";
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+  color: var(--link-text);
+  background: none;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+}
+#explore-results .result-toggle button::before {
+  content: "▸ ";
+}
+#explore-results .result-toggle button[aria-expanded="true"]::before {
+  content: "▾ ";
+}
+#explore-results .result-toggle button:hover {
+  color: var(--episode-title);
 }
 
 /* ====================================================================

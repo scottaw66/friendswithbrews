@@ -1,8 +1,55 @@
-<!doctype html>
-<html lang="en">
-  <head><meta charset="utf-8" /><title>{{ page.title }}</title></head>
-  <body>
-    <!-- Phase 1 placeholder — real template arrives in Phase 2/3. -->
-    <h1>{{ page.title }}</h1>
-  </body>
-</html>
+{# /explore/ — semantic search (port of astro/src/pages/explore.astro).
+   The client script is the COMPILED inline module lifted verbatim from
+   the baseline build (the .astro source was TypeScript); it POSTs to
+   /api/search, which the production Apache vhost proxies to the search
+   service. There is no dev-loop proxy — /explore only fully works in
+   production/preview (decided Phase 7; Astro's Vite proxy had no Zola
+   equivalent worth building). noindex: soft launch — no nav link yet. #}
+{% extends "base.html" %}
+{% block main_attrs %} class="explore-page"{% endblock main_attrs %}
+{% block title %}Explore {{ config.title }}{% endblock title %}
+{% block metatitle %}Explore {{ config.title }}{% endblock metatitle %}
+{% block description %}Semantic search for Friends with Brews — find episodes, transcripts, brews, and shorts by meaning, not just keywords.{% endblock description %}
+{% block robots %}<meta name="robots" content="noindex, nofollow" />{% endblock robots %}
+{% block main %}
+  <span data-pagefind-ignore>
+    <article>
+      <h1>Explore {{ config.title }}</h1>
+
+      <form id="explore-form" role="search">
+        <input
+          id="explore-input"
+          type="search"
+          name="q"
+          placeholder="What are you looking for?"
+          autocomplete="off"
+          maxlength="500"
+          required
+        />
+        <button type="submit">Explore</button>
+      </form>
+
+      <div id="explore-filters" role="group" aria-label="Filter by type">
+        <button type="button" class="chip" data-type="" aria-pressed="true">All</button>
+        <button type="button" class="chip" data-type="episode" aria-pressed="false">Episodes</button>
+        <button type="button" class="chip" data-type="transcript" aria-pressed="false">Transcripts</button>
+        <button type="button" class="chip" data-type="brew" aria-pressed="false">Brews</button>
+        <button type="button" class="chip" data-type="short" aria-pressed="false">Shorts</button>
+      </div>
+
+      <p id="explore-status" class="intro">
+        Search by meaning — ask about a topic, a taste, a moment. Results come
+        from every episode, transcript, brew, and YouTube short.
+      </p>
+
+      <ol id="explore-results"></ol>
+
+      {# Host-only corner: the search service gates these to Scott's and
+         Peter's home IPs (or key); everyone else gets a friendly 403. #}
+      <p id="explore-hosts">
+        <a href="/api/guide">Hosts: agent access guides</a>
+      </p>
+    </article>
+  </span>
+  <script type="module">var e=document.getElementById(`explore-form`),t=document.getElementById(`explore-input`),n=document.getElementById(`explore-status`),r=document.getElementById(`explore-results`),i=[...document.querySelectorAll(`#explore-filters .chip`)],a=``,o=!1,s={transcript:`Transcript`,episode:`Episode`,brew:`Brew`,short:`Short`},c=1.1,l=3;function u(e,t,n){if(t.type===`short`)return null;let r=n.replace(/^[A-Za-z]+:\s*/,``).replace(/…$/,``).split(/\s+/).slice(0,8).join(` `);return r?`${e}#:~:text=${encodeURIComponent(r)}`:null}function d(e){let t=new Date(`${e}T00:00:00Z`);return Number.isNaN(t.valueOf())?e:t.toLocaleDateString(`en-GB`,{day:`2-digit`,month:`short`,year:`numeric`,timeZone:`UTC`})}function f(e){let t=document.createElement(`li`);t.className=`result`,t.title=`match score ${e.score}`;let n=document.createElement(`a`);if(n.className=`result-title`,n.href=e.url.replace(/^https?:\/\/(www\.)?friendswithbrews\.com/,``)||`/`,e.type===`short`){n.target=`_blank`,n.rel=`noopener`;let e=document.createElement(`span`);e.className=`badge`,e.textContent=`▶ Short`,n.append(e,` `)}n.append(e.title);let r=document.createElement(`div`);r.className=`result-meta`;let i=[];e.type===`short`?e.section===`notes`?i.push(`Show notes`):e.section===`transcript`&&i.push(`Transcript`):i.push(s[e.type]??e.type),e.episode!=null&&i.push(`Episode ${e.episode}`),e.published&&i.push(d(e.published)),e.matches&&i.push(`${e.matches} matching passages`),e.type===`short`&&i.push(`watch on YouTube`),r.textContent=i.join(` · `);let a=e.passages??[{snippet:e.snippet,...e.timestamp?{timestamp:e.timestamp}:{}}];t.append(n,r),a.forEach((r,i)=>{let a=u(n.getAttribute(`href`)??``,e,r.snippet),o=document.createElement(a?`a`:`p`);if(o.className=`result-snippet`,i>=l&&o.classList.add(`passage-tucked`),a&&(o.href=a),r.timestamp){let e=document.createElement(`span`);e.className=`passage-time`,e.textContent=r.timestamp,o.append(e,` `)}o.append(r.snippet),t.append(o)});let o=a.length-l;if(o>0){let e=document.createElement(`button`);e.type=`button`,e.className=`result-more`,e.setAttribute(`aria-expanded`,`false`);let n=`${o} more matching passage${o===1?``:`s`}`;e.textContent=n,e.addEventListener(`click`,()=>{let r=t.classList.toggle(`show-passages`);e.setAttribute(`aria-expanded`,String(r)),e.textContent=r?`show fewer passages`:n}),t.append(e)}return t}function p(e){r.replaceChildren(),r.classList.remove(`show-tucked`);let t=e.length?1/e[0].score-1:0,n=e.findIndex(e=>1/e.score-1>t*c);if(e.forEach((e,t)=>{let i=f(e);n!==-1&&t>=n&&i.classList.add(`tucked`),r.append(i)}),n!==-1){let t=e.length-n,i=document.createElement(`li`);i.className=`result-toggle`;let a=document.createElement(`button`);a.type=`button`,a.setAttribute(`aria-expanded`,`false`),a.textContent=`${t} less relevant result${t===1?``:`s`}`,a.addEventListener(`click`,()=>{let e=r.classList.toggle(`show-tucked`);a.setAttribute(`aria-expanded`,String(e))}),i.append(a),r.insertBefore(i,r.children[n])}}async function m(e){if(!o){o=!0,n.textContent=`Searching…`,n.className=``;try{let t=await fetch(`/api/search`,{method:`POST`,headers:{"Content-Type":`application/json`},body:JSON.stringify({query:e,k:50,...a?{type:a}:{}})});if(t.status===429){n.textContent=`Whoa, easy there — give it a second and try again.`;return}if(!t.ok)throw Error(`HTTP ${t.status}`);let{results:r}=await t.json();p(r),n.textContent=r.length?``:`Nothing brewed up for that one. Try different words?`;let i=new URLSearchParams({q:e});a&&i.set(`type`,a),history.replaceState(null,``,`?${i}`)}catch{n.textContent=`Search is having a moment. Try again in a bit.`}finally{o=!1}}}e.addEventListener(`submit`,e=>{e.preventDefault();let n=t.value.trim();n&&m(n)});for(let e of i)e.addEventListener(`click`,()=>{a=e.dataset.type??``;for(let t of i)t.setAttribute(`aria-pressed`,String(t===e));let n=t.value.trim();n&&m(n)});var h=new URLSearchParams(location.search),g=h.get(`q`)?.trim(),_=h.get(`type`)??``,v=i.find(e=>e.dataset.type===_);v&&_&&v.click(),g&&(t.value=g,v&&_||m(g)),t.focus();</script>
+{% endblock main %}

@@ -377,6 +377,28 @@
 </div>
 {% endcomponent transcript_list_item %}
 
+{# Search.astro — Pagefind composable UI (used by /search/ and /404.html).
+   The old build vendored astro-pagefind's 156KB PagefindConfig bundle;
+   the pagefind CLI ships the identical component set (including
+   <pagefind-config>) at /pagefind/pagefind-component-ui.js, so we load
+   that instead — always version-matched to the generated index (the
+   scottwillsey-proven route). Pages using this component must also link
+   /pagefind/pagefind-component-ui.css from head_extra. #}
+{% component search_component() %}
+<pagefind-config instance="fwb" bundle-path="/pagefind/"></pagefind-config>
+<script type="module" src="/pagefind/pagefind-component-ui.js"></script>
+<div class="search-component pagefind-ui">
+  <pagefind-input instance="fwb" placeholder="Search for anything…"></pagefind-input>
+  <div class="search-layout">
+    <pagefind-filter-pane instance="fwb" expanded="true" show-empty="true"></pagefind-filter-pane>
+    <div class="search-results-col">
+      <pagefind-summary instance="fwb"></pagefind-summary>
+      <pagefind-results instance="fwb" show-sub-results="true"></pagefind-results>
+    </div>
+  </div>
+</div>
+{% endcomponent search_component %}
+
 {# Reviews.astro — 3 random, non-repeating reviews, chosen at build time
    (same semantics as randomReviews(3); the homepage varies per build).
    Distinct-index math: b avoids a by modular offset; c is the k-th index
