@@ -754,16 +754,15 @@ end-to-end through the pipeline on a branch before the next real episode.**
    `descriptionRSS` (feed readers can't resolve them — they've been
    broken on the live feed all along). descriptionRSS lives in `src/`,
    so that one is a careful pipeline-format-preserving edit.
-1. **Backfill the 4 missing transcripts** (episodes **53, 97, 98, 99** — the
-   only gaps in 1–101). Send the episode audio (from
-   `pints.friendswithbrews.com` / the iCloud back catalog) to ElevenLabs,
-   then build and format the transcripts per the pipeline spec
-   (`Speaker: text` paragraphs, episode frontmatter minus `descriptionRSS`,
-   same shape `fwb-transcript/main.py` produces). Speaker labels come back
-   as "Speaker 1/2" — Scott verifies which is Scott and which is Peter
-   before publishing. Output lands in `src/content/transcripts/{53,97,98,99}.md`
-   and flows through the converter like any other transcript
-   (`has_transcript` flips automatically on the episode pages).
+1. ✅ **Transcripts 53/97/98/99 backfilled** (2026-08-14, before deploy):
+   `~/Scripts/Sites/fwb/fwb-backfill-transcripts.py` (new, reusable)
+   downloads the published MP3s, transcribes with Scribe v2 + keyterms
+   from the YT CORRECTIONS.md, maps diarized speakers (auto-detection +
+   evidence printout; ep 99 has waitress Kim as a third voice), and
+   writes the pages via fwb-transcript/main.py's own helpers. Speaker
+   mappings human-verified by Scott 2026-08-14; glossary review pass
+   fixed two "Friends with Bruce" openers. Transcript list grew to 6
+   pages; has_transcript flipped on all four episode pages.
 
 ## Open questions
 
