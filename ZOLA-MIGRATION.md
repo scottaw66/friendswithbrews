@@ -2,10 +2,13 @@
 
 ## ⏱ STATUS (updated 2026-08-14)
 
-**Phases 0–8 ALL DONE (2026-08-14). The migration is complete and
-final-parity-proven; the only remaining step is the production deploy
-(`./deploy.sh`), plus the post-cutover hardening below (including the
-fake-episode-102 pipeline rehearsal before the next real episode).**
+**MIGRATION COMPLETE AND DEPLOYED 2026-08-14.** All phases 0–8 done,
+final-parity-proven, and live on friendswithbrews.com (feed byte-identical
+to the parity-proven build; transcripts 53/97/98/99 backfilled pre-deploy).
+Remaining: merge `zola-migration` → main, the post-cutover hardening below
+(especially the fake-episode-102 pipeline rehearsal before the next real
+episode), re-run `fwb-index-embeddings` so the new transcripts are
+searchable in /explore, and the post-migration feed cleanups.
 
 - Branch: `zola-migration` (pushed). Companion pipeline changes are on
   `website-scripts` main (also pushed).
@@ -736,7 +739,9 @@ Each phase ends with a parity check against `dist-baseline/`.
       accepted sitemap rename + robots.txt), pages (known accepted set
       only), feed (0 mismatches), visual spot-check (episode 0.01%,
       brews list 0.09%, search 0.00%).
-- [ ] Deploy (`./deploy.sh`) — awaiting go-ahead.
+- [x] Deployed 2026-08-14 (`./deploy.sh`): all URLs verified live,
+      feed.xml md5-identical to the local build, 404 + immutable-cache
+      .htaccess rules confirmed in production, homepage visually checked.
 
 ### Post-cutover hardening (budget for it)
 scottwillsey needed ~9 follow-up commits once the site was used in anger
