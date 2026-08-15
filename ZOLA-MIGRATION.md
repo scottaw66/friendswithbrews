@@ -1,11 +1,11 @@
 # Friends with Brews → Zola Migration Plan
 
-## ⏱ STATUS (updated 2026-08-13)
+## ⏱ STATUS (updated 2026-08-14)
 
-**Phases 0–6 done. Next session starts at Phase 7 — search + explore
-(Pagefind via .venv post-build, PagefindConfig bootstrap, explore
-template + its is:global CSS; the /404 search box and the search page's
-tiny scoped block are also Phase 7).**
+**Phases 0–8 ALL DONE (2026-08-14). The migration is complete and
+final-parity-proven; the only remaining step is the production deploy
+(`./deploy.sh`), plus the post-cutover hardening below (including the
+fake-episode-102 pipeline rehearsal before the next real episode).**
 
 - Branch: `zola-migration` (pushed). Companion pipeline changes are on
   `website-scripts` main (also pushed).
@@ -19,27 +19,26 @@ tiny scoped block are also Phase 7).**
   rebuilds, and the W3C feed validator returns *identical* results for
   our feed and the live one (5 pre-existing quirks, see Phase 4 notes —
   post-cutover candidates, not regressions).
-- ⛔ Never run `npm run build` (it deploys). Astro is frozen under
-  `astro/` and no longer builds anyway (`src`/`static` moved).
-- Site state: every page except search/explore is real, images included
-  (`<picture>` webp+jpg variants, in-content episode images, /404 —
-  Phase 5, all parity-proven; structural sweep of every picture across
-  464 pages: 0 diffs). Full-site parity sweep (`parity.py pages`):
-  **zero text/link/image diffs everywhere** except the known set —
-  homepage (random reviews), `/search/` + `/explore/` (Phase 7
-  placeholders), `/transcripts/` (Zola's alias-redirect markup,
-  equivalent), and `/transcripts/45/` (accepted, see below). The site is
-  fully styled (Phase 6): `static/css/fwb.css` is the whole stylesheet,
-  and the headless-Chrome visual pass has every page type ≤0.3% pixel
-  diff vs baseline at 1280/800/390px except /404 (missing Phase 7
-  search UI) and the homepage (random reviews).
+- npm/Astro are GONE (Phase 8): `astro/`, node_modules, and the npm-era
+  lint configs are deleted; build/dev/preview/deploy are the four shell
+  scripts at the repo root. The old `npm run build` footgun no longer
+  exists.
+- Site state: EVERY page is real and parity-proven — content, images
+  (Phase 5: structural picture sweep over 464 pages, 0 diffs), CSS
+  (Phase 6: visual pass ≤0.3% everywhere), search + explore (Phase 7:
+  pagefind filters/queries identical to baseline). Final sweep after
+  cutover work (`parity.py pages`): only the known accepted set remains —
+  homepage (random reviews), `/transcripts/` (alias-redirect markup,
+  equivalent), `/transcripts/45/` (below). `parity.py urls`: only the
+  accepted sitemap rename (sitemap-0/-index.xml → sitemap.xml, plus
+  robots.txt gained). Feed: 0 field mismatches.
 - Accepted divergence: transcript 45's censored `f**_ing s_**` — remark
   parsed the markers as strong/em, pulldown-cmark leaves them as literal
   text (closer to the source). One page, cosmetic; revisit only if it
   bothers anyone.
-- Then: Phase 6 (CSS), 7 (search + explore), 8 (cutover).
-  Post-migration tasks section below (transcript backfill for eps
-  53/97/98/99).
+- Then: deploy, post-cutover hardening (fake-episode-102 rehearsal!),
+  and the post-migration tasks section below (transcript backfill for
+  eps 53/97/98/99).
 
 ---
 
@@ -694,40 +693,50 @@ Each phase ends with a parity check against `dist-baseline/`.
       browser session at mobile width populates all 5 values (verified
       via devtools).
 
-### Phase 8 — Cutover
-- [ ] `migrate/postbuild.py`: strip `/explore/` from `sitemap.xml`
-      (preserves the current sitemap filter).
-- [ ] Update `static/.htaccess`: keep 404 + cache rules; replace the
-      `^/_astro/` immutable rule with `^/processed_images/` (Zola's hashed
-      output); keep the `pf_*` rules.
-- [ ] `build.sh` (serve-guard → trash-mv dist → convert.py → zola build
-      --force → postbuild.py → pagefind), `dev.sh` (src/ poll loop,
-      `--extra-watch-path data`, cleanup traps, optional /api shim),
-      `preview.sh`, `deploy.sh` (build.sh + existing
-      `~/Scripts/Sites/fwb/deploy.sh` — the rsync side needs zero changes
-      since `output_dir = "dist"`).
-- [ ] Delete `astro/` (package.json, lockfile, node_modules, configs,
-      `scripts/check-overrides.mjs`, `.githooks/`), delete
-      `static/images/player/` orphans.
+### Phase 8 — Cutover ✅ 2026-08-14 (deploy pending)
+- [x] `migrate/postbuild.py`: strips the /explore/ `<url>` entry from
+      `sitemap.xml` (reported in its output line).
+- [x] `static/.htaccess`: 404 + cache rules kept; `^/_astro/` immutable
+      rule replaced with `^/processed_images/`; `pf_*` rules kept.
+- [x] `build.sh` (serve-guard → trash-mv dist → convert.py → zola build
+      --force → postbuild.py → pagefind — tested end-to-end), `dev.sh`
+      (src/ poll loop, `--extra-watch-path data`, cleanup traps; NO /api
+      shim — prod-only decided in Phase 7), `preview.sh`, `deploy.sh`
+      (build.sh + existing `~/Scripts/Sites/fwb/deploy.sh`, rsync side
+      unchanged).
+- [x] Deleted `astro/` (package.json, lockfile, configs,
+      check-overrides.mjs, githooks), root node_modules (4.8 GB),
+      `.eslintrc.js`/`.prettierrc.mjs`/`.prettierignore`, `.astro/` cache,
+      and the `static/images/player/` orphans.
 - [ ] Retire the pipeline's npm couplings (audited 2026-08-10, see the
       pipeline-contract section — the full list):
-      - Replace the `nanoid` shell-out in
-        `~/Scripts/Sites/fwb/fwb-new-episode/main.py` with inline Python
-        **before deleting `node_modules`**.
-      - Repoint the dashboard ship entry
-        (`~/Scripts/Sites/dashboard/config/fwb.yaml`) from `npm run build`
-        to this repo's `build.sh`/`deploy.sh`.
-      - Confirm the Phase-0 Retrobatch/`main.py` path edits took
-        (`static/images/brews`).
-      - Update pipeline docs (`FWB_WORKFLOW.md` key-paths table,
-        `FWB_VECTOR_SEARCH.md` "npm run build runs deploy.sh" note).
-- [ ] Verify the pipeline end-to-end after the above: it writes
+      - [x] `nanoid` shell-out replaced with inline Python (secrets,
+        same 21-char URL-safe alphabet). The binary was already absent
+        from PATH, so the shell-out was broken anyway.
+      - [x] Dashboard "Deploy Site" now runs the new wrapper
+        `~/Scripts/Sites/fwb/fwb-deploy-site.sh` → this repo's deploy.sh
+        (build+rsync, scottwillsey's deploy-site.sh pattern) instead of
+        raw-rsyncing a possibly-stale dist.
+      - [x] Retrobatch verified: path string is `static/images/brews`
+        (the lone "public/" match is a stale macOS bookmark blob, and
+        bookmarks track moved dirs anyway); stale comments in
+        fwb-create-episode.sh + fwb-new-episode/main.py updated, 8-bit
+        PNG constraint noted in the pipeline comments.
+      - [x] Docs updated (FWB_WORKFLOW.md key-paths row + Astro-build
+        mention, FWB_VECTOR_SEARCH.md deploy-chain note).
+- [ ] Verify the pipeline end-to-end after the above (the fake-episode-102
+      rehearsal in post-cutover hardening covers this): it writes
       `src/content/` + `src/data/`, dev.sh picks it up, build.sh publishes
-      it, `fwb-index-embeddings` still indexes (it reads `src/` directly,
-      never `dist/`, so it should be untouched — verify anyway).
-- [ ] README rewrite (Zola workflow, image constraints, "content/ and data/
-      are generated" warnings in `_index.md` comments).
-- [ ] Final parity sweep: full URL-set diff, feed diff, visual pass. Deploy.
+      it, `fwb-index-embeddings` still indexes (reads `src/` directly,
+      never `dist/` — untouched by the cutover).
+- [x] README rewritten (Zola workflow, script table, generated-tree
+      warnings, image constraints); the `_index.md` hand-maintained
+      comments were already in place.
+- [x] Final parity sweep from a clean `./build.sh`: URL diff (only the
+      accepted sitemap rename + robots.txt), pages (known accepted set
+      only), feed (0 mismatches), visual spot-check (episode 0.01%,
+      brews list 0.09%, search 0.00%).
+- [ ] Deploy (`./deploy.sh`) — awaiting go-ahead.
 
 ### Post-cutover hardening (budget for it)
 scottwillsey needed ~9 follow-up commits once the site was used in anger

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Post-build feed transforms — the Zola-era equivalent of the ultrahtml
+"""Post-build transforms — the Zola-era equivalent of the ultrahtml
 step in the old Astro feed.xml.js (ported from the scottwillsey.com
 migration's postbuild.py):
 
@@ -9,6 +9,8 @@ migration's postbuild.py):
   2. Drop <script>/<style> elements from item content (a no-op on current
      content — checked 2026-08-13 — but the old sanitize step did it, and
      future show notes shouldn't regress the feed).
+  3. Strip /explore/ from sitemap.xml — the page is noindex (soft launch)
+     and the old @astrojs/sitemap config filtered it the same way.
 
 <description> CDATA (descriptionRSS) is deliberately untouched: the Astro
 pipeline passed it verbatim too — only content:encoded went through
@@ -19,8 +21,6 @@ Operates on the XML-escaped text inside <content:encoded> directly
 unescaped/re-escaped.
 
 Run after `zola build`:  python3 migrate/postbuild.py
-
-Phase 8 will add the sitemap /explore/ strip here.
 """
 
 import re
@@ -45,6 +45,21 @@ def fix_content(m: re.Match) -> str:
     return m.group(1) + inner + m.group(3)
 
 
+def strip_explore_from_sitemap() -> int:
+    """Remove the /explore/ <url> entry (noindex soft launch — the old
+    @astrojs/sitemap config filtered it out too). Returns entries removed."""
+    sitemap = REPO / "dist" / "sitemap.xml"
+    if not sitemap.exists():
+        print(f"ERROR missing sitemap: {sitemap}")
+        return -1
+    xml = sitemap.read_text(encoding="utf-8")
+    fixed, n = re.subn(
+        r"<url>(?:(?!</url>).)*?<loc>[^<]*/explore/</loc>(?:(?!</url>).)*?</url>",
+        "", xml, flags=re.S)
+    sitemap.write_text(fixed, encoding="utf-8")
+    return n
+
+
 def main() -> int:
     if not FEED.exists():
         print(f"ERROR missing feed: {FEED}")
@@ -52,7 +67,11 @@ def main() -> int:
     xml = FEED.read_text(encoding="utf-8")
     fixed = CONTENT_RE.sub(fix_content, xml)
     FEED.write_text(fixed, encoding="utf-8")
-    print(f"postbuild.py: {fixed.count('<item>')} feed items processed")
+    stripped = strip_explore_from_sitemap()
+    if stripped < 0:
+        return 1
+    print(f"postbuild.py: {fixed.count('<item>')} feed items processed, "
+          f"{stripped} sitemap entry stripped")
     return 0
 
 
