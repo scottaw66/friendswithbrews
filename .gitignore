@@ -28,4 +28,5 @@ yarn-error.log*
 
 # python venv (pagefind post-build)
 .venv/
+__pycache__/
 .dist-trash-*/

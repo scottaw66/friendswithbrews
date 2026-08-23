@@ -4,11 +4,21 @@
 
 **_"Two friends, two brews, one podcast, many topics."_**
 
-All content &copy; 2023 by Scott Willsey
+All content &copy; 2021&ndash;2026 by Friends with Brews
 
 Pour a cold one (or two) or a hot one (or two) and enjoy!!!
 
 [🌎](https://friendswithbrews.com) ・ [🐘](https://appdot.net/@friendswbrews) ・ [🍻](https://friendswithbrews.com/brews/)
+
+## License
+
+Split license — see [LICENSE](LICENSE) for the exact boundaries:
+
+- **Code** (templates, build scripts, `migrate/` tooling, site CSS/JS): MIT.
+- **Content** (episodes, transcripts, show notes, artwork, brew photos, and
+  the episode/brew data files): &copy; Friends with Brews, **all rights
+  reserved**. It's in the repo because the site is built from it, not as an
+  invitation to republish it or train on it.
 
 ## How this site is built
 
