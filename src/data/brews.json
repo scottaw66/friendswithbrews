@@ -1,10 +1,70 @@
 [
     {
+        "id": "usJL8lt94kge_hPT8eaV7",
+        "name": "Major Dickason's Blend",
+        "brewery": "Peet's Coffee",
+        "image": "PEETSCOFFEEMajorDickasonSBlend20260913",
+        "description": "Conceived by one of the first Peetniks and refined by Mr. Peet, this premier blend is our all-time bestseller. A smooth and balanced dark roast that epitomizes Peet's. Subscribers always get free shipping and up to 10% off all orders!",
+        "type": "coffee",
+        "sortOrder": "0",
+        "episodes": [
+            "103"
+        ],
+        "url": "https://www.peets.com/products/major-dickasons",
+        "rating": [
+            {
+                "host": "Peter",
+                "vote": "thumbs-up",
+                "description": "A good, solid dark roast and a go-to for me: if I'm in a chain grocery store and don't see something more eclectic, I can always fall back to this. With a teaspoon of half-and-half. This is a repeat."
+            }
+        ]
+    },
+    {
+        "id": "ezTH5B8NunDyo-Fvr8tSa",
+        "name": "Junco",
+        "brewery": "Trailhead Coffee Roasters",
+        "image": "TRAILHEADCOFFEEROASTERSJunco20260913",
+        "description": "Colombian coffee that tastes like a rich chocolate brownie. Deep medium roast, syrupy body, no bitterness. Rock solid in every brew method. Trailhead Portland.",
+        "type": "coffee",
+        "sortOrder": "0",
+        "episodes": [
+            "103"
+        ],
+        "url": "https://www.trailheadcoffeeroasters.com/coffee-shop/p/junco",
+        "rating": [
+            {
+                "host": "Scott",
+                "vote": "thumbs-up",
+                "description": "Notes of chocolate brownie, Colombian, medium, printed in the smallest blue text on a blue background. Maybe I'm in a suggestible mood, but I do taste the chocolate brownie. I like Trailhead."
+            }
+        ]
+    },
+    {
+        "id": "YisHTDSqMgm9JLNOxEhsb",
+        "name": "Dark & Gourdy",
+        "brewery": "Athletic Brewing Co.",
+        "image": "ATHLETICBREWINGCODarkGourdy20260913",
+        "description": "Dark &amp; Gourdy is a festive brew brimming with fall\u2019s favorite flavors. Inspired by porters, it puts the spice rack center stage\u2014cinnamon, nutmeg, and ginger, weaving through smooth dark malt, with pumpkin adding gentle sweetness and balance. Rich yet easygoing, it\u2019s a seasonal classic as versatile as your favorite",
+        "type": "beer",
+        "sortOrder": "0",
+        "episodes": [
+            "103"
+        ],
+        "url": "https://athleticbrewing.com/products/dark-gourdy",
+        "rating": [
+            {
+                "host": "Peter",
+                "vote": "thumbs-up",
+                "description": "Tasting better than the first one I had a few days ago, maybe because it's a tiny bit warmer, and now that I know it's inspired by porters it probably should be drunk a little warmer. It's a touch watery, but for a non-alcoholic beer it tastes pretty good."
+            }
+        ]
+    },
+    {
         "id": "owLrDOiVwwsP3WRdq4RS-",
         "name": "Organic French Roast Decaf",
         "brewery": "Trader Joe's",
         "image": "TRADERJOESOrganicFrenchRoastDecaf20260815",
-        "description": "Our new French Roast is nothing if not buzz-worthy. It’s made with a blend of 100% Arabica beans from Peru and Brazil, which, when made into drip, pour-over, or even cold brew coffee, creates a rich, robust cup with notes of cacao, baking spice, and toasted pecans.",
+        "description": "Our new French Roast is nothing if not buzz-worthy. It\u2019s made with a blend of 100% Arabica beans from Peru and Brazil, which, when made into drip, pour-over, or even cold brew coffee, creates a rich, robust cup with notes of cacao, baking spice, and toasted pecans.",
         "type": "coffee",
         "sortOrder": "0",
         "episodes": [
