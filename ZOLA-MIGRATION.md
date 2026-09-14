@@ -105,7 +105,7 @@ apply — Tera v2 components, no shortcodes, content files are Tera templates).
 | `src/content/srt/*.srt` | 44 | **Not converted, but NOT orphaned** — the vector-search indexer (`~/Scripts/Sites/fwb/indexer/lib.js`) reads them for transcript cue timings. Stays in `src/content/srt/` untouched, permanently. |
 | `src/data/site.json` | 1 | `zola.toml` `[extra]` (near 1:1 mapping) |
 | `src/data/brews.json` | 215 brews | `data/brews.json` via converter (copied/normalized), consumed with `load_data()` |
-| `src/data/reviews.json` | 24 | `data/reviews.json`, consumed with `load_data()` + `get_random()` |
+| `src/data/reviews.json` | 31 | `data/reviews.json`, consumed with `load_data()` + `get_random()` for the no-JS fallback trio; the full list is also inlined as JSON and an inline script re-picks three on every page load (2026-09-13) |
 
 Episode frontmatter fields: `title`, `description`, `descriptionRSS`
 (**multi-line quoted raw HTML with escaped quotes — the gnarliest conversion

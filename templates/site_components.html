@@ -399,8 +399,13 @@
 </div>
 {% endcomponent search_component %}
 
-{# Reviews.astro — 3 random, non-repeating reviews, chosen at build time
-   (same semantics as randomReviews(3); the homepage varies per build).
+{# Reviews.astro — 3 random, non-repeating reviews. Chosen at build time
+   here (same semantics as randomReviews(3)), then RE-PICKED IN THE BROWSER
+   on every page load (Scott, 2026-09-13: the build-time trio only rotated
+   on deploy). The whole list rides along inline as JSON (~7 KB) so there is
+   no runtime fetch and reviews.json needs no deploy copy; the inline script
+   runs synchronously right after the markup, so the swap lands before first
+   paint. With JS off the build-time trio simply stays.
    Distinct-index math: b avoids a by modular offset; c is the k-th index
    of the remaining set, materialized by skipping past lo and hi. #}
 {% component reviews() %}
@@ -420,5 +425,27 @@
       <span class="reviewer">{{ review.reviewer }}</span>
     </blockquote>
   {% endfor %}
+  {# "</" → "<\/" so a review containing "</script>" can't end the block early. #}
+  <script type="application/json" id="reviews-data">{{ items | json_encode() | replace(from="</", to="<\/") | safe }}</script>
+  <script>
+    (function () {
+      var data = document.getElementById("reviews-data");
+      var box = data && data.parentNode;
+      var quotes = box ? box.querySelectorAll("blockquote") : [];
+      var items;
+      try { items = JSON.parse(data.textContent); } catch (e) { return; }
+      if (!items || items.length < quotes.length) return;
+      var picked = [];
+      while (picked.length < quotes.length) {
+        var i = Math.floor(Math.random() * items.length);
+        if (picked.indexOf(i) === -1) picked.push(i);
+      }
+      for (var k = 0; k < quotes.length; k++) {
+        var r = items[picked[k]];
+        quotes[k].querySelector(".review").textContent = r.review;
+        quotes[k].querySelector(".reviewer").textContent = r.reviewer;
+      }
+    })();
+  </script>
 </div>
 {% endcomponent reviews %}
