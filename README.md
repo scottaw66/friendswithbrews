@@ -8,7 +8,7 @@ All content &copy; 2021&ndash;2026 by Friends with Brews
 
 Pour a cold one (or two) or a hot one (or two) and enjoy!!!
 
-[🌎](https://friendswithbrews.com) ・ [🐘](https://appdot.net/@friendswbrews) ・ [🍻](https://friendswithbrews.com/brews/)
+[🌎](https://friendswithbrews.com) ・ [🍻](https://friendswithbrews.com/brews/)
 
 ## License
 

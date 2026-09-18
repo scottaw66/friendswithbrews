@@ -51,7 +51,5 @@ brews_paginate_by = 12
 
 [extra.social]
 youtube = "https://www.youtube.com/@FriendswithBrewsPodcast"
-mastodon = "https://appdot.net/@friendswbrews"
-mastodon_name = "FriendswBrews"
 overcast = "https://overcast.fm/itunes1573648053/friends-with-brews-podcast"
 apple_podcasts = "https://podcasts.apple.com/us/podcast/friends-with-brews-podcast/id1573648053"
