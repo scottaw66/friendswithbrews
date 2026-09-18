@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="240" viewBox="0 0 320 240" role="img" aria-label="Friends with Brews"><title>Friends with Brews</title><g transform="translate(22 9) scale(1)">
+ <g transform="rotate(10 88 112)" fill="#F5EDD9">
+ <path d="M40 78H27C1 78 1 126 27 126H40" fill="none" stroke="#F5EDD9" stroke-width="14"/>
+ <path fill-rule="evenodd" d="M39 57Q39 48 48 48H117Q126 48 126 57V139Q126 154 111 154H106V174L82 154H54Q39 154 39 139ZM53 65V76H112V65Z"/>
+ </g>
+ <g transform="rotate(-10 186 112)" fill="#D99658">
+ <path d="M235 78H248C274 78 274 126 248 126H235" fill="none" stroke="#D99658" stroke-width="14"/>
+ <path fill-rule="evenodd" d="M148 57Q148 48 157 48H226Q235 48 235 57V139Q235 154 220 154H192L168 174V154H163Q148 154 148 139ZM162 65V76H221V65Z"/>
+ </g></g></svg>

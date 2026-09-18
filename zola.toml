@@ -41,7 +41,10 @@ author = "Beeping Machine"
 email = "scott@beepingmachine.com"
 tagline = "Two friends, two brews, many topics"
 audio_prefix = "https://pints.friendswithbrews.com/"
-rss_image = "FwBrews3000.png"
+# Feed/directory artwork: the 2026-09-18 brand-kit cover (3000×3000,
+# exports/podcast-cover-3000.png). The pre-refresh FwBrews3000.png is still
+# in static/images/ for now — see the rebrand commit message.
+rss_image = "podcast-cover-3000.png"
 episodes_paginate_by = 5
 transcripts_paginate_by = 20
 brews_paginate_by = 12

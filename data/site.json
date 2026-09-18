@@ -23,7 +23,7 @@
   "rss": {
     "path": "/",
     "fileName": "feed.xml",
-    "image": "FwBrews3000.png"
+    "image": "podcast-cover-3000.png"
   },
   "beerPageSize": 12
 }

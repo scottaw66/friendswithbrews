@@ -15,8 +15,15 @@
     <meta name="description" content="{% block description %}{% endblock description %}" />
     {% block robots %}{% endblock robots %}
     <meta name="view-transition" content="same-origin" />
+    {# Icons from the 2026-09-18 brand kit (mugs on tea). The .ico is the
+       16/32/48 fallback; the SVG wins in browsers that support it. #}
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="preload" href="/fonts/CaptainEdward-Bold.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="icon" type="image/svg+xml" href="/images/brand/icon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#263d34" />
+    <link rel="preload" href="/fonts/Clauthbound-Bold.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="alternate" type="application/rss+xml" title="Friends with Brews" href="https://friendswithbrews.com/feed.xml" />
     <!-- Mastodon profile verification for both hosts (Edit profile → Verification) -->
     <link rel="me" href="https://mastodon.social/@scottaw" />

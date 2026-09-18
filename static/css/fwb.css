@@ -24,8 +24,10 @@
    Search + explore styles arrive in Phase 7. */
 
 /* ====================================================================
-   1. Fonts (vendored @fontsource; CaptainEdward's face is declared in
-      the global styles section below, same as the old fwb.css)
+   1. Fonts (vendored @fontsource; the SimpleBits brand faces —
+      Clauthbound and Ships Whistle, brand refresh 2026-09-18 — are
+      declared in the global styles section below, where CaptainEdward
+      used to be)
    ==================================================================== */
 /* be-vietnam-pro-vietnamese-400-normal */
 @font-face {
@@ -516,31 +518,79 @@ html {
 }
 
 :root {
-  --surface: #f5e4bb;
-  --text: black;
-  --header-surface: #ecc979;
-  --header-text: black;
-  --menu-surface: #c9ab67;
-  --menu-border: #0d0a01;
-  --menu-text: black;
-  --link-text: #5b3e34;
-  --episode-title: #5b3e34;
-  --episode-text: black;
-  --episode-latest-bg: var(--menu-surface);
-  --brew-bg: #b49664;
-  --pager: #fff;
-  --pager-bg: #0d0a01;
-  --pager-link-text: #f5e4bb;
-  --progress-value: #0d0a01;
+  /* Brand palette (2026-09-18 refresh, ../fwb-brand-refresh/README.md):
+     tea / toast / cream / light amber are the artwork colors. The README
+     warns they're "not a recommendation for small interface text", so two
+     derived shades exist for UI use — measured 2026-09-18 against cream:
+       toast      #B96B37  3.45:1  (large text / borders only)
+       toast-deep #96501F  5.20:1  (body-size links — passes AA)
+       tea        #263D34 10.0:1
+       tea-deep   #1C2E27  — nav/footer bar, one step darker than the header
+     and light amber on tea-deep is 5.75:1 (pager/explore links on dark). */
+  --tea: #263d34;
+  --tea-deep: #1c2e27;
+  --toast: #b96b37;
+  --toast-deep: #96501f;
+  --cream: #f5edd9;
+  --amber: #d99658;
+
+  /* Semantic tokens (names kept from the pre-refresh stylesheet so the
+     component rules below didn't need to change; only the values moved). */
+  --surface: var(--cream);
+  --text: var(--tea);
+  --header-surface: var(--tea);
+  --header-text: var(--cream);
+  --menu-surface: var(--tea-deep);
+  --menu-border: var(--tea);
+  --menu-text: var(--cream);
+  --link-text: var(--toast-deep);
+  --accent: var(--toast-deep); /* episode numbers, 404 links — was gold */
+  --episode-title: var(--toast-deep);
+  --episode-text: var(--tea);
+  --pager: var(--cream);
+  --pager-bg: var(--tea);
+  --pager-link-text: var(--amber);
 
   /* Pagefind v2 search is themed via --pf-* props scoped to the
      .search-component.pagefind-ui wrapper below (not :root). */
 }
 
+/* Brand type (SimpleBits, licensed; woff2 copied from the show's font
+   collection). Clauthbound is unicase — every letter renders as a capital,
+   and it has no "•" glyph, so the bullet in episode titles falls back to
+   Be Vietnam Pro. Ships Whistle carries the tagline and small labels. */
 @font-face {
-  font-family: "CaptainEdward";
-  src: url("/fonts/CaptainEdward-Bold.woff2") format("woff2");
-  font-weight: bold;
+  font-family: "Clauthbound";
+  src: url("/fonts/Clauthbound-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Clauthbound";
+  src: url("/fonts/Clauthbound-Semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Clauthbound";
+  src: url("/fonts/Clauthbound-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ships Whistle";
+  src: url("/fonts/ShipsWhistle-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ships Whistle";
+  src: url("/fonts/ShipsWhistle-Bold.woff2") format("woff2");
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
@@ -605,19 +655,19 @@ main {
 }
 
 h1 {
-  font-family: "CaptainEdward";
-  font-weight: 900;
+  font-family: "Clauthbound";
+  font-weight: 700;
   font-size: 3.5rem;
 }
 
 h2 {
-  font-family: "CaptainEdward";
-  font-weight: 900;
+  font-family: "Clauthbound";
+  font-weight: 700;
   font-size: 2.3rem;
 }
 h3 {
-  font-family: "CaptainEdward";
-  font-weight: 700;
+  font-family: "Clauthbound";
+  font-weight: 600;
   font-size: 1.2rem;
 }
 
@@ -702,15 +752,15 @@ div.episode p img {
   --pf-text: var(--text); /* dark body text */
   --pf-text-secondary: var(--link-text);
   --pf-text-muted: var(--link-text);
-  --pf-border: var(--menu-surface); /* gold borders */
-  --pf-border-focus: var(--menu-surface);
+  --pf-border: var(--menu-border); /* tea borders */
+  --pf-border-focus: var(--toast);
   --pf-border-radius: 8px;
   --pf-input-height: 3.25rem;
   --pf-input-font-size: 1.5rem;
   --pf-hover: rgba(13, 10, 1, 0.06); /* subtle dark tint on hover */
   --pf-result-title-font-size: 1.6rem;
   --pf-result-excerpt-font-size: 1.05rem;
-  --pf-outline-focus: var(--menu-surface); /* gold focus ring, not blue */
+  --pf-outline-focus: var(--toast); /* toast focus ring, not blue */
   --pf-mark: var(--text); /* highlighted match text */
 }
 /* Dark input bar: scope the relevant --pf-* tokens to just the input subtree
@@ -718,19 +768,32 @@ div.episode p img {
    component CSS's baked-in (3,1,0) defensive specificity. --pf-text-muted is
    the search-icon + placeholder color. */
 .search-component.pagefind-ui pagefind-input {
-  --pf-background: var(--menu-border);
-  --pf-text: #fff;
-  --pf-text-muted: rgba(255, 255, 255, 0.75);
+  --pf-background: var(--tea);
+  --pf-text: var(--cream);
+  --pf-text-muted: rgba(245, 237, 217, 0.75);
 }
 /* Multi-line wrapping excerpts (component default is single-line ellipsis).
    !important is required to beat the component's (3,1,0) defensive rules. */
 .search-component.pagefind-ui .pf-result-excerpt {
   white-space: normal !important;
 }
-/* Restore a gold highlight on matched terms */
+/* The filter pane's background is hard-coded #eee in the component CSS
+   (measured 2026-09-18: rgb(238,238,238), not a --pf-* token), which read
+   as a grey box on the cream page — force it onto the page surface. */
+.search-component.pagefind-ui .pf-filter-pane {
+  background-color: var(--surface) !important;
+}
+/* With show-empty="true" the pane renders before any filters exist (and
+   on /404.html never gets them), leaving a bare bordered box — hide it
+   until it has content. */
+.search-component.pagefind-ui .pf-filter-pane:empty {
+  display: none !important;
+}
+/* Light-amber highlight on matched terms (--header-surface is now tea,
+   the same as the text, so it can't be the mark background any more) */
 .search-component.pagefind-ui mark {
-  background-color: var(--header-surface) !important;
-  color: var(--text) !important;
+  background-color: var(--amber) !important;
+  color: var(--tea) !important;
 }
 
 [data-icon="bi:hand-thumbs-up-fill"] {
@@ -751,7 +814,9 @@ div.episode p img {
    4. Flattened component styles
    ==================================================================== */
 
-/* ---- Header.astro ---- */
+/* ---- Header (brand refresh 2026-09-18: the old title-text + old-logo
+   + tagline row is now the horizontal reverse logo lockup over the tagline,
+   on tea, mirroring the YouTube channel banner) ---- */
 header {
   width: 100%;
   background-color: var(--header-surface);
@@ -768,46 +833,33 @@ div#menu-link-div {
 }
 header [data-icon] {
   font-size: 3rem;
-  color: var(--link-text);
+  color: var(--header-text);
 }
 div.banner {
-  width: 100%;
-  margin: 0 auto 1rem;
   display: flex;
-  gap: 4rem;
-  align-items: center;
-  justify-content: center;
-  color: var(--header-text);
-}
-div.site-title {
-  display: flex;
-  width: fit-content;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  text-align: center;
-  margin: 2rem 0 1rem 2rem;
-  font-family: "CaptainEdward";
-  font-weight: 900;
-  line-height: clamp(1rem, 1vw + 2.2rem, 6rem);
-}
-div.title1 {
-  font-size: clamp(1.5rem, calc(2vw + 2.5rem), 4.5rem);
-}
-div.title2 {
-  font-size: clamp(1rem, calc(2vw + 1rem), 2.7rem);
-}
-div.site-title a {
-  text-decoration: none;
+  justify-content: center;
+  padding: 1.5rem 1rem 1.25rem;
   color: var(--header-text);
 }
-.header-image {
-  height: 10rem;
-  margin: 1rem 0 -0.25rem;
+a.site-logo {
+  display: block;
+  line-height: 0;
+}
+/* The SVG is 800×270 with the kit's own clear space baked in; never
+   narrower than the kit's 240 px minimum for the horizontal lockup. */
+a.site-logo img {
+  width: clamp(240px, 40vw, 500px);
+  height: auto;
 }
 div.site-tagline {
-  max-width: 350px;
+  font-family: "Ships Whistle";
+  font-size: clamp(0.95rem, 0.5rem + 1.3vw, 1.55rem);
+  letter-spacing: 0.05em;
   text-transform: uppercase;
+  text-align: center;
+  margin-top: -0.35rem;
 }
 /* don't display the menu icon if the screen is wide enough */
 @media screen and (min-width: 899px) {
@@ -818,64 +870,23 @@ div.site-tagline {
 }
 @media only screen and (max-width: 899px) {
   header {
-    border-bottom: solid 5px var(--menu-border);
-  }
-}
-@media screen and (max-width: 850px) {
-  div.banner {
-    gap: 1.5rem;
-  }
-  div.site-tagline {
-    font-size: 0.75rem;
-  }
-}
-@media screen and (max-width: 795px) {
-  div.banner {
-    gap: 1rem;
-  }
-  .header-image {
-    height: 6rem;
-    margin: 0.75rem 0;
+    border-bottom: solid 5px var(--toast);
   }
 }
 @media screen and (max-width: 680px) {
   header [data-icon] {
     font-size: 1.75rem;
   }
-  div.site-title {
-    margin: 1rem 0;
-  }
-  div.site-tagline {
-    max-width: 300px;
-    margin-right: 1rem;
-  }
-  .header-image {
-    margin: -0.2rem 0 0;
+  div.banner {
+    padding: 1.25rem 3rem 1rem 1rem; /* right padding clears the menu icon */
   }
 }
 @media screen and (max-width: 500px) {
-  div.banner {
-    margin: 0;
+  a.site-logo img {
+    width: min(70vw, 260px);
   }
   div.site-tagline {
-    display: none;
-  }
-  .header-image {
-    height: 4.5rem;
-  }
-}
-@media screen and (max-width: 350px) {
-  .header-image {
-    padding-top: 0.5rem;
-  }
-  div.site-title {
-    line-height: normal;
-  }
-  div.title1 {
-    font-size: 1.5rem;
-  }
-  div.title2 {
-    font-size: 1rem;
+    letter-spacing: 0.03em;
   }
 }
 
@@ -885,17 +896,22 @@ div.nav-container {
   width: 100%;
   margin: 0 auto;
   background-color: var(--menu-surface);
-  border-bottom: solid 5px var(--menu-border);
+  border-bottom: solid 5px var(--toast);
   grid-area: menu;
 }
 .nav-container nav {
   margin: 0 auto;
-  font-family: "CaptainEdward";
+  font-family: "Clauthbound";
+  font-weight: 600;
   font-size: 1.5rem;
+  letter-spacing: 0.02em;
 }
 .nav-container nav ul {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  /* auto columns, not 1fr: Clauthbound is wider than CaptainEdward was and
+     "THE FRIENDS" wrapped onto two lines in equal sevenths at 1280 px */
+  grid-template-columns: repeat(7, auto);
+  justify-content: center;
   justify-items: center;
   align-items: center;
   list-style: none;
@@ -903,15 +919,19 @@ div.nav-container {
   padding: 0;
   gap: 1rem;
 }
+/* Out-specifies the global `ul li a` link color, which is a toast shade
+   meant for cream backgrounds, not this dark bar. */
 .nav-container nav ul li a {
   display: block;
   text-decoration: none;
+  white-space: nowrap;
   padding: 1rem;
+  color: var(--menu-text);
 }
 .nav-container nav ul li a:hover {
   text-decoration: none;
-  background-color: var(--menu-border);
-  color: var(--header-surface);
+  background-color: var(--toast);
+  color: var(--cream);
 }
 .nav-container nav ul li:first-child {
   padding-left: 2rem;
@@ -938,6 +958,11 @@ div.nav-container {
   .nav-container nav ul li a {
     padding: 0;
   }
+  /* no block background when the links sit loose in the column */
+  .nav-container nav ul li a:hover {
+    background-color: transparent;
+    color: var(--amber);
+  }
 }
 @media only screen and (max-width: 599px) {
   .nav-container nav ul {
@@ -954,7 +979,7 @@ div.nav-container {
   width: 100%;
   margin: 0 auto;
   padding: 0.5rem 0;
-  border-top: 3px solid var(--menu-border);
+  border-top: 3px solid var(--toast);
   font-size: 1rem;
   background-color: var(--menu-surface);
   color: var(--menu-text);
@@ -997,7 +1022,7 @@ div.episode [data-icon="fontisto:podcast"] {
   margin: 0 0.5rem -0.1em 0;
 }
 div.episode span.episode-number {
-  color: var(--menu-surface);
+  color: var(--accent);
 }
 h2.episode-title {
   font-size: 2.7rem;
@@ -1055,7 +1080,7 @@ div.elv [data-icon="fontisto:podcast"] {
   margin: 0 0.5rem 0 0;
 }
 div.elv span.episode-number {
-  color: var(--menu-surface);
+  color: var(--accent);
 }
 div.elv .episode-date {
   display: flex;
@@ -1703,7 +1728,7 @@ div.reviews span.reviewer {
 
 /* ---- 404.astro (.notfound-page) ---- */
 .notfound-page a {
-  color: var(--menu-surface);
+  color: var(--accent);
   font-weight: bolder;
 }
 .notfound-page div.missing-image {
@@ -1713,7 +1738,7 @@ div.reviews span.reviewer {
 }
 .notfound-page div.missing-image img {
   border-radius: 50%;
-  border: solid 3px var(--menu-surface);
+  border: solid 3px var(--accent);
 }
 
 /* ---- explore.astro (.explore-page) — everything id-namespaced except
@@ -1744,7 +1769,7 @@ div.reviews span.reviewer {
 #explore-form button {
   height: 3.25rem;
   padding: 0 1.5rem;
-  font-family: "CaptainEdward";
+  font-family: "Clauthbound";
   font-size: 1.4rem;
   color: var(--pager-link-text);
   background-color: var(--pager-bg);
@@ -1753,7 +1778,7 @@ div.reviews span.reviewer {
   cursor: pointer;
 }
 #explore-form button:hover {
-  color: var(--header-surface);
+  color: var(--cream);
 }
 #explore-filters {
   display: flex;
@@ -1868,7 +1893,7 @@ div.reviews span.reviewer {
   display: block;
   margin: 0;
   padding: 0.25rem 0.75rem;
-  font-family: "CaptainEdward";
+  font-family: "Clauthbound";
   font-size: 1rem;
   letter-spacing: 0.05em;
   color: var(--link-text);
@@ -1904,7 +1929,7 @@ div.reviews span.reviewer {
   border-top: 2px solid var(--menu-surface);
 }
 #explore-results .result-toggle button {
-  font-family: "CaptainEdward";
+  font-family: "Clauthbound";
   font-size: 1.1rem;
   letter-spacing: 0.05em;
   color: var(--link-text);

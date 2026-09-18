@@ -1,18 +1,15 @@
-{# Port of Header.astro. Its astro:assets logo import was dead code — the
-   rendered markup used the plain static SVG, kept here. #}
+{# Site header. Brand refresh 2026-09-18: the old three-part banner (title
+   text in CaptainEdward + the 2021 mug-ring SVG + tagline) is replaced by
+   the kit's horizontal reverse lockup (cream + light amber, for tea
+   backgrounds) over the tagline in Ships Whistle — the same composition as
+   the YouTube channel banner. The SVG lettering is outlined paths, so the
+   logo needs no web font. Sizing lives in the Header block of fwb.css. #}
 <header>
   <div id="menu-link-div" class="menu-link">
     <a href="#main-nav">{{<icon_fluent_list_28_filled id="menu-icon" />}}</a>
   </div>
   <div class="banner" role="banner">
-    <div class="site-title">
-      <div class="title1"><a href="/">Friends</a></div><div class="title2">
-        <a href="/">With Brews</a>
-      </div>
-    </div>
-    <div class="site-image">
-      <a href="/"><img class="header-image" src="/images/FwBrews-site-header.svg" alt="Friends with Brews" /></a>
-    </div>
+    <a class="site-logo" href="/"><img src="/images/brand/logo-horizontal-reverse.svg" alt="Friends with Brews" width="800" height="270" /></a>
     <div class="site-tagline">{{ config.extra.tagline }}</div>
   </div>
 </header>
