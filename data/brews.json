@@ -1,5 +1,25 @@
 [
     {
+        "id": "zWIO3bBqQAA-2BCbscBT2",
+        "name": "Araponga",
+        "brewery": "Coava Coffee Roasters",
+        "image": "COAVACOFFEEROASTERSAraponga20260919",
+        "description": "Select roast profile (Drip or Espresso) based on your brew method.\nThe Araponga micro-region sits at a high elevation in the state of Minas Gerais, spanning a range of microclimates that make it an ideal environment for specialty coffee to thrive. Local quality-focused programs centered on farmer education, improved processing techniques, and fermentation experimentation began in 2014, and has since grown a network of some 200 producers in the region.\nThis offering brings together lots from four distinct farms - Morro dos Padeiros, \u00c9dio Miranda, Serra do Bon\u00e9, and Casa Nova - all of whom have stood out for their pursuit of quality and dedication to their craft.\nIn the cup, look for notes of apricot, wildflower honey, and fudge.",
+        "type": "coffee",
+        "sortOrder": "0",
+        "episodes": [
+            "104"
+        ],
+        "url": "https://shop.coavacoffee.com/collections/coffee/products/araponga",
+        "rating": [
+            {
+                "host": "Scott",
+                "vote": "thumbs-up",
+                "description": "I get a little chocolate, and it is good and not bitter. A very good, non-offensive coffee."
+            }
+        ]
+    },
+    {
         "id": "usJL8lt94kge_hPT8eaV7",
         "name": "Major Dickason's Blend",
         "brewery": "Peet's Coffee",
