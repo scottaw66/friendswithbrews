@@ -1,5 +1,45 @@
 [
     {
+        "id": "ka0iEfWANzRYj3CpdlwJB",
+        "name": "Maple Warlock",
+        "brewery": "Southern Tier Brewing Company",
+        "image": "SOUTHERNTIERBREWINGCOMPANYMapleWarlock20260926",
+        "description": "The Dark Side just got a little sweeter! Maple Warlock lures you in with a magical dose of maple syrup to complement his dark and mysterious Imperial Stout base. Let Maple Warlock\u2019s swirls of maple, pumpkin pie spice, and roasted malts enchant you sip by sip, casting an alluring spell you won\u2019t want to break.",
+        "type": "beer",
+        "sortOrder": "0",
+        "episodes": [
+            "105"
+        ],
+        "url": "https://stbcbeer.com/beers/maple-warlock/",
+        "rating": [
+            {
+                "host": "Donnie",
+                "vote": "thumbs-up",
+                "description": "It's very dark and a little bit sweet, but for an imperial stout it's not super thick. It drinks easy. I approve this."
+            }
+        ]
+    },
+    {
+        "id": "YOvR3gUTcghPWKTZdCGY3",
+        "name": "Irish Red Style Ale",
+        "brewery": "Ancestry Brewing",
+        "image": "AncestryBrewingIrishRedAle20260926",
+        "description": "Light bodied, malty ale with caramel and a touch of roast",
+        "type": "beer",
+        "sortOrder": "0",
+        "episodes": [
+            "105"
+        ],
+        "url": "https://www.ancestrybrewing.com/beer",
+        "rating": [
+            {
+                "host": "Scott",
+                "vote": "thumbs-up",
+                "description": "That's not bad. They say it's a light-bodied malty ale with caramel and a touch of roast, and I would actually agree with all of that."
+            }
+        ]
+    },
+    {
         "id": "zWIO3bBqQAA-2BCbscBT2",
         "name": "Araponga",
         "brewery": "Coava Coffee Roasters",
