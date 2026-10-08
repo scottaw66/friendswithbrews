@@ -1,36 +1,97 @@
-{# Homepage (port of astro/src/pages/index.astro): intro, latest episode
-   card, three random reviews (re-picked client-side on every load). #}
+{# Homepage (redesign 2026-10-07): latest-episode hero on tea, that
+   episode's brews, the show intro with counts and the hosts, a grid of the
+   next six episodes, three random reviews (re-picked client-side on every
+   load), and a follow band. #}
 {% extends "base.html" %}
 {# Top-level sets aren't visible inside blocks under extends — each block
    computes `latest` itself. sort_by="date" puts newest first. #}
 {% block main_attrs %} class="home-page"{% endblock main_attrs %}
 {% block head_extra %}{% set sec = get_section(path="_index.md") %}{% set latest = sec.pages | first %}{% if latest.extra.youtube %}<script type="module" src="/scripts/lite-youtube.js"></script>{% endif %}{% endblock head_extra %}
 {% block main %}
-  {% set sec = get_section(path="_index.md") %}{% set latest = sec.pages | first %}
-  <article>
-    <div class="download-link">
-      <div>
-        <a href="{{ config.extra.social.youtube }}">
-          {{<icon_simple_icons_youtube />}}
-        </a>
+  {% set sec = get_section(path="_index.md") %}
+  {% set latest = sec.pages | first %}
+  {% set brews = load_data(path="data/brews.json") %}
+  {% set transcripts = get_section(path="transcripts/_index.md") %}
+
+  {{<episode_card e={latest} />}}
+
+  <section class="band band-glasses" data-pagefind-ignore>
+    <div class="wrap">
+      <div class="band-head">
+        <h2 class="section-title">In the glasses on episode {{ latest.extra.episode }}</h2>
+        <a class="more-link" href="/brews/1">All the brews &rarr;</a>
       </div>
-      <div>
-        <a href="{{ config.extra.social.youtube }}"> Watch on YouTube </a>
+      <div class="brew-grid brew-grid--rows">
+        {% for brew in brews %}
+          {% if latest.slug in brew.episodes %}
+            {{<brew_details brew={brew} in_episode={true} />}}
+          {% endif %}
+        {% endfor %}
       </div>
     </div>
-    <p>
-      <b>Friends with Brews Podcast</b> is about friends Peter and Scott, beer, coffee,
-      tea, and podcasting! It's also about Apple, fitness, food, random news, and
-      sometimes our friend Adam!
-    </p>
-    <span data-pagefind-ignore>
-      <h2 class="latest">{{<icon_fa_certificate />}}Latest Episode !!</h2>
-      {{<episode_card e={latest} />}}
-    </span>
-    <h2 class="edward">{{<icon_dashicons_awards />}}Reviews</h2>
-    <p>
-      We've gotten some amazing reviews. Check these out!{{<icon_bi_arrow_down_circle_fill />}}
-    </p>
-    {{<reviews />}}
-  </article>
+  </section>
+
+  <section class="band band-intro">
+    <div class="wrap intro-grid">
+      <img class="intro-mark" src="/images/brand/mark-color.svg" alt="" width="320" height="240" />
+      <div class="intro-copy">
+        <h2 class="section-title">Pull up a chair</h2>
+        <p>
+          <b>Friends with Brews Podcast</b> is about friends Peter and Scott, beer, coffee,
+          tea, and podcasting! It's also about Apple, fitness, food, random news, and
+          sometimes our friend Adam!
+        </p>
+        <ul class="stats" data-pagefind-ignore>
+          <li><a href="/episodes/1"><strong>{{ sec.pages | length }}</strong> episodes</a></li>
+          <li><a href="/brews/1"><strong>{{ brews | length }}</strong> brews</a></li>
+          <li><a href="/transcripts/page/1"><strong>{{ transcripts.pages | length }}</strong> transcripts</a></li>
+        </ul>
+        {% set peter = resize_image(path="src/assets/images/hosts/peter.jpg", width=200, height=200, op="fill", format="webp") %}
+        {% set scott = resize_image(path="src/assets/images/hosts/sawb.jpg", width=200, height=200, op="fill", format="webp") %}
+        <a class="hosts-link" href="/friends" data-pagefind-ignore>
+          <span class="avatars">
+            <img src="/{{ peter.static_path | split(pat="static/") | last }}" alt="" width="56" height="56" loading="lazy" decoding="async" />
+            <img src="/{{ scott.static_path | split(pat="static/") | last }}" alt="" width="56" height="56" loading="lazy" decoding="async" />
+          </span>
+          <span>Meet Peter &amp; Scott &rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band-recent" data-pagefind-ignore>
+    <div class="wrap">
+      <div class="band-head">
+        <h2 class="section-title">More episodes</h2>
+        <a class="more-link" href="/episodes/1">All episodes &rarr;</a>
+      </div>
+      <div class="tile-grid">
+        {% for e in sec.pages[1:7] %}
+          {{<episode_tile e={e} />}}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="band band-reviews">
+    <div class="wrap">
+      <div class="band-head">
+        <h2 class="section-title">{{<icon_dashicons_awards />}}Kind words</h2>
+      </div>
+      {{<reviews />}}
+    </div>
+  </section>
+
+  <section class="band band-follow" data-pagefind-ignore>
+    <div class="wrap follow-cta">
+      <div>
+        <h2 class="section-title">Never miss a pour</h2>
+        <p>New episodes land on YouTube and in your podcast app of choice.</p>
+      </div>
+      <div class="follow-cta-actions">
+        <a class="btn btn-amber" href="{{ config.extra.social.youtube }}">{{<icon_simple_icons_youtube />}}YouTube</a>
+        <a class="btn btn-ghost" href="/follow">All the ways to follow</a>
+      </div>
+    </div>
+  </section>
 {% endblock main %}

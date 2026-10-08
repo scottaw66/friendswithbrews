@@ -1,56 +1,53 @@
-{# /follow/ (port of astro/src/pages/follow.astro). #}
+{# /follow/ — where to watch and subscribe, as a grid of platform cards. #}
 {% extends "base.html" %}
 {% block main_attrs %} class="follow-page"{% endblock main_attrs %}
+{% block section %}follow{% endblock section %}
 {% block title %}{{ page.title }}{% endblock title %}
 {% block metatitle %}{{ page.title }}{% endblock metatitle %}
 {% block main %}
-  <h1>Follow!</h1>
-  <p>
-    Please freely subscribe to our podcast so you never miss an episode! And by
-    freely, I mean free, because it may cost you some time, but it won't cost
-    you a dime!
-  </p>
-  <p>
-    <span class="podcast-name">{{ config.title }}</span> is available directly using
-    our RSS feed, or on the following platforms.
-  </p>
-
-  <div class="episode-links">
-    <div class="download-link">
-      <div>
-        <a href="{{ config.extra.social.youtube }}">
+  <div class="wrap page">
+    <header class="page-head">
+      <p class="eyebrow">Subscribe</p>
+      <h1>Follow!</h1>
+      <p class="lede">
+        Please freely subscribe to our podcast so you never miss an episode! And by
+        freely, I mean free, because it may cost you some time, but it won't cost
+        you a dime!
+      </p>
+      <p>
+        <span class="podcast-name">{{ config.title }}</span> is available directly using
+        our RSS feed, or on the following platforms.
+      </p>
+    </header>
+    <ul class="platforms">
+      <li>
+        <a class="platform platform--youtube" href="{{ config.extra.social.youtube }}">
           {{<icon_simple_icons_youtube />}}
+          <span class="platform-name">YouTube</span>
+          <span class="platform-note">Watch the video episodes</span>
         </a>
-      </div>
-      <div><a href="{{ config.extra.social.youtube }}">YouTube</a></div>
-    </div>
-    <div class="download-link">
-      <div>
-        <a href="{{ config.extra.social.overcast }}">
+      </li>
+      <li>
+        <a class="platform" href="{{ config.extra.social.overcast }}">
           {{<icon_simple_icons_overcast />}}
+          <span class="platform-name">Overcast</span>
+          <span class="platform-note">Listen to the audio podcast</span>
         </a>
-      </div>
-      <div><a href="{{ config.extra.social.overcast }}">Overcast</a></div>
-    </div>
-    <div class="download-link">
-      <div>
-        <a href="{{ config.extra.social.apple_podcasts }}">
+      </li>
+      <li>
+        <a class="platform" href="{{ config.extra.social.apple_podcasts }}">
           {{<icon_simple_icons_applepodcasts />}}
+          <span class="platform-name">Apple Podcasts</span>
+          <span class="platform-note">Listen to the audio podcast</span>
         </a>
-      </div>
-      <div>
-        <a href="{{ config.extra.social.apple_podcasts }}">Apple Podcasts</a>
-      </div>
-    </div>
-    <div class="download-link">
-      <div>
-        <a href="/feed.xml">
+      </li>
+      <li>
+        <a class="platform" href="/feed.xml">
           {{<icon_ps_rss />}}
+          <span class="platform-name">RSS</span>
+          <span class="platform-note">Any podcast app: {{ config.base_url | replace(from="https://", to="") }}/feed.xml</span>
         </a>
-      </div>
-      <div>
-        <a href="/feed.xml">RSS</a>
-      </div>
-    </div>
+      </li>
+    </ul>
   </div>
 {% endblock main %}

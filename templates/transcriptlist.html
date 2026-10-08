@@ -1,9 +1,9 @@
-{# /transcripts/page/N/ — transcript list, 20/page (port of astro/src/pages/
-   transcripts/page/[page].astro). Slices the transcripts section's
-   date-sorted pages; the h1 sits outside the pagefind-ignore div, matching
-   the old markup. #}
+{# /transcripts/page/N/ — transcript list, 20/page (TRANSCRIPTS_PER_PAGE in
+   migrate/convert.py generates the stubs). Slices the transcripts section's
+   date-sorted pages. #}
 {% extends "base.html" %}
 {% block main_attrs %} class="transcriptlist-page"{% endblock main_attrs %}
+{% block section %}transcripts{% endblock section %}
 {% block title %}{{ config.title }} Transcripts{% endblock title %}
 {% block metatitle %}{{ config.title }} Transcripts{% endblock metatitle %}
 {% block main %}
@@ -15,11 +15,17 @@
   {% set total = pages_frac | round(method="floor") | int %}
   {% set start = (num - 1) * per_page %}
   {% set end = num * per_page %}
-  <h1>Transcripts</h1>
-  <div data-pagefind-ignore>
-    {% for t in section.pages[start:end] %}
-      {{<transcript_list_item t={t} />}}
-    {% endfor %}
+  <div class="wrap page" data-pagefind-ignore>
+    <header class="page-head">
+      <p class="eyebrow">Every word, written down</p>
+      <h1>Transcripts</h1>
+      <p class="lede">Full transcripts for {{ count }} episodes. Handy for finding that one thing somebody said.</p>
+    </header>
+    <ol class="transcript-list">
+      {% for t in section.pages[start:end] %}
+        {{<transcript_list_item t={t} />}}
+      {% endfor %}
+    </ol>
     {{<pager current={num} total={total} base={"/transcripts/page/"} />}}
   </div>
 {% endblock main %}

@@ -2,8 +2,11 @@
    transcripts/[slug].astro, which passed title.toUpperCase() to Base). #}
 {% extends "base.html" %}
 {% block main_attrs %} class="transcript-page"{% endblock main_attrs %}
+{% block section %}transcripts{% endblock section %}
 {% block title %}{{ page.title | upper }}{% endblock title %}
 {% block metatitle %}{{ page.title | upper }}{% endblock metatitle %}
 {% block main %}
-  {{<transcript_article t={page} />}}
+  <div class="wrap page">
+    {{<transcript_article t={page} />}}
+  </div>
 {% endblock main %}

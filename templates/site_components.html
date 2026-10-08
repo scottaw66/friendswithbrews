@@ -9,170 +9,158 @@
      migrate/convert.py (Tera v2 can't parse ISO dates, and the formats are
      byte-parity ports of DateFormat.mjs / episodelength.mjs). #}
 
-{# Episode.astro — the full episode view used by /N/ pages (audio=true) and
-   the /episodes/N list pages (audio=false → thumbnail links instead of
-   embeds; the list passes each page's content too). #}
-{% component episode_article(e, audio = true) %}
-<div
+
+{# Date · duration · transcript line shared by the episode views. Pass
+   tag_date=true only on the indexed episode page: it carries Pagefind's
+   "date" meta, which must appear once per page. #}
+{% component episode_meta(e, tag_date = false) %}
+<p class="meta">
+  <span{% if tag_date %} data-pagefind-meta="date"{% endif %}>{{<icon_fluent_calendar_rtl_48_filled />}}{{ e.extra.display_date }}</span>
+  <span>{{ e.extra.duration }}</span>
+  {% if e.extra.has_transcript %}
+    <a href="/transcripts/{{ e.slug }}">{{<icon_ic_baseline_document_scanner />}}Transcript</a>
+  {% endif %}
+</p>
+{% endcomponent episode_meta %}
+
+{# Full episode view for /N/ pages (redesign 2026-10-07). Header, video,
+   the listen bar, then show notes beside a brews column (the brews come
+   first on narrow screens). The list pages use episode_tile instead, so
+   the old audio=false thumbnail mode is gone. The Pagefind attributes on
+   the root and the episode-number span are unchanged from the Astro port. #}
+{% component episode_article(e) %}
+<article
   class="episode"
   data-pagefind-filter="filter by[content]"
   content="episode"
   data-pagefind-meta="result type:episode"
 >
-  {# "•<span" is glued with no whitespace, exactly like the old markup:
-     the bullet and the title form one unbreakable token, so long titles
-     overflow instead of wrapping at narrow widths — old-site behavior,
-     kept for visual parity. Same in episode_card below. #}
-  <h2 class="episode-title">
-    {{<icon_fontisto_podcast />}}Episode <span data-pagefind-meta="episode">{{ e.extra.episode }}</span> •<span class="episode-number"><a href="/{{ e.slug }}">{{ e.title }}</a></span>
-  </h2>
-  <div class="episode-date">
-    <span data-pagefind-meta="date">{{<icon_fluent_calendar_rtl_48_filled />}}{{ e.extra.display_date }}</span> •
-    <span>{{ e.extra.duration }}</span>
-    {% if e.extra.has_transcript %}
-      <span>
-        • {{<icon_ic_baseline_document_scanner />}}
-        <a href="/transcripts/{{ e.slug }}">Transcript</a>
-      </span>
-    {% endif %}
-  </div>
-  <p>{{ e.description }}</p>
+  <header class="episode-head">
+    <p class="eyebrow"><a href="/episodes/1">Episodes</a> <span aria-hidden="true">/</span> Episode <span data-pagefind-meta="episode">{{ e.extra.episode }}</span></p>
+    <h1 class="episode-title">{{ e.title }}</h1>
+    {{<episode_meta e={e} tag_date={true} />}}
+    <p class="lede">{{ e.description }}</p>
+  </header>
 
-  {% if e.extra.youtube %}
-    {% if audio %}
-      {{<video_embed id={e.extra.youtube} title={e.title} />}}
-    {% else %}
-      <a class="episode-thumb" href="/{{ e.slug }}">
-        <img
-          src="https://i.ytimg.com/vi/{{ e.extra.youtube }}/maxresdefault.jpg"
-          alt="Watch episode {{ e.extra.episode }}: {{ e.title }}"
-          loading="lazy"
-          width="1280"
-          height="720"
-          onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/{{ e.extra.youtube }}/hqdefault.jpg'"
-        />
-      </a>
-    {% endif %}
-  {% endif %}
-
-  {{<podcast_links e={e} />}}
-
-  <h2>The brew</h2>
-  <div class="brew-container">
-    {% set brews = load_data(path="data/brews.json") %}
-    {% for brew in brews %}
-      {% if e.slug in brew.episodes %}
-        {{<brew_details brew={brew} in_episode={true} />}}
-      {% endif %}
-    {% endfor %}
-  </div>
-  {{ e.content | safe }}
-</div>
-{% endcomponent episode_article %}
-
-{# EpisodeDetails.astro — the homepage "Latest Episode" card: description
-   only (no show notes), embed always shown when the episode has video. #}
-{% component episode_card(e) %}
-<div class="elv">
-  <h2>
-    {{<icon_fontisto_podcast />}}Episode {{ e.extra.episode }} •<span class="episode-number"><a href="/{{ e.slug }}">{{ e.title }}</a></span>
-  </h2>
-  <div class="episode-date">
-    <span>{{<icon_fluent_calendar_rtl_48_filled />}}{{ e.extra.display_date }}</span> •
-    <span>{{ e.extra.duration }}</span>
-    {% if e.extra.has_transcript %}
-      <span>
-        • {{<icon_ic_baseline_document_scanner />}}
-        <a href="/transcripts/{{ e.slug }}">Transcript</a>
-      </span>
-    {% endif %}
-  </div>
-  <p>{{ e.description }}</p>
   {% if e.extra.youtube %}
     {{<video_embed id={e.extra.youtube} title={e.title} />}}
   {% endif %}
+
   {{<podcast_links e={e} />}}
 
-  <div class="brew-container">
-    {% set brews = load_data(path="data/brews.json") %}
-    {% for brew in brews %}
-      {% if e.slug in brew.episodes %}
-        {{<brew_details brew={brew} in_episode={true} />}}
-      {% endif %}
-    {% endfor %}
+  <div class="episode-body">
+    <aside class="episode-brews" aria-labelledby="brews-{{ e.slug }}">
+      <h2 class="section-label" id="brews-{{ e.slug }}">In the glasses</h2>
+      <div class="brew-stack">
+        {% set brews = load_data(path="data/brews.json") %}
+        {% for brew in brews %}
+          {% if e.slug in brew.episodes %}
+            {{<brew_details brew={brew} in_episode={true} />}}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </aside>
+    <div class="prose">
+      {{ e.content | safe }}
+    </div>
   </div>
-</div>
+</article>
+{% endcomponent episode_article %}
+
+{# Homepage hero: the latest episode on a tea band — copy and actions on
+   the left, the video (or the podcast cover for audio-only episodes) on
+   the right. Not indexed (the episode page is). #}
+{% component episode_card(e) %}
+<section class="hero" data-pagefind-ignore>
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">Latest episode <span aria-hidden="true">·</span> Episode {{ e.extra.episode }}</p>
+      <h1 class="hero-title"><a href="/{{ e.slug }}">{{ e.title }}</a></h1>
+      {{<episode_meta e={e} />}}
+      <p class="hero-desc">{{ e.description }}</p>
+      <div class="hero-actions">
+        {% if e.extra.youtube %}
+          <a class="btn btn-amber" href="https://www.youtube.com/watch?v={{ e.extra.youtube }}">{{<icon_simple_icons_youtube />}}Watch on YouTube</a>
+        {% endif %}
+        <a class="btn btn-ghost" href="/{{ e.slug }}">Show notes &amp; audio</a>
+      </div>
+    </div>
+    <div class="hero-media">
+      {% if e.extra.youtube %}
+        {{<video_embed id={e.extra.youtube} title={e.title} />}}
+      {% else %}
+        <a href="/{{ e.slug }}"><img class="hero-cover" src="/images/podcast-cover-3000.png" alt="Friends with Brews podcast cover" width="3000" height="3000" /></a>
+      {% endif %}
+    </div>
+  </div>
+</section>
 {% endcomponent episode_card %}
 
-{# PodcastLinks.astro. Components can't see `config`, so site values come
-   from data/site.json (converter-copied) via load_data. #}
+{# One episode as a card: YouTube thumbnail, or for the audio-era episodes
+   a numbered tile with the reverse mark. Used by the homepage grid and the
+   /episodes/N list (show_brews=true adds the brew names). The thumbnail
+   link is a duplicate of the title link, so it's hidden from AT. #}
+{% component episode_tile(e, show_brews = false) %}
+<article class="tile">
+  <a class="tile-media" href="/{{ e.slug }}" tabindex="-1" aria-hidden="true">
+    {% if e.extra.youtube %}
+      <img
+        src="https://i.ytimg.com/vi/{{ e.extra.youtube }}/maxresdefault.jpg"
+        alt=""
+        loading="lazy"
+        width="1280"
+        height="720"
+        onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/{{ e.extra.youtube }}/hqdefault.jpg'"
+      />
+    {% else %}
+      <span class="tile-fallback">
+        <img src="/images/brand/mark-reverse.svg" alt="" width="320" height="240" loading="lazy" />
+        <span class="tile-num">{{ e.extra.episode }}</span>
+      </span>
+    {% endif %}
+  </a>
+  <div class="tile-body">
+    <p class="eyebrow">Episode {{ e.extra.episode }} <span aria-hidden="true">·</span> {{ e.extra.display_date | split(pat=", ") | last }}</p>
+    <h3 class="tile-title"><a href="/{{ e.slug }}">{{ e.title }}</a></h3>
+    <p class="tile-desc">{{ e.description }}</p>
+    {% if show_brews %}
+      {% set brews = load_data(path="data/brews.json") %}
+      <ul class="tile-brews">
+        {% for brew in brews %}
+          {% if e.slug in brew.episodes %}
+            <li><a href="/bottle/{{ brew.id }}/">{{<brew_type_icon type={brew.type} />}}{{ brew.name }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</article>
+{% endcomponent episode_tile %}
+
+{# Listen bar under the episode video: an inline audio player (preload=none,
+   so nothing downloads until play) plus the watch/listen links. Overcast and
+   Apple Podcasts are show-level links, as before. Components can't see
+   `config`, so site values come from data/site.json via load_data. #}
 {% component podcast_links(e) %}
 {% set site = load_data(path="data/site.json") %}
-<div class="episode-links">
-  {% if e.extra.youtube %}
-    <div class="link-group">
-      <div class="link-label">Watch the video</div>
-      <div class="link-row">
-        <div class="download-link">
-          <div>
-            <a href="https://www.youtube.com/watch?v={{ e.extra.youtube }}">
-              {{<icon_simple_icons_youtube />}}
-            </a>
-          </div>
-          <div>
-            <a href="https://www.youtube.com/watch?v={{ e.extra.youtube }}">
-              Watch on YouTube
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  {% endif %}
-  <div class="link-group">
-    <div class="link-label">Listen to the audio podcast</div>
-    <div class="link-row">
-      <div class="download-link">
-        <div>
-          <a href="{{ site.episodes.audioPrefix }}{{ e.extra.audio_file }}">
-            {{<icon_mdi_cloud_download />}}
-          </a>
-        </div>
-        <div>
-          <a href="{{ site.episodes.audioPrefix }}{{ e.extra.audio_file }}">Download</a>
-        </div>
-      </div>
-      <div class="download-link">
-        <div>
-          <a href="{{ site.social.overcast }}">
-            {{<icon_simple_icons_overcast />}}
-          </a>
-        </div>
-        <div><a href="{{ site.social.overcast }}">Overcast</a></div>
-      </div>
-      <div class="download-link">
-        <div>
-          <a href="{{ site.social.applePodcasts }}">
-            {{<icon_simple_icons_applepodcasts />}}
-          </a>
-        </div>
-        <div>
-          <a href="{{ site.social.applePodcasts }}">Apple Podcasts</a>
-        </div>
-      </div>
-      {% if e.extra.has_transcript %}
-        <div class="download-link">
-          <div>
-            <a href="/transcripts/{{ e.slug }}">
-              {{<icon_ic_baseline_document_scanner />}}
-            </a>
-          </div>
-          <div>
-            <a href="/transcripts/{{ e.slug }}">Transcript</a>
-          </div>
-        </div>
-      {% endif %}
-    </div>
+<div class="listen">
+  <div class="listen-player">
+    <p class="section-label">Listen right here</p>
+    <audio controls preload="none" src="{{ site.episodes.audioPrefix }}{{ e.extra.audio_file }}">
+      <a href="{{ site.episodes.audioPrefix }}{{ e.extra.audio_file }}">Download the MP3</a>
+    </audio>
   </div>
+  <ul class="listen-links">
+    {% if e.extra.youtube %}
+      <li><a class="pill" href="https://www.youtube.com/watch?v={{ e.extra.youtube }}">{{<icon_simple_icons_youtube />}}YouTube</a></li>
+    {% endif %}
+    <li><a class="pill" href="{{ site.social.overcast }}">{{<icon_simple_icons_overcast />}}Overcast</a></li>
+    <li><a class="pill" href="{{ site.social.applePodcasts }}">{{<icon_simple_icons_applepodcasts />}}Apple Podcasts</a></li>
+    <li><a class="pill" href="{{ site.episodes.audioPrefix }}{{ e.extra.audio_file }}">{{<icon_mdi_cloud_download />}}Download</a></li>
+    {% if e.extra.has_transcript %}
+      <li><a class="pill" href="/transcripts/{{ e.slug }}">{{<icon_ic_baseline_document_scanner />}}Transcript</a></li>
+    {% endif %}
+  </ul>
 </div>
 {% endcomponent podcast_links %}
 
@@ -245,136 +233,108 @@
 <img alt="{{ alt }}" loading="lazy" decoding="async" width="{{ meta.width }}" height="{{ meta.height }}" src="/{{ url }}" srcset="" />
 {%- endcomponent content_image %}
 
-{# BrewDetails.astro — brew card used on episode views and the /brews/N
-   list pages. in_episode suppresses the "Episode(s) …" line (the Astro
-   version keyed this off a truthy `episode` prop). #}
+
+{# Brew card (redesign 2026-10-07). Default: a vertical card for the
+   /brews/N grid, with the episode numbers. in_episode=true: a compact row
+   for the episode page and homepage, without the episode line (the Astro
+   original keyed this off a truthy `episode` prop). A blank vote (not yet
+   filled in by the pipeline) renders as "pending", not thumbs-down. #}
 {% component brew_details(brew, in_episode = false) %}
-<div class="brew">
-  <div class="brew-image">
-    <a href="/bottle/{{ brew.id }}/">
-      {{<brew_picture image={brew.image} alt={brew.brewery ~ " " ~ brew.name} width={400} widths={[400, 800]} />}}
-    </a>
+<article class="brew-card{% if in_episode %} brew-card--row{% endif %}">
+  <a class="brew-card-img" href="/bottle/{{ brew.id }}/" tabindex="-1" aria-hidden="true">
+    {{<brew_picture image={brew.image} alt={brew.brewery ~ " " ~ brew.name} width={400} widths={[400, 800]} />}}
+  </a>
+  <div class="brew-card-body">
+    <p class="brew-card-brewery">{{ brew.brewery }}</p>
+    <h3 class="brew-card-name"><a href="/bottle/{{ brew.id }}/">{{ brew.name }}</a></h3>
+    {{<verdicts rating={brew.rating} />}}
+    <p class="brew-card-meta">
+      <span class="type-tag">{{<brew_type_icon type={brew.type} />}}{{ brew.type | capitalize }}</span>
+      {% if not in_episode %}
+        <span>Ep. {% for ep in brew.episodes %}<a href="/{{ ep }}/">{{ ep }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</span>
+      {% endif %}
+    </p>
   </div>
-  <div class="brew-text">
-    <div class="brewery">{{ brew.brewery }}</div>
-    <div class="brew-name">
-      <a href="/bottle/{{ brew.id }}/">{{ brew.name }}</a>
-    </div>
-    <div class="brew-details">
-      <div class="rating">
-        {% for rate in brew.rating %}
-          <div>{{ rate.host }}</div>
-          <div>
-            {% if rate.vote == "thumbs-up" %}
-              {{<icon_bi_hand_thumbs_up_fill />}}
-            {% else %}
-              <span class="{% if rate.vote == 'side-thumb' %}side-thumb{% endif %}">
-                {{<icon_bi_hand_thumbs_down_fill />}}
-              </span>
-            {% endif %}
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-    <div class="brew-type">
-      <div>
-        {{<brew_type_icon type={brew.type} />}}
-      </div>
-      <div>{{ brew.type | capitalize }}</div>
-      <div>
-        {{<icon_fluent_info_24_filled />}}
-      </div>
-      <div>
-        <a href="/bottle/{{ brew.id }}/">View Details</a>
-      </div>
-    </div>
-    {% if not in_episode %}
-      <div class="brew-episodes">
-        Episode{% if brew.episodes | length > 1 %}s{% endif %}
-        {% for ep in brew.episodes %}<span><a href="/{{ ep }}/">{{ ep }}</a>{% if not loop.last %}, {% endif %}</span>{% endfor %}
-      </div>
-    {% endif %}
-  </div>
-</div>
+</article>
 {% endcomponent brew_details %}
 
-{# Pager.astro — first/prev/next/last pagination nav. `base` is the list's
-   URL prefix ("/episodes/", "/brews/", "/transcripts/page/"); links carry
-   no trailing slash, matching the old markup. Astro showed First only from
-   page 3 on (prev && prevPage > 1) and Last only while next isn't the last
-   page (next && nextPage < lastPage) — both ported as-is. #}
+{# Host verdict chips: name + thumb. side-thumb is the sideways thumb;
+   an empty vote is shown as pending. The vote is spelled out for screen
+   readers since the icon carries it visually. #}
+{% component verdicts(rating) %}
+<ul class="verdicts">
+  {% for rate in rating | default(value=[]) %}
+    {% if rate.vote == "thumbs-up" %}{% set kind = "up" %}{% elif rate.vote == "side-thumb" %}{% set kind = "side" %}{% elif rate.vote == "thumbs-down" %}{% set kind = "down" %}{% else %}{% set kind = "pending" %}{% endif %}
+    <li class="verdict verdict--{{ kind }}">
+      <span class="verdict-host">{{ rate.host }}</span>
+      {% if kind == "up" %}{{<icon_bi_hand_thumbs_up_fill />}}{% elif kind == "pending" %}<span aria-hidden="true">…</span>{% else %}{{<icon_bi_hand_thumbs_down_fill />}}{% endif %}
+      <span class="sr-only">{% if kind == "pending" %}not rated yet{% else %}{{ rate.vote | replace(from="-", to=" ") }}{% endif %}</span>
+    </li>
+  {% endfor %}
+</ul>
+{% endcomponent verdicts %}
+
+{# Pager: First / Prev / position / Next / Last. `base` is the list's URL
+   prefix ("/episodes/", "/brews/", "/transcripts/page/"); links carry no
+   trailing slash, as before. Unavailable steps render as disabled spans so
+   the bar keeps its shape from page to page; the First/Last ends
+   (.pager-end) are hidden on phones so the bar stays on one line. #}
 {% component pager(current, total, base) %}
-<div class="pager">
-  <nav id="pager">
-    {% if current > 2 %}
-      <div><a href="{{ base }}1">&lt;&lt; First</a></div>
-    {% endif %}
-    {% if current > 1 %}
-      <div><a href="{{ base }}{{ current - 1 }}">&lt; Prev</a></div>
-    {% endif %}
-    <div>Page {{ current }} of {{ total }}</div>
-    {% if current < total %}
-      <div><a href="{{ base }}{{ current + 1 }}">Next &gt;</a></div>
-    {% endif %}
-    {% if current + 1 < total %}
-      <div><a href="{{ base }}{{ total }}">Last &gt;&gt;</a></div>
-    {% endif %}
-  </nav>
-</div>
+<nav class="pager" aria-label="Pagination">
+  {% if current > 1 %}
+    <a class="pager-btn pager-end" href="{{ base }}1" aria-label="First page">&laquo;</a>
+    <a class="pager-btn" href="{{ base }}{{ current - 1 }}" rel="prev">&lsaquo; Prev</a>
+  {% else %}
+    <span class="pager-btn pager-end is-disabled" aria-hidden="true">&laquo;</span>
+    <span class="pager-btn is-disabled" aria-hidden="true">&lsaquo; Prev</span>
+  {% endif %}
+  <span class="pager-pos">Page {{ current }} of {{ total }}</span>
+  {% if current < total %}
+    <a class="pager-btn" href="{{ base }}{{ current + 1 }}" rel="next">Next &rsaquo;</a>
+    <a class="pager-btn pager-end" href="{{ base }}{{ total }}" aria-label="Last page">&raquo;</a>
+  {% else %}
+    <span class="pager-btn is-disabled" aria-hidden="true">Next &rsaquo;</span>
+    <span class="pager-btn pager-end is-disabled" aria-hidden="true">&raquo;</span>
+  {% endif %}
+</nav>
 {% endcomponent pager %}
 
-{# Transcript.astro — full transcript view for /transcripts/<n>/. `t` is the
-   transcript page object; episode links are "/<n>" without a trailing slash
-   (site.episodes.path was "/"), same as the episode components above. #}
+{# Full transcript view for /transcripts/<n>/. `t` is the transcript page
+   object; episode links are "/<n>" without a trailing slash, as above. #}
 {% component transcript_article(t) %}
-<div
+<article
   class="transcript"
   data-pagefind-filter="filter by[content]"
   content="transcript"
   data-pagefind-meta="result type:transcript"
 >
-  {# icon and link glued (no whitespace) like the old markup — a newline
-     here adds a space and shifts the whole heading. #}
-  <h2>
-    {{<icon_ic_baseline_document_scanner />}}<a href="/{{ t.extra.episode }}">Episode {{ t.extra.episode }} – {{ t.title }}</a>
-  </h2>
-  <div class="transcript-links">
-    <span data-pagefind-meta="date">{{<icon_fluent_calendar_rtl_48_filled />}}{{ t.extra.display_date }}</span> •
-    <span>{{<icon_fontisto_podcast />}}<a href="/{{ t.extra.episode }}">Episode Audio</a></span> •
-    <span>{{<icon_ic_baseline_document_scanner />}}<a href="/transcripts/page/1">Transcripts Index</a></span> •
-    <span>{{<icon_fontisto_podcast />}}<a href="/episodes/1">Episodes Index</a></span>
+  <header class="page-head">
+    <p class="eyebrow"><a href="/transcripts/page/1">Transcripts</a> <span aria-hidden="true">/</span> Episode {{ t.extra.episode }}</p>
+    <h1><a href="/{{ t.extra.episode }}">{{ t.title }}</a></h1>
+    <p class="meta">
+      <span data-pagefind-meta="date">{{<icon_fluent_calendar_rtl_48_filled />}}{{ t.extra.display_date }}</span>
+      <a href="/{{ t.extra.episode }}">{{<icon_fontisto_podcast />}}Episode page</a>
+    </p>
+    <p class="lede">{{ t.description }}</p>
+  </header>
+  <div class="transcript-body">
+    {{ t.content | safe }}
   </div>
-  <div class="subtitle">
-    {{<icon_fluent_info_24_filled />}}Description
-  </div>
-  <div class="description">{{ t.description }}</div>
-  <div class="subtitle">
-    {{<icon_ic_baseline_document_scanner />}}Transcript
-  </div>
-  {{ t.content | safe }}<br />
-  <div class="transcript-links">
-    {{<icon_fontisto_podcast />}}<a href="/{{ t.extra.episode }}">Episode Audio</a> •
-    <span>{{<icon_ic_baseline_document_scanner />}}<a href="/transcripts/page/1">Transcripts Index</a></span> •
-    <span>{{<icon_fontisto_podcast />}}<a href="/episodes/1">Episodes Index</a></span>
-  </div>
-</div>
+  <p class="transcript-foot">
+    <a class="btn btn-tea" href="/{{ t.extra.episode }}">{{<icon_fontisto_podcast />}}Episode {{ t.extra.episode }}</a>
+    <a class="btn btn-outline" href="/transcripts/page/1">All transcripts</a>
+  </p>
+</article>
 {% endcomponent transcript_article %}
 
-{# TranscriptListView.astro — one entry on the /transcripts/page/N lists. #}
+{# One entry on the /transcripts/page/N lists. #}
 {% component transcript_list_item(t) %}
-<div class="transcript" data-pagefind-ignore>
-  {# icon/link glue: see transcript_article #}
-  <h3>
-    {{<icon_ic_baseline_document_scanner />}}<a href="/transcripts/{{ t.slug }}">Episode {{ t.extra.episode }} – {{ t.title }}</a>
-  </h3>
-  <div class="description">
-    {{ t.description }}
-  </div>
-  <div class="transcript-links">
-    <span data-pagefind-meta="date">{{<icon_fluent_calendar_rtl_48_filled />}}{{ t.extra.display_date }}</span> •
-    <span>{{<icon_fontisto_podcast />}}<a href="/{{ t.extra.episode }}">Episode Audio</a></span>
-  </div>
-</div>
+<li class="transcript-item">
+  <p class="eyebrow">Episode {{ t.extra.episode }} <span aria-hidden="true">·</span> {{ t.extra.display_date | split(pat=", ") | last }}</p>
+  <h2 class="transcript-item-title"><a href="/transcripts/{{ t.slug }}">{{ t.title }}</a></h2>
+  <p class="transcript-item-desc">{{ t.description }}</p>
+  <a class="more-link" href="/{{ t.extra.episode }}">Episode page &rarr;</a>
+</li>
 {% endcomponent transcript_list_item %}
 
 {# Search.astro — Pagefind composable UI (used by /search/ and /404.html).
@@ -421,7 +381,7 @@
   {% for i in [a, b, c] %}
     {% set review = items[i] %}
     <blockquote>
-      <q class="review">{{ review.review }}</q> -
+      <q class="review">{{ review.review }}</q>
       <span class="reviewer">{{ review.reviewer }}</span>
     </blockquote>
   {% endfor %}

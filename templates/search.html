@@ -3,21 +3,25 @@
    pagefind input once the custom element has rendered it. #}
 {% extends "base.html" %}
 {% block main_attrs %} class="search-page"{% endblock main_attrs %}
+{% block section %}search{% endblock section %}
 {% block title %}Search {{ config.title }}{% endblock title %}
 {% block metatitle %}Search {{ config.title }}{% endblock metatitle %}
 {% block description %}Search {{ config.title }}{% endblock description %}
 {% block head_extra %}<link rel="stylesheet" href="/pagefind/pagefind-component-ui.css" />{% endblock head_extra %}
 {% block main %}
-  <span data-pagefind-ignore>
+  <div class="wrap page" data-pagefind-ignore>
     <article>
-      <h1>Search {{ config.title }}</h1>
+      <header class="page-head">
+        <p class="eyebrow">Search</p>
+        <h1>Find that perfect sip</h1>
+        <p class="lede">
+          Search for anything! Beer, coffee, tea, episodes, topics, the meaning of
+          life... literally ANYTHING!
+        </p>
+      </header>
       {{<search_component />}}
-      <p>
-        Search for anything! Beer, coffee, tea, episodes, topics, the meaning of
-        life... literally ANYTHING!
-      </p>
     </article>
-  </span>
+  </div>
   <script type="module">
     const selector = "pagefind-input input";
     const focusInput = () => {

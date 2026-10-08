@@ -1,10 +1,11 @@
-{# /episodes/N/ — episode list, 5/page (port of astro/src/pages/episodes/
-   [page].astro). The stub's page_num slices the root section's date-sorted
-   episode pages; episode_article renders the thumbnail variant (the Astro
-   list passed no `audio` prop, so embeds became thumbnail links). #}
+{# /episodes/N/ — episode list, 5/page (EPISODES_PER_PAGE in
+   migrate/convert.py generates the stubs; keep the two in step). The stub's
+   page_num slices the root section's date-sorted episode pages. #}
 {% extends "base.html" %}
 {% block title %}{{ config.title }} Episodes{% endblock title %}
 {% block metatitle %}{{ config.title }} Episodes{% endblock metatitle %}
+{% block section %}episodes{% endblock section %}
+{% block main_attrs %} class="episodelist-page"{% endblock main_attrs %}
 {% block main %}
   {% set section = get_section(path="_index.md") %}
   {% set per_page = config.extra.episodes_paginate_by %}
@@ -14,10 +15,17 @@
   {% set total = pages_frac | round(method="floor") | int %}
   {% set start = (num - 1) * per_page %}
   {% set end = num * per_page %}
-  <div data-pagefind-ignore>
-    {% for e in section.pages[start:end] %}
-      {{<episode_article e={e} audio={false} />}}
-    {% endfor %}
+  <div class="wrap page" data-pagefind-ignore>
+    <header class="page-head">
+      <p class="eyebrow">The archive</p>
+      <h1>Episodes</h1>
+      <p class="lede">{{ count }} episodes of beer, coffee, tea, tech, and whatever else comes up.</p>
+    </header>
+    <div class="episode-list">
+      {% for e in section.pages[start:end] %}
+        {{<episode_tile e={e} show_brews={true} />}}
+      {% endfor %}
+    </div>
     {{<pager current={num} total={total} base={"/episodes/"} />}}
   </div>
 {% endblock main %}

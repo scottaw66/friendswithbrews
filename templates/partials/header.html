@@ -1,15 +1,21 @@
-{# Site header. Brand refresh 2026-09-18: the old three-part banner (title
-   text in CaptainEdward + the 2021 mug-ring SVG + tagline) is replaced by
-   the kit's horizontal reverse lockup (cream + light amber, for tea
-   backgrounds) over the tagline in Ships Whistle — the same composition as
-   the YouTube channel banner. The SVG lettering is outlined paths, so the
-   logo needs no web font. Sizing lives in the Header block of fwb.css. #}
-<header>
-  <div id="menu-link-div" class="menu-link">
-    <a href="#main-nav">{{<icon_fluent_list_28_filled id="menu-icon" />}}</a>
-  </div>
-  <div class="banner" role="banner">
-    <a class="site-logo" href="/"><img src="/images/brand/logo-horizontal-reverse.svg" alt="Friends with Brews" width="800" height="270" /></a>
-    <div class="site-tagline">{{ config.extra.tagline }}</div>
+{# Site header (redesign 2026-10-07): the kit's horizontal colour lockup
+   on cream, nav inline beside it. Replaces the old tea banner + separate
+   menu bar + footer-anchored mobile menu: under ~900px the nav drops to its
+   own row and scrolls sideways, so it needs no toggle or JS. The lockup is
+   never shown below the kit's 240px minimum (sizing in the Header block of
+   fwb.css). The active item is highlighted via body[data-section]. #}
+<header class="site-header" data-pagefind-ignore>
+  <div class="wrap header-inner">
+    <a class="site-logo" href="/"><img src="/images/brand/logo-horizontal-color.svg" alt="Friends with Brews — home" width="800" height="270" /></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li class="nav-episodes"><a href="/episodes/1">Episodes</a></li>
+        <li class="nav-brews"><a href="/brews/1">Brews</a></li>
+        <li class="nav-transcripts"><a href="/transcripts/page/1">Transcripts</a></li>
+        <li class="nav-friends"><a href="/friends">Friends</a></li>
+        <li class="nav-search"><a href="/search/">{{<icon_fluent_search_12_filled />}}<span class="nav-search-label">Search</span></a></li>
+        <li class="nav-follow"><a class="btn btn-toast" href="/follow">Follow</a></li>
+      </ul>
+    </nav>
   </div>
 </header>

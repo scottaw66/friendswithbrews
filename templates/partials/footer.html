@@ -1,12 +1,35 @@
-{# Port of Footer.astro. The Astro version rendered `{year}` (the imported
-   function) — Astro calls function children, so the output was the current
-   build year. now() here reproduces that. #}
-<div class="footer" data-pagefind-ignore>
-  <div class="footer-links">
-    <div>&copy;{{ now() | date(format="%Y") }}</div>
-    <div>{{<icon_bi_cpu_fill />}}</div>
-    <div>
-      {{ config.extra.author }}
+{# Site footer (redesign 2026-10-07): tea band with the stacked reverse
+   lockup, listen/explore link columns, and the copyright row. The year is
+   the build year via now(), as the Astro footer's `{year}` rendered. #}
+<footer class="site-footer" data-pagefind-ignore>
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <a href="/"><img src="/images/brand/logo-stacked-reverse.svg" alt="Friends with Brews" width="160" height="166" loading="lazy" /></a>
+      <p class="footer-tagline">{{ config.extra.tagline }}</p>
+    </div>
+    <div class="footer-col">
+      <h2 class="footer-heading">Watch &amp; listen</h2>
+      <ul>
+        <li><a href="{{ config.extra.social.youtube }}">YouTube</a></li>
+        <li><a href="{{ config.extra.social.overcast }}">Overcast</a></li>
+        <li><a href="{{ config.extra.social.apple_podcasts }}">Apple Podcasts</a></li>
+        <li><a href="/feed.xml">RSS feed</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h2 class="footer-heading">Around the site</h2>
+      <ul>
+        <li><a href="/episodes/1">Episodes</a></li>
+        <li><a href="/brews/1">The Brews</a></li>
+        <li><a href="/transcripts/page/1">Transcripts</a></li>
+        <li><a href="/friends">The Friends</a></li>
+        <li><a href="/search/">Search</a></li>
+      </ul>
     </div>
   </div>
-</div>
+  <div class="wrap footer-legal">
+    <span>&copy;{{ now() | date(format="%Y") }}</span>
+    <span aria-hidden="true">{{<icon_bi_cpu_fill />}}</span>
+    <span>{{ config.extra.author }}</span>
+  </div>
+</footer>

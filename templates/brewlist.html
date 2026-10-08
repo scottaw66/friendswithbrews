@@ -1,9 +1,11 @@
-{# /brews/N/ — brew list, 12/page (port of astro/src/pages/brews/
-   [page].astro). Slices data/brews.json in file order (brewList() never
-   sorted); pager appears above and below the cards, as in the original. #}
+{# /brews/N/ — brew grid, 12/page (BREWS_PER_PAGE in migrate/convert.py
+   generates the stubs). Slices data/brews.json in file order (newest
+   first; brewList() never sorted); the pager sits above and below. #}
 {% extends "base.html" %}
 {% block title %}The Brews{% endblock title %}
 {% block metatitle %}The Brews{% endblock metatitle %}
+{% block section %}brews{% endblock section %}
+{% block main_attrs %} class="brewlist-page"{% endblock main_attrs %}
 {% block main %}
   {% set brews = load_data(path="data/brews.json") %}
   {% set per_page = config.extra.brews_paginate_by %}
@@ -13,11 +15,14 @@
   {% set total = pages_frac | round(method="floor") | int %}
   {% set start = (num - 1) * per_page %}
   {% set end = num * per_page %}
-  <div data-pagefind-ignore>
-    <h1>The Brews!</h1>
-
+  <div class="wrap page" data-pagefind-ignore>
+    <header class="page-head">
+      <p class="eyebrow">Every glass, every mug</p>
+      <h1>The Brews</h1>
+      <p class="lede">{{ count }} beers, coffees, teas, and the odd glass of water, each one rated by whoever drank it.</p>
+    </header>
     {{<pager current={num} total={total} base={"/brews/"} />}}
-    <div class="brew-container">
+    <div class="brew-grid">
       {% for brew in brews[start:end] %}
         {{<brew_details brew={brew} />}}
       {% endfor %}

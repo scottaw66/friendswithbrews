@@ -1,9 +1,30 @@
-{# /N/ — single episode page (port of astro/src/pages/[id].astro). #}
+{# /N/ — single episode page. Older/newer links come from the root
+   section's newest-first date sort. Zola names neighbours by list position,
+   not by date: observed 2026-10-07 on ep 105 (the newest), page.higher was
+   ep 104 — so page.higher is the OLDER episode and page.lower the NEWER. #}
 {% extends "base.html" %}
 {# [id].astro passed title.toUpperCase() to Base — parity. #}
 {% block title %}{{ page.title | upper }}{% endblock title %}
 {% block metatitle %}{{ page.title | upper }}{% endblock metatitle %}
+{% block section %}episodes{% endblock section %}
+{% block main_attrs %} class="episode-page"{% endblock main_attrs %}
 {% block head_extra %}{% if page.extra.youtube %}<script type="module" src="/scripts/lite-youtube.js"></script>{% endif %}{% endblock head_extra %}
 {% block main %}
-  {{<episode_article e={page} audio={true} />}}
+  <div class="wrap page">
+    {{<episode_article e={page} />}}
+    <nav class="episode-nav" aria-label="More episodes" data-pagefind-ignore>
+      {% if page.higher %}
+        <a class="episode-nav-link episode-nav-older" href="/{{ page.higher.slug }}">
+          <span class="eyebrow">&lsaquo; Older &middot; Episode {{ page.higher.extra.episode }}</span>
+          <span class="episode-nav-title">{{ page.higher.title }}</span>
+        </a>
+      {% endif %}
+      {% if page.lower %}
+        <a class="episode-nav-link episode-nav-newer" href="/{{ page.lower.slug }}">
+          <span class="eyebrow">Newer &middot; Episode {{ page.lower.extra.episode }} &rsaquo;</span>
+          <span class="episode-nav-title">{{ page.lower.title }}</span>
+        </a>
+      {% endif %}
+    </nav>
+  </div>
 {% endblock main %}

@@ -1,27 +1,29 @@
-{# Port of astro/src/pages/404.astro. Zola renders this template to
-   /404.html automatically (Apache serves it via ErrorDocument).
-   The episode/brew hrefs are kept byte-identical to the old site —
-   "/episodes/1" (no trailing slash) and "brews/1" (relative, no leading
-   slash) — the latter is a pre-existing quirk, preserved for parity. #}
+{# 404 page. Zola renders this template to /404.html automatically
+   (Apache serves it via ErrorDocument). The brew link used to be the
+   relative "brews/1" (an Astro-era quirk kept for parity during the
+   migration, broken on any nested URL); the redesign made it "/brews/1". #}
 {% extends "base.html" %}
 {% block main_attrs %} class="notfound-page"{% endblock main_attrs %}
 {% block title %}404 not found - {{ config.title }}{% endblock title %}
 {% block metatitle %}404 not found - {{ config.title }}{% endblock metatitle %}
 {% block head_extra %}<link rel="stylesheet" href="/pagefind/pagefind-component-ui.css" />{% endblock head_extra %}
 {% block main %}
-  <span data-pagefind-ignore>
+  <div class="wrap page" data-pagefind-ignore>
     <article>
-      <h1>404 not found</h1>
-      {{<search_component />}}
-      <p>Sorry, the bottle you're looking for is empty or missing!</p>
+      <header class="page-head">
+        <p class="eyebrow">404 not found</p>
+        <h1>This bottle is empty</h1>
+        <p class="lede">Sorry, the bottle you're looking for is empty or missing!</p>
+      </header>
       <div class="missing-image">
         {% set img = resize_image(path="src/assets/images/404/404-empty-bottle.jpg", width=300, op="fit_width", format="webp", quality=80) %}
         <img src="/{{ img.static_path | split(pat="static/") | last }}" alt="404 not found" loading="lazy" decoding="async" width="{{ img.width }}" height="{{ img.height }}" />
       </div>
       <p>
         Please use the search box to find that perfect sip of information, or
-        use one of the menu links at the top of the page to find the perfect <a href="/episodes/1">episode</a> or <a href="brews/1">brew</a>.
+        use one of the menu links at the top of the page to find the perfect <a href="/episodes/1">episode</a> or <a href="/brews/1">brew</a>.
       </p>
+      {{<search_component />}}
     </article>
-  </span>
+  </div>
 {% endblock main %}

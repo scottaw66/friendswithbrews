@@ -1,10 +1,13 @@
-{# Port of astro/src/layouts/Base.astro. Head parity notes:
+{# Site shell. Redesign (branch `redesign`, 2026-10-07): full-width bands
+   instead of the old single 80ch column with a menu bar — a cream header
+   with the colour lockup and inline nav, page content, and a tea footer.
+   Head notes carried from the Astro port:
    - <html> deliberately has no lang attribute (Astro didn't emit one).
-   - Most pages ship an EMPTY meta description — Astro's Base destructured
-     `description` but nearly every page passed only `title`. Preserved for
-     parity; revisit post-migration.
-   - The bare view-transition meta tag is NOT Astro's ViewTransitions —
-     it's a plain meta the old site carried. Kept as-is. #}
+   - Most pages ship an EMPTY meta description (pages never passed one).
+   - The bare view-transition meta tag is a plain meta the old site carried.
+   body[data-section] drives the active-nav highlight in CSS; page
+   templates fill the `section` block (episodes, brews, transcripts,
+   friends, follow, search). #}
 <!doctype html>
 <html>
   <head>
@@ -22,7 +25,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
-    <meta name="theme-color" content="#263d34" />
+    <meta name="theme-color" content="#f5edd9" />
     <link rel="preload" href="/fonts/Clauthbound-Bold.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="alternate" type="application/rss+xml" title="Friends with Brews" href="https://friendswithbrews.com/feed.xml" />
     <!-- Mastodon profile verification for both hosts (Edit profile → Verification) -->
@@ -34,18 +37,14 @@
     <!-- / Fathom -->
     {% block head_extra %}{% endblock head_extra %}
   </head>
-  <body>
-    <div id="wrapper-grid">
-      {% include "partials/header.html" %}
-      <aside>{% include "partials/menu.html" %}</aside>
-      {# main_attrs lets a page template put a scoping class on <main>
-         (e.g. class="bottle-page") — the flattened per-page styles in
-         static/css/fwb.css hang off these. Astro did the same job with
-         data-astro-cid-* attrs. #}
-      <main{% block main_attrs %}{% endblock main_attrs %}>
-        {% block main %}{% endblock main %}
-      </main>
-      {% include "partials/footer.html" %}
-    </div>
+  <body data-section="{% block section %}{% endblock section %}">
+    <a class="skip-link" href="#main">Skip to content</a>
+    {% include "partials/header.html" %}
+    {# main_attrs lets a page template put a scoping class on <main>
+       (e.g. class="bottle-page"); per-page styles in fwb.css hang off it. #}
+    <main id="main"{% block main_attrs %}{% endblock main_attrs %}>
+      {% block main %}{% endblock main %}
+    </main>
+    {% include "partials/footer.html" %}
   </body>
 </html>
