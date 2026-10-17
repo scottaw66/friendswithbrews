@@ -1,5 +1,45 @@
 [
     {
+        "id": "x1ELJkZS-aib5u221G6Y4",
+        "name": "Oktoberfestbier",
+        "brewery": "Hofbr\u00e4u M\u00fcnchen",
+        "image": "HOFBRAUMUNCHENOktoberfestbier20261016",
+        "description": "",
+        "type": "beer",
+        "sortOrder": "0",
+        "episodes": [
+            "106"
+        ],
+        "url": "https://hofbraeu-muenchen.de/en/beer/hofbrau-oktoberfestbier",
+        "rating": [
+            {
+                "host": "Peter",
+                "vote": "thumbs-up",
+                "description": "This is what beer was meant to be. Being done with work for the week makes it taste even better, and it's nowhere near the leftover tea on my hot plate."
+            }
+        ]
+    },
+    {
+        "id": "1XMxuJBqS1QnE8btD_ofw",
+        "name": "Great Gourds Pumpkin Ale",
+        "brewery": "Hopworks Brewery",
+        "image": "HOPWORKSBREWERYGreatGourdsPumpkinAle20261016",
+        "description": "",
+        "type": "beer",
+        "sortOrder": "0",
+        "episodes": [
+            "106"
+        ],
+        "url": "https://www.hopworksbeer.com/beer",
+        "rating": [
+            {
+                "host": "Scott",
+                "vote": "thumbs-up",
+                "description": "It's a surprisingly good pumpkin ale, and not all pumpkin ales are all that good. I've had it before and I'll have it again."
+            }
+        ]
+    },
+    {
         "id": "ka0iEfWANzRYj3CpdlwJB",
         "name": "Maple Warlock",
         "brewery": "Southern Tier Brewing Company",
