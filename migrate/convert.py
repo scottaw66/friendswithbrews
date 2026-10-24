@@ -3,7 +3,7 @@
 
 Permanent build step 1 — NOT a one-off migration script. Authoring stays in
 src/content/ (YAML-frontmatter markdown, written by the external pipeline in
-~/Documents/Brain/Areas/Sites/Repos/website-scripts/fwb/) and src/data/ (JSON). This script converts that tree
+~/Brain/Areas/Sites/Repos/website-scripts/fwb/) and src/data/ (JSON). This script converts that tree
 into Zola-shaped content on every build. Zero dependencies on purpose: it
 must run with the system python3, forever.
 
