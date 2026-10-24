@@ -5,7 +5,7 @@ base_url = "https://friendswithbrews.com"
 title = "Friends with Brews"
 description = "Two friends, two brews, many topics"
 
-# Matches Astro's output dir so ~/Scripts/Sites/fwb/deploy.sh needs zero changes.
+# Matches Astro's output dir so ~/Documents/Brain/Areas/Sites/Repos/website-scripts/fwb/deploy.sh needs zero changes.
 output_dir = "dist"
 
 # static/ holds ~530 MB of brew/episode images; hard-link instead of copying

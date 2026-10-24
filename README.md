@@ -42,7 +42,7 @@ uv venv .venv && uv pip install --python .venv/bin/python "pagefind[extended]"
 ## Where things live
 
 - `src/content/`, `src/data/` — **the authoring tree**, written by the
-  episode pipeline in `~/Scripts/Sites/fwb/` (and by hand for fixes).
+  episode pipeline in `~/Documents/Brain/Areas/Sites/Repos/website-scripts/fwb/` (and by hand for fixes).
 - `content/`, `data/` — **generated** by `migrate/convert.py` on every
   build; don't edit generated files (the converter owns and prunes them;
   `_index.md` files and `content/pages/` are the hand-maintained
