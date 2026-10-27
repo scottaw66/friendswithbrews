@@ -1,6 +1,8 @@
 {# /bottle/<id>/ — brew detail page (redesign 2026-10-07): photo beside the
-   details — brewery's description, each host's verdict and review, the
-   episodes it was on, and the outbound link. All brew data is embedded in
+   details — brewery's description, each host's verdict and review — with
+   the facts (episodes it was on, outbound link) in a row of their own
+   under the details, so the photo centres vertically against the details
+   alone (Scott, 2026-10-26). All brew data is embedded in
    the stub's [extra] by migrate/convert.py, including the episode-number→
    title map and the precomputed url_hostname/url_origin (Tera has no URL
    parser). #}
@@ -53,23 +55,23 @@
             </div>
           {% endfor %}
         </div>
+      </div>
 
-        <div class="bottle-facts">
-          <div>
-            <h2 class="section-label">Heard on</h2>
-            <ul>
-              {% for ep in x.episodes %}
-                <li><a href="/{{ ep }}/">Episode {{ ep }}: {{ x.episode_titles[ep] }}</a></li>
-              {% endfor %}
-            </ul>
-          </div>
-          {% if x.url %}
-            <div>
-              <h2 class="section-label">Find it</h2>
-              <p><a href="{{ x.url }}">{{ page.title }}</a> on <a href="{{ x.url_origin }}">{{ x.url_hostname }}</a></p>
-            </div>
-          {% endif %}
+      <div class="bottle-facts">
+        <div>
+          <h2 class="section-label">Heard on</h2>
+          <ul>
+            {% for ep in x.episodes %}
+              <li><a href="/{{ ep }}/">Episode {{ ep }}: {{ x.episode_titles[ep] }}</a></li>
+            {% endfor %}
+          </ul>
         </div>
+        {% if x.url %}
+          <div>
+            <h2 class="section-label">Find it</h2>
+            <p><a href="{{ x.url }}">{{ page.title }}</a> on <a href="{{ x.url_origin }}">{{ x.url_hostname }}</a></p>
+          </div>
+        {% endif %}
       </div>
     </article>
   </div>

@@ -1544,15 +1544,29 @@ a.pager-btn:hover {
 }
 
 /* ---- Bottle (brew detail) ---- */
+/* Two rows: photo beside the details (name, maker's blurb, verdicts), then
+   the facts (heard on / find it) under the details column. The photo is
+   centred vertically against the details row only — the facts row is
+   outside that span (Scott, 2026-10-26). The 2.25rem row gap stands in for
+   the margin .reviews-list used to carry above the facts. */
 .bottle {
   display: grid;
   grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
-  gap: clamp(2rem, 5vw, 4.5rem);
+  grid-template-areas:
+    "photo details"
+    ". facts";
+  column-gap: clamp(2rem, 5vw, 4.5rem);
+  row-gap: 2.25rem;
   align-items: start;
 }
 .bottle-photo {
+  grid-area: photo;
+  align-self: center;
   position: sticky;
   top: 1.5rem;
+}
+.bottle-details {
+  grid-area: details;
 }
 .bottle-photo a {
   display: block;
@@ -1610,7 +1624,6 @@ a.pager-btn:hover {
 .reviews-list {
   display: grid;
   gap: 0.9rem;
-  margin-bottom: 2.25rem;
 }
 .host-review {
   padding: 1rem 1.25rem;
@@ -1666,6 +1679,7 @@ a.pager-btn:hover {
   content: "\201D";
 }
 .bottle-facts {
+  grid-area: facts;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
   gap: 1.5rem 2.5rem;
@@ -1687,8 +1701,13 @@ a.pager-btn:hover {
 @media (max-width: 820px) {
   .bottle {
     grid-template-columns: 1fr;
+    grid-template-areas:
+      "photo"
+      "details"
+      "facts";
   }
   .bottle-photo {
+    align-self: start;
     position: static;
     max-width: 26rem;
   }
