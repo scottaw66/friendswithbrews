@@ -11,10 +11,11 @@ brew_type = "beer"
 url = "https://athleticbrewing.com/products/athletic-lite"
 url_hostname = "athleticbrewing.com"
 url_origin = "https://athleticbrewing.com"
-episodes = ["88"]
+episodes = ["88", "107"]
 
 [extra.episode_titles]
 "88" = "I Could Use A Big Giant Femur Bone"
+"107" = "Three Months for an iPhone Duo"
 
 [[extra.rating]]
 host = "Peter"

@@ -1,5 +1,25 @@
 [
     {
+        "id": "4SkcME5TGHY3S5m0pPumr",
+        "name": "Blue Creek",
+        "brewery": "Water Avenue Coffee",
+        "image": "WATERAVENUECOFFEEBlueCreek20261026",
+        "description": "Our signature blend for the perfect cup every day. With notes of Hazelnut, Milk Chocolate, Hint of Navel Orange, this is the perfect vibrant blend to start your morning.",
+        "type": "coffee",
+        "sortOrder": "0",
+        "episodes": [
+            "107"
+        ],
+        "url": "https://wateravenuecoffee.com/products/12oz-blue-creek-blend",
+        "rating": [
+            {
+                "host": "Scott",
+                "vote": "thumbs-up",
+                "description": "It's not super complex, and I don't need a complex coffee today. Hazelnut, I believe that. The milk chocolate and navel orange are very subdued, if they're present at all: they may be in the class, but they're sitting in the back row."
+            }
+        ]
+    },
+    {
         "id": "x1ELJkZS-aib5u221G6Y4",
         "name": "Oktoberfestbier",
         "brewery": "Hofbr\u00e4u M\u00fcnchen",
@@ -878,7 +898,8 @@
         "type": "beer",
         "sortOrder": "0",
         "episodes": [
-            "88"
+            "88",
+            "107"
         ],
         "url": "https://athleticbrewing.com/products/athletic-lite",
         "rating": [
