@@ -7,4 +7,4 @@ set -e
 cd "$(dirname "$0")"
 
 ./build.sh
-~/Brain/Areas/Sites/Repos/website-scripts/fwb/deploy.sh
+~/Developer/Sites/website-scripts/fwb/deploy.sh
