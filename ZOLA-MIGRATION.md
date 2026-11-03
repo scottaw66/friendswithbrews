@@ -12,8 +12,8 @@ searchable in /explore, and the post-migration feed cleanups.
 
 - Branch: `zola-migration` (pushed). Companion pipeline changes are on
   `website-scripts` main (also pushed).
-- Working loop: `python3 migrate/convert.py && zola build &&
-  python3 migrate/postbuild.py`, then `python3 migrate/parity.py page
+- Working loop: `/opt/homebrew/bin/python3 migrate/convert.py && zola build &&
+  /opt/homebrew/bin/python3 migrate/postbuild.py`, then `/opt/homebrew/bin/python3 migrate/parity.py page
   /<url>/` (or `urls` / `pages` / `feed`) against the frozen
   `dist-baseline/` (gitignored — do NOT delete it; it's the parity truth
   and can't be regenerated without restoring the Astro toolchain).
@@ -377,7 +377,7 @@ URL-shape notes:
 
 ## Tooling to install
 - Zola 0.23.x (brew)
-- Pagefind via PyPI in repo-local `.venv` (`python3 -m venv .venv &&
+- Pagefind via PyPI in repo-local `.venv` (`/opt/homebrew/bin/python3 -m venv .venv &&
   .venv/bin/pip install pagefind[extended]`)
 - ImageMagick or ffmpeg available for the 16-bit PNG sweep (one-off)
 - Nothing else. Node/npm fully retired at cutover.

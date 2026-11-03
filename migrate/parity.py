@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/opt/homebrew/bin/python3
 """Parity checks: dist/ (Zola) vs dist-baseline/ (frozen Astro build).
 
     migrate/parity.py urls            URL-set diff (pages + root files)

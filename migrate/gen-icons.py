@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/opt/homebrew/bin/python3
 """Regenerate templates/icons.html from migrate/reference/icons/*.svg.
 
 One-off-ish tool: rerun only when adding a new icon (drop the SVG extracted

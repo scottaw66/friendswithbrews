@@ -34,7 +34,7 @@ kill_mine "python3 -m http.server"
 kill_mine "zola serve"
 kill_mine "bash.*(dev|preview)\.sh"
 
-python3 migrate/convert.py
+/opt/homebrew/bin/python3 migrate/convert.py
 
 # Everything runs as a job; on ANY exit path — Ctrl-C, TERM, terminal
 # closing, zola crashing — kill all jobs so nothing is left running.
@@ -53,7 +53,7 @@ stamp=$(mktemp)
   while sleep 1; do
     if [ -n "$(find src -type f -newer "$stamp" -print -quit 2>/dev/null)" ]; then
       touch "$stamp"
-      python3 migrate/convert.py || echo "⚠ convert.py failed — fix the error above and save again"
+      /opt/homebrew/bin/python3 migrate/convert.py || echo "⚠ convert.py failed — fix the error above and save again"
       # If the conversion changed no content files, zola gets no file event —
       # but the src/ change may still matter to it: images referenced by
       # resize_image / get_image_metadata live in src/, which zola doesn't

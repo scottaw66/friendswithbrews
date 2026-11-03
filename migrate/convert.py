@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/opt/homebrew/bin/python3
 """Regenerate Zola's content/ and data/ from the authoring tree.
 
 Permanent build step 1 — NOT a one-off migration script. Authoring stays in

@@ -36,7 +36,7 @@ One-time setup on a fresh clone:
 
 ```sh
 brew install zola
-uv venv .venv && uv pip install --python .venv/bin/python "pagefind[extended]"
+uv venv --python /opt/homebrew/bin/python3 .venv && uv pip install --python .venv/bin/python "pagefind[extended]"
 ```
 
 ## Where things live
