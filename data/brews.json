@@ -1,5 +1,45 @@
 [
     {
+        "id": "MUWAWbokySeGmVnBkRS7S",
+        "name": "Pumpkin Ale",
+        "brewery": "Laurelwood Brewing Company",
+        "image": "LAURELWOODBREWINGCOMPANYPumpkinAle20261106",
+        "description": "Laurelwood Pumpkin Ale is brewed using pumpkin puree and a blend of seasonal spices creating a smooth and robust amber ale.",
+        "type": "beer",
+        "sortOrder": "0",
+        "episodes": [
+            "108"
+        ],
+        "url": "https://laurelwoodbrewing.com/",
+        "rating": [
+            {
+                "host": "Scott",
+                "vote": "side-thumb",
+                "description": "This one does taste spicy to me. It's not bad, and it definitely has a pumpkin season vibe to it, but it's not my favorite one. I can drink this without being too outraged."
+            }
+        ]
+    },
+    {
+        "id": "inzzhzU3IBiw3yTx4hmv7",
+        "name": "MMIW Tribal Pale Ale",
+        "brewery": "Talking Cedar Brewing Company",
+        "image": "TALKINGCEDARBREWINGCOMPANYMMIWTribalPaleAle20261106",
+        "description": "Tribal Pale Ale (TPA), hoppy, bright, with notes of pine and citrus. A portion of the proceeds supports the Missing & Murdered Indigenous Women cause, one of the most overlooked human rights issues in North America.",
+        "type": "beer",
+        "sortOrder": "0",
+        "episodes": [
+            "108"
+        ],
+        "url": "https://talkingcedar.com/",
+        "rating": [
+            {
+                "host": "Keith",
+                "vote": "thumbs-up",
+                "description": "It's a pale ale, and it does look pale, and it's got quite a head. That's actually really nice."
+            }
+        ]
+    },
+    {
         "id": "4SkcME5TGHY3S5m0pPumr",
         "name": "Blue Creek",
         "brewery": "Water Avenue Coffee",

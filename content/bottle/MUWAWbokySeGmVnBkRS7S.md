@@ -1,0 +1,23 @@
++++
+title = "Pumpkin Ale"
+path = "bottle/MUWAWbokySeGmVnBkRS7S"
+template = "bottle.html"
+
+[extra]
+brewery = "Laurelwood Brewing Company"
+image = "LAURELWOODBREWINGCOMPANYPumpkinAle20261106"
+brew_description = "Laurelwood Pumpkin Ale is brewed using pumpkin puree and a blend of seasonal spices creating a smooth and robust amber ale."
+brew_type = "beer"
+url = "https://laurelwoodbrewing.com/"
+url_hostname = "laurelwoodbrewing.com"
+url_origin = "https://laurelwoodbrewing.com"
+episodes = ["108"]
+
+[extra.episode_titles]
+"108" = "Maybe Go Fix Those"
+
+[[extra.rating]]
+host = "Scott"
+vote = "side-thumb"
+description = "This one does taste spicy to me. It's not bad, and it definitely has a pumpkin season vibe to it, but it's not my favorite one. I can drink this without being too outraged."
++++
