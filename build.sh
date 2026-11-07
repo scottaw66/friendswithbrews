@@ -1,9 +1,9 @@
 #!/bin/bash
 # Build friendswithbrews.com (no deploy — use deploy.sh for that).
 #
-# Pipeline: convert (authoring tree src/ → Zola content/+data/) →
-# zola build → feed/sitemap postprocessing → Pagefind index.
-# See ZOLA-MIGRATION.md.
+# Pipeline: prebuild (refresh the generated stubs and derived fields from
+# the single authoring tree content/ + data/) → zola build → feed/sitemap
+# postprocessing → Pagefind index. See ZOLA-MIGRATION.md.
 #
 # One-time setup on a fresh clone:
 #   brew install zola
@@ -36,9 +36,9 @@ done
 rm -rf .dist-trash-* 2>/dev/null || true
 if [ -d dist ]; then mv dist ".dist-trash-$$"; fi
 
-/opt/homebrew/bin/python3 migrate/convert.py
+/opt/homebrew/bin/python3 tools/prebuild.py
 zola build --force
-/opt/homebrew/bin/python3 migrate/postbuild.py
+/opt/homebrew/bin/python3 tools/postbuild.py
 .venv/bin/python -m pagefind --site dist
 
 echo "Build complete: dist/"

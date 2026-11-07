@@ -20,7 +20,7 @@ Operates on the XML-escaped text inside <content:encoded> directly
 (patterns are matched in their escaped form), so nothing is
 unescaped/re-escaped.
 
-Run after `zola build`:  /opt/homebrew/bin/python3 migrate/postbuild.py
+Run after `zola build`:  /opt/homebrew/bin/python3 tools/postbuild.py
 """
 
 import re

@@ -1,14 +1,14 @@
 This repository contains two kinds of material under two different licenses:
 
 1. CODE — the site's build tooling and presentation layer: everything in
-   `templates/`, `migrate/`, the shell scripts (`build.sh`, `dev.sh`,
+   `templates/`, `tools/`, `migrate/`, the shell scripts (`build.sh`, `dev.sh`,
    `preview.sh`, `deploy.sh`), `zola.toml`, and the CSS/JS/fonts under
    `static/` that are not episode or brew imagery. Licensed under the MIT
    License below.
 
 2. CONTENT — the podcast itself: all episode text, show notes, transcripts,
    episode and brew descriptions, and all artwork and photography (including
-   everything under `content/`, `src/content/`, `data/`, and the images under
+   everything under `content/`, `data/`, `src/srt/`, and the images under
    `static/images/`). Copyright © 2021–2026 Friends with Brews. All rights
    reserved. The content is published here for transparency and for building
    the website; it is NOT covered by the MIT License and may not be

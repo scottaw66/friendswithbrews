@@ -6,7 +6,7 @@
      the old markup byte-for-byte (the server redirects/serves either way).
    - e.slug is the episode number as a string; brew.episodes holds strings.
    - display_date / duration / rfc2822_date are precomputed by
-     migrate/convert.py (Tera v2 can't parse ISO dates, and the formats are
+     tools/prebuild.py (Tera v2 can't parse ISO dates, and the formats are
      byte-parity ports of DateFormat.mjs / episodelength.mjs). #}
 
 
@@ -220,8 +220,10 @@
 {%- endcomponent brew_picture %}
 
 {# astro:assets markdown-image handling for in-content episode images
-   (9 episodes inline images via relative ../../assets/images/ paths;
-   migrate/convert.py rewrites them to calls of this component). Matches
+   (9 episodes inlined images via relative ../../assets/images/ paths,
+   which the retired converter rewrote to calls of this component; the
+   calls are now in the source and new show notes write them directly —
+   tools/prebuild.py fails the build on the old syntax). Matches
    the baseline: a single webp transcode at the source's intrinsic size,
    width/height attrs, and a literal empty srcset. `path` is relative to
    src/assets/images/ and keeps its real extension. #}

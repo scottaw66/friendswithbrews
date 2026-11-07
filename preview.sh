@@ -1,5 +1,5 @@
 #!/bin/bash
-# Production preview: full build (convert → zola → postbuild → pagefind),
+# Production preview: full build (prebuild → zola → postbuild → pagefind),
 # then serve the real dist/ — search works, feeds post-processed; exactly
 # what production will get (except /explore, whose /api proxy only exists
 # on the server). Serves on the first free port at/above 1818 — the port is

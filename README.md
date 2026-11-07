@@ -14,7 +14,7 @@ Pour a cold one (or two) or a hot one (or two) and enjoy!!!
 
 Split license — see [LICENSE](LICENSE) for the exact boundaries:
 
-- **Code** (templates, build scripts, `migrate/` tooling, site CSS/JS): MIT.
+- **Code** (templates, build scripts, `tools/` and `migrate/` tooling, site CSS/JS): MIT.
 - **Content** (episodes, transcripts, show notes, artwork, brew photos, and
   the episode/brew data files): &copy; Friends with Brews, **all rights
   reserved**. It's in the repo because the site is built from it, not as an
@@ -26,10 +26,11 @@ Static site built with **Zola** (migrated from Astro 2026-08-14 — see
 `ZOLA-MIGRATION.md` for the full story). No npm, no Node, no JS build step.
 
 - `./dev.sh` — writing mode: live reload at http://127.0.0.1:1111; edits
-  under `src/` are auto-converted as you save. (/search needs a pagefind
-  index from a prior build; /explore only works in production.)
+  under `content/`, `data/` and `src/assets/` re-run prebuild as you save.
+  (/search needs a pagefind index from a prior build; /explore only works in
+  production.)
 - `./preview.sh` — full production build served at http://127.0.0.1:1818.
-- `./build.sh` — build only (convert → zola → postbuild → pagefind → `dist/`).
+- `./build.sh` — build only (prebuild → zola → postbuild → pagefind → `dist/`).
 - `./deploy.sh` — build + rsync to production (also ships the vector DB).
 
 One-time setup on a fresh clone:
@@ -41,17 +42,41 @@ uv venv --python /opt/homebrew/bin/python3 .venv && uv pip install --python .ven
 
 ## Where things live
 
-- `src/content/`, `src/data/` — **the authoring tree**, written by the
-  episode pipeline in `~/Developer/Sites/website-scripts/fwb/` (and by hand for fixes).
-- `content/`, `data/` — **generated** by `migrate/convert.py` on every
-  build; don't edit generated files (the converter owns and prunes them;
-  `_index.md` files and `content/pages/` are the hand-maintained
-  exceptions, marked as such in their comments).
+There is one authoring tree, and it is what Zola reads (since 2026-11-06;
+before that a YAML `src/content` + `src/data` tree was converted into
+`content/` and `data/` on every build — see ZOLA-MIGRATION.md).
+
+- `content/<n>.md` — the episode pages, and `content/transcripts/<n>.md` the
+  transcripts, as markdown with **TOML frontmatter** (`+++ … +++`). Written by
+  the episode pipeline in `~/Developer/Sites/website-scripts/fwb/` and edited
+  by hand for fixes. The pipeline writes the source fields; `tools/prebuild.py`
+  fills in the derived `[extra]` fields (`duration`, `display_date`,
+  `rfc2822_date`, `has_transcript`). In-body images are
+  `{{<content_image path={"…"} alt={"…"} />}}` calls; a literal `{{`/`{%` in
+  prose must be wrapped in `{% raw %}…{% endraw %}` because Zola 0.23 renders
+  content as Tera.
+- `data/brews.json` — **the one brews file** (the pipeline adds entries, Scott
+  edits descriptions and ratings in place); `data/reviews.json` and
+  `data/site.json` are hand-maintained.
+- `content/listpages/` and `content/bottle/` — **generated** by
+  `tools/prebuild.py` on every build (pagination stubs; one bottle page per
+  brew in `data/brews.json`). Every generated file says so in its first line;
+  don't edit them. The `_index.md` files and `content/pages/` are
+  hand-maintained.
+- `src/assets/images/` — the image store `resize_image` reads (brew photos,
+  episode images, hosts). `src/srt/` — the SRT files for episodes up to 56,
+  read only by the search indexer for transcript timestamps. Nothing else
+  lives under `src/`.
+- `tools/prebuild.py` (zero-dependency Python, build step 1) refreshes the
+  generated files and derived fields in place, writes only what changed, and
+  fails the build on bad frontmatter, a missing brew image, YAML `---`
+  frontmatter, an unprotected Tera token or Astro-era image syntax.
+  `tools/postbuild.py` post-processes the feed and sitemap.
 - `templates/` — Zola/Tera templates; `templates/icons.html` is generated
   by `migrate/gen-icons.py`.
 - `static/` — served as-is (CSS, fonts, images, .htaccess).
-- `migrate/` — the permanent build steps (convert/postbuild) plus the
-  parity tooling from the migration.
+- `migrate/` — the parity tooling and reference files from the Astro
+  migration (`parity.py`, `gen-icons.py`, `baseline-urls.txt`, `reference/`).
 
 ## Image constraints (brew photos)
 

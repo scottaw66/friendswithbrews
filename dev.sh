@@ -4,10 +4,11 @@
 #   ./dev.sh   → http://127.0.0.1:1111 with live reload (opens browser)
 #
 # What it runs (all cleaned up on Ctrl-C):
-#   - migrate/convert.py once up front, then again automatically whenever
-#     anything in src/ (the authoring tree) changes — zola serve only
-#     watches the generated content/, so this is what makes
-#     "save → browser reloads" work for pipeline/content edits
+#   - tools/prebuild.py once up front, then again automatically whenever
+#     anything in content/, data/ or src/assets changes — it refreshes the
+#     generated stubs (list pages, bottle pages) and the derived display
+#     fields so a saved edit or a pipeline-written episode shows up
+#     complete (zola serve itself only sees the raw file change)
 #   - zola serve (foreground)
 #
 # /search works in dev (run ./preview.sh for a pagefind index first if you
@@ -34,7 +35,7 @@ kill_mine "python3 -m http.server"
 kill_mine "zola serve"
 kill_mine "bash.*(dev|preview)\.sh"
 
-/opt/homebrew/bin/python3 migrate/convert.py
+/opt/homebrew/bin/python3 tools/prebuild.py
 
 # Everything runs as a job; on ANY exit path — Ctrl-C, TERM, terminal
 # closing, zola crashing — kill all jobs so nothing is left running.
@@ -46,21 +47,32 @@ trap 'cleanup; exit 130' INT
 trap 'cleanup; exit 143' TERM
 trap cleanup EXIT
 
-# Poll src/ once a second; on any change, re-run the converter (it takes
-# well under a second). The stamp file lives outside the repo.
+# Poll content/, data/ and src/assets once a second; on any change, re-run
+# prebuild (it takes well under a second). The stamp file lives outside the
+# repo.
+#
+# prebuild writes into the very dirs this loop watches, so its own writes
+# re-trigger it once — harmless, because write_if_changed means that second
+# pass writes nothing, and the loop then goes idle (same reasoning as
+# scottwillsey's dev.sh, 2026-10-25). The nudge below is what would make it
+# spin (touching content/_index.md re-triggers the loop, which nudges
+# again…), so it is tied to image changes only, never to the content/data
+# changes prebuild itself produces.
 stamp=$(mktemp)
 (
   while sleep 1; do
-    if [ -n "$(find src -type f -newer "$stamp" -print -quit 2>/dev/null)" ]; then
+    if [ -n "$(find content data src/assets -type f -newer "$stamp" -print -quit 2>/dev/null)" ]; then
+      images_changed=$(find src/assets -type f -newer "$stamp" -print -quit 2>/dev/null)
       touch "$stamp"
-      /opt/homebrew/bin/python3 migrate/convert.py || echo "⚠ convert.py failed — fix the error above and save again"
-      # If the conversion changed no content files, zola gets no file event —
-      # but the src/ change may still matter to it: images referenced by
-      # resize_image / get_image_metadata live in src/, which zola doesn't
-      # watch. The pipeline also writes content BEFORE its images finish
-      # landing, so a failed build would otherwise never retry. Nudge a
-      # rebuild.
-      if [ -z "$(find content -name '*.md' -newer "$stamp" -print -quit 2>/dev/null)" ]; then
+      /opt/homebrew/bin/python3 tools/prebuild.py || echo "⚠ prebuild.py failed — fix the error above and save again"
+      # Images referenced by resize_image / get_image_metadata live in
+      # src/assets/images, which zola doesn't watch, so an image change gives
+      # zola no file event. The pipeline also writes content BEFORE its
+      # images finish landing (Retrobatch runs in command 2), so a failed
+      # build would otherwise never retry. Nudge a rebuild. content/ and
+      # data/ edits need no nudge: zola watches both (data via
+      # --extra-watch-path below).
+      if [ -n "$images_changed" ]; then
         touch content/_index.md
       fi
     fi

@@ -18,7 +18,7 @@ ignored_static = ["*.DS_Store"]
 # Site-wide feed generation stays OFF (a site feed would mix transcripts
 # and stubs into the podcast feed). The root section opts in via its
 # _index.md, yielding /feed.xml (episodes only) from templates/feed.xml;
-# migrate/postbuild.py then applies the ultrahtml-equivalent transforms.
+# tools/postbuild.py then applies the ultrahtml-equivalent transforms.
 generate_feeds = false
 feed_filenames = ["feed.xml"]
 
