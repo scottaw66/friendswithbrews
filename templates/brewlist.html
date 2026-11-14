@@ -17,14 +17,14 @@
   {% set end = num * per_page %}
   <div class="wrap page" data-pagefind-ignore>
     <header class="page-head">
-      <p class="eyebrow">Every glass, every mug</p>
-      <h1>The Brews</h1>
+      <h1 class="paint">The Brews</h1>
+      <p class="tagline s2">Every glass, every mug</p>
       <p class="lede">{{ count }} beers, coffees, teas, and the odd glass of water, each one rated by whoever drank it.</p>
     </header>
     {{<pager current={num} total={total} base={"/brews/"} />}}
     <div class="brew-grid">
       {% for brew in brews[start:end] %}
-        {{<brew_details brew={brew} />}}
+        {{<brew_card brew={brew} />}}
       {% endfor %}
     </div>
     {{<pager current={num} total={total} base={"/brews/"} />}}

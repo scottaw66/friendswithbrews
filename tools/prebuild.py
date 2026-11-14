@@ -237,8 +237,15 @@ TOP_KEYS = {"title", "description", "date", "slug", "extra"}
 TOP_REQUIRED = {"title", "description", "date", "slug"}
 # Source fields the pipeline writes, plus the derived ones this script owns.
 EPISODE_DERIVED = {"duration", "display_date", "rfc2822_date", "has_transcript"}
+# Two optional fields came with the Label look (2026-11-13), both written by
+# hand for now (the pipeline doesn't produce them):
+#   topics  the episode's subjects as a one-line array of short phrases, the
+#           first one capitalised; shown as the label's "Ingredients". An
+#           episode without it shows its description there instead.
+#   cast    who was on it ("Scott & Keith"); the label's "Brewed by" row,
+#           left out when the field is absent.
 EPISODE_EXTRA = {"episode", "audio_file", "length", "bytes", "youtube",
-                 "description_rss"} | EPISODE_DERIVED
+                 "description_rss", "topics", "cast"} | EPISODE_DERIVED
 EPISODE_EXTRA_REQUIRED = {"episode", "audio_file", "length", "bytes"}
 # Transcripts: episode fields minus description_rss; bytes optional (the old
 # Zod schema); display_date is the only derived field.

@@ -1,12 +1,13 @@
 {# /transcripts/N/ — single transcript page (port of astro/src/pages/
-   transcripts/[slug].astro, which passed title.toUpperCase() to Base). #}
+   transcripts/[slug].astro, which passed title.toUpperCase() to Base). The
+   article brings its own trail and sheet. #}
 {% extends "base.html" %}
 {% block main_attrs %} class="transcript-page"{% endblock main_attrs %}
 {% block section %}transcripts{% endblock section %}
 {% block title %}{{ page.title | upper }}{% endblock title %}
 {% block metatitle %}{{ page.title | upper }}{% endblock metatitle %}
 {% block main %}
-  <div class="wrap page">
+  <div class="page">
     {{<transcript_article t={page} />}}
   </div>
 {% endblock main %}

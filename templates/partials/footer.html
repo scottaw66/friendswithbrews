@@ -1,14 +1,15 @@
-{# Site footer (redesign 2026-10-07): tea band with the stacked reverse
-   lockup, listen/explore link columns, and the copyright row. The year is
-   the build year via now(), as the Astro footer's `{year}` rendered. #}
+{# Site footer (the Label look, 2026-11-13): an ink band with the reverse
+   lockup (stock and gold), listen/explore link columns, and the copyright
+   row. The year is the build year via now(), as the Astro footer's `{year}`
+   rendered. #}
 <footer class="site-footer" data-pagefind-ignore>
   <div class="wrap footer-inner">
     <div class="footer-brand">
-      <a href="/"><img src="/images/brand/logo-stacked-reverse.svg" alt="Friends with Brews" width="160" height="166" loading="lazy" /></a>
-      <p class="footer-tagline">{{ config.extra.tagline }}</p>
+      <a href="/"><img src="/images/brand/logo-horizontal-label-reverse.svg" alt="Friends with Brews" width="800" height="270" loading="lazy" /></a>
+      <p class="footer-tagline s2">{{ config.extra.tagline }}</p>
     </div>
     <div class="footer-col">
-      <h2 class="footer-heading">Watch &amp; listen</h2>
+      <h2 class="footer-heading s2">Watch &amp; listen</h2>
       <ul>
         <li><a href="{{ config.extra.social.youtube }}">YouTube</a></li>
         <li><a href="{{ config.extra.social.overcast }}">Overcast</a></li>
@@ -17,7 +18,7 @@
       </ul>
     </div>
     <div class="footer-col">
-      <h2 class="footer-heading">Around the site</h2>
+      <h2 class="footer-heading s2">Around the site</h2>
       <ul>
         <li><a href="/episodes/1">Episodes</a></li>
         <li><a href="/brews/1">The Brews</a></li>

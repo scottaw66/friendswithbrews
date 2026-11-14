@@ -1,7 +1,10 @@
-{# /N/ — single episode page. Older/newer links come from the root
-   section's newest-first date sort. Zola names neighbours by list position,
-   not by date: observed 2026-10-07 on ep 105 (the newest), page.higher was
-   ep 104 — so page.higher is the OLDER episode and page.lower the NEWER. #}
+{# /N/ — single episode page: the label opened up (episode_article), then
+   the episode either side of it as two labels. Older/newer come from the
+   root section's newest-first date sort. Zola names neighbours by list
+   position, not by date: observed 2026-10-07 on ep 105 (the newest),
+   page.higher was ep 104 — so page.higher is the OLDER episode and
+   page.lower the NEWER. The newest episode has no newer one, so that slot
+   links to the whole list instead. #}
 {% extends "base.html" %}
 {# [id].astro passed title.toUpperCase() to Base — parity. #}
 {% block title %}{{ page.title | upper }}{% endblock title %}
@@ -10,21 +13,30 @@
 {% block main_attrs %} class="episode-page"{% endblock main_attrs %}
 {% block head_extra %}{% if page.extra.youtube %}<script type="module" src="/scripts/lite-youtube.js"></script>{% endif %}{% endblock head_extra %}
 {% block main %}
-  <div class="wrap page">
-    {{<episode_article e={page} />}}
-    <nav class="episode-nav" aria-label="More episodes" data-pagefind-ignore>
+  {{<episode_article e={page} />}}
+  <nav class="wrap nextup" aria-label="More episodes" data-pagefind-ignore>
+    <div class="shelf-head">
+      <h2 class="paint">On the shelf</h2>
+    </div>
+    <div class="pairing">
       {% if page.higher %}
-        <a class="episode-nav-link episode-nav-older" href="/{{ page.higher.slug }}">
-          <span class="eyebrow">&lsaquo; Older &middot; Episode {{ page.higher.extra.episode }}</span>
-          <span class="episode-nav-title">{{ page.higher.title }}</span>
+        <a class="older" href="/{{ page.higher.slug }}">
+          <span class="no s2">Older &middot; No. {{ page.higher.extra.episode }}</span>
+          <span class="t">{{ page.higher.title }}</span>
         </a>
       {% endif %}
       {% if page.lower %}
-        <a class="episode-nav-link episode-nav-newer" href="/{{ page.lower.slug }}">
-          <span class="eyebrow">Newer &middot; Episode {{ page.lower.extra.episode }} &rsaquo;</span>
-          <span class="episode-nav-title">{{ page.lower.title }}</span>
+        <a class="newer" href="/{{ page.lower.slug }}">
+          <span class="no s2">Newer &middot; No. {{ page.lower.extra.episode }}</span>
+          <span class="t">{{ page.lower.title }}</span>
+        </a>
+      {% else %}
+        {% set sec = get_section(path="_index.md") %}
+        <a class="newer" href="/episodes/1">
+          <span class="no s2">Newest</span>
+          <span class="t">All {{ sec.pages | length }} episodes</span>
         </a>
       {% endif %}
-    </nav>
-  </div>
+    </div>
+  </nav>
 {% endblock main %}

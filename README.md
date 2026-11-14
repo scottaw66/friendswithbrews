@@ -40,6 +40,35 @@ brew install zola
 uv venv --python /opt/homebrew/bin/python3 .venv && uv pip install --python .venv/bin/python "pagefind[extended]"
 ```
 
+## The look
+
+The Label look (2026-11-13): every episode is a brew and the page is its label
+laid flat. A persimmon page, a cobalt front panel with the episode's name, panels
+of label-white stock for Ingredients and Tasting notes, a gold seal with the
+batch number, and a strip along the bottom edge (the specs on the home page, the
+player on an episode page). It replaced the 2026-10-07 tea-and-cream redesign.
+Scott chose it from three directions in his design vault; the design project and
+its brief are in `~/Developer/Sites/webdesign-dashboard/designs/friendswithbrews/`.
+
+- `static/css/fwb.css` is the whole stylesheet; its header comment maps the
+  sections and section 2 holds the colours and measures as custom properties.
+- `static/scripts/fwb.js` runs the play buttons, the home page's turning label
+  and the kind words. Pages work without it, minus those three things.
+- Fonts are Scott's licensed faces (web copies in `~/Brain/Areas/Sites/Fonts`):
+  Paint Factory for names and headings, Free Lunch for the label's strip type,
+  Atkinson Hyperlegible Next for sentences. Nothing on the site is set below 16px.
+- The logo in `static/images/brand/` is the brand kit's horizontal lockup
+  recoloured (ink and cobalt on the page, stock and gold on the footer), and the
+  icon and favicons are the kit's mugs on cobalt. The kit itself
+  (`~/Developer/FwB/Brand`) is still tea and toast: the podcast cover, the
+  YouTube banner and the video title cards have not been re-exported.
+- Two optional `[extra]` fields in an episode's frontmatter feed the label:
+  `topics` (a one-line array of short phrases, the first capitalised) is its
+  Ingredients, and `cast` ("Scott & Keith") is its "Brewed by" row. Both are
+  written by hand; the pipeline doesn't produce them. Without `topics` the
+  Ingredients panel shows the episode's description; without `cast` the row is
+  left out. Episodes 102 to 108 have both.
+
 ## Where things live
 
 There is one authoring tree, and it is what Zola reads (since 2026-11-06;

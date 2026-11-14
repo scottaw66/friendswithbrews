@@ -1,6 +1,6 @@
 {# /transcripts/page/N/ — transcript list, 20/page (TRANSCRIPTS_PER_PAGE in
    tools/prebuild.py generates the stubs). Slices the transcripts section's
-   date-sorted pages. #}
+   date-sorted pages, listed on one sheet of stock. #}
 {% extends "base.html" %}
 {% block main_attrs %} class="transcriptlist-page"{% endblock main_attrs %}
 {% block section %}transcripts{% endblock section %}
@@ -17,15 +17,17 @@
   {% set end = num * per_page %}
   <div class="wrap page" data-pagefind-ignore>
     <header class="page-head">
-      <p class="eyebrow">Every word, written down</p>
-      <h1>Transcripts</h1>
+      <h1 class="paint">Transcripts</h1>
+      <p class="tagline s2">Every word, written down</p>
       <p class="lede">Full transcripts for {{ count }} episodes. Handy for finding that one thing somebody said.</p>
     </header>
-    <ol class="transcript-list">
-      {% for t in section.pages[start:end] %}
-        {{<transcript_list_item t={t} />}}
-      {% endfor %}
-    </ol>
+    <div class="sheet">
+      <ol class="transcript-list">
+        {% for t in section.pages[start:end] %}
+          {{<transcript_list_item t={t} />}}
+        {% endfor %}
+      </ol>
+    </div>
     {{<pager current={num} total={total} base={"/transcripts/page/"} />}}
   </div>
 {% endblock main %}
