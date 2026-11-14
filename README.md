@@ -64,12 +64,7 @@ its brief are in `~/Developer/Sites/webdesign-dashboard/designs/friendswithbrews
   icon and favicons are the kit's mugs on cobalt. The kit itself
   (`~/Developer/FwB/Brand`) is still tea and toast: the podcast cover, the
   YouTube banner and the video title cards have not been re-exported.
-- Two optional `[extra]` fields in an episode's frontmatter feed the label:
-  `topics` (a one-line array of short phrases, the first capitalised) is its
-  Ingredients, and `cast` ("Scott & Keith") is its "Brewed by" row. Both are
-  written by hand; the pipeline doesn't produce them. Without `topics` the
-  Ingredients panel shows the episode's description; without `cast` the row is
-  left out. Episodes 102 to 108 have both.
+- Two optional `[extra]` fields in an episode's frontmatter feed the label: `topics` (a one-line array of short phrases, the first capitalised) is its Ingredients, and `cast` ("Scott & Keith") is its "Brewed by" row. The episode pipeline writes both since 2026-11-14: the YT studio's `package` puts them in `website.json` (rules in its `docs/WORKFLOW.md`, section 6) and the New Episode script copies them here. Without `topics` the Ingredients panel shows the episode's description; without `cast` the row is left out. Episodes 102 to 108 got both by hand; earlier episodes have neither.
 
 ## Where things live
 

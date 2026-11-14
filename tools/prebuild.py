@@ -237,8 +237,10 @@ TOP_KEYS = {"title", "description", "date", "slug", "extra"}
 TOP_REQUIRED = {"title", "description", "date", "slug"}
 # Source fields the pipeline writes, plus the derived ones this script owns.
 EPISODE_DERIVED = {"duration", "display_date", "rfc2822_date", "has_transcript"}
-# Two optional fields came with the Label look (2026-11-13), both written by
-# hand for now (the pipeline doesn't produce them):
+# Two optional fields came with the Label look (2026-11-13). The episode
+# pipeline writes both from the YT handoff's website.json since 2026-11-14
+# (website-scripts fwb/fwb-new-episode/main.py); episodes 102 to 108 got them
+# by hand, and a handoff without them leaves them out:
 #   topics  the episode's subjects as a one-line array of short phrases, the
 #           first one capitalised; shown as the label's "Ingredients". An
 #           episode without it shows its description there instead.
