@@ -112,6 +112,10 @@ svg[data-icon] { display: inline-block; vertical-align: -0.12em; }
 .btn--outline { background: none; color: inherit; box-shadow: inset 0 0 0 2px currentColor; }
 .btn--outline:hover { background: var(--ink); color: var(--gold); box-shadow: none; }
 .pill { display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; padding: 0.3rem 0.95rem 0.22rem; border-radius: var(--r-pill); box-shadow: inset 0 0 0 2px currentColor; font-family: var(--strip); text-transform: uppercase; letter-spacing: 0.07em; font-size: 1.25rem; line-height: 1.1; transition: background-color 0.2s, color 0.2s; }
+/* flex: none keeps the icon at its 1em size. Without it, a pill wider than its column
+   ("@nikolaidis@infosec.exchange" on a phone) shrinks the svg, which has max-width: 100%,
+   down to nothing (seen on iPhone 2026-11-14: Peter's Mastodon icon gone, Scott's shrunk). */
+.pill svg { flex: none; }
 .pill:hover { background: var(--ink); color: var(--stock); box-shadow: none; }
 .more-link { font-weight: 700; }
 
@@ -222,6 +226,10 @@ body[data-section="follow"] .nav-follow a { background: var(--cobalt); color: #f
 .shelf-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
 .shelf-head h2 { font-size: clamp(1.75rem, 3.2vw, 2.75rem); }
 .minis { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 0.75rem; }
+/* index.html renders eight cards so each layout ends on a full row (Scott, 2026-11-14:
+   no card alone or short on the last row): seven across here, eight in four columns,
+   six in two (the narrow-screen rules below). */
+.minis > .mini:nth-child(n + 8) { display: none; }
 .mini { text-align: left; text-decoration: none; background: var(--stock); border-radius: var(--r-card); padding: 0.85rem 0.9rem 1rem; display: flex; flex-direction: column; gap: 0.5rem; min-height: 11.5rem; transition: transform 0.3s var(--ease), background-color 0.2s, color 0.2s; box-shadow: var(--shadow-card); }
 .mini:hover { transform: translateY(-6px) rotate(-1.2deg); }
 .mini .no { color: var(--persimmon-deep); letter-spacing: 0.08em; line-height: 1; }
@@ -404,6 +412,11 @@ a.pager-btn:hover { background: var(--cobalt); color: #fff; }
 .host > p { margin-top: 0.75rem; font-size: 1.1875rem; }
 .host-socials { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; }
 .host-socials .pill { text-transform: none; letter-spacing: 0.03em; }
+/* A Mastodon handle is one long word. On the narrowest phones (320px) it would push the
+   page sideways, so friends.html puts a <wbr> before the server's "@" and the handle
+   breaks there, inside the pill, only when it has to. */
+.host-socials .pill { max-width: 100%; }
+.host-socials .pill span { min-width: 0; }
 
 /* ---- Follow ---- */
 .platforms { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); gap: 1rem; }
@@ -440,6 +453,7 @@ a.pager-btn:hover { background: var(--cobalt); color: #fff; }
 @media (max-width: 1100px) {
   .front { flex: 0 0 100%; order: -1; }
   .minis { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .minis > .mini:nth-child(n + 8) { display: flex; }
   .bottle-photo { order: -2; flex: 0 0 100%; }
   .bottle-photo img { max-width: 34rem; height: auto; margin-inline: auto; }
 }
@@ -447,6 +461,8 @@ a.pager-btn:hover { background: var(--cobalt); color: #fff; }
   .label { border-radius: 16px; }
   .panel { flex: 0 0 100%; }
   .minis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  /* Two columns: six cards, three full rows. */
+  .minis > .mini:nth-child(n + 7) { display: none; }
   .chair-grid, .words-grid, .follow-grid, .footer-inner, .notes-row, .ep-row { grid-template-columns: 1fr; }
   .specs .barcode { display: none; }
   .site-logo img { height: 3.5rem; }

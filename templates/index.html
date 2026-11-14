@@ -15,7 +15,7 @@
   <h1 class="sr-only">{{ config.title }}: {{ config.extra.tagline }}</h1>
 
   <div class="wrap" id="labels" data-pagefind-ignore>
-    {% for e in sec.pages[0:7] %}
+    {% for e in sec.pages[0:8] %}
       {{<episode_label e={e} first={loop.first} />}}
     {% endfor %}
   </div>
@@ -25,8 +25,10 @@
       <h2 class="paint">On the shelf</h2>
       <a class="more-link" href="/episodes/1">All {{ sec.pages | length }} episodes &rarr;</a>
     </div>
+    {# Eight episodes so every width gets full rows: the desktop row of seven hides the
+       eighth, four columns show all eight, two columns show six (fwb.css, .minis). #}
     <div class="minis" id="minis">
-      {% for e in sec.pages[0:7] %}
+      {% for e in sec.pages[0:8] %}
         {{<mini e={e} current={loop.first} />}}
       {% endfor %}
     </div>
