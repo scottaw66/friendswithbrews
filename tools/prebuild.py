@@ -59,11 +59,14 @@ BOTTLE = CONTENT / "bottle"
 DATA = REPO / "data"
 BREW_IMAGES = REPO / "src/assets/images/brews"
 
-# Pagination sizes — must match [extra] in zola.toml (templates slice with
-# the same values; the stub count is baked here).
-EPISODES_PER_PAGE = 5
-TRANSCRIPTS_PER_PAGE = 20
-BREWS_PER_PAGE = 12
+# Pagination sizes, read from [extra] in zola.toml: the templates slice with
+# the same values, and the number of list-page stubs is worked out from them
+# here. Until 2026-11-14 this file kept its own copy, so changing the page size
+# in zola.toml left the old page count (5 → 8 per page still made 22 pages).
+_EXTRA = tomllib.loads((REPO / "zola.toml").read_text(encoding="utf-8"))["extra"]
+EPISODES_PER_PAGE = int(_EXTRA["episodes_paginate_by"])
+TRANSCRIPTS_PER_PAGE = int(_EXTRA["transcripts_paginate_by"])
+BREWS_PER_PAGE = int(_EXTRA["brews_paginate_by"])
 
 LA = ZoneInfo("America/Los_Angeles")
 

@@ -48,7 +48,7 @@ audio_prefix = "https://pints.friendswithbrews.com/"
 # static/images/ (podcast-cover-3000.png, tea green, 2026-09-18; FwBrews3000.png,
 # before that) so their old URLs still answer.
 rss_image = "podcast-cover-2026-11.png"
-episodes_paginate_by = 5
+episodes_paginate_by = 8
 transcripts_paginate_by = 20
 brews_paginate_by = 12
 
