@@ -57,6 +57,8 @@ its brief are in `~/Developer/Sites/webdesign-dashboard/designs/friendswithbrews
 - Fonts are Scott's licensed faces (web copies in `~/Brain/Areas/Sites/Fonts`):
   Paint Factory for names and headings, Free Lunch for the label's strip type,
   Atkinson Hyperlegible Next for sentences. Nothing on the site is set below 16px.
+  Paint Factory has no accented letters, so those fall back to Clauthbound Bold
+  (five brew names need them); Free Lunch's missing punctuation comes from Atkinson.
 - The logo in `static/images/brand/` is the brand kit's horizontal lockup
   recoloured (ink and cobalt on the page, stock and gold on the footer), and the
   icon and favicons are the kit's mugs on cobalt. The kit itself

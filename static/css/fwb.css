@@ -15,11 +15,18 @@
 /* ====================================================================
    1. Fonts — Scott's licensed faces (web copies in
       ~/Brain/Areas/Sites/Fonts): SimpleBits Paint Factory for names and
-      headings, SimpleBits Free Lunch for the label's strip type, Atkinson
+      headings (with Clauthbound Bold for its missing accented letters),
+      SimpleBits Free Lunch for the label's strip type, Atkinson
       Hyperlegible Next for sentences. iA Writer Mono (vendored from
       @fontsource in the Astro era) stays for code and transcript timings.
    ==================================================================== */
 @font-face { font-family: "Paint Factory"; font-weight: 700; font-display: swap; src: url(/fonts/PaintFactory-Bold.woff2) format("woff2"); }
+/* Paint Factory has no accented letters (tested 2026-11-13: ä, é, ñ and à are all missing),
+   and five brew names need them (Atlética, Colombia Nariño, Màkku Blueberry, two Märzens).
+   For those letters only, the family is Clauthbound Bold, the logo's face and close in
+   weight; the browser fetches the file only on a page that has one. It is declared after
+   the main face because, where ranges overlap, the later rule is tried first. */
+@font-face { font-family: "Paint Factory"; font-weight: 700; font-display: swap; src: url(/fonts/Clauthbound-Bold.woff2) format("woff2"); unicode-range: U+00C0-024F; }
 @font-face { font-family: "Free Lunch"; font-weight: 400; font-display: swap; src: url(/fonts/FreeLunch-Regular.woff2) format("woff2"); }
 @font-face { font-family: "Atkinson"; font-weight: 400; font-display: swap; src: url(/fonts/AtkinsonHyperlegibleNext-Regular.woff2) format("woff2"); }
 @font-face { font-family: "Atkinson"; font-weight: 400; font-style: italic; font-display: swap; src: url(/fonts/AtkinsonHyperlegibleNext-RegularItalic.woff2) format("woff2"); }
@@ -46,7 +53,8 @@
   --tint: color-mix(in srgb, var(--ink) 7%, var(--stock));
 
   --paint: "Paint Factory", "Arial Black", sans-serif;
-  --strip: "Free Lunch", "Arial Narrow", sans-serif;
+  /* Free Lunch lacks the middle dot, dashes, parentheses and accents; Atkinson supplies them. */
+  --strip: "Free Lunch", "Atkinson", "Arial Narrow", sans-serif;
   --body: "Atkinson", system-ui, sans-serif;
   --mono: "iA Writer Mono", ui-monospace, monospace;
 
