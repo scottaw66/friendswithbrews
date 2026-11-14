@@ -41,10 +41,13 @@ author = "Beeping Machine"
 email = "scott@beepingmachine.com"
 tagline = "Two friends, two brews, many topics"
 audio_prefix = "https://pints.friendswithbrews.com/"
-# Feed/directory artwork: the 2026-09-18 brand-kit cover (3000×3000,
-# exports/podcast-cover-3000.png). The pre-refresh FwBrews3000.png is still
-# in static/images/ for now — see the rebrand commit message.
-rss_image = "podcast-cover-3000.png"
+# Feed/directory artwork: the Label cover from the brand kit as rebuilt on
+# 2026-11-13 (3000×3000; a copy of ~/Developer/FwB/Brand/exports/podcast-cover-3000.png).
+# It has its own file name so the feed's image URL changed with the artwork:
+# podcast apps cache artwork by URL. The two earlier covers stay in
+# static/images/ (podcast-cover-3000.png, tea green, 2026-09-18; FwBrews3000.png,
+# before that) so their old URLs still answer.
+rss_image = "podcast-cover-2026-11.png"
 episodes_paginate_by = 5
 transcripts_paginate_by = 20
 brews_paginate_by = 12
