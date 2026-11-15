@@ -12,13 +12,19 @@ brew_type = "beer"
 url = "https://mybeerbuzz.com/harpoon-reveals-seaport-after-midnight-stout-collaboration"
 url_hostname = "mybeerbuzz.com"
 url_origin = "https://mybeerbuzz.com"
-episodes = ["99"]
+episodes = ["99", "109"]
 
 [extra.episode_titles]
 "99" = "LIVE at Harpoon Brewery — Our Drunkest Episode Yet"
+"109" = "Giving Athens the Side Thumb"
 
 [[extra.rating]]
 host = "Scott"
 vote = "thumbs-up"
 description = "I like the Seaport Stout, that is just good stuff! I'm spilling my words."
+
+[[extra.rating]]
+host = "Peter"
+vote = "thumbs-up"
+description = "This is a very drinkable dessert beer. Life is short, drink dessert first."
 +++

@@ -1,5 +1,25 @@
 [
     {
+        "id": "0oYeCRcavaaKDjWCYRfG1",
+        "name": "Organic Sencha Green Tea",
+        "brewery": "Yamamotoyama",
+        "image": "YAMAMOTOYAMAOrganicSenchaGreenTea20261115",
+        "description": "Organic Sencha Green Tea is a Yamamotoyama proprietary blend of leaves harvested from our own tea gardens and deep-steamed to brew a fresh green tea with floral notes.",
+        "type": "tea",
+        "sortOrder": "0",
+        "episodes": [
+            "109"
+        ],
+        "url": "https://yamamotoyama.com/products/organic-sencha-green-tea-bag",
+        "rating": [
+            {
+                "host": "Scott",
+                "vote": "thumbs-up",
+                "description": "It's a good green tea. I like green tea. I've been drinking a lot of Korean barley, and now I'm a little bit overdosed on it, so going back to the green stuff is quite good. So yes, thumbs up to Yamamotoyama Sencha. I recommend."
+            }
+        ]
+    },
+    {
         "id": "MUWAWbokySeGmVnBkRS7S",
         "name": "Pumpkin Ale",
         "brewery": "Laurelwood Brewing Company",
@@ -488,7 +508,8 @@
         "type": "beer",
         "sortOrder": "0",
         "episodes": [
-            "99"
+            "99",
+            "109"
         ],
         "url": "https://mybeerbuzz.com/harpoon-reveals-seaport-after-midnight-stout-collaboration",
         "rating": [
@@ -496,6 +517,11 @@
                 "host": "Scott",
                 "vote": "thumbs-up",
                 "description": "I like the Seaport Stout, that is just good stuff! I'm spilling my words."
+            },
+            {
+                "host": "Peter",
+                "vote": "thumbs-up",
+                "description": "This is a very drinkable dessert beer. Life is short, drink dessert first."
             }
         ]
     },
