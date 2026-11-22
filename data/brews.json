@@ -1,5 +1,45 @@
 [
     {
+        "id": "i21D5gKDpmZZqpSo1PLaV",
+        "name": "Wet Coast Cream Ale",
+        "brewery": "Wet Coast Brewing Company",
+        "image": "WETCOASTBREWINGCOMPANYWetCoastCreamAle20261122",
+        "description": "Of course, another beer website with no description of its own G@#$#%@ beer!!",
+        "type": "beer",
+        "sortOrder": "0",
+        "episodes": [
+            "110"
+        ],
+        "url": "https://www.wetcoastbrewing.com/",
+        "rating": [
+            {
+                "host": "Keith",
+                "vote": "thumbs-up",
+                "description": "I like cream ales. They're very nice in general. That's nice. Got a lot of floaties in there too."
+            }
+        ]
+    },
+    {
+        "id": "RlwyKGtlCiPO8YMeou8v1",
+        "name": "Spooky Time",
+        "brewery": "Breakside Brewery",
+        "image": "BREAKSIDEBREWERYSpookyTime20261122",
+        "description": "For us, the coming of fall brings with it some of our favorite times, scents and flavors of the year: the aroma of burning leaves; the comfort of a campfire on a cold (not cool) night; baking spices in donuts and cakes; eerie decorations; trick-or-treating on a drizzly night; warm cider from freshly pressed apples. [\u2026]",
+        "type": "beer",
+        "sortOrder": "0",
+        "episodes": [
+            "110"
+        ],
+        "url": "https://breakside.com/our_beer/spooky-time/",
+        "rating": [
+            {
+                "host": "Scott",
+                "vote": "thumbs-up",
+                "description": "This is actually good. I actually like this now. Last night I didn't like it when I first drank it, but I think it's because it was a little bit sweeter than I expected, and now I'm not surprised by it, and now I can just enjoy it for what it is."
+            }
+        ]
+    },
+    {
         "id": "0oYeCRcavaaKDjWCYRfG1",
         "name": "Organic Sencha Green Tea",
         "brewery": "Yamamotoyama",
