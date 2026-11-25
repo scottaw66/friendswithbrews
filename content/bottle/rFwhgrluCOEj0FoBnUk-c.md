@@ -9,9 +9,9 @@ brewery = "Ex Novo Brewing"
 image = "ExNovo-The-Most-Interesting-Lager-in-the-World-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Crisp and refreshing, brewed with Saaz hops, Vienna and Pilsner malts, and a hint of flaked corn."
 brew_type = "beer"
-url = "http://www.exnovobrew.com/most-interesting-lager-in-the-world"
-url_hostname = "www.exnovobrew.com"
-url_origin = "http://www.exnovobrew.com"
+url = "https://exnovobrew.com/beers/"
+url_hostname = "exnovobrew.com"
+url_origin = "https://exnovobrew.com"
 episodes = ["13"]
 
 [extra.episode_titles]

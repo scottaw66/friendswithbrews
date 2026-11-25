@@ -9,9 +9,9 @@ brewery = "Ex Novo Brewing"
 image = "ExNovoMilagroOscuro-95AAC94F-1AE9-44D0-8DA7-3D6BE7B9429E"
 brew_description = "Nothing, because we don't even have our individual beers listed on our website. 🤷"
 brew_type = "beer"
-url = "https://www.beeradvocate.com/beer/profile/35612/586540/"
-url_hostname = "www.beeradvocate.com"
-url_origin = "https://www.beeradvocate.com"
+url = "https://exnovobrew.com/beer/milagro-oscuro/"
+url_hostname = "exnovobrew.com"
+url_origin = "https://exnovobrew.com"
 episodes = ["9"]
 
 [extra.episode_titles]
