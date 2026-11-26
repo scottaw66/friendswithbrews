@@ -33,7 +33,7 @@
             <small data-pagefind-filter="filter by[content]" content="{{ x.brew_type }}">{{ x.brew_type | capitalize }}</small>
           {% endif %}
         </div>
-        <h1 class="name paint">{{ page.title }}</h1>
+        <h1 class="name paint" style="--longest: {{<longest_word text={page.title} />}}">{{ page.title }}</h1>
         {% if x.brew_description %}
           <figure class="maker-says">
             <blockquote>{{ x.brew_description }}</blockquote>

@@ -29,6 +29,15 @@
 <span class="verdict verdict--{{ kind }}">{{ rate.host }} {% if kind == "down" %}{{<icon_bi_hand_thumbs_down_fill />}}{% elif kind != "pending" %}{{<icon_bi_hand_thumbs_up_fill />}}{% endif %} <span{% if not words or kind == "pending" %} class="sr-only"{% endif %}>{{ word }}</span></span>
 {%- endcomponent verdict %}
 
+{# The letters in the longest word of a label's name (at least 8), for the
+   name's style="--longest: …". fwb.css (.front .name) sizes the name so that
+   word fits inside the cobalt panel. #}
+{% component longest_word(text) %}
+{%- set_global longest = 8 -%}
+{%- for word in text | split(pat=" ") -%}{%- if word | length > longest -%}{%- set_global longest = word | length -%}{%- endif -%}{%- endfor -%}
+{{ longest }}
+{%- endcomponent longest_word %}
+
 {# The Ingredients text: the episode's topics when it has them (extra.topics,
    see tools/prebuild.py), otherwise its description. #}
 {% component ingredients_text(e) %}
@@ -146,7 +155,7 @@
   <section class="panel front">
     <p class="brewed s2">Friends with Brews</p>
     <div class="seal" aria-hidden="true"><small>Batch</small><b>{{ e.extra.episode }}</b></div>
-    <h2 class="name paint"><a href="/{{ e.slug }}"><span class="sr-only">Episode {{ e.extra.episode }}: </span>{{ e.title }}</a></h2>
+    <h2 class="name paint" style="--longest: {{<longest_word text={e.title} />}}"><a href="/{{ e.slug }}"><span class="sr-only">Episode {{ e.extra.episode }}: </span>{{ e.title }}</a></h2>
     <div>
       {{<player e={e} />}}
       <p class="more">
@@ -239,7 +248,7 @@
       <section class="panel front ep-front">
         <p class="brewed s2">Friends with Brews</p>
         <div class="seal" aria-hidden="true"><small>Batch</small><b>{{ e.extra.episode }}</b></div>
-        <h1 class="name paint">{{ e.title }}</h1>
+        <h1 class="name paint" style="--longest: {{<longest_word text={e.title} />}}">{{ e.title }}</h1>
         {% if e.extra.youtube %}
           <div class="poster">{{<video_embed id={e.extra.youtube} title={e.title} />}}</div>
         {% elif e.extra.topics %}
